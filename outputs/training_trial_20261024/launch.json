@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"run_name\": \"trial_gold_20261024_093324\", \"supervisor_pid\": 182560, \"root\": \"/content/turn_detect_v2\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.train\", \"--data\", \"data_v2/frozen\", \"--model\", \"microsoft/mdeberta-v3-base\", \"--revision\", \"a0484667b22365f84929a935b5e50a51f71f159d\", \"--output\", \"runs/trial_gold_20261024_093324\", \"--epochs\", \"3\", \"--max-steps\", \"2000\", \"--batch-size\", \"16\", \"--accumulation\", \"2\", \"--eval-steps\", \"250\", \"--precision\", \"fp32\", \"--seed\", \"42\", \"--export\"]}\n"
+    }
+  ],
+  "elapsed_seconds": 0.09399999999732245
+}

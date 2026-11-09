@@ -1,0 +1,22 @@
+{
+  "stage": "COMPLETE_THREE_LANGUAGE_DEV_ABLATIONS",
+  "receipts": [
+    {
+      "job": "reward_v10_vi_20261025_r2",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "reward_v10_en_20261025_r2",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "reward_v10_zh_20261025_r2",
+      "status": "COMPLETED",
+      "exit_code": 0
+    }
+  ],
+  "elapsed_seconds": 136.07688690600003,
+  "quality_target_certified": false
+}

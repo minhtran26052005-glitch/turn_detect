@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "actual_training_inputs": 1600,
+  "updates": 100,
+  "labels_masks_encoding_causal_future_resets_verified": true,
+  "checkpoint_optimizer_rng_order_lanes_present": true,
+  "weights_finite_and_changed": true,
+  "trace_sha256": "a016331424cb415ce7de278ed55d2d3ddec0895c77da253e4e4b63cc286e91cc"
+}

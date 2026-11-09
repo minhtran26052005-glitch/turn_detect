@@ -1,0 +1,31 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "supervisor": {
+      "pid": 24534,
+      "start_ticks": "586621",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_transition_v2"
+      ]
+    },
+    "watchdog": {
+      "pid": 24535,
+      "start_ticks": "586621",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_transition_v2",
+        "--watchdog"
+      ]
+    }
+  }
+}

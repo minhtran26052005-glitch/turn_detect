@@ -1,0 +1,39 @@
+{
+  "teacher_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "train_sha256": "74c1ec511e9a90f138ea1be7503f65627c622133809f284f01084e404f55384b",
+  "dev_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+  "holdout_marker_sha256": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba",
+  "seed": 42,
+  "config": {
+    "model_type": "deberta-v2",
+    "architecture": "tiny_turn_gru",
+    "vocab_size": 3313,
+    "embedding_size": 64,
+    "hidden_size": 96,
+    "layers": 1,
+    "teacher_size": 768,
+    "pad_token_id": 0
+  },
+  "initial_student_sha256": null,
+  "training": {
+    "data": "data_v2/frozen",
+    "teacher": "models/turn_v2_compact_20261024/onnx",
+    "cache": "runs/distill_cache_20261024",
+    "vocabulary": "runs/distill_vocabulary_20261024",
+    "output": "runs/distill_gru_h96_e64_l1_20261024",
+    "hidden_size": 96,
+    "embedding_size": 64,
+    "layers": 1,
+    "epochs": 16,
+    "batch_size": 256,
+    "lr": 0.001,
+    "seed": 42,
+    "init_student": null
+  },
+  "source_sha256": {
+    "distill.py": "829479e8c193659269d93de6a126145f57bfa90635006dea3fde50d18f86f1e2",
+    "tiny_student.py": "a7e48ed160e1b704a252aaa6ff9c05adbaaf6ade5a974d262b829dbf90adb606",
+    "common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+    "metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "created_utc": "2026-10-30T09:44:08.980927+00:00",
+  "scope": "Previously exposed punctuation-based diagnostic, not independent conversational test; cycle84 overlap audit not rerun",
+  "checkpoint_epoch": 2,
+  "checkpoint_sha256": "89efce27ab5ed556cd3725cff84b35e814dee7d9a17ba266abcf1898d81e28c6",
+  "threshold_from_dev": 0.565,
+  "dataset_sha256": "4910685d55727de536ef36e05d105cdb2b744531541d8489583a248c0a31081f",
+  "test_used_for_selection": false,
+  "overall": {
+    "tp": 13964,
+    "tn": 18735,
+    "fp": 3655,
+    "fn": 2813,
+    "samples": 39167,
+    "accuracy": 0.834860979906554,
+    "eot_f1": 0.8119548784742412
+  },
+  "by_lookahead": {
+    "1": {
+      "tp": 6888,
+      "tn": 9187,
+      "fp": 1930,
+      "fn": 1499,
+      "samples": 19504,
+      "accuracy": 0.8241899097621,
+      "eot_f1": 0.8006974716652137
+    },
+    "2": {
+      "tp": 7076,
+      "tn": 9548,
+      "fp": 1725,
+      "fn": 1314,
+      "samples": 19663,
+      "accuracy": 0.8454457610740985,
+      "eot_f1": 0.8232214530859171
+    }
+  },
+  "predictions_sha256": "1f3866dc1368d71f4e097b94fe9c3652f1170dd387d6d40a489fd624bb9de83a"
+}

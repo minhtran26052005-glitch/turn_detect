@@ -1,0 +1,922 @@
+{
+  "technical_status": "PASS",
+  "passed": 227,
+  "total": 227,
+  "user_quality_objective_achieved": false,
+  "fresh_audio_human_gold": false,
+  "old_holdout_evaluated": false,
+  "causal_read_speech_cases_checked": 16395,
+  "checks": [
+    {
+      "check": "unchanged_control:data_v2\\frozen\\manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_control:data_v2\\frozen\\holdout_consumed.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_control:models\\turn_v2_distilled_qat4_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_control:models\\turn_v3_trilingual_pilot_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:config.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:model.onnx",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:run_model.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:tokenizer.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v2_distilled_qat4_20261024:turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:config.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:model.onnx",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:run_model.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:tokenizer.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged_package:turn_v3_trilingual_pilot_20261024:turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "check": "frozen_data_manifest",
+      "passed": true
+    },
+    {
+      "check": "split_hash:train",
+      "passed": true
+    },
+    {
+      "check": "split_hash:dev",
+      "passed": true
+    },
+    {
+      "check": "split_hash:sealed",
+      "passed": true
+    },
+    {
+      "check": "normalized_input_disjoint:train:dev",
+      "passed": true
+    },
+    {
+      "check": "normalized_input_disjoint:train:sealed",
+      "passed": true
+    },
+    {
+      "check": "normalized_input_disjoint:dev:sealed",
+      "passed": true
+    },
+    {
+      "check": "conversation_group_isolation",
+      "passed": true
+    },
+    {
+      "check": "all_read_speech_prefixes_causal_no_full_current_message",
+      "passed": true
+    },
+    {
+      "check": "selected_weights_exact",
+      "passed": true
+    },
+    {
+      "check": "selected_weights_bytes",
+      "passed": true
+    },
+    {
+      "check": "selected_thresholds_from_dev",
+      "passed": true
+    },
+    {
+      "check": "selected_dev_receipt_hash",
+      "passed": true
+    },
+    {
+      "check": "followup_control_retained",
+      "passed": true
+    },
+    {
+      "check": "quality_not_claimed",
+      "passed": true
+    },
+    {
+      "check": "seen_test_marked_regression",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_hash",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_hash",
+      "passed": true
+    },
+    {
+      "check": "fresh_audio_source_ids_outside_train_dev",
+      "passed": true
+    },
+    {
+      "check": "no_human_gold_claim_for_audio",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:dev",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:dev",
+      "passed": true
+    },
+    {
+      "check": "dev:en:samples",
+      "passed": true
+    },
+    {
+      "check": "dev:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:samples",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:vi:vi_legacy_rehearsal:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:samples",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:livekit_PREVIOUSLY_EXPOSED_development:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:samples",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:en:scicom_read_speech:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:samples",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:livekit_PREVIOUSLY_EXPOSED_development:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:samples",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:accuracy",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:false_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "dev_slice:zh:scicom_read_speech:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:sealed_read_speech",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:sealed_read_speech",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:samples",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "sealed_read_speech:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:vi_full_legacy_dev",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:vi_full_legacy_dev",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "vi_full_legacy_dev:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:fresh_vi_natural_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:fresh_vi_natural_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_vi_natural_auto_labels:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:fresh_en_zh_natural_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:fresh_en_zh_natural_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:samples",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "fresh_en_zh_natural_auto_labels:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "case_alignment:original_teacher_matched_fresh_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "finite_probabilities:original_teacher_matched_fresh_auto_labels",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:samples",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "original_teacher_matched_fresh_auto_labels:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "crawl_204_unlabeled",
+      "passed": true
+    },
+    {
+      "check": "crawl_metrics_unavailable",
+      "passed": true
+    },
+    {
+      "check": "previous_notebook_cells_preserved",
+      "passed": true
+    },
+    {
+      "check": "notebook_exact_code_executed_on_colab",
+      "passed": true
+    },
+    {
+      "check": "notebook_saved_actual_outputs",
+      "passed": true
+    },
+    {
+      "check": "unit_tests_45",
+      "passed": true
+    },
+    {
+      "check": "portable_downloaded_checkpoint",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\000_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\000_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\001_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\001_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\002_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\002_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\003_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\003_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\004_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\004_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\005_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\005_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\006_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\006_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\007_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\007_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\008_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\008_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\009_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\009_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\010_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\010_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\011_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\011_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\012_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\012_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\013_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\013_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\014_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\014_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\015_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\015_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\016_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\016_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\017_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\017_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\018_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\018_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\019_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\019_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\020_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\020_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\021_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\021_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\022_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\022_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\023_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\023_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\024_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\024_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\025_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\025_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\026_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\026_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\027_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\027_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\028_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\028_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\029_causal.wav",
+      "passed": true
+    },
+    {
+      "check": "review_audio_hash:outputs\\stream_v4_20261025\\vi_review_audio\\029_audit.wav",
+      "passed": true
+    },
+    {
+      "check": "javascript_syntax:review.html",
+      "passed": true
+    },
+    {
+      "check": "no_html_template_placeholders:review.html",
+      "passed": true
+    },
+    {
+      "check": "javascript_syntax:fresh_crawl_review.html",
+      "passed": true
+    },
+    {
+      "check": "no_html_template_placeholders:fresh_crawl_review.html",
+      "passed": true
+    },
+    {
+      "check": "javascript_syntax:vi_natural_review.html",
+      "passed": true
+    },
+    {
+      "check": "no_html_template_placeholders:vi_natural_review.html",
+      "passed": true
+    },
+    {
+      "check": "current_sources_match_uploaded:campaign_upload.zip",
+      "passed": true
+    },
+    {
+      "check": "current_sources_match_uploaded:final_evaluation_upload.zip",
+      "passed": true
+    }
+  ],
+  "source_manifest_sha256": "aeb09521c300ad0e9f1e4894487f2331efeb1eb75dd01009619992aa329805d2",
+  "created_at_utc": "2026-10-24T18:21:45.290983+00:00",
+  "ui_scope": "JavaScript syntax only; no claim of visual browser QA"
+}

@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "at_utc": "2026-11-07T15:31:46.105206+00:00",
+  "report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+  "all_dev_inferences_audited": 35270,
+  "all_causal_inputs_fullstop_masks_predicted_resets_and_confusions_verified": true,
+  "inference_audit_scope": "All saved final monitoring predictions; calibration curve argmax recomputed, raw calibration predictions not separately saved",
+  "calibration_threshold_selection_recomputed": true,
+  "canonical_predictor_cases": 22,
+  "max_probability_delta": 5.960464477539063e-08,
+  "all_probabilities_finite": true,
+  "all_canonical_decisions_identical": true,
+  "initial_parent_model_optimizer_all_rng_exact": true,
+  "complete_epoch_points": 333315,
+  "training_source_subset_and_all_eligible_gap_counts_verified": true,
+  "full_resume_optimizer_rng_order_cursor_lanes_verified": true,
+  "parent_v7_still_paused_and_unchanged": true,
+  "no_test_evaluation": true,
+  "no_model_default_replacement": true,
+  "labels_not_human_audio_gold": true,
+  "latest_full_resume_sha256": "3433d9fa5526e471a3ccf22602546e8d2079b90e5e1ccf7f9fdde31f6046fce4",
+  "weights_sha256": "71624c0ae414e3d635d2a0cb336aaa0eda30f30f0933aaf86d6bc8a887bb5f0c"
+}

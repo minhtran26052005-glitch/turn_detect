@@ -1,0 +1,1 @@
+{"publication_worker": {"pid": 64023, "start_ticks": "1565616", "command": ["/usr/bin/python3", "-u", "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1/review_publication_v2/publish.py"]}}

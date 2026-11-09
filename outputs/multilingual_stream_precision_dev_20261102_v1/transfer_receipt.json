@@ -1,0 +1,26 @@
+{
+  "report.json": {
+    "sha256": "39c2ece4be19dade3f21013b12ad9940a4267c76c2d05349f7cb4c49d03cc167",
+    "bytes": 24768
+  },
+  "recipe.json": {
+    "sha256": "180464d6fcc40f29b658bd63fd9a4cb9c24d54181cf4209032679108a3bdf4ed",
+    "bytes": 1287
+  },
+  "dev_partition.json": {
+    "sha256": "728fa6f323ef34d54aa22ea5277899ce62d97c65f263c2c463dae8eec3fe25c0",
+    "bytes": 28119
+  },
+  "locked_candidate.json": {
+    "sha256": "1bd3de39d517ec8f01d09bd9c6fb30bbd7f3e286ae15b0d324884f2b8d482f07",
+    "bytes": 162
+  },
+  "status.json": {
+    "sha256": "30a3ae71e4671df3eceaad2dfc89a7045e5a5754cba233d97265d4a553af85c1",
+    "bytes": 238
+  },
+  "launcher.json": {
+    "sha256": "b24ba8511af22d2391a6b7ee806b20a8462e660b75cb5f1580452c902a0758f2",
+    "bytes": 225
+  }
+}

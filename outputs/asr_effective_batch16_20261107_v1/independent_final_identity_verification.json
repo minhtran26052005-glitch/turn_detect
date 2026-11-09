@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+  "source_dev_sha_unchanged": true,
+  "control_weights_match_original_verified_trial": true,
+  "control_point1_calibration_anchor_exact": true,
+  "treatment_weights_equal_final_fullresume": true,
+  "all_optimizer_states_finite": true,
+  "accumulator_empty_at_full_epoch_end": true,
+  "selection_recomputed_calibration_only": true,
+  "training_audit_scope": "Full source/label counts, task completion and window histogram;1622actualencodedinputs/1600scored first100updates audited, not every training forward",
+  "parent_paused": true,
+  "no_test": true,
+  "no_default_change": true
+}

@@ -1,0 +1,7 @@
+{
+  "threshold": 0.75,
+  "calibration_target_met": true,
+  "locked_before_verification": true,
+  "target": 0.95,
+  "selection_only_used_calibration_fold": true
+}

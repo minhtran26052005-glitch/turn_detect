@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "train_input_cases": 96,
+  "by_language": {
+    "vi": 32,
+    "en": 32,
+    "zh": 32
+  },
+  "hf_and_portable_input_ids_identical": true,
+  "cpu_onnx_three_language_smoke_passed": true,
+  "quality_evaluated": false,
+  "fixture_only": true
+}

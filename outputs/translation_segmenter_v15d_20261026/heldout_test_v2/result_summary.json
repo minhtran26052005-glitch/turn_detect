@@ -1,0 +1,162 @@
+{
+  "completed_at_utc": "2026-10-26T18:09:53.121614+00:00",
+  "scope": "PUNCTUATION_DERIVED_PROSE_HELDOUT_NOT_HUMAN_AUDIO_GOLD",
+  "protocol": "lowercase punctuation-free text; 1/2 word lookahead; frozen checkpoints and data",
+  "checkpoint_cycle": 45,
+  "frozen_database_sha256": "8cd0651be9ddd59d991c79f64c5c5bc82f25f2f7a074e3d5f6e019939767c301",
+  "thresholds_frozen_on_dev": true,
+  "test_used_for_selection": false,
+  "quality_target_certified": false,
+  "report_sha256": "c8bf0e0762e468bfa1b174d8eeb55354d4825fc789b1a2e6773f707efb51e4d0",
+  "languages": {
+    "vi": {
+      "checkpoint_cycle": 45,
+      "metrics": {
+        "samples": 49873,
+        "threshold": 0.595,
+        "accuracy": 0.6778016161049064,
+        "eot_precision": 0.5932236584410497,
+        "eot_recall": 0.7271112391377407,
+        "eot_f1": 0.6533790633965357,
+        "joint_score": 0.6533790633965357,
+        "false_eot": 10385,
+        "missed_eot": 5684,
+        "false_eot_rate": 0.3575609420190056,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            18659,
+            10385
+          ],
+          [
+            5684,
+            15145
+          ]
+        ]
+      },
+      "terminal_period_eot_recall": 0.7276128710401596,
+      "internal_punctuation_no_eot_rate": 0.6424390579809943,
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 493,
+        "accuracy": [
+          0.6643808155514551,
+          0.6914347977180372
+        ],
+        "eot_f1": [
+          0.6349938285607889,
+          0.6740612942137606
+        ]
+      },
+      "leakage_audit": {
+        "non_test_rows_scanned": 477688,
+        "test_rows_before_audit": 50366,
+        "overlapping_encoded_test_input_keys": 361,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 49873,
+        "removed_rows": 493,
+        "unique_test_model_input_keys": 50084,
+        "policy": "remove overlap with train/dev before scoring; keep all labels and within-test duplicates"
+      }
+    },
+    "en": {
+      "checkpoint_cycle": 45,
+      "metrics": {
+        "samples": 32116,
+        "threshold": 0.615,
+        "accuracy": 0.6769834350479512,
+        "eot_precision": 0.6694447925805239,
+        "eot_recall": 0.6769104042580154,
+        "eot_f1": 0.673156899810964,
+        "joint_score": 0.673156899810964,
+        "false_eot": 5275,
+        "missed_eot": 5099,
+        "false_eot_rate": 0.32294600220399167,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11059,
+            5275
+          ],
+          [
+            5099,
+            10683
+          ]
+        ]
+      },
+      "terminal_period_eot_recall": 0.6841927189064826,
+      "internal_punctuation_no_eot_rate": 0.6770539977960083,
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 469,
+        "accuracy": [
+          0.6615499571189487,
+          0.6901696709825855
+        ],
+        "eot_f1": [
+          0.6512832598032804,
+          0.6941085404046103
+        ]
+      },
+      "leakage_audit": {
+        "non_test_rows_scanned": 271246,
+        "test_rows_before_audit": 32228,
+        "overlapping_encoded_test_input_keys": 107,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 32116,
+        "removed_rows": 112,
+        "unique_test_model_input_keys": 32136,
+        "policy": "remove overlap with train/dev before scoring; keep all labels and within-test duplicates"
+      }
+    },
+    "zh": {
+      "checkpoint_cycle": 45,
+      "metrics": {
+        "samples": 69738,
+        "threshold": 0.695,
+        "accuracy": 0.6823826321374287,
+        "eot_precision": 0.3467322725288679,
+        "eot_recall": 0.6057538994800693,
+        "eot_f1": 0.4410235703830818,
+        "joint_score": 0.4410235703830818,
+        "false_eot": 16463,
+        "missed_eot": 5687,
+        "false_eot_rate": 0.2976334677200658,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            38850,
+            16463
+          ],
+          [
+            5687,
+            8738
+          ]
+        ]
+      },
+      "terminal_period_eot_recall": 0.602163721601154,
+      "internal_punctuation_no_eot_rate": 0.7023665322799342,
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 446,
+        "accuracy": [
+          0.6575341313425945,
+          0.7063742543134239
+        ],
+        "eot_f1": [
+          0.41305507160244115,
+          0.47186872620922543
+        ]
+      },
+      "leakage_audit": {
+        "non_test_rows_scanned": 616363,
+        "test_rows_before_audit": 70831,
+        "overlapping_encoded_test_input_keys": 962,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 69738,
+        "removed_rows": 1093,
+        "unique_test_model_input_keys": 69864,
+        "policy": "remove overlap with train/dev before scoring; keep all labels and within-test duplicates"
+      }
+    }
+  },
+  "total_scored_rows": 151727,
+  "removed_overlap_rows": 1698
+}

@@ -1,0 +1,63 @@
+{
+  "step": 513235,
+  "branch_step": 27000,
+  "split": "dev",
+  "phase": "NEW_TRAINING_DEV",
+  "shared_threshold": 0.35,
+  "by_language": {
+    "vi": {
+      "samples": 2058,
+      "accuracy": 0.9912536443148688,
+      "eot_f1": 0.9052631578947369,
+      "tp": 86,
+      "tn": 1954,
+      "fp": 14,
+      "fn": 4
+    },
+    "en": {
+      "samples": 2304,
+      "accuracy": 0.9930555555555556,
+      "eot_f1": 0.9375,
+      "tp": 120,
+      "tn": 2168,
+      "fp": 15,
+      "fn": 1
+    },
+    "zh": {
+      "samples": 1000,
+      "accuracy": 0.855,
+      "eot_f1": 0.6365914786967418,
+      "tp": 127,
+      "tn": 728,
+      "fp": 97,
+      "fn": 48
+    }
+  },
+  "static_rolling_by_language": {
+    "vi": {
+      "samples": 2058,
+      "accuracy": 0.9912536443148688,
+      "eot_f1": 0.9052631578947369,
+      "tp": 86,
+      "tn": 1954,
+      "fp": 14,
+      "fn": 4
+    },
+    "en": {
+      "samples": 2304,
+      "accuracy": 0.9934895833333334,
+      "eot_f1": 0.9407114624505929,
+      "tp": 119,
+      "tn": 2170,
+      "fp": 13,
+      "fn": 2
+    }
+  },
+  "scope": "VI/EN synthetic punctuation every-gap causal predicted-reset streaming DEV; ZH legacy punctuation anchors, not comparable human/audio gold",
+  "stream_count": 72,
+  "threshold_selected_on_rolling_dev_only": true,
+  "gold_resets_in_eval": false,
+  "sealed_test_used": false,
+  "old_probes_used": false,
+  "selection_score": 0.6365914786967418
+}

@@ -1,0 +1,12 @@
+{
+  "base_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "delta_sha256": "65746e6ed23557bd076f24416ef6a9b442df3b87abb7c7bbd0f12dd025a7801e",
+  "thresholds": {
+    "vi": 0.565,
+    "en": 0.26999999999999996,
+    "zh": 0.39499999999999996
+  },
+  "selected_by": "minimum development slice accuracy/F1; NO held/fresh test scores used",
+  "fresh_vi_label_status": "AUTOMATIC_VAD_FLOOR_PROXY_NOT_HUMAN_GOLD",
+  "colab_state": "UNKNOWN_AFTER_404"
+}

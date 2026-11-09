@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "archive": "/home/edabk/hoangbpm/turn_detect/data/factory_stream_v2_20261102/snapshot_000000722_828a656d13e2f7f263286bf630a785d1cb3576f26c4ceb39a6e6507726938ddf.tar",
+  "archive_bytes": 46499840,
+  "archive_sha256": "828a656d13e2f7f263286bf630a785d1cb3576f26c4ceb39a6e6507726938ddf",
+  "source_snapshot": "/home/edabk/hoangbpm/turn_detect/data/factory_stream_v2_20261102/source_snapshot_828a656d13e2",
+  "frozen_commit_index": 722,
+  "accepted_dialogues": {
+    "en": 6441,
+    "vi": 10000
+  },
+  "files_readback_verified": 1450,
+  "source_export_manifest_sha256": "104a9aec9ff296b3707428f1ebadf20ad72c612268812fb13237ec944cdfba35",
+  "windows_archive_saved": false
+}

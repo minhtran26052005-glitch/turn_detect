@@ -1,0 +1,62 @@
+{
+  "scope": "Read-only TRAIN-target diagnostics, no tests or training modifications",
+  "teacher_target_by_label": {
+    "0": {
+      "n": 254556,
+      "mean_p_eot": 0.03453751653432846,
+      "fraction_p_above_half": 0.02294583510111724
+    },
+    "1": {
+      "n": 45444,
+      "mean_p_eot": 0.78654944896698,
+      "fraction_p_above_half": 0.8153771675028607
+    }
+  },
+  "finite_weights": true,
+  "largest_abs_weights": [
+    [
+      "base.distilbert.transformer.layer.0.sa_layer_norm.bias",
+      6.110007286071777
+    ],
+    [
+      "base.distilbert.transformer.layer.0.sa_layer_norm.weight",
+      3.0594139099121094
+    ],
+    [
+      "base.distilbert.embeddings.LayerNorm.bias",
+      1.4238580465316772
+    ],
+    [
+      "base.distilbert.transformer.layer.1.sa_layer_norm.bias",
+      1.257225513458252
+    ],
+    [
+      "base.distilbert.transformer.layer.1.sa_layer_norm.weight",
+      1.2280640602111816
+    ],
+    [
+      "base.distilbert.transformer.layer.0.ffn.lin2.weight",
+      1.0612579584121704
+    ],
+    [
+      "base.distilbert.transformer.layer.5.sa_layer_norm.weight",
+      1.0077590942382812
+    ],
+    [
+      "base.distilbert.transformer.layer.4.sa_layer_norm.weight",
+      0.9900786280632019
+    ],
+    [
+      "base.distilbert.transformer.layer.3.sa_layer_norm.weight",
+      0.9834935069084167
+    ],
+    [
+      "base.distilbert.transformer.layer.4.ffn.lin1.weight",
+      0.9778639674186707
+    ]
+  ],
+  "teacher_classifier_bias": [
+    0.05568504333496094,
+    -0.055685561150312424
+  ]
+}

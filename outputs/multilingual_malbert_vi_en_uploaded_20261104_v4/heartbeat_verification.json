@@ -1,0 +1,4944 @@
+{
+  "files": {
+    "launcher.json": {
+      "pid": 205061,
+      "start_ticks": "547555",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "module": "turn_v2.multilingual_malbert_vi_en_uploaded_train_v4",
+      "resumed_from_checkpoint_step": 1505080,
+      "recovery_folder": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834"
+    },
+    "status.json": {
+      "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+      "pid": 205061,
+      "start_ticks": "547555",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "at_utc": "2026-11-05T17:19:09.662541+00:00",
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "run": "finetune",
+      "step": 2350330,
+      "branch_step": 885250,
+      "epoch": 3,
+      "uploaded_rows_seen": 13910026,
+      "uploaded_origin_exposures": {
+        "daily": 7358596,
+        "factory/gen4000": 5228443,
+        "factory/gen500": 576604,
+        "asr/run2b": 746383
+      },
+      "loss": 0.001982957823202014,
+      "learning_rate": 4.000000000000001e-06,
+      "parameters": 11941122,
+      "group_size": null,
+      "drive_replay_rows": 0,
+      "tasks_assigned": 8826,
+      "total_tasks": 34602
+    },
+    "preparation_status.json": {
+      "stage": "UPLOADED_DATA_AND_NEW_DEV_PREPARED",
+      "pid": 2828870,
+      "start_ticks": "67238089",
+      "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+      "at_utc": "2026-11-04T04:07:17.924504+00:00",
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "train": {
+        "streams": 17301,
+        "source_rows": 198509,
+        "words": 3373257,
+        "origin:daily:streams": 12504,
+        "en:k1:NEOT": 1432483,
+        "en:k2:NEOT": 1348585,
+        "en:k1:EOT": 68301,
+        "en:k2:EOT": 67359,
+        "vi:k1:NEOT": 1610582,
+        "vi:k2:NEOT": 1528066,
+        "vi:k1:EOT": 57316,
+        "vi:k2:EOT": 57181,
+        "origin:factory/gen500:streams": 510,
+        "origin:asr/run2b:streams": 210,
+        "origin:factory/gen4000:streams": 4077
+      },
+      "dev_monitor": {
+        "streams": 394,
+        "source_rows": 2387,
+        "words": 38838,
+        "origin:asr:streams": 14,
+        "vi:k1:NEOT": 18916,
+        "vi:k1:EOT": 586,
+        "vi:k2:NEOT": 18041,
+        "vi:k2:EOT": 586,
+        "en:k1:NEOT": 16553,
+        "en:k1:EOT": 701,
+        "en:k2:NEOT": 15664,
+        "en:k2:EOT": 696,
+        "origin:daily:streams": 40,
+        "origin:factory:streams": 28,
+        "origin:numeric/dialogue:streams": 312
+      }
+    },
+    "dataset_manifest.json": {
+      "version": 4,
+      "sources": {
+        "daily": {
+          "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/public_checked.jsonl",
+          "member": null,
+          "sha256": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4",
+          "raw_rows": 189122
+        },
+        "factory/gen500": {
+          "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/factory_checked.jsonl",
+          "member": null,
+          "sha256": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+          "raw_rows": 8198
+        },
+        "asr/run2b": {
+          "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/asr_crawl-20261104T035338Z-1-001.zip",
+          "member": "asr_crawl/run2b/labels_checked.jsonl",
+          "sha256": "5521c527bf5721e09a497edae6cc244644aba6383f5254af98224bebe312dc5b",
+          "raw_rows": 12415
+        },
+        "factory/gen4000": {
+          "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/factory-20261104T035339Z-1-001.zip",
+          "member": "factory/gen4000/labels_checked.jsonl",
+          "sha256": "39aa8d1fe80168725048b75a2583cca133b11f74d58ea6334a98c357a306327c",
+          "raw_rows": 64947
+        }
+      },
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "train": {
+        "streams": 17301,
+        "source_rows": 198509,
+        "words": 3373257,
+        "origin:daily:streams": 12504,
+        "en:k1:NEOT": 1432483,
+        "en:k2:NEOT": 1348585,
+        "en:k1:EOT": 68301,
+        "en:k2:EOT": 67359,
+        "vi:k1:NEOT": 1610582,
+        "vi:k2:NEOT": 1528066,
+        "vi:k1:EOT": 57316,
+        "vi:k2:EOT": 57181,
+        "origin:factory/gen500:streams": 510,
+        "origin:asr/run2b:streams": 210,
+        "origin:factory/gen4000:streams": 4077
+      },
+      "dev_full": {
+        "streams": 5911,
+        "source_rows": 19439,
+        "words": 303183,
+        "origin:numeric/sentence:streams": 1666,
+        "en:k1:NEOT": 120342,
+        "en:k2:NEOT": 112894,
+        "en:k1:EOT": 4082,
+        "en:k2:EOT": 4019,
+        "vi:k1:NEOT": 148988,
+        "vi:k2:NEOT": 141442,
+        "vi:k1:EOT": 3600,
+        "vi:k2:EOT": 3590,
+        "origin:factory:streams": 105,
+        "origin:daily:streams": 506,
+        "origin:numeric/code:streams": 1800,
+        "origin:asr:streams": 46,
+        "origin:numeric/dialogue:streams": 1788
+      },
+      "dev_calibration": {
+        "streams": 119,
+        "source_rows": 807,
+        "words": 14497,
+        "origin:asr:streams": 6,
+        "vi:k1:NEOT": 7285,
+        "vi:k1:EOT": 212,
+        "vi:k2:NEOT": 7022,
+        "vi:k2:EOT": 210,
+        "en:k1:NEOT": 6081,
+        "en:k1:EOT": 244,
+        "en:k2:NEOT": 5801,
+        "en:k2:EOT": 242,
+        "origin:daily:streams": 12,
+        "origin:factory:streams": 7,
+        "origin:numeric/dialogue:streams": 94
+      },
+      "dev_monitor": {
+        "streams": 394,
+        "source_rows": 2387,
+        "words": 38838,
+        "origin:asr:streams": 14,
+        "vi:k1:NEOT": 18916,
+        "vi:k1:EOT": 586,
+        "vi:k2:NEOT": 18041,
+        "vi:k2:EOT": 586,
+        "en:k1:NEOT": 16553,
+        "en:k1:EOT": 701,
+        "en:k2:NEOT": 15664,
+        "en:k2:EOT": 696,
+        "origin:daily:streams": 40,
+        "origin:factory:streams": 28,
+        "origin:numeric/dialogue:streams": 312
+      },
+      "dev_diagnostic": {
+        "streams": 3466,
+        "source_rows": 3466,
+        "words": 57991,
+        "origin:numeric/code:streams": 1800,
+        "en:k1:NEOT": 20246,
+        "en:k2:NEOT": 19403,
+        "vi:k1:NEOT": 27182,
+        "vi:k2:NEOT": 26337,
+        "origin:numeric/sentence:streams": 1666,
+        "en:k1:EOT": 14,
+        "en:k2:EOT": 13,
+        "vi:k1:EOT": 17,
+        "vi:k2:EOT": 16
+      },
+      "exclusions": {
+        "daily:raw:test": 9514,
+        "daily:raw:dev": 9678,
+        "daily:raw:train": 169930,
+        "daily:excluded_turn:not_kept_or_hard_check": 1305,
+        "daily:excluded_turn:short": 2760,
+        "daily:excluded_turn:noncontiguous_chunks": 6,
+        "factory/gen500:raw:train": 8198,
+        "factory/gen500:excluded_turn:not_kept_or_hard_check": 102,
+        "asr/run2b:raw:train": 12415,
+        "asr/run2b:excluded_turn:not_kept_or_hard_check": 103,
+        "asr/run2b:excluded_turn:noncontiguous_chunks": 1,
+        "factory/gen4000:raw:train": 64947,
+        "factory/gen4000:excluded_turn:not_kept_or_hard_check": 147,
+        "daily:excluded_turn:duplicate_source": 6333,
+        "daily:excluded_turn:held_family": 38092,
+        "factory/gen500:excluded_turn:held_family": 669,
+        "factory/gen500:excluded_turn:duplicate_source": 1,
+        "factory/gen4000:excluded_turn:duplicate_source": 27,
+        "factory/gen4000:excluded_turn:held_family": 20
+      },
+      "dev_exclusions": {
+        "excluded_known_prior_train_streams": 30
+      },
+      "protected_families": 1881,
+      "files": {
+        "train_streams.json.gz": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+        "dev_full.json.gz": "3a1816250ca7112922a74423b0ccfb32041c9ace846fd0ea3724787ad46068cf",
+        "dev_calibration.json.gz": "e43373e5f89622fecdf1879163711508db3a6a80291251748a6f8f6626b68ed3",
+        "dev_monitor.json.gz": "57371790d279841a704c2feb51c3554b03be116574cfe4eed2a9a9244821c6a0",
+        "dev_diagnostic.json.gz": "e7cb4cb5027ea6802b374f3f9813f4028b9f3a8ff90f49eae1b3ff265addea1b"
+      },
+      "all_eligible_uploaded_train_gaps_in_every_epoch": true,
+      "per_language_sampling_cap": null,
+      "drive_replay_rows": 0,
+      "target_or_rest_of_sentence_used": false,
+      "translation_targets_used_as_extra_sources": false,
+      "label_source": "Source punctuation silver, not human/audio gold",
+      "test_used_for_selection": false,
+      "split_protocol": "Original held source families; exact turns >=8 words and contiguous32-word shingles excluded from TRAIN",
+      "limitations": "Prior whole-lineage token-window and paraphrase overlap not exhausted; prior exposure cannot be unlearned by a dataset change",
+      "dev_protocol": "Fixed whole-family source-stratified calibration and monitor subsets; all original DEV preserved separately",
+      "code_sha256": {
+        "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+        "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+        "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+      }
+    },
+    "source_audit.json": {
+      "complete": true,
+      "source_raw_only": true,
+      "original_splits_preserved": true,
+      "all_training_streams_verified": true,
+      "source_word_count": 3373257,
+      "no_drive_replay": true,
+      "no_chinese": true,
+      "all_eligible_gap_counts": {
+        "streams": 17301,
+        "source_rows": 198509,
+        "words": 3373257,
+        "origin:daily:streams": 12504,
+        "en:k1:NEOT": 1432483,
+        "en:k2:NEOT": 1348585,
+        "en:k1:EOT": 68301,
+        "en:k2:EOT": 67359,
+        "vi:k1:NEOT": 1610582,
+        "vi:k2:NEOT": 1528066,
+        "vi:k1:EOT": 57316,
+        "vi:k2:EOT": 57181,
+        "origin:factory/gen500:streams": 510,
+        "origin:asr/run2b:streams": 210,
+        "origin:factory/gen4000:streams": 4077
+      },
+      "newly_imported_origins": [
+        "asr/run2b",
+        "factory/gen4000"
+      ],
+      "duplicate_gen500_not_imported_twice": true,
+      "test_labels_not_used_for_model_or_threshold_selection": true
+    },
+    "independent_source_verification.json": {
+      "complete": true,
+      "fixtures": {
+        "punctuation_ambiguity": true,
+        "same_turn_future": true,
+        "no_gold_or_speaker_reset": true,
+        "stream_lane_resume_equivalent": true
+      },
+      "every_training_segment_matched_to_kept_contiguous_raw_source": true,
+      "source_rows_verified": 198509,
+      "every_eot_unknown_label_verified": true,
+      "all_eligible_scored_word_gaps_verified": 6169873,
+      "origin_segments": {
+        "daily:segments": 113104,
+        "factory/gen500:segments": 5453,
+        "asr/run2b:segments": 210,
+        "factory/gen4000:segments": 49121
+      },
+      "original_test_or_dev_in_training": false,
+      "drive_replay_rows": 0,
+      "label_provenance": "Punctuation silver; not human/audio gold"
+    },
+    "independent_causal_training_verification.json": {
+      "complete": true,
+      "trace_rows_audited": 1593,
+      "every_encoded_input_label_and_predicted_reset_verified": true,
+      "full_checkpoint_load_passed": true,
+      "step": 1466580,
+      "branch_step": 1500,
+      "epoch": 0,
+      "uploaded_rows_seen": 23598,
+      "origin_exposures": {
+        "daily": 14924,
+        "factory/gen4000": 6919,
+        "factory/gen500": 1648,
+        "asr/run2b": 107
+      },
+      "new_asr_and_gen4000_actual_training_verified": true,
+      "optimizer_entries": 27,
+      "parameters": 11941122,
+      "model_weights_changed_after_actual_training": true,
+      "all_model_weights_finite": true,
+      "original_model_optimizer_and_rng_migration_receipt_sha256": "0d3e638d2603d756610407f70e30e2e510eaad7d91b815dadde2ae090d578217",
+      "drive_replay_rows": 0
+    },
+    "migration_receipt.json": {
+      "complete": true,
+      "parent_step": 1465080,
+      "parent_epoch": 55,
+      "parent_cursor": 167824,
+      "parent_full_sha256": "81da3a98cb02a9e9c99d5b4304623a3dff5a26b1c5a24ca16d75e585b45c5e12",
+      "initial_child_full_sha256": "a306643a75d0eea8a6150801d595f6cfd322428cefb86bc8af0cf2ae3b66d7d3",
+      "model_optimizer_rng_preserved": true,
+      "preserved_fields": [
+        "model",
+        "optimizer",
+        "torch_rng",
+        "cuda_rng",
+        "numpy_rng",
+        "python_rng"
+      ],
+      "optimizer_entries": 27,
+      "parameters": 11941122,
+      "new_order_tasks": 34602,
+      "old_order_cursor_preserved_in_parent_pin": true,
+      "new_source_order_explicitly_versioned": true,
+      "old_drive_replay_not_completed_after_user_removed_it": true,
+      "drive_replay_rows": 0,
+      "train_origins": [
+        "daily",
+        "factory/gen500",
+        "asr/run2b",
+        "factory/gen4000"
+      ],
+      "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "test_used": false
+    },
+    "token_digest_repair_receipt.json": {
+      "complete": true,
+      "reason": "Frozen teacher vocabulary119547 requires uint32 digest; no input or model computation changed",
+      "before_fingerprint": {
+        "dataset_manifest_sha256": "5d7790988078cdaee66d3e8d4eec88cfcbbdf1581dc52a04a02b4b1bb80a7276",
+        "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "drive_replay_rows": 0,
+        "code_sha256": {
+          "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+          "uploaded_vi_en_evaluation_v4.py": "d8c0f02af400abb68dc6c24726a5275bdaa12a7ef567dacb52bea270e60c34f1",
+          "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+          "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+        }
+      },
+      "after_fingerprint": {
+        "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+        "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "drive_replay_rows": 0,
+        "code_sha256": {
+          "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+          "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+          "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+          "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+        }
+      },
+      "source_data_and_dev_file_shas_unchanged": true,
+      "model_optimizer_all_rng_order_preserved": true,
+      "branch_step": 0,
+      "uploaded_rows_seen": 0,
+      "full_resume_sha256": "ed2df010989c18501db560d129332634cc2d598c3614274c3a07436b274390fd"
+    },
+    "independent_training_verification.json": {
+      "verified": true,
+      "step": 1465180,
+      "branch_step": 100,
+      "epoch": 0,
+      "uploaded_rows_seen": 1577,
+      "uploaded_origin_exposures": {
+        "daily": 1121,
+        "factory/gen4000": 356,
+        "factory/gen500": 100
+      },
+      "optimizer_entries": 27,
+      "checkpoint_sha256": "4f1fe08ff6bdff3973bf17a1a3b1d60604ed6360ae570863f9162c3a9eba9afd",
+      "full_resume_load_passed": true,
+      "parameters": 11941122,
+      "drive_replay_rows": 0,
+      "causal_predicted_reset_stream_state_preserved": true,
+      "all_sources_trained_once": false
+    },
+    "warm_start_new_dev_baseline.json": {
+      "run": "finetune",
+      "step": 1465080,
+      "branch_step": 0,
+      "epoch": 1,
+      "dev": {
+        "threshold": 0.1,
+        "by_language": {
+          "vi": {
+            "samples": 18627,
+            "tp": 87,
+            "tn": 17569,
+            "fp": 472,
+            "fn": 499,
+            "accuracy": 0.9478713695173673,
+            "eot_f1": 0.15196506550218342,
+            "eot_precision": 0.1556350626118068,
+            "eot_recall": 0.14846416382252559,
+            "false_share_of_cuts": 0.8443649373881932,
+            "false_positive_rate": 0.026162629565988582,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 199,
+            "tn": 15147,
+            "fp": 517,
+            "fn": 497,
+            "accuracy": 0.9380195599022005,
+            "eot_f1": 0.2818696883852691,
+            "eot_precision": 0.2779329608938548,
+            "eot_recall": 0.2859195402298851,
+            "false_share_of_cuts": 0.7220670391061452,
+            "false_positive_rate": 0.03300561797752809,
+            "actual_eot": 696
+          }
+        },
+        "score": 0.15196506550218342,
+        "by_domain": [
+          {
+            "domain": "asr",
+            "language": "en",
+            "samples": 4845,
+            "tp": 42,
+            "tn": 4427,
+            "fp": 129,
+            "fn": 247,
+            "accuracy": 0.9223942208462332,
+            "eot_f1": 0.1826086956521739,
+            "eot_precision": 0.24561403508771928,
+            "eot_recall": 0.1453287197231834,
+            "false_share_of_cuts": 0.7543859649122807,
+            "false_positive_rate": 0.028314310798946446,
+            "actual_eot": 289
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "samples": 6000,
+            "tp": 20,
+            "tn": 5615,
+            "fp": 116,
+            "fn": 249,
+            "accuracy": 0.9391666666666667,
+            "eot_f1": 0.09876543209876543,
+            "eot_precision": 0.14705882352941177,
+            "eot_recall": 0.07434944237918216,
+            "false_share_of_cuts": 0.8529411764705882,
+            "false_positive_rate": 0.020240795672657477,
+            "actual_eot": 269
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "samples": 3541,
+            "tp": 61,
+            "tn": 3295,
+            "fp": 90,
+            "fn": 95,
+            "accuracy": 0.9477548715052245,
+            "eot_f1": 0.3973941368078176,
+            "eot_precision": 0.40397350993377484,
+            "eot_recall": 0.391025641025641,
+            "false_share_of_cuts": 0.5960264900662252,
+            "false_positive_rate": 0.026587887740029542,
+            "actual_eot": 156
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "samples": 4447,
+            "tp": 34,
+            "tn": 4219,
+            "fp": 94,
+            "fn": 100,
+            "accuracy": 0.9563750843265123,
+            "eot_f1": 0.2595419847328244,
+            "eot_precision": 0.265625,
+            "eot_recall": 0.2537313432835821,
+            "false_share_of_cuts": 0.734375,
+            "false_positive_rate": 0.021794574542082078,
+            "actual_eot": 134
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "samples": 4460,
+            "tp": 68,
+            "tn": 4084,
+            "fp": 174,
+            "fn": 134,
+            "accuracy": 0.9309417040358744,
+            "eot_f1": 0.3063063063063063,
+            "eot_precision": 0.2809917355371901,
+            "eot_recall": 0.33663366336633666,
+            "false_share_of_cuts": 0.71900826446281,
+            "false_positive_rate": 0.040864255519023014,
+            "actual_eot": 202
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "samples": 3669,
+            "tp": 22,
+            "tn": 3382,
+            "fp": 147,
+            "fn": 118,
+            "accuracy": 0.9277732352139547,
+            "eot_f1": 0.1423948220064725,
+            "eot_precision": 0.1301775147928994,
+            "eot_recall": 0.15714285714285714,
+            "false_share_of_cuts": 0.8698224852071006,
+            "false_positive_rate": 0.04165485973363559,
+            "actual_eot": 140
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "samples": 3514,
+            "tp": 28,
+            "tn": 3341,
+            "fp": 124,
+            "fn": 21,
+            "accuracy": 0.9587364826408651,
+            "eot_f1": 0.27860696517412936,
+            "eot_precision": 0.18421052631578946,
+            "eot_recall": 0.5714285714285714,
+            "false_share_of_cuts": 0.8157894736842105,
+            "false_positive_rate": 0.03578643578643579,
+            "actual_eot": 49
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "samples": 4511,
+            "tp": 11,
+            "tn": 4353,
+            "fp": 115,
+            "fn": 32,
+            "accuracy": 0.9674129904677455,
+            "eot_f1": 0.1301775147928994,
+            "eot_precision": 0.0873015873015873,
+            "eot_recall": 0.2558139534883721,
+            "false_share_of_cuts": 0.9126984126984127,
+            "false_positive_rate": 0.025738585496866608,
+            "actual_eot": 43
+          }
+        ],
+        "inferences": 35270,
+        "causal_input_trace_digest": "86e3070c90b24f9e688c6854996fe94eed8de79226cf761377776d39d131d705",
+        "cases": [
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "ừ",
+            "future": "trong ngành",
+            "p_eot": 2.954672345367726e-05,
+            "stream_key": "asr:004019263585.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "yeah",
+            "future": "in the",
+            "p_eot": 0.934589684009552,
+            "stream_key": "asr:004019263585.en"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "giám",
+            "future": "sát an",
+            "p_eot": 1.9675384464790113e-05,
+            "stream_key": "asr:713ed7dd87d2.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "what",
+            "future": "is safety",
+            "p_eot": 1.8573415218270384e-05,
+            "stream_key": "asr:713ed7dd87d2.en"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "hello",
+            "future": "everyone today",
+            "p_eot": 1.8275844922754914e-05,
+            "stream_key": "asr:f4469232417a.en"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "hello",
+            "future": "everyone welcome",
+            "p_eot": 0.9998611211776733,
+            "stream_key": "asr:6581b23ab9b6.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "do",
+            "future": "you shop",
+            "p_eot": 2.0297438823035918e-05,
+            "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "bạn",
+            "future": "có mua",
+            "p_eot": 2.2945816454011947e-05,
+            "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "hey",
+            "future": "there i",
+            "p_eot": 1.9568109564715996e-05,
+            "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "chào",
+            "future": "em chị",
+            "p_eot": 3.634762470028363e-05,
+            "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "hi",
+            "future": "how can",
+            "p_eot": 5.253060589893721e-05,
+            "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "hello",
+            "future": "what have",
+            "p_eot": 0.0005740350461564958,
+            "stream_key": "daily:personachat-train-0-1160.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "chào",
+            "future": "hôm nay",
+            "p_eot": 1.9452731066849083e-05,
+            "stream_key": "daily:personachat-train-0-1160.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "chào",
+            "future": "chị tối",
+            "p_eot": 0.9997573494911194,
+            "stream_key": "daily:personachat-validation-0-777.s0.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "em",
+            "future": "carlos lệnh",
+            "p_eot": 1.8333099433220923e-05,
+            "stream_key": "factory:gen2000__r01257"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "handover",
+            "future": "done by",
+            "p_eot": 4.456753595150076e-05,
+            "stream_key": "factory:gen2000__r00318"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "đêm",
+            "future": "nay phải",
+            "p_eot": 2.125490573234856e-05,
+            "stream_key": "factory:gen2000__r01122"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "line",
+            "future": "three oven",
+            "p_eot": 0.0004914397140964866,
+            "stream_key": "factory:gen2000__r01941"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "good evening",
+            "future": "how are",
+            "p_eot": 0.9997697472572327,
+            "stream_key": "daily:personachat-validation-0-171.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "by profession",
+            "future": "i babysit",
+            "p_eot": 0.16233959794044495,
+            "stream_key": "daily:personachat-train-0-2798.s0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "morning everyone",
+            "future": "wheel on",
+            "p_eot": 2.0425284674274735e-05,
+            "stream_key": "factory:gen2000__r00162"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "xin chào anh",
+            "future": "em có",
+            "p_eot": 2.8630784072447568e-05,
+            "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "i need movie tickets for tonight okay",
+            "future": "can you",
+            "p_eot": 0.9999455213546753,
+            "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "i babysit pets",
+            "future": "what do",
+            "p_eot": 0.999919056892395,
+            "stream_key": "daily:personachat-train-0-2798.s0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "chào em chào anh dũng",
+            "future": "máy phay",
+            "p_eot": 1.9126509869238362e-05,
+            "stream_key": "factory:gen2000__r00070"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "everyone welcome to my channel",
+            "future": "today i",
+            "p_eot": 1.9843280824716203e-05,
+            "stream_key": "asr:6581b23ab9b6.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "chị cần vé xem phim tối nay được rồi",
+            "future": "chị cho",
+            "p_eot": 0.9948270916938782,
+            "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "bạn có thích phim drama không mình thích lắm",
+            "future": "bạn đã",
+            "p_eot": 0.9998577833175659,
+            "stream_key": "daily:topical_chat-t_290ad386-48a8-4bda-8d3b-46b9f023c3f7.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "chào bạn trời ơi mình thở không nổi luôn chào",
+            "future": "bạn sao",
+            "p_eot": 0.9997947812080383,
+            "stream_key": "daily:personachat-validation-0-608.s0.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "what is safety supervision the labor safety supervision certificate",
+            "future": "as you",
+            "p_eot": 4.640646147890948e-05,
+            "stream_key": "asr:713ed7dd87d2.en"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "để quá trình chỉ xử lý nước của anh quang",
+            "future": "cái cái",
+            "p_eot": 6.0664533521048725e-05,
+            "stream_key": "asr:830cdf4faf13.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "thì trải qua bể khử trùng bể khử trùng đây",
+            "future": "bạn cứ",
+            "p_eot": 0.03188832476735115,
+            "stream_key": "asr:7bca495325b5-r2-0.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "xin chào các bạn đến với kênh của mình hôm nay",
+            "future": "mình sẽ",
+            "p_eot": 0.3594197928905487,
+            "stream_key": "asr:6581b23ab9b6.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "handover done by seven thirty so let s keep this short anh david",
+            "future": "em phải",
+            "p_eot": 0.9999566078186035,
+            "stream_key": "factory:gen2000__r00318"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "oven three s only at one ten elements are wearing out em ahmed",
+            "future": "anh kiểm",
+            "p_eot": 0.9999346733093262,
+            "stream_key": "factory:gen2000__r00706"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "line three oven s been down since two forty five alarm code seven",
+            "future": "i need",
+            "p_eot": 0.0005050692707300186,
+            "stream_key": "factory:gen2000__r01941"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "morning everyone wheel on station seven went yesterday afternoon cracked the guard panel",
+            "future": "machine stays",
+            "p_eot": 0.9998517036437988,
+            "stream_key": "factory:gen2000__r00162"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "giám sát an toàn là gì chứng chỉ giám sát an toàn lao động",
+            "future": "có thể",
+            "p_eot": 0.7711895108222961,
+            "stream_key": "asr:713ed7dd87d2.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "please hit the subscribe button to support the channel and watch more videos about environmental issues",
+            "future": "hello everyone",
+            "p_eot": 0.9997082352638245,
+            "stream_key": "asr:5b2aee7953c6.en"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "để quá trình chỉ xử lý nước của anh quang cái cái cạo cạo cho sạch nè",
+            "future": "còn cái",
+            "p_eot": 0.9999196529388428,
+            "stream_key": "asr:830cdf4faf13.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "đêm nay phải chạy xong lô thép cho kellermann mười tám tiếng nữa họ đến lấy hàng",
+            "future": "máy bay",
+            "p_eot": 2.1731859305873513e-05,
+            "stream_key": "factory:gen2000__r01122"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "hãy nhấn nút subscribe để ủng hộ kênh và xem thêm nhiều video về các vấn đề môi trường",
+            "future": "xin chào",
+            "p_eot": 0.9987919926643372,
+            "stream_key": "asr:5b2aee7953c6.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "machine stays down until i clear it right",
+            "future": "yeah so",
+            "p_eot": 0.9998879432678223,
+            "stream_key": "factory:gen2000__r00162"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "the disinfection tank right here just take a look this is our disinfection tank",
+            "future": "it s",
+            "p_eot": 0.9999605417251587,
+            "stream_key": "asr:7bca495325b5-r2-0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "em carlos lệnh giữ chất lượng hôm qua em đặt giờ còn không anh cần chạy lại lò trong sáu tiếng nữa yeah",
+            "future": "still on",
+            "p_eot": 0.9999550580978394,
+            "stream_key": "factory:gen2000__r01257"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "i m not going to sign off on a machine with a defective emergency stop that s been flagged for six weeks",
+            "future": "that s",
+            "p_eot": 0.9422562718391418,
+            "stream_key": "factory:gen2000__r01122"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "anh nói nhanh nhé trước hết thì tắt máy ngắt nguồn chính ở tủ điện cái công tắc cái đó anh kéo xuống",
+            "future": "rồi khóa",
+            "p_eot": 0.999524712562561,
+            "stream_key": "factory:gen2000__r00070"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "đó nó đến hạn cuối ca tối rồi",
+            "future": "em chỉ",
+            "p_eot": 0.9992159605026245,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "the",
+            "future": "completion rate",
+            "p_eot": 1.9600847736001015e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "the completion",
+            "future": "rate for",
+            "p_eot": 1.9565906768548302e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "tỷ",
+            "future": "lệ hoàn",
+            "p_eot": 1.895408240670804e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "tỷ lệ",
+            "future": "hoàn thành",
+            "p_eot": 2.5700521291582845e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "the catering order",
+            "future": "weighs one",
+            "p_eot": 0.8004153966903687,
+            "stream_key": "numeric/dialogue:dialogue.dev.02e67a9db312.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "anh ơi đơn đặt",
+            "future": "catering nặng",
+            "p_eot": 0.9994919300079346,
+            "stream_key": "numeric/dialogue:dialogue.dev.02e67a9db312.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "the completion rate for this building reached sixteen point two percent last quarter tiến độ tốt lắm",
+            "future": "chị tôi",
+            "p_eot": 0.999420166015625,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "chị",
+            "future": "tôi dự",
+            "p_eot": 7.620320684509352e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "tỷ lệ hoàn thành của tòa nhà này đạt mười sáu phẩy hai phần trăm vào quý trước that",
+            "future": "s good",
+            "p_eot": 0.9978050589561462,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "s good progress",
+            "future": "we expect",
+            "p_eot": 0.0005476369406096637,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "our network packet loss is at twelve to twenty two percent right now mức đó khá cao",
+            "future": "tôi sẽ",
+            "p_eot": 0.9777429103851318,
+            "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "tỷ lệ mất gói tin trên mạng đang ở mức mười hai đến hai mươi hai phần trăm that is quite high",
+            "future": "i will",
+            "p_eot": 0.9995759129524231,
+            "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "tôi đã kiểm tra van xê e rờ một rồi chị",
+            "future": "nó đang",
+            "p_eot": 2.9841223295079544e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.281f7b90d0fa.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "i need the catering invoice for the hotel event",
+            "future": "it is",
+            "p_eot": 0.9999263286590576,
+            "stream_key": "numeric/dialogue:dialogue.dev.4077e24ef1d5.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "we need to implement the b s seven thousand seven hundred and ninety nine two standard for our information security dạ tôi sẽ chuẩn bị tài liệu cho anh thank you",
+            "future": "please send",
+            "p_eot": 2.0996949388063513e-05,
+            "stream_key": "numeric/dialogue:dialogue.dev.ee991a7c7d86.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "the model achieved an accuracy of sixty two point five six percent on the test set đó là kết quả tốt",
+            "future": "tôi nên",
+            "p_eot": 0.6244364380836487,
+            "stream_key": "numeric/dialogue:dialogue.dev.8d4a69b87dda.a"
+          }
+        ],
+        "gold_reset_in_inference": false,
+        "source_speaker_reset": false,
+        "language_id_supplied": false,
+        "max_future_words": 2,
+        "scope": "Uploaded original DEV, punctuation silver; not TEST or independent human/audio turn gold",
+        "calibration": [
+          {
+            "threshold": 0.1,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 27,
+                "tn": 6887,
+                "fp": 135,
+                "fn": 183,
+                "accuracy": 0.9560287610619469,
+                "eot_f1": 0.14516129032258066,
+                "eot_precision": 0.16666666666666666,
+                "eot_recall": 0.12857142857142856,
+                "false_share_of_cuts": 0.8333333333333334,
+                "false_positive_rate": 0.019225291939618343,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 61,
+                "tn": 5661,
+                "fp": 140,
+                "fn": 181,
+                "accuracy": 0.9468806883998014,
+                "eot_f1": 0.27539503386004516,
+                "eot_precision": 0.3034825870646766,
+                "eot_recall": 0.25206611570247933,
+                "false_share_of_cuts": 0.6965174129353234,
+                "false_positive_rate": 0.024133770039648336,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.14516129032258066,
+            "inferences": 13398,
+            "causal_input_trace_digest": "713135af79488641de01308b0900cfed2e99c949fab50c1444bb8da270e64e9a"
+          },
+          {
+            "threshold": 0.2,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 26,
+                "tn": 6893,
+                "fp": 129,
+                "fn": 184,
+                "accuracy": 0.9567201327433629,
+                "eot_f1": 0.14246575342465753,
+                "eot_precision": 0.16774193548387098,
+                "eot_recall": 0.12380952380952381,
+                "false_share_of_cuts": 0.832258064516129,
+                "false_positive_rate": 0.01837083452007975,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 60,
+                "tn": 5662,
+                "fp": 139,
+                "fn": 182,
+                "accuracy": 0.9468806883998014,
+                "eot_f1": 0.272108843537415,
+                "eot_precision": 0.3015075376884422,
+                "eot_recall": 0.24793388429752067,
+                "false_share_of_cuts": 0.6984924623115578,
+                "false_positive_rate": 0.023961385967936562,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.14246575342465753,
+            "inferences": 13398,
+            "causal_input_trace_digest": "80833d695c2633dfa49f544660372694991cfd1e716b2f4656636cfa80f0ceab"
+          },
+          {
+            "threshold": 0.30000000000000004,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 26,
+                "tn": 6895,
+                "fp": 127,
+                "fn": 184,
+                "accuracy": 0.9569966814159292,
+                "eot_f1": 0.14325068870523416,
+                "eot_precision": 0.16993464052287582,
+                "eot_recall": 0.12380952380952381,
+                "false_share_of_cuts": 0.8300653594771242,
+                "false_positive_rate": 0.018086015380233553,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 60,
+                "tn": 5662,
+                "fp": 139,
+                "fn": 182,
+                "accuracy": 0.9468806883998014,
+                "eot_f1": 0.272108843537415,
+                "eot_precision": 0.3015075376884422,
+                "eot_recall": 0.24793388429752067,
+                "false_share_of_cuts": 0.6984924623115578,
+                "false_positive_rate": 0.023961385967936562,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.14325068870523416,
+            "inferences": 13398,
+            "causal_input_trace_digest": "84024ab875be8ec33a520c3c5d7cfa79b7618d13e480a26aca6a5c74cd0b7ac0"
+          },
+          {
+            "threshold": 0.4,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 26,
+                "tn": 6895,
+                "fp": 127,
+                "fn": 184,
+                "accuracy": 0.9569966814159292,
+                "eot_f1": 0.14325068870523416,
+                "eot_precision": 0.16993464052287582,
+                "eot_recall": 0.12380952380952381,
+                "false_share_of_cuts": 0.8300653594771242,
+                "false_positive_rate": 0.018086015380233553,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 59,
+                "tn": 5663,
+                "fp": 138,
+                "fn": 183,
+                "accuracy": 0.9468806883998014,
+                "eot_f1": 0.26879271070615035,
+                "eot_precision": 0.29949238578680204,
+                "eot_recall": 0.24380165289256198,
+                "false_share_of_cuts": 0.700507614213198,
+                "false_positive_rate": 0.02378900189622479,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.14325068870523416,
+            "inferences": 13398,
+            "causal_input_trace_digest": "ec7f7a5449e0129f5a35e104c8fc479d73be382e11651fa334bbd42480f40aea"
+          },
+          {
+            "threshold": 0.5,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 22,
+                "tn": 6896,
+                "fp": 126,
+                "fn": 188,
+                "accuracy": 0.9565818584070797,
+                "eot_f1": 0.12290502793296089,
+                "eot_precision": 0.14864864864864866,
+                "eot_recall": 0.10476190476190476,
+                "false_share_of_cuts": 0.8513513513513513,
+                "false_positive_rate": 0.017943605810310452,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 58,
+                "tn": 5664,
+                "fp": 137,
+                "fn": 184,
+                "accuracy": 0.9468806883998014,
+                "eot_f1": 0.2654462242562929,
+                "eot_precision": 0.29743589743589743,
+                "eot_recall": 0.2396694214876033,
+                "false_share_of_cuts": 0.7025641025641025,
+                "false_positive_rate": 0.023616617824513016,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.12290502793296089,
+            "inferences": 13398,
+            "causal_input_trace_digest": "f05fe988d7598682c79ece120735e18039d8c25eee49ffe45a05df08f11fd925"
+          },
+          {
+            "threshold": 0.6,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 22,
+                "tn": 6900,
+                "fp": 122,
+                "fn": 188,
+                "accuracy": 0.9571349557522124,
+                "eot_f1": 0.12429378531073447,
+                "eot_precision": 0.1527777777777778,
+                "eot_recall": 0.10476190476190476,
+                "false_share_of_cuts": 0.8472222222222222,
+                "false_positive_rate": 0.017373967530618057,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 54,
+                "tn": 5663,
+                "fp": 138,
+                "fn": 188,
+                "accuracy": 0.9460532847923216,
+                "eot_f1": 0.2488479262672811,
+                "eot_precision": 0.28125,
+                "eot_recall": 0.2231404958677686,
+                "false_share_of_cuts": 0.71875,
+                "false_positive_rate": 0.02378900189622479,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.12429378531073447,
+            "inferences": 13398,
+            "causal_input_trace_digest": "cc8110fc73f1ffb50e77f2f1d7cf05e954f9acc3cae2e8abb1a749fc16f35ff7"
+          },
+          {
+            "threshold": 0.7000000000000001,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 22,
+                "tn": 6909,
+                "fp": 113,
+                "fn": 188,
+                "accuracy": 0.958379424778761,
+                "eot_f1": 0.12753623188405797,
+                "eot_precision": 0.16296296296296298,
+                "eot_recall": 0.10476190476190476,
+                "false_share_of_cuts": 0.837037037037037,
+                "false_positive_rate": 0.01609228140131017,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 53,
+                "tn": 5666,
+                "fp": 135,
+                "fn": 189,
+                "accuracy": 0.9463842462353136,
+                "eot_f1": 0.24651162790697675,
+                "eot_precision": 0.28191489361702127,
+                "eot_recall": 0.2190082644628099,
+                "false_share_of_cuts": 0.7180851063829787,
+                "false_positive_rate": 0.023271849681089467,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.12753623188405797,
+            "inferences": 13398,
+            "causal_input_trace_digest": "9c7c8a63583e6d4dc0e13a2056a04ce045b9e3ac2992e42cc02a4dd4b556b6b4"
+          },
+          {
+            "threshold": 0.8,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 23,
+                "tn": 6908,
+                "fp": 114,
+                "fn": 187,
+                "accuracy": 0.958379424778761,
+                "eot_f1": 0.13256484149855907,
+                "eot_precision": 0.1678832116788321,
+                "eot_recall": 0.10952380952380952,
+                "false_share_of_cuts": 0.8321167883211679,
+                "false_positive_rate": 0.016234690971233267,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 53,
+                "tn": 5668,
+                "fp": 133,
+                "fn": 189,
+                "accuracy": 0.9467152076783055,
+                "eot_f1": 0.24766355140186916,
+                "eot_precision": 0.2849462365591398,
+                "eot_recall": 0.2190082644628099,
+                "false_share_of_cuts": 0.7150537634408602,
+                "false_positive_rate": 0.02292708153766592,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.13256484149855907,
+            "inferences": 13398,
+            "causal_input_trace_digest": "c68252c8274c723e635fd2bf66c9cbee0cc8441d1f76caa10c23f4e1864d6534"
+          },
+          {
+            "threshold": 0.9,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 22,
+                "tn": 6912,
+                "fp": 110,
+                "fn": 188,
+                "accuracy": 0.9587942477876106,
+                "eot_f1": 0.1286549707602339,
+                "eot_precision": 0.16666666666666666,
+                "eot_recall": 0.10476190476190476,
+                "false_share_of_cuts": 0.8333333333333334,
+                "false_positive_rate": 0.015665052691540872,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 53,
+                "tn": 5670,
+                "fp": 131,
+                "fn": 189,
+                "accuracy": 0.9470461691212974,
+                "eot_f1": 0.24882629107981222,
+                "eot_precision": 0.28804347826086957,
+                "eot_recall": 0.2190082644628099,
+                "false_share_of_cuts": 0.7119565217391305,
+                "false_positive_rate": 0.02258231339424237,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.1286549707602339,
+            "inferences": 13398,
+            "causal_input_trace_digest": "cd777323242ded91f473a58b6cb46bc07b20399249434949380b209910859508"
+          }
+        ],
+        "threshold_selection": "Worst-language F1 on separate original DEV calibration families, actual predicted resets at every threshold",
+        "monitor_families_disjoint_from_calibration": true,
+        "test_used": false
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false
+      },
+      "uploaded_rows_seen": 0,
+      "uploaded_origin_exposures": {},
+      "test_used": false,
+      "new_uploaded_only_dev": true
+    },
+    "latest_dev.json": {
+      "run": "finetune",
+      "step": 2345080,
+      "branch_step": 880000,
+      "epoch": 3,
+      "dev": {
+        "threshold": 0.1,
+        "by_language": {
+          "vi": {
+            "samples": 18627,
+            "tp": 96,
+            "tn": 17934,
+            "fp": 107,
+            "fn": 490,
+            "accuracy": 0.9679497503623772,
+            "eot_f1": 0.24334600760456274,
+            "eot_precision": 0.4729064039408867,
+            "eot_recall": 0.16382252559726962,
+            "false_share_of_cuts": 0.5270935960591133,
+            "false_positive_rate": 0.005930935092289784,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 253,
+            "tn": 15521,
+            "fp": 143,
+            "fn": 443,
+            "accuracy": 0.9641809290953546,
+            "eot_f1": 0.4633699633699634,
+            "eot_precision": 0.6388888888888888,
+            "eot_recall": 0.3635057471264368,
+            "false_share_of_cuts": 0.3611111111111111,
+            "false_positive_rate": 0.009129213483146067,
+            "actual_eot": 696
+          }
+        },
+        "score": 0.24334600760456274,
+        "by_domain": [
+          {
+            "domain": "asr",
+            "language": "en",
+            "samples": 4845,
+            "tp": 58,
+            "tn": 4527,
+            "fp": 29,
+            "fn": 231,
+            "accuracy": 0.9463364293085655,
+            "eot_f1": 0.30851063829787234,
+            "eot_precision": 0.6666666666666666,
+            "eot_recall": 0.20069204152249134,
+            "false_share_of_cuts": 0.3333333333333333,
+            "false_positive_rate": 0.006365232660228271,
+            "actual_eot": 289
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "samples": 6000,
+            "tp": 2,
+            "tn": 5712,
+            "fp": 19,
+            "fn": 267,
+            "accuracy": 0.9523333333333334,
+            "eot_f1": 0.013793103448275862,
+            "eot_precision": 0.09523809523809523,
+            "eot_recall": 0.007434944237918215,
+            "false_share_of_cuts": 0.9047619047619048,
+            "false_positive_rate": 0.0033153027394870007,
+            "actual_eot": 269
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "samples": 3541,
+            "tp": 63,
+            "tn": 3358,
+            "fp": 27,
+            "fn": 93,
+            "accuracy": 0.9661112680033889,
+            "eot_f1": 0.5121951219512195,
+            "eot_precision": 0.7,
+            "eot_recall": 0.40384615384615385,
+            "false_share_of_cuts": 0.3,
+            "false_positive_rate": 0.007976366322008863,
+            "actual_eot": 156
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "samples": 4447,
+            "tp": 50,
+            "tn": 4273,
+            "fp": 40,
+            "fn": 84,
+            "accuracy": 0.9721160332808635,
+            "eot_f1": 0.44642857142857145,
+            "eot_precision": 0.5555555555555556,
+            "eot_recall": 0.373134328358209,
+            "false_share_of_cuts": 0.4444444444444444,
+            "false_positive_rate": 0.009274287039183864,
+            "actual_eot": 134
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "samples": 4460,
+            "tp": 104,
+            "tn": 4202,
+            "fp": 56,
+            "fn": 98,
+            "accuracy": 0.9654708520179373,
+            "eot_f1": 0.574585635359116,
+            "eot_precision": 0.65,
+            "eot_recall": 0.5148514851485149,
+            "false_share_of_cuts": 0.35,
+            "false_positive_rate": 0.013151714419915453,
+            "actual_eot": 202
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "samples": 3669,
+            "tp": 41,
+            "tn": 3496,
+            "fp": 33,
+            "fn": 99,
+            "accuracy": 0.964022894521668,
+            "eot_f1": 0.38317757009345793,
+            "eot_precision": 0.5540540540540541,
+            "eot_recall": 0.29285714285714287,
+            "false_share_of_cuts": 0.44594594594594594,
+            "false_positive_rate": 0.009351090960612072,
+            "actual_eot": 140
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "samples": 3514,
+            "tp": 28,
+            "tn": 3434,
+            "fp": 31,
+            "fn": 21,
+            "accuracy": 0.9852020489470689,
+            "eot_f1": 0.5185185185185185,
+            "eot_precision": 0.4745762711864407,
+            "eot_recall": 0.5714285714285714,
+            "false_share_of_cuts": 0.5254237288135594,
+            "false_positive_rate": 0.008946608946608947,
+            "actual_eot": 49
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "samples": 4511,
+            "tp": 3,
+            "tn": 4453,
+            "fp": 15,
+            "fn": 40,
+            "accuracy": 0.9878075814675238,
+            "eot_f1": 0.09836065573770492,
+            "eot_precision": 0.16666666666666666,
+            "eot_recall": 0.06976744186046512,
+            "false_share_of_cuts": 0.8333333333333334,
+            "false_positive_rate": 0.0033572068039391225,
+            "actual_eot": 43
+          }
+        ],
+        "inferences": 35270,
+        "causal_input_trace_digest": "38f0133252aa9e89b1e8e984405452e5cd34f3122cf7466c11cfeee981323837",
+        "cases": [
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "ừ",
+            "future": "trong ngành",
+            "p_eot": 0.0002624066255521029,
+            "stream_key": "asr:004019263585.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "yeah",
+            "future": "in the",
+            "p_eot": 0.07244710624217987,
+            "stream_key": "asr:004019263585.en"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "giám",
+            "future": "sát an",
+            "p_eot": 0.00031486726948060095,
+            "stream_key": "asr:713ed7dd87d2.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "what",
+            "future": "is safety",
+            "p_eot": 0.00029384478693827987,
+            "stream_key": "asr:713ed7dd87d2.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "do",
+            "future": "you shop",
+            "p_eot": 0.00037211336893960834,
+            "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "bạn",
+            "future": "có mua",
+            "p_eot": 0.00032888544956222177,
+            "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "hey",
+            "future": "there i",
+            "p_eot": 0.0008791307336650789,
+            "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "chào",
+            "future": "em chị",
+            "p_eot": 0.002414114074781537,
+            "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "hi",
+            "future": "how can",
+            "p_eot": 0.012427285313606262,
+            "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "hello",
+            "future": "what have",
+            "p_eot": 0.014147105626761913,
+            "stream_key": "daily:personachat-train-0-1160.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "chào",
+            "future": "hôm nay",
+            "p_eot": 0.011485821567475796,
+            "stream_key": "daily:personachat-train-0-1160.s0.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "em",
+            "future": "carlos lệnh",
+            "p_eot": 0.000973941816482693,
+            "stream_key": "factory:gen2000__r01257"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "handover",
+            "future": "done by",
+            "p_eot": 0.006648767739534378,
+            "stream_key": "factory:gen2000__r00318"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "đêm",
+            "future": "nay phải",
+            "p_eot": 0.00044181584962643683,
+            "stream_key": "factory:gen2000__r01122"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "line",
+            "future": "three oven",
+            "p_eot": 0.0025071476120501757,
+            "stream_key": "factory:gen2000__r01941"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "by profession",
+            "future": "i babysit",
+            "p_eot": 0.8511107563972473,
+            "stream_key": "daily:personachat-train-0-2798.s0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "morning everyone",
+            "future": "wheel on",
+            "p_eot": 0.6015216708183289,
+            "stream_key": "factory:gen2000__r00162"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "xin chào anh",
+            "future": "em có",
+            "p_eot": 0.06741058826446533,
+            "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "i babysit pets",
+            "future": "what do",
+            "p_eot": 0.8406741619110107,
+            "stream_key": "daily:personachat-train-0-2798.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "do you like drama i sure do",
+            "future": "have you",
+            "p_eot": 0.8962317109107971,
+            "stream_key": "daily:topical_chat-t_290ad386-48a8-4bda-8d3b-46b9f023c3f7.s0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "chào em chào anh dũng",
+            "future": "máy phay",
+            "p_eot": 0.0012578873429447412,
+            "stream_key": "factory:gen2000__r00070"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "hello everyone welcome to my channel",
+            "future": "today i",
+            "p_eot": 0.00527587067335844,
+            "stream_key": "asr:6581b23ab9b6.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "mình làm nghề trông thú cưng",
+            "future": "còn bạn",
+            "p_eot": 0.8117769956588745,
+            "stream_key": "daily:personachat-train-0-2798.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "hi how can i help you hi today",
+            "future": "i need",
+            "p_eot": 0.1405888795852661,
+            "stream_key": "daily:taskmaster2-dlg-9c236663-c7dd-4413-8c73-8a007532100e.s0.en"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "bạn có thích phim drama không mình thích lắm",
+            "future": "bạn đã",
+            "p_eot": 0.8674755096435547,
+            "stream_key": "daily:topical_chat-t_290ad386-48a8-4bda-8d3b-46b9f023c3f7.s0.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "what is safety supervision the labor safety supervision certificate",
+            "future": "as you",
+            "p_eot": 0.0004309323849156499,
+            "stream_key": "asr:713ed7dd87d2.en"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "để quá trình chỉ xử lý nước của anh quang",
+            "future": "cái cái",
+            "p_eot": 0.010050101205706596,
+            "stream_key": "asr:830cdf4faf13.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "thì trải qua bể khử trùng bể khử trùng đây",
+            "future": "bạn cứ",
+            "p_eot": 0.009934693574905396,
+            "stream_key": "asr:7bca495325b5-r2-0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "chào buổi tối bạn khỏe không ơi mình thích màu vàng lắm hay quá",
+            "future": "mình cũng",
+            "p_eot": 0.7993223071098328,
+            "stream_key": "daily:personachat-validation-0-171.s0.vi"
+          },
+          {
+            "domain": "daily",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "bạn có mua sắm online không bạn có mua sắm online không mình có chứ",
+            "future": "mình thích",
+            "p_eot": 0.6587604284286499,
+            "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "line three oven s been down since two forty five alarm code seven",
+            "future": "i need",
+            "p_eot": 0.7597451210021973,
+            "stream_key": "factory:gen2000__r01941"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "wheel on station seven went yesterday afternoon cracked the guard panel",
+            "future": "machine stays",
+            "p_eot": 0.017188722267746925,
+            "stream_key": "factory:gen2000__r00162"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "please hit the subscribe button to support the channel and watch more videos about environmental issues",
+            "future": "hello everyone",
+            "p_eot": 0.9918150305747986,
+            "stream_key": "asr:5b2aee7953c6.en"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "so it passes through the disinfection tank the disinfection tank right here just take a look",
+            "future": "this is",
+            "p_eot": 0.13598382472991943,
+            "stream_key": "asr:7bca495325b5-r2-0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "the band saw s been grinding for forty five minutes and there s a burning smell",
+            "future": "we need",
+            "p_eot": 0.07585294544696808,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "đêm nay phải chạy xong lô thép cho kellermann mười tám tiếng nữa họ đến lấy hàng",
+            "future": "máy bay",
+            "p_eot": 0.0035177492536604404,
+            "stream_key": "factory:gen2000__r01122"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "hello everyone today",
+            "future": "hoa binh",
+            "p_eot": 0.1065925806760788,
+            "stream_key": "asr:5b2aee7953c6.en"
+          },
+          {
+            "domain": "asr",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "this is our disinfection tank",
+            "future": "it s",
+            "p_eot": 0.7411829829216003,
+            "stream_key": "asr:7bca495325b5-r2-0.en"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "the band saw s been grinding for forty five minutes and there s a burning smell we need to stop it",
+            "future": "now tuấn",
+            "p_eot": 0.10087498277425766,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "để quá trình chỉ xử lý nước của anh quang cái cái cạo cạo cho sạch nè còn cái này chắc lẽ không ra",
+            "future": "còn giấy",
+            "p_eot": 0.19504894316196442,
+            "stream_key": "asr:830cdf4faf13.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "xin chào các bạn đến với kênh của mình hôm nay mình sẽ lâm lợi máy lạnh nó bị một tựa nó yếu quá",
+            "future": "nó đập",
+            "p_eot": 0.14770624041557312,
+            "stream_key": "asr:6581b23ab9b6.vi"
+          },
+          {
+            "domain": "factory",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "now tuấn chị ơi cho em nói thêm được không ạ yeah go ahead",
+            "future": "tuấn what",
+            "p_eot": 0.3798735737800598,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "mờ vê kép bảy mất mũi đồng rồi phải lo ngay yeah so the tip s gone right what can i pick up while you sort that out em linda thì xem lại máy cho chị coi còn gì không ổn",
+            "future": "em maria",
+            "p_eot": 0.8753889203071594,
+            "stream_key": "factory:gen2000__r00850"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "carlos lệnh giữ chất lượng hôm qua em đặt giờ còn không anh cần chạy lại lò trong sáu tiếng nữa yeah still on six hours no way em carlos anh biết em lo nhưng thứ sáu là hạn giao anh không bàn thêm được nữa lệnh giữ chất lượng",
+            "future": "anh xin",
+            "p_eot": 0.7735784649848938,
+            "stream_key": "factory:gen2000__r01257"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "tuấn what you got em em xin chị priya cái lô bốn mươi phôi thép đó nó đến hạn cuối ca tối rồi",
+            "future": "em chỉ",
+            "p_eot": 0.1039692759513855,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "factory",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "em chỉ cần thêm chừng một tiếng nữa là xong",
+            "future": "xong rồi",
+            "p_eot": 0.3619531989097595,
+            "stream_key": "factory:gen2000__r00134"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "the",
+            "future": "completion rate",
+            "p_eot": 0.00026646340847946703,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tn",
+            "context_tail": "the completion",
+            "future": "rate for",
+            "p_eot": 0.00038489283178932965,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "tỷ",
+            "future": "lệ hoàn",
+            "p_eot": 0.00030005082953721285,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tn",
+            "context_tail": "tỷ lệ",
+            "future": "hoàn thành",
+            "p_eot": 0.0005016410141251981,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "the completion rate for this building reached sixteen point two percent last quarter tiến độ tốt lắm chị",
+            "future": "tôi dự",
+            "p_eot": 0.0010416702134534717,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "the catering order weighs one hundred and ten pounds total for the hotel banquet nặng lắm",
+            "future": "bếp của",
+            "p_eot": 0.19697310030460358,
+            "stream_key": "numeric/dialogue:dialogue.dev.02e67a9db312.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "tỷ lệ hoàn thành của tòa nhà này đạt mười sáu phẩy hai phần trăm vào quý trước that s good progress",
+            "future": "we expect",
+            "p_eot": 0.4101530611515045,
+            "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fn",
+            "context_tail": "our network packet loss is at twelve to twenty two percent right now mức đó khá cao",
+            "future": "tôi sẽ",
+            "p_eot": 0.003609449602663517,
+            "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "tp",
+            "context_tail": "tỷ lệ mất gói tin trên mạng đang ở mức mười hai đến hai mươi hai phần trăm that is quite high",
+            "future": "i will",
+            "p_eot": 0.8172896504402161,
+            "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "fp",
+            "context_tail": "we trained the model on the c i f a r ten dataset last week nghe tuyệt đấy",
+            "future": "độ chính",
+            "p_eot": 0.8130099177360535,
+            "stream_key": "numeric/dialogue:dialogue.dev.438a5dbfb9d1.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "tuần trước tôi đã huấn luyện mô hình trên bộ dữ liệu xê i ép a rờ mười that sounds great",
+            "future": "how was",
+            "p_eot": 0.838844358921051,
+            "stream_key": "numeric/dialogue:dialogue.dev.438a5dbfb9d1.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fp",
+            "context_tail": "the error code on the network is w e r zero",
+            "future": "can you",
+            "p_eot": 0.881459653377533,
+            "stream_key": "numeric/dialogue:dialogue.dev.1fcadb6be942.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "mất tín hiệu tôi đo được là hai đê xi ben trên anten mới yes i confirmed that result",
+            "future": "it matches",
+            "p_eot": 0.008706810884177685,
+            "stream_key": "numeric/dialogue:dialogue.dev.bfb478159fab.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "en",
+            "case": "fn",
+            "context_tail": "nhiệt độ lò phản ứng hiện tại là bốn mươi chín phẩy năm độ that s concerning",
+            "future": "the safe",
+            "p_eot": 0.00139929901342839,
+            "stream_key": "numeric/dialogue:dialogue.dev.5e5388dde2f6.b"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "the eucalyptus tree we planted last season is now one hundred and seventy centimeters tall tăng trưởng tốt đấy",
+            "future": "chiều nay",
+            "p_eot": 0.8319123387336731,
+            "stream_key": "numeric/dialogue:dialogue.dev.b379bc2681fc.a"
+          },
+          {
+            "domain": "numeric/dialogue",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "the old town was first mentioned in the year one thousand six hundred and ninety eight making it one of our oldest tourist sites vâng tôi đã đọc về điều đó",
+            "future": "tôi nghĩ",
+            "p_eot": 0.3261469900608063,
+            "stream_key": "numeric/dialogue:dialogue.dev.5ec4419630ce.a"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "các bạn bạn bạn thấy video này hay nhất chia sẻ like ủng hộ kênh giúp mình nha các bạn đăng ký kênh còn bên dưới nha",
+            "future": "mình xin",
+            "p_eot": 0.8494289517402649,
+            "stream_key": "asr:6581b23ab9b6.vi"
+          },
+          {
+            "domain": "asr",
+            "language": "vi",
+            "case": "tp",
+            "context_tail": "cái điểm riêng điểm riêng đó mình tạm gọi là điểm mà điểm nhấn của navitechco à thanh thanh ha là sếp của mình không có thiết thiết kế gai bảy anh đồng xét trong sơ đồ công nghệ ở cái trạm ở cái trạm xử lý rác thải này",
+            "future": "nếu mà",
+            "p_eot": 0.10517869889736176,
+            "stream_key": "asr:7bca495325b5-r2-0.vi"
+          }
+        ],
+        "gold_reset_in_inference": false,
+        "source_speaker_reset": false,
+        "language_id_supplied": false,
+        "max_future_words": 2,
+        "scope": "Uploaded original DEV, punctuation silver; not TEST or independent human/audio turn gold",
+        "calibration": [
+          {
+            "threshold": 0.1,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 42,
+                "tn": 7002,
+                "fp": 20,
+                "fn": 168,
+                "accuracy": 0.974004424778761,
+                "eot_f1": 0.3088235294117647,
+                "eot_precision": 0.6774193548387096,
+                "eot_recall": 0.2,
+                "false_share_of_cuts": 0.3225806451612903,
+                "false_positive_rate": 0.0028481913984619764,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 79,
+                "tn": 5754,
+                "fp": 47,
+                "fn": 163,
+                "accuracy": 0.9652490484858514,
+                "eot_f1": 0.42934782608695654,
+                "eot_precision": 0.626984126984127,
+                "eot_recall": 0.32644628099173556,
+                "false_share_of_cuts": 0.373015873015873,
+                "false_positive_rate": 0.00810205137045337,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.3088235294117647,
+            "inferences": 13398,
+            "causal_input_trace_digest": "a229ffa90c5829cb7560af518079ac8c0a7fd95d108565c78abd90796a86127b"
+          },
+          {
+            "threshold": 0.2,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 25,
+                "tn": 7011,
+                "fp": 11,
+                "fn": 185,
+                "accuracy": 0.9728982300884956,
+                "eot_f1": 0.2032520325203252,
+                "eot_precision": 0.6944444444444444,
+                "eot_recall": 0.11904761904761904,
+                "false_share_of_cuts": 0.3055555555555556,
+                "false_positive_rate": 0.0015665052691540872,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 69,
+                "tn": 5769,
+                "fp": 32,
+                "fn": 173,
+                "accuracy": 0.9660764520933312,
+                "eot_f1": 0.40233236151603496,
+                "eot_precision": 0.6831683168316832,
+                "eot_recall": 0.28512396694214875,
+                "false_share_of_cuts": 0.31683168316831684,
+                "false_positive_rate": 0.005516290294776763,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.2032520325203252,
+            "inferences": 13398,
+            "causal_input_trace_digest": "c64e5f012e50086e024b1f3d2786cd367691548903cee31833983629cc3573e2"
+          },
+          {
+            "threshold": 0.30000000000000004,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 25,
+                "tn": 7013,
+                "fp": 9,
+                "fn": 185,
+                "accuracy": 0.973174778761062,
+                "eot_f1": 0.20491803278688525,
+                "eot_precision": 0.7352941176470589,
+                "eot_recall": 0.11904761904761904,
+                "false_share_of_cuts": 0.2647058823529412,
+                "false_positive_rate": 0.0012816861293078895,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 69,
+                "tn": 5774,
+                "fp": 27,
+                "fn": 173,
+                "accuracy": 0.9669038557008108,
+                "eot_f1": 0.40828402366863903,
+                "eot_precision": 0.71875,
+                "eot_recall": 0.28512396694214875,
+                "false_share_of_cuts": 0.28125,
+                "false_positive_rate": 0.004654369936217893,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.20491803278688525,
+            "inferences": 13398,
+            "causal_input_trace_digest": "562f18ba33159c86c74143dc7a21049c183ed3b4894a2c5d38fc6e517791cfd4"
+          },
+          {
+            "threshold": 0.4,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 25,
+                "tn": 7014,
+                "fp": 8,
+                "fn": 185,
+                "accuracy": 0.9733130530973452,
+                "eot_f1": 0.205761316872428,
+                "eot_precision": 0.7575757575757576,
+                "eot_recall": 0.11904761904761904,
+                "false_share_of_cuts": 0.24242424242424243,
+                "false_positive_rate": 0.0011392765593847907,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 69,
+                "tn": 5776,
+                "fp": 25,
+                "fn": 173,
+                "accuracy": 0.9672348171438028,
+                "eot_f1": 0.4107142857142857,
+                "eot_precision": 0.7340425531914894,
+                "eot_recall": 0.28512396694214875,
+                "false_share_of_cuts": 0.26595744680851063,
+                "false_positive_rate": 0.0043096017927943455,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.205761316872428,
+            "inferences": 13398,
+            "causal_input_trace_digest": "fabf1735ec6da7e0f94269bb243dd12e17d080711db72d9b98f2997461409410"
+          },
+          {
+            "threshold": 0.5,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 23,
+                "tn": 7015,
+                "fp": 7,
+                "fn": 187,
+                "accuracy": 0.973174778761062,
+                "eot_f1": 0.19166666666666668,
+                "eot_precision": 0.7666666666666667,
+                "eot_recall": 0.10952380952380952,
+                "false_share_of_cuts": 0.23333333333333334,
+                "false_positive_rate": 0.0009968669894616917,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 62,
+                "tn": 5778,
+                "fp": 23,
+                "fn": 180,
+                "accuracy": 0.966407413536323,
+                "eot_f1": 0.37920489296636084,
+                "eot_precision": 0.7294117647058823,
+                "eot_recall": 0.256198347107438,
+                "false_share_of_cuts": 0.27058823529411763,
+                "false_positive_rate": 0.0039648336493707985,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.19166666666666668,
+            "inferences": 13398,
+            "causal_input_trace_digest": "bebb0b9e5877dc32bbe3d178517ef0a12d7f515300ad24afdde2287460bd5fd7"
+          },
+          {
+            "threshold": 0.6,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 23,
+                "tn": 7015,
+                "fp": 7,
+                "fn": 187,
+                "accuracy": 0.973174778761062,
+                "eot_f1": 0.19166666666666668,
+                "eot_precision": 0.7666666666666667,
+                "eot_recall": 0.10952380952380952,
+                "false_share_of_cuts": 0.23333333333333334,
+                "false_positive_rate": 0.0009968669894616917,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 63,
+                "tn": 5778,
+                "fp": 23,
+                "fn": 179,
+                "accuracy": 0.966572894257819,
+                "eot_f1": 0.38414634146341464,
+                "eot_precision": 0.7325581395348837,
+                "eot_recall": 0.2603305785123967,
+                "false_share_of_cuts": 0.26744186046511625,
+                "false_positive_rate": 0.0039648336493707985,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.19166666666666668,
+            "inferences": 13398,
+            "causal_input_trace_digest": "0e113dd29a8d15606ea6ae5209cdd93b3ea106308c36f821696c84c3752874b8"
+          },
+          {
+            "threshold": 0.7000000000000001,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 21,
+                "tn": 7016,
+                "fp": 6,
+                "fn": 189,
+                "accuracy": 0.9730365044247787,
+                "eot_f1": 0.17721518987341772,
+                "eot_precision": 0.7777777777777778,
+                "eot_recall": 0.1,
+                "false_share_of_cuts": 0.2222222222222222,
+                "false_positive_rate": 0.000854457419538593,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 58,
+                "tn": 5780,
+                "fp": 21,
+                "fn": 184,
+                "accuracy": 0.9660764520933312,
+                "eot_f1": 0.3613707165109034,
+                "eot_precision": 0.7341772151898734,
+                "eot_recall": 0.2396694214876033,
+                "false_share_of_cuts": 0.26582278481012656,
+                "false_positive_rate": 0.0036200655059472507,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.17721518987341772,
+            "inferences": 13398,
+            "causal_input_trace_digest": "3f820e6e13a94c304b46e23934479f78cb446ad1a6fe6e9c9591b5e522001b0f"
+          },
+          {
+            "threshold": 0.8,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 12,
+                "tn": 7019,
+                "fp": 3,
+                "fn": 198,
+                "accuracy": 0.9722068584070797,
+                "eot_f1": 0.10666666666666667,
+                "eot_precision": 0.8,
+                "eot_recall": 0.05714285714285714,
+                "false_share_of_cuts": 0.2,
+                "false_positive_rate": 0.0004272287097692965,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 37,
+                "tn": 5786,
+                "fp": 15,
+                "fn": 205,
+                "accuracy": 0.963594241270892,
+                "eot_f1": 0.25170068027210885,
+                "eot_precision": 0.7115384615384616,
+                "eot_recall": 0.15289256198347106,
+                "false_share_of_cuts": 0.28846153846153844,
+                "false_positive_rate": 0.0025857610756766076,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.10666666666666667,
+            "inferences": 13398,
+            "causal_input_trace_digest": "26b78323b9a6c1f184199e2f12679e18ae57b10923f5d2f7b2b9c89d4637272a"
+          },
+          {
+            "threshold": 0.9,
+            "by_language": {
+              "vi": {
+                "samples": 7232,
+                "tp": 4,
+                "tn": 7021,
+                "fp": 1,
+                "fn": 206,
+                "accuracy": 0.9713772123893806,
+                "eot_f1": 0.037209302325581395,
+                "eot_precision": 0.8,
+                "eot_recall": 0.01904761904761905,
+                "false_share_of_cuts": 0.2,
+                "false_positive_rate": 0.00014240956992309884,
+                "actual_eot": 210
+              },
+              "en": {
+                "samples": 6043,
+                "tp": 11,
+                "tn": 5795,
+                "fp": 6,
+                "fn": 231,
+                "accuracy": 0.9607810690054609,
+                "eot_f1": 0.08494208494208494,
+                "eot_precision": 0.6470588235294118,
+                "eot_recall": 0.045454545454545456,
+                "false_share_of_cuts": 0.35294117647058826,
+                "false_positive_rate": 0.001034304430270643,
+                "actual_eot": 242
+              }
+            },
+            "score": 0.037209302325581395,
+            "inferences": 13398,
+            "causal_input_trace_digest": "3a36cbfdd012a1a30fb3714ae2c486b94329da3b5269cc00c55d2299e0908b61"
+          }
+        ],
+        "threshold_selection": "Worst-language F1 on separate original DEV calibration families, actual predicted resets at every threshold",
+        "monitor_families_disjoint_from_calibration": true,
+        "test_used": false
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false
+      },
+      "uploaded_rows_seen": 13827539,
+      "uploaded_origin_exposures": {
+        "daily": 7312584,
+        "factory/gen4000": 5203838,
+        "factory/gen500": 570990,
+        "asr/run2b": 740127
+      },
+      "test_used": false,
+      "new_uploaded_only_dev": true
+    },
+    "teacher_new_dev.json": {
+      "threshold": 0.1,
+      "by_language": {
+        "vi": {
+          "samples": 18627,
+          "tp": 186,
+          "tn": 17148,
+          "fp": 893,
+          "fn": 400,
+          "accuracy": 0.9305846352069577,
+          "eot_f1": 0.22342342342342342,
+          "eot_precision": 0.17238183503243745,
+          "eot_recall": 0.3174061433447099,
+          "false_share_of_cuts": 0.8276181649675626,
+          "false_positive_rate": 0.04949836483565213,
+          "actual_eot": 586
+        },
+        "en": {
+          "samples": 16360,
+          "tp": 368,
+          "tn": 14813,
+          "fp": 851,
+          "fn": 328,
+          "accuracy": 0.9279339853300733,
+          "eot_f1": 0.3843342036553525,
+          "eot_precision": 0.3018867924528302,
+          "eot_recall": 0.5287356321839081,
+          "false_share_of_cuts": 0.6981132075471698,
+          "false_positive_rate": 0.05432839632277835,
+          "actual_eot": 696
+        }
+      },
+      "score": 0.22342342342342342,
+      "by_domain": [
+        {
+          "domain": "asr",
+          "language": "en",
+          "samples": 4845,
+          "tp": 140,
+          "tn": 4353,
+          "fp": 203,
+          "fn": 149,
+          "accuracy": 0.9273477812177503,
+          "eot_f1": 0.4430379746835443,
+          "eot_precision": 0.40816326530612246,
+          "eot_recall": 0.4844290657439446,
+          "false_share_of_cuts": 0.5918367346938775,
+          "false_positive_rate": 0.04455662862159789,
+          "actual_eot": 289
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "samples": 6000,
+          "tp": 61,
+          "tn": 5438,
+          "fp": 293,
+          "fn": 208,
+          "accuracy": 0.9165,
+          "eot_f1": 0.1958266452648475,
+          "eot_precision": 0.17231638418079095,
+          "eot_recall": 0.22676579925650558,
+          "false_share_of_cuts": 0.827683615819209,
+          "false_positive_rate": 0.0511254580352469,
+          "actual_eot": 269
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "samples": 3541,
+          "tp": 80,
+          "tn": 3222,
+          "fp": 163,
+          "fn": 76,
+          "accuracy": 0.9325049421067495,
+          "eot_f1": 0.40100250626566414,
+          "eot_precision": 0.3292181069958848,
+          "eot_recall": 0.5128205128205128,
+          "false_share_of_cuts": 0.6707818930041153,
+          "false_positive_rate": 0.04815361890694239,
+          "actual_eot": 156
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "samples": 4447,
+          "tp": 68,
+          "tn": 4062,
+          "fp": 251,
+          "fn": 66,
+          "accuracy": 0.9287159883067236,
+          "eot_f1": 0.30022075055187636,
+          "eot_precision": 0.21316614420062696,
+          "eot_recall": 0.5074626865671642,
+          "false_share_of_cuts": 0.786833855799373,
+          "false_positive_rate": 0.058196151170878736,
+          "actual_eot": 134
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "samples": 4460,
+          "tp": 103,
+          "tn": 3922,
+          "fp": 336,
+          "fn": 99,
+          "accuracy": 0.9024663677130045,
+          "eot_f1": 0.3213728549141966,
+          "eot_precision": 0.23462414578587698,
+          "eot_recall": 0.5099009900990099,
+          "false_share_of_cuts": 0.765375854214123,
+          "false_positive_rate": 0.07891028651949272,
+          "actual_eot": 202
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "samples": 3669,
+          "tp": 47,
+          "tn": 3272,
+          "fp": 257,
+          "fn": 93,
+          "accuracy": 0.904606159716544,
+          "eot_f1": 0.21171171171171171,
+          "eot_precision": 0.15460526315789475,
+          "eot_recall": 0.3357142857142857,
+          "false_share_of_cuts": 0.8453947368421053,
+          "false_positive_rate": 0.07282516293567583,
+          "actual_eot": 140
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "samples": 3514,
+          "tp": 45,
+          "tn": 3316,
+          "fp": 149,
+          "fn": 4,
+          "accuracy": 0.956459874786568,
+          "eot_f1": 0.37037037037037035,
+          "eot_precision": 0.23195876288659795,
+          "eot_recall": 0.9183673469387755,
+          "false_share_of_cuts": 0.7680412371134021,
+          "false_positive_rate": 0.043001443001443,
+          "actual_eot": 49
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "samples": 4511,
+          "tp": 10,
+          "tn": 4376,
+          "fp": 92,
+          "fn": 33,
+          "accuracy": 0.972289957880736,
+          "eot_f1": 0.13793103448275862,
+          "eot_precision": 0.09803921568627451,
+          "eot_recall": 0.23255813953488372,
+          "false_share_of_cuts": 0.9019607843137255,
+          "false_positive_rate": 0.020590868397493287,
+          "actual_eot": 43
+        }
+      ],
+      "inferences": 35270,
+      "causal_input_trace_digest": "854905537bf26f2f577dcaba36a8a3509e07fbc2ab0b176f82cdecfe475727a1",
+      "cases": [
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "ừ",
+          "future": "trong ngành",
+          "p_eot": 0.010496235452592373,
+          "stream_key": "asr:004019263585.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "yeah",
+          "future": "in the",
+          "p_eot": 0.0003547148662619293,
+          "stream_key": "asr:004019263585.en"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "giám",
+          "future": "sát an",
+          "p_eot": 3.012245178979356e-05,
+          "stream_key": "asr:713ed7dd87d2.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "what",
+          "future": "is safety",
+          "p_eot": 2.431315260764677e-05,
+          "stream_key": "asr:713ed7dd87d2.en"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "hello",
+          "future": "everyone today",
+          "p_eot": 0.2577112317085266,
+          "stream_key": "asr:f4469232417a.en"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "hello",
+          "future": "everyone welcome",
+          "p_eot": 0.4357943534851074,
+          "stream_key": "asr:6581b23ab9b6.en"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "do",
+          "future": "you shop",
+          "p_eot": 1.8791344700730406e-05,
+          "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "bạn",
+          "future": "có mua",
+          "p_eot": 1.8604421711643226e-05,
+          "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "hey",
+          "future": "there i",
+          "p_eot": 0.002332827774807811,
+          "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "chào",
+          "future": "em chị",
+          "p_eot": 0.31488168239593506,
+          "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "hello",
+          "future": "what do",
+          "p_eot": 0.3787846267223358,
+          "stream_key": "daily:personachat-train-0-5790.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "chào",
+          "future": "bạn bạn",
+          "p_eot": 0.5651107430458069,
+          "stream_key": "daily:personachat-train-0-5790.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "chị",
+          "future": "cần vé",
+          "p_eot": 0.05242253094911575,
+          "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "hi",
+          "future": "how can",
+          "p_eot": 0.018768582493066788,
+          "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "hello",
+          "future": "what have",
+          "p_eot": 0.34525808691978455,
+          "stream_key": "daily:personachat-train-0-1160.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "chào",
+          "future": "hôm nay",
+          "p_eot": 0.0005948565667495131,
+          "stream_key": "daily:personachat-train-0-1160.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "hello",
+          "future": "how are",
+          "p_eot": 0.38918444514274597,
+          "stream_key": "daily:personachat-validation-0-777.s0.en"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "em",
+          "future": "carlos lệnh",
+          "p_eot": 0.17478777468204498,
+          "stream_key": "factory:gen2000__r01257"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "handover",
+          "future": "done by",
+          "p_eot": 0.00043428881326690316,
+          "stream_key": "factory:gen2000__r00318"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "đêm",
+          "future": "nay phải",
+          "p_eot": 2.1770729290437885e-05,
+          "stream_key": "factory:gen2000__r01122"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "line",
+          "future": "three oven",
+          "p_eot": 0.016590766608715057,
+          "stream_key": "factory:gen2000__r01941"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "em",
+          "future": "marcus hôm",
+          "p_eot": 0.01999855414032936,
+          "stream_key": "factory:gen2000__r00967"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "chào",
+          "future": "em chào",
+          "p_eot": 0.4545395076274872,
+          "stream_key": "factory:gen2000__r00070"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "morning",
+          "future": "everyone wheel",
+          "p_eot": 0.45085471868515015,
+          "stream_key": "factory:gen2000__r00162"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "everyone",
+          "future": "wheel on",
+          "p_eot": 0.004933355841785669,
+          "stream_key": "factory:gen2000__r00162"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "xin chào anh",
+          "future": "em có",
+          "p_eot": 0.3539423644542694,
+          "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "ừ trong ngành sơn việt",
+          "future": "sơn quét",
+          "p_eot": 0.1416926383972168,
+          "stream_key": "asr:004019263585.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "i need movie tickets for tonight okay",
+          "future": "can you",
+          "p_eot": 0.02324417233467102,
+          "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.en"
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "i babysit pets",
+          "future": "what do",
+          "p_eot": 0.22909928858280182,
+          "stream_key": "daily:personachat-train-0-2798.s0.en"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "handover done by seven thirty",
+          "future": "so let",
+          "p_eot": 0.1623072475194931,
+          "stream_key": "factory:gen2000__r00318"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "em chào anh dũng",
+          "future": "máy phay",
+          "p_eot": 0.019040800631046295,
+          "stream_key": "factory:gen2000__r00070"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "everyone welcome to my channel",
+          "future": "today i",
+          "p_eot": 4.2805357225006446e-05,
+          "stream_key": "asr:6581b23ab9b6.en"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "mình làm nghề trông thú cưng",
+          "future": "còn bạn",
+          "p_eot": 0.008301334455609322,
+          "stream_key": "daily:personachat-train-0-2798.s0.vi"
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "chị cần vé xem phim tối nay được rồi",
+          "future": "chị cho",
+          "p_eot": 0.10225626826286316,
+          "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "the labor safety supervision certificate",
+          "future": "as you",
+          "p_eot": 0.00458001671358943,
+          "stream_key": "asr:713ed7dd87d2.en"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "để quá trình chỉ xử lý nước của anh quang",
+          "future": "cái cái",
+          "p_eot": 0.40086451172828674,
+          "stream_key": "asr:830cdf4faf13.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "thì trải qua bể khử trùng bể khử trùng đây",
+          "future": "bạn cứ",
+          "p_eot": 0.7543295621871948,
+          "stream_key": "asr:7bca495325b5-r2-0.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "xin chào các bạn đến với kênh của mình hôm nay",
+          "future": "mình sẽ",
+          "p_eot": 0.7038102149963379,
+          "stream_key": "asr:6581b23ab9b6.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "mình sẽ",
+          "future": "lâm lợi",
+          "p_eot": 1.9830831661238335e-05,
+          "stream_key": "asr:6581b23ab9b6.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "i will work on the chiller",
+          "future": "it has",
+          "p_eot": 0.5819286704063416,
+          "stream_key": "asr:6581b23ab9b6.en"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "line three oven s been down since two forty five alarm code seven",
+          "future": "i need",
+          "p_eot": 0.9780035018920898,
+          "stream_key": "factory:gen2000__r01941"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "everyone wheel on station seven went yesterday afternoon cracked the guard panel",
+          "future": "machine stays",
+          "p_eot": 0.0019280215492472053,
+          "stream_key": "factory:gen2000__r00162"
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "cái cái cạo cạo cho sạch",
+          "future": "nè còn",
+          "p_eot": 0.0018744050757959485,
+          "stream_key": "asr:830cdf4faf13.vi"
+        },
+        {
+          "domain": "asr",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "please hit the subscribe button to support the channel and watch more videos about environmental issues",
+          "future": "hello everyone",
+          "p_eot": 0.9103283286094666,
+          "stream_key": "asr:5b2aee7953c6.en"
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "the band saw s been grinding for forty five minutes and there s a burning smell",
+          "future": "we need",
+          "p_eot": 0.9946797490119934,
+          "stream_key": "factory:gen2000__r00134"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "mười tám tiếng nữa họ đến lấy hàng",
+          "future": "máy bay",
+          "p_eot": 0.015741964802145958,
+          "stream_key": "factory:gen2000__r01122"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "bỏ qua tay thợ cắt",
+          "future": "máy đang",
+          "p_eot": 0.21507608890533447,
+          "stream_key": "factory:gen2000__r00070"
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "thì xem lại máy cho chị coi còn gì không ổn",
+          "future": "em maria",
+          "p_eot": 0.7237123250961304,
+          "stream_key": "factory:gen2000__r00850"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "the",
+          "future": "completion rate",
+          "p_eot": 2.0478784790611826e-05,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "tn",
+          "context_tail": "the completion",
+          "future": "rate for",
+          "p_eot": 1.8133347111870535e-05,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "tỷ",
+          "future": "lệ hoàn",
+          "p_eot": 1.8908911442849785e-05,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "tn",
+          "context_tail": "tỷ lệ",
+          "future": "hoàn thành",
+          "p_eot": 2.1184197976253927e-05,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "the completion rate for this building reached sixteen point two percent last quarter tiến độ tốt lắm chị",
+          "future": "tôi dự",
+          "p_eot": 0.00869083683937788,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "anh ơi đơn đặt catering nặng tổng cộng một trăm mười pao cho tiệc khách sạn that is quite heavy",
+          "future": "our kitchen",
+          "p_eot": 0.7349768877029419,
+          "stream_key": "numeric/dialogue:dialogue.dev.02e67a9db312.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "tỷ lệ hoàn thành của tòa nhà này đạt mười sáu phẩy hai phần trăm vào quý trước that s good progress",
+          "future": "we expect",
+          "p_eot": 0.9272664785385132,
+          "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "fn",
+          "context_tail": "our network packet loss is at twelve to twenty two percent right now mức đó khá cao",
+          "future": "tôi sẽ",
+          "p_eot": 0.015729732811450958,
+          "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "tuần trước",
+          "future": "tôi đã",
+          "p_eot": 0.6157271862030029,
+          "stream_key": "numeric/dialogue:dialogue.dev.438a5dbfb9d1.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "fp",
+          "context_tail": "the new pipe section is one hundred and eighty nine millimeters in diameter vâng đúng với bảng thông số",
+          "future": "tôi nhận",
+          "p_eot": 0.8519951701164246,
+          "stream_key": "numeric/dialogue:dialogue.dev.1c275cca2338.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "tp",
+          "context_tail": "tỷ lệ mất gói tin trên mạng đang ở mức mười hai đến hai mươi hai phần trăm that is quite high",
+          "future": "i will",
+          "p_eot": 0.9950448274612427,
+          "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "fp",
+          "context_tail": "đoạn ống mới có đường kính một trăm tám mươi chín mi li mét yes that matches the spec sheet",
+          "future": "i received",
+          "p_eot": 0.9888695478439331,
+          "stream_key": "numeric/dialogue:dialogue.dev.1c275cca2338.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "tôi đã kiểm tra van xê e rờ một rồi chị",
+          "future": "nó đang",
+          "p_eot": 0.3091138005256653,
+          "stream_key": "numeric/dialogue:dialogue.dev.281f7b90d0fa.b"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "you",
+          "future": "please send",
+          "p_eot": 0.00013697874965146184,
+          "stream_key": "numeric/dialogue:dialogue.dev.ee991a7c7d86.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "case": "tp",
+          "context_tail": "the model achieved an accuracy of sixty two point five six percent on the test set đó là kết quả tốt",
+          "future": "tôi nên",
+          "p_eot": 0.5179144144058228,
+          "stream_key": "numeric/dialogue:dialogue.dev.8d4a69b87dda.a"
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "case": "fn",
+          "context_tail": "nhiệt độ cánh tua bin đã đạt bảy trăm độ xê trong giờ qua yes i noticed",
+          "future": "we should",
+          "p_eot": 0.013061617501080036,
+          "stream_key": "numeric/dialogue:dialogue.dev.fb5324161a62.b"
+        }
+      ],
+      "gold_reset_in_inference": false,
+      "source_speaker_reset": false,
+      "language_id_supplied": false,
+      "max_future_words": 2,
+      "scope": "Uploaded original DEV, punctuation silver; not TEST or independent human/audio turn gold",
+      "calibration": [
+        {
+          "threshold": 0.1,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 65,
+              "tn": 6774,
+              "fp": 248,
+              "fn": 145,
+              "accuracy": 0.9456581858407079,
+              "eot_f1": 0.248565965583174,
+              "eot_precision": 0.20766773162939298,
+              "eot_recall": 0.30952380952380953,
+              "false_share_of_cuts": 0.792332268370607,
+              "false_positive_rate": 0.03531757334092851,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 131,
+              "tn": 5528,
+              "fp": 273,
+              "fn": 111,
+              "accuracy": 0.9364554029455568,
+              "eot_f1": 0.4055727554179567,
+              "eot_precision": 0.32425742574257427,
+              "eot_recall": 0.5413223140495868,
+              "false_share_of_cuts": 0.6757425742574258,
+              "false_positive_rate": 0.04706085157731425,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.248565965583174,
+          "inferences": 13398,
+          "causal_input_trace_digest": "f24826cee4a8de261ceab5ce0437c051969beb8df3c984941ac661c07f58a9fe"
+        },
+        {
+          "threshold": 0.2,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 52,
+              "tn": 6843,
+              "fp": 179,
+              "fn": 158,
+              "accuracy": 0.9534015486725663,
+              "eot_f1": 0.23582766439909297,
+              "eot_precision": 0.22510822510822512,
+              "eot_recall": 0.24761904761904763,
+              "false_share_of_cuts": 0.7748917748917749,
+              "false_positive_rate": 0.025491313016234692,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 124,
+              "tn": 5565,
+              "fp": 236,
+              "fn": 118,
+              "accuracy": 0.9414198245904352,
+              "eot_f1": 0.4119601328903654,
+              "eot_precision": 0.34444444444444444,
+              "eot_recall": 0.512396694214876,
+              "false_share_of_cuts": 0.6555555555555556,
+              "false_positive_rate": 0.04068264092397862,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.23582766439909297,
+          "inferences": 13398,
+          "causal_input_trace_digest": "10863650801bd8f375bfae8c89e7079bf732099ddff6154f534dd6322614ff85"
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 44,
+              "tn": 6858,
+              "fp": 164,
+              "fn": 166,
+              "accuracy": 0.9543694690265486,
+              "eot_f1": 0.21052631578947367,
+              "eot_precision": 0.21153846153846154,
+              "eot_recall": 0.20952380952380953,
+              "false_share_of_cuts": 0.7884615384615384,
+              "false_positive_rate": 0.02335516946738821,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 119,
+              "tn": 5590,
+              "fp": 211,
+              "fn": 123,
+              "accuracy": 0.9447294390203541,
+              "eot_f1": 0.4160839160839161,
+              "eot_precision": 0.3606060606060606,
+              "eot_recall": 0.49173553719008267,
+              "false_share_of_cuts": 0.6393939393939394,
+              "false_positive_rate": 0.03637303913118428,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.21052631578947367,
+          "inferences": 13398,
+          "causal_input_trace_digest": "5ffe5e9a34c9d2f1f088bcb4015dcb4b56eb8d576b34d1765e268164f8d2aba3"
+        },
+        {
+          "threshold": 0.4,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 40,
+              "tn": 6890,
+              "fp": 132,
+              "fn": 170,
+              "accuracy": 0.9582411504424779,
+              "eot_f1": 0.2094240837696335,
+              "eot_precision": 0.23255813953488372,
+              "eot_recall": 0.19047619047619047,
+              "false_share_of_cuts": 0.7674418604651163,
+              "false_positive_rate": 0.018798063229849046,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 103,
+              "tn": 5606,
+              "fp": 195,
+              "fn": 139,
+              "accuracy": 0.9447294390203541,
+              "eot_f1": 0.3814814814814815,
+              "eot_precision": 0.34563758389261745,
+              "eot_recall": 0.4256198347107438,
+              "false_share_of_cuts": 0.6543624161073825,
+              "false_positive_rate": 0.0336148939837959,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.2094240837696335,
+          "inferences": 13398,
+          "causal_input_trace_digest": "0bd76c1013602f06d3e8d37162bc95406d2c79f2ab160d98c4c7531102a4a999"
+        },
+        {
+          "threshold": 0.5,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 30,
+              "tn": 6922,
+              "fp": 100,
+              "fn": 180,
+              "accuracy": 0.9612831858407079,
+              "eot_f1": 0.17647058823529413,
+              "eot_precision": 0.23076923076923078,
+              "eot_recall": 0.14285714285714285,
+              "false_share_of_cuts": 0.7692307692307693,
+              "false_positive_rate": 0.014240956992309883,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 90,
+              "tn": 5616,
+              "fp": 185,
+              "fn": 152,
+              "accuracy": 0.9442329968558663,
+              "eot_f1": 0.3481624758220503,
+              "eot_precision": 0.32727272727272727,
+              "eot_recall": 0.371900826446281,
+              "false_share_of_cuts": 0.6727272727272727,
+              "false_positive_rate": 0.03189105326667816,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.17647058823529413,
+          "inferences": 13398,
+          "causal_input_trace_digest": "3d662988c25ea4c173cd29437346252aa19e505efc65d6a0671aa2cd0dbc88e8"
+        },
+        {
+          "threshold": 0.6,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 21,
+              "tn": 6943,
+              "fp": 79,
+              "fn": 189,
+              "accuracy": 0.9629424778761062,
+              "eot_f1": 0.13548387096774195,
+              "eot_precision": 0.21,
+              "eot_recall": 0.1,
+              "false_share_of_cuts": 0.79,
+              "false_positive_rate": 0.011250356023924808,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 83,
+              "tn": 5625,
+              "fp": 176,
+              "fn": 159,
+              "accuracy": 0.9445639582988582,
+              "eot_f1": 0.3313373253493014,
+              "eot_precision": 0.3204633204633205,
+              "eot_recall": 0.34297520661157027,
+              "false_share_of_cuts": 0.6795366795366795,
+              "false_positive_rate": 0.030339596621272193,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.13548387096774195,
+          "inferences": 13398,
+          "causal_input_trace_digest": "eb536e3c6abd9971e329e8d6d0cf99ea2cccb9e293f9dd9c0a356cf4bf71c9aa"
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 18,
+              "tn": 6965,
+              "fp": 57,
+              "fn": 192,
+              "accuracy": 0.9655696902654868,
+              "eot_f1": 0.12631578947368421,
+              "eot_precision": 0.24,
+              "eot_recall": 0.08571428571428572,
+              "false_share_of_cuts": 0.76,
+              "false_positive_rate": 0.008117345485616633,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 73,
+              "tn": 5644,
+              "fp": 157,
+              "fn": 169,
+              "accuracy": 0.9460532847923216,
+              "eot_f1": 0.3093220338983051,
+              "eot_precision": 0.3173913043478261,
+              "eot_recall": 0.30165289256198347,
+              "false_share_of_cuts": 0.6826086956521739,
+              "false_positive_rate": 0.02706429925874849,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.12631578947368421,
+          "inferences": 13398,
+          "causal_input_trace_digest": "406b0c44d0dd74d42106041c21433d20f53d59f067e3dcbad14baa63342aa133"
+        },
+        {
+          "threshold": 0.8,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 14,
+              "tn": 6977,
+              "fp": 45,
+              "fn": 196,
+              "accuracy": 0.9666758849557522,
+              "eot_f1": 0.10408921933085502,
+              "eot_precision": 0.23728813559322035,
+              "eot_recall": 0.06666666666666667,
+              "false_share_of_cuts": 0.7627118644067796,
+              "false_positive_rate": 0.0064084306465394475,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 57,
+              "tn": 5689,
+              "fp": 112,
+              "fn": 185,
+              "accuracy": 0.9508522257157042,
+              "eot_f1": 0.2773722627737226,
+              "eot_precision": 0.33727810650887574,
+              "eot_recall": 0.23553719008264462,
+              "false_share_of_cuts": 0.6627218934911243,
+              "false_positive_rate": 0.01930701603171867,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.10408921933085502,
+          "inferences": 13398,
+          "causal_input_trace_digest": "42692771578535d2b8cc9e8b1108beeb676b736ee5537a9c545af05a230f8e6a"
+        },
+        {
+          "threshold": 0.9,
+          "by_language": {
+            "vi": {
+              "samples": 7232,
+              "tp": 4,
+              "tn": 6995,
+              "fp": 27,
+              "fn": 206,
+              "accuracy": 0.9677820796460177,
+              "eot_f1": 0.03319502074688797,
+              "eot_precision": 0.12903225806451613,
+              "eot_recall": 0.01904761904761905,
+              "false_share_of_cuts": 0.8709677419354839,
+              "false_positive_rate": 0.0038450583879236686,
+              "actual_eot": 210
+            },
+            "en": {
+              "samples": 6043,
+              "tp": 36,
+              "tn": 5725,
+              "fp": 76,
+              "fn": 206,
+              "accuracy": 0.9533344365381433,
+              "eot_f1": 0.2033898305084746,
+              "eot_precision": 0.32142857142857145,
+              "eot_recall": 0.1487603305785124,
+              "false_share_of_cuts": 0.6785714285714286,
+              "false_positive_rate": 0.013101189450094811,
+              "actual_eot": 242
+            }
+          },
+          "score": 0.03319502074688797,
+          "inferences": 13398,
+          "causal_input_trace_digest": "a54821a622194d6a6e6959c64315319f7018f136a5e295133f2a924505f5034b"
+        }
+      ],
+      "threshold_selection": "Worst-language F1 on separate original DEV calibration families, actual predicted resets at every threshold",
+      "monitor_families_disjoint_from_calibration": true,
+      "test_used": false,
+      "frozen_teacher_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc"
+    },
+    "recovery_launcher.json": {
+      "pid": 204801,
+      "start_ticks": "547243",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "module": "turn_v2.uploaded_vi_en_recover_after_reboot_v1"
+    },
+    "recovery_status.json": {
+      "stage": "RECOVERY_COMPLETE_TRAINING_VERIFIED",
+      "pid": 204801,
+      "start_ticks": "547243",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "at_utc": "2026-11-04T07:29:15.294030+00:00",
+      "worker": {
+        "pid": 205061,
+        "start_ticks": "547555",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "module": "turn_v2.multilingual_malbert_vi_en_uploaded_train_v4",
+        "resumed_from_checkpoint_step": 1505080,
+        "recovery_folder": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834"
+      },
+      "step": 1505580,
+      "branch_step": 40500
+    },
+    "recovery_training_verification.json": {
+      "complete": true,
+      "verified": true,
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "worker": {
+        "pid": 205061,
+        "start_ticks": "547555",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "module": "turn_v2.multilingual_malbert_vi_en_uploaded_train_v4",
+        "resumed_from_checkpoint_step": 1505080,
+        "recovery_folder": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834"
+      },
+      "before": {
+        "step": 1505080,
+        "branch_step": 40000,
+        "epoch_zero_based": 0,
+        "cursor": 3528,
+        "active_lanes": 16,
+        "uploaded_rows_seen": 629168,
+        "uploaded_origin_exposures": {
+          "daily": 335967,
+          "factory/gen4000": 233831,
+          "factory/gen500": 27935,
+          "asr/run2b": 31435
+        },
+        "parameters": 11941122,
+        "optimizer_entries": 27,
+        "fingerprint": {
+          "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+          "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "parameters": 11941122,
+          "drive_replay_rows": 0,
+          "code_sha256": {
+            "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+            "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+            "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+            "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+          }
+        },
+        "checkpoint_sha256": "b3c80475a124b345c76768280ef2f663ab1771a0fedc3e825fb6966a758bfe09",
+        "all_rng_sampler_conversation_lanes_verified": true,
+        "all_model_weights_finite": true
+      },
+      "after": {
+        "step": 1505580,
+        "branch_step": 40500,
+        "epoch_zero_based": 0,
+        "cursor": 3567,
+        "active_lanes": 16,
+        "uploaded_rows_seen": 637035,
+        "uploaded_origin_exposures": {
+          "daily": 340546,
+          "factory/gen4000": 235616,
+          "factory/gen500": 28323,
+          "asr/run2b": 32550
+        },
+        "parameters": 11941122,
+        "optimizer_entries": 27,
+        "fingerprint": {
+          "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+          "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "parameters": 11941122,
+          "drive_replay_rows": 0,
+          "code_sha256": {
+            "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+            "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+            "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+            "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+          }
+        },
+        "checkpoint_sha256": "8447b1c47590a4c3751db8dd2a951348ad870a80e21e9df1edee8c194e776e85",
+        "all_rng_sampler_conversation_lanes_verified": true,
+        "all_model_weights_finite": true
+      },
+      "full_optimizer_rng_sampler_resume": true,
+      "base_model_reset": false,
+      "all_dataset_hashes_unchanged": true,
+      "disk_mount_verified": true,
+      "model_or_threshold_selected_from_test": false
+    }
+  },
+  "process": {
+    "present": true,
+    "pid": 205061,
+    "start_ticks": "547555",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_uploaded_train_v4 ",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "identity_match": true
+  },
+  "runs": {
+    "finetune": {
+      "resume_receipt.json": {
+        "step": 2350080,
+        "branch_step": 885000,
+        "epoch": 2,
+        "tasks_assigned": 8805,
+        "active_lanes": 16,
+        "optimizer_entries": 27,
+        "uploaded_rows_seen": 13906089,
+        "uploaded_origin_exposures": {
+          "daily": 7356545,
+          "factory/gen4000": 5226992,
+          "factory/gen500": 576417,
+          "asr/run2b": 746135
+        },
+        "parameters": 11941122,
+        "source_order_cursor_and_all_rng_preserved": true,
+        "drive_replay_rows": 0
+      },
+      "best_report.json": {
+        "run": "finetune",
+        "step": 2175080,
+        "branch_step": 710000,
+        "epoch": 2,
+        "dev": {
+          "threshold": 0.1,
+          "by_language": {
+            "vi": {
+              "samples": 18627,
+              "tp": 140,
+              "tn": 17840,
+              "fp": 201,
+              "fn": 446,
+              "accuracy": 0.9652654748483385,
+              "eot_f1": 0.30204962243797195,
+              "eot_precision": 0.41055718475073316,
+              "eot_recall": 0.23890784982935154,
+              "false_share_of_cuts": 0.5894428152492669,
+              "false_positive_rate": 0.011141289285516325,
+              "actual_eot": 586
+            },
+            "en": {
+              "samples": 16360,
+              "tp": 311,
+              "tn": 15343,
+              "fp": 321,
+              "fn": 385,
+              "accuracy": 0.9568459657701711,
+              "eot_f1": 0.4683734939759036,
+              "eot_precision": 0.4920886075949367,
+              "eot_recall": 0.4468390804597701,
+              "false_share_of_cuts": 0.5079113924050633,
+              "false_positive_rate": 0.02049284984678243,
+              "actual_eot": 696
+            }
+          },
+          "score": 0.30204962243797195,
+          "by_domain": [
+            {
+              "domain": "asr",
+              "language": "en",
+              "samples": 4845,
+              "tp": 76,
+              "tn": 4473,
+              "fp": 83,
+              "fn": 213,
+              "accuracy": 0.93890608875129,
+              "eot_f1": 0.3392857142857143,
+              "eot_precision": 0.4779874213836478,
+              "eot_recall": 0.2629757785467128,
+              "false_share_of_cuts": 0.5220125786163522,
+              "false_positive_rate": 0.018217734855136083,
+              "actual_eot": 289
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "samples": 6000,
+              "tp": 19,
+              "tn": 5694,
+              "fp": 37,
+              "fn": 250,
+              "accuracy": 0.9521666666666667,
+              "eot_f1": 0.11692307692307692,
+              "eot_precision": 0.3392857142857143,
+              "eot_recall": 0.07063197026022305,
+              "false_share_of_cuts": 0.6607142857142857,
+              "false_positive_rate": 0.0064561158611062645,
+              "actual_eot": 269
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "samples": 3541,
+              "tp": 96,
+              "tn": 3300,
+              "fp": 85,
+              "fn": 60,
+              "accuracy": 0.9590511155040949,
+              "eot_f1": 0.56973293768546,
+              "eot_precision": 0.5303867403314917,
+              "eot_recall": 0.6153846153846154,
+              "false_share_of_cuts": 0.4696132596685083,
+              "false_positive_rate": 0.025110782865583457,
+              "actual_eot": 156
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "samples": 4447,
+              "tp": 58,
+              "tn": 4250,
+              "fp": 63,
+              "fn": 76,
+              "accuracy": 0.9687429727906454,
+              "eot_f1": 0.4549019607843137,
+              "eot_precision": 0.4793388429752066,
+              "eot_recall": 0.43283582089552236,
+              "false_share_of_cuts": 0.5206611570247934,
+              "false_positive_rate": 0.014607002086714584,
+              "actual_eot": 134
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "samples": 4460,
+              "tp": 110,
+              "tn": 4164,
+              "fp": 94,
+              "fn": 92,
+              "accuracy": 0.9582959641255605,
+              "eot_f1": 0.541871921182266,
+              "eot_precision": 0.5392156862745098,
+              "eot_recall": 0.5445544554455446,
+              "false_share_of_cuts": 0.46078431372549017,
+              "false_positive_rate": 0.02207609206200094,
+              "actual_eot": 202
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "samples": 3669,
+              "tp": 60,
+              "tn": 3463,
+              "fp": 66,
+              "fn": 80,
+              "accuracy": 0.9602071409103298,
+              "eot_f1": 0.45112781954887216,
+              "eot_precision": 0.47619047619047616,
+              "eot_recall": 0.42857142857142855,
+              "false_share_of_cuts": 0.5238095238095238,
+              "false_positive_rate": 0.018702181921224144,
+              "actual_eot": 140
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "samples": 3514,
+              "tp": 29,
+              "tn": 3406,
+              "fp": 59,
+              "fn": 20,
+              "accuracy": 0.9775184974388161,
+              "eot_f1": 0.4233576642335766,
+              "eot_precision": 0.32954545454545453,
+              "eot_recall": 0.5918367346938775,
+              "false_share_of_cuts": 0.6704545454545454,
+              "false_positive_rate": 0.017027417027417027,
+              "actual_eot": 49
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "samples": 4511,
+              "tp": 3,
+              "tn": 4433,
+              "fp": 35,
+              "fn": 40,
+              "accuracy": 0.9833739747284416,
+              "eot_f1": 0.07407407407407407,
+              "eot_precision": 0.07894736842105263,
+              "eot_recall": 0.06976744186046512,
+              "false_share_of_cuts": 0.9210526315789473,
+              "false_positive_rate": 0.00783348254252462,
+              "actual_eot": 43
+            }
+          ],
+          "inferences": 35270,
+          "causal_input_trace_digest": "b3633e07176315df23fb9a4812914fe8e1a29a59a8f80101df00fccf7c5ed7b0",
+          "cases": [
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "ừ",
+              "future": "trong ngành",
+              "p_eot": 0.0003313219058327377,
+              "stream_key": "asr:004019263585.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "yeah",
+              "future": "in the",
+              "p_eot": 0.010671623982489109,
+              "stream_key": "asr:004019263585.en"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "giám",
+              "future": "sát an",
+              "p_eot": 0.000430768501246348,
+              "stream_key": "asr:713ed7dd87d2.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "what",
+              "future": "is safety",
+              "p_eot": 0.0003204549429938197,
+              "stream_key": "asr:713ed7dd87d2.en"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "do",
+              "future": "you shop",
+              "p_eot": 0.00038394512375816703,
+              "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "bạn",
+              "future": "có mua",
+              "p_eot": 0.0007645888836123049,
+              "stream_key": "daily:topical_chat-t_f462e743-5ba4-4282-9099-3d1a4e1bcf48.s0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "hey",
+              "future": "there i",
+              "p_eot": 0.0006437812699005008,
+              "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "chào",
+              "future": "em chị",
+              "p_eot": 0.008849087171256542,
+              "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "hi",
+              "future": "how can",
+              "p_eot": 0.06045599281787872,
+              "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "hello",
+              "future": "what have",
+              "p_eot": 0.04649268463253975,
+              "stream_key": "daily:personachat-train-0-1160.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "chào",
+              "future": "hôm nay",
+              "p_eot": 0.016649074852466583,
+              "stream_key": "daily:personachat-train-0-1160.s0.vi"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "em",
+              "future": "carlos lệnh",
+              "p_eot": 0.0011447661090642214,
+              "stream_key": "factory:gen2000__r01257"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "handover",
+              "future": "done by",
+              "p_eot": 0.014980880543589592,
+              "stream_key": "factory:gen2000__r00318"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "đêm",
+              "future": "nay phải",
+              "p_eot": 0.0004949252470396459,
+              "stream_key": "factory:gen2000__r01122"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "line",
+              "future": "three oven",
+              "p_eot": 0.007443833630532026,
+              "stream_key": "factory:gen2000__r01941"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "hey there",
+              "future": "i m",
+              "p_eot": 0.14724601805210114,
+              "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "chào em",
+              "future": "chị muốn",
+              "p_eot": 0.4417343735694885,
+              "stream_key": "daily:taskmaster3-dlg-26826004-562a-4446-9ffc-a0c6882e251b.s0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "by profession",
+              "future": "i babysit",
+              "p_eot": 0.8753870129585266,
+              "stream_key": "daily:personachat-train-0-2798.s0.en"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "chào em",
+              "future": "chào anh",
+              "p_eot": 0.14453117549419403,
+              "stream_key": "factory:gen2000__r00070"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "morning everyone",
+              "future": "wheel on",
+              "p_eot": 0.9336065649986267,
+              "stream_key": "factory:gen2000__r00162"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "xin chào anh",
+              "future": "em có",
+              "p_eot": 0.1131649985909462,
+              "stream_key": "daily:taskmaster2-dlg-5cd40c7f-b3b8-439a-8c86-6a7332bc0ca5.s0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "i need movie tickets for tonight okay",
+              "future": "can you",
+              "p_eot": 0.37734973430633545,
+              "stream_key": "daily:taskmaster3-dlg-3aaa7033-e324-49e6-a7cd-15e8654ccff5.s0.en"
+            },
+            {
+              "domain": "daily",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "i babysit pets",
+              "future": "what do",
+              "p_eot": 0.9138145446777344,
+              "stream_key": "daily:personachat-train-0-2798.s0.en"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "chào anh dũng",
+              "future": "máy phay",
+              "p_eot": 0.0005250608082860708,
+              "stream_key": "factory:gen2000__r00070"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "hello everyone welcome to my channel",
+              "future": "today i",
+              "p_eot": 0.0018473407253623009,
+              "stream_key": "asr:6581b23ab9b6.en"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "mình làm nghề trông thú cưng",
+              "future": "còn bạn",
+              "p_eot": 0.8738139867782593,
+              "stream_key": "daily:personachat-train-0-2798.s0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "ừ mình thấy thương justin kia",
+              "future": "không phải",
+              "p_eot": 0.0007575466297566891,
+              "stream_key": "daily:topical_chat-t_fda80afe-83f8-4677-a81e-3c1234968c11.s11.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "hello everyone welcome to my channel today",
+              "future": "i will",
+              "p_eot": 0.37849268317222595,
+              "stream_key": "asr:6581b23ab9b6.en"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "what is safety supervision the labor safety supervision certificate",
+              "future": "as you",
+              "p_eot": 0.0004763528413604945,
+              "stream_key": "asr:713ed7dd87d2.en"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "xin chào các bạn đến với kênh của mình",
+              "future": "hôm nay",
+              "p_eot": 0.8346117734909058,
+              "stream_key": "asr:6581b23ab9b6.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "để quá trình chỉ xử lý nước của anh quang",
+              "future": "cái cái",
+              "p_eot": 0.006141225341707468,
+              "stream_key": "asr:830cdf4faf13.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "thì trải qua bể khử trùng bể khử trùng đây",
+              "future": "bạn cứ",
+              "p_eot": 0.03634371981024742,
+              "stream_key": "asr:7bca495325b5-r2-0.vi"
+            },
+            {
+              "domain": "daily",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "chào buổi tối bạn khỏe không ơi mình thích màu vàng lắm hay quá",
+              "future": "mình cũng",
+              "p_eot": 0.8665013909339905,
+              "stream_key": "daily:personachat-validation-0-171.s0.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "so it passes through the disinfection tank the disinfection tank right here",
+              "future": "just take",
+              "p_eot": 0.1234358698129654,
+              "stream_key": "asr:7bca495325b5-r2-0.en"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "i will work on the chiller",
+              "future": "it has",
+              "p_eot": 0.26689261198043823,
+              "stream_key": "asr:6581b23ab9b6.en"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "đêm nay phải chạy xong lô thép cho kellermann mười tám tiếng nữa",
+              "future": "họ đến",
+              "p_eot": 0.11275263130664825,
+              "stream_key": "factory:gen2000__r01122"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "line three oven s been down since two forty five alarm code seven",
+              "future": "i need",
+              "p_eot": 0.8975614905357361,
+              "stream_key": "factory:gen2000__r01941"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "wheel on station seven went yesterday afternoon cracked the guard panel",
+              "future": "machine stays",
+              "p_eot": 0.03559228032827377,
+              "stream_key": "factory:gen2000__r00162"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "để quá trình chỉ xử lý nước của anh quang cái cái cạo cạo cho sạch nè",
+              "future": "còn cái",
+              "p_eot": 0.23073524236679077,
+              "stream_key": "asr:830cdf4faf13.vi"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "họ đến lấy hàng",
+              "future": "máy bay",
+              "p_eot": 0.000680822879076004,
+              "stream_key": "factory:gen2000__r01122"
+            },
+            {
+              "domain": "asr",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "hello everyone today",
+              "future": "hoa binh",
+              "p_eot": 0.8870487213134766,
+              "stream_key": "asr:5b2aee7953c6.en"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "wheel on station seven went yesterday afternoon cracked the guard panel machine stays down until i clear it right yeah",
+              "future": "so is",
+              "p_eot": 0.03552885353565216,
+              "stream_key": "factory:gen2000__r00162"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "em marcus hôm qua chuyện máy ai mờ bảy rồi chị nói nè morning trang yeah i know about the machine from yesterday",
+              "future": "appreciate you",
+              "p_eot": 0.9426351189613342,
+              "stream_key": "factory:gen2000__r00967"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "hôm nay mình sẽ lâm lợi máy lạnh nó bị một tựa nó yếu quá",
+              "future": "nó đập",
+              "p_eot": 0.8615638613700867,
+              "stream_key": "asr:6581b23ab9b6.vi"
+            },
+            {
+              "domain": "asr",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "ừ trong ngành sơn việt sơn quét thủ công rất phổ biến và thường được ứng dụng trong các khâu từ xử lý cho đến thành phẩm",
+              "future": "nhưng có",
+              "p_eot": 0.16084083914756775,
+              "stream_key": "asr:004019263585.vi"
+            },
+            {
+              "domain": "factory",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "we need to stop it now tuấn chị ơi cho em nói thêm được không ạ yeah go ahead",
+              "future": "tuấn what",
+              "p_eot": 0.6564856767654419,
+              "stream_key": "factory:gen2000__r00134"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "anh nói nhanh nhé",
+              "future": "trước hết",
+              "p_eot": 0.8560308218002319,
+              "stream_key": "factory:gen2000__r00070"
+            },
+            {
+              "domain": "factory",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "mờ vê kép bảy mất mũi đồng rồi phải lo ngay yeah so the tip s gone right what can i pick up while you sort that out em linda thì xem lại máy cho chị coi còn gì không ổn",
+              "future": "em maria",
+              "p_eot": 0.9131060838699341,
+              "stream_key": "factory:gen2000__r00850"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "the",
+              "future": "completion rate",
+              "p_eot": 0.0003235598560422659,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "tn",
+              "context_tail": "the completion",
+              "future": "rate for",
+              "p_eot": 0.0005427994765341282,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "tỷ",
+              "future": "lệ hoàn",
+              "p_eot": 0.0003630314313340932,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "tn",
+              "context_tail": "tỷ lệ",
+              "future": "hoàn thành",
+              "p_eot": 0.000511992780957371,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "the completion rate for this building reached sixteen point two percent last quarter tiến độ tốt lắm chị",
+              "future": "tôi dự",
+              "p_eot": 0.001485894899815321,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "tỷ lệ hoàn thành của tòa nhà này đạt mười sáu phẩy hai phần trăm vào quý trước that s good progress",
+              "future": "we expect",
+              "p_eot": 0.4281865358352661,
+              "stream_key": "numeric/dialogue:dialogue.dev.ca102f126af9.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "fn",
+              "context_tail": "our network packet loss is at twelve to twenty two percent right now mức đó khá cao",
+              "future": "tôi sẽ",
+              "p_eot": 0.012417690828442574,
+              "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "tp",
+              "context_tail": "tỷ lệ mất gói tin trên mạng đang ở mức mười hai đến hai mươi hai phần trăm that is quite high",
+              "future": "i will",
+              "p_eot": 0.8810473680496216,
+              "stream_key": "numeric/dialogue:dialogue.dev.da8083db1ae0.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "tôi đã kiểm tra van xê e rờ một rồi",
+              "future": "chị nó",
+              "p_eot": 0.1037910208106041,
+              "stream_key": "numeric/dialogue:dialogue.dev.281f7b90d0fa.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "the new pipe section is one hundred and eighty nine millimeters in diameter vâng đúng với bảng thông số tôi nhận được rồi anh ạ good",
+              "future": "we can",
+              "p_eot": 0.9255548119544983,
+              "stream_key": "numeric/dialogue:dialogue.dev.1c275cca2338.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "fp",
+              "context_tail": "we trained the model on the c i f a r ten dataset last week nghe tuyệt đấy",
+              "future": "độ chính",
+              "p_eot": 0.895612895488739,
+              "stream_key": "numeric/dialogue:dialogue.dev.438a5dbfb9d1.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "fp",
+              "context_tail": "tuần trước tôi đã huấn luyện mô hình trên bộ dữ liệu xê i ép a rờ mười that sounds great",
+              "future": "how was",
+              "p_eot": 0.9311419129371643,
+              "stream_key": "numeric/dialogue:dialogue.dev.438a5dbfb9d1.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "chúng tôi cần triển khai tiêu chuẩn bê ét bảy nghìn bảy trăm chín mươi chín hai cho an toàn thông tin understood",
+              "future": "i will",
+              "p_eot": 0.08629614114761353,
+              "stream_key": "numeric/dialogue:dialogue.dev.ee991a7c7d86.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "en",
+              "case": "fn",
+              "context_tail": "nhiệt độ lò phản ứng hiện tại là bốn mươi chín phẩy năm độ that s concerning",
+              "future": "the safe",
+              "p_eot": 0.0018819979159161448,
+              "stream_key": "numeric/dialogue:dialogue.dev.5e5388dde2f6.b"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "the film scored ninety seven on the review platform didn t it vâng tôi cũng thấy vậy",
+              "future": "khán giả",
+              "p_eot": 0.11284374445676804,
+              "stream_key": "numeric/dialogue:dialogue.dev.4a72398f7402.a"
+            },
+            {
+              "domain": "numeric/dialogue",
+              "language": "vi",
+              "case": "tp",
+              "context_tail": "our model can predict the route up to twenty kilometers ahead điều đó thật ấn tượng",
+              "future": "chị đã",
+              "p_eot": 0.10955958068370819,
+              "stream_key": "numeric/dialogue:dialogue.dev.c2ccb2b63bd1.a"
+            }
+          ],
+          "gold_reset_in_inference": false,
+          "source_speaker_reset": false,
+          "language_id_supplied": false,
+          "max_future_words": 2,
+          "scope": "Uploaded original DEV, punctuation silver; not TEST or independent human/audio turn gold",
+          "calibration": [
+            {
+              "threshold": 0.1,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 61,
+                  "tn": 6996,
+                  "fp": 26,
+                  "fn": 149,
+                  "accuracy": 0.9758019911504425,
+                  "eot_f1": 0.4107744107744108,
+                  "eot_precision": 0.7011494252873564,
+                  "eot_recall": 0.2904761904761905,
+                  "false_share_of_cuts": 0.2988505747126437,
+                  "false_positive_rate": 0.00370264881800057,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 108,
+                  "tn": 5681,
+                  "fp": 120,
+                  "fn": 134,
+                  "accuracy": 0.9579678967400298,
+                  "eot_f1": 0.4595744680851064,
+                  "eot_precision": 0.47368421052631576,
+                  "eot_recall": 0.4462809917355372,
+                  "false_share_of_cuts": 0.5263157894736842,
+                  "false_positive_rate": 0.02068608860541286,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.4107744107744108,
+              "inferences": 13398,
+              "causal_input_trace_digest": "f4db8ec7b21e790e00c11a5d9ff83303d968b8bde846f709fa4e068b0247bded"
+            },
+            {
+              "threshold": 0.2,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 38,
+                  "tn": 7005,
+                  "fp": 17,
+                  "fn": 172,
+                  "accuracy": 0.9738661504424779,
+                  "eot_f1": 0.28679245283018867,
+                  "eot_precision": 0.6909090909090909,
+                  "eot_recall": 0.18095238095238095,
+                  "false_share_of_cuts": 0.3090909090909091,
+                  "false_positive_rate": 0.00242096268869268,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 96,
+                  "tn": 5724,
+                  "fp": 77,
+                  "fn": 146,
+                  "accuracy": 0.9630977991064041,
+                  "eot_f1": 0.46265060240963857,
+                  "eot_precision": 0.5549132947976878,
+                  "eot_recall": 0.39669421487603307,
+                  "false_share_of_cuts": 0.44508670520231214,
+                  "false_positive_rate": 0.013273573521806584,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.28679245283018867,
+              "inferences": 13398,
+              "causal_input_trace_digest": "1d22b05490ab582736b20072fe97549584a57b4e8a16e415ab4d473e105577a4"
+            },
+            {
+              "threshold": 0.30000000000000004,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 35,
+                  "tn": 7009,
+                  "fp": 13,
+                  "fn": 175,
+                  "accuracy": 0.974004424778761,
+                  "eot_f1": 0.2713178294573643,
+                  "eot_precision": 0.7291666666666666,
+                  "eot_recall": 0.16666666666666666,
+                  "false_share_of_cuts": 0.2708333333333333,
+                  "false_positive_rate": 0.001851324409000285,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 92,
+                  "tn": 5730,
+                  "fp": 71,
+                  "fn": 150,
+                  "accuracy": 0.963428760549396,
+                  "eot_f1": 0.454320987654321,
+                  "eot_precision": 0.5644171779141104,
+                  "eot_recall": 0.38016528925619836,
+                  "false_share_of_cuts": 0.43558282208588955,
+                  "false_positive_rate": 0.012239269091535943,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.2713178294573643,
+              "inferences": 13398,
+              "causal_input_trace_digest": "0424164230d1d2950b967ac0e1dd2399edad8a8717d013cf0c3fa052411d7c18"
+            },
+            {
+              "threshold": 0.4,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 35,
+                  "tn": 7009,
+                  "fp": 13,
+                  "fn": 175,
+                  "accuracy": 0.974004424778761,
+                  "eot_f1": 0.2713178294573643,
+                  "eot_precision": 0.7291666666666666,
+                  "eot_recall": 0.16666666666666666,
+                  "false_share_of_cuts": 0.2708333333333333,
+                  "false_positive_rate": 0.001851324409000285,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 89,
+                  "tn": 5734,
+                  "fp": 67,
+                  "fn": 153,
+                  "accuracy": 0.963594241270892,
+                  "eot_f1": 0.4472361809045226,
+                  "eot_precision": 0.5705128205128205,
+                  "eot_recall": 0.3677685950413223,
+                  "false_share_of_cuts": 0.42948717948717946,
+                  "false_positive_rate": 0.011549732804688847,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.2713178294573643,
+              "inferences": 13398,
+              "causal_input_trace_digest": "c95645fb5b1d18a515c0ab6394624f6719284d293cdbdd3234d4e4f900e78b03"
+            },
+            {
+              "threshold": 0.5,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 33,
+                  "tn": 7010,
+                  "fp": 12,
+                  "fn": 177,
+                  "accuracy": 0.9738661504424779,
+                  "eot_f1": 0.25882352941176473,
+                  "eot_precision": 0.7333333333333333,
+                  "eot_recall": 0.15714285714285714,
+                  "false_share_of_cuts": 0.26666666666666666,
+                  "false_positive_rate": 0.001708914839077186,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 86,
+                  "tn": 5737,
+                  "fp": 64,
+                  "fn": 156,
+                  "accuracy": 0.963594241270892,
+                  "eot_f1": 0.4387755102040816,
+                  "eot_precision": 0.5733333333333334,
+                  "eot_recall": 0.35537190082644626,
+                  "false_share_of_cuts": 0.4266666666666667,
+                  "false_positive_rate": 0.011032580589553526,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.25882352941176473,
+              "inferences": 13398,
+              "causal_input_trace_digest": "3f1510b759bf7bb865899b0c289764ed88aabf64d75ccfc9180f5f961608a85c"
+            },
+            {
+              "threshold": 0.6,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 33,
+                  "tn": 7010,
+                  "fp": 12,
+                  "fn": 177,
+                  "accuracy": 0.9738661504424779,
+                  "eot_f1": 0.25882352941176473,
+                  "eot_precision": 0.7333333333333333,
+                  "eot_recall": 0.15714285714285714,
+                  "false_share_of_cuts": 0.26666666666666666,
+                  "false_positive_rate": 0.001708914839077186,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 85,
+                  "tn": 5738,
+                  "fp": 63,
+                  "fn": 157,
+                  "accuracy": 0.963594241270892,
+                  "eot_f1": 0.4358974358974359,
+                  "eot_precision": 0.5743243243243243,
+                  "eot_recall": 0.3512396694214876,
+                  "false_share_of_cuts": 0.42567567567567566,
+                  "false_positive_rate": 0.010860196517841751,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.25882352941176473,
+              "inferences": 13398,
+              "causal_input_trace_digest": "e85d72e4ff2875e30e4d9bc7048c4e77bb4693b9e9b68aef19df6e6bb2804c63"
+            },
+            {
+              "threshold": 0.7000000000000001,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 29,
+                  "tn": 7011,
+                  "fp": 11,
+                  "fn": 181,
+                  "accuracy": 0.9734513274336283,
+                  "eot_f1": 0.232,
+                  "eot_precision": 0.725,
+                  "eot_recall": 0.1380952380952381,
+                  "false_share_of_cuts": 0.275,
+                  "false_positive_rate": 0.0015665052691540872,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 79,
+                  "tn": 5740,
+                  "fp": 61,
+                  "fn": 163,
+                  "accuracy": 0.9629323183849081,
+                  "eot_f1": 0.41361256544502617,
+                  "eot_precision": 0.5642857142857143,
+                  "eot_recall": 0.32644628099173556,
+                  "false_share_of_cuts": 0.4357142857142857,
+                  "false_positive_rate": 0.010515428374418203,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.232,
+              "inferences": 13398,
+              "causal_input_trace_digest": "1cf829e502c8c71e77587cd74c4e3efdf7f05c46cd1d37faa79efaa298254363"
+            },
+            {
+              "threshold": 0.8,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 27,
+                  "tn": 7012,
+                  "fp": 10,
+                  "fn": 183,
+                  "accuracy": 0.9733130530973452,
+                  "eot_f1": 0.21862348178137653,
+                  "eot_precision": 0.7297297297297297,
+                  "eot_recall": 0.12857142857142856,
+                  "false_share_of_cuts": 0.2702702702702703,
+                  "false_positive_rate": 0.0014240956992309882,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 74,
+                  "tn": 5745,
+                  "fp": 56,
+                  "fn": 168,
+                  "accuracy": 0.9629323183849081,
+                  "eot_f1": 0.3978494623655914,
+                  "eot_precision": 0.5692307692307692,
+                  "eot_recall": 0.30578512396694213,
+                  "false_share_of_cuts": 0.4307692307692308,
+                  "false_positive_rate": 0.009653508015859335,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.21862348178137653,
+              "inferences": 13398,
+              "causal_input_trace_digest": "411af72bb346715ab93c77e5b2ec72ddfcf2d4f99df8ed23c1eac877941eb7ae"
+            },
+            {
+              "threshold": 0.9,
+              "by_language": {
+                "vi": {
+                  "samples": 7232,
+                  "tp": 5,
+                  "tn": 7020,
+                  "fp": 2,
+                  "fn": 205,
+                  "accuracy": 0.9713772123893806,
+                  "eot_f1": 0.04608294930875576,
+                  "eot_precision": 0.7142857142857143,
+                  "eot_recall": 0.023809523809523808,
+                  "false_share_of_cuts": 0.2857142857142857,
+                  "false_positive_rate": 0.0002848191398461977,
+                  "actual_eot": 210
+                },
+                "en": {
+                  "samples": 6043,
+                  "tp": 45,
+                  "tn": 5779,
+                  "fp": 22,
+                  "fn": 197,
+                  "accuracy": 0.9637597219923879,
+                  "eot_f1": 0.2912621359223301,
+                  "eot_precision": 0.6716417910447762,
+                  "eot_recall": 0.1859504132231405,
+                  "false_share_of_cuts": 0.3283582089552239,
+                  "false_positive_rate": 0.003792449577659024,
+                  "actual_eot": 242
+                }
+              },
+              "score": 0.04608294930875576,
+              "inferences": 13398,
+              "causal_input_trace_digest": "fd7217b45cfd941db06eec09b102003e35351b3b44fa4a3f3ce099e5fe11a1a0"
+            }
+          ],
+          "threshold_selection": "Worst-language F1 on separate original DEV calibration families, actual predicted resets at every threshold",
+          "monitor_families_disjoint_from_calibration": true,
+          "test_used": false
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false
+        },
+        "uploaded_rows_seen": 11162100,
+        "uploaded_origin_exposures": {
+          "daily": 5909939,
+          "factory/gen4000": 4200998,
+          "factory/gen500": 450244,
+          "asr/run2b": 600919
+        },
+        "test_used": false,
+        "new_uploaded_only_dev": true
+      }
+    }
+  },
+  "gpu_processes": "205061, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 11198 MiB",
+  "host_boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "hdd_mounted": true,
+  "disks": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4": 43.99440383911133,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "recovery_process": {
+    "present": false
+  },
+  "old_parent_process_absent": true,
+  "checked_utc": "2026-11-05T17:19:12.751850+00:00",
+  "windows_free_gib": 19.392471313476562
+}

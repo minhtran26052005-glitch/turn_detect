@@ -1,0 +1,10 @@
+{
+  "reviewed_at_utc": "2026-10-27T04:43:44.278232+00:00",
+  "raw_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "model_or_threshold_tuned_on_test": false,
+  "files_sha256": {
+    "error_analysis_reviewed.md": "a592b379738d6962421019a7ff81ade95b7b727130130a499368bd2eb10ba5e3",
+    "crawl_plan_v2.json": "3d2b4c55606bade338162fbcb60c2d7590e082ace5f8db596e8908eefb808721"
+  },
+  "local_view_rendered_from_bounded_verified_reports": true
+}

@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "parent_step": 1465080,
+  "parent_epoch": 55,
+  "parent_cursor": 167824,
+  "parent_full_sha256": "81da3a98cb02a9e9c99d5b4304623a3dff5a26b1c5a24ca16d75e585b45c5e12",
+  "initial_child_full_sha256": "a306643a75d0eea8a6150801d595f6cfd322428cefb86bc8af0cf2ae3b66d7d3",
+  "model_optimizer_rng_preserved": true,
+  "preserved_fields": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng"
+  ],
+  "optimizer_entries": 27,
+  "parameters": 11941122,
+  "new_order_tasks": 34602,
+  "old_order_cursor_preserved_in_parent_pin": true,
+  "new_source_order_explicitly_versioned": true,
+  "old_drive_replay_not_completed_after_user_removed_it": true,
+  "drive_replay_rows": 0,
+  "train_origins": [
+    "daily",
+    "factory/gen500",
+    "asr/run2b",
+    "factory/gen4000"
+  ],
+  "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+  "test_used": false
+}

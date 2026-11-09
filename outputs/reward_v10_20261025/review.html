@@ -1,0 +1,36 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Data và reward V10</title><style>body{font:17px system-ui;max-width:1200px;margin:35px auto;padding:24px;color:#18313e;background:#f3f7fb}p{line-height:1.7}td,th{padding:12px;border-bottom:1px solid #ccc;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}section{background:white;padding:24px;border-radius:12px;margin:18px 0}.scroll{overflow:auto}</style><h1>Ba model riêng: thêm data, crawl và reward</h1><p>Đây là development ablation; chưa chứng nhận90% hội thoại thực. Nhãn tự động/proxy và silver có giới hạn. Không dùng384regression đã xem để chọn nhánh.</p><section><div class="scroll"><table><tr><th>Tiếng</th><th>Nhánh</th><th>Accuracy natural dev</th><th>F1 EOT natural dev</th><th>EOT nhầm/hold</th><th>Min slice score</th></tr><tr><td>vi</td><td>baseline</td><td>46.90%</td><td>45.39%</td><td>62.50%</td><td>45.39%</td></tr><tr><td>vi</td><td>data_sft</td><td>45.52%</td><td>46.98%</td><td>67.71%</td><td>45.52%</td></tr><tr><td>vi</td><td>ce_control</td><td>45.52%</td><td>46.98%</td><td>67.71%</td><td>45.52%</td></tr><tr><td>vi</td><td>cost_ce</td><td>45.52%</td><td>46.98%</td><td>67.71%</td><td>45.52%</td></tr><tr><td>vi</td><td>reinforce</td><td>45.52%</td><td>46.98%</td><td>67.71%</td><td>45.52%</td></tr><tr><td>en</td><td>baseline</td><td>64.56%</td><td>75.00%</td><td>65.38%</td><td>64.56%</td></tr><tr><td>en</td><td>data_sft</td><td>64.56%</td><td>75.00%</td><td>65.38%</td><td>64.56%</td></tr><tr><td>en</td><td>ce_control</td><td>64.56%</td><td>75.00%</td><td>65.38%</td><td>64.56%</td></tr><tr><td>en</td><td>cost_ce</td><td>64.56%</td><td>75.00%</td><td>65.38%</td><td>64.56%</td></tr><tr><td>en</td><td>reinforce</td><td>64.56%</td><td>75.00%</td><td>65.38%</td><td>64.56%</td></tr><tr><td>zh</td><td>baseline</td><td>76.81%</td><td>86.89%</td><td>100.00%</td><td>47.53%</td></tr><tr><td>zh</td><td>data_sft</td><td>71.01%</td><td>82.76%</td><td>93.75%</td><td>53.33%</td></tr><tr><td>zh</td><td>ce_control</td><td>71.01%</td><td>82.76%</td><td>93.75%</td><td>53.33%</td></tr><tr><td>zh</td><td>cost_ce</td><td>71.01%</td><td>82.76%</td><td>93.75%</td><td>53.33%</td></tr><tr><td>zh</td><td>reinforce</td><td>71.01%</td><td>82.76%</td><td>93.75%</td><td>53.33%</td></tr></table></div></section><section><h2>Reward và đối chứng</h2><p>REINFORCE một quyết định: đúng+1, ngắt sớm−2, chờ trênEOT−0,5. CE, cost-CE và reward cùng bắt đầu từ data_sft với cùng ngân sách. Nhãn crawl chỉ dùng CE trọng số thấp, không tạo reward.</p><pre>{
+  &quot;vi&quot;: {
+    &quot;selected_phase&quot;: &quot;data_sft&quot;,
+    &quot;RL_beats_CE&quot;: false,
+    &quot;RL_beats_cost_CE&quot;: false
+  },
+  &quot;en&quot;: {
+    &quot;selected_phase&quot;: &quot;data_sft&quot;,
+    &quot;RL_beats_CE&quot;: false,
+    &quot;RL_beats_cost_CE&quot;: false
+  },
+  &quot;zh&quot;: {
+    &quot;selected_phase&quot;: &quot;data_sft&quot;,
+    &quot;RL_beats_CE&quot;: false,
+    &quot;RL_beats_cost_CE&quot;: false
+  }
+}</pre></section><section><h2>Crawl Qwen</h2><pre>{
+  &quot;status&quot;: &quot;QWEN_CRAWL_SILVER_COMPLETE&quot;,
+  &quot;candidates&quot;: 110,
+  &quot;accepted&quot;: 104,
+  &quot;by_language&quot;: {
+    &quot;vi&quot;: 40,
+    &quot;en&quot;: 44,
+    &quot;zh&quot;: 20
+  },
+  &quot;teacher_revision&quot;: &quot;cdbee75f17c01a7cc42f958dc650907174af0554&quot;,
+  &quot;two_prompts_same_teacher_not_independent&quot;: true,
+  &quot;confidence_uncalibrated&quot;: true,
+  &quot;gold&quot;: false,
+  &quot;semantic_silver_used_only_for_low_weight_CE_not_RL_reward&quot;: true,
+  &quot;prompt_sha256&quot;: &quot;71fca48467ac2151a357ac672fae1855b7329b04b284a6f05741a5dc9f00c401&quot;,
+  &quot;input_sha256&quot;: &quot;6cb211f97ccff342360cd15f04d01a046eefeb55b3899d362654adf1ee6ec92a&quot;,
+  &quot;source_sha256&quot;: &quot;204fb74456e3ceb67901696a16d03cf2b0a71704176bf955c4c0c94d49c83f63&quot;,
+  &quot;CUDA_peak_bytes&quot;: 8686493184,
+  &quot;elapsed_seconds&quot;: 46.05430291699997
+}</pre><p><a href="summary.json">JSON số liệu</a> · <a href="../../README_REWARD_V10.md">Recipe và phạm vi</a></p></section></html>

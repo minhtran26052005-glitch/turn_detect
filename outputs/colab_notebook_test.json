@@ -1,0 +1,79 @@
+{
+  "verified_at": "2026-10-23T15:08:14.645789+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-c3f6dbe2-61f7-4504-a89a-144b110e7971c206d445-b247-49d4-92da-367bda0eb480.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "notebook": "C:\\Users\\ASUS\\Documents\\turn_detect\\a.ipynb",
+  "cells": [
+    {
+      "cell": 1,
+      "tag": "connection",
+      "status": "ok",
+      "elapsed_seconds": 0.125
+    },
+    {
+      "cell": 2,
+      "tag": "config",
+      "status": "ok",
+      "elapsed_seconds": 0.14100000000325963
+    },
+    {
+      "cell": 3,
+      "tag": "bootstrap",
+      "status": "ok",
+      "elapsed_seconds": 0.25
+    },
+    {
+      "cell": 4,
+      "tag": "dependencies",
+      "status": "ok",
+      "elapsed_seconds": 0.125
+    },
+    {
+      "cell": 6,
+      "tag": "prepare",
+      "status": "ok",
+      "elapsed_seconds": 0.8430000000007567
+    },
+    {
+      "cell": 7,
+      "tag": "tests",
+      "status": "ok",
+      "elapsed_seconds": 10.078000000001339
+    },
+    {
+      "cell": 9,
+      "tag": "data_route",
+      "status": "ok",
+      "elapsed_seconds": 32.59399999999732
+    },
+    {
+      "cell": 11,
+      "tag": "smoke",
+      "status": "ok",
+      "elapsed_seconds": 57.04699999999866
+    },
+    {
+      "cell": 13,
+      "tag": "full_train",
+      "status": "ok",
+      "elapsed_seconds": 0.10899999999674037
+    },
+    {
+      "cell": 15,
+      "tag": "holdout",
+      "status": "ok",
+      "elapsed_seconds": 0.10900000000401633
+    },
+    {
+      "cell": 16,
+      "tag": "inference",
+      "status": "ok",
+      "elapsed_seconds": 12.922000000005937
+    }
+  ],
+  "passed": true
+}

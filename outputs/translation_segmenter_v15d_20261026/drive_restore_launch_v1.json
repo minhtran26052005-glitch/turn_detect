@@ -1,0 +1,57 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-51246f56-9b61-4405-b91e-ac2afe78a51e3188af95-83c1-4d9a-b1ea-39a2d54a8b08.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "preflight": {
+      "manifest_canonical_sha256": "b1e933d1d7a9ccd17b248e734beabf1b66398aaea495f2f077ae864093e8a916",
+      "manifest_at_utc": "2026-10-27T01:45:02.245221+00:00",
+      "data_cycle": 75,
+      "checkpoint_receipts": {
+        "vi": {
+          "cycle": 75,
+          "cycle_step": 75,
+          "total_steps": 1075,
+          "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt"
+        },
+        "en": {
+          "cycle": 72,
+          "cycle_step": 100,
+          "total_steps": 1000,
+          "training_fingerprint": "d6a009106787d5370e86a241d6b9f7c270c8867c00d62a2973ee5745338c8a89",
+          "bytes": 3345996619,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt"
+        },
+        "zh": {
+          "cycle": 72,
+          "cycle_step": 100,
+          "total_steps": 1000,
+          "training_fingerprint": "f566ae4ae37f9a1ea6cd12a7cb7010f56efede11e61dccf9efb8919ff0639811",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt"
+        }
+      }
+    },
+    "launcher": {
+      "pid": 29096,
+      "start_ticks": "717109",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v1"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v1",
+      "source_sha256": "10214b937fd30135f749710dfa30f6a25158005dc61d7309b97aeffa611eef7d",
+      "log": "restore_control_v1/worker.log"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "command": "python -m pytest -q",
+  "passed": 30,
+  "failed": 0,
+  "duration_seconds": 21.78,
+  "source_snapshot": "source_weight_only_cached/source_manifest.json"
+}

@@ -1,0 +1,102 @@
+{
+  "at_utc": "2026-10-27T07:34:25.530140+00:00",
+  "stage": "COMPLETE",
+  "readback_verified": true,
+  "raw_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "drive_manifest_sha256": "ada6f3337d91c87a362003441e23d0deaba167ee1a0714853e593b7924a77c50",
+  "published_metadata": {
+    "bao_cao_ket_qua.html": {
+      "sha256": "9f40a4ea61f0a980710a8784e715b47d5c9e3785f1970abcc59a84dbde43809b",
+      "bytes": 35659,
+      "object": "objects/9f40a4ea61f0a980710a8784e715b47d5c9e3785f1970abcc59a84dbde43809b.bin",
+      "readback_verified": true
+    },
+    "review_complete_v3.html": {
+      "sha256": "9f40a4ea61f0a980710a8784e715b47d5c9e3785f1970abcc59a84dbde43809b",
+      "bytes": 35659,
+      "object": "objects/9f40a4ea61f0a980710a8784e715b47d5c9e3785f1970abcc59a84dbde43809b.bin",
+      "readback_verified": true
+    },
+    "vi_compression_evidence_v1.json": {
+      "sha256": "964ebacc5ea99dc96b967967aee9ef2013694069e53166e96612051ff123f01b",
+      "bytes": 4548,
+      "object": "objects/964ebacc5ea99dc96b967967aee9ef2013694069e53166e96612051ff123f01b.bin",
+      "readback_verified": true
+    },
+    "plain_report_receipt_v3.json": {
+      "sha256": "f14d0330106922d853a817861ba0083b41e4127895301f144873f260b66ce9d4",
+      "bytes": 1845,
+      "object": "objects/f14d0330106922d853a817861ba0083b41e4127895301f144873f260b66ce9d4.bin",
+      "readback_verified": true
+    },
+    "old_dev_c75_vi_report.json": {
+      "sha256": "168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92",
+      "bytes": 2831,
+      "object": "objects/168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92.bin",
+      "readback_verified": true
+    },
+    "old_dev_c75_vi_protocol.json": {
+      "sha256": "f763a9cf7cac0805d0f6bfaf0e67332404a7aa15688911836032f50ad3c25e25",
+      "bytes": 1025,
+      "object": "objects/f763a9cf7cac0805d0f6bfaf0e67332404a7aa15688911836032f50ad3c25e25.bin",
+      "readback_verified": true
+    },
+    "old_dev_c75_vi_drive_manifest.json": {
+      "sha256": "dec4b75b1e1a8920f1b73f894ee3d4b2e6ac74e0b9f2f0f276c31f0f63400504",
+      "bytes": 3067,
+      "object": "objects/dec4b75b1e1a8920f1b73f894ee3d4b2e6ac74e0b9f2f0f276c31f0f63400504.bin",
+      "readback_verified": true
+    },
+    "old_dev_c75_vi_samples.jsonl": {
+      "sha256": "1946961badfee4e14f6ddcfbfe0c48765f615d0fa2ed3616b34087ec668c37d4",
+      "bytes": 9250,
+      "object": "objects/1946961badfee4e14f6ddcfbfe0c48765f615d0fa2ed3616b34087ec668c37d4.bin",
+      "readback_verified": true
+    },
+    "report_qa_old_dev/qa_receipt.json": {
+      "sha256": "d86b085820c71620411ba889a0d63884c3a88e3cdba5c90d689dab0e5d8a17d6",
+      "bytes": 244,
+      "object": "objects/d86b085820c71620411ba889a0d63884c3a88e3cdba5c90d689dab0e5d8a17d6.bin",
+      "readback_verified": true
+    },
+    "README.md": {
+      "sha256": "030c9592da2fe3739641bb9e89928fd556097aeaf0c93877136f66e893d6322f",
+      "bytes": 9681,
+      "object": "objects/030c9592da2fe3739641bb9e89928fd556097aeaf0c93877136f66e893d6322f.bin",
+      "readback_verified": true
+    },
+    "source/build_translation_segmenter_plain_report.py": {
+      "sha256": "764bfdd72cd9704dc96678b75528190a050df6a0d32440ffdc6257f6be85b411",
+      "bytes": 36041,
+      "object": "objects/764bfdd72cd9704dc96678b75528190a050df6a0d32440ffdc6257f6be85b411.bin",
+      "readback_verified": true
+    },
+    "source/translation_segmenter_old_dev_c75_vi_v1.py": {
+      "sha256": "494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9",
+      "bytes": 11255,
+      "object": "objects/494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9.bin",
+      "readback_verified": true
+    },
+    "source/vi_small_model_manifest.json": {
+      "sha256": "97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60",
+      "bytes": 4441,
+      "object": "objects/97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60.bin",
+      "readback_verified": true
+    },
+    "source/vi_small_model_config.json": {
+      "sha256": "d243bcd4570da13068f814e969112a870f2d65d1db3e4bf13ba215ade300904b",
+      "bytes": 194,
+      "object": "objects/d243bcd4570da13068f814e969112a870f2d65d1db3e4bf13ba215ade300904b.bin",
+      "readback_verified": true
+    },
+    "source/translation_segmenter_diagnostic_publication_v6.py": {
+      "sha256": "aca8124cdb60acc15864d41ae20ae58df48968ab0db7a8acfb57ef69e6f97011",
+      "bytes": 5810,
+      "object": "objects/aca8124cdb60acc15864d41ae20ae58df48968ab0db7a8acfb57ef69e6f97011.bin",
+      "readback_verified": true
+    }
+  },
+  "model_inference_or_test_rescore": false,
+  "campaign_process_changed": false,
+  "large_artifacts_inherited_from_verified_manifest": true
+}

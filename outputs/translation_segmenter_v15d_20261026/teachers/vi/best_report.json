@@ -1,0 +1,79 @@
+{
+  "language": "vi",
+  "cycle": 45,
+  "stage": "trained",
+  "dev_samples": 46687,
+  "threshold_selected_on_dev": 0.595,
+  "dev_accuracy": 0.6923126352089447,
+  "dev_eot_f1": 0.6563643757625051,
+  "by_lookahead_words": {
+    "1": {
+      "samples": 23378,
+      "threshold": 0.595,
+      "accuracy": 0.6926597655915818,
+      "eot_precision": 0.5911334314659278,
+      "eot_recall": 0.7348762109795479,
+      "eot_f1": 0.6552137818513364,
+      "joint_score": 0.6552137818513364,
+      "false_eot": 4722,
+      "missed_eot": 2463,
+      "false_eot_rate": 0.3351788756388416,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9366,
+          4722
+        ],
+        [
+          2463,
+          6827
+        ]
+      ]
+    },
+    "2": {
+      "samples": 23309,
+      "threshold": 0.595,
+      "accuracy": 0.6919644772405509,
+      "eot_precision": 0.5903717663183142,
+      "eot_recall": 0.7418729817007536,
+      "eot_f1": 0.6575081091394772,
+      "joint_score": 0.6575081091394772,
+      "false_eot": 4782,
+      "missed_eot": 2398,
+      "false_eot_rate": 0.34110849561309653,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9237,
+          4782
+        ],
+        [
+          2398,
+          6892
+        ]
+      ]
+    }
+  },
+  "terminal_period_eot_recall": 0.7397367246764837,
+  "ascii_dot_eot_recall": 0.7397367246764837,
+  "terminal_period_eot_recall_by_lookahead": {
+    "1": {
+      "targets": 8964,
+      "eot_recall": 0.7365015618027666
+    },
+    "2": {
+      "targets": 8964,
+      "eot_recall": 0.7429718875502008
+    }
+  },
+  "terminal_fullstop_eot_recall_including_zh_period": 0.7397367246764837,
+  "terminal_period_targets": 17928,
+  "terminal_fullstop_targets": 17928,
+  "internal_punctuation_no_eot_rate": 0.6618635926993276,
+  "internal_punctuation_targets": 28107,
+  "selection_score_min_accuracy_f1_period_recall_and_internal_punctuation_specificity": 0.6552137818513364,
+  "test_evaluated": false,
+  "quality_target_certified": false,
+  "label_scope": "TERMINAL_PUNCTUATION_EOT_INTERNAL_PUNCTUATION_NEOT_NOT_SPEECH_GOLD",
+  "punctuation_in_model_input": false,
+  "weights_sha256": "d17cc1cb5e17e8c8efa973eadd32d314e530f45c3e2eba3be9b108df9478aa34",
+  "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/best"
+}

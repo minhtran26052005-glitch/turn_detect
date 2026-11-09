@@ -1,0 +1,154 @@
+{
+  "checked_at_utc": "2026-10-28T05:28:36.674829+00:00",
+  "status": "RESTORED_VERIFIED_TRAINING_RESUMED",
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "boot_id": "9dbdcd11-af99-4cff-be48-4bcfec9ba926",
+  "restore_receipt": {
+    "at_utc": "2026-10-28T04:40:55.496434+00:00",
+    "manifest_sha256": "1fa2c069fca4d30757d5af55722c81d3378c555fb9a25bfb94344ed381a2518e",
+    "checkpoints": {
+      "vi": {
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "epoch": 1,
+        "cursor": 800000,
+        "rows": 1618675,
+        "optimizer_steps": 13900,
+        "sampler_verified": true
+      },
+      "en": {
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "epoch": 1,
+        "cursor": 800000,
+        "rows": 876968,
+        "optimizer_steps": 13900,
+        "sampler_verified": true
+      },
+      "zh": {
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "epoch": 1,
+        "cursor": 748800,
+        "rows": 4868059,
+        "optimizer_steps": 13100,
+        "sampler_verified": true
+      }
+    },
+    "data_integrity_and_fingerprints_verified": true,
+    "optimizer_rng_and_exact_epoch_cursor_restored": true,
+    "raw_crawl_next_cycle": 85,
+    "base_model_reinitialization": false,
+    "Windows_large_downloads": false,
+    "restore_module": "restore_full_epoch_campaign_v7",
+    "cleaned_dataset_rebuild_required": false
+  },
+  "campaign_process_verified": true,
+  "current_child": {
+    "pid": 33798,
+    "start_ticks": "821673",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_train_v5",
+      "--language",
+      "vi",
+      "--generation",
+      "cycle000084_full_epoch_contiguous_v1",
+      "--epoch",
+      "1",
+      "--budget",
+      "500"
+    ],
+    "module": "turn_v2.translation_segmenter_full_train_v5",
+    "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/runs/cycle000084_full_epoch_contiguous_v1/vi/epoch_0001.log"
+  },
+  "current_child_process_verified": true,
+  "current_language": "vi",
+  "last_completed_chunk_language": "en",
+  "restored_en_epoch_step": 12500,
+  "verified_en_epoch_step_after_restore": 13000,
+  "new_optimizer_steps_verified": 500,
+  "languages": {
+    "vi": {
+      "cycle": 84,
+      "cycle_step": 12500,
+      "total_steps": 13900,
+      "bytes": 3362177675,
+      "training_fingerprint": "f2cfc55e4493fead0f5257e11a82c60bc3013dc44d14d6b82fc0049e5f8a952a",
+      "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+      "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+      "full_epoch_number": 1,
+      "full_epoch_cursor": 800000,
+      "full_epoch_rows": 1618675,
+      "full_epoch_complete": false,
+      "epoch_weighted_loss": 0.428556707320636,
+      "weights_optimizer_rng_and_sampler": true,
+      "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+      "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+      "weights_and_optimizer_remote_only": true
+    },
+    "en": {
+      "cycle": 84,
+      "cycle_step": 13000,
+      "total_steps": 14400,
+      "bytes": 3354757963,
+      "training_fingerprint": "e0c5fc5a18a01d95655116a80377c15435b3c8f54014c8b260f7dc28f5b3dfd4",
+      "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+      "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+      "full_epoch_number": 1,
+      "full_epoch_cursor": 832000,
+      "full_epoch_rows": 876968,
+      "full_epoch_complete": false,
+      "epoch_weighted_loss": 0.34369974286117877,
+      "weights_optimizer_rng_and_sampler": true,
+      "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+      "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt",
+      "weights_and_optimizer_remote_only": true
+    },
+    "zh": {
+      "cycle": 84,
+      "cycle_step": 11700,
+      "total_steps": 13100,
+      "bytes": 3394672203,
+      "training_fingerprint": "f1a7be2ebcb8bdd9204ca127ee7b64821892f880b7bd84326ec1e3435fdc5541",
+      "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+      "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+      "full_epoch_number": 1,
+      "full_epoch_cursor": 748800,
+      "full_epoch_rows": 4868059,
+      "full_epoch_complete": false,
+      "epoch_weighted_loss": 0.45283444732138783,
+      "weights_optimizer_rng_and_sampler": true,
+      "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+      "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt",
+      "weights_and_optimizer_remote_only": true
+    }
+  },
+  "cpu_prefetch_zh_live": true,
+  "backup_state": {
+    "stage": "SYNCED",
+    "at_utc": "2026-10-28T05:24:00.411253+00:00",
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+    "verified_files": 66,
+    "full_recovery_available": true,
+    "files": 66,
+    "data_cycle": 84,
+    "logical_bytes": 35880286355,
+    "object_bytes": 35761433994,
+    "pruned_objects": 1,
+    "next_check_seconds": 900
+  },
+  "backup_manifest": {
+    "captured_at_utc": "2026-10-28T05:24:00.199143+00:00",
+    "pass_complete": true,
+    "full_recovery_available": true,
+    "missing_recovery_files": []
+  },
+  "remote_free_bytes": 111095427072,
+  "new_quality_report_available": false,
+  "Windows_large_transfers": false
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"manifest_docs_synced\": true, \"weights_thresholds_unchanged\": true}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

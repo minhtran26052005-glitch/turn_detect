@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "eligible_points": 333315,
+  "by_key": {
+    "vi:k1:0": 79020,
+    "vi:k1:1": 3122,
+    "vi:k2:0": 78926,
+    "vi:k2:1": 3121,
+    "en:k1:0": 80236,
+    "en:k1:1": 4381,
+    "en:k2:0": 80128,
+    "en:k2:1": 4381
+  },
+  "unchanged_train_dev_bytes": true,
+  "source_exclusions_inherited_from_verified_manifest": true,
+  "no_test_scoring": true
+}

@@ -1,0 +1,34 @@
+{
+  "authorized_active_languages": [
+    "vi",
+    "en"
+  ],
+  "user_authorized_additional_train": true,
+  "model_optimizer_rng_preserved": true,
+  "all_model_tensors_equal": true,
+  "all_optimizer_tensors_equal": true,
+  "rng_and_sampler_state_equal": true,
+  "parent_pid": 914852,
+  "parent_start_ticks": "60017417",
+  "parent_step": 85498,
+  "parent_epoch": 6,
+  "parent_cursor": 92752,
+  "parent_rows": 200000,
+  "active_rows": 399960,
+  "additional_rows": 199960,
+  "remaining_parent_order_preserved_before_any_new_rows": true,
+  "new_branch_epoch": 0,
+  "lr_step_offset": 76097.07136,
+  "optimizer_entries": 27,
+  "parameters": 11941122,
+  "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+  "migrated_checkpoint_sha256": "4e804e19d9d0880c9e2c485ff87de534d3bf84a1e05ebf804e339c4eed96f37c",
+  "cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+  "dev_files_unchanged": {
+    "dev_rows_vi_en.jsonl": "7d9c727b99c492dd4e7c306fa942fd3688ecc5222a79e06aff73a9efc017e8b3",
+    "dev_streams_vi_en.json": "7a1ef044f1e4f01f85a81a9dfbbafe808a807e04818c8b541e9097e025b9bc2a",
+    "teacher_vi_en_dev.json": "bb93d8a17c515e5103cefeb55ebcf7bb6df8b32fea4711a2ffdc6c8e4a6b4e5f"
+  },
+  "dataset_fingerprint_changed_only_in_versioned_child": true,
+  "test_used": false
+}

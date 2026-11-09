@@ -1,0 +1,357 @@
+{
+  "checked_utc": "2026-11-03T08:29:30.365087+00:00",
+  "assigned_runtime_count": 2,
+  "runtime_checks": [
+    {
+      "runtime_index": 0,
+      "sessions": [
+        {
+          "path": "a-jvsc-518f8c9f-d660-4be5-82fd-b60ca68167bf663862cf-f36d-41e4-82b9-41ac81698f2e.ipynb",
+          "kernel": {
+            "id": "18deda51-3186-4907-98d3-be1d3ccabb39",
+            "name": "python3",
+            "last_activity": "2026-11-03T08:24:48.063730Z",
+            "execution_state": "idle",
+            "connections": 1
+          }
+        },
+        {
+          "path": "a-jvsc-d726a62d-02a6-4cdf-9bab-e96f2b736cd13091b8e6-813c-4334-afaf-6dbafb241584.ipynb",
+          "kernel": {
+            "id": "a02208e8-2817-44d5-8775-f1bb3e227ea5",
+            "name": "python3",
+            "last_activity": "2026-11-03T08:24:46.469068Z",
+            "execution_state": "idle",
+            "connections": 1
+          }
+        }
+      ],
+      "probes": [
+        {
+          "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+          "mount_namespace": "mnt:[4026532458]",
+          "pid_namespace": "pid:[4026532461]",
+          "content_identity": [
+            47,
+            1168
+          ],
+          "drive_mounted": true,
+          "identity_verified": true,
+          "generation_processes": [
+            {
+              "pid": 113294,
+              "start_ticks": "2625926",
+              "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v10/factory_spoken_campaign_v10.py"
+            }
+          ],
+          "python_processes": [
+            {
+              "pid": 88,
+              "executable": "python3",
+              "script_basename": "colab-fileshim.py",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 162,
+              "executable": "/usr/bin/python3",
+              "script_basename": "jupyter-server",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 6425,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 6858,
+              "executable": "python3",
+              "script_basename": "drive-filter.py",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 7097,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 113294,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            }
+          ],
+          "content_entries": [
+            ".config",
+            "drive",
+            "factory_spoken_campaign_v10",
+            "factory_spoken_campaign_v9",
+            "sample_data"
+          ],
+          "owner.json": {
+            "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+            "module": "factory_spoken_campaign_v10",
+            "pid": 113294,
+            "start_ticks": "2625926"
+          },
+          "state.json": {
+            "active_languages": [
+              "vi",
+              "en"
+            ],
+            "attempts": {
+              "en": 0,
+              "vi": 30148,
+              "zh": 0
+            },
+            "batch_size": 20,
+            "commit_index": 1494,
+            "cycle": 1,
+            "cycle_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            },
+            "example_counts": {
+              "en": 0,
+              "vi": 175555,
+              "zh": 0
+            },
+            "language": "vi",
+            "last_commit_sha256": "c77dda432e74539b837bdbffa2003459716e271dbf387279cdebfb7d6f4b1710",
+            "oom_retries": 1,
+            "rejected": {
+              "en": 0,
+              "vi": 23257,
+              "zh": 0
+            },
+            "schema": 10,
+            "total_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            }
+          },
+          "gpu": "NVIDIA L4, 19496 MiB, 23034 MiB, 98 %",
+          "gpu_processes": "113294, /usr/bin/python3, 19488 MiB"
+        },
+        {
+          "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+          "mount_namespace": "mnt:[4026532458]",
+          "pid_namespace": "pid:[4026532461]",
+          "content_identity": [
+            47,
+            1168
+          ],
+          "drive_mounted": true,
+          "identity_verified": true,
+          "generation_processes": [
+            {
+              "pid": 113294,
+              "start_ticks": "2625926",
+              "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v10/factory_spoken_campaign_v10.py"
+            }
+          ],
+          "python_processes": [
+            {
+              "pid": 88,
+              "executable": "python3",
+              "script_basename": "colab-fileshim.py",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 162,
+              "executable": "/usr/bin/python3",
+              "script_basename": "jupyter-server",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 6425,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 6858,
+              "executable": "python3",
+              "script_basename": "drive-filter.py",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 7097,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 113294,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            }
+          ],
+          "content_entries": [
+            ".config",
+            "drive",
+            "factory_spoken_campaign_v10",
+            "factory_spoken_campaign_v9",
+            "sample_data"
+          ],
+          "owner.json": {
+            "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+            "module": "factory_spoken_campaign_v10",
+            "pid": 113294,
+            "start_ticks": "2625926"
+          },
+          "state.json": {
+            "active_languages": [
+              "vi",
+              "en"
+            ],
+            "attempts": {
+              "en": 0,
+              "vi": 30148,
+              "zh": 0
+            },
+            "batch_size": 20,
+            "commit_index": 1494,
+            "cycle": 1,
+            "cycle_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            },
+            "example_counts": {
+              "en": 0,
+              "vi": 175555,
+              "zh": 0
+            },
+            "language": "vi",
+            "last_commit_sha256": "c77dda432e74539b837bdbffa2003459716e271dbf387279cdebfb7d6f4b1710",
+            "oom_retries": 1,
+            "rejected": {
+              "en": 0,
+              "vi": 23257,
+              "zh": 0
+            },
+            "schema": 10,
+            "total_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            }
+          },
+          "gpu": "NVIDIA L4, 19496 MiB, 23034 MiB, 100 %",
+          "gpu_processes": "113294, /usr/bin/python3, 19488 MiB"
+        }
+      ]
+    },
+    {
+      "runtime_index": 1,
+      "sessions": [
+        {
+          "path": "a-jvsc-5436ee7f-0b3f-46d5-8a7d-f2fa8e270de7d20703ae-201b-4ca8-9d60-b082192cdf43.ipynb",
+          "kernel": {
+            "id": "e2544a0f-9d63-4017-aa7f-2108353497d7",
+            "name": "python3",
+            "last_activity": "2026-11-03T08:24:47.211299Z",
+            "execution_state": "idle",
+            "connections": 2
+          }
+        }
+      ],
+      "probes": [
+        {
+          "boot_id": "e024f0d6-1375-4f0c-9d60-250856f083b5",
+          "mount_namespace": "mnt:[4026532456]",
+          "pid_namespace": "pid:[4026532459]",
+          "content_identity": [
+            45,
+            1080
+          ],
+          "drive_mounted": true,
+          "identity_verified": true,
+          "generation_processes": [],
+          "python_processes": [
+            {
+              "pid": 89,
+              "executable": "python3",
+              "script_basename": "colab-fileshim.py",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 148,
+              "executable": "/usr/bin/python3",
+              "script_basename": "jupyter-server",
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 1164,
+              "executable": "/usr/bin/python3",
+              "script_basename": null,
+              "jupyter_kernel": false
+            },
+            {
+              "pid": 1689,
+              "executable": "python3",
+              "script_basename": "drive-filter.py",
+              "jupyter_kernel": false
+            }
+          ],
+          "content_entries": [
+            ".config",
+            "drive",
+            "sample_data"
+          ],
+          "owner.json": {
+            "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+            "module": "factory_spoken_campaign_v10",
+            "pid": 113294,
+            "start_ticks": "2625926"
+          },
+          "state.json": {
+            "active_languages": [
+              "vi",
+              "en"
+            ],
+            "attempts": {
+              "en": 0,
+              "vi": 30148,
+              "zh": 0
+            },
+            "batch_size": 20,
+            "commit_index": 1494,
+            "cycle": 1,
+            "cycle_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            },
+            "example_counts": {
+              "en": 0,
+              "vi": 175555,
+              "zh": 0
+            },
+            "language": "vi",
+            "last_commit_sha256": "c77dda432e74539b837bdbffa2003459716e271dbf387279cdebfb7d6f4b1710",
+            "oom_retries": 1,
+            "rejected": {
+              "en": 0,
+              "vi": 23257,
+              "zh": 0
+            },
+            "schema": 10,
+            "total_counts": {
+              "en": 0,
+              "vi": 6891,
+              "zh": 0
+            }
+          },
+          "gpu": "NVIDIA L4, 0 MiB, 23034 MiB, 0 %",
+          "gpu_processes": ""
+        }
+      ]
+    }
+  ]
+}

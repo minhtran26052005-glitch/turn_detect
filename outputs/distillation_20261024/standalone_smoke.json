@@ -1,0 +1,28 @@
+{
+  "torch_imported": false,
+  "transformers_imported": false,
+  "demos": [
+    {
+      "text": "hà nội là thủ đô và là một trong những trung tâm văn hóa lớn của việt nam",
+      "prediction": "NEOT",
+      "prob_EOT": 0.34441885114202125,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "tôi muốn đặt vé đi",
+      "prediction": "NEOT",
+      "prob_EOT": 0.007440712005753454,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "cảm ơn bạn",
+      "prediction": "NEOT",
+      "prob_EOT": 0.007260569194139533,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    }
+  ],
+  "passed": true
+}

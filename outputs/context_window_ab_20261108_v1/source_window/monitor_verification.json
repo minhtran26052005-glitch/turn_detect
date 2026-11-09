@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "inferences": 35270,
+  "trace_sha256": "b3eb735f2e60f1963ad36ce5137c62642b39a08b07e6044c31c144b41a3a370d",
+  "source_population_context_future_labels_confusions_input_hashes_verified": true,
+  "canonical_cases": 16,
+  "max_probability_delta": 1.1324882507324219e-06
+}

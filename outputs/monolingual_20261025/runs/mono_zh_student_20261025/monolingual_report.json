@@ -1,0 +1,104 @@
+{
+  "status": "MONOLINGUAL_DISTILL_QAT_EXPORTED",
+  "language": "zh",
+  "overall_dev": {
+    "samples": 855,
+    "threshold": 0.49499999999999994,
+    "accuracy": 0.7929824561403509,
+    "eot_precision": 0.9064327485380117,
+    "eot_recall": 0.7828282828282829,
+    "eot_f1": 0.8401084010840109,
+    "joint_score": 0.7929824561403509,
+    "false_eot": 48,
+    "missed_eot": 129,
+    "false_eot_rate": 0.1839080459770115,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        213,
+        48
+      ],
+      [
+        129,
+        465
+      ]
+    ]
+  },
+  "dev_slices": {
+    "livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 339,
+      "threshold": 0.49499999999999994,
+      "accuracy": 0.6253687315634219,
+      "eot_precision": 0.2727272727272727,
+      "eot_recall": 0.05128205128205128,
+      "eot_f1": 0.08633093525179857,
+      "joint_score": 0.08633093525179857,
+      "false_eot": 16,
+      "missed_eot": 111,
+      "false_eot_rate": 0.07207207207207207,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          206,
+          16
+        ],
+        [
+          111,
+          6
+        ]
+      ]
+    },
+    "natural": {
+      "samples": 68,
+      "threshold": 0.49499999999999994,
+      "accuracy": 0.6323529411764706,
+      "eot_precision": 0.7755102040816326,
+      "eot_recall": 0.7307692307692307,
+      "eot_f1": 0.7524752475247525,
+      "joint_score": 0.6323529411764706,
+      "false_eot": 11,
+      "missed_eot": 14,
+      "false_eot_rate": 0.6875,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          11
+        ],
+        [
+          14,
+          38
+        ]
+      ]
+    },
+    "scicom_read_speech": {
+      "samples": 448,
+      "threshold": 0.49499999999999994,
+      "accuracy": 0.9441964285714286,
+      "eot_precision": 0.9524886877828054,
+      "eot_recall": 0.9905882352941177,
+      "eot_f1": 0.9711649365628604,
+      "joint_score": 0.9441964285714286,
+      "false_eot": 21,
+      "missed_eot": 4,
+      "false_eot_rate": 0.9130434782608695,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          21
+        ],
+        [
+          4,
+          421
+        ]
+      ]
+    }
+  },
+  "natural_dev_target_met": false,
+  "unseen_real_target_certified": false,
+  "test_evaluated": false,
+  "onnx_path": "runs/mono_zh_student_20261025/qat_best/onnx_int4",
+  "model_bytes": 548781,
+  "model_sha256": "4e744f29f761797005fe69111b28052cef57370bc5080d0b48f21bbc3f131df1",
+  "packed_vs_fake_quant_max_probability_delta": 8.937346472892571e-07,
+  "teacher_weights_sha256": "4c5bac37dc95496b430b223a101861c6c9a1468358c8574d80bf396e24c1ae13",
+  "data_manifest_sha256": "5b5e5482290cefc8a6c4affa1e5f82be267e854541726163f4fa3dbdde6ef002",
+  "source_sha256": "d09fb147657012027810d4074b653251fd8026fa11445cf7ea0cf942b7ce8db7"
+}

@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "raw_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "scope": "Scored clean diagnostic rows only; no reserve label read",
+  "languages": {
+    "vi": {
+      "counts": {
+        "rows": 39167,
+        "label:EOT": 16777,
+        "lookahead:2": 19663,
+        "lookahead:1": 19504,
+        "label:NEOT": 22390
+      },
+      "eligible_test_source_pages_46_75": 556,
+      "initial_reserved_pages": 107,
+      "clean_source_groups": 432,
+      "by_source": {
+        "hf:fineweb2:vie_Latn": {
+          "rows": 39123,
+          "label:EOT": 16769,
+          "label:NEOT": 22354,
+          "clean_source_pages": 430,
+          "sample_origin": {
+            "dataset": "HuggingFaceFW/fineweb-2",
+            "license_recorded_by_crawler": "ODC-By-1.0",
+            "kind": "web",
+            "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:0356fcda-8189-4a3f-80a5-7e7d86372f23>",
+            "source_title": "Tiến trình phân vùng đĩa đơn giản là việc chia đĩa ra nhiều phần riêng, không phụ thuộc vào nhau. Nó giống như việc xây dựng tường ở trong nhà: khi bạn thêm đồ ",
+            "source_url": "http://www.debian.org/releases/etch/mips/ch03s05.html.vi",
+            "example_id": "00007e82cba7434d732839b876e469d611f44630d11cc28f83faa3f939daf337"
+          }
+        },
+        "wiki:vi": {
+          "rows": 44,
+          "label:NEOT": 36,
+          "label:EOT": 8,
+          "clean_source_pages": 2,
+          "sample_origin": {
+            "dataset": "Wikipedia API",
+            "license_recorded_by_crawler": "CC-BY-SA-4.0",
+            "kind": "encyclopedia",
+            "source_id": "vi:wiki:vi:8570",
+            "source_title": "Trí tuệ nhân tạo",
+            "source_url": "https://huggingface.co/datasets/Wikipedia API",
+            "example_id": "0412174e5b2ff084111a07d5f6f13a01b4e1fabff91840d8352f07d6c20208e0"
+          }
+        }
+      }
+    },
+    "en": {
+      "counts": {
+        "rows": 28155,
+        "label:EOT": 14458,
+        "lookahead:2": 14049,
+        "label:NEOT": 13697,
+        "lookahead:1": 14106
+      },
+      "eligible_test_source_pages_46_75": 560,
+      "initial_reserved_pages": 126,
+      "clean_source_groups": 400,
+      "by_source": {
+        "hf:fineweb:en": {
+          "rows": 28141,
+          "label:EOT": 14452,
+          "label:NEOT": 13689,
+          "clean_source_pages": 399,
+          "sample_origin": {
+            "dataset": "HuggingFaceFW/fineweb",
+            "license_recorded_by_crawler": "ODC-By-1.0",
+            "kind": "web",
+            "source_id": "en:hf:fineweb:en:<urn:uuid:e3caf06f-b95d-4eba-b15d-96550c70ec45>",
+            "source_title": "Who Can You Trust With Your Asset?",
+            "source_url": "http://www.realpropertymgt.com/who_can_you_trust_with_your_asset.html",
+            "example_id": "000404e7ae7ff938d03641fc1af1f849c4c74aafdc48bf950670c5880b471f74"
+          }
+        },
+        "wiki:en": {
+          "rows": 14,
+          "label:NEOT": 8,
+          "label:EOT": 6,
+          "clean_source_pages": 1,
+          "sample_origin": {
+            "dataset": "Wikipedia API",
+            "license_recorded_by_crawler": "CC-BY-SA-4.0",
+            "kind": "encyclopedia",
+            "source_id": "en:wiki:en:21634",
+            "source_title": "Neoclassical economics",
+            "source_url": "https://huggingface.co/datasets/Wikipedia API",
+            "example_id": "1779196d920a02d2d3f7e86ed4861ee40fbe05490c37d6391e9c9b9d14d16c9b"
+          }
+        }
+      }
+    },
+    "zh": {
+      "counts": {
+        "rows": 51871,
+        "label:NEOT": 41315,
+        "lookahead:2": 25914,
+        "lookahead:1": 25957,
+        "label:EOT": 10556
+      },
+      "eligible_test_source_pages_46_75": 982,
+      "initial_reserved_pages": 205,
+      "clean_source_groups": 386,
+      "by_source": {
+        "hf:fineweb2:cmn_Hani": {
+          "rows": 31025,
+          "label:NEOT": 22544,
+          "label:EOT": 8481,
+          "clean_source_pages": 276,
+          "sample_origin": {
+            "dataset": "HuggingFaceFW/fineweb-2",
+            "license_recorded_by_crawler": "ODC-By-1.0",
+            "kind": "web",
+            "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:5c7646b3-1d60-4db9-8700-f545112328fb>",
+            "source_title": "伦敦瑰丽酒店位于全球首屈一指的繁华都市之中心。自20世纪初以来，这座雄伟的爱德华式建筑一直是英国首都最值得骄傲的地标之一。",
+            "source_url": "http://www.rosewoodhotels.com/sc/london/about/our-story",
+            "example_id": "0002309b867389b9c3c38b2fcae8e76385434fd87427b9875f4b0800ea817cc6"
+          }
+        },
+        "hf:industrycorpus2_news_media:zh": {
+          "rows": 20786,
+          "label:NEOT": 18727,
+          "label:EOT": 2059,
+          "clean_source_pages": 109,
+          "sample_origin": {
+            "dataset": "BAAI/IndustryCorpus2_news_media",
+            "license_recorded_by_crawler": "Apache-2.0",
+            "kind": "news_media",
+            "source_id": "zh:hf:industrycorpus2_news_media:zh:342900005414",
+            "source_title": "电视新闻记者需要具备良好的新闻职业素质,这是理所当然的.尤其是出镜记者,更应该具有较高的新闻职业素质.因为出镜记者是电视新闻记者在新闻事件现场直接面对摄像机(观众),以采访者,目击者,参与者或报道者身份出现在屏幕上的电视新闻图像.出镜记者可以缩短观众与传播者之间的心理距离,是沟通节目与观众的中介,是发挥电视新闻优势最有",
+            "source_url": "https://huggingface.co/datasets/BAAI/IndustryCorpus2_news_media",
+            "example_id": "00053b9e2ad1982bf7b386df69d7c325ca42c8125de6949af8dad29c40eaf19c"
+          }
+        },
+        "wiki:zh": {
+          "rows": 60,
+          "label:NEOT": 44,
+          "label:EOT": 16,
+          "clean_source_pages": 1,
+          "sample_origin": {
+            "dataset": "Wikipedia API",
+            "license_recorded_by_crawler": "CC-BY-SA-4.0",
+            "kind": "encyclopedia",
+            "source_id": "zh:wiki:zh:42471",
+            "source_title": "城市軌道交通",
+            "source_url": "https://huggingface.co/datasets/Wikipedia API",
+            "example_id": "037cbc76f64f1c774afc4e684702a8a8ab1eb0f060575a4b26bd2b7349e4b88e"
+          }
+        }
+      }
+    }
+  }
+}

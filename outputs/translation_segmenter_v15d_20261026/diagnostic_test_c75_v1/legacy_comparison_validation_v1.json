@@ -1,0 +1,73 @@
+{
+  "created_at_utc": "2026-10-27T08:03:45.336041+00:00",
+  "scope": "VALIDATION_OF_EXISTING_LEGACY_COMPARISON_NO_RESCORE_NO_RELABEL",
+  "raw_legacy_score_retained": {
+    "accuracy": 0.784837099758874,
+    "eot_f1": 0.7065391969407265,
+    "report_sha256": "168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92"
+  },
+  "comparison_status": "UNMATCHED_TASK_CONTRACT_NOT_VALID_FOR_MODEL_RANKING",
+  "core_finding": "Weights, labels and official encoder agree; original old text was placed wholly in the new-model future slot, left slot empty. The benchmark is not task matched.",
+  "all17833_missing_recorded_future": true,
+  "model_weights_tokenizer_and_numeric_codec_verified": true,
+  "corrupted_legacy_rows_found": 0,
+  "exact_old_train_dev_overlap": 0,
+  "old_negative_prefix_matches": 12011,
+  "old_negative_total": 12220,
+  "label_error_rate_not_adjudicated": true,
+  "no_labels_changed_or_examples_removed": true,
+  "no_new_model_inference": true,
+  "vi_cycle75_training_exposure": {
+    "rows": 865075,
+    "source_pages": 8258,
+    "total_optimizer_steps": 1100,
+    "microbatch": 32,
+    "gradient_accumulation": 2,
+    "total_training_row_draws": 70400,
+    "upper_bound_unique_current_rows_seen_fraction": 0.08138022714793515,
+    "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+  },
+  "matched_prose_test_metrics_scope_only": {
+    "samples": 39167,
+    "threshold": 0.6599999999999999,
+    "accuracy": 0.8113973498097888,
+    "eot_precision": 0.7533182259630948,
+    "eot_recall": 0.8322107647374382,
+    "eot_f1": 0.7908017331709666,
+    "joint_score": 0.7908017331709666,
+    "false_eot": 4572,
+    "missed_eot": 2815,
+    "false_eot_rate": 0.20419830281375614,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        17818,
+        4572
+      ],
+      [
+        2815,
+        13962
+      ]
+    ]
+  },
+  "data_quality_known_prose_issues": {
+    "vi_noncontiguous_future_in_aligned_eot": 248,
+    "vi_aligned_eot_rows": 16777,
+    "vi_abbreviation_candidates": 52,
+    "interpretation": "Known recipe defects do not by themselves quantify or explain the entire old-dev gap."
+  },
+  "statistical_fallacy_scan": {
+    "coverage": "11/11",
+    "Simpson": "Do not pool different tasks/sources/label mixtures into one ranking.",
+    "Ecological": "Do not infer human/audio quality from text-only derived labels.",
+    "Berkson": "Old dev selected checkpoint/config/threshold for the small model.",
+    "Collider": "Error examples and heuristic flags are exploratory, not representative label-noise estimates.",
+    "Base_rate": "Old NEOT prevalence12220/17833; report F1 alongside accuracy.",
+    "Regression_to_mean": "One fixedC75 checkpoint, no threshold/checkpoint search on this audit.",
+    "Survivorship": "All17833 rows checked, none dropped to improve score.",
+    "Look_elsewhere": "Heuristic grammar flags not significance tests or certified wrong labels.",
+    "Forking_paths": "Prior raw report retained; no posthoc corrected score claimed.",
+    "Correlation_causation": "No controlled data-volume or model-size ablation, so cannot attribute the gap to more data.",
+    "Reverse_causality": "No causal direction claimed from this descriptive comparison."
+  },
+  "next_valid_protocol": "Use complete continuous source with observed left text and actual next1/2words for both EOT and NEOT, fixed weights/threshold and source-disjoint labels; do not invent future or move the evaluation boundary."
+}

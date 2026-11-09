@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"status\": \"GRACEFUL_KL_TARGET_REPAIR\", \"old_pid\": 176604, \"reason\": \"Frozen inference tensor requires normal clone before KL backward\", \"source_preserved\": \"turn_v2.continuous_v13_r2.py\", \"new_source\": \"turn_v2.continuous_v13_r3.py\", \"data_and_champions_preserved\": true}\n"
+    }
+  ],
+  "elapsed_seconds": 8.60899999999674
+}

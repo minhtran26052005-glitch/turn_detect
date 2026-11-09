@@ -1,0 +1,48 @@
+{
+  "remote": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261031_v2",
+  "report_sha256_remote": "18c8157ce0a5084a519e729c5ed526df021d3b0f7a7a5a17ba6c9dbe735722ca",
+  "transfer_bytes": 47947,
+  "local_files": {
+    "checkpoint_receipt.json": {
+      "bytes": 1007,
+      "sha256": "3a1e29eb9dc5a307329ec51c85c4f8ceed99977f3bf28ce4b64d38df8bb3b2ba"
+    },
+    "frozen_dev.json": {
+      "bytes": 1050,
+      "sha256": "4fe532afb881e3cbfc42ffbea170ae7f4c1c98d95194856ff5b2fd714075299f"
+    },
+    "input_manifest.json": {
+      "bytes": 3378,
+      "sha256": "37709d33521967c92d0a69f4dae301c126f4be9a8e82ab32eea793d5d3a2fab8"
+    },
+    "launcher.json": {
+      "bytes": 288,
+      "sha256": "bc914b071ff7db092aea7fd2c3c49fc28beea839da045757c8ba6b6b8c5ddb15"
+    },
+    "report.json": {
+      "bytes": 8451,
+      "sha256": "18c8157ce0a5084a519e729c5ed526df021d3b0f7a7a5a17ba6c9dbe735722ca"
+    },
+    "review.html": {
+      "bytes": 15809,
+      "sha256": "ecee40debef91ae1be5297d1c0782b81e1480946f450d8fd24ed4728af04c6b9"
+    },
+    "review_en.json": {
+      "bytes": 8494,
+      "sha256": "de45ddf5a6c076bdf531680d2bc6ad6387aad0c9d178991f141edc060989da5e"
+    },
+    "review_vi.json": {
+      "bytes": 9037,
+      "sha256": "42abfffe9fc1704277858771d39c787f592cef1e59a7671f9238fb79f2cfc6b8"
+    },
+    "review_zh.json": {
+      "bytes": 10071,
+      "sha256": "cb184441291868685acf987f9811b5416d4f89e2a0f5cbfff2fdba0de3ce5962"
+    },
+    "status.json": {
+      "bytes": 279,
+      "sha256": "dc93e36b518da63a1ec68076c155b1e3676d723555b4f02315c4f99ca75c9ccb"
+    }
+  },
+  "models_or_full_traces_downloaded": false
+}

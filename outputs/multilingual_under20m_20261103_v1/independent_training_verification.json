@@ -1,0 +1,68 @@
+{
+  "checked_utc": "2026-11-03T04:44:56.113947+00:00",
+  "checkpoint_step": 2500,
+  "cursor": 80000,
+  "epoch": 0,
+  "optimizer_entries": 108,
+  "parameters": {
+    "deployment": 18668738,
+    "training_total": 18964418
+  },
+  "order_complete_permutation": true,
+  "rng_optimizer_cache_source_hashes_verified": true,
+  "worker_status": {
+    "stage": "DISTILLING_UNDER20M_TRANSFORMER",
+    "pid": 427431,
+    "at_utc": "2026-11-03T04:44:56.094728+00:00",
+    "hard_parameter_limit_exclusive": 20000000,
+    "main_training_interrupted": false,
+    "run": "distill",
+    "step": 2700,
+    "epoch": 1,
+    "epochs": 8,
+    "cursor": 86400,
+    "loss": 0.2698799967765808,
+    "parameters": {
+      "deployment": 18668738,
+      "training_total": 18964418,
+      "limit_exclusive": 20000000,
+      "embedding_included": true,
+      "classifier_included": true
+    },
+    "group_size": null
+  },
+  "processes": {
+    "compact": {
+      "pid": 427431,
+      "start_ticks": "58812839",
+      "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_under20m_distill_v1 "
+    },
+    "main": {
+      "pid": 2827094,
+      "start_ticks": "50410807",
+      "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 "
+    }
+  },
+  "main_status": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T04:44:55.175561+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 747055,
+    "base_step": 486235,
+    "branch_step": 260820,
+    "current_language": "zh",
+    "counts": {
+      "vi": 6646503,
+      "en": 6707481,
+      "zh": 3338491
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.05968299971233743,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "gpu_processes": "2827094, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 3662 MiB\n427431, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 2404 MiB"
+}

@@ -1,0 +1,15 @@
+{
+  "initial_path": "runs/stream_v4_campaign_20261025/round_02/best",
+  "initial_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "data_manifest_sha256": "18a91982ead46f5fc977441e309584dfe3444512c1102d84c2cfc23d12164776",
+  "source_sha256": "e6985ce951d72f43b302f76c8eff200a1314c3ae92212be5da607fbb33a62b4e",
+  "rounds_max": 2,
+  "steps_per_round": 400,
+  "microbatch": 16,
+  "accumulation": 2,
+  "sampling": "equal languages; EN/ZH 80% conversational train, 20% read speech; equal EOT/NEOT within source",
+  "selection": "same minimum development slice accuracy/F1; preceding control remains eligible",
+  "held_or_fresh_inputs_loaded": false,
+  "old_holdout_loaded": false,
+  "early_stop": "three consecutive dev evaluations without strict improvement"
+}

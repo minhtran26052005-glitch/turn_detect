@@ -1,0 +1,52 @@
+{
+  "reason": "Final overlap self-join chooses inner records_split(language,split,disposition), causing quadratic TRAIN x DEV comparisons",
+  "faulty_query_plan": [
+    [
+      5,
+      0,
+      0,
+      "SCAN a"
+    ],
+    [
+      11,
+      0,
+      0,
+      "SEARCH b USING INDEX records_split (language=? AND split=? AND disposition=?)"
+    ]
+  ],
+  "all_source_pages_processed": 40647,
+  "candidate_rows": 8982604,
+  "committed_dispositions_have_no_pending_rows_in_all_six_partitions": true,
+  "original_modules_preserved": true,
+  "kernel_reset_or_interrupt": false,
+  "test_scoring": false,
+  "prior_workers": {
+    "audit": {
+      "pid": 13943,
+      "start_ticks": "332181",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_data_v4"
+      ],
+      "module": "turn_v2.translation_segmenter_full_data_v4",
+      "source_sha256": "00522633b267879ec7bf49bfefcdd8313733f14e069a3b186b0803b940d47a2c",
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/data_worker_v4.log"
+    },
+    "campaign": {
+      "pid": 13944,
+      "start_ticks": "332181",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_campaign_v6"
+      ],
+      "module": "turn_v2.translation_segmenter_full_campaign_v6",
+      "source_sha256": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614",
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v6.log"
+    }
+  },
+  "owned_audit_and_waiting_coordinator_stopped": true
+}

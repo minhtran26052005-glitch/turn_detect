@@ -1,0 +1,22 @@
+{
+  "step": 486335,
+  "branch_step": 100,
+  "bytes": 1624061459,
+  "optimizer_entries": 104,
+  "optimizer_and_rng_included": true,
+  "sampler_state_included": true,
+  "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+  "next_vi_batch_preview_sha256": "bac404f3eccc24257ddf27bd63a651ddc7d22b33451c53e21ad0bbc6a022e812",
+  "counts": {
+    "vi": 2542,
+    "en": 2578,
+    "zh": 1280
+  },
+  "epochs": {
+    "vi": 0,
+    "en": 0
+  },
+  "zh_cursor": "8516b688dd10f95900c8a960e1fda30f36c7d2b31170b70cedeafde259848002",
+  "first_checkpoint_torch_load_verified": true,
+  "optimizer_step_max": 486335.0
+}

@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"gpu_available\": \"NVIDIA L4\", \"onnx_providers\": [\"CPUExecutionProvider\"], \"runtime_options\": {\"session.disable_quant_qdq\": \"1\"}, \"demos\": [{\"text\": \"xin chao\", \"prediction\": \"NEOT\", \"prob_EOT\": 0.008975528039633751, \"threshold\": 0.49999999999999994, \"smoke_only\": false}, {\"text\": \"toi muon dat ve di\", \"prediction\": \"NEOT\", \"prob_EOT\": 0.009049337849958686, \"threshold\": 0.49999999999999994, \"smoke_only\": false}, {\"text\": \"cam on ban\", \"prediction\": \"NEOT\", \"prob_EOT\": 0.00831635654518109, \"threshold\": 0.49999999999999994, \"smoke_only\": false}], \"status\": \"COMPACT_CANDIDATE_INFERENCE_PASSED\"}\n"
+    }
+  ],
+  "elapsed_seconds": 7.702999999994063
+}

@@ -1,0 +1,15 @@
+{
+  "boot_id": "e024f0d6-1375-4f0c-9d60-250856f083b5",
+  "no_gpu_job": true,
+  "no_generation_or_training_job": true,
+  "only_default_content": true,
+  "python_service_pids": [
+    89,
+    148,
+    1164,
+    1689
+  ],
+  "server_id": "r-da2fb26e-9962-4341-b6b7-f8e8c3c6ef03",
+  "label": "Colab GPU L4 (1)",
+  "user_authorized_spare_runtime_shutdown": true
+}

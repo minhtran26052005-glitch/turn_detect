@@ -1,0 +1,10 @@
+{
+  "small_metadata_published_and_readback_verified": true,
+  "drive_directory": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1_metadata",
+  "file_sha256": {
+    "README.md": "147005482fdfaf413fa7fb128a0d6f13f1db5649fb46744368718d218f807093",
+    "implementation_receipt.json": "7ed13ff9c8e7b5ce4e1612e910621827e897cbdbae10b82dc47ee36365c94c96",
+    "throughput_probe_v3_report.json": "1dda8f32f88421ac87b789f0e1c9ba7a5b90ff113463b56b5592edc7f013dc9d",
+    "cache_handoff_receipt_v1.json": "3d681b4d2f8f176cf2d4336d0e79c0e96e120e0b0c0d97ab95bc665e55506080"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "stage": "LOCAL_TRAINING",
+  "round": 3,
+  "step": 200,
+  "steps_per_round": 200,
+  "loss": 0.09893005713820457,
+  "elapsed_seconds": 278.31299999999464,
+  "cuda_allocated_bytes": 1401531392
+}

@@ -1,0 +1,13 @@
+{
+  "event": "resumed existing v15d database",
+  "previous_worker_module": "turn_v2.translation_segmenter_v15d2",
+  "new_worker_module": "turn_v2.translation_segmenter_v15d3",
+  "database_copied": false,
+  "database_sha256_at_resume": "0aa97f06bd0547b52683fbd82d43389b4c3e01b9ab7188e9e955a91f8f16351d",
+  "pages_at_resume": 1894,
+  "examples_at_resume": 125617,
+  "previous_cycle": 17,
+  "next_cycle": 22,
+  "weights_or_optimizer_copied": false,
+  "stream_state_kept_in_existing_sqlite": true
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"download_runs_on\": \"Colab_CPU_and_disk_only\", \"pid\": 189231, \"purpose\": \"Cache exact pinned pretrained weights before teacher GPU phase\", \"log\": \"/content/turn_detect_v2/outputs/teacher_first_v14_20261026/pretrained_cache.log\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

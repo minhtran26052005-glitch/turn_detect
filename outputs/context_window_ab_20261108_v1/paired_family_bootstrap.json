@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "families": 211,
+  "replicates": 2000,
+  "seed": 20261108,
+  "primary_difference": -0.038139661415438786,
+  "primary_percentile95_ci": [
+    -0.06278998144475827,
+    -0.015027925489654502
+  ],
+  "language_difference_ci": {
+    "vi": [
+      -0.06278998144475827,
+      -0.015027925489654502
+    ],
+    "en": [
+      -0.03781066591377844,
+      0.011234823466250555
+    ]
+  },
+  "checks": {
+    "primary_gain_at_least_3pp": false,
+    "primary_paired_family_ci_above_zero": false,
+    "vi_f1_guard": false,
+    "vi_precision_guard": true,
+    "vi_false_cut_guard": true,
+    "en_f1_guard": true,
+    "en_precision_guard": true,
+    "en_false_cut_guard": true,
+    "asr:en:domain_f1_guard": true,
+    "asr:vi:domain_f1_guard": true,
+    "daily:en:domain_f1_guard": false,
+    "daily:vi:domain_f1_guard": false,
+    "factory:en:domain_f1_guard": false,
+    "factory:vi:domain_f1_guard": false
+  },
+  "exploratory_promising": false,
+  "adopted": false,
+  "limitations": "Single seed, previously viewed silver DEV; bootstrap conditional on these frozen outputs, not fresh sealed confirmation"
+}

@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "notebook_passed": true,
+    "originals_unchanged": true,
+    "smoke_three_optimizer_steps": true,
+    "silver_in_smoke_dataset": true,
+    "onnx_parity_passed": true,
+    "source_hashes_match_tested_code": true,
+    "holdout_unopened": true,
+    "no_90_percent_claim": true,
+    "all_code_cells_have_execution_output": true,
+    "bundle_has_data_and_code": true
+  },
+  "all_passed": true,
+  "notebook_sha256": "5d9866e42aef2a39aeb4d1b6da5956c87c43924350f139210e12aee703a518f2",
+  "bundle_sha256": "81376ac060ca2bf622c47d00ec0960edf999d692bdf67eef44d33af893c6e950"
+}

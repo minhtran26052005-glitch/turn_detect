@@ -1,0 +1,10 @@
+# Keep Colab's CUDA-enabled torch installation. Versions below match this live runtime.
+transformers==5.20.1
+datasets==4.8.5
+accelerate==1.15.0
+sentencepiece==0.2.2
+safetensors==0.8.0
+onnx==1.19.1
+onnxruntime==1.23.2
+requests>=2.32,<3
+pytest>=8.4,<9

@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-10-24T09:11:18.782639+00:00",
+  "reference": "models\\turn_v2_trial_20261024\\onnx\\model.onnx",
+  "reference_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+  "reference_bytes": 1116285156,
+  "size_budget_bytes": 111628515.6,
+  "target": {
+    "accuracy": 0.9,
+    "eot_f1": 0.9
+  },
+  "vocabulary_data": "frozen train only",
+  "selection_data": "full frozen dev only",
+  "holdout_policy": "Consumed holdout is not reopened; fresh independent quality is not claimed",
+  "methods": [
+    "Unigram vocabulary compaction retaining observed train pieces, all single-character pieces, byte tokens, registered tokens",
+    "row-wise symmetric INT8 word embeddings",
+    "ORT BASIC with ConstantFolding disabled; per-channel QUInt8 dynamic dense quantization",
+    "topological sort includes implicit If captures"
+  ],
+  "source_sha256": {
+    "compress.py": "80978f185728cdc0ad7125a9a7911991cb2d783840268964dd4a32041247a87c",
+    "evaluate_compressed.py": "2e0dda83807b8954fe4d38b6d6f2c4bd6f33343bd7e44e5dd9b5a317b8f57651",
+    "predict.py": "994e3d5df71c95b42b27b6db6408e65b81e1c819db9240d25dae6b5c7264cbf3",
+    "common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+    "metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde"
+  },
+  "holdout_marker_sha256": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba",
+  "quality_deployment_profile": {
+    "provider": "CPUExecutionProvider",
+    "batch": 1,
+    "padding_multiple": 8,
+    "threads": 4
+  },
+  "unit_tests": {
+    "passed": 30,
+    "command": "python -m pytest -q",
+    "duration_seconds": 15.29
+  }
+}

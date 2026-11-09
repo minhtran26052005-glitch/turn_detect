@@ -1,0 +1,50 @@
+{
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "chinese_training_or_eval_enabled": false,
+  "parameters": 11941122,
+  "migration": {
+    "authorized_active_languages": [
+      "vi",
+      "en"
+    ],
+    "user_instruction": "Drop Chinese everywhere; focus English and Vietnamese",
+    "model_optimizer_rng_preserved": true,
+    "optimizer_entries": 27,
+    "parent_step": 14082,
+    "parent_epoch": 0,
+    "parent_cursor": 225312,
+    "projected_cursor": 150107,
+    "parent_rows": 300000,
+    "active_rows": 200000,
+    "remaining_vi_en_order_preserved_exactly": true,
+    "all_model_tensors_equal": true,
+    "all_optimizer_tensors_equal": true,
+    "sampler_rng_numpy_python_torch_cuda_preserved": true,
+    "parent_checkpoint_sha256": "f6454ff4f1a458d4e9b13ca24f6b001af8e81791ee5f2bf601bf59c7e61fb9e1",
+    "migrated_checkpoint_sha256": "0b8cbdcd727ea70a9f17669c1a29d4338a19a53f95bd12c1fb8b9824f6ac0e18",
+    "lr_progress_preserved_by_offset": -4694.0,
+    "cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+    "parameters": 11941122,
+    "dev_counts": {
+      "vi": 2058,
+      "en": 2304
+    },
+    "checked_utc": "2026-11-03T08:01:47.016745+00:00"
+  },
+  "source": "200000filteredlockedTRAINrows,100000VI+100000EN; no new spokenimport",
+  "continuation": "Exact inheritedweights/AdamW27/RNG,projectedremainingVIENsamplerorder,cursor,LRprogress; no pretrained reset",
+  "dev": "OnlyVIENrollingcalibration+predictedreset; allZHanchorsremoved",
+  "gates": "OnlyVIEN,F1/precisiondrop<=2pp/recall<=3pp against samefrozenVIENteachercontrols",
+  "qat": "OnlyafteractualCPUFP32VIENpass,control/QATg64/g32each2epochs",
+  "benchmark": "OnlyVIENDEVcases",
+  "old135M_and_trilingual_v1_restart_allowed": false,
+  "new_spoken_data_imported": false,
+  "source_sha256": {
+    "multilingual_malbert_vi_en_train_v2.py": "1804f327830f32fb6fee4ef4117d33a1c1f0ce0c136934a2e3e0cab2dd26cb1e",
+    "malbert_turn_export_v2.py": "1d241147e9104b6a8328c9f88e673b011eecc6dd4804cda866e5a7e7a79eaa0b",
+    "bilingual_stream_evaluation_v1.py": "063aa7f64052fedf05299f619658c70980b8ff71894b4b626acf64c29fc70d76"
+  }
+}

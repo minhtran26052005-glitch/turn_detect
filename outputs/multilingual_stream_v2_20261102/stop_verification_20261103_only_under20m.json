@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-11-03T07:00:29.292875+00:00",
+  "main_status": {
+    "stage": "STOPPED_BY_REQUEST",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T07:00:09.771809+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 763915,
+    "branch_step": 277680,
+    "counts": {
+      "vi": 7075972,
+      "en": 7141244,
+      "zh": 3554299
+    }
+  },
+  "main_pid_absent": true,
+  "checkpoint_step": 763915,
+  "branch_step": 277680,
+  "checkpoint_bytes": 1624061459,
+  "checkpoint_sha256": "21004591ff5be132d6d8fc58bfacea756bf2b78d84113522f9022780e54376f8",
+  "optimizer_entries": 104,
+  "full_optimizer_rng_sampler_zhcursor_verified": true,
+  "checkpoint_torch_load_passed": true,
+  "dataset_sha_verified": true,
+  "resume_receipt": {
+    "step": 763915,
+    "branch_step": 277680,
+    "bytes": 1624061459,
+    "optimizer_entries": 104,
+    "optimizer_and_rng_included": true,
+    "sampler_state_included": true,
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "next_vi_batch_preview_sha256": "7cdb7cb8a16176ae16a73a23f5d66bd6eb5044bbe80952228ca328bca6691f3e",
+    "counts": {
+      "vi": 7075972,
+      "en": 7141244,
+      "zh": 3554299
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "zh_cursor": "407deacac190eee736a7b9c0e95c12cc40b923254c841b777dfee3e17aac0d2a"
+  },
+  "compact_status": {
+    "stage": "EXPORTING_EVALUATING_UNDER20M_CPU",
+    "pid": 427431,
+    "at_utc": "2026-11-03T06:59:15.460296+00:00",
+    "hard_parameter_limit_exclusive": 20000000,
+    "main_training_interrupted": false,
+    "run": "qat_g32",
+    "bits": 4
+  },
+  "compact_error": null,
+  "compact_final_report": null,
+  "compact_process": {
+    "present": true,
+    "pid": 427431,
+    "start_ticks": "58812839",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_under20m_distill_v1 "
+  },
+  "gpu_processes": "427431, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 636 MiB"
+}

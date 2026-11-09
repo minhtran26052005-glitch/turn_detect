@@ -1,0 +1,81 @@
+{
+  "complete": true,
+  "paragraphs_scanned": {
+    "train": 58613,
+    "dev": 3200
+  },
+  "matching_examples": 21,
+  "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+  "paragraph_database_sha256": "325d3e323814c97e4331a0394edd294650c9f4a2cb6a7529d9c94cdaaa2e6554",
+  "scope": "Exact normalized context+future contiguous spans in source722 factory TRAIN/DEV paragraphs; matches conservatively excluded",
+  "limits": "WordPiece-only collisions, equivalent truncated histories, synthetic cross-source splices and paraphrases not exhaustively audited",
+  "matches": {
+    "c93d521618ab8432ae5cc48dfdd998d9a2755af30aaea0f80005153ab51be21c": [
+      "factory_dev_normalized_context_plus_future_substring",
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "b7f3fbecc4c8f5371bc75156618cce026d4a0204d7f1ff73e49677a50c623393": [
+      "factory_dev_normalized_context_plus_future_substring",
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "9b9e832e841514d970f063aed9ba58e197733bc36abcd916eadd96cb0c97da6d": [
+      "factory_dev_normalized_context_plus_future_substring",
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "97b441ffa4bb1599cf671aa3126bd27d5823e0749b0c9840812d7b21eb065a61": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "951c8416c1ae8e1b234f11a91c5cb8bf1dd6db90544f4389de892b6860740838": [
+      "factory_dev_normalized_context_plus_future_substring",
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "4e3620d241325fbc39455f4282e50ca37ddc8562a1555e5db293b703aa82bbc6": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "a5bff67f7bb86c28388e56026e7b2a54bc3bd5398e6e50df8f3e2210babcf3ee": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "81abd8538365f4048b635c248d78c99d2f675ef8496c761da5e0c23f60ea3a55": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "68cc402340f9790d799d2cbd38e9e8cb31915d675aa236ed5365d32fececddb3": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "04d40dd5ad4c76751957a7f20f5c4a5c1ff1f054e1b5e5a3b7debec763d05835": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "824c96d3d3de2825ffcdbc0964aa26e0f0601bfc83ad08221dac65ed588ec37d": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "dfe4e30e06c4a13b8cecf419d3d7e74c53d607eaaea1fcb7dc771297d2d3a200": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "0ba2456ece3349fa8a2cfabcb1fe4825ad8c2bd858b97882a88cff9c21feb007": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "0967d77d72b7c7afaad2326b7238faa9fe52659024b6b5fe6b11d55895566338": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "f0c70b0ae6f6fccbe01fdb0aa89e3739f6c146d91df2ea188b3c8e39a50184ff": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "85cec7b9c037e5f340babef4904d43576a58a5204fdb52f1a3823fc712a82881": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "5898d2ed521aa54dabac44991b3faca11f45c200211c08aa73a0df3512a04d92": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "84baf152c5bb67e94bc71290c1a43afe7ba9307adcb05552e18de7728df03123": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "7a9af90820c17fcb4db740fc98f1cbcd2aa786d2ce1a8f2354aebe321def8267": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "6996b7e7e7e49c63a6eb3736f7ea0b6bb49e5151e4f2fa7c50d54b3865b6889a": [
+      "factory_train_normalized_context_plus_future_substring"
+    ],
+    "a9975eac4be7fde01c2ee38a6bce1fc74386d199831261ee3fca20b499d01102": [
+      "factory_train_normalized_context_plus_future_substring"
+    ]
+  }
+}

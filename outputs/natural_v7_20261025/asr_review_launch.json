@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"natural_v7_asr_review_20261025\", \"launcher_pid\": 174337, \"CPU_only\": true, \"source_sha256\": \"f63bac8a934509c958a480ab3ae3488cc2ed56953ad3336b8aafd5fdfd17f912\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.10899999999674037
+}

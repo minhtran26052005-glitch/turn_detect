@@ -1,0 +1,37 @@
+{
+  "checkpoint_step": 741935,
+  "branch_step": 255700,
+  "shared_threshold": 0.33999999999999997,
+  "selection": "Exactly new trainer policy: maximize worst VI/EN rolling DEV F1, lookahead2.",
+  "threshold_locked_before_test": true,
+  "test_used_for_selection": false,
+  "by_language": {
+    "vi": {
+      "samples": 2058,
+      "tp": 83,
+      "tn": 1963,
+      "fp": 5,
+      "fn": 7,
+      "accuracy": 0.9941690962099126,
+      "eot_f1": 0.9325842696629213,
+      "eot_precision": 0.9431818181818182,
+      "eot_recall": 0.9222222222222223,
+      "false_share_of_cuts": 0.056818181818181816,
+      "false_positive_rate": 0.002540650406504065
+    },
+    "en": {
+      "samples": 2304,
+      "tp": 117,
+      "tn": 2181,
+      "fp": 2,
+      "fn": 4,
+      "accuracy": 0.9973958333333334,
+      "eot_f1": 0.975,
+      "eot_precision": 0.9831932773109243,
+      "eot_recall": 0.9669421487603306,
+      "false_share_of_cuts": 0.01680672268907563,
+      "false_positive_rate": 0.0009161704076958314
+    }
+  },
+  "dev_streams_sha256": "8bdf8ce3f22ca295732fb03db7fd908636b0d109ddea7ce025b9ae119d3cdf94"
+}

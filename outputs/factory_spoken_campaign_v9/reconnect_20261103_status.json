@@ -1,0 +1,191 @@
+{
+  "action": "status",
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "drive_mounted": true,
+  "colab_free_gib": 235.577,
+  "processes": [],
+  "session_selection": {
+    "matching_sessions": 2,
+    "distinct_kernels": 2,
+    "selection": "same_runtime_same_process_and_filesystem_view",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "views_verified": true
+  },
+  "gpu": "23034, 22564, 0, NVIDIA L4",
+  "dependencies": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.22.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "jieba": "0.42.1"
+  },
+  "identity_verified": true,
+  "spoken_owner.json": {
+    "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 7510,
+    "start_ticks": "164260"
+  },
+  "spoken_state.json": {
+    "attempts": {
+      "en": 0,
+      "vi": 20488,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1011,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 4679,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 119330,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 15809,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 4679,
+      "zh": 0
+    }
+  },
+  "spoken_status.json": {
+    "at_unix": 1793666783.7590003,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 19.62,
+    "last_accepted": 3,
+    "last_reasons": {
+      "ValueError('digit_numeral_not_spoken_word')": 4,
+      "ValueError('expected_four_spoken_turns')": 3,
+      "ValueError('expected_two_to_eight_sentences')": 9,
+      "ValueError('spoken_turn_too_short')": 1
+    },
+    "last_rejected": 17,
+    "pid": 7510,
+    "stage": "BATCH_COMMITTED",
+    "start_ticks": "164260",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 20488,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1011,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 4679,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 119330,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 15809,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 4679,
+        "zh": 0
+      }
+    }
+  },
+  "legacy_owner.json": {
+    "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "module": "factory_dialogue_campaign_v8",
+    "pid": 5543,
+    "start_ticks": "119138"
+  },
+  "legacy_state.json": {
+    "attempts": {
+      "en": 7884,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 759,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 7572,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 203861,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "133cd7df580fc345a5d2f0ca134b688d5d501609169073ec2497fa3f9352cf8d",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 312,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 7572,
+      "vi": 10000
+    }
+  },
+  "legacy_status.json": {
+    "at_unix": 1793596259.1789675,
+    "engine_version": 8,
+    "gpu_peak_reserved_gib": 20.18,
+    "last_accepted": 29,
+    "last_reasons": {
+      "ValueError('missing_EOT_or_NEOT')": 3
+    },
+    "last_rejected": 3,
+    "pid": 5543,
+    "stage": "BATCH_COMMITTED",
+    "start_ticks": "119138",
+    "state": {
+      "attempts": {
+        "en": 7884,
+        "vi": 13936
+      },
+      "batch_size": 32,
+      "commit_index": 759,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 7572,
+        "vi": 10000
+      },
+      "example_counts": {
+        "en": 203861,
+        "vi": 245080
+      },
+      "language": "en",
+      "last_commit_sha256": "133cd7df580fc345a5d2f0ca134b688d5d501609169073ec2497fa3f9352cf8d",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 312,
+        "vi": 3936
+      },
+      "schema": 6,
+      "total_counts": {
+        "en": 7572,
+        "vi": 10000
+      }
+    }
+  },
+  "checked_utc": "2026-11-03T01:36:35.001587+00:00"
+}

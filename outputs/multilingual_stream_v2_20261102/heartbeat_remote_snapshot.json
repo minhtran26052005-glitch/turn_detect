@@ -1,0 +1,129 @@
+{
+  "checked_unix": 1793668792.474491,
+  "process_exists": true,
+  "process": {
+    "pid": 2827094,
+    "start_ticks": "50410807",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+    "state": "D"
+  },
+  "launcher.json": {
+    "pid": 2827094,
+    "start_ticks": "50410807",
+    "state": "R",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+    "module": "turn_v2.factory_stream_train_v1",
+    "base_step": 486235,
+    "source_commit": 722,
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d"
+  },
+  "status.json": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T01:19:50.045340+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 711345,
+    "base_step": 486235,
+    "branch_step": 225110,
+    "current_language": "zh",
+    "counts": {
+      "vi": 5736328,
+      "en": 5789304,
+      "zh": 2881403
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.07064119960850804,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "latest_dev.json": {
+    "step": 711235,
+    "branch_step": 225000,
+    "split": "dev",
+    "phase": "NEW_TRAINING_DEV",
+    "shared_threshold": 0.27,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9941690962099126,
+        "eot_f1": 0.9318181818181818,
+        "tp": 82,
+        "tn": 1964,
+        "fp": 4,
+        "fn": 8
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.9978298611111112,
+        "eot_f1": 0.979253112033195,
+        "tp": 118,
+        "tn": 2181,
+        "fp": 2,
+        "fn": 3
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.852,
+        "eot_f1": 0.6243654822335025,
+        "tp": 123,
+        "tn": 729,
+        "fp": 96,
+        "fn": 52
+      }
+    },
+    "static_rolling_by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9931972789115646,
+        "eot_f1": 0.9230769230769231,
+        "tp": 84,
+        "tn": 1960,
+        "fp": 8,
+        "fn": 6
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.99609375,
+        "eot_f1": 0.9620253164556962,
+        "tp": 114,
+        "tn": 2181,
+        "fp": 2,
+        "fn": 7
+      }
+    },
+    "scope": "VI/EN synthetic punctuation every-gap causal predicted-reset streaming DEV; ZH legacy punctuation anchors, not comparable human/audio gold",
+    "stream_count": 72,
+    "threshold_selected_on_rolling_dev_only": true,
+    "gold_resets_in_eval": false,
+    "sealed_test_used": false,
+    "old_probes_used": false,
+    "selection_score": 0.6243654822335025
+  },
+  "resume_receipt.json": {
+    "step": 711335,
+    "branch_step": 225100,
+    "bytes": 1624061459,
+    "optimizer_entries": 104,
+    "optimizer_and_rng_included": true,
+    "sampler_state_included": true,
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "next_vi_batch_preview_sha256": "1620a662d3d4292b76b38129e249c49c81b6b05192bdf998c916d1fcd473f855",
+    "counts": {
+      "vi": 5736077,
+      "en": 5789043,
+      "zh": 2881275
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "zh_cursor": "1e41f87ed2aed9cae5a84e5555935e968524fbe3e2dc98118974432913072bc2"
+  },
+  "ssd_free_gib": 61.618526458740234,
+  "hdd_free_gib": 23.014732360839844,
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "gpu_processes": "2827094, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 3662",
+  "checked_utc": "2026-11-03T01:19:52.319094+00:00"
+}

@@ -1,0 +1,132 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "utc_now": "2026-10-27T11:43:58Z",
+    "mounted": true,
+    "destination_exists": true,
+    "identity_matches": true,
+    "latest_manifest.json": {
+      "captured_at_utc": "2026-10-27T10:23:49.157138+00:00",
+      "pass_complete": true,
+      "full_recovery_available": true,
+      "source_proof": {
+        "module": "turn_v2.translation_segmenter_full_campaign_v4",
+        "source_sha256": "c3eb0c5aad9015080e8da67add46731067d1b387bafaaae58b80db3d5f9e84ce"
+      },
+      "active_launcher": {
+        "pid": 46063,
+        "start_ticks": "1111357",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v4"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v4",
+        "source_sha256": "c3eb0c5aad9015080e8da67add46731067d1b387bafaaae58b80db3d5f9e84ce",
+        "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/transition_v5/worker.log",
+        "max_cycles": 0
+      },
+      "data_receipt": {
+        "cycle": 84,
+        "path": "outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip",
+        "bytes": 685100467,
+        "sha256": "57dbb83c3e5a6a3309d8e6759e9661e372fc421973b78ce08ea9cd1166127bff",
+        "scope": "DATA_AND_METADATA_ONLY_NO_MODEL_WEIGHTS"
+      },
+      "checkpoints": {
+        "vi": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "1cc5b843c096b547b2ed4b9316cb1f6278f00d9a262fad09285d1584ae0735ea",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt"
+        },
+        "en": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "2c73d8ff3f23f5a642e9ee5ec6b17b99577b613b410c081dad9af5a115a65362",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt"
+        },
+        "zh": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "ee1b86616be59ff85554fdbb37e0d768891e56fca469b525463537343dac35f6",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt"
+        }
+      },
+      "full_epoch_files": []
+    },
+    "in_progress_manifest.json": {
+      "captured_at_utc": "2026-10-27T10:23:49.125444+00:00",
+      "pass_complete": false,
+      "full_recovery_available": true,
+      "source_proof": null,
+      "active_launcher": {
+        "pid": 46063,
+        "start_ticks": "1111357",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v4"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v4",
+        "source_sha256": "c3eb0c5aad9015080e8da67add46731067d1b387bafaaae58b80db3d5f9e84ce",
+        "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/transition_v5/worker.log",
+        "max_cycles": 0
+      },
+      "data_receipt": {
+        "cycle": 84,
+        "path": "outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip",
+        "bytes": 685100467,
+        "sha256": "57dbb83c3e5a6a3309d8e6759e9661e372fc421973b78ce08ea9cd1166127bff",
+        "scope": "DATA_AND_METADATA_ONLY_NO_MODEL_WEIGHTS"
+      },
+      "checkpoints": {
+        "vi": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "1cc5b843c096b547b2ed4b9316cb1f6278f00d9a262fad09285d1584ae0735ea",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt"
+        },
+        "en": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "2c73d8ff3f23f5a642e9ee5ec6b17b99577b613b410c081dad9af5a115a65362",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt"
+        },
+        "zh": {
+          "cycle": 84,
+          "cycle_step": 100,
+          "total_steps": 1400,
+          "training_fingerprint": "ee1b86616be59ff85554fdbb37e0d768891e56fca469b525463537343dac35f6",
+          "bytes": 3345996683,
+          "weights_and_optimizer_remote_only": true,
+          "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt"
+        }
+      },
+      "full_epoch_files": []
+    },
+    "gpu": "NVIDIA L4, 23034 MiB"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "current_champions": [
+    {
+      "language": "en",
+      "class": "TinyTurnGRU",
+      "config": {
+        "model_type": "deberta-v2",
+        "architecture": "tiny_turn_gru",
+        "vocab_size": 18248,
+        "embedding_size": 64,
+        "hidden_size": 128,
+        "layers": 1,
+        "teacher_size": 768,
+        "pad_token_id": 0
+      },
+      "checkpoint": "outputs/continuous_v13_20261026/cycles/000004/en/sft",
+      "checkpoint_total_parameters": 1646850,
+      "inference_parameters": 1300482,
+      "auxiliary_teacher_projection_parameters": 346368,
+      "parameter_dtype": "torch.float32",
+      "state_elements": 1646850,
+      "component_parameters": {
+        "embedding": 1167872,
+        "input_norm": 128,
+        "gru": 74496,
+        "dropout": 0,
+        "head": 57986,
+        "teacher_projection": 346368
+      },
+      "student_file_bytes": 6591493
+    },
+    {
+      "language": "vi",
+      "class": "TinyTurnGRU",
+      "config": {
+        "model_type": "deberta-v2",
+        "architecture": "tiny_turn_gru",
+        "vocab_size": 3313,
+        "embedding_size": 64,
+        "hidden_size": 96,
+        "layers": 1,
+        "teacher_size": 768,
+        "pad_token_id": 0
+      },
+      "checkpoint": "outputs/continuous_v13_20261026/cycles/000004/vi/sft",
+      "checkpoint_total_parameters": 565730,
+      "inference_parameters": 293090,
+      "auxiliary_teacher_projection_parameters": 272640,
+      "parameter_dtype": "torch.float32",
+      "state_elements": 565730,
+      "component_parameters": {
+        "embedding": 212032,
+        "input_norm": 128,
+        "gru": 46656,
+        "dropout": 0,
+        "head": 34274,
+        "teacher_projection": 272640
+      },
+      "student_file_bytes": 2267013
+    },
+    {
+      "language": "zh",
+      "class": "TinyTurnGRU",
+      "config": {
+        "model_type": "deberta-v2",
+        "architecture": "tiny_turn_gru",
+        "vocab_size": 13419,
+        "embedding_size": 64,
+        "hidden_size": 128,
+        "layers": 1,
+        "teacher_size": 768,
+        "pad_token_id": 0
+      },
+      "checkpoint": "outputs/continuous_v13_20261026/cycles/000004/zh/sft",
+      "checkpoint_total_parameters": 1337794,
+      "inference_parameters": 991426,
+      "auxiliary_teacher_projection_parameters": 346368,
+      "parameter_dtype": "torch.float32",
+      "state_elements": 1337794,
+      "component_parameters": {
+        "embedding": 858816,
+        "input_norm": 128,
+        "gru": 74496,
+        "dropout": 0,
+        "head": 57986,
+        "teacher_projection": 346368
+      },
+      "student_file_bytes": 5355269
+    }
+  ],
+  "judge": {
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "role": "automatic semantic silver labeling, not serving classifier"
+  },
+  "registered_packages": [
+    {
+      "language": "vi",
+      "path": "models\\turn_v2_distilled_qat4_20261024\\onnx",
+      "inference_parameters": 293090,
+      "onnx_bytes": 177124,
+      "onnx_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412"
+    },
+    {
+      "language": "en",
+      "path": "models\\turn_monolingual_en_20261025\\onnx",
+      "inference_parameters": 1300482,
+      "onnx_bytes": 712969,
+      "onnx_sha256": "b702da5bf187c40881a1c6a6d139c0230ce8945bd9f28e9ca1d250ee525af88d"
+    },
+    {
+      "language": "zh",
+      "path": "models\\turn_monolingual_zh_20261025\\onnx",
+      "inference_parameters": 991426,
+      "onnx_bytes": 548781,
+      "onnx_sha256": "4e744f29f761797005fe69111b28052cef57370bc5080d0b48f21bbc3f131df1"
+    }
+  ],
+  "queried_at_utc": "2026-10-25T17:41:08.394085+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "COMPLETE",
+  "pid": 3053342,
+  "at_utc": "2026-11-02T08:44:14.379562+00:00",
+  "target_met_on_verification": true,
+  "threshold": 0.75,
+  "report_sha256": "39c2ece4be19dade3f21013b12ad9940a4267c76c2d05349f7cb4c49d03cc167"
+}

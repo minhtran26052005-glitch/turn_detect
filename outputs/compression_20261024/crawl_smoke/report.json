@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-10-24T09:45:21.114751+00:00",
+  "status": "INFERENCE_COMPLETED",
+  "model": {
+    "format": "v2",
+    "smoke_only": false,
+    "threshold": 0.5449999999999999,
+    "path": "models\\turn_v2_compact_20261024\\onnx",
+    "sha256": {
+      "model.onnx": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+      "config.json": "dd4ed76cf1e35c5b74755831544c475978efc6fcf5298f75ab0a917e321ca4c7",
+      "turn_detector_config.json": "5a94d777f26a235320e25957f0cf770b737fa1751937eb5559a4478e5ad236be"
+    }
+  },
+  "predictions": 12,
+  "prediction_counts": {
+    "NEOT": 8,
+    "EOT": 4
+  },
+  "skipped": {},
+  "review_queue_size": 4,
+  "teacher": null,
+  "accepted_teacher_disagreements": 0,
+  "sources": [
+    {
+      "title": "Hà Nội",
+      "page_id": 80,
+      "extract_sha256": "73f4ba89da21250e18c661d2faf998dbe84d1aecee7d3db931e38a5f95481c6a",
+      "candidates": 2079
+    }
+  ],
+  "training_performed": false,
+  "rl_performed": false,
+  "holdout_evaluated": false,
+  "accuracy": null,
+  "review_selection": "half near the decision threshold, one high-probability EOT prefix, remaining deterministic coverage; probabilities uncalibrated",
+  "limits": "Crawled prose and silver labels do not establish dialogue accuracy or a 90% result."
+}

@@ -1,0 +1,10 @@
+{
+  "samples.json": {
+    "bytes": 955338,
+    "sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7"
+  },
+  "manifest.json": {
+    "bytes": 58294,
+    "sha256": "83dbe8315da09d44ffc77016ebdecc987cc3b8ab05f092c7edb1fd4460dd1def"
+  }
+}

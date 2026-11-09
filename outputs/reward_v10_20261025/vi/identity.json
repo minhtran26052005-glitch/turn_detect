@@ -1,0 +1,29 @@
+{
+  "language": "vi",
+  "GPU": "NVIDIA L4",
+  "training_languages": [
+    "vi"
+  ],
+  "shared_trainable_weights": false,
+  "initial_student_sha256": "09fb30dcf4a446eb350096c574c1ed54121eb55f9ad02df0fc3cc4080992dee3",
+  "initial_quant_params_sha256": "7614d933dbabba853b16ed38d85cf758bd1f1feb3e3b970ea48cfb5408e278b1",
+  "data_manifest_sha256": "8bd9efb2ebcc164664b2d42da29824ed5520a413fe21bc82fbac542d94850e2a",
+  "source_sha256": "0332604088fd199ea25077c9463132c3b3218d6ed33dc880d950847faae7bf7d",
+  "reward_source_sha256": "3338507011f5d9fe81573c96e1e22b9161364da7f63836a2205ab12d71c3d6f1",
+  "train_counts": {
+    "crawl_silver": 40,
+    "natural": 623,
+    "replay": 24000
+  },
+  "dev_counts": {
+    "natural": 145,
+    "legacy_vi": 3600
+  },
+  "no_held_evaluation_or_selection": true,
+  "training": "INT4 fake quant every forward, own frozen scales; FP32 activations",
+  "RL": "Offline one-step sampled REINFORCE with detached all-action baseline; not PPO, online interaction or a measured latency simulator",
+  "rewards": "Correct+1; premature stop-2; wait on EOT-0.5. Automatic/proxy labels. Crawl semantic silver excluded from policy reward.",
+  "matched_controls": "ce_control,cost_ce,reinforce start from same selected data_sft weights; same batch-index RNG, steps225, lr2e-4",
+  "input": "Only current/past visible text; tail truncation256; no audio/timing/future in model input",
+  "seed": 20261025
+}

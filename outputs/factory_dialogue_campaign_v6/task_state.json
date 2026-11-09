@@ -1,0 +1,238 @@
+{
+  "checked_utc": "2026-11-02T08:11:18.323165+00:00",
+  "user_instruction": "Repeat accepted VI10000 -> EN10000 until explicitly stopped",
+  "engine_version": 8,
+  "stage_observed": "SUPERSEDED_BY_SPOKEN_V9_USER_REQUEST",
+  "process": {
+    "present": true,
+    "pid": 5543,
+    "ticks": "119138",
+    "command": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py "
+  },
+  "drive_output": "MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_dialogue_campaign_v6",
+  "state_observed": {
+    "attempts": {
+      "en": 4844,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 664,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 4654,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 125242,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "d8a9b7af3a19bf9103a5a3ed592fd8fb389c39c45fb57ad1274d76a91aaa64b9",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 190,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 4654,
+      "vi": 10000
+    }
+  },
+  "recent_verified_commits": [
+    {
+      "index": 662,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 834,
+      "object_sha256": "49357a33ff0bbfaca9f7ff5faff1d042c4cd215eacab602f9f304f70652d2a4e",
+      "commit_sha256": "3c3eb20c04de2b120f0b246f3dd3bfed3ea73c01bbbdfc53f7d95bb73a4d77ec",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    },
+    {
+      "index": 663,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 818,
+      "object_sha256": "5d93eed9685e8ef95d4835df64ada349bb528c869de521d6d84b66b6fae343d4",
+      "commit_sha256": "e3c858cf6583856241295172b16abbbd19670e296393df929868331745a45dfc",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    },
+    {
+      "index": 664,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 814,
+      "object_sha256": "9632b9bfda49d34ea21a7b2adc60c08f4e2127b23c3a166bddae75d9cfceec89",
+      "commit_sha256": "d8a9b7af3a19bf9103a5a3ed592fd8fb389c39c45fb57ad1274d76a91aaa64b9",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    }
+  ],
+  "labels": "Qwen synthetic punctuation-derived; UNREVIEWED; no automatic training",
+  "source_sha256": {
+    "turn_v2\\factory_dialogue_campaign_v8.py": "2b1018f52bc8d06cd052a4057fff3282f3039c96cbe925eccbd2aec1a843fead",
+    "turn_v2\\factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb",
+    "tools\\factory_campaign_colab_v8.py": "7dba5e2a0ede2e7318cd837d9dfab5062b1474af6d49983b3470ed118c214d79"
+  },
+  "automation_id": "theo-d-i-v-ti-p-t-c-turn-detector-tr-n-colab",
+  "previous_engines": "v6/v7 exited after committed batch; never relaunch",
+  "distillation": "Old distill stopped486235; authorized factory_stream_train_v1 now on SSH from frozen722 derived data",
+  "last_successful_observation_utc": "2026-11-02T03:45:04.670110+00:00",
+  "last_verified_process": {
+    "present": true,
+    "pid": 5543,
+    "ticks": "119138",
+    "command": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py "
+  },
+  "last_notified_issue_key": "no_assigned_runtime_after_8149fd79_5543",
+  "last_notified_issue_utc": "2026-11-02T05:28:30.993636+00:00",
+  "last_probe": {
+    "assigned_runtime_count": 0,
+    "current_a_ipynb_session_found": false,
+    "worker_present": "UNKNOWN",
+    "drive_mounted": "UNKNOWN"
+  },
+  "reconnect_action": "Reconnect a.ipynb without reset; do not infer worker death or change owner until fresh verification",
+  "recovery": {
+    "old_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+    "new_boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "previous_runtime_ended_confirmed_by_user": true,
+    "confirmation_source": "Earlier explicit user confirmation previous runtime ended; new direct request Nov2 to reconnect and run background; then user replied completed Drive mount.",
+    "verified_drive_nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+    "handover_receipt": "handover/owner_224e79fd_to_8149fd79.json",
+    "handover_receipt_sha256": "0c38107d60ffcd45fc5e946df3b3b78d541c08100ef3cbe768b5d45fbb49969f",
+    "new_worker_launched": true,
+    "new_pid": 5543,
+    "new_start_ticks": "119138",
+    "notebook_kernel_busy_with_read_only_chain_audit": false,
+    "new_worker_owns_drive": true,
+    "source_hashes_verified": true,
+    "latest_commit_index_before_resume": 607,
+    "latest_commit_sha256_before_resume": "8a1116c941dd99c9f78f4eb8bb6dc80b6d6a279e641542ecdce3564e618f68fe",
+    "latest_object_readback_sha256_before_resume": "59e19fb8e4f4d7d430fd081f1b593822f643782d6d6ef5c9bc3274d11f5739d1",
+    "full_commit_chain_recovery_in_background": false,
+    "verified_resumed_generation": true,
+    "recorded_utc": "2026-11-02T02:47:25.257685+00:00",
+    "full_commit_chain_recovery_verified": true,
+    "verified_commit_chain_entries": 607,
+    "verified_resume_commit_index": 609,
+    "verified_new_accepted": 61,
+    "verified_new_examples": 1683,
+    "observed_latest_commit_index": 610,
+    "recovery_user_reported": true
+  },
+  "notified_generation_milestones": [
+    "cycle1:vi:10000"
+  ],
+  "heartbeat_trigger_utc": "2026-11-02T08:09:31.992Z",
+  "pending_recovery_authorization": {
+    "previous_runtime_ended_confirmed_by_user": true,
+    "confirmation_source": "Direct user reply: Da mount Drive, phien cu da ket thuc",
+    "confirmed_previous_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+    "new_boot_id_seen_during_direct_turn": "29c70c78-94a6-485f-98e9-1fad01196659",
+    "status": "SUPERSEDED_BY_USER_RESUME_20261102_AND_VERIFIED_HANDOVER_224e79fd_TO_8149fd79",
+    "must_verify_actual_drive_identity_owner_commits_and_no_worker_before_handover": true,
+    "does_not_authorize_unrelated_future_owner": true,
+    "recorded_utc": "2026-10-31T17:57:10.273999+00:00"
+  },
+  "last_direct_turn_observation": {
+    "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "drive_mounted": true,
+    "worker_launched": true,
+    "pid": 5543,
+    "start_ticks": "119138",
+    "ui_controller_disposed_error_found": true,
+    "vscode_window_reloaded": true,
+    "user_drive_mount_completed": true,
+    "colab_kernel_reset": false
+  },
+  "recovery_history": [
+    {
+      "old_boot_id": "ae0f9c31-1951-43c3-b1b1-5ee647c10c14",
+      "new_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+      "previous_runtime_ended_confirmed_by_user": true,
+      "confirmed_utc": "2026-10-31T03:47:07.727689+00:00",
+      "verified_drive_nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+      "drive_state_seen": {
+        "cycle": 1,
+        "vi_accepted": 10000,
+        "en_accepted": 1836,
+        "commit_index": 572
+      },
+      "new_worker_launched": true,
+      "notebook_kernel_busy_with_read_only_chain_audit": false,
+      "verified_commit_chain_entries": 572,
+      "verified_last_commit_sha256": "1dc4e18b55def12625cf8bf2772158dcc5ccfdcfa26c4b812f7240b572d4d64d",
+      "handover_receipt": "handover/owner_ae0f9c31_to_224e79fd.json",
+      "handover_receipt_sha256": "c6ac7a033b7c5e238f6c765023cfddaa79803dd200e6c37231ed2f80832fef93",
+      "new_pid": 5723,
+      "new_start_ticks": "132478",
+      "runtime_versions": {
+        "torch": "2.11.0+cu130",
+        "transformers": "5.21.0",
+        "safetensors": "0.8.0",
+        "accelerate": "1.15.0",
+        "sentencepiece": "0.2.2"
+      },
+      "verified_resumed_generation": true,
+      "verified_resume_commit_index": 574
+    }
+  ],
+  "last_resolved_issue_key": "no_assigned_runtime_after_224e79fd_5723",
+  "last_notified_recovery_utc": "2026-11-02T02:56:01.833884+00:00",
+  "last_random_review": {
+    "created_utc": "2026-11-02T03:09:33.149206+00:00",
+    "per_language": {
+      "vi": 100,
+      "en": 100
+    },
+    "unique_source_dialogues": 200,
+    "sampling_unit": "one random full speaker paragraph from each of 100 distinct accepted dialogues per language",
+    "seed": "975658149845995250",
+    "frozen_commit_index": 620,
+    "frozen_population": {
+      "vi": 10000,
+      "en": 3314
+    },
+    "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+    "selected_shards_sha_readback_verified": 158,
+    "review": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\review.html",
+    "text_vi": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\vi_100_luot_loi.txt",
+    "text_en": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\en_100_luot_loi.txt",
+    "synthetic": true,
+    "review_state": "UNREVIEWED",
+    "training_eligible": false,
+    "windows_free_gib": 21.799
+  },
+  "current_generation_liveness": "UNKNOWN",
+  "current_counts_verified": false,
+  "authorized_training_branch": {
+    "user_explicit_request_20261102": true,
+    "source_frozen_commit": 722,
+    "source_accepted": {
+      "vi": 10000,
+      "en": 6441
+    },
+    "derived_dataset_task_state": "outputs/multilingual_stream_v2_20261102/task_state.json",
+    "future_commits_not_automatically_added": true,
+    "raw_unreviewed_flags_unchanged": true
+  },
+  "windows_free_gib": 23.932,
+  "legacy_stop_requested_on_drive": true,
+  "legacy_worker_current_vm_present": false,
+  "legacy_worker_other_vm_liveness": "UNKNOWN",
+  "replacement_campaign": "outputs/factory_spoken_campaign_v9/task_state.json",
+  "old_generation_must_not_auto_resume": true
+}

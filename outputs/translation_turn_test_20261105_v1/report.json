@@ -1,0 +1,104 @@
+{
+  "complete": true,
+  "metrics": {
+    "whole_written": {
+      "all": {
+        "n": 310,
+        "chrF": 41.05562651855241,
+        "BLEU": 17.524643003835706
+      },
+      "vi2en": {
+        "n": 160,
+        "chrF": 40.94955841995433,
+        "BLEU": 13.855762847742914
+      },
+      "en2vi": {
+        "n": 150,
+        "chrF": 41.15466550432582,
+        "BLEU": 20.73003033379706
+      },
+      "tele": {
+        "n": 70,
+        "chrF": 43.009435458596165,
+        "BLEU": 21.105068482849397
+      },
+      "mt": {
+        "n": 240,
+        "chrF": 40.6734031413225,
+        "BLEU": 16.736520932356306
+      }
+    },
+    "whole_asr": {
+      "all": {
+        "n": 310,
+        "chrF": 39.619918584492716,
+        "BLEU": 14.252935517828416
+      },
+      "vi2en": {
+        "n": 160,
+        "chrF": 40.23275944913668,
+        "BLEU": 11.847681299643359
+      },
+      "en2vi": {
+        "n": 150,
+        "chrF": 39.05541272532405,
+        "BLEU": 16.289998827593468
+      },
+      "tele": {
+        "n": 70,
+        "chrF": 42.1253097982769,
+        "BLEU": 16.411523130681033
+      },
+      "mt": {
+        "n": 240,
+        "chrF": 39.123100712271494,
+        "BLEU": 13.677321738608368
+      }
+    },
+    "detector_asr": {
+      "all": {
+        "n": 310,
+        "chrF": 39.31722271776538,
+        "BLEU": 13.913011954854412
+      },
+      "vi2en": {
+        "n": 160,
+        "chrF": 40.103985090087775,
+        "BLEU": 11.73601810757018
+      },
+      "en2vi": {
+        "n": 150,
+        "chrF": 38.59318996133518,
+        "BLEU": 15.746387047778097
+      },
+      "tele": {
+        "n": 70,
+        "chrF": 41.80065164623093,
+        "BLEU": 15.97245688245727
+      },
+      "mt": {
+        "n": 240,
+        "chrF": 38.82394129925097,
+        "BLEU": 13.360284641798273
+      }
+    }
+  },
+  "model_parameters": 596049920,
+  "translation_model_sha256": "c32df2ca279d43140551bdf44d026722887780ece9cc33a465b36afe778330ac",
+  "eval_sha256": "37ec2f88414da996d2b29792d5f88116b77f42f3879b22ae25ee7fefa0973250",
+  "records_sha256": "fa821bd9da731373b85f486ee84a7b7504593ce6036e3e491d3dd4d7ad549a24",
+  "segmentation_sha256": "5af0a95c37ea45b97737d272da6d8d46f24717a146b8e98fac7306532a60f273",
+  "turn_detector_checkpoint": 1945080,
+  "turn_detector_threshold": 0.1,
+  "translation_template": "B",
+  "compute": "FP32 GPU, greedy, KV cache enabled; CPU exact CLI demo separate",
+  "reference_never_in_prompt": true,
+  "test_used_for_training_or_threshold_selection": false,
+  "forced_flush_at_each_original_message": true,
+  "scope": "Measures within-message segmentation impact, not real-time end-of-turn delay across messages",
+  "segmentation_chunks": 343,
+  "baseline_messages": 310,
+  "source_word_conservation_all_passed": true,
+  "sacrebleu_version": "2.6.0",
+  "main_training_unchanged": true
+}

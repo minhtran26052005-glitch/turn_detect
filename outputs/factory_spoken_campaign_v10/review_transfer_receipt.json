@@ -1,0 +1,10 @@
+{
+  "review_snapshot.json": {
+    "bytes": 19052,
+    "sha256": "7dc5c5d16e5789884913007cc5df1d2f6b0ff5c157b013543a2492466a8cbe8a"
+  },
+  "review.html": {
+    "bytes": 5778,
+    "sha256": "2be318e0ea00e715b973237d28e67778735c352878e081d3d97e8bfdadef6253"
+  }
+}

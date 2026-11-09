@@ -1,0 +1,9 @@
+{
+  "run": "finetune",
+  "step": 85500,
+  "optimizer_entries": 27,
+  "checkpoint_sha256": "94c7709e390e664ebe97afd56cfa28b4d1064634fb25d866cbca616a378681fd",
+  "torch_load_passed": true,
+  "optimizer_rng_order_source_verified": true,
+  "parameters": 11941122
+}

@@ -1,0 +1,7 @@
+{
+  "pid": 849725,
+  "start_ticks": "15860895",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "module": "turn_v2.conflict_weighted_learning_diagnostic_v2",
+  "recovery": "FP32 sanity microbatch4 accumulation effective32, fixed sample/pin preserved"
+}

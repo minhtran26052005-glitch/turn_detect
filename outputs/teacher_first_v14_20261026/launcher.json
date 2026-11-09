@@ -1,0 +1,23 @@
+{
+  "pid": 188629,
+  "start_ticks": "4617618",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.teacher_first_v14",
+    "--steps",
+    "100",
+    "--microbatch",
+    "16",
+    "--candidates",
+    "384"
+  ],
+  "log": "outputs/teacher_first_v14_20261026/worker_1.log",
+  "source_sha256": {
+    "turn_v2/teacher_first_v14.py": "4f4a7321470e0bbfd06fa41b29eb391bbf3739ad9800e1c2178e6ff41abcd6b6",
+    "turn_v2/teacher_first_protocol.py": "0e129c5f2e8073729098b083a4673c4e56e03253013a48b67d1f5738dca55ba5"
+  },
+  "max_cycles": 0,
+  "global_timeout": null
+}

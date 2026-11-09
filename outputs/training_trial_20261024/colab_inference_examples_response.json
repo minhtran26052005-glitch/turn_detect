@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"exit_code\": 0, \"stdout\": \"[{\\\"text\\\": \\\"Tôi muốn đặt một chuyến bay từ\\\", \\\"prediction\\\": \\\"NEOT\\\", \\\"prob_EOT\\\": 0.007113698511587742, \\\"threshold\\\": 0.49999999999999994, \\\"smoke_only\\\": false}, {\\\"text\\\": \\\"Tôi muốn đặt một chuyến bay từ Hà Nội đến Đà Nẵng vào sáng mai\\\", \\\"prediction\\\": \\\"EOT\\\", \\\"prob_EOT\\\": 0.7932366071923858, \\\"threshold\\\": 0.49999999999999994, \\\"smoke_only\\\": false}, {\\\"text\\\": \\\"Bạn có thể giúp tôi được không\\\", \\\"prediction\\\": \\\"EOT\\\", \\\"prob_EOT\\\": 0.8621260013297621, \\\"threshold\\\": 0.49999999999999994, \\\"smoke_only\\\": false}]\\n\", \"stderr_tail\": \"\\nLoading weights:   0%|          | 0/202 [00:00<?, ?it/s]\\nLoading weights: 100%|██████████| 202/202 [00:00<00:00, 5745.66it/s]\\n\", \"holdout_process_exit\": 0}\n"
+    }
+  ],
+  "elapsed_seconds": 11.328000000008615
+}

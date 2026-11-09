@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "path": "a.ipynb",
+      "sha256": "d4af703d2df0f5929008cb4080a0d095afdcea5cde3f083d0058723ed3898a30"
+    },
+    {
+      "path": "README_STREAM_V4.md",
+      "sha256": "09ae6381dbaa4482afcb243d3946d646ed86543b970094c189aa3fc55eef0e48"
+    },
+    {
+      "path": "EXPERIMENT_STREAM_V4_20261025.md",
+      "sha256": "50f40a5ee9ea76e24a24ad3103914602f042cacc4471681ae9cbb6e11476c569"
+    },
+    {
+      "path": "tests\\test_stream_v4.py",
+      "sha256": "bc8dba4a6c8257fb7ca9aeb42f667dfe249dfb4a2c5bcab4db0a2882df5e7d9c"
+    },
+    {
+      "path": "turn_v2\\stream_v4_balance.py",
+      "sha256": "e6985ce951d72f43b302f76c8eff200a1314c3ae92212be5da607fbb33a62b4e"
+    },
+    {
+      "path": "turn_v2\\stream_v4_data.py",
+      "sha256": "1f00c1b640735a15cd3f567fe0881e81d8d36c399786d244fe245a678de2d46e"
+    },
+    {
+      "path": "turn_v2\\stream_v4_evaluate.py",
+      "sha256": "98ddb90549aebf44108dabe56b801a1a1ce564abfae48985d7272cdc93fd1d2b"
+    },
+    {
+      "path": "turn_v2\\stream_v4_local.py",
+      "sha256": "64e421d6318fd1da4a455dc196c561ddb06c3558ceb22661a5456b8fbf897dc8"
+    },
+    {
+      "path": "turn_v2\\stream_v4_train.py",
+      "sha256": "f5444c413bfacc11fe4a508d0bea87dd4aeb382601256a04caa8afb2d530e256"
+    },
+    {
+      "path": "tools\\stream_v4_colab.py",
+      "sha256": "b3aceb5427f8d6ec0e682ee99ac7605301dd4a4d36d4598a56f081387868ca71"
+    },
+    {
+      "path": "tools\\stream_v4_followup_colab.py",
+      "sha256": "3c0a284a181026fa0e1ed853f23a093663f215785a14444102545fd4baa11756"
+    },
+    {
+      "path": "tools\\stream_v4_final_colab.py",
+      "sha256": "53e2b708cdbd4e5108c014597d2243e942c2659d393e23c3065a75ddbdc6706b"
+    },
+    {
+      "path": "tools\\backup_stream_v4.py",
+      "sha256": "2675d15881bec68696debf9855567938a7234cac5c49425ecea2697523a449e7"
+    },
+    {
+      "path": "tools\\prepare_vi_real_v4.py",
+      "sha256": "c7c2df499c5f78f8e410fb167c2dce4e73768ab9a96ada4c81fc39c39123aa74"
+    },
+    {
+      "path": "tools\\prepare_en_zh_real_v4.py",
+      "sha256": "7aeb27f30336c166f71ef191eabba8f4e1548a0cfbdb18460afcd25783efa273"
+    },
+    {
+      "path": "tools\\crawl_stream_v4.py",
+      "sha256": "0220bbaac6aa315b51b46d9e5d36ff5368d08b04c6ea3f93237bf680d74520da"
+    },
+    {
+      "path": "tools\\review_stream_v4.py",
+      "sha256": "fc07f9069da267a5702fe85dc2ceefa2682c0cd2861425d38b164338ed265c87"
+    },
+    {
+      "path": "tools\\review_vi_natural_v4.py",
+      "sha256": "78d81b699b480263add5332a86e4fa9e8a4e0d6e310f33da35be4e898a46b458"
+    },
+    {
+      "path": "tools\\evaluate_local_stream_v4.py",
+      "sha256": "6d87c1ece8d820b12be06ec3b11fa3e501b62992f2914e6e8d6c819c0b0b84aa"
+    },
+    {
+      "path": "tools\\check_stream_v4_portability.py",
+      "sha256": "32e73ff2c43a85d1abf2cee4882f6416d2ac5d09706dac1bb4f8104282c1d940"
+    },
+    {
+      "path": "tools\\report_stream_v4.py",
+      "sha256": "3cfee8e1271ac4ab4af0731e56be36c7acb3c1974258f47661254c70c3e58e1e"
+    },
+    {
+      "path": "tools\\validate_stream_v4.py",
+      "sha256": "e204fd4313a94bd4bdc4e353578863b4c33851d4dfa9978eb3d4a9406de370b9"
+    },
+    {
+      "path": "tools\\colab_runtime.py",
+      "sha256": "9a29505a5dff583a968215e16edd5f54d2e2277421f4b42d7c9dd4ff842bb19b"
+    }
+  ]
+}

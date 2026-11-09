@@ -1,0 +1,50 @@
+[
+  {
+    "run": "distill_gru_h96_e64_l1_20261024",
+    "precision": "int8",
+    "bytes": 551857,
+    "accuracy": 0.9356249649526159,
+    "f1": 0.9007435587065536,
+    "elapsed_seconds": 14.58916687965393
+  },
+  {
+    "run": "distill_gru_h96_e64_l1_20261024",
+    "precision": "fp16",
+    "bytes": 823373,
+    "accuracy": 0.9356249649526159,
+    "f1": 0.9009661835748792,
+    "elapsed_seconds": 14.164108276367188
+  },
+  {
+    "run": "distill_gru_h96_e64_l1_20261024",
+    "precision": "fp32",
+    "bytes": 1407526,
+    "accuracy": 0.9356249649526159,
+    "f1": 0.9009661835748792,
+    "elapsed_seconds": 14.559463262557983
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_stage2_20261024",
+    "precision": "int8",
+    "bytes": 510796,
+    "accuracy": 0.9313632030505243,
+    "f1": 0.8952772073921971,
+    "elapsed_seconds": 13.601392269134521
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_stage2_20261024",
+    "precision": "fp16",
+    "bytes": 744397,
+    "accuracy": 0.9313632030505243,
+    "f1": 0.8953846153846153,
+    "elapsed_seconds": 13.769745111465454
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_stage2_20261024",
+    "precision": "fp32",
+    "bytes": 1250470,
+    "accuracy": 0.9313632030505243,
+    "f1": 0.8953846153846153,
+    "elapsed_seconds": 13.591222763061523
+  }
+]

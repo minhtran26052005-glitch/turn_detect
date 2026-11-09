@@ -1,0 +1,37 @@
+{
+  "scope": "Full frozen dev selection only; consumed holdout never scored",
+  "target": {
+    "accuracy": 0.9,
+    "eot_f1": 0.9,
+    "smaller_than_int8": true
+  },
+  "controls": {
+    "outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp32\\model.onnx": "1d1b6ce737def64f1a18e9c090d2e32b0dc24394e8e4833b6829d7f61bc48ad0",
+    "models\\turn_v2_distilled_min_20261024\\onnx\\model.onnx": "846e6c9e606813b013d2574f148962a331645acf3984d04cc78839b8b075d182",
+    "data_v2\\frozen\\manifest.json": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+    "data_v2\\frozen\\dev.jsonl": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+    "data_v2\\frozen\\holdout_consumed.json": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba"
+  },
+  "baseline_model_bytes": 328761,
+  "quantization": "All five large weight tensors INT4; FP16 group scales; biases/norm/compute FP32",
+  "initial_candidates": [
+    {
+      "group_size": 64,
+      "scale_method": "mse"
+    },
+    {
+      "group_size": 32,
+      "scale_method": "mse"
+    },
+    {
+      "group_size": 16,
+      "scale_method": "mse"
+    },
+    {
+      "group_size": 8,
+      "scale_method": "mse"
+    }
+  ],
+  "selection": "Smallest ONNX among candidates meeting both full dev targets; threshold grid same as INT8",
+  "holdout_evaluated": false
+}

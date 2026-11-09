@@ -1,0 +1,191 @@
+{
+  "complete": true,
+  "pages": 40647,
+  "counts": {
+    "en:pages": 10406,
+    "en:script_flags": 1,
+    "vi:pages": 11104,
+    "vi:script_flags": 3,
+    "zh:pages": 19137,
+    "zh:script_flags": 6
+  },
+  "flags": [
+    {
+      "language": "en",
+      "source_id": "en:hf:fineweb:en:<urn:uuid:a0051201-9415-4223-9132-03feb9aaeb58>",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "scripts": {
+        "LATIN": 1573,
+        "CYRILLIC": 398
+      },
+      "source_sha256": "45719fe43554ccb0ae8087c14ea49d0af0b1db0ed65df4c0db93cf497cd2af18"
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:541229e7-6da6-477b-bc1b-2500ad840458>",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "scripts": {
+        "CYRILLIC": 613,
+        "LATIN": 2205
+      },
+      "source_sha256": "5485390f020ff735afe04771fc4007e3aaf64f2ba17dd96a4eea6fb379c5b47a"
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:627a30c1-9225-4b08-81c2-4853d185d447>",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "scripts": {
+        "LATIN": 841,
+        "CYRILLIC": 458
+      },
+      "source_sha256": "9ff7db4e81afefa2a60532de39ab8a4052a80b6496a4fe63077c35f03f70c3fc"
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:aaa1053e-1d9d-40fd-a395-30bbc6a92ead>",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "scripts": {
+        "LATIN": 1362,
+        "CYRILLIC": 1204
+      },
+      "source_sha256": "1e2b9a2488f40d7525bbfab76c632dc90f19159b35236d39b0c2bb6674fae463"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:cc6c019d-56a5-42c0-ab46-b7992603d985>",
+      "split": "train",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "CJK": 2516,
+        "HIRAGANA": 821,
+        "LATIN": 1
+      },
+      "source_sha256": "3c1ccff7a03cc7b63abc7a304788833a8da423a9a183f60510012ddd6c4dfd1f"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:1141100008022",
+      "split": "train",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "CJK": 398,
+        "LATIN": 6032
+      },
+      "source_sha256": "5f1686f8fbdf5e8e8dec68fb78a219bcae7a562682d283f9981ec6bf0dd5b3df"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:1572700002306",
+      "split": "dev",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "LATIN": 3616
+      },
+      "source_sha256": "b3d2a79a526581946f76b21103c8df885a46c83fa96f1c79e022139e769796d6"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:414700012320",
+      "split": "dev",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "LATIN": 2079
+      },
+      "source_sha256": "b6ebe0718319e5959b2efd067a5fdca49ad9b4a156fff32af7e4bfef041d160b"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:421300047526",
+      "split": "train",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "LATIN": 1367
+      },
+      "source_sha256": "3cbcd368fed8b8351792cd49f3fe55dbc3c76ea3e286871bcb0e28753189b583"
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:799300019484",
+      "split": "train",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "scripts": {
+        "CYRILLIC": 6147,
+        "LATIN": 210,
+        "CJK": 8
+      },
+      "source_sha256": "4a444ec91ec2c05684779cf0697bc6aa39c5dd783cce21cfe07dcab542429802"
+    }
+  ],
+  "examples": [
+    {
+      "language": "en",
+      "source_id": "en:hf:fineweb:en:<urn:uuid:a0051201-9415-4223-9132-03feb9aaeb58>",
+      "excerpt": "Women who are just so beautiful they don't have to contribute to sex... » Monitor Company Group или грамотная полит. комбинация в борьбе за мировое господство, через идеи \"Открытого правительства\"\nЗдравствуйте, уважаемая публика, я представ",
+      "scripts": {
+        "LATIN": 1573,
+        "CYRILLIC": 398
+      }
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:541229e7-6da6-477b-bc1b-2500ad840458>",
+      "excerpt": "Данное предложение очень точно отражает суть блога, его цели и смысл.\nposted by UncommonBusiness at 1:31 AM\nЖалко бросить?\nДобрый день!Почему-то я не могу нажать мышкой на заголовок поста \"Почему я решил заново писать подробные посты в этом",
+      "scripts": {
+        "CYRILLIC": 613,
+        "LATIN": 2205
+      }
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:627a30c1-9225-4b08-81c2-4853d185d447>",
+      "excerpt": "This video consists of five chapters, organized in a playlist. The chapters will automatically play in sequence, but can be viewed individually by using the playlist control. The video can be played with English, Spanish, and Russian narrat",
+      "scripts": {
+        "LATIN": 841,
+        "CYRILLIC": 458
+      }
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:aaa1053e-1d9d-40fd-a395-30bbc6a92ead>",
+      "excerpt": "Ở Việt Nam, việc trang trí bằng cách vẽ lên tường những hình khối hay tranh phong cảnh ít được lựa chọn vì mọi người vẫn thích những đồ trang trí bằng rèm cửa, đồ gốm...Nhưng đó chính là một sự phá cách độc đáo\nThay vì những bức tường sơn m",
+      "scripts": {
+        "LATIN": 1362,
+        "CYRILLIC": 1204
+      }
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:cc6c019d-56a5-42c0-ab46-b7992603d985>",
+      "excerpt": "日语常用词汇 日语谚语归纳(2)\n第二类\n“垂头丧气”——「青菜に塩」（あおなにしお）\n“功到自然成”——－「石の上にも三年］\n（いしのうえにもさんねん）\n“满瓶不响，半瓶叮当”——－「空き樽は音高し」\n（あきだるはおとたかし）\n“火烧眉毛”——－「足下に火がつく」\n（あしもとにひがつく）\n“马后炮”——「後の祭り」（あとのまつり）“事后搞庆祝活动”\n“八九不离十”——「当たらずといえども遠からず」\n（あたらずともいえどもとおからず）\n注：「当たる」是“说准了”，它的否定是「",
+      "scripts": {
+        "CJK": 2516,
+        "HIRAGANA": 821,
+        "LATIN": 1
+      }
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:1141100008022",
+      "excerpt": "纪录片\"柬埔寨的微笑\"首映式在金边举行\n中新社金边3月15日电 (欧阳开宇 余湘珺)中国驻柬埔寨大使王文天同柬埔寨新闻大臣乔干那烈14日共同出席由中央广播电视总台中柬友谊台和柬埔寨国家电视台联合举办的纪录片\"柬埔寨的微笑\"首映式.\n  首映式在柬国家电视台一号演播厅举行并现场直播,柬各大主流媒体负责人以及双方代表约一百人参加.\n  王文天指出,面对百年未有之大变局,中柬友好的战略意义更加凸显.今年是中柬建交65周年,两国领导人就构建高质量,高水平,高标准的新时代中柬命运共同体",
+      "scripts": {
+        "CJK": 398,
+        "LATIN": 6032
+      }
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:industrycorpus2_news_media:zh:1572700002306",
+      "excerpt": "The West should pay closer attention to social media giants' power over freedom of press\nBy Wang Xinyuan\n   A new policy was implemented by Twitter since August 2020 to put labels on state-affiliated media accounts, which indicate that they",
+      "scripts": {
+        "LATIN": 3616
+      }
+    }
+  ],
+  "scope": "Conservative script screen; Latin-script language identity and conversational label quality are not certified",
+  "model_inference": false,
+  "data_or_labels_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-02T03:09:33.149206+00:00",
+  "per_language": {
+    "vi": 100,
+    "en": 100
+  },
+  "unique_source_dialogues": 200,
+  "sampling_unit": "one random full speaker paragraph from each of 100 distinct accepted dialogues per language",
+  "seed": "975658149845995250",
+  "frozen_commit_index": 620,
+  "frozen_population": {
+    "vi": 10000,
+    "en": 3314
+  },
+  "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+  "selected_shards_sha_readback_verified": 158,
+  "review": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\review.html",
+  "text_vi": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\vi_100_luot_loi.txt",
+  "text_en": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_dialogue_campaign_v6\\random_review_20261102_100_each\\en_100_luot_loi.txt",
+  "synthetic": true,
+  "review_state": "UNREVIEWED",
+  "training_eligible": false,
+  "windows_free_gib": 21.799
+}

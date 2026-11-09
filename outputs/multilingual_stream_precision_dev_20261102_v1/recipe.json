@@ -1,0 +1,36 @@
+{
+  "checkpoint": {
+    "step": 515435,
+    "branch_step": 29200,
+    "base_step": 486235,
+    "source_checkpoint_sha256": "54fde12705c5ae0b08e03ca914499eda4489d08299f47e403a3be5d1827a0710",
+    "weights_sha256": "2a548ed7bfa51cdd81e249063bf4f550fff12e0953c7f58ccfd264bc5313761b",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "full_optimizer_rng_sampler_preserved": true,
+    "optimizer_entries": 104,
+    "one_shared_model": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+  },
+  "baseline_threshold": 0.53,
+  "threshold_grid": [
+    0.53,
+    0.65,
+    0.75,
+    0.85,
+    0.9,
+    0.95,
+    0.97,
+    0.99,
+    0.995
+  ],
+  "target_precision": 0.95,
+  "minimum_recall": 0.7,
+  "minimum_predicted_cuts_per_language_mode": 40,
+  "lookahead_words": 2,
+  "objective": "Highest worst-language/mode recall subject to observed precision>=95%, recall>=70%, cuts>=40 on calibration DEV.",
+  "read_test_samples_predictions_cases_or_scores": false,
+  "one_common_threshold_no_language_selector": true,
+  "model_weights_or_training_or_deployment_modified": false,
+  "source_sha256": "44521e68d4aff05fc01f71ea2a4aa7b70356addebf6b40fc10e2ddecd65001a4"
+}

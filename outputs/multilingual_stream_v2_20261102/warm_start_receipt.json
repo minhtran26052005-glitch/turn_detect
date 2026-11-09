@@ -1,0 +1,49 @@
+{
+  "sha256": "2b7e4f863cdcc9a81409de299704328df72500bc02d9d6809955925c3452ccfb",
+  "bytes": 1624061459,
+  "step": 486235,
+  "source_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+  "optimizer_and_rng_preserved": true,
+  "optimizer_entries": 104,
+  "optimizer_step_max": 486235.0,
+  "source_cursors": {
+    "vi": "993d9c393d2ef3b366ea02d3181bd535090af5f8aa80d57e6bfb128c0f6e92c2",
+    "en": "f4ee1edb099b2bb4d7ebb34e571febed090a5f019d6c35be696068160743c2dd",
+    "zh": "850583a9c0afc2b7363cd16c71ed33323d97dd0964831c569a55f26eb535d82e"
+  },
+  "source_rounds": {
+    "vi": 1,
+    "en": 2,
+    "zh": 0
+  },
+  "old_process": {
+    "pid": 2611438,
+    "start_ticks": "27127617",
+    "state": "D",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_three_teacher_distill_v1 "
+  },
+  "old_stop_status": {
+    "stage": "STOPPED_BY_REQUEST",
+    "pid": 2611438,
+    "at_unix": 1793596815.3162165,
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "one_shared_student": true,
+    "test_used": false,
+    "qwen_pilot_used": false,
+    "source": "punctuation_derived_corpus",
+    "step": 486235,
+    "counts": {
+      "vi": 2593251,
+      "en": 2593232,
+      "zh": 2593248
+    }
+  },
+  "source": "/mnt/hdd500/turn_detect_training/multilingual_distill_v1/latest_student.pt",
+  "new_data_cursors_start_fresh": true,
+  "reason": "Explicit user request for a new streaming version from generated data, not base initialization."
+}

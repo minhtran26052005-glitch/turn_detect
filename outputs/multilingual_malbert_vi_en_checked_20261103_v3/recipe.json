@@ -1,0 +1,152 @@
+{
+  "parameters": 11941122,
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "additional_data": {
+    "complete": true,
+    "rows": 399960,
+    "counts": {
+      "vi": 199988,
+      "en": 199972
+    },
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "parent_rows": 200000,
+    "additional_rows": 199960,
+    "additional_label_counts": {
+      "vi:NEOT": 96370,
+      "vi:EOT": 3618,
+      "en:EOT": 4670,
+      "en:NEOT": 95302
+    },
+    "candidate_points": {
+      "vi:NEOT": 1868218,
+      "vi:EOT": 67007,
+      "en:NEOT": 1547424,
+      "en:EOT": 73418
+    },
+    "audit_counts": {
+      "factory_checked.jsonl:rows": 8198,
+      "factory_checked.jsonl:train:kept": 8095,
+      "factory_checked.jsonl:train:rejected": 103,
+      "public_checked.jsonl:rows": 189122,
+      "public_checked.jsonl:test:kept": 9455,
+      "public_checked.jsonl:test:rejected": 59,
+      "public_checked.jsonl:dev:kept": 9608,
+      "public_checked.jsonl:dev:rejected": 70,
+      "public_checked.jsonl:train:kept": 168746,
+      "public_checked.jsonl:train:rejected": 1184,
+      "excluded:not_kept_or_hard_check": 1407,
+      "excluded:short_turn": 2760,
+      "excluded:noncontiguous_chunks": 6,
+      "train:paragraphs:vi": 59544,
+      "train:paragraphs:en": 59876,
+      "test:paragraphs:en": 4346,
+      "test:paragraphs:vi": 4386,
+      "dev:paragraphs:en": 4424,
+      "dev:paragraphs:vi": 4488,
+      "excluded:duplicate_train_paragraph": 6418,
+      "excluded:protected_family_paragraph": 37814,
+      "excluded:protected_exact_model_input": 22993,
+      "excluded:already_in_parent_train": 127,
+      "excluded:duplicate_additional_input": 1292,
+      "excluded:conflicting_selected_inputs": 40
+    },
+    "raw_sources_sha256": {
+      "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+      "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+    },
+    "source_manifest_sha256": "f36327908afa76203f2e3b12cca3b2b222e49e85c26e7856b585ed11f8e741cd",
+    "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+    "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+    "parent_cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+    "files": {
+      "ids": {
+        "sha256": "9d06392d258340d23256166d572bb5ea1fe383577682f1ed0a9314d5e784add2",
+        "bytes": 204779648
+      },
+      "lengths": {
+        "sha256": "119441bf2b14f7bec78278fd0c9f3f8ae09b435bf191ea428f1e6b1065097a0b",
+        "bytes": 800048
+      },
+      "labels": {
+        "sha256": "8601d3c138009954247457d26e256dd8d0cf4c95ef3213c26d34310257c1ec11",
+        "bytes": 400088
+      },
+      "logits": {
+        "sha256": "d6127d398c5c85c4379342f88f242625353cd3fddce0b08fe39c11954d7468ad",
+        "bytes": 1599968
+      },
+      "language_ids": {
+        "sha256": "3d0e54612d038852ff468e32ff5a0702155f6aa3fabc5d6f5d5ce6ddae8881bd",
+        "bytes": 400088
+      },
+      "source_row_indices": {
+        "sha256": "71c3a83f527c71a5202422fb3975f485b5a4346edf94a0438ac2f058b13d9d68",
+        "bytes": 1599968
+      },
+      "teacher_mask": {
+        "sha256": "78cff1db15d20f421cf7b336bf95142d00da182f38b3ab314a01f327d67d26ae",
+        "bytes": 400088
+      }
+    },
+    "source_module_sha256": "228d3a082d7f863dc703322159424adba764d18acfe30000e1188df4126e6fc2",
+    "protected_model_input_hashes": 494243,
+    "protected_family_exclusions": 1166,
+    "protected_exact_token_input_overlap_after_filtering": 0,
+    "original_dev_test_in_train": false,
+    "source_target_double_counting": false,
+    "parser": "Contiguous source_raw chunks from the same turn/speaker/language; rest_of_sentence and target never used",
+    "sampling": "Lowest deterministic SHA priorities, at most100000 eligible 1/2-word points per language; not all candidate gaps",
+    "labels": "Punctuation silver, not human/audio gold; ellipsis/abbreviation and ?/! endpoints unscored",
+    "kd": "Parent rows retain frozen logits; additional rows use CE only, teacher_mask=0, no fabricated teacher targets",
+    "overlap_limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows",
+    "test_predictions_used_for_selection": false,
+    "test_input_fields_used_only_for_dedup": true
+  },
+  "migration": {
+    "authorized_active_languages": [
+      "vi",
+      "en"
+    ],
+    "user_authorized_additional_train": true,
+    "model_optimizer_rng_preserved": true,
+    "all_model_tensors_equal": true,
+    "all_optimizer_tensors_equal": true,
+    "rng_and_sampler_state_equal": true,
+    "parent_pid": 914852,
+    "parent_start_ticks": "60017417",
+    "parent_step": 85498,
+    "parent_epoch": 6,
+    "parent_cursor": 92752,
+    "parent_rows": 200000,
+    "active_rows": 399960,
+    "additional_rows": 199960,
+    "remaining_parent_order_preserved_before_any_new_rows": true,
+    "new_branch_epoch": 0,
+    "lr_step_offset": 76097.07136,
+    "optimizer_entries": 27,
+    "parameters": 11941122,
+    "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+    "migrated_checkpoint_sha256": "4e804e19d9d0880c9e2c485ff87de534d3bf84a1e05ebf804e339c4eed96f37c",
+    "cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+    "dev_files_unchanged": {
+      "dev_rows_vi_en.jsonl": "7d9c727b99c492dd4e7c306fa942fd3688ecc5222a79e06aff73a9efc017e8b3",
+      "dev_streams_vi_en.json": "7a1ef044f1e4f01f85a81a9dfbbafe808a807e04818c8b541e9097e025b9bc2a",
+      "teacher_vi_en_dev.json": "bb93d8a17c515e5103cefeb55ebcf7bb6df8b32fea4711a2ffdc6c8e4a6b4e5f"
+    },
+    "dataset_fingerprint_changed_only_in_versioned_child": true,
+    "test_used": false
+  },
+  "loss": "Parent rows retain CE+frozen-KL; additional rows are CE only via teacher_mask=0",
+  "dev": "Byte-identical original VI/EN rolling calibration and predicted-reset DEV; imported DEV/TEST excluded",
+  "state": "Model/AdamW27/TorchCUDA_numpyPythonRNG/sampler retained. Finish remaining parent row order before additional rows.",
+  "deployment": "Same strict VI/EN retention gates, then FP32/INT8/real packed INT4 QAT and CPU verification; no automatic replacement",
+  "new_spoken_colab_imported": false,
+  "human_audio_gold": false,
+  "drive_backup_configured": false
+}

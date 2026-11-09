@@ -1,0 +1,21 @@
+{
+  "old_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+  "new_boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+  "previous_runtime_ended_confirmed_by_user": true,
+  "confirmation_source": "Earlier explicit user confirmation previous runtime ended; new direct request Nov2 to reconnect and run background; then user replied completed Drive mount.",
+  "verified_drive_nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+  "handover_receipt": "handover/owner_224e79fd_to_8149fd79.json",
+  "handover_receipt_sha256": "0c38107d60ffcd45fc5e946df3b3b78d541c08100ef3cbe768b5d45fbb49969f",
+  "new_worker_launched": true,
+  "new_pid": 5543,
+  "new_start_ticks": "119138",
+  "notebook_kernel_busy_with_read_only_chain_audit": false,
+  "new_worker_owns_drive": true,
+  "source_hashes_verified": true,
+  "latest_commit_index_before_resume": 607,
+  "latest_commit_sha256_before_resume": "8a1116c941dd99c9f78f4eb8bb6dc80b6d6a279e641542ecdce3564e618f68fe",
+  "latest_object_readback_sha256_before_resume": "59e19fb8e4f4d7d430fd081f1b593822f643782d6d6ef5c9bc3274d11f5739d1",
+  "full_commit_chain_recovery_in_background": true,
+  "verified_resumed_generation": false,
+  "recorded_utc": "2026-11-02T02:47:25.257685+00:00"
+}

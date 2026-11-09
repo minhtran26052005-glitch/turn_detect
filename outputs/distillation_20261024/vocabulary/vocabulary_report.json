@@ -1,0 +1,8 @@
+{
+  "source": "frozen train only; observed pieces plus Latin/ASCII/byte/special fallbacks",
+  "vocab_size": 3313,
+  "teacher_vocab": 23078,
+  "changed_train_segmentation": 0,
+  "train_sha256": "74c1ec511e9a90f138ea1be7503f65627c622133809f284f01084e404f55384b",
+  "tokenizer_bytes": 219195
+}

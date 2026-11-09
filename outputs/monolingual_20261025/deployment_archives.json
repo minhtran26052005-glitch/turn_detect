@@ -1,0 +1,22 @@
+[
+  {
+    "language": "en",
+    "zip": "models\\turn_monolingual_en_20261025.zip",
+    "zip_bytes": 848928,
+    "zip_sha256": "65b466059c3b29e5045af94b97b1b334b02187f89561c5c2199ecaca511c9c5a",
+    "model_bytes": 712969,
+    "package_bytes": 1857663,
+    "standalone_CLI": "PASS",
+    "quality_status": "FULL_DEV_EVALUATED_TARGET_UNMET_RESEARCH_ONLY"
+  },
+  {
+    "language": "zh",
+    "zip": "models\\turn_monolingual_zh_20261025.zip",
+    "zip_bytes": 634322,
+    "zip_sha256": "68dc59b0b2351ce6b42e1eebbe677aa50c148fd39fc10d3f42a9981133a2b58d",
+    "model_bytes": 548781,
+    "package_bytes": 1383983,
+    "standalone_CLI": "PASS",
+    "quality_status": "FULL_DEV_EVALUATED_TARGET_UNMET_RESEARCH_ONLY"
+  }
+]

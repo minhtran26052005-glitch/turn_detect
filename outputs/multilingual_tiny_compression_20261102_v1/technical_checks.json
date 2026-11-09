@@ -1,0 +1,7 @@
+{
+  "int8_cpu_smoke_passed": true,
+  "int8_max_probability_delta": 0.00022921568997613662,
+  "int4_packed_smoke_passed": true,
+  "int4_max_probability_delta": 1.1006596023488413e-08,
+  "fixture_not_quality_evaluation": true
+}

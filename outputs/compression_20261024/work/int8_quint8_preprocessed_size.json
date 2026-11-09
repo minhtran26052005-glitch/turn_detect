@@ -1,0 +1,23 @@
+{
+  "candidate": "outputs\\compression_20261024\\work\\int8_quint8_preprocessed",
+  "model_bytes": 142823938,
+  "deployment_bytes": 144230779,
+  "onnx_sha256": "d3ea9f79e1685a73693f5be71970202c264abfb8c2116a5ffd88f88aebe8e17b",
+  "recipe": {
+    "method": "Unigram vocabulary compaction; all encoder weights and 12 layers preserved",
+    "source_onnx_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+    "original_vocab": 251000,
+    "retained_vocab": 23078,
+    "original_onnx_bytes": 1116285156,
+    "fp32_onnx_bytes": 416108770,
+    "fp32_onnx_sha256": "47636d204e479790f04033ea147c5da0c2ea156c395a0b32a6f3a68cff43a6d8",
+    "quantization": {
+      "dense_weights": "QUInt8",
+      "per_channel": true,
+      "reduce_range": false,
+      "embedding": "symmetric int8 per token row",
+      "preprocessing": "ORT BASIC constant folding",
+      "subgraph_capture_order_repaired": true
+    }
+  }
+}

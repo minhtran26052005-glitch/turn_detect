@@ -1,0 +1,59 @@
+{
+  "complete": true,
+  "original_source_statistics": {
+    "source_complete_sentence_occurrences": 232059,
+    "non_fullstop_tail_turns_retained_in_parent": 61446,
+    "non_fullstop_tail_words_retained_in_parent": 696846,
+    "held_source_sentence_occurrences_excluded": 112,
+    "exact_sentence_occurrences_deduplicated": 23041
+  },
+  "unique_complete_sentence_units": 208906,
+  "fullstop_sentence_occurrences_represented": 231947,
+  "all_eligible_unique_units_used": true,
+  "total_unit_uses": 209355,
+  "extra_unit_uses_for_final_balanced_blocks": 449,
+  "pack_count": 49260,
+  "histogram": {
+    "en:1": 3888,
+    "en:2": 3888,
+    "en:3": 3888,
+    "en:4": 3888,
+    "en:5": 3888,
+    "en:6": 1296,
+    "en:7": 1296,
+    "en:8": 1296,
+    "en:9": 1296,
+    "en:10": 1296,
+    "vi:1": 3501,
+    "vi:2": 3501,
+    "vi:3": 3501,
+    "vi:4": 3501,
+    "vi:5": 3501,
+    "vi:6": 1167,
+    "vi:7": 1167,
+    "vi:8": 1167,
+    "vi:9": 1167,
+    "vi:10": 1167
+  },
+  "exact_global_pack_duplicates": 0,
+  "exact_held_turn_sentence_min8_and_32word_shingle_checks_passed": true,
+  "conflicts": 75,
+  "masked_points": {
+    "en:0": 96,
+    "en:1": 51,
+    "vi:0": 101,
+    "vi:1": 28
+  },
+  "eligible_internal_eot_points": {
+    "en:k1": 84192,
+    "en:k2": 84154,
+    "vi:k1": 75830,
+    "vi:k2": 75817
+  },
+  "all_pack_words_and_fullstop_labels_verified_against_original_units": true,
+  "synthetic_cross_turn_joins_explicit": true,
+  "last_pack_endpoint_without_future_still_omitted": true,
+  "test_metrics_used": false,
+  "not_human_audio_gold": true,
+  "limitations": "Short common held strings below eight words, WordPiece-only and paraphrase collisions are not exhausted. Synthetic joins do not establish natural same-speaker continuity."
+}

@@ -1,0 +1,11 @@
+{
+  "step": 3753320,
+  "branch_step": 22147,
+  "epoch": 1,
+  "scored_seen": 333315,
+  "expected_scored_points": 333315,
+  "optimizer_entries": 27,
+  "cursor": 420,
+  "active_lanes": 0,
+  "checkpoint_sha256": "3433d9fa5526e471a3ccf22602546e8d2079b90e5e1ccf7f9fdde31f6046fce4"
+}

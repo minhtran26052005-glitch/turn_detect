@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "domain": "asr/run2b",
+  "languages": [
+    "vi",
+    "en"
+  ],
+  "streams": 210,
+  "families": 81,
+  "counts": {
+    "source_rows": 6846,
+    "words": 169011,
+    "vi:turns": 96,
+    "vi:k1:0": 79020,
+    "vi:k1:1": 3122,
+    "vi:k2:0": 78926,
+    "vi:k2:1": 3121,
+    "en:turns": 114,
+    "en:k1:0": 80236,
+    "en:k1:1": 4381,
+    "en:k2:0": 80128,
+    "en:k2:1": 4381
+  },
+  "eligible_points_per_epoch": 333315,
+  "masked_gaps": {
+    "en:0": 7,
+    "en:1": 8,
+    "vi:0": 3,
+    "vi:1": 2
+  },
+  "train_sha256": "03d4f3cd325d486c876abad932e9a358b176bcc8c7974a55eeeaf00a8bdf79d5",
+  "source_manifest_sha256": "b13b27a95e96f69c9b15f9c80a5d64d810f284db89acdb6e5a2821c27bd2b842",
+  "source_train_sha256": "ae5c0d9cb05725f99fc6d0c1a115a5915fcecad4ea00a80c0b3b6f4443a010f9",
+  "dev_files": {
+    "dev_calibration.json.gz": "e43373e5f89622fecdf1879163711508db3a6a80291251748a6f8f6626b68ed3",
+    "dev_monitor.json.gz": "57371790d279841a704c2feb51c3554b03be116574cfe4eed2a9a9244821c6a0"
+  },
+  "inherited_conflict_masks_unchanged": true,
+  "source_order_and_actual_turn_future_preserved": true,
+  "synthetic_sentence_repacking": false,
+  "source_family_exclusions_reused_from_verified_uploaded_train": true,
+  "train_families_disjoint_from_all_dev": true,
+  "canonical_video_families": 81,
+  "test_source_family_metadata_used_only_for_exclusion": true,
+  "test_labels_or_predictions_not_used": true,
+  "change_scope": "ASR-only exposure AND original source-turn ordering instead of v7 synthetic packs; not a single-factor matched-budget comparison",
+  "label_source": "Unambiguous source fullstop silver, not human/audio gold",
+  "loss": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "learning_rate": 4e-06,
+  "budget_full_epochs": 1,
+  "batch": 16,
+  "code_sha256": {
+    "asr_only_adaptation_20261107_v1.py": "31bdbcce1a432b89a5111eb2fae76c2986992a69a8264663503e3ad98acdce1f",
+    "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+    "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+    "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+    "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+    "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+  }
+}

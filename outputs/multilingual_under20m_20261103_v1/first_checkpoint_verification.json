@@ -1,0 +1,15 @@
+{
+  "run": "distill",
+  "step": 100,
+  "optimizer_entries": 108,
+  "parameters": {
+    "deployment": 18668738,
+    "training_total": 18964418,
+    "limit_exclusive": 20000000,
+    "embedding_included": true,
+    "classifier_included": true
+  },
+  "optimizer_rng_sampler_verified": true,
+  "checkpoint_sha256": "e922d4369011c8baa22e912f95c6a3247fb658347bbdf4ebd6c7bb89210fbe5c",
+  "torch_load_passed": true
+}

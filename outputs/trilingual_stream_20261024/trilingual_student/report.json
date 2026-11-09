@@ -1,0 +1,52 @@
+{
+  "model": "models\\turn_v3_trilingual_pilot_20261024",
+  "scope": "STREAMING_CRAWLED_PROSE_DIAGNOSTIC_ONLY; no accuracy/F1 claim",
+  "paragraphs": 12,
+  "prefix_events": 2253,
+  "punctuation_only_max_probability_delta": 0.0,
+  "boundary_summary": {
+    "vi:sentence_punctuation": {
+      "events": 20,
+      "predicted_EOT": 19,
+      "mean_prob_EOT": 0.7890118883369958,
+      "truncated_events": 9
+    },
+    "vi:comma_or_clause": {
+      "events": 42,
+      "predicted_EOT": 37,
+      "mean_prob_EOT": 0.759482579524065,
+      "truncated_events": 8
+    },
+    "en:comma_or_clause": {
+      "events": 49,
+      "predicted_EOT": 36,
+      "mean_prob_EOT": 0.6002801663920186,
+      "truncated_events": 5
+    },
+    "en:sentence_punctuation": {
+      "events": 27,
+      "predicted_EOT": 18,
+      "mean_prob_EOT": 0.5966463052937877,
+      "truncated_events": 2
+    },
+    "zh:comma_or_clause": {
+      "events": 69,
+      "predicted_EOT": 13,
+      "mean_prob_EOT": 0.18566978640261314,
+      "truncated_events": 0
+    },
+    "zh:sentence_punctuation": {
+      "events": 26,
+      "predicted_EOT": 6,
+      "mean_prob_EOT": 0.22285296933478602,
+      "truncated_events": 0
+    }
+  },
+  "input_truncated_events": 320,
+  "limitations": [
+    "Prose is not conversation gold",
+    "Comma does not imply turn end",
+    "Model drops punctuation before inference",
+    "No VAD/pause-duration signal in this text-only replay"
+  ]
+}

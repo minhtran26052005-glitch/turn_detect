@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"language\": \"en\", \"step\": 300, \"checkpoint_sha256\": \"903088db0cb011314d385199f87012afb63427c2596c975b7f4ec39f24815ed4\", \"weights_verified\": true, \"stored_predictions_recomputed\": true, \"semantic_silver_dev\": {\"samples\": 52, \"threshold\": 0.6649999999999999, \"accuracy\": 0.9423076923076923, \"eot_precision\": 0.85, \"eot_recall\": 1.0, \"eot_f1\": 0.918918918918919, \"joint_score\": 0.918918918918919, \"false_eot\": 3, \"missed_eot\": 0, \"false_eot_rate\": 0.08571428571428572, \"confusion_matrix_NEOT_EOT\": [[32, 3], [0, 17]]}, \"natural_floor_dev\": {\"samples\": 79, \"threshold\": 0.6649999999999999, \"accuracy\": 0.4936708860759494, \"eot_precision\": 0.6585365853658537, \"eot_recall\": 0.5094339622641509, \"eot_f1\": 0.574468085106383, \"joint_score\": 0.4936708860759494, \"false_eot\": 14, \"missed_eot\": 26, \"false_eot_rate\": 0.5384615384615384, \"confusion_matrix_NEOT_EOT\": [[12, 14], [26, 27]]}, \"quality_target_certified\": false, \"Drive_mounted\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 3.312000000005355
+}

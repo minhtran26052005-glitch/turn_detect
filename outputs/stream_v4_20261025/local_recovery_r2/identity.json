@@ -1,0 +1,15 @@
+{
+  "mode": "SEPARATE_LOCAL_RECOVERY_BRANCH; no Colab process altered",
+  "base_path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_teacher_20261024\\best",
+  "base_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "trainable_parameters": 21855746,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "rounds": 3,
+  "steps_per_round": 200,
+  "microbatch": 4,
+  "accumulation": 2,
+  "data_manifest_sha256": "18a91982ead46f5fc977441e309584dfe3444512c1102d84c2cfc23d12164776",
+  "source_sha256": "64e421d6318fd1da4a455dc196c561ddb06c3558ceb22661a5456b8fbf897dc8",
+  "no_independent_real_vi_gold": true,
+  "colab_state": "UNKNOWN_AFTER_HTTP404"
+}

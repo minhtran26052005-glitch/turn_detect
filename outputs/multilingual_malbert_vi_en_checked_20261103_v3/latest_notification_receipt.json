@@ -1,0 +1,49 @@
+{
+  "notify_dev": true,
+  "previous_notified_step": 1082000,
+  "latest_dev": {
+    "key": "finetune:1444000",
+    "run": "finetune",
+    "step": 1444000,
+    "epoch": 55,
+    "threshold": 0.8099999999999999,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "tp": 65,
+        "tn": 1957,
+        "fp": 11,
+        "fn": 25,
+        "accuracy": 0.9825072886297376,
+        "eot_f1": 0.7831325301204819,
+        "eot_precision": 0.8552631578947368,
+        "eot_recall": 0.7222222222222222,
+        "false_share_of_cuts": 0.14473684210526316,
+        "false_positive_rate": 0.005589430894308943
+      },
+      "en": {
+        "samples": 2304,
+        "tp": 98,
+        "tn": 2164,
+        "fp": 19,
+        "fn": 23,
+        "accuracy": 0.9817708333333334,
+        "eot_f1": 0.8235294117647058,
+        "eot_precision": 0.8376068376068376,
+        "eot_recall": 0.8099173553719008,
+        "false_share_of_cuts": 0.1623931623931624,
+        "false_positive_rate": 0.008703618873110398
+      }
+    },
+    "notified_utc": "2026-11-04T03:43:35.408000+00:00"
+  },
+  "fresh_step": 1445000,
+  "active_error": null,
+  "disks": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_checked_20261103_v3": 43.0278434753418,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "windows_free_gib": 20.122352600097656,
+  "colab_unchanged_issue": "spoken_v10_api_sessions_http404_after_eb59f31a_113294"
+}

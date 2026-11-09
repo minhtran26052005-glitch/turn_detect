@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-10-25T18:46:12.276307+00:00",
+  "api/sessions": [
+    {
+      "id": "65eb169b-6eb7-4777-8752-6002e9b90837",
+      "path": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+      "name": "a-7b15db8f-f5ca-4f27-b4ef-fc590e73e668.ipynb",
+      "type": "notebook",
+      "kernel": {
+        "id": "eb58b543-e4d6-4de2-98f8-972467cba029",
+        "name": "python3",
+        "last_activity": "2026-10-25T18:33:36.774927Z",
+        "execution_state": "idle",
+        "connections": 1
+      },
+      "notebook": {
+        "path": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+        "name": "a-7b15db8f-f5ca-4f27-b4ef-fc590e73e668.ipynb"
+      }
+    },
+    {
+      "id": "4ee5ee92-c0b6-4128-80ac-94c2b375db1d",
+      "path": "a-jvsc-efa5fc17-a2e0-4921-bad0-1d6197db5173e0e8287c-a09a-4cc0-b03d-04762f88035d.ipynb",
+      "name": "a-f178c3a3-c67b-4335-bd70-3f6d622d6e82.ipynb",
+      "type": "notebook",
+      "kernel": {
+        "id": "8b4b2aea-a66e-409e-9ed1-7289871e1aee",
+        "name": "python3",
+        "last_activity": "2026-10-25T18:34:31.914928Z",
+        "execution_state": "idle",
+        "connections": 1
+      },
+      "notebook": {
+        "path": "a-jvsc-efa5fc17-a2e0-4921-bad0-1d6197db5173e0e8287c-a09a-4cc0-b03d-04762f88035d.ipynb",
+        "name": "a-f178c3a3-c67b-4335-bd70-3f6d622d6e82.ipynb"
+      }
+    }
+  ],
+  "api/kernels": [
+    {
+      "id": "eb58b543-e4d6-4de2-98f8-972467cba029",
+      "name": "python3",
+      "last_activity": "2026-10-25T18:33:36.774927Z",
+      "execution_state": "idle",
+      "connections": 1
+    },
+    {
+      "id": "8b4b2aea-a66e-409e-9ed1-7289871e1aee",
+      "name": "python3",
+      "last_activity": "2026-10-25T18:34:31.914928Z",
+      "execution_state": "idle",
+      "connections": 1
+    }
+  ]
+}

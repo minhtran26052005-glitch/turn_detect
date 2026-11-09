@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"cycle\": 22, \"path\": \"outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip\", \"bytes\": 47441831, \"sha256\": \"517f5e47457a916de4640ed3527e9baa94f5d084055791d8a34cda32548e00b3\", \"scope\": \"DATA_AND_METADATA_ONLY_NO_MODEL_WEIGHTS\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.2180000000007567
+}

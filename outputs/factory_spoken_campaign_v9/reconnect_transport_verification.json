@@ -1,0 +1,16 @@
+{
+  "ipv6_tcp_timed_out": true,
+  "ipv4_tcp_succeeded": true,
+  "tls_certificate_validation_enabled": true,
+  "same_colab_destination_preserved": true,
+  "os_network_settings_unchanged": true,
+  "client_source_sha256": "b3f55fd8843ff7743d5248dd0210e692d6a0000c9c2edb9dcecbe988ab06cc2e",
+  "verified_current_boot": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "vscode_reloaded_only": true,
+  "existing_kernel_selected_no_creation": true,
+  "security_validation": "Off-destination refused before DNS; TLS hostname/certificate verification enabled; live authenticated read and exact handover succeeded",
+  "http_and_websocket_ipv4_first": true,
+  "https_adapter_only_validated_colab_prefix": true,
+  "global_urllib3_pools_unchanged": true,
+  "requests_certificate_verification_enabled": true
+}

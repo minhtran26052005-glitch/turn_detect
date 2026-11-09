@@ -1,0 +1,35 @@
+{
+  "checkpoint_step": 473700,
+  "shared_threshold": 0.38,
+  "threshold_locked_before_probe": true,
+  "probe_used_for_selection": false,
+  "by_language": {
+    "vi": {
+      "samples": 1000,
+      "accuracy": 0.805,
+      "eot_f1": 0.7161572052401747,
+      "tp": 246,
+      "tn": 559,
+      "fp": 146,
+      "fn": 49
+    },
+    "en": {
+      "samples": 1000,
+      "accuracy": 0.84,
+      "eot_f1": 0.7759103641456583,
+      "tp": 277,
+      "tn": 563,
+      "fp": 115,
+      "fn": 45
+    },
+    "zh": {
+      "samples": 1000,
+      "accuracy": 0.858,
+      "eot_f1": 0.6650943396226415,
+      "tp": 141,
+      "tn": 717,
+      "fp": 108,
+      "fn": 34
+    }
+  }
+}

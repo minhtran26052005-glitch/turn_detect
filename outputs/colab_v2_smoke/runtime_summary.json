@@ -1,0 +1,7 @@
+{
+  "smoke_dir": "/content/turn_detect_v2/runs/smoke_20261023_220613",
+  "teacher_dir": "/content/turn_detect_v2/data_v2/qwen_20261023_220613",
+  "run_tag": "20261023_220613",
+  "holdout_opened": false,
+  "connection_reuse_passed": true
+}

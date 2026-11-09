@@ -1,0 +1,8 @@
+{
+  "cycle": 5,
+  "path": "outputs/translation_segmenter_v15_20261026/recovery/metadata_snapshot.zip",
+  "bytes": 247915,
+  "sha256": "4e6f391690b81a7193ac58ac7bd15b29cac58fb416db3728f81a1f792b049a0c",
+  "scope": "METADATA_ONLY_NOT_A_FULL_TEACHER_RECOVERY",
+  "teacher_weights_backed_up_externally": false
+}

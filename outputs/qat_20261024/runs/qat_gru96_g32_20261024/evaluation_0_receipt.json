@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+    "-m",
+    "turn_v2.export_qat_student",
+    "--student",
+    "outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024",
+    "--output",
+    "outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024\\onnx_int4"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 17.09399999998277
+}

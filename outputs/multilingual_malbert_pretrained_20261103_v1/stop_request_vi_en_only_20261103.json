@@ -1,0 +1,23 @@
+{
+  "user_instruction": "Drop Chinese everywhere; focus on English and Vietnamese",
+  "requested_utc": "2026-11-03T07:53:17.337804+00:00",
+  "pid": 889316,
+  "start_ticks": "59865865",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_train_v1 ",
+  "purpose": "Graceful checkpoint handover to VIEN-only, retain model/AdamW/RNG/sampler state; no old job reset",
+  "status_before": {
+    "stage": "FINETUNING_PRETRAINED_MALBERT",
+    "pid": 889316,
+    "at_utc": "2026-11-03T07:53:15.899948+00:00",
+    "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+    "parameters": 11941122,
+    "large_teacher_must_remain_stopped": true,
+    "run": "finetune",
+    "step": 14050,
+    "epoch": 1,
+    "rows_seen": 224800,
+    "loss": 0.2518436908721924,
+    "kd_weight": 0.0,
+    "group_size": null
+  }
+}

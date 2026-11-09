@@ -1,0 +1,24 @@
+{
+  "selected_path": "runs/stream_v4_campaign_20261025/round_02/best",
+  "weights_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "thresholds": {
+    "vi": 0.26499999999999996,
+    "en": 0.135,
+    "zh": 0.27499999999999997
+  },
+  "selected_dev_sha256": "c46b6fa4f54e94a32c045c13567e9d3f875c9f261108378fa91d5d483718b535",
+  "test_status": "COMPLETED; SEEN_TEST_NOW_REGRESSION_ONLY",
+  "sealed_sha256": "014951a7fb1472551f05334253b017528183f8268003313e083b96810e976ba1",
+  "fresh_crawl_sha256": "b7dc136abdeb754d9ee750ba4a99de512393b1958d767548960a68c9a2b62cf1",
+  "started_unix": 1792864931.2445047,
+  "followup_used": true,
+  "selection_basis": "Development only; first local held results not opened before follow-up protocol was fixed",
+  "baseline_weights_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "baseline_dev_thresholds": {
+    "vi": 0.31499999999999995,
+    "en": 0.11499999999999999,
+    "zh": 0.16499999999999998
+  },
+  "fresh_vi_sha256": "aeee44461b173a6ff7f2837e74f0dc1b17e3f90be2484e92d21600ed17187c4d",
+  "fresh_en_zh_sha256": "7a966ff5c3880e0eed2228645f7669c76965487baccf3b1f26b717e4d13110db"
+}

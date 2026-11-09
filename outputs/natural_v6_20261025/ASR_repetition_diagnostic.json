@@ -1,0 +1,41 @@
+{
+  "scope": "Automatic repetition diagnostic only; not WER, and no cases removed",
+  "results": {
+    "vi:train": {
+      "cases": 628,
+      "high_repetition_over_30_percent": 37,
+      "tokens_ge_240": 3,
+      "empty": 0
+    },
+    "vi:dev": {
+      "cases": 145,
+      "high_repetition_over_30_percent": 6,
+      "tokens_ge_240": 1,
+      "empty": 0
+    },
+    "en:train": {
+      "cases": 423,
+      "high_repetition_over_30_percent": 0,
+      "tokens_ge_240": 0,
+      "empty": 0
+    },
+    "en:dev": {
+      "cases": 79,
+      "high_repetition_over_30_percent": 0,
+      "tokens_ge_240": 0,
+      "empty": 0
+    },
+    "zh:train": {
+      "cases": 382,
+      "high_repetition_over_30_percent": 0,
+      "tokens_ge_240": 0,
+      "empty": 0
+    },
+    "zh:dev": {
+      "cases": 69,
+      "high_repetition_over_30_percent": 0,
+      "tokens_ge_240": 0,
+      "empty": 0
+    }
+  }
+}

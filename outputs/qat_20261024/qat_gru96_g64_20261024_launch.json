@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"qat_gru96_g64_20261024\", \"launcher_pid\": 90282, \"command\": [\"/usr/bin/python3\", \"tools/distill_job.py\", \"--job\", \"jobs/qat_gru96_g64_20261024\", \"--timeout\", \"900\", \"--\", \"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.qat_student\", \"--student\", \"runs/distill_gru_h96_e64_l1_20261024\", \"--output\", \"runs/qat_gru96_g64_20261024\", \"--group-size\", \"64\", \"--epochs\", \"8\", \"--lr\", \"0.0001\", \"--batch-size\", \"256\", \"--seed\", \"43\"], \"source_sha256\": {\"turn_v2/qat_student.py\": \"2a506e4c29650a3f2bf7f3505f4dbe8311003f84f26d6772fdf9f3c100d7afed\", \"turn_v2/quantize_student4.py\": \"83bd89b876cf683fb3592619121ad04a202694a7f9f9020bb493a483205c73db\", \"turn_v2/tiny_student.py\": \"a7e48ed160e1b704a252aaa6ff9c05adbaaf6ade5a974d262b829dbf90adb606\", \"turn_v2/distill.py\": \"829479e8c193659269d93de6a126145f57bfa90635006dea3fde50d18f86f1e2\", \"turn_v2/common.py\": \"f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece\", \"turn_v2/metrics.py\": \"e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde\", \"tools/distill_job.py\": \"cd60ed742898d6cefa924b685bb9732564b62a329db8e65f908096d4a6e5a025\"}}\n"
+    }
+  ],
+  "elapsed_seconds": 0.7970000000204891
+}

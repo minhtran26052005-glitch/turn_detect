@@ -1,0 +1,3455 @@
+{
+  "created_at_utc": "2026-10-27T03:37:48.478725+00:00",
+  "manifest": {
+    "schema": 1,
+    "frozen_at_utc": "2026-10-27T03:28:28.064321+00:00",
+    "checkpoints": {
+      "vi": {
+        "checkpoint_cycle": 75,
+        "cycle_step": 100,
+        "total_steps": 1100,
+        "source_resume_sha256": "df31c23fdd530bb381ab93557891941173a844790b1c83d14dec8c3bd1b01bb0",
+        "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+        "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+        "threshold_from_dev": 0.6599999999999999,
+        "files_sha256": {
+          "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+          "model.safetensors": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+          "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+          "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+        }
+      },
+      "en": {
+        "checkpoint_cycle": 75,
+        "cycle_step": 100,
+        "total_steps": 1100,
+        "source_resume_sha256": "a0c95819737bf625dad512111ac0196324db87aa90889121568a41a206278cb0",
+        "training_fingerprint": "7d274b5b4a0b5d9912fb408421219e63e0ba1b998e79c1b19dbef2b2789eb23e",
+        "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+        "threshold_from_dev": 0.58,
+        "files_sha256": {
+          "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+          "model.safetensors": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+          "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+          "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+        }
+      },
+      "zh": {
+        "checkpoint_cycle": 75,
+        "cycle_step": 100,
+        "total_steps": 1100,
+        "source_resume_sha256": "58522dba0fc6a0ef9d138fc40a1104a78b2c7f407a0af4eb632c528d5d3ae295",
+        "training_fingerprint": "79cef97fd7299a35c9020a34d573d8922d483fe9dfeb09ab66256a6258700748",
+        "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+        "threshold_from_dev": 0.7549999999999999,
+        "files_sha256": {
+          "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+          "model.safetensors": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+          "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+          "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+        }
+      }
+    },
+    "database_sha256": "2fc6dbf60ebf4fa39f8a32804e78356cf9c373c4c623ce950830c6d94c2c06ed",
+    "database_integrity": "ok",
+    "source_split_leakage_groups": 0,
+    "split_counts": [
+      {
+        "language": "en",
+        "split": "dev",
+        "rows": 51659
+      },
+      {
+        "language": "en",
+        "split": "test",
+        "rows": 66013
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "rows": 455768
+      },
+      {
+        "language": "vi",
+        "split": "dev",
+        "rows": 95057
+      },
+      {
+        "language": "vi",
+        "split": "test",
+        "rows": 101186
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "rows": 875811
+      },
+      {
+        "language": "zh",
+        "split": "dev",
+        "rows": 145474
+      },
+      {
+        "language": "zh",
+        "split": "test",
+        "rows": 150066
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "rows": 1147782
+      }
+    ],
+    "selection": "test pages added after45 through75; deterministic source-page80/20 diagnostic/unscored reserve",
+    "old_holdout_unchanged": true,
+    "test_used_for_threshold_or_checkpoint_selection": false,
+    "diagnostic_errors_may_inform_future_training_data": true,
+    "reserve_scored": false,
+    "scope": "PUNCTUATION_DERIVED_PROSE_NOT_HUMAN_AUDIO_GOLD",
+    "code_sha256": "77e63384dc38953fe45eed5f986c52b07fb242986af6f2bcdc2b695c70f70eff",
+    "shared_evaluator_sha256": "cfad4fda28ff2f08b2ab2968359155ccddc3f1afdd462e4eee8192cdd10aa579",
+    "model_encoder_sha256": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f"
+  },
+  "complete": true,
+  "scope": "FROZEN_C75_NEW_SOURCE_PROSE_DIAGNOSTIC_TEST_NOT_HUMAN_AUDIO_GOLD",
+  "test_used_for_selection": false,
+  "future_train_crawl_design_may_use_diagnostic_errors": true,
+  "unscored_reserve_preserved": true,
+  "quality_target_certified": false,
+  "languages": {
+    "vi": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "df31c23fdd530bb381ab93557891941173a844790b1c83d14dec8c3bd1b01bb0",
+      "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "threshold_from_dev": 0.6599999999999999,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      },
+      "threshold_selected_on_test": false,
+      "test_rows_sha256": "18d68ba5a44b49c7ab3cb1ab9c7ca447229df11b138e5f700fccdfb30b20b725",
+      "leakage_audit": {
+        "non_test_rows_scanned": 970868,
+        "test_rows_before_audit": 40234,
+        "overlapping_encoded_train_dev_keys": 904,
+        "overlapping_old_test_or_reserve_keys": 109,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 39167,
+        "removed_rows": 1067,
+        "policy": "exclude train/dev, old test and unscored reserve exact encoded inputs and copied source text",
+        "near_duplicate_paraphrases_not_exhaustively_detected": true
+      },
+      "metrics": {
+        "samples": 39167,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.8113973498097888,
+        "eot_precision": 0.7533182259630948,
+        "eot_recall": 0.8322107647374382,
+        "eot_f1": 0.7908017331709666,
+        "joint_score": 0.7908017331709666,
+        "false_eot": 4572,
+        "missed_eot": 2815,
+        "false_eot_rate": 0.20419830281375614,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            17818,
+            4572
+          ],
+          [
+            2815,
+            13962
+          ]
+        ]
+      },
+      "raw_test_metrics_before_overlap_filter": {
+        "samples": 40234,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.8137147686036685,
+        "eot_precision": 0.7544830522002873,
+        "eot_recall": 0.8311254396248534,
+        "eot_f1": 0.790951942654729,
+        "joint_score": 0.790951942654729,
+        "false_eot": 4614,
+        "missed_eot": 2881,
+        "false_eot_rate": 0.19910244239233624,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            18560,
+            4614
+          ],
+          [
+            2881,
+            14179
+          ]
+        ]
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 19504,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.8018867924528302,
+          "eot_precision": 0.7371290762294223,
+          "eot_recall": 0.8382019792536067,
+          "eot_f1": 0.7844231198393216,
+          "joint_score": 0.7844231198393216,
+          "false_eot": 2507,
+          "missed_eot": 1357,
+          "false_eot_rate": 0.22551047944589367,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              8610,
+              2507
+            ],
+            [
+              1357,
+              7030
+            ]
+          ]
+        },
+        "2": {
+          "samples": 19663,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.8208310023902762,
+          "eot_precision": 0.7704790485717461,
+          "eot_recall": 0.8262216924910608,
+          "eot_f1": 0.7973773508943464,
+          "joint_score": 0.7973773508943464,
+          "false_eot": 2065,
+          "missed_eot": 1458,
+          "false_eot_rate": 0.18318105207132085,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              9208,
+              2065
+            ],
+            [
+              1458,
+              6932
+            ]
+          ]
+        }
+      },
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 432,
+        "accuracy": [
+          0.8007895505420441,
+          0.8217041847687159
+        ],
+        "eot_f1": [
+          0.7767428568125678,
+          0.8041720099552674
+        ]
+      },
+      "terminal_period_eot_recall": 0.8336338203294995,
+      "terminal_period_targets": 16085,
+      "internal_punctuation_no_eot_rate": 0.7958016971862438,
+      "internal_punctuation_targets": 22390,
+      "test_evaluated": true,
+      "prose_test_accuracy_and_f1_90": false,
+      "full_trace_remote_only": "outputs/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1/test_predictions_vi.jsonl.gz",
+      "full_trace_sha256": "153c40ac1fd8ad031f58874b8b087b32efe3476493862c4aedd1843b50d24485",
+      "partition": {
+        "unscored_reserve_rows": 9717,
+        "old_test_rows_not_rescored": 51235,
+        "diagnostic_rows_before_encoded_audit": 40234,
+        "unscored_reserve_source_groups": 107,
+        "unscored_reserve_source_ids_sha256": "919fd80e1a932864106da161b486d128927042794955195badfeea5033da2049",
+        "reserve_scored": false
+      },
+      "error_analysis": {
+        "error_counts": {
+          "correct": 31780,
+          "missed_EOT": 2815,
+          "false_EOT": 4572
+        },
+        "high_margin_error_counts": {
+          "missed_EOT": 913,
+          "false_EOT": 12
+        },
+        "slices": {
+          "source": [
+            {
+              "feature": "hf:fineweb2:vie_Latn",
+              "samples": 39123,
+              "correct": 31742,
+              "missed_EOT": 2813,
+              "false_EOT": 4568,
+              "errors": 7381,
+              "error_rate": 0.1886614012217877
+            },
+            {
+              "feature": "wiki:vi",
+              "samples": 44,
+              "correct": 38,
+              "missed_EOT": 2,
+              "false_EOT": 4,
+              "errors": 6,
+              "error_rate": 0.13636363636363635
+            }
+          ],
+          "punctuation": [
+            {
+              "feature": ",",
+              "samples": 20940,
+              "correct": 16666,
+              "false_EOT": 4274,
+              "errors": 4274,
+              "error_rate": 0.2041069723018147
+            },
+            {
+              "feature": ".",
+              "samples": 16085,
+              "correct": 13409,
+              "missed_EOT": 2676,
+              "errors": 2676,
+              "error_rate": 0.16636617967050046
+            },
+            {
+              "feature": ":",
+              "samples": 1177,
+              "correct": 1001,
+              "false_EOT": 176,
+              "errors": 176,
+              "error_rate": 0.14953271028037382
+            },
+            {
+              "feature": ";",
+              "samples": 273,
+              "correct": 151,
+              "false_EOT": 122,
+              "errors": 122,
+              "error_rate": 0.4468864468864469
+            },
+            {
+              "feature": "?",
+              "samples": 484,
+              "correct": 407,
+              "missed_EOT": 77,
+              "errors": 77,
+              "error_rate": 0.1590909090909091
+            },
+            {
+              "feature": "!",
+              "samples": 208,
+              "correct": 146,
+              "missed_EOT": 62,
+              "errors": 62,
+              "error_rate": 0.2980769230769231
+            }
+          ],
+          "lookahead": [
+            {
+              "feature": "1",
+              "samples": 19504,
+              "correct": 15640,
+              "missed_EOT": 1357,
+              "false_EOT": 2507,
+              "errors": 3864,
+              "error_rate": 0.19811320754716982
+            },
+            {
+              "feature": "2",
+              "samples": 19663,
+              "correct": 16140,
+              "missed_EOT": 1458,
+              "false_EOT": 2065,
+              "errors": 3523,
+              "error_rate": 0.17916899760972385
+            }
+          ],
+          "context_words": [
+            {
+              "feature": "16-40",
+              "samples": 18818,
+              "correct": 14816,
+              "false_EOT": 2732,
+              "missed_EOT": 1270,
+              "errors": 4002,
+              "error_rate": 0.2126687214369221
+            },
+            {
+              "feature": "6-15",
+              "samples": 11938,
+              "correct": 9399,
+              "missed_EOT": 1299,
+              "false_EOT": 1240,
+              "errors": 2539,
+              "error_rate": 0.21268219132182944
+            },
+            {
+              "feature": ">40",
+              "samples": 4372,
+              "correct": 3575,
+              "false_EOT": 570,
+              "missed_EOT": 227,
+              "errors": 797,
+              "error_rate": 0.1822964318389753
+            },
+            {
+              "feature": "<=5",
+              "samples": 4039,
+              "missed_EOT": 19,
+              "correct": 3990,
+              "false_EOT": 30,
+              "errors": 49,
+              "error_rate": 0.012131715771230503
+            }
+          ],
+          "future_first_word": [
+            {
+              "feature": "nhưng",
+              "samples": 882,
+              "correct": 617,
+              "false_EOT": 146,
+              "missed_EOT": 119,
+              "errors": 265,
+              "error_rate": 0.30045351473922904
+            },
+            {
+              "feature": "và",
+              "samples": 571,
+              "correct": 409,
+              "missed_EOT": 86,
+              "false_EOT": 76,
+              "errors": 162,
+              "error_rate": 0.28371278458844135
+            },
+            {
+              "feature": "trong",
+              "samples": 768,
+              "correct": 614,
+              "false_EOT": 129,
+              "missed_EOT": 25,
+              "errors": 154,
+              "error_rate": 0.20052083333333334
+            },
+            {
+              "feature": "có",
+              "samples": 641,
+              "correct": 500,
+              "missed_EOT": 52,
+              "false_EOT": 89,
+              "errors": 141,
+              "error_rate": 0.21996879875195008
+            },
+            {
+              "feature": "vì",
+              "samples": 421,
+              "correct": 288,
+              "false_EOT": 110,
+              "missed_EOT": 23,
+              "errors": 133,
+              "error_rate": 0.3159144893111639
+            },
+            {
+              "feature": "một",
+              "samples": 599,
+              "correct": 475,
+              "missed_EOT": 47,
+              "false_EOT": 77,
+              "errors": 124,
+              "error_rate": 0.20701168614357263
+            },
+            {
+              "feature": "các",
+              "samples": 661,
+              "correct": 542,
+              "false_EOT": 88,
+              "missed_EOT": 31,
+              "errors": 119,
+              "error_rate": 0.1800302571860817
+            },
+            {
+              "feature": "không",
+              "samples": 436,
+              "correct": 332,
+              "false_EOT": 55,
+              "missed_EOT": 49,
+              "errors": 104,
+              "error_rate": 0.23853211009174313
+            },
+            {
+              "feature": "sau",
+              "samples": 415,
+              "correct": 318,
+              "false_EOT": 65,
+              "missed_EOT": 32,
+              "errors": 97,
+              "error_rate": 0.23373493975903614
+            },
+            {
+              "feature": "khi",
+              "samples": 488,
+              "correct": 395,
+              "false_EOT": 72,
+              "missed_EOT": 21,
+              "errors": 93,
+              "error_rate": 0.19057377049180327
+            },
+            {
+              "feature": "những",
+              "samples": 444,
+              "correct": 361,
+              "missed_EOT": 26,
+              "false_EOT": 57,
+              "errors": 83,
+              "error_rate": 0.18693693693693694
+            },
+            {
+              "feature": "nó",
+              "samples": 259,
+              "correct": 185,
+              "missed_EOT": 27,
+              "false_EOT": 47,
+              "errors": 74,
+              "error_rate": 0.2857142857142857
+            },
+            {
+              "feature": "người",
+              "samples": 398,
+              "correct": 325,
+              "missed_EOT": 29,
+              "false_EOT": 44,
+              "errors": 73,
+              "error_rate": 0.18341708542713567
+            },
+            {
+              "feature": "từ",
+              "samples": 283,
+              "correct": 214,
+              "false_EOT": 45,
+              "missed_EOT": 24,
+              "errors": 69,
+              "error_rate": 0.24381625441696114
+            },
+            {
+              "feature": "cho",
+              "samples": 210,
+              "correct": 144,
+              "missed_EOT": 34,
+              "false_EOT": 32,
+              "errors": 66,
+              "error_rate": 0.3142857142857143
+            },
+            {
+              "feature": "nếu",
+              "samples": 497,
+              "correct": 432,
+              "missed_EOT": 9,
+              "false_EOT": 56,
+              "errors": 65,
+              "error_rate": 0.13078470824949698
+            },
+            {
+              "feature": "còn",
+              "samples": 232,
+              "missed_EOT": 19,
+              "correct": 168,
+              "false_EOT": 45,
+              "errors": 64,
+              "error_rate": 0.27586206896551724
+            },
+            {
+              "feature": "với",
+              "samples": 273,
+              "false_EOT": 49,
+              "correct": 211,
+              "missed_EOT": 13,
+              "errors": 62,
+              "error_rate": 0.2271062271062271
+            },
+            {
+              "feature": "chỉ",
+              "samples": 244,
+              "correct": 183,
+              "missed_EOT": 20,
+              "false_EOT": 41,
+              "errors": 61,
+              "error_rate": 0.25
+            },
+            {
+              "feature": "để",
+              "samples": 234,
+              "correct": 173,
+              "false_EOT": 37,
+              "missed_EOT": 24,
+              "errors": 61,
+              "error_rate": 0.2606837606837607
+            },
+            {
+              "feature": "ông",
+              "samples": 437,
+              "correct": 379,
+              "missed_EOT": 28,
+              "false_EOT": 30,
+              "errors": 58,
+              "error_rate": 0.13272311212814644
+            },
+            {
+              "feature": "bởi",
+              "samples": 156,
+              "correct": 99,
+              "missed_EOT": 17,
+              "false_EOT": 40,
+              "errors": 57,
+              "error_rate": 0.36538461538461536
+            },
+            {
+              "feature": "cũng",
+              "samples": 250,
+              "correct": 195,
+              "missed_EOT": 27,
+              "false_EOT": 28,
+              "errors": 55,
+              "error_rate": 0.22
+            },
+            {
+              "feature": "tôi",
+              "samples": 498,
+              "correct": 446,
+              "false_EOT": 27,
+              "missed_EOT": 25,
+              "errors": 52,
+              "error_rate": 0.10441767068273092
+            },
+            {
+              "feature": "như",
+              "samples": 175,
+              "correct": 123,
+              "missed_EOT": 26,
+              "false_EOT": 26,
+              "errors": 52,
+              "error_rate": 0.29714285714285715
+            },
+            {
+              "feature": "tuy",
+              "samples": 406,
+              "correct": 355,
+              "false_EOT": 49,
+              "missed_EOT": 2,
+              "errors": 51,
+              "error_rate": 0.12561576354679804
+            },
+            {
+              "feature": "ở",
+              "samples": 174,
+              "correct": 125,
+              "missed_EOT": 16,
+              "false_EOT": 33,
+              "errors": 49,
+              "error_rate": 0.28160919540229884
+            },
+            {
+              "feature": "bạn",
+              "samples": 365,
+              "correct": 320,
+              "missed_EOT": 13,
+              "false_EOT": 32,
+              "errors": 45,
+              "error_rate": 0.1232876712328767
+            },
+            {
+              "feature": "đó",
+              "samples": 183,
+              "correct": 138,
+              "false_EOT": 30,
+              "missed_EOT": 15,
+              "errors": 45,
+              "error_rate": 0.2459016393442623
+            },
+            {
+              "feature": "do",
+              "samples": 154,
+              "false_EOT": 25,
+              "correct": 111,
+              "missed_EOT": 18,
+              "errors": 43,
+              "error_rate": 0.2792207792207792
+            },
+            {
+              "feature": "đặc",
+              "samples": 150,
+              "correct": 107,
+              "missed_EOT": 12,
+              "false_EOT": 31,
+              "errors": 43,
+              "error_rate": 0.2866666666666667
+            },
+            {
+              "feature": "chúng",
+              "samples": 293,
+              "correct": 252,
+              "false_EOT": 25,
+              "missed_EOT": 16,
+              "errors": 41,
+              "error_rate": 0.13993174061433447
+            },
+            {
+              "feature": "họ",
+              "samples": 186,
+              "correct": 145,
+              "false_EOT": 26,
+              "missed_EOT": 15,
+              "errors": 41,
+              "error_rate": 0.22043010752688172
+            },
+            {
+              "feature": "mà",
+              "samples": 182,
+              "missed_EOT": 26,
+              "correct": 141,
+              "false_EOT": 15,
+              "errors": 41,
+              "error_rate": 0.22527472527472528
+            },
+            {
+              "feature": "theo",
+              "samples": 237,
+              "correct": 200,
+              "missed_EOT": 10,
+              "false_EOT": 27,
+              "errors": 37,
+              "error_rate": 0.15611814345991562
+            },
+            {
+              "feature": "anh",
+              "samples": 194,
+              "false_EOT": 31,
+              "correct": 158,
+              "missed_EOT": 5,
+              "errors": 36,
+              "error_rate": 0.18556701030927836
+            },
+            {
+              "feature": "rồi",
+              "samples": 126,
+              "correct": 90,
+              "false_EOT": 21,
+              "missed_EOT": 15,
+              "errors": 36,
+              "error_rate": 0.2857142857142857
+            },
+            {
+              "feature": "chẳng",
+              "samples": 92,
+              "missed_EOT": 23,
+              "correct": 56,
+              "false_EOT": 13,
+              "errors": 36,
+              "error_rate": 0.391304347826087
+            },
+            {
+              "feature": "hải",
+              "samples": 52,
+              "missed_EOT": 36,
+              "correct": 16,
+              "errors": 36,
+              "error_rate": 0.6923076923076923
+            },
+            {
+              "feature": "là",
+              "samples": 180,
+              "correct": 147,
+              "false_EOT": 21,
+              "missed_EOT": 12,
+              "errors": 33,
+              "error_rate": 0.18333333333333332
+            },
+            {
+              "feature": "sự",
+              "samples": 160,
+              "false_EOT": 23,
+              "correct": 128,
+              "missed_EOT": 9,
+              "errors": 32,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "đến",
+              "samples": 128,
+              "correct": 97,
+              "false_EOT": 21,
+              "missed_EOT": 10,
+              "errors": 31,
+              "error_rate": 0.2421875
+            },
+            {
+              "feature": "công",
+              "samples": 122,
+              "missed_EOT": 14,
+              "correct": 91,
+              "false_EOT": 17,
+              "errors": 31,
+              "error_rate": 0.2540983606557377
+            },
+            {
+              "feature": "chủ",
+              "samples": 91,
+              "missed_EOT": 10,
+              "correct": 60,
+              "false_EOT": 21,
+              "errors": 31,
+              "error_rate": 0.34065934065934067
+            },
+            {
+              "feature": "trước",
+              "samples": 178,
+              "correct": 149,
+              "false_EOT": 20,
+              "missed_EOT": 9,
+              "errors": 29,
+              "error_rate": 0.16292134831460675
+            },
+            {
+              "feature": "mỗi",
+              "samples": 165,
+              "correct": 136,
+              "false_EOT": 27,
+              "missed_EOT": 2,
+              "errors": 29,
+              "error_rate": 0.17575757575757575
+            },
+            {
+              "feature": "hay",
+              "samples": 100,
+              "correct": 72,
+              "missed_EOT": 18,
+              "false_EOT": 10,
+              "errors": 28,
+              "error_rate": 0.28
+            },
+            {
+              "feature": "nhiều",
+              "samples": 215,
+              "correct": 188,
+              "missed_EOT": 17,
+              "false_EOT": 10,
+              "errors": 27,
+              "error_rate": 0.12558139534883722
+            },
+            {
+              "feature": "đồng",
+              "samples": 120,
+              "correct": 93,
+              "false_EOT": 18,
+              "missed_EOT": 9,
+              "errors": 27,
+              "error_rate": 0.225
+            },
+            {
+              "feature": "tất",
+              "samples": 94,
+              "correct": 67,
+              "false_EOT": 23,
+              "missed_EOT": 4,
+              "errors": 27,
+              "error_rate": 0.2872340425531915
+            },
+            {
+              "feature": "dù",
+              "samples": 100,
+              "false_EOT": 26,
+              "correct": 74,
+              "errors": 26,
+              "error_rate": 0.26
+            },
+            {
+              "feature": "cái",
+              "samples": 129,
+              "correct": 104,
+              "false_EOT": 20,
+              "missed_EOT": 5,
+              "errors": 25,
+              "error_rate": 0.1937984496124031
+            },
+            {
+              "feature": "trên",
+              "samples": 114,
+              "correct": 89,
+              "missed_EOT": 6,
+              "false_EOT": 19,
+              "errors": 25,
+              "error_rate": 0.21929824561403508
+            },
+            {
+              "feature": "đối",
+              "samples": 110,
+              "correct": 85,
+              "false_EOT": 18,
+              "missed_EOT": 7,
+              "errors": 25,
+              "error_rate": 0.22727272727272727
+            },
+            {
+              "feature": "vậy",
+              "samples": 102,
+              "correct": 77,
+              "false_EOT": 25,
+              "errors": 25,
+              "error_rate": 0.24509803921568626
+            },
+            {
+              "feature": "hai",
+              "samples": 98,
+              "missed_EOT": 13,
+              "correct": 74,
+              "false_EOT": 11,
+              "errors": 24,
+              "error_rate": 0.24489795918367346
+            },
+            {
+              "feature": "ngay",
+              "samples": 95,
+              "correct": 71,
+              "false_EOT": 23,
+              "missed_EOT": 1,
+              "errors": 24,
+              "error_rate": 0.25263157894736843
+            },
+            {
+              "feature": "qua",
+              "samples": 81,
+              "missed_EOT": 12,
+              "false_EOT": 12,
+              "correct": 57,
+              "errors": 24,
+              "error_rate": 0.2962962962962963
+            },
+            {
+              "feature": "cô",
+              "samples": 137,
+              "correct": 114,
+              "missed_EOT": 7,
+              "false_EOT": 16,
+              "errors": 23,
+              "error_rate": 0.1678832116788321
+            },
+            {
+              "feature": "chính",
+              "samples": 178,
+              "correct": 156,
+              "false_EOT": 18,
+              "missed_EOT": 4,
+              "errors": 22,
+              "error_rate": 0.12359550561797752
+            },
+            {
+              "feature": "việc",
+              "samples": 176,
+              "correct": 154,
+              "false_EOT": 14,
+              "missed_EOT": 8,
+              "errors": 22,
+              "error_rate": 0.125
+            },
+            {
+              "feature": "thế",
+              "samples": 110,
+              "correct": 88,
+              "false_EOT": 21,
+              "missed_EOT": 1,
+              "errors": 22,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "đã",
+              "samples": 110,
+              "correct": 88,
+              "missed_EOT": 5,
+              "false_EOT": 17,
+              "errors": 22,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "nước",
+              "samples": 82,
+              "correct": 60,
+              "false_EOT": 13,
+              "missed_EOT": 9,
+              "errors": 22,
+              "error_rate": 0.2682926829268293
+            },
+            {
+              "feature": "thậm",
+              "samples": 74,
+              "correct": 52,
+              "missed_EOT": 13,
+              "false_EOT": 9,
+              "errors": 22,
+              "error_rate": 0.2972972972972973
+            },
+            {
+              "feature": "hoặc",
+              "samples": 124,
+              "correct": 103,
+              "missed_EOT": 5,
+              "false_EOT": 16,
+              "errors": 21,
+              "error_rate": 0.1693548387096774
+            },
+            {
+              "feature": "thì",
+              "samples": 154,
+              "correct": 134,
+              "false_EOT": 12,
+              "missed_EOT": 8,
+              "errors": 20,
+              "error_rate": 0.12987012987012986
+            },
+            {
+              "feature": "được",
+              "samples": 144,
+              "correct": 124,
+              "false_EOT": 12,
+              "missed_EOT": 8,
+              "errors": 20,
+              "error_rate": 0.1388888888888889
+            },
+            {
+              "feature": "con",
+              "samples": 138,
+              "correct": 118,
+              "false_EOT": 16,
+              "missed_EOT": 4,
+              "errors": 20,
+              "error_rate": 0.14492753623188406
+            },
+            {
+              "feature": "tình",
+              "samples": 67,
+              "correct": 47,
+              "missed_EOT": 11,
+              "false_EOT": 9,
+              "errors": 20,
+              "error_rate": 0.29850746268656714
+            },
+            {
+              "feature": "lúc",
+              "samples": 118,
+              "false_EOT": 16,
+              "correct": 99,
+              "missed_EOT": 3,
+              "errors": 19,
+              "error_rate": 0.16101694915254236
+            },
+            {
+              "feature": "năm",
+              "samples": 93,
+              "missed_EOT": 10,
+              "correct": 74,
+              "false_EOT": 9,
+              "errors": 19,
+              "error_rate": 0.20430107526881722
+            },
+            {
+              "feature": "về",
+              "samples": 74,
+              "correct": 55,
+              "false_EOT": 11,
+              "missed_EOT": 8,
+              "errors": 19,
+              "error_rate": 0.25675675675675674
+            },
+            {
+              "feature": "đây",
+              "samples": 220,
+              "correct": 202,
+              "false_EOT": 15,
+              "missed_EOT": 3,
+              "errors": 18,
+              "error_rate": 0.08181818181818182
+            },
+            {
+              "feature": "nên",
+              "samples": 98,
+              "correct": 80,
+              "missed_EOT": 10,
+              "false_EOT": 8,
+              "errors": 18,
+              "error_rate": 0.1836734693877551
+            },
+            {
+              "feature": "cách",
+              "samples": 66,
+              "correct": 48,
+              "false_EOT": 18,
+              "errors": 18,
+              "error_rate": 0.2727272727272727
+            },
+            {
+              "feature": "ai",
+              "samples": 66,
+              "correct": 48,
+              "false_EOT": 11,
+              "missed_EOT": 7,
+              "errors": 18,
+              "error_rate": 0.2727272727272727
+            },
+            {
+              "feature": "làm",
+              "samples": 148,
+              "correct": 131,
+              "missed_EOT": 7,
+              "false_EOT": 10,
+              "errors": 17,
+              "error_rate": 0.11486486486486487
+            },
+            {
+              "feature": "nhà",
+              "samples": 115,
+              "correct": 98,
+              "false_EOT": 11,
+              "missed_EOT": 6,
+              "errors": 17,
+              "error_rate": 0.14782608695652175
+            },
+            {
+              "feature": "tiếp",
+              "samples": 56,
+              "correct": 39,
+              "false_EOT": 15,
+              "missed_EOT": 2,
+              "errors": 17,
+              "error_rate": 0.30357142857142855
+            },
+            {
+              "feature": "điều",
+              "samples": 195,
+              "correct": 179,
+              "missed_EOT": 4,
+              "false_EOT": 12,
+              "errors": 16,
+              "error_rate": 0.08205128205128205
+            },
+            {
+              "feature": "the",
+              "samples": 104,
+              "correct": 88,
+              "false_EOT": 8,
+              "missed_EOT": 8,
+              "errors": 16,
+              "error_rate": 0.15384615384615385
+            },
+            {
+              "feature": "nói",
+              "samples": 84,
+              "false_EOT": 11,
+              "correct": 68,
+              "missed_EOT": 5,
+              "errors": 16,
+              "error_rate": 0.19047619047619047
+            },
+            {
+              "feature": "song",
+              "samples": 66,
+              "correct": 50,
+              "missed_EOT": 11,
+              "false_EOT": 5,
+              "errors": 16,
+              "error_rate": 0.24242424242424243
+            },
+            {
+              "feature": "nhất",
+              "samples": 64,
+              "correct": 48,
+              "false_EOT": 14,
+              "missed_EOT": 2,
+              "errors": 16,
+              "error_rate": 0.25
+            },
+            {
+              "feature": "đi",
+              "samples": 58,
+              "missed_EOT": 5,
+              "correct": 42,
+              "false_EOT": 11,
+              "errors": 16,
+              "error_rate": 0.27586206896551724
+            },
+            {
+              "feature": "ngoài",
+              "samples": 202,
+              "correct": 187,
+              "missed_EOT": 5,
+              "false_EOT": 10,
+              "errors": 15,
+              "error_rate": 0.07425742574257425
+            },
+            {
+              "feature": "tại",
+              "samples": 124,
+              "correct": 109,
+              "false_EOT": 7,
+              "missed_EOT": 8,
+              "errors": 15,
+              "error_rate": 0.12096774193548387
+            },
+            {
+              "feature": "ngày",
+              "samples": 111,
+              "correct": 96,
+              "missed_EOT": 6,
+              "false_EOT": 9,
+              "errors": 15,
+              "error_rate": 0.13513513513513514
+            },
+            {
+              "feature": "mặc",
+              "samples": 74,
+              "correct": 59,
+              "false_EOT": 10,
+              "missed_EOT": 5,
+              "errors": 15,
+              "error_rate": 0.20270270270270271
+            },
+            {
+              "feature": "kết",
+              "samples": 58,
+              "correct": 43,
+              "false_EOT": 13,
+              "missed_EOT": 2,
+              "errors": 15,
+              "error_rate": 0.25862068965517243
+            },
+            {
+              "feature": "bệnh",
+              "samples": 96,
+              "correct": 82,
+              "missed_EOT": 5,
+              "false_EOT": 9,
+              "errors": 14,
+              "error_rate": 0.14583333333333334
+            },
+            {
+              "feature": "số",
+              "samples": 84,
+              "correct": 70,
+              "false_EOT": 13,
+              "missed_EOT": 1,
+              "errors": 14,
+              "error_rate": 0.16666666666666666
+            },
+            {
+              "feature": "cả",
+              "samples": 82,
+              "correct": 68,
+              "missed_EOT": 5,
+              "false_EOT": 9,
+              "errors": 14,
+              "error_rate": 0.17073170731707318
+            },
+            {
+              "feature": "hơn",
+              "samples": 76,
+              "correct": 62,
+              "missed_EOT": 11,
+              "false_EOT": 3,
+              "errors": 14,
+              "error_rate": 0.18421052631578946
+            },
+            {
+              "feature": "nhân",
+              "samples": 68,
+              "correct": 54,
+              "false_EOT": 14,
+              "errors": 14,
+              "error_rate": 0.20588235294117646
+            },
+            {
+              "feature": "ta",
+              "samples": 64,
+              "correct": 50,
+              "false_EOT": 13,
+              "missed_EOT": 1,
+              "errors": 14,
+              "error_rate": 0.21875
+            },
+            {
+              "feature": "toà",
+              "samples": 58,
+              "correct": 44,
+              "false_EOT": 4,
+              "missed_EOT": 10,
+              "errors": 14,
+              "error_rate": 0.2413793103448276
+            },
+            {
+              "feature": "biết",
+              "samples": 54,
+              "correct": 40,
+              "false_EOT": 11,
+              "missed_EOT": 3,
+              "errors": 14,
+              "error_rate": 0.25925925925925924
+            },
+            {
+              "feature": "yêu",
+              "samples": 52,
+              "false_EOT": 10,
+              "correct": 38,
+              "missed_EOT": 4,
+              "errors": 14,
+              "error_rate": 0.2692307692307692
+            }
+          ]
+        },
+        "paired_lookahead": {
+          "both_correct": 14718,
+          "both_wrong": 2656,
+          "lookahead2_rescues": 1204,
+          "lookahead2_hurts": 866
+        },
+        "normalized_visible_input_label_conflicts": {
+          "keys": 0,
+          "rows": 0,
+          "minimum_unavoidable_errors_with_identical_visible_text": 0
+        },
+        "interpretation": "Slice associations and label collisions are evidence, not causal attribution. Original-source review is required for parser/label error claims."
+      }
+    },
+    "en": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "a0c95819737bf625dad512111ac0196324db87aa90889121568a41a206278cb0",
+      "training_fingerprint": "7d274b5b4a0b5d9912fb408421219e63e0ba1b998e79c1b19dbef2b2789eb23e",
+      "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+      "threshold_from_dev": 0.58,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      },
+      "threshold_selected_on_test": false,
+      "test_rows_sha256": "d47c14c24951be37130704896a6ebbe82e9c29418687761850732288db312723",
+      "leakage_audit": {
+        "non_test_rows_scanned": 507427,
+        "test_rows_before_audit": 28313,
+        "overlapping_encoded_train_dev_keys": 150,
+        "overlapping_old_test_or_reserve_keys": 8,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 28155,
+        "removed_rows": 158,
+        "policy": "exclude train/dev, old test and unscored reserve exact encoded inputs and copied source text",
+        "near_duplicate_paraphrases_not_exhaustively_detected": true
+      },
+      "metrics": {
+        "samples": 28155,
+        "threshold": 0.58,
+        "accuracy": 0.8485171372757947,
+        "eot_precision": 0.8639057479471617,
+        "eot_recall": 0.8368377368930696,
+        "eot_f1": 0.8501563433229105,
+        "joint_score": 0.8485171372757947,
+        "false_eot": 1906,
+        "missed_eot": 2359,
+        "false_eot_rate": 0.1391545593925677,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11791,
+            1906
+          ],
+          [
+            2359,
+            12099
+          ]
+        ]
+      },
+      "raw_test_metrics_before_overlap_filter": {
+        "samples": 28313,
+        "threshold": 0.58,
+        "accuracy": 0.8491152474128493,
+        "eot_precision": 0.8642124750783252,
+        "eot_recall": 0.836919045648876,
+        "eot_f1": 0.8503468086597071,
+        "joint_score": 0.8491152474128493,
+        "false_eot": 1907,
+        "missed_eot": 2365,
+        "false_eot_rate": 0.13807834334950403,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11904,
+            1907
+          ],
+          [
+            2365,
+            12137
+          ]
+        ]
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 14106,
+          "threshold": 0.58,
+          "accuracy": 0.8387920034028074,
+          "eot_precision": 0.8474267283690927,
+          "eot_recall": 0.8359385807165584,
+          "eot_f1": 0.8416434540389972,
+          "joint_score": 0.8387920034028074,
+          "false_eot": 1088,
+          "missed_eot": 1186,
+          "false_eot_rate": 0.15820852115748146,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              5789,
+              1088
+            ],
+            [
+              1186,
+              6043
+            ]
+          ]
+        },
+        "2": {
+          "samples": 14049,
+          "threshold": 0.58,
+          "accuracy": 0.8582817282368852,
+          "eot_precision": 0.8810008728542333,
+          "eot_recall": 0.8377368930695809,
+          "eot_f1": 0.8588243636105793,
+          "joint_score": 0.8582817282368852,
+          "false_eot": 818,
+          "missed_eot": 1173,
+          "false_eot_rate": 0.11994134897360703,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              6002,
+              818
+            ],
+            [
+              1173,
+              6056
+            ]
+          ]
+        }
+      },
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 400,
+        "accuracy": [
+          0.8315157077223644,
+          0.8624545331618976
+        ],
+        "eot_f1": [
+          0.8327985197094713,
+          0.8644596902033588
+        ]
+      },
+      "terminal_period_eot_recall": 0.8382826214160327,
+      "terminal_period_targets": 13672,
+      "internal_punctuation_no_eot_rate": 0.8608454406074323,
+      "internal_punctuation_targets": 13697,
+      "test_evaluated": true,
+      "prose_test_accuracy_and_f1_90": false,
+      "full_trace_remote_only": "outputs/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1/test_predictions_en.jsonl.gz",
+      "full_trace_sha256": "948e8485b4a22f83af7983076ed88e85ad5835b6349c3b108791733d9b72dd77",
+      "partition": {
+        "old_test_rows_not_rescored": 31541,
+        "unscored_reserve_rows": 6159,
+        "diagnostic_rows_before_encoded_audit": 28313,
+        "unscored_reserve_source_groups": 126,
+        "unscored_reserve_source_ids_sha256": "f47c53e5db4c7c54df31c038794d2167076db40baa4797a1fc1007deb9a33d7d",
+        "reserve_scored": false
+      },
+      "error_analysis": {
+        "error_counts": {
+          "correct": 23890,
+          "false_EOT": 1906,
+          "missed_EOT": 2359
+        },
+        "high_margin_error_counts": {
+          "missed_EOT": 959,
+          "false_EOT": 526
+        },
+        "slices": {
+          "source": [
+            {
+              "feature": "hf:fineweb:en",
+              "samples": 28141,
+              "correct": 23879,
+              "false_EOT": 1905,
+              "missed_EOT": 2357,
+              "errors": 4262,
+              "error_rate": 0.15145161863473225
+            },
+            {
+              "feature": "wiki:en",
+              "samples": 14,
+              "correct": 11,
+              "missed_EOT": 2,
+              "false_EOT": 1,
+              "errors": 3,
+              "error_rate": 0.21428571428571427
+            }
+          ],
+          "punctuation": [
+            {
+              "feature": ".",
+              "samples": 13672,
+              "correct": 11461,
+              "missed_EOT": 2211,
+              "errors": 2211,
+              "error_rate": 0.16171737858396723
+            },
+            {
+              "feature": ",",
+              "samples": 12772,
+              "correct": 11192,
+              "false_EOT": 1580,
+              "errors": 1580,
+              "error_rate": 0.1237081114938929
+            },
+            {
+              "feature": ":",
+              "samples": 615,
+              "false_EOT": 185,
+              "correct": 430,
+              "errors": 185,
+              "error_rate": 0.3008130081300813
+            },
+            {
+              "feature": ";",
+              "samples": 310,
+              "false_EOT": 141,
+              "correct": 169,
+              "errors": 141,
+              "error_rate": 0.45483870967741935
+            },
+            {
+              "feature": "?",
+              "samples": 460,
+              "correct": 380,
+              "missed_EOT": 80,
+              "errors": 80,
+              "error_rate": 0.17391304347826086
+            },
+            {
+              "feature": "!",
+              "samples": 326,
+              "correct": 258,
+              "missed_EOT": 68,
+              "errors": 68,
+              "error_rate": 0.2085889570552147
+            }
+          ],
+          "lookahead": [
+            {
+              "feature": "1",
+              "samples": 14106,
+              "missed_EOT": 1186,
+              "correct": 11832,
+              "false_EOT": 1088,
+              "errors": 2274,
+              "error_rate": 0.16120799659719268
+            },
+            {
+              "feature": "2",
+              "samples": 14049,
+              "correct": 12058,
+              "false_EOT": 818,
+              "missed_EOT": 1173,
+              "errors": 1991,
+              "error_rate": 0.1417182717631148
+            }
+          ],
+          "context_words": [
+            {
+              "feature": "6-15",
+              "samples": 12883,
+              "missed_EOT": 1279,
+              "correct": 10658,
+              "false_EOT": 946,
+              "errors": 2225,
+              "error_rate": 0.1727082201350617
+            },
+            {
+              "feature": "16-40",
+              "samples": 10984,
+              "correct": 9335,
+              "false_EOT": 757,
+              "missed_EOT": 892,
+              "errors": 1649,
+              "error_rate": 0.15012745812090314
+            },
+            {
+              "feature": "<=5",
+              "samples": 3374,
+              "false_EOT": 144,
+              "missed_EOT": 104,
+              "correct": 3126,
+              "errors": 248,
+              "error_rate": 0.07350326022525193
+            },
+            {
+              "feature": ">40",
+              "samples": 914,
+              "correct": 771,
+              "missed_EOT": 84,
+              "false_EOT": 59,
+              "errors": 143,
+              "error_rate": 0.15645514223194748
+            }
+          ],
+          "future_first_word": [
+            {
+              "feature": "and",
+              "samples": 1732,
+              "correct": 1344,
+              "false_EOT": 76,
+              "missed_EOT": 312,
+              "errors": 388,
+              "error_rate": 0.22401847575057737
+            },
+            {
+              "feature": "the",
+              "samples": 2200,
+              "correct": 1907,
+              "false_EOT": 186,
+              "missed_EOT": 107,
+              "errors": 293,
+              "error_rate": 0.13318181818181818
+            },
+            {
+              "feature": "but",
+              "samples": 904,
+              "correct": 648,
+              "false_EOT": 46,
+              "missed_EOT": 210,
+              "errors": 256,
+              "error_rate": 0.2831858407079646
+            },
+            {
+              "feature": "so",
+              "samples": 257,
+              "false_EOT": 49,
+              "correct": 160,
+              "missed_EOT": 48,
+              "errors": 97,
+              "error_rate": 0.377431906614786
+            },
+            {
+              "feature": "i",
+              "samples": 1109,
+              "correct": 1014,
+              "false_EOT": 75,
+              "missed_EOT": 20,
+              "errors": 95,
+              "error_rate": 0.08566275924256087
+            },
+            {
+              "feature": "it",
+              "samples": 870,
+              "missed_EOT": 16,
+              "correct": 779,
+              "false_EOT": 75,
+              "errors": 91,
+              "error_rate": 0.10459770114942529
+            },
+            {
+              "feature": "a",
+              "samples": 472,
+              "missed_EOT": 42,
+              "false_EOT": 46,
+              "correct": 384,
+              "errors": 88,
+              "error_rate": 0.1864406779661017
+            },
+            {
+              "feature": "he",
+              "samples": 877,
+              "correct": 793,
+              "false_EOT": 60,
+              "missed_EOT": 24,
+              "errors": 84,
+              "error_rate": 0.09578107183580388
+            },
+            {
+              "feature": "as",
+              "samples": 258,
+              "correct": 187,
+              "false_EOT": 32,
+              "missed_EOT": 39,
+              "errors": 71,
+              "error_rate": 0.2751937984496124
+            },
+            {
+              "feature": "with",
+              "samples": 248,
+              "correct": 179,
+              "missed_EOT": 62,
+              "false_EOT": 7,
+              "errors": 69,
+              "error_rate": 0.2782258064516129
+            },
+            {
+              "feature": "in",
+              "samples": 464,
+              "correct": 397,
+              "missed_EOT": 22,
+              "false_EOT": 45,
+              "errors": 67,
+              "error_rate": 0.14439655172413793
+            },
+            {
+              "feature": "that",
+              "samples": 267,
+              "correct": 204,
+              "missed_EOT": 29,
+              "false_EOT": 34,
+              "errors": 63,
+              "error_rate": 0.23595505617977527
+            },
+            {
+              "feature": "they",
+              "samples": 467,
+              "correct": 413,
+              "false_EOT": 40,
+              "missed_EOT": 14,
+              "errors": 54,
+              "error_rate": 0.11563169164882227
+            },
+            {
+              "feature": "for",
+              "samples": 292,
+              "correct": 238,
+              "false_EOT": 27,
+              "missed_EOT": 27,
+              "errors": 54,
+              "error_rate": 0.18493150684931506
+            },
+            {
+              "feature": "we",
+              "samples": 567,
+              "correct": 516,
+              "missed_EOT": 12,
+              "false_EOT": 39,
+              "errors": 51,
+              "error_rate": 0.08994708994708994
+            },
+            {
+              "feature": "you",
+              "samples": 469,
+              "correct": 431,
+              "missed_EOT": 11,
+              "false_EOT": 27,
+              "errors": 38,
+              "error_rate": 0.08102345415778252
+            },
+            {
+              "feature": "then",
+              "samples": 183,
+              "correct": 146,
+              "missed_EOT": 31,
+              "false_EOT": 6,
+              "errors": 37,
+              "error_rate": 0.20218579234972678
+            },
+            {
+              "feature": "to",
+              "samples": 148,
+              "correct": 111,
+              "false_EOT": 13,
+              "missed_EOT": 24,
+              "errors": 37,
+              "error_rate": 0.25
+            },
+            {
+              "feature": "this",
+              "samples": 471,
+              "correct": 441,
+              "false_EOT": 23,
+              "missed_EOT": 7,
+              "errors": 30,
+              "error_rate": 0.06369426751592357
+            },
+            {
+              "feature": "all",
+              "samples": 109,
+              "correct": 79,
+              "false_EOT": 25,
+              "missed_EOT": 5,
+              "errors": 30,
+              "error_rate": 0.27522935779816515
+            },
+            {
+              "feature": "she",
+              "samples": 331,
+              "correct": 302,
+              "missed_EOT": 6,
+              "false_EOT": 23,
+              "errors": 29,
+              "error_rate": 0.08761329305135952
+            },
+            {
+              "feature": "at",
+              "samples": 116,
+              "missed_EOT": 16,
+              "correct": 87,
+              "false_EOT": 13,
+              "errors": 29,
+              "error_rate": 0.25
+            },
+            {
+              "feature": "or",
+              "samples": 206,
+              "correct": 178,
+              "missed_EOT": 27,
+              "false_EOT": 1,
+              "errors": 28,
+              "error_rate": 0.13592233009708737
+            },
+            {
+              "feature": "while",
+              "samples": 123,
+              "correct": 97,
+              "false_EOT": 14,
+              "missed_EOT": 12,
+              "errors": 26,
+              "error_rate": 0.21138211382113822
+            },
+            {
+              "feature": "even",
+              "samples": 73,
+              "correct": 48,
+              "missed_EOT": 16,
+              "false_EOT": 9,
+              "errors": 25,
+              "error_rate": 0.3424657534246575
+            },
+            {
+              "feature": "from",
+              "samples": 58,
+              "correct": 33,
+              "missed_EOT": 21,
+              "false_EOT": 4,
+              "errors": 25,
+              "error_rate": 0.43103448275862066
+            },
+            {
+              "feature": "if",
+              "samples": 298,
+              "false_EOT": 20,
+              "correct": 274,
+              "missed_EOT": 4,
+              "errors": 24,
+              "error_rate": 0.08053691275167785
+            },
+            {
+              "feature": "one",
+              "samples": 139,
+              "correct": 115,
+              "false_EOT": 13,
+              "missed_EOT": 11,
+              "errors": 24,
+              "error_rate": 0.17266187050359713
+            },
+            {
+              "feature": "according",
+              "samples": 50,
+              "false_EOT": 2,
+              "correct": 28,
+              "missed_EOT": 20,
+              "errors": 22,
+              "error_rate": 0.44
+            },
+            {
+              "feature": "because",
+              "samples": 100,
+              "correct": 80,
+              "missed_EOT": 11,
+              "false_EOT": 9,
+              "errors": 20,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "although",
+              "samples": 66,
+              "correct": 46,
+              "missed_EOT": 18,
+              "false_EOT": 2,
+              "errors": 20,
+              "error_rate": 0.30303030303030304
+            },
+            {
+              "feature": "when",
+              "samples": 172,
+              "correct": 153,
+              "false_EOT": 9,
+              "missed_EOT": 10,
+              "errors": 19,
+              "error_rate": 0.11046511627906977
+            },
+            {
+              "feature": "like",
+              "samples": 50,
+              "missed_EOT": 15,
+              "false_EOT": 4,
+              "correct": 31,
+              "errors": 19,
+              "error_rate": 0.38
+            },
+            {
+              "feature": "what",
+              "samples": 107,
+              "correct": 89,
+              "missed_EOT": 7,
+              "false_EOT": 11,
+              "errors": 18,
+              "error_rate": 0.16822429906542055
+            },
+            {
+              "feature": "not",
+              "samples": 82,
+              "correct": 64,
+              "missed_EOT": 14,
+              "false_EOT": 4,
+              "errors": 18,
+              "error_rate": 0.21951219512195122
+            },
+            {
+              "feature": "just",
+              "samples": 56,
+              "correct": 38,
+              "false_EOT": 7,
+              "missed_EOT": 11,
+              "errors": 18,
+              "error_rate": 0.32142857142857145
+            },
+            {
+              "feature": "there",
+              "samples": 276,
+              "correct": 259,
+              "false_EOT": 10,
+              "missed_EOT": 7,
+              "errors": 17,
+              "error_rate": 0.06159420289855073
+            },
+            {
+              "feature": "my",
+              "samples": 104,
+              "correct": 88,
+              "false_EOT": 15,
+              "missed_EOT": 1,
+              "errors": 16,
+              "error_rate": 0.15384615384615385
+            },
+            {
+              "feature": "who",
+              "samples": 151,
+              "correct": 137,
+              "missed_EOT": 12,
+              "false_EOT": 2,
+              "errors": 14,
+              "error_rate": 0.09271523178807947
+            },
+            {
+              "feature": "however",
+              "samples": 126,
+              "correct": 112,
+              "false_EOT": 5,
+              "missed_EOT": 9,
+              "errors": 14,
+              "error_rate": 0.1111111111111111
+            },
+            {
+              "feature": "by",
+              "samples": 72,
+              "correct": 59,
+              "missed_EOT": 4,
+              "false_EOT": 9,
+              "errors": 13,
+              "error_rate": 0.18055555555555555
+            },
+            {
+              "feature": "since",
+              "samples": 52,
+              "correct": 40,
+              "false_EOT": 6,
+              "missed_EOT": 6,
+              "errors": 12,
+              "error_rate": 0.23076923076923078
+            },
+            {
+              "feature": "chris",
+              "samples": 96,
+              "correct": 85,
+              "false_EOT": 1,
+              "missed_EOT": 10,
+              "errors": 11,
+              "error_rate": 0.11458333333333333
+            },
+            {
+              "feature": "these",
+              "samples": 87,
+              "correct": 76,
+              "false_EOT": 8,
+              "missed_EOT": 3,
+              "errors": 11,
+              "error_rate": 0.12643678160919541
+            },
+            {
+              "feature": "no",
+              "samples": 72,
+              "correct": 61,
+              "missed_EOT": 3,
+              "false_EOT": 8,
+              "errors": 11,
+              "error_rate": 0.1527777777777778
+            },
+            {
+              "feature": "an",
+              "samples": 62,
+              "correct": 51,
+              "false_EOT": 6,
+              "missed_EOT": 5,
+              "errors": 11,
+              "error_rate": 0.1774193548387097
+            },
+            {
+              "feature": "says",
+              "samples": 66,
+              "correct": 56,
+              "missed_EOT": 10,
+              "errors": 10,
+              "error_rate": 0.15151515151515152
+            },
+            {
+              "feature": "his",
+              "samples": 92,
+              "correct": 83,
+              "missed_EOT": 5,
+              "false_EOT": 4,
+              "errors": 9,
+              "error_rate": 0.09782608695652174
+            },
+            {
+              "feature": "though",
+              "samples": 53,
+              "correct": 44,
+              "missed_EOT": 4,
+              "false_EOT": 5,
+              "errors": 9,
+              "error_rate": 0.16981132075471697
+            },
+            {
+              "feature": "now",
+              "samples": 130,
+              "correct": 122,
+              "missed_EOT": 5,
+              "false_EOT": 3,
+              "errors": 8,
+              "error_rate": 0.06153846153846154
+            },
+            {
+              "feature": "most",
+              "samples": 58,
+              "correct": 50,
+              "false_EOT": 4,
+              "missed_EOT": 4,
+              "errors": 8,
+              "error_rate": 0.13793103448275862
+            },
+            {
+              "feature": "which",
+              "samples": 254,
+              "correct": 247,
+              "missed_EOT": 6,
+              "false_EOT": 1,
+              "errors": 7,
+              "error_rate": 0.027559055118110236
+            },
+            {
+              "feature": "on",
+              "samples": 74,
+              "false_EOT": 5,
+              "correct": 67,
+              "missed_EOT": 2,
+              "errors": 7,
+              "error_rate": 0.0945945945945946
+            },
+            {
+              "feature": "is",
+              "samples": 140,
+              "correct": 134,
+              "missed_EOT": 4,
+              "false_EOT": 2,
+              "errors": 6,
+              "error_rate": 0.04285714285714286
+            },
+            {
+              "feature": "her",
+              "samples": 50,
+              "correct": 44,
+              "false_EOT": 5,
+              "missed_EOT": 1,
+              "errors": 6,
+              "error_rate": 0.12
+            },
+            {
+              "feature": "000",
+              "samples": 99,
+              "correct": 94,
+              "false_EOT": 5,
+              "errors": 5,
+              "error_rate": 0.050505050505050504
+            },
+            {
+              "feature": "some",
+              "samples": 76,
+              "correct": 71,
+              "false_EOT": 4,
+              "missed_EOT": 1,
+              "errors": 5,
+              "error_rate": 0.06578947368421052
+            },
+            {
+              "feature": "after",
+              "samples": 58,
+              "correct": 53,
+              "false_EOT": 2,
+              "missed_EOT": 3,
+              "errors": 5,
+              "error_rate": 0.08620689655172414
+            },
+            {
+              "feature": "your",
+              "samples": 52,
+              "correct": 47,
+              "false_EOT": 5,
+              "errors": 5,
+              "error_rate": 0.09615384615384616
+            },
+            {
+              "feature": "do",
+              "samples": 50,
+              "correct": 45,
+              "false_EOT": 3,
+              "missed_EOT": 2,
+              "errors": 5,
+              "error_rate": 0.1
+            },
+            {
+              "feature": "said",
+              "samples": 108,
+              "correct": 104,
+              "missed_EOT": 4,
+              "errors": 4,
+              "error_rate": 0.037037037037037035
+            },
+            {
+              "feature": "our",
+              "samples": 104,
+              "correct": 100,
+              "missed_EOT": 1,
+              "false_EOT": 3,
+              "errors": 4,
+              "error_rate": 0.038461538461538464
+            },
+            {
+              "feature": "many",
+              "samples": 56,
+              "correct": 52,
+              "missed_EOT": 2,
+              "false_EOT": 2,
+              "errors": 4,
+              "error_rate": 0.07142857142857142
+            },
+            {
+              "feature": "please",
+              "samples": 66,
+              "correct": 65,
+              "missed_EOT": 1,
+              "errors": 1,
+              "error_rate": 0.015151515151515152
+            },
+            {
+              "feature": "including",
+              "samples": 80,
+              "correct": 80,
+              "errors": 0,
+              "error_rate": 0.0
+            }
+          ]
+        },
+        "paired_lookahead": {
+          "both_correct": 11237,
+          "both_wrong": 1491,
+          "lookahead2_rescues": 761,
+          "lookahead2_hurts": 499
+        },
+        "normalized_visible_input_label_conflicts": {
+          "keys": 0,
+          "rows": 0,
+          "minimum_unavoidable_errors_with_identical_visible_text": 0
+        },
+        "interpretation": "Slice associations and label collisions are evidence, not causal attribution. Original-source review is required for parser/label error claims."
+      }
+    },
+    "zh": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "58522dba0fc6a0ef9d138fc40a1104a78b2c7f407a0af4eb632c528d5d3ae295",
+      "training_fingerprint": "79cef97fd7299a35c9020a34d573d8922d483fe9dfeb09ab66256a6258700748",
+      "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+      "threshold_from_dev": 0.7549999999999999,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      },
+      "threshold_selected_on_test": false,
+      "test_rows_sha256": "d04cc14195555dcd2e12a9c2ccafb8bb17667328fcdf31949f4ffb992812a4fc",
+      "leakage_audit": {
+        "non_test_rows_scanned": 1293256,
+        "test_rows_before_audit": 52528,
+        "overlapping_encoded_train_dev_keys": 583,
+        "overlapping_old_test_or_reserve_keys": 55,
+        "test_source_groups_with_exact_non_test_text": 0,
+        "test_rows_after_audit": 51871,
+        "removed_rows": 657,
+        "policy": "exclude train/dev, old test and unscored reserve exact encoded inputs and copied source text",
+        "near_duplicate_paraphrases_not_exhaustively_detected": true
+      },
+      "metrics": {
+        "samples": 51871,
+        "threshold": 0.7549999999999999,
+        "accuracy": 0.8420119141716952,
+        "eot_precision": 0.5818938605619147,
+        "eot_recall": 0.7946191739295188,
+        "eot_f1": 0.671819310400064,
+        "joint_score": 0.671819310400064,
+        "false_eot": 6027,
+        "missed_eot": 2168,
+        "false_eot_rate": 0.1458792206220501,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            35288,
+            6027
+          ],
+          [
+            2168,
+            8388
+          ]
+        ]
+      },
+      "raw_test_metrics_before_overlap_filter": {
+        "samples": 52528,
+        "threshold": 0.7549999999999999,
+        "accuracy": 0.8428266829119707,
+        "eot_precision": 0.5826110881826936,
+        "eot_recall": 0.7947082004128354,
+        "eot_f1": 0.6723289411017622,
+        "joint_score": 0.6723289411017622,
+        "false_eot": 6068,
+        "missed_eot": 2188,
+        "false_eot_rate": 0.1449247671363745,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            35802,
+            6068
+          ],
+          [
+            2188,
+            8470
+          ]
+        ]
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 25957,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.836267673459953,
+          "eot_precision": 0.5702547247329499,
+          "eot_recall": 0.7892342683851402,
+          "eot_f1": 0.6621084433137224,
+          "joint_score": 0.6621084433137224,
+          "false_eot": 3138,
+          "missed_eot": 1112,
+          "false_eot_rate": 0.1517334751704463,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              17543,
+              3138
+            ],
+            [
+              1112,
+              4164
+            ]
+          ]
+        },
+        "2": {
+          "samples": 25914,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.847765686501505,
+          "eot_precision": 0.593842260649515,
+          "eot_recall": 0.8,
+          "eot_f1": 0.681675139191479,
+          "joint_score": 0.681675139191479,
+          "false_eot": 2889,
+          "missed_eot": 1056,
+          "false_eot_rate": 0.14001163128816516,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              17745,
+              2889
+            ],
+            [
+              1056,
+              4224
+            ]
+          ]
+        }
+      },
+      "source_cluster_95pct_intervals": {
+        "method": "500 bootstrap draws over source pages; 95% percentile interval",
+        "source_groups": 386,
+        "accuracy": [
+          0.8256790710043664,
+          0.8608545132870749
+        ],
+        "eot_f1": [
+          0.6487429445383464,
+          0.698604721242132
+        ]
+      },
+      "terminal_period_eot_recall": 0.7947222771298675,
+      "terminal_period_targets": 10118,
+      "internal_punctuation_no_eot_rate": 0.85412077937795,
+      "internal_punctuation_targets": 41315,
+      "test_evaluated": true,
+      "prose_test_accuracy_and_f1_90": false,
+      "full_trace_remote_only": "outputs/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1/test_predictions_zh.jsonl.gz",
+      "full_trace_sha256": "8c52e8a142f62747a5a13d5cb17e8637ca0f6c85a4f4e9e8f025677fc0dcb6c6",
+      "partition": {
+        "old_test_rows_not_rescored": 74259,
+        "unscored_reserve_rows": 23279,
+        "diagnostic_rows_before_encoded_audit": 52528,
+        "unscored_reserve_source_groups": 205,
+        "unscored_reserve_source_ids_sha256": "40afd165d7b430664a91b36394293603eae53f6dd66f33714612a8f5adceabd0",
+        "reserve_scored": false
+      },
+      "error_analysis": {
+        "error_counts": {
+          "correct": 43676,
+          "false_EOT": 6027,
+          "missed_EOT": 2168
+        },
+        "high_margin_error_counts": {
+          "missed_EOT": 774
+        },
+        "slices": {
+          "source": [
+            {
+              "feature": "hf:fineweb2:cmn_Hani",
+              "samples": 31025,
+              "correct": 25145,
+              "missed_EOT": 1656,
+              "false_EOT": 4224,
+              "errors": 5880,
+              "error_rate": 0.1895245769540693
+            },
+            {
+              "feature": "hf:industrycorpus2_news_media:zh",
+              "samples": 20786,
+              "correct": 18487,
+              "false_EOT": 1795,
+              "missed_EOT": 504,
+              "errors": 2299,
+              "error_rate": 0.11060329067641682
+            },
+            {
+              "feature": "wiki:zh",
+              "samples": 60,
+              "correct": 44,
+              "false_EOT": 8,
+              "missed_EOT": 8,
+              "errors": 16,
+              "error_rate": 0.26666666666666666
+            }
+          ],
+          "punctuation": [
+            {
+              "feature": "，",
+              "samples": 18874,
+              "correct": 15134,
+              "false_EOT": 3740,
+              "errors": 3740,
+              "error_rate": 0.1981561937056268
+            },
+            {
+              "feature": ",",
+              "samples": 17908,
+              "correct": 16278,
+              "false_EOT": 1630,
+              "errors": 1630,
+              "error_rate": 0.09102077283895466
+            },
+            {
+              "feature": "。",
+              "samples": 8023,
+              "correct": 6490,
+              "missed_EOT": 1533,
+              "errors": 1533,
+              "error_rate": 0.1910756574847314
+            },
+            {
+              "feature": ".",
+              "samples": 2095,
+              "correct": 1551,
+              "missed_EOT": 544,
+              "errors": 544,
+              "error_rate": 0.25966587112171835
+            },
+            {
+              "feature": "、",
+              "samples": 2410,
+              "correct": 2205,
+              "false_EOT": 205,
+              "errors": 205,
+              "error_rate": 0.08506224066390042
+            },
+            {
+              "feature": "；",
+              "samples": 357,
+              "false_EOT": 160,
+              "correct": 197,
+              "errors": 160,
+              "error_rate": 0.4481792717086835
+            },
+            {
+              "feature": ";",
+              "samples": 468,
+              "false_EOT": 150,
+              "correct": 318,
+              "errors": 150,
+              "error_rate": 0.32051282051282054
+            },
+            {
+              "feature": ":",
+              "samples": 767,
+              "false_EOT": 85,
+              "correct": 682,
+              "errors": 85,
+              "error_rate": 0.11082138200782268
+            },
+            {
+              "feature": "：",
+              "samples": 531,
+              "correct": 474,
+              "false_EOT": 57,
+              "errors": 57,
+              "error_rate": 0.10734463276836158
+            },
+            {
+              "feature": "！",
+              "samples": 192,
+              "correct": 151,
+              "missed_EOT": 41,
+              "errors": 41,
+              "error_rate": 0.21354166666666666
+            },
+            {
+              "feature": "？",
+              "samples": 166,
+              "missed_EOT": 35,
+              "correct": 131,
+              "errors": 35,
+              "error_rate": 0.21084337349397592
+            },
+            {
+              "feature": "?",
+              "samples": 50,
+              "correct": 37,
+              "missed_EOT": 13,
+              "errors": 13,
+              "error_rate": 0.26
+            },
+            {
+              "feature": "!",
+              "samples": 30,
+              "correct": 28,
+              "missed_EOT": 2,
+              "errors": 2,
+              "error_rate": 0.06666666666666667
+            }
+          ],
+          "lookahead": [
+            {
+              "feature": "1",
+              "samples": 25957,
+              "correct": 21707,
+              "false_EOT": 3138,
+              "missed_EOT": 1112,
+              "errors": 4250,
+              "error_rate": 0.163732326540047
+            },
+            {
+              "feature": "2",
+              "samples": 25914,
+              "correct": 21969,
+              "missed_EOT": 1056,
+              "false_EOT": 2889,
+              "errors": 3945,
+              "error_rate": 0.15223431349849503
+            }
+          ],
+          "context_words": [
+            {
+              "feature": "16-40",
+              "samples": 20438,
+              "correct": 15605,
+              "false_EOT": 3761,
+              "missed_EOT": 1072,
+              "errors": 4833,
+              "error_rate": 0.23647127899011644
+            },
+            {
+              "feature": ">40",
+              "samples": 16359,
+              "correct": 13747,
+              "false_EOT": 1955,
+              "missed_EOT": 657,
+              "errors": 2612,
+              "error_rate": 0.1596674613362675
+            },
+            {
+              "feature": "6-15",
+              "samples": 11857,
+              "correct": 11111,
+              "missed_EOT": 435,
+              "false_EOT": 311,
+              "errors": 746,
+              "error_rate": 0.06291642067976723
+            },
+            {
+              "feature": "<=5",
+              "samples": 3217,
+              "correct": 3213,
+              "missed_EOT": 4,
+              "errors": 4,
+              "error_rate": 0.0012433944668946222
+            }
+          ],
+          "future_first_word": [
+            {
+              "feature": "在",
+              "samples": 1184,
+              "correct": 862,
+              "false_EOT": 279,
+              "missed_EOT": 43,
+              "errors": 322,
+              "error_rate": 0.2719594594594595
+            },
+            {
+              "feature": "但",
+              "samples": 892,
+              "correct": 700,
+              "missed_EOT": 29,
+              "false_EOT": 163,
+              "errors": 192,
+              "error_rate": 0.21524663677130046
+            },
+            {
+              "feature": "而",
+              "samples": 586,
+              "correct": 425,
+              "false_EOT": 107,
+              "missed_EOT": 54,
+              "errors": 161,
+              "error_rate": 0.27474402730375425
+            },
+            {
+              "feature": "這",
+              "samples": 420,
+              "correct": 262,
+              "false_EOT": 155,
+              "missed_EOT": 3,
+              "errors": 158,
+              "error_rate": 0.3761904761904762
+            },
+            {
+              "feature": "这",
+              "samples": 512,
+              "missed_EOT": 24,
+              "correct": 362,
+              "false_EOT": 126,
+              "errors": 150,
+              "error_rate": 0.29296875
+            },
+            {
+              "feature": "我",
+              "samples": 620,
+              "missed_EOT": 31,
+              "correct": 497,
+              "false_EOT": 92,
+              "errors": 123,
+              "error_rate": 0.19838709677419356
+            },
+            {
+              "feature": "他",
+              "samples": 550,
+              "missed_EOT": 22,
+              "false_EOT": 78,
+              "correct": 450,
+              "errors": 100,
+              "error_rate": 0.18181818181818182
+            },
+            {
+              "feature": "小",
+              "samples": 170,
+              "correct": 100,
+              "false_EOT": 65,
+              "missed_EOT": 5,
+              "errors": 70,
+              "error_rate": 0.4117647058823529
+            },
+            {
+              "feature": "时",
+              "samples": 222,
+              "correct": 154,
+              "false_EOT": 47,
+              "missed_EOT": 21,
+              "errors": 68,
+              "error_rate": 0.3063063063063063
+            },
+            {
+              "feature": "因此",
+              "samples": 202,
+              "correct": 135,
+              "false_EOT": 62,
+              "missed_EOT": 5,
+              "errors": 67,
+              "error_rate": 0.3316831683168317
+            },
+            {
+              "feature": "所以",
+              "samples": 212,
+              "correct": 148,
+              "false_EOT": 59,
+              "missed_EOT": 5,
+              "errors": 64,
+              "error_rate": 0.3018867924528302
+            },
+            {
+              "feature": "你",
+              "samples": 274,
+              "correct": 213,
+              "false_EOT": 58,
+              "missed_EOT": 3,
+              "errors": 61,
+              "error_rate": 0.22262773722627738
+            },
+            {
+              "feature": "我们",
+              "samples": 312,
+              "correct": 258,
+              "false_EOT": 38,
+              "missed_EOT": 16,
+              "errors": 54,
+              "error_rate": 0.17307692307692307
+            },
+            {
+              "feature": "天佑",
+              "samples": 164,
+              "correct": 111,
+              "missed_EOT": 4,
+              "false_EOT": 49,
+              "errors": 53,
+              "error_rate": 0.3231707317073171
+            },
+            {
+              "feature": "从",
+              "samples": 188,
+              "correct": 137,
+              "false_EOT": 49,
+              "missed_EOT": 2,
+              "errors": 51,
+              "error_rate": 0.2712765957446808
+            },
+            {
+              "feature": "珍",
+              "samples": 166,
+              "correct": 115,
+              "false_EOT": 42,
+              "missed_EOT": 9,
+              "errors": 51,
+              "error_rate": 0.3072289156626506
+            },
+            {
+              "feature": "如果",
+              "samples": 234,
+              "correct": 185,
+              "false_EOT": 41,
+              "missed_EOT": 8,
+              "errors": 49,
+              "error_rate": 0.2094017094017094
+            },
+            {
+              "feature": "但是",
+              "samples": 238,
+              "correct": 190,
+              "false_EOT": 31,
+              "missed_EOT": 17,
+              "errors": 48,
+              "error_rate": 0.20168067226890757
+            },
+            {
+              "feature": "那",
+              "samples": 140,
+              "false_EOT": 41,
+              "correct": 92,
+              "missed_EOT": 7,
+              "errors": 48,
+              "error_rate": 0.34285714285714286
+            },
+            {
+              "feature": "因为",
+              "samples": 150,
+              "false_EOT": 45,
+              "correct": 103,
+              "missed_EOT": 2,
+              "errors": 47,
+              "error_rate": 0.31333333333333335
+            },
+            {
+              "feature": "不",
+              "samples": 309,
+              "correct": 264,
+              "false_EOT": 29,
+              "missed_EOT": 16,
+              "errors": 45,
+              "error_rate": 0.14563106796116504
+            },
+            {
+              "feature": "为",
+              "samples": 182,
+              "missed_EOT": 22,
+              "correct": 139,
+              "false_EOT": 21,
+              "errors": 43,
+              "error_rate": 0.23626373626373626
+            },
+            {
+              "feature": "它",
+              "samples": 184,
+              "missed_EOT": 12,
+              "correct": 144,
+              "false_EOT": 28,
+              "errors": 40,
+              "error_rate": 0.21739130434782608
+            },
+            {
+              "feature": "新闻",
+              "samples": 193,
+              "correct": 155,
+              "false_EOT": 31,
+              "missed_EOT": 7,
+              "errors": 38,
+              "error_rate": 0.19689119170984457
+            },
+            {
+              "feature": "當",
+              "samples": 128,
+              "correct": 90,
+              "false_EOT": 30,
+              "missed_EOT": 8,
+              "errors": 38,
+              "error_rate": 0.296875
+            },
+            {
+              "feature": "佑",
+              "samples": 130,
+              "correct": 94,
+              "false_EOT": 24,
+              "missed_EOT": 12,
+              "errors": 36,
+              "error_rate": 0.27692307692307694
+            },
+            {
+              "feature": "有",
+              "samples": 284,
+              "correct": 249,
+              "false_EOT": 30,
+              "missed_EOT": 5,
+              "errors": 35,
+              "error_rate": 0.12323943661971831
+            },
+            {
+              "feature": "就",
+              "samples": 266,
+              "correct": 231,
+              "missed_EOT": 27,
+              "false_EOT": 8,
+              "errors": 35,
+              "error_rate": 0.13157894736842105
+            },
+            {
+              "feature": "要",
+              "samples": 240,
+              "false_EOT": 25,
+              "correct": 205,
+              "missed_EOT": 10,
+              "errors": 35,
+              "error_rate": 0.14583333333333334
+            },
+            {
+              "feature": "同时",
+              "samples": 158,
+              "correct": 124,
+              "false_EOT": 32,
+              "missed_EOT": 2,
+              "errors": 34,
+              "error_rate": 0.21518987341772153
+            },
+            {
+              "feature": "与",
+              "samples": 132,
+              "missed_EOT": 20,
+              "correct": 98,
+              "false_EOT": 14,
+              "errors": 34,
+              "error_rate": 0.25757575757575757
+            },
+            {
+              "feature": "其",
+              "samples": 194,
+              "correct": 161,
+              "false_EOT": 21,
+              "missed_EOT": 12,
+              "errors": 33,
+              "error_rate": 0.17010309278350516
+            },
+            {
+              "feature": "例如",
+              "samples": 92,
+              "correct": 60,
+              "false_EOT": 19,
+              "missed_EOT": 13,
+              "errors": 32,
+              "error_rate": 0.34782608695652173
+            },
+            {
+              "feature": "因",
+              "samples": 128,
+              "correct": 97,
+              "false_EOT": 29,
+              "missed_EOT": 2,
+              "errors": 31,
+              "error_rate": 0.2421875
+            },
+            {
+              "feature": "最",
+              "samples": 160,
+              "false_EOT": 29,
+              "correct": 130,
+              "missed_EOT": 1,
+              "errors": 30,
+              "error_rate": 0.1875
+            },
+            {
+              "feature": "1",
+              "samples": 109,
+              "false_EOT": 28,
+              "correct": 79,
+              "missed_EOT": 2,
+              "errors": 30,
+              "error_rate": 0.27522935779816515
+            },
+            {
+              "feature": "这些",
+              "samples": 128,
+              "correct": 100,
+              "false_EOT": 22,
+              "missed_EOT": 6,
+              "errors": 28,
+              "error_rate": 0.21875
+            },
+            {
+              "feature": "如",
+              "samples": 128,
+              "correct": 101,
+              "missed_EOT": 17,
+              "false_EOT": 10,
+              "errors": 27,
+              "error_rate": 0.2109375
+            },
+            {
+              "feature": "而且",
+              "samples": 196,
+              "correct": 170,
+              "missed_EOT": 11,
+              "false_EOT": 15,
+              "errors": 26,
+              "error_rate": 0.1326530612244898
+            },
+            {
+              "feature": "2",
+              "samples": 117,
+              "missed_EOT": 13,
+              "correct": 91,
+              "false_EOT": 13,
+              "errors": 26,
+              "error_rate": 0.2222222222222222
+            },
+            {
+              "feature": "将",
+              "samples": 214,
+              "correct": 189,
+              "false_EOT": 14,
+              "missed_EOT": 11,
+              "errors": 25,
+              "error_rate": 0.11682242990654206
+            },
+            {
+              "feature": "由",
+              "samples": 190,
+              "correct": 165,
+              "missed_EOT": 6,
+              "false_EOT": 19,
+              "errors": 25,
+              "error_rate": 0.13157894736842105
+            },
+            {
+              "feature": "对",
+              "samples": 184,
+              "correct": 159,
+              "false_EOT": 18,
+              "missed_EOT": 7,
+              "errors": 25,
+              "error_rate": 0.1358695652173913
+            },
+            {
+              "feature": "一",
+              "samples": 148,
+              "correct": 123,
+              "missed_EOT": 4,
+              "false_EOT": 21,
+              "errors": 25,
+              "error_rate": 0.16891891891891891
+            },
+            {
+              "feature": "她",
+              "samples": 94,
+              "correct": 69,
+              "missed_EOT": 9,
+              "false_EOT": 16,
+              "errors": 25,
+              "error_rate": 0.26595744680851063
+            },
+            {
+              "feature": "是",
+              "samples": 442,
+              "correct": 420,
+              "false_EOT": 14,
+              "missed_EOT": 8,
+              "errors": 22,
+              "error_rate": 0.049773755656108594
+            },
+            {
+              "feature": "其中",
+              "samples": 102,
+              "correct": 80,
+              "missed_EOT": 13,
+              "false_EOT": 9,
+              "errors": 22,
+              "error_rate": 0.21568627450980393
+            },
+            {
+              "feature": "比如",
+              "samples": 66,
+              "false_EOT": 15,
+              "correct": 44,
+              "missed_EOT": 7,
+              "errors": 22,
+              "error_rate": 0.3333333333333333
+            },
+            {
+              "feature": "后来",
+              "samples": 64,
+              "missed_EOT": 9,
+              "correct": 42,
+              "false_EOT": 13,
+              "errors": 22,
+              "error_rate": 0.34375
+            },
+            {
+              "feature": "然",
+              "samples": 80,
+              "correct": 59,
+              "false_EOT": 12,
+              "missed_EOT": 9,
+              "errors": 21,
+              "error_rate": 0.2625
+            },
+            {
+              "feature": "現",
+              "samples": 68,
+              "false_EOT": 19,
+              "correct": 47,
+              "missed_EOT": 2,
+              "errors": 21,
+              "error_rate": 0.3088235294117647
+            },
+            {
+              "feature": "也",
+              "samples": 484,
+              "correct": 464,
+              "missed_EOT": 19,
+              "false_EOT": 1,
+              "errors": 20,
+              "error_rate": 0.04132231404958678
+            },
+            {
+              "feature": "他们",
+              "samples": 155,
+              "correct": 135,
+              "false_EOT": 12,
+              "missed_EOT": 8,
+              "errors": 20,
+              "error_rate": 0.12903225806451613
+            },
+            {
+              "feature": "该",
+              "samples": 100,
+              "correct": 80,
+              "missed_EOT": 6,
+              "false_EOT": 14,
+              "errors": 20,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "龙",
+              "samples": 74,
+              "correct": 54,
+              "false_EOT": 18,
+              "missed_EOT": 2,
+              "errors": 20,
+              "error_rate": 0.2702702702702703
+            },
+            {
+              "feature": "正中",
+              "samples": 62,
+              "correct": 42,
+              "missed_EOT": 7,
+              "false_EOT": 13,
+              "errors": 20,
+              "error_rate": 0.3225806451612903
+            },
+            {
+              "feature": "这样",
+              "samples": 50,
+              "correct": 31,
+              "missed_EOT": 3,
+              "false_EOT": 16,
+              "errors": 19,
+              "error_rate": 0.38
+            },
+            {
+              "feature": "3",
+              "samples": 105,
+              "correct": 87,
+              "false_EOT": 14,
+              "missed_EOT": 4,
+              "errors": 18,
+              "error_rate": 0.17142857142857143
+            },
+            {
+              "feature": "当",
+              "samples": 100,
+              "correct": 82,
+              "false_EOT": 16,
+              "missed_EOT": 2,
+              "errors": 18,
+              "error_rate": 0.18
+            },
+            {
+              "feature": "由于",
+              "samples": 90,
+              "false_EOT": 15,
+              "correct": 72,
+              "missed_EOT": 3,
+              "errors": 18,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "未来",
+              "samples": 76,
+              "correct": 58,
+              "false_EOT": 17,
+              "missed_EOT": 1,
+              "errors": 18,
+              "error_rate": 0.23684210526315788
+            },
+            {
+              "feature": "以",
+              "samples": 302,
+              "correct": 285,
+              "false_EOT": 15,
+              "missed_EOT": 2,
+              "errors": 17,
+              "error_rate": 0.056291390728476824
+            },
+            {
+              "feature": "玲",
+              "samples": 85,
+              "false_EOT": 17,
+              "correct": 68,
+              "errors": 17,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "通过",
+              "samples": 78,
+              "correct": 61,
+              "false_EOT": 13,
+              "missed_EOT": 4,
+              "errors": 17,
+              "error_rate": 0.21794871794871795
+            },
+            {
+              "feature": "每",
+              "samples": 68,
+              "correct": 51,
+              "missed_EOT": 8,
+              "false_EOT": 9,
+              "errors": 17,
+              "error_rate": 0.25
+            },
+            {
+              "feature": "二人",
+              "samples": 62,
+              "false_EOT": 16,
+              "correct": 45,
+              "missed_EOT": 1,
+              "errors": 17,
+              "error_rate": 0.27419354838709675
+            },
+            {
+              "feature": "所",
+              "samples": 52,
+              "missed_EOT": 9,
+              "false_EOT": 7,
+              "correct": 36,
+              "errors": 16,
+              "error_rate": 0.3076923076923077
+            },
+            {
+              "feature": "可",
+              "samples": 124,
+              "correct": 109,
+              "false_EOT": 5,
+              "missed_EOT": 10,
+              "errors": 15,
+              "error_rate": 0.12096774193548387
+            },
+            {
+              "feature": "為",
+              "samples": 86,
+              "correct": 71,
+              "false_EOT": 8,
+              "missed_EOT": 7,
+              "errors": 15,
+              "error_rate": 0.1744186046511628
+            },
+            {
+              "feature": "耐克",
+              "samples": 80,
+              "correct": 65,
+              "false_EOT": 13,
+              "missed_EOT": 2,
+              "errors": 15,
+              "error_rate": 0.1875
+            },
+            {
+              "feature": "另",
+              "samples": 70,
+              "correct": 55,
+              "false_EOT": 9,
+              "missed_EOT": 6,
+              "errors": 15,
+              "error_rate": 0.21428571428571427
+            },
+            {
+              "feature": "一般",
+              "samples": 62,
+              "correct": 47,
+              "false_EOT": 11,
+              "missed_EOT": 4,
+              "errors": 15,
+              "error_rate": 0.24193548387096775
+            },
+            {
+              "feature": "对于",
+              "samples": 58,
+              "false_EOT": 11,
+              "correct": 43,
+              "missed_EOT": 4,
+              "errors": 15,
+              "error_rate": 0.25862068965517243
+            },
+            {
+              "feature": "于是",
+              "samples": 50,
+              "correct": 35,
+              "false_EOT": 11,
+              "missed_EOT": 4,
+              "errors": 15,
+              "error_rate": 0.3
+            },
+            {
+              "feature": "中国",
+              "samples": 122,
+              "correct": 108,
+              "false_EOT": 14,
+              "errors": 14,
+              "error_rate": 0.11475409836065574
+            },
+            {
+              "feature": "用",
+              "samples": 104,
+              "correct": 90,
+              "missed_EOT": 7,
+              "false_EOT": 7,
+              "errors": 14,
+              "error_rate": 0.1346153846153846
+            },
+            {
+              "feature": "到",
+              "samples": 100,
+              "correct": 86,
+              "false_EOT": 10,
+              "missed_EOT": 4,
+              "errors": 14,
+              "error_rate": 0.14
+            },
+            {
+              "feature": "您",
+              "samples": 66,
+              "correct": 52,
+              "false_EOT": 10,
+              "missed_EOT": 4,
+              "errors": 14,
+              "error_rate": 0.21212121212121213
+            },
+            {
+              "feature": "同",
+              "samples": 62,
+              "missed_EOT": 4,
+              "correct": 48,
+              "false_EOT": 10,
+              "errors": 14,
+              "error_rate": 0.22580645161290322
+            },
+            {
+              "feature": "根据",
+              "samples": 52,
+              "missed_EOT": 6,
+              "correct": 38,
+              "false_EOT": 8,
+              "errors": 14,
+              "error_rate": 0.2692307692307692
+            },
+            {
+              "feature": "新",
+              "samples": 76,
+              "correct": 63,
+              "false_EOT": 10,
+              "missed_EOT": 3,
+              "errors": 13,
+              "error_rate": 0.17105263157894737
+            },
+            {
+              "feature": "和",
+              "samples": 64,
+              "correct": 51,
+              "false_EOT": 10,
+              "missed_EOT": 3,
+              "errors": 13,
+              "error_rate": 0.203125
+            },
+            {
+              "feature": "一个",
+              "samples": 62,
+              "false_EOT": 13,
+              "correct": 49,
+              "errors": 13,
+              "error_rate": 0.20967741935483872
+            },
+            {
+              "feature": "作为",
+              "samples": 58,
+              "correct": 45,
+              "missed_EOT": 5,
+              "false_EOT": 8,
+              "errors": 13,
+              "error_rate": 0.22413793103448276
+            },
+            {
+              "feature": "目前",
+              "samples": 56,
+              "correct": 43,
+              "false_EOT": 11,
+              "missed_EOT": 2,
+              "errors": 13,
+              "error_rate": 0.23214285714285715
+            },
+            {
+              "feature": "没有",
+              "samples": 54,
+              "correct": 41,
+              "false_EOT": 10,
+              "missed_EOT": 3,
+              "errors": 13,
+              "error_rate": 0.24074074074074073
+            },
+            {
+              "feature": "可以",
+              "samples": 132,
+              "false_EOT": 8,
+              "correct": 120,
+              "missed_EOT": 4,
+              "errors": 12,
+              "error_rate": 0.09090909090909091
+            },
+            {
+              "feature": "包括",
+              "samples": 74,
+              "correct": 62,
+              "missed_EOT": 6,
+              "false_EOT": 6,
+              "errors": 12,
+              "error_rate": 0.16216216216216217
+            },
+            {
+              "feature": "大",
+              "samples": 72,
+              "correct": 60,
+              "false_EOT": 12,
+              "errors": 12,
+              "error_rate": 0.16666666666666666
+            },
+            {
+              "feature": "4",
+              "samples": 67,
+              "correct": 55,
+              "false_EOT": 8,
+              "missed_EOT": 4,
+              "errors": 12,
+              "error_rate": 0.1791044776119403
+            },
+            {
+              "feature": "然后",
+              "samples": 60,
+              "correct": 48,
+              "missed_EOT": 7,
+              "false_EOT": 5,
+              "errors": 12,
+              "error_rate": 0.2
+            },
+            {
+              "feature": "求",
+              "samples": 54,
+              "missed_EOT": 6,
+              "correct": 42,
+              "false_EOT": 6,
+              "errors": 12,
+              "error_rate": 0.2222222222222222
+            },
+            {
+              "feature": "此",
+              "samples": 52,
+              "correct": 40,
+              "false_EOT": 12,
+              "errors": 12,
+              "error_rate": 0.23076923076923078
+            },
+            {
+              "feature": "更",
+              "samples": 120,
+              "correct": 109,
+              "missed_EOT": 8,
+              "false_EOT": 3,
+              "errors": 11,
+              "error_rate": 0.09166666666666666
+            },
+            {
+              "feature": "再",
+              "samples": 104,
+              "correct": 93,
+              "false_EOT": 6,
+              "missed_EOT": 5,
+              "errors": 11,
+              "error_rate": 0.10576923076923077
+            },
+            {
+              "feature": "還",
+              "samples": 87,
+              "correct": 76,
+              "missed_EOT": 11,
+              "errors": 11,
+              "error_rate": 0.12643678160919541
+            },
+            {
+              "feature": "然而",
+              "samples": 78,
+              "false_EOT": 11,
+              "correct": 67,
+              "errors": 11,
+              "error_rate": 0.14102564102564102
+            },
+            {
+              "feature": "對",
+              "samples": 66,
+              "correct": 55,
+              "false_EOT": 10,
+              "missed_EOT": 1,
+              "errors": 11,
+              "error_rate": 0.16666666666666666
+            },
+            {
+              "feature": "另外",
+              "samples": 62,
+              "correct": 51,
+              "false_EOT": 9,
+              "missed_EOT": 2,
+              "errors": 11,
+              "error_rate": 0.1774193548387097
+            },
+            {
+              "feature": "主要",
+              "samples": 60,
+              "correct": 49,
+              "false_EOT": 7,
+              "missed_EOT": 4,
+              "errors": 11,
+              "error_rate": 0.18333333333333332
+            }
+          ]
+        },
+        "paired_lookahead": {
+          "both_correct": 21012,
+          "lookahead2_hurts": 654,
+          "both_wrong": 3291,
+          "lookahead2_rescues": 938
+        },
+        "normalized_visible_input_label_conflicts": {
+          "keys": 0,
+          "rows": 0,
+          "minimum_unavoidable_errors_with_identical_visible_text": 0
+        },
+        "interpretation": "Slice associations and label collisions are evidence, not causal attribution. Original-source review is required for parser/label error claims."
+      }
+    }
+  },
+  "technical_continuation": "translation_segmenter_diagnostic_c75_v2; identical frozen protocol/weights/data",
+  "completed_at_utc": "2026-10-27T04:34:42.742991+00:00"
+}

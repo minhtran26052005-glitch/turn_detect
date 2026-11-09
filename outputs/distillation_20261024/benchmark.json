@@ -1,0 +1,3783 @@
+{
+  "selection": "fixed uniform dev sample; seed 20261024",
+  "indices": [
+    299,
+    367,
+    377,
+    426,
+    488,
+    622,
+    698,
+    886,
+    1195,
+    1198,
+    1210,
+    1346,
+    1356,
+    1445,
+    2305,
+    2533,
+    2961,
+    2978,
+    3027,
+    3260,
+    3363,
+    3764,
+    4092,
+    4124,
+    4142,
+    4401,
+    4882,
+    4912,
+    5001,
+    5044,
+    5180,
+    5237,
+    5308,
+    5428,
+    5526,
+    5548,
+    5969,
+    6054,
+    6073,
+    6204,
+    6322,
+    6503,
+    6542,
+    6942,
+    7015,
+    7041,
+    7054,
+    7375,
+    7926,
+    8159,
+    8221,
+    8370,
+    8468,
+    8696,
+    8697,
+    8716,
+    8787,
+    8906,
+    9512,
+    9722,
+    9740,
+    9764,
+    9888,
+    9950,
+    10036,
+    10184,
+    10549,
+    10710,
+    10749,
+    10942,
+    10981,
+    11444,
+    11489,
+    11637,
+    11742,
+    11810,
+    11896,
+    12082,
+    12196,
+    12267,
+    12332,
+    12551,
+    12612,
+    12701,
+    12924,
+    13050,
+    13304,
+    13310,
+    13385,
+    13428,
+    13445,
+    13464,
+    13605,
+    13653,
+    13827,
+    13870,
+    13983,
+    14026,
+    14031,
+    14231,
+    14350,
+    14453,
+    14618,
+    15051,
+    15184,
+    15289,
+    15523,
+    15727,
+    15739,
+    15760,
+    15990,
+    16111,
+    16123,
+    16195,
+    16287,
+    16357,
+    16481,
+    16543,
+    16842,
+    16853,
+    16874,
+    17152,
+    17306,
+    17483,
+    17488,
+    17537,
+    17563,
+    17801
+  ],
+  "threads": 2,
+  "batch_size": 1,
+  "warmup_samples": 8,
+  "timing_includes": "normalization, tokenization, ONNX inference, probability and threshold",
+  "results": {
+    "teacher": {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_compact_20261024\\onnx",
+      "model_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+      "load_seconds": 1.6641329000121914,
+      "profiles": {
+        "matched_dynamic8": {
+          "mean_ms": 41.98724843922719,
+          "p50_ms": 38.19639999710489,
+          "p95_ms": 63.1011650082655,
+          "latencies_ms": [
+            29.221300006611273,
+            56.71890001394786,
+            52.10220001754351,
+            37.65070001827553,
+            44.964500004425645,
+            38.32750002038665,
+            31.779500015545636,
+            42.005700001027435,
+            75.1977999752853,
+            54.525099985767156,
+            45.014999981503934,
+            44.919900014065206,
+            30.758900014916435,
+            68.71780002256855,
+            48.04829999920912,
+            28.247799986274913,
+            28.825499990489334,
+            52.957600011723116,
+            42.87330000079237,
+            30.406300007598475,
+            36.50690001086332,
+            61.11470001633279,
+            37.260000011883676,
+            31.76549999625422,
+            35.28619999997318,
+            28.234400000656024,
+            37.983200018061325,
+            38.40069999569096,
+            44.69519999111071,
+            36.1955999978818,
+            50.581100018462166,
+            46.13159998552874,
+            25.44960001250729,
+            44.943699991563335,
+            37.64900000533089,
+            38.168200000654906,
+            46.68229998787865,
+            31.58009998151101,
+            35.02979999757372,
+            45.161500020185485,
+            37.74190001422539,
+            50.582800002302974,
+            51.605100015876815,
+            29.6247000223957,
+            37.75980000500567,
+            51.65480001596734,
+            37.28350001620129,
+            31.28389999619685,
+            49.158699985127896,
+            46.975200006272644,
+            38.19600000861101,
+            35.11269998853095,
+            31.361700006527826,
+            45.431400008965284,
+            28.45290000550449,
+            45.528499991633,
+            43.401499977335334,
+            37.96449999208562,
+            53.92310000024736,
+            25.39940000860952,
+            37.43090000352822,
+            56.63320000167005,
+            36.2885000067763,
+            72.6544999924954,
+            24.910899985115975,
+            53.58390000765212,
+            37.320700008422136,
+            59.44060001638718,
+            64.6036000107415,
+            40.00080001424067,
+            36.982999998144805,
+            70.62509999377653,
+            53.52770001627505,
+            38.19679998559877,
+            31.255100009730086,
+            29.803300014464185,
+            52.539900003466755,
+            29.8010999977123,
+            30.57279999484308,
+            54.732699994929135,
+            32.23109999089502,
+            49.646200001006946,
+            37.72140000364743,
+            30.594900017604232,
+            54.76430000271648,
+            69.7840999928303,
+            39.42710001138039,
+            51.644899998791516,
+            30.77320000738837,
+            47.73170000407845,
+            29.80099999695085,
+            45.63200002303347,
+            43.75949999666773,
+            46.34729999816045,
+            51.84399997233413,
+            31.529100000625476,
+            36.584299989044666,
+            38.175900001078844,
+            30.86329999496229,
+            44.67380000278354,
+            28.401400020811707,
+            51.76130001200363,
+            37.47529999236576,
+            54.05350000364706,
+            48.17309998907149,
+            46.724599989829585,
+            37.05669997725636,
+            44.81140000279993,
+            45.47290000482462,
+            64.17080000392161,
+            58.318299998063594,
+            31.080399989150465,
+            36.2889000098221,
+            45.39289997774176,
+            24.5574000000488,
+            37.41660001105629,
+            36.59830000833608,
+            37.477899983059615,
+            36.94189997622743,
+            30.326100008096546,
+            30.8501000108663,
+            43.82250001071952,
+            30.28259999700822,
+            53.21129999356344,
+            37.089700024807826,
+            36.068799992790446,
+            29.428399982862175,
+            46.155499992892146
+          ],
+          "predictions": [
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004979485836499095,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7422630895942594,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9759081936363558,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9045819579671085,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9239555665895273,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9430639783404035,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005023904578851425,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006626455620279158,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9617527342776573,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9767233990440171,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9626699769210183,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9894018569708743,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.032190019334372905,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9134445044821558,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006489772845274928,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0059627952872159705,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006434082164542052,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005868180621158716,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015446170340127935,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015824019336946753,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.34608291587338724,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9824020335343481,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005778836636518723,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006488075951745687,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009875271242385323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006418477090555382,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007241499996724625,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005669714451484774,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9140963463416019,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0047333658561458025,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.6987404231532809,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.14023685145286202,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0070603895858267,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9737161454514406,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005553524865246151,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9741520383091836,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9831252568317042,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00512323680742968,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010400237927450455,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9509372542760922,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004757404060044378,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.10347883773165352,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007345562324734141,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004654688072891989,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008207880395927111,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9342305931171869,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006214986758666107,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004560817679013259,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006682189012249481,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9809700547317339,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008701966093188872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006828880062312286,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0069926978174836485,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.725969451889609,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006352722584895362,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.2045443009460874,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006177980825389623,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005291782659031617,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.022455158321377726,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005180467150479323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8159882747651823,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007431548223475872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00823375248037347,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.02769992069900443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006928256598282851,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008177945633651373,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006249290988581008,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9741492466080507,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9633402602978441,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007051991368826804,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00503838510364642,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9571007915774088,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9814047972466524,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.03159622490259574,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0065613937333978125,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005465594088236851,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005690592868711544,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.04053951433799156,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004740791378217464,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8999816503997622,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7325768524523295,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9759171777028208,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009570317553067715,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007061009718255899,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9364540495440903,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9665249064905634,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005407589884220582,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9649302275470698,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006598636515114276,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009172222349024057,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007338743773997758,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0990229012351585,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9692422603957429,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0065400207466851665,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.884522797502587,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005634188087577788,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005366895337971629,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009183921626659106,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005604923348584817,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9834811256586199,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0060427503086212045,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006065741440478986,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004640541931207706,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9790850043008601,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.971350489063677,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9677485307946971,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005126691612297147,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8789368027870513,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010774149089027886,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9823871598638659,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9906968456277278,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00575844027039876,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006826351518119053,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009051722037859056,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0053543204622302385,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005450055301680443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8125601707838926,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0607901427835996,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.17555206583971938,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005683268320927155,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005098123806542338,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9715669309063315,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005995812543019372,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9053324798411511,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005415289118593096,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9369673992796748,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006838065978587308,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.029747907887617046,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            }
+          ],
+          "padding_multiple": 8,
+          "max_length": 256
+        },
+        "deployment_padding": {
+          "mean_ms": 41.460504688984656,
+          "p50_ms": 38.32785000849981,
+          "p95_ms": 59.47916999284643,
+          "latencies_ms": [
+            30.076200026087463,
+            51.16309999721125,
+            53.44590000458993,
+            37.26390001247637,
+            45.35960001521744,
+            36.985900020226836,
+            29.66790000209585,
+            34.9421999999322,
+            47.145499993348494,
+            45.83459999412298,
+            44.64840001310222,
+            44.535000022733584,
+            30.32280001207255,
+            68.54199999361299,
+            47.71049998817034,
+            31.048200005898252,
+            29.653699981281534,
+            45.25140000623651,
+            37.49240000615828,
+            28.615100018214434,
+            37.39380001206882,
+            57.743400015169755,
+            38.46430001431145,
+            28.152399987448007,
+            35.69379998953082,
+            31.02189998026006,
+            39.99569997540675,
+            38.318000006256625,
+            43.945300014456734,
+            36.728400009451434,
+            54.2501000163611,
+            43.98600000422448,
+            24.97959998436272,
+            44.626900024013594,
+            36.08160000294447,
+            37.50960002071224,
+            45.99300000700168,
+            28.459100023610517,
+            36.34360001888126,
+            44.15080000762828,
+            39.90730000077747,
+            53.39059999096207,
+            53.99369998485781,
+            30.068699998082593,
+            37.01920001185499,
+            56.02339998586103,
+            39.44659998524003,
+            30.31339999870397,
+            46.786699997028336,
+            45.98570000962354,
+            36.72410000581294,
+            39.341700001386926,
+            32.45729999616742,
+            46.902199974283576,
+            31.133600015891716,
+            48.31849999027327,
+            37.939700006973,
+            37.56610001437366,
+            53.889500006334856,
+            24.018999974941835,
+            37.77900000568479,
+            56.444100016960874,
+            39.57210000953637,
+            71.25230002566241,
+            25.29849999700673,
+            52.19820002093911,
+            36.80440000607632,
+            59.72689998452552,
+            60.32250000862405,
+            36.92260000389069,
+            35.94259999226779,
+            69.6819000004325,
+            55.3539999818895,
+            38.091099995654076,
+            29.017799999564886,
+            29.9224000191316,
+            51.973800000268966,
+            29.754299990599975,
+            30.293999996501952,
+            52.203500003088266,
+            29.969199997140095,
+            48.470100009581074,
+            37.315099994884804,
+            30.121500021778047,
+            56.97979999240488,
+            67.7082999900449,
+            37.37499998533167,
+            53.323700005421415,
+            31.41759999562055,
+            46.26020000432618,
+            31.70950000640005,
+            46.683099993970245,
+            46.45850000088103,
+            45.07630001171492,
+            51.66500000632368,
+            31.77129998221062,
+            39.34419999131933,
+            36.215500003891066,
+            30.79489999799989,
+            47.02309999265708,
+            30.496199993649498,
+            51.61419999785721,
+            37.73240000009537,
+            53.57509999885224,
+            46.7728000076022,
+            44.571700011147186,
+            35.76839997549541,
+            45.656400005100295,
+            44.32690000976436,
+            59.019100008299574,
+            63.423700019484386,
+            29.84219999052584,
+            36.64869998465292,
+            46.13559998688288,
+            25.589500000933185,
+            37.59379999246448,
+            38.33770001074299,
+            36.2485000223387,
+            37.36320001189597,
+            29.74040000117384,
+            31.228599982568994,
+            44.822399999247864,
+            29.35480000451207,
+            52.30209999717772,
+            36.75980001571588,
+            37.68279997166246,
+            30.72559999418445,
+            44.60549997747876
+          ],
+          "predictions": [
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004979485836499095,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7422630895942594,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9759081936363558,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9045819579671085,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9239555665895273,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9430639783404035,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005023904578851425,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006626455620279158,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9617527342776573,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9767233990440171,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9626699769210183,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9894018569708743,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.032190019334372905,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9134445044821558,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006489772845274928,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0059627952872159705,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006434082164542052,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005868180621158716,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015446170340127935,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015824019336946753,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.34608291587338724,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9824020335343481,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005778836636518723,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006488075951745687,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009875271242385323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006418477090555382,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007241499996724625,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005669714451484774,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9140963463416019,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0047333658561458025,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.6987404231532809,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.14023685145286202,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0070603895858267,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9737161454514406,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005553524865246151,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9741520383091836,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9831252568317042,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00512323680742968,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010400237927450455,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9509372542760922,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004757404060044378,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.10347883773165352,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007345562324734141,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004654688072891989,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008207880395927111,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9342305931171869,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006214986758666107,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004560817679013259,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006682189012249481,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9809700547317339,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008701966093188872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006828880062312286,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0069926978174836485,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.725969451889609,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006352722584895362,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.2045443009460874,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006177980825389623,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005291782659031617,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.022455158321377726,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005180467150479323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8159882747651823,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007431548223475872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00823375248037347,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.02769992069900443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006928256598282851,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008177945633651373,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006249290988581008,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9741492466080507,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9633402602978441,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007051991368826804,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00503838510364642,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9571007915774088,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9814047972466524,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.03159622490259574,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0065613937333978125,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005465594088236851,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005690592868711544,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.04053951433799156,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004740791378217464,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8999816503997622,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7325768524523295,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9759171777028208,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009570317553067715,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007061009718255899,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9364540495440903,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9665249064905634,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005407589884220582,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9649302275470698,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006598636515114276,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009172222349024057,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007338743773997758,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0990229012351585,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9692422603957429,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0065400207466851665,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.884522797502587,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005634188087577788,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005366895337971629,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009183921626659106,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005604923348584817,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9834811256586199,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0060427503086212045,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006065741440478986,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.004640541931207706,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9790850043008601,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.971350489063677,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9677485307946971,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005126691612297147,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8789368027870513,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010774149089027886,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9823871598638659,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9906968456277278,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00575844027039876,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006826351518119053,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009051722037859056,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0053543204622302385,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005450055301680443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8125601707838926,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0607901427835996,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.17555206583971938,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005683268320927155,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005098123806542338,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9715669309063315,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005995812543019372,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9053324798411511,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005415289118593096,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9369673992796748,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006838065978587308,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.029747907887617046,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            }
+          ],
+          "padding_multiple": 8,
+          "max_length": 256
+        }
+      }
+    },
+    "compact": {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_distilled_min_20261024\\onnx",
+      "model_sha256": "846e6c9e606813b013d2574f148962a331645acf3984d04cc78839b8b075d182",
+      "load_seconds": 0.026668300008168444,
+      "profiles": {
+        "matched_dynamic8": {
+          "mean_ms": 0.3397414072878746,
+          "p50_ms": 0.327600006130524,
+          "p95_ms": 0.4796999870450235,
+          "latencies_ms": [
+            0.28249999741092324,
+            0.33549999352544546,
+            0.3606999816838652,
+            0.28639999800361693,
+            0.3380000125616789,
+            0.288500013994053,
+            0.24110000231303275,
+            0.2646999782882631,
+            0.4000000189989805,
+            0.3307000151835382,
+            0.3452999808359891,
+            0.3217000048607588,
+            0.2584999892860651,
+            0.44510001316666603,
+            0.2941999991890043,
+            0.2136999974027276,
+            0.2080000122077763,
+            0.4194000212009996,
+            0.24839999969117343,
+            0.2342000079806894,
+            0.48389998846687376,
+            0.6271000020205975,
+            0.4718999844044447,
+            0.31450000824406743,
+            0.35489999572746456,
+            0.32259998260997236,
+            0.35459999344311655,
+            0.3482000029180199,
+            0.42979998397640884,
+            0.34729999606497586,
+            0.46370000927709043,
+            0.3758000093512237,
+            0.22029998945072293,
+            0.37120000342838466,
+            0.301799998851493,
+            0.31179998768493533,
+            0.3522000042721629,
+            0.29570001061074436,
+            0.3732999903149903,
+            0.42240001494064927,
+            0.434300018241629,
+            0.4926999972667545,
+            0.41080001392401755,
+            0.28169999131932855,
+            0.36219999310560524,
+            0.3971999976783991,
+            0.3459999861661345,
+            0.26679999427869916,
+            0.3650000144261867,
+            0.3939999733120203,
+            0.3209999995306134,
+            0.3217000048607588,
+            0.28959999326616526,
+            0.36559998989105225,
+            0.26080000679939985,
+            0.3630999999586493,
+            0.27740001678466797,
+            0.26679999427869916,
+            0.5687999946530908,
+            0.2708999963942915,
+            0.3171000280417502,
+            0.4042000218760222,
+            0.2861000248230994,
+            0.41550002060830593,
+            0.23599999258294702,
+            0.44800000614486635,
+            0.31060000765137374,
+            0.40989997796714306,
+            0.4702000005636364,
+            0.2986000035889447,
+            0.2786999975796789,
+            0.43149999692104757,
+            0.3536999865900725,
+            0.28020000900141895,
+            0.2921000123023987,
+            0.23509998572990298,
+            0.3462000167928636,
+            0.22419999004341662,
+            0.39770000148564577,
+            0.50970001029782,
+            0.29250001534819603,
+            0.3856999974232167,
+            0.31179998768493533,
+            0.28639999800361693,
+            0.4425999941304326,
+            0.5366999830584973,
+            0.2986000035889447,
+            0.37239998346194625,
+            0.3512999974191189,
+            0.30670000705868006,
+            0.24499997380189598,
+            0.3132999991066754,
+            0.308899994706735,
+            0.2807999844662845,
+            0.3729000163730234,
+            0.21959998412057757,
+            0.2683000057004392,
+            0.2589999930933118,
+            0.20359997870400548,
+            0.446999998530373,
+            0.2930999908130616,
+            0.4157999937888235,
+            0.3039000148419291,
+            0.3310999891255051,
+            0.38320000749081373,
+            0.34610001603141427,
+            0.2624999906402081,
+            0.3032000095117837,
+            0.3437999985180795,
+            0.34470000537112355,
+            0.522699992870912,
+            0.32449999707750976,
+            0.36990002263337374,
+            0.38540002424269915,
+            0.22880002507008612,
+            0.3208999987691641,
+            0.30559999868273735,
+            0.2914000069722533,
+            0.3310999891255051,
+            0.3493000112939626,
+            0.39220001781359315,
+            0.41580002289265394,
+            0.25599999935366213,
+            0.35030001890845597,
+            0.2786999975796789,
+            0.3040000156033784,
+            0.24550000671297312,
+            0.32300001475960016
+          ],
+          "predictions": [
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005986738134944944,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8595128335796854,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9653455782028546,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8225873389888397,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8279028994734228,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8929527768669975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006300816051320096,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007020974614798864,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9544097202611305,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9739469809344798,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9245704053681567,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9878831569418685,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.051927762161606654,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.17265930894163822,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.02713824457429336,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006491548599837998,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0068684917006111975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008591631616314196,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.01770285378119303,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007522828952792591,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.4899519223314159,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9788862727933839,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007705304533249069,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006873834625587008,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009196401438003423,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008763994941228129,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007521116700224352,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008898439827273917,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7917504283360589,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009660133030235248,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.045491284378827546,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.21970332396576256,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007975716186870685,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9567794578385443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0070396797008694155,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9678141955901925,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9730425983473158,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007664786559604578,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.011090751183305379,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9666900564243495,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007465195380046289,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7358246018842409,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008269765560250946,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005302514788006812,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010521897707168019,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8833895132058434,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007211273743560003,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005565395756557684,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008245188746595897,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9776544855764,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007982885787115129,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00653640544785427,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009542966290463329,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9122362088025796,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0073663433744736995,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015661864109401,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00675428250366894,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007429236832505697,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.03924507110353113,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007654353748548273,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7360905155377104,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010076427780205982,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.11934361964673995,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.018081961103075767,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006832681094373089,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.014272508730989062,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0071677489088339845,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.902140888002554,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9484506295347772,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010399439238926672,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00657193111536947,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9675825753195203,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9757292161900168,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.01734992793587775,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.025372729385831846,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006984082741832108,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009836214101183821,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.056068331160129506,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006215454313669872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8872032695265137,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.5973308416816945,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9546033271085611,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.014512674431721715,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0059140102365426266,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9270704102962575,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9483648849217449,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005408003441069938,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9438458157626474,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009663910942584453,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010234315326208323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006953720654341924,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.44293259598116425,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9580942712290977,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008434150303489001,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.6947191687453372,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005807471795488076,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006170217048939255,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009815302688655079,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006892119420376245,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9768600741398306,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006079681559099103,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007730049164540149,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005477148187390927,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9738879647265204,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9547714116362763,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9514618596890505,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0064068097300556985,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8248759895391563,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.013811925179755975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9855521355843517,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9869502600979024,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006119896225076467,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.012595478552469027,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.5312725302843561,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0073998770069395635,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007092628531766523,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8237211454678818,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.28919556158586707,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.2666897986875948,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006000662746030078,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008292145306825871,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9221767183988452,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007632221985359473,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7707022737906741,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009397304229497742,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8980893043158787,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00741773797197384,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.08327842051051984,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            }
+          ],
+          "padding_multiple": 8,
+          "max_length": 256
+        },
+        "deployment_padding": {
+          "mean_ms": 0.3333453128107067,
+          "p50_ms": 0.30905001040082425,
+          "p95_ms": 0.5207099995459429,
+          "latencies_ms": [
+            0.22200000239536166,
+            0.2914999786298722,
+            0.3163999936077744,
+            0.299000006634742,
+            0.29940000968053937,
+            0.39739999920129776,
+            0.40099999750964344,
+            0.3372000064700842,
+            0.30590000096708536,
+            0.28750000637955964,
+            0.27600000612437725,
+            0.298700004350394,
+            0.36020000698044896,
+            0.4183999844826758,
+            0.29830000130459666,
+            0.21490000654011965,
+            0.2049999893642962,
+            0.26169998454861343,
+            0.2410000015515834,
+            0.24470000062137842,
+            0.24369999300688505,
+            0.3485000052023679,
+            0.2859999949578196,
+            0.22070002160035074,
+            0.23469998268410563,
+            0.2229000092484057,
+            0.28459998429752886,
+            0.36199999158270657,
+            0.3276999923400581,
+            0.2908000024035573,
+            0.5538999976124614,
+            0.4833999846596271,
+            0.3217000048607588,
+            0.5275000003166497,
+            0.4881000204477459,
+            0.5080999981146306,
+            0.5957999965175986,
+            0.4842999915126711,
+            0.4895000020042062,
+            0.5643999902531505,
+            0.3358999965712428,
+            0.4361000028438866,
+            0.387999985832721,
+            0.2730999840423465,
+            0.47389999963343143,
+            0.6213999877218157,
+            0.42910000775009394,
+            0.2644999767653644,
+            0.3267000138293952,
+            0.39030000334605575,
+            0.3383000148460269,
+            0.30910002533346415,
+            0.3093999985139817,
+            0.3789000038523227,
+            0.22709998302161694,
+            0.35390001721680164,
+            0.27099999715574086,
+            0.2584999892860651,
+            0.34249998861923814,
+            0.20619999850168824,
+            0.2835000050254166,
+            0.33790001180022955,
+            0.2638000005390495,
+            0.43039998854510486,
+            0.21510000806301832,
+            0.4478000046219677,
+            0.4250000056345016,
+            0.4437999741639942,
+            0.49420000868849456,
+            0.29460000223480165,
+            0.3013000241480768,
+            0.47080000513233244,
+            0.4219000111334026,
+            0.3030999796465039,
+            0.228899996727705,
+            0.23030000738799572,
+            0.35099999513477087,
+            0.2389000146649778,
+            0.2334000018890947,
+            0.3567000094335526,
+            0.23320000036619604,
+            0.308899994706735,
+            0.2657999866642058,
+            0.22390001686289907,
+            0.3504000196699053,
+            0.3921999887097627,
+            0.34249998861923814,
+            0.5665000062435865,
+            0.31280002440325916,
+            0.34050000249408185,
+            0.27520000003278255,
+            0.43009998626075685,
+            0.4754000110551715,
+            0.3281999961473048,
+            0.38400001358240843,
+            0.21910000941716135,
+            0.29579998226836324,
+            0.28330000350251794,
+            0.21649998961947858,
+            0.3775999939534813,
+            0.24640001356601715,
+            0.36139998701401055,
+            0.2542999864090234,
+            0.3296000068075955,
+            0.30559999868273735,
+            0.30899999546818435,
+            0.3017000271938741,
+            0.5409000150393695,
+            0.39409997407346964,
+            0.4253000079188496,
+            0.3701000241562724,
+            0.23460001102648675,
+            0.36189999082125723,
+            0.3482000029180199,
+            0.20300000323913991,
+            0.26939998497255147,
+            0.2778999914880842,
+            0.2714000002015382,
+            0.2689999819267541,
+            0.2640000020619482,
+            0.22109999554231763,
+            0.31609999132342637,
+            0.22360001457855105,
+            0.3624000237323344,
+            0.2750999992713332,
+            0.25850001838989556,
+            0.23919998784549534,
+            0.29170000925660133
+          ],
+          "predictions": [
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005986738134944944,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8595128335796854,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9653455782028546,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8225873389888397,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8279028994734228,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8929527768669975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006300816051320096,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007020974614798864,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9544097202611305,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9739469809344798,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9245704053681567,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9878831569418685,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.051927762161606654,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.17265930894163822,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.02713824457429336,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006491548599837998,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0068684917006111975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008591631616314196,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.01770285378119303,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007522828952792591,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.4899519223314159,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9788862727933839,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007705304533249069,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006873834625587008,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009196401438003423,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008763994941228129,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007521116700224352,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008898439827273917,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7917504283360589,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009660133030235248,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.045491284378827546,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.21970332396576256,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007975716186870685,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9567794578385443,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0070396797008694155,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9678141955901925,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9730425983473158,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007664786559604578,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.011090751183305379,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9666900564243495,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007465195380046289,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7358246018842409,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008269765560250946,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005302514788006812,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010521897707168019,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8833895132058434,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007211273743560003,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005565395756557684,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008245188746595897,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9776544855764,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007982885787115129,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00653640544785427,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009542966290463329,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9122362088025796,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0073663433744736995,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.015661864109401,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00675428250366894,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007429236832505697,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.03924507110353113,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007654353748548273,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7360905155377104,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010076427780205982,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.11934361964673995,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.018081961103075767,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006832681094373089,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.014272508730989062,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0071677489088339845,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.902140888002554,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9484506295347772,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010399439238926672,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00657193111536947,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9675825753195203,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9757292161900168,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.01734992793587775,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.025372729385831846,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006984082741832108,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009836214101183821,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.056068331160129506,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006215454313669872,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8872032695265137,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.5973308416816945,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9546033271085611,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.014512674431721715,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0059140102365426266,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9270704102962575,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9483648849217449,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005408003441069938,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9438458157626474,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009663910942584453,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.010234315326208323,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006953720654341924,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.44293259598116425,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9580942712290977,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008434150303489001,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.6947191687453372,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005807471795488076,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006170217048939255,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009815302688655079,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006892119420376245,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9768600741398306,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006079681559099103,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007730049164540149,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.005477148187390927,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9738879647265204,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9547714116362763,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9514618596890505,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0064068097300556985,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8248759895391563,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.013811925179755975,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9855521355843517,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9869502600979024,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006119896225076467,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.012595478552469027,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.5312725302843561,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.0073998770069395635,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007092628531766523,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8237211454678818,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.28919556158586707,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.2666897986875948,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.006000662746030078,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.008292145306825871,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.9221767183988452,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.007632221985359473,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.7707022737906741,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.009397304229497742,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "EOT",
+              "prob_EOT": 0.8980893043158787,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.00741773797197384,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            },
+            {
+              "prediction": "NEOT",
+              "prob_EOT": 0.08327842051051984,
+              "threshold": 0.5449999999999999,
+              "smoke_only": false
+            }
+          ],
+          "padding_multiple": 8,
+          "max_length": 256
+        }
+      }
+    }
+  },
+  "matched_dynamic8_p50_speedup": 116.59462540390336,
+  "deployment_padding_p50_speedup": 124.01827768518848
+}

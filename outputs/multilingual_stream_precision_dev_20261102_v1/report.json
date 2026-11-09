@@ -1,0 +1,782 @@
+{
+  "complete": true,
+  "checkpoint": {
+    "step": 515435,
+    "branch_step": 29200,
+    "base_step": 486235,
+    "source_checkpoint_sha256": "54fde12705c5ae0b08e03ca914499eda4489d08299f47e403a3be5d1827a0710",
+    "weights_sha256": "2a548ed7bfa51cdd81e249063bf4f550fff12e0953c7f58ccfd264bc5313761b",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "full_optimizer_rng_sampler_preserved": true,
+    "optimizer_entries": 104,
+    "one_shared_model": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+  },
+  "baseline_threshold": 0.53,
+  "candidate_threshold": 0.75,
+  "target_precision": 0.95,
+  "target_met_on_calibration": true,
+  "target_met_on_verification": true,
+  "calibration": [
+    {
+      "threshold": 0.53,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 91,
+            "tn": 2328,
+            "fp": 6,
+            "fn": 5,
+            "accuracy": 0.9954732510288066,
+            "eot_f1": 0.9430051813471503,
+            "eot_precision": 0.9381443298969072,
+            "eot_recall": 0.9479166666666666,
+            "false_share_of_cuts": 0.061855670103092786,
+            "false_positive_rate": 0.002570694087403599
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 151,
+            "tn": 2790,
+            "fp": 5,
+            "fn": 4,
+            "accuracy": 0.9969491525423729,
+            "eot_f1": 0.9710610932475884,
+            "eot_precision": 0.967948717948718,
+            "eot_recall": 0.9741935483870968,
+            "false_share_of_cuts": 0.03205128205128205,
+            "false_positive_rate": 0.0017889087656529517
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 113,
+            "tn": 2392,
+            "fp": 6,
+            "fn": 10,
+            "accuracy": 0.9936533121777072,
+            "eot_f1": 0.9338842975206612,
+            "eot_precision": 0.9495798319327731,
+            "eot_recall": 0.9186991869918699,
+            "false_share_of_cuts": 0.05042016806722689,
+            "false_positive_rate": 0.0025020850708924102
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 184,
+            "tn": 2744,
+            "fp": 8,
+            "fn": 4,
+            "accuracy": 0.9959183673469387,
+            "eot_f1": 0.968421052631579,
+            "eot_precision": 0.9583333333333334,
+            "eot_recall": 0.9787234042553191,
+            "false_share_of_cuts": 0.041666666666666664,
+            "false_positive_rate": 0.0029069767441860465
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 2.0,
+        "eots_without_later_model_cut_before_end": 9,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.65,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 85,
+            "tn": 2329,
+            "fp": 5,
+            "fn": 11,
+            "accuracy": 0.9934156378600824,
+            "eot_f1": 0.9139784946236559,
+            "eot_precision": 0.9444444444444444,
+            "eot_recall": 0.8854166666666666,
+            "false_share_of_cuts": 0.05555555555555555,
+            "false_positive_rate": 0.0021422450728363325
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 151,
+            "tn": 2792,
+            "fp": 3,
+            "fn": 4,
+            "accuracy": 0.9976271186440678,
+            "eot_f1": 0.9773462783171522,
+            "eot_precision": 0.9805194805194806,
+            "eot_recall": 0.9741935483870968,
+            "false_share_of_cuts": 0.01948051948051948,
+            "false_positive_rate": 0.001073345259391771
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 107,
+            "tn": 2394,
+            "fp": 4,
+            "fn": 16,
+            "accuracy": 0.9920666402221341,
+            "eot_f1": 0.9145299145299145,
+            "eot_precision": 0.963963963963964,
+            "eot_recall": 0.8699186991869918,
+            "false_share_of_cuts": 0.036036036036036036,
+            "false_positive_rate": 0.0016680567139282735
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 184,
+            "tn": 2748,
+            "fp": 4,
+            "fn": 4,
+            "accuracy": 0.9972789115646259,
+            "eot_f1": 0.9787234042553191,
+            "eot_precision": 0.9787234042553191,
+            "eot_recall": 0.9787234042553191,
+            "false_share_of_cuts": 0.02127659574468085,
+            "false_positive_rate": 0.0014534883720930232
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 2.0,
+        "eots_without_later_model_cut_before_end": 13,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.75,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 80,
+            "tn": 2330,
+            "fp": 4,
+            "fn": 16,
+            "accuracy": 0.9917695473251029,
+            "eot_f1": 0.8888888888888888,
+            "eot_precision": 0.9523809523809523,
+            "eot_recall": 0.8333333333333334,
+            "false_share_of_cuts": 0.047619047619047616,
+            "false_positive_rate": 0.001713796058269066
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 148,
+            "tn": 2792,
+            "fp": 3,
+            "fn": 7,
+            "accuracy": 0.9966101694915255,
+            "eot_f1": 0.9673202614379085,
+            "eot_precision": 0.9801324503311258,
+            "eot_recall": 0.9548387096774194,
+            "false_share_of_cuts": 0.019867549668874173,
+            "false_positive_rate": 0.001073345259391771
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 101,
+            "tn": 2394,
+            "fp": 4,
+            "fn": 22,
+            "accuracy": 0.9896866322887743,
+            "eot_f1": 0.8859649122807017,
+            "eot_precision": 0.9619047619047619,
+            "eot_recall": 0.8211382113821138,
+            "false_share_of_cuts": 0.0380952380952381,
+            "false_positive_rate": 0.0016680567139282735
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 182,
+            "tn": 2748,
+            "fp": 4,
+            "fn": 6,
+            "accuracy": 0.9965986394557823,
+            "eot_f1": 0.9732620320855615,
+            "eot_precision": 0.978494623655914,
+            "eot_recall": 0.9680851063829787,
+            "false_share_of_cuts": 0.021505376344086023,
+            "false_positive_rate": 0.0014534883720930232
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 10.849999999999795,
+        "eots_without_later_model_cut_before_end": 20,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.85,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 74,
+            "tn": 2331,
+            "fp": 3,
+            "fn": 22,
+            "accuracy": 0.9897119341563786,
+            "eot_f1": 0.8554913294797688,
+            "eot_precision": 0.961038961038961,
+            "eot_recall": 0.7708333333333334,
+            "false_share_of_cuts": 0.03896103896103896,
+            "false_positive_rate": 0.0012853470437017994
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 147,
+            "tn": 2792,
+            "fp": 3,
+            "fn": 8,
+            "accuracy": 0.9962711864406779,
+            "eot_f1": 0.9639344262295082,
+            "eot_precision": 0.98,
+            "eot_recall": 0.9483870967741935,
+            "false_share_of_cuts": 0.02,
+            "false_positive_rate": 0.001073345259391771
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 99,
+            "tn": 2396,
+            "fp": 2,
+            "fn": 24,
+            "accuracy": 0.9896866322887743,
+            "eot_f1": 0.8839285714285714,
+            "eot_precision": 0.9801980198019802,
+            "eot_recall": 0.8048780487804879,
+            "false_share_of_cuts": 0.019801980198019802,
+            "false_positive_rate": 0.0008340283569641367
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 182,
+            "tn": 2748,
+            "fp": 4,
+            "fn": 6,
+            "accuracy": 0.9965986394557823,
+            "eot_f1": 0.9732620320855615,
+            "eot_precision": 0.978494623655914,
+            "eot_recall": 0.9680851063829787,
+            "false_share_of_cuts": 0.021505376344086023,
+            "false_positive_rate": 0.0014534883720930232
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 12.149999999999977,
+        "eots_without_later_model_cut_before_end": 24,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.9,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 69,
+            "tn": 2333,
+            "fp": 1,
+            "fn": 27,
+            "accuracy": 0.988477366255144,
+            "eot_f1": 0.8313253012048193,
+            "eot_precision": 0.9857142857142858,
+            "eot_recall": 0.71875,
+            "false_share_of_cuts": 0.014285714285714285,
+            "false_positive_rate": 0.0004284490145672665
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 145,
+            "tn": 2792,
+            "fp": 3,
+            "fn": 10,
+            "accuracy": 0.995593220338983,
+            "eot_f1": 0.9570957095709571,
+            "eot_precision": 0.9797297297297297,
+            "eot_recall": 0.9354838709677419,
+            "false_share_of_cuts": 0.02027027027027027,
+            "false_positive_rate": 0.001073345259391771
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 93,
+            "tn": 2396,
+            "fp": 2,
+            "fn": 30,
+            "accuracy": 0.9873066243554145,
+            "eot_f1": 0.8532110091743119,
+            "eot_precision": 0.9789473684210527,
+            "eot_recall": 0.7560975609756098,
+            "false_share_of_cuts": 0.021052631578947368,
+            "false_positive_rate": 0.0008340283569641367
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 182,
+            "tn": 2748,
+            "fp": 4,
+            "fn": 6,
+            "accuracy": 0.9965986394557823,
+            "eot_f1": 0.9732620320855615,
+            "eot_precision": 0.978494623655914,
+            "eot_recall": 0.9680851063829787,
+            "false_share_of_cuts": 0.021505376344086023,
+            "false_positive_rate": 0.0014534883720930232
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 13.449999999999989,
+        "eots_without_later_model_cut_before_end": 30,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.95,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 59,
+            "tn": 2334,
+            "fp": 0,
+            "fn": 37,
+            "accuracy": 0.9847736625514403,
+            "eot_f1": 0.7612903225806451,
+            "eot_precision": 1.0,
+            "eot_recall": 0.6145833333333334,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 141,
+            "tn": 2793,
+            "fp": 2,
+            "fn": 14,
+            "accuracy": 0.9945762711864407,
+            "eot_f1": 0.9463087248322147,
+            "eot_precision": 0.986013986013986,
+            "eot_recall": 0.9096774193548387,
+            "false_share_of_cuts": 0.013986013986013986,
+            "false_positive_rate": 0.0007155635062611807
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 77,
+            "tn": 2398,
+            "fp": 0,
+            "fn": 46,
+            "accuracy": 0.9817532725109084,
+            "eot_f1": 0.77,
+            "eot_precision": 1.0,
+            "eot_recall": 0.6260162601626016,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 176,
+            "tn": 2750,
+            "fp": 2,
+            "fn": 12,
+            "accuracy": 0.9952380952380953,
+            "eot_f1": 0.9617486338797814,
+            "eot_precision": 0.9887640449438202,
+            "eot_recall": 0.9361702127659575,
+            "false_share_of_cuts": 0.011235955056179775,
+            "false_positive_rate": 0.0007267441860465116
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 17.0,
+        "eots_without_later_model_cut_before_end": 50,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.97,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 48,
+            "tn": 2334,
+            "fp": 0,
+            "fn": 48,
+            "accuracy": 0.980246913580247,
+            "eot_f1": 0.6666666666666666,
+            "eot_precision": 1.0,
+            "eot_recall": 0.5,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 137,
+            "tn": 2794,
+            "fp": 1,
+            "fn": 18,
+            "accuracy": 0.9935593220338983,
+            "eot_f1": 0.9351535836177475,
+            "eot_precision": 0.9927536231884058,
+            "eot_recall": 0.8838709677419355,
+            "false_share_of_cuts": 0.007246376811594203,
+            "false_positive_rate": 0.00035778175313059033
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 67,
+            "tn": 2398,
+            "fp": 0,
+            "fn": 56,
+            "accuracy": 0.9777865926219754,
+            "eot_f1": 0.7052631578947368,
+            "eot_precision": 1.0,
+            "eot_recall": 0.5447154471544715,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 172,
+            "tn": 2752,
+            "fp": 0,
+            "fn": 16,
+            "accuracy": 0.9945578231292517,
+            "eot_f1": 0.9555555555555556,
+            "eot_precision": 1.0,
+            "eot_recall": 0.9148936170212766,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 17.0,
+        "eots_without_later_model_cut_before_end": 71,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.99,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 15,
+            "tn": 2334,
+            "fp": 0,
+            "fn": 81,
+            "accuracy": 0.9666666666666667,
+            "eot_f1": 0.2702702702702703,
+            "eot_precision": 1.0,
+            "eot_recall": 0.15625,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 112,
+            "tn": 2794,
+            "fp": 1,
+            "fn": 43,
+            "accuracy": 0.9850847457627119,
+            "eot_f1": 0.835820895522388,
+            "eot_precision": 0.9911504424778761,
+            "eot_recall": 0.7225806451612903,
+            "false_share_of_cuts": 0.008849557522123894,
+            "false_positive_rate": 0.00035778175313059033
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 31,
+            "tn": 2398,
+            "fp": 0,
+            "fn": 92,
+            "accuracy": 0.9635065450218168,
+            "eot_f1": 0.4025974025974026,
+            "eot_precision": 1.0,
+            "eot_recall": 0.25203252032520324,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 146,
+            "tn": 2752,
+            "fp": 0,
+            "fn": 42,
+            "accuracy": 0.9857142857142858,
+            "eot_f1": 0.874251497005988,
+            "eot_precision": 1.0,
+            "eot_recall": 0.776595744680851,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 23.0,
+        "eots_without_later_model_cut_before_end": 148,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.995,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2430,
+            "tp": 6,
+            "tn": 2334,
+            "fp": 0,
+            "fn": 90,
+            "accuracy": 0.9629629629629629,
+            "eot_f1": 0.11764705882352941,
+            "eot_precision": 1.0,
+            "eot_recall": 0.0625,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2950,
+            "tp": 91,
+            "tn": 2795,
+            "fp": 0,
+            "fn": 64,
+            "accuracy": 0.9783050847457627,
+            "eot_f1": 0.7398373983739838,
+            "eot_precision": 1.0,
+            "eot_recall": 0.5870967741935483,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2521,
+            "tp": 23,
+            "tn": 2398,
+            "fp": 0,
+            "fn": 100,
+            "accuracy": 0.9603332011106703,
+            "eot_f1": 0.3150684931506849,
+            "eot_precision": 1.0,
+            "eot_recall": 0.18699186991869918,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2940,
+            "tp": 130,
+            "tn": 2752,
+            "fp": 0,
+            "fn": 58,
+            "accuracy": 0.9802721088435374,
+            "eot_f1": 0.8176100628930818,
+            "eot_precision": 1.0,
+            "eot_recall": 0.6914893617021277,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 25.0,
+        "eots_without_later_model_cut_before_end": 190,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    }
+  ],
+  "verification": [
+    {
+      "threshold": 0.53,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2537,
+            "tp": 87,
+            "tn": 2434,
+            "fp": 7,
+            "fn": 9,
+            "accuracy": 0.9936933385888845,
+            "eot_f1": 0.9157894736842105,
+            "eot_precision": 0.925531914893617,
+            "eot_recall": 0.90625,
+            "false_share_of_cuts": 0.07446808510638298,
+            "false_positive_rate": 0.0028676771814829987
+          },
+          "en": {
+            "samples": 2891,
+            "tp": 152,
+            "tn": 2724,
+            "fp": 5,
+            "fn": 10,
+            "accuracy": 0.9948114839156001,
+            "eot_f1": 0.9529780564263323,
+            "eot_precision": 0.9681528662420382,
+            "eot_recall": 0.9382716049382716,
+            "false_share_of_cuts": 0.03184713375796178,
+            "false_positive_rate": 0.001832172957127153
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2558,
+            "tp": 108,
+            "tn": 2432,
+            "fp": 6,
+            "fn": 12,
+            "accuracy": 0.9929632525410477,
+            "eot_f1": 0.9230769230769231,
+            "eot_precision": 0.9473684210526315,
+            "eot_recall": 0.9,
+            "false_share_of_cuts": 0.05263157894736842,
+            "false_positive_rate": 0.002461033634126333
+          },
+          "en": {
+            "samples": 2954,
+            "tp": 176,
+            "tn": 2760,
+            "fp": 8,
+            "fn": 10,
+            "accuracy": 0.993906567366283,
+            "eot_f1": 0.9513513513513514,
+            "eot_precision": 0.9565217391304348,
+            "eot_recall": 0.946236559139785,
+            "false_share_of_cuts": 0.043478260869565216,
+            "false_positive_rate": 0.002890173410404624
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 8.449999999999932,
+        "eots_without_later_model_cut_before_end": 12,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    },
+    {
+      "threshold": 0.75,
+      "by_mode": {
+        "monolingual": {
+          "vi": {
+            "samples": 2537,
+            "tp": 77,
+            "tn": 2438,
+            "fp": 3,
+            "fn": 19,
+            "accuracy": 0.9913283405597162,
+            "eot_f1": 0.875,
+            "eot_precision": 0.9625,
+            "eot_recall": 0.8020833333333334,
+            "false_share_of_cuts": 0.0375,
+            "false_positive_rate": 0.0012290045063498567
+          },
+          "en": {
+            "samples": 2891,
+            "tp": 146,
+            "tn": 2725,
+            "fp": 4,
+            "fn": 16,
+            "accuracy": 0.9930819785541335,
+            "eot_f1": 0.9358974358974359,
+            "eot_precision": 0.9733333333333334,
+            "eot_recall": 0.9012345679012346,
+            "false_share_of_cuts": 0.02666666666666667,
+            "false_positive_rate": 0.0014657383657017222
+          }
+        },
+        "mixed": {
+          "vi": {
+            "samples": 2558,
+            "tp": 104,
+            "tn": 2438,
+            "fp": 0,
+            "fn": 16,
+            "accuracy": 0.9937451133698202,
+            "eot_f1": 0.9285714285714286,
+            "eot_precision": 1.0,
+            "eot_recall": 0.8666666666666667,
+            "false_share_of_cuts": 0.0,
+            "false_positive_rate": 0.0
+          },
+          "en": {
+            "samples": 2954,
+            "tp": 172,
+            "tn": 2762,
+            "fp": 6,
+            "fn": 14,
+            "accuracy": 0.99322951929587,
+            "eot_f1": 0.945054945054945,
+            "eot_precision": 0.9662921348314607,
+            "eot_recall": 0.9247311827956989,
+            "false_share_of_cuts": 0.033707865168539325,
+            "false_positive_rate": 0.002167630057803468
+          }
+        }
+      },
+      "words_after_reference_eot_until_model_cut": {
+        "median": 2.0,
+        "p95": 14.099999999999966,
+        "eots_without_later_model_cut_before_end": 25,
+        "model_cut_may_be_wrong_boundary_counted_separately": true,
+        "explicit_final_flush_not_counted_as_model_cut": true
+      }
+    }
+  ],
+  "candidate_locked_before_verification": true,
+  "no_threshold_reselection_on_verification": true,
+  "training_deployment_or_model_weights_modified": false,
+  "test_samples_predictions_cases_or_scores_read": false,
+  "unique_model_inputs": 13070,
+  "max_future_words": 2,
+  "buffer_resets": "predicted_EOT_only",
+  "scope": "Family-disjoint DEV calibration/verification on256synthetic VI/EN paragraphs; not independent test or human/audio gold. No ZH streaming assessment.",
+  "completed_utc": "2026-11-02T08:44:14.374317+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"cycle\": 30, \"path\": \"outputs/teacher_first_v14_20261026/recovery/metadata_snapshot.zip\", \"bytes\": 15128390, \"sha256\": \"acb9762b59dfb3df6a08ee0b81efa607b17fbcfd08f2ba4fa11cc1d1671bf0f3\", \"scope\": \"METADATA_ONLY_NOT_A_FULL_TEACHER_RECOVERY\", \"teacher_weights_backed_up_externally\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 0.139999999984866
+}

@@ -1,0 +1,31 @@
+{
+  "config": {
+    "vocab_size": 119547,
+    "dim": 384,
+    "hidden_dim": 1536,
+    "n_layers": 6,
+    "n_heads": 6,
+    "max_position_embeddings": 512,
+    "num_labels": 2,
+    "pad_token_id": 0,
+    "embedding_rank": 64
+  },
+  "parameters": {
+    "deployment": 18668738,
+    "training_total": 18964418,
+    "limit_exclusive": 20000000,
+    "embedding_included": true,
+    "classifier_included": true
+  },
+  "initialization": {
+    "method": "alternate attention-head/FFN slicing and centered rank64 embedding SVD",
+    "teacher_tokenizer_preserved": true,
+    "vocabulary_pruned": false,
+    "exact_teacher_function_preserved": false
+  },
+  "teacher_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+  "original_tokenizer_sha256": "bf1b59b7b11c95f194f51708d918eea378e09d05f84c0e1656dc5180e8117088",
+  "source_corpus": "300000 locked TRAIN rows:100000 per language, source722 plus legacyZH",
+  "new_spoken_v9_used": false,
+  "test_used": false
+}

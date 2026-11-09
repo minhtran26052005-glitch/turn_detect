@@ -1,0 +1,126 @@
+{
+  "train": {
+    "vi": {
+      "EOT": {
+        "example_id": "2be418232e26baddbe4a81c8d1ecc6459d990ca7bab8a5eb13738af2e949dc27",
+        "language": "vi",
+        "context": "Có chuyện gì thế hở mẹ",
+        "text": "Mẹ không",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "target_punctuation": "?",
+        "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:e57b5dde-f1c7-44d9-aa3c-264bfa82e646>",
+        "source_title": "Click phải, chọn open link in New tab, chọn ngôn ngữ trên giao diện mới, dán văn bản vào và Click SAY – văn bản sẽ được đọc với các thứ tiếng theo hai giọng nam",
+        "source_url": "http://gocsan.blogspot.com/2010_07_22_archive.html"
+      },
+      "NEOT": {
+        "example_id": "2d36d0e19469b8d57859e548b8a1d0e47e57bdd28eae97685792c034c4189326",
+        "language": "vi",
+        "context": "Vì một số lý do",
+        "text": "cú approach",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "target_punctuation": ",",
+        "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:cd073151-25fb-4afb-b14e-cb0ee6d96462>",
+        "source_title": "Hãy TÌM trước khi gửi câu hỏi - Bạn sẽ có câu trả lời nhanh hơn!",
+        "source_url": "http://www.2dep.net/f67/huong-dan-len-luoi-16935/"
+      }
+    },
+    "en": {
+      "EOT": {
+        "example_id": "378db267b2063387c9cb6601ccf19d0c0f7e5f4128258152eaf92bd60beddd24",
+        "language": "en",
+        "context": "Ron Bain New Haven Mo",
+        "text": "was fourth",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "target_punctuation": ".",
+        "source_id": "en:hf:fineweb:en:<urn:uuid:97de911c-3726-4fbb-a065-eeb9714bacb3>",
+        "source_title": "The high power hunting rifle event completed the second day of three days of competition Friday afternoon at the Ridgway Rifle Club as part of the NRA National ",
+        "source_url": "http://www.ridgwayrecord.com/print/2549"
+      },
+      "NEOT": {
+        "example_id": "13db153c013e85597da06f08c6af6cd2d6c3369c356fe827eeec8dd6a557dc24",
+        "language": "en",
+        "context": "I did a3d 4 10",
+        "text": "10",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "target_punctuation": ",",
+        "source_id": "en:hf:fineweb:en:<urn:uuid:c925c76c-e01c-4ae3-8a1e-fc920b4f0184>",
+        "source_title": "OK I read through trough Ermac's and AbsoluteDestinys guide. It helped some things. I am Australian=25fps and PAL DVDs. I will not buy NTSC stuff online to get ",
+        "source_url": "http://www.animemusicvideos.org/forum/viewtopic.php?p=1024216"
+      }
+    },
+    "zh": {
+      "EOT": {
+        "example_id": "2506afd29cc58ace81066ff6fef6aa4ca32771c0db6462c6a3f384b34a810e64",
+        "language": "zh",
+        "context": "你 可以 不 喜欢 某个 东西 但 至少 知道 这个 世界 怎么 运作",
+        "text": "他 还",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "target_punctuation": "。",
+        "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:1d8519a9-8242-4658-ac98-8d92f6a8a95f>",
+        "source_title": "他说：一个人再怎么嚣张也有短板",
+        "source_url": "http://m.yidu.im/apps/mobile/post_html?page=business&postid=882"
+      },
+      "NEOT": {
+        "example_id": "2336fdedcf17c0778a08843fbd0cee48e9ddd63b213d39e8896628cd2e551620",
+        "language": "zh",
+        "context": "32 我们 受审 的 时候",
+        "text": "乃是 被",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "target_punctuation": "，",
+        "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:60fa7d13-ea80-4a53-8323-fde5b988c413>",
+        "source_title": "哥林多前书 11:17–34",
+        "source_url": "http://www.desiringgod.org/resource-library/sermons/why-and-how-we-celebrate-the-lords-supper?lang=zh"
+      }
+    }
+  },
+  "config": {
+    "vi": {
+      "architectures": [
+        "DebertaV2ForSequenceClassification"
+      ],
+      "model_type": "deberta-v2",
+      "num_hidden_layers": 12,
+      "hidden_size": 768,
+      "num_attention_heads": 12,
+      "id2label": {
+        "0": "NEOT",
+        "1": "EOT"
+      },
+      "vocab_size": 251000
+    },
+    "en": {
+      "architectures": [
+        "DebertaV2ForSequenceClassification"
+      ],
+      "model_type": "deberta-v2",
+      "num_hidden_layers": 12,
+      "hidden_size": 768,
+      "num_attention_heads": 12,
+      "id2label": {
+        "0": "NEOT",
+        "1": "EOT"
+      },
+      "vocab_size": 251000
+    },
+    "zh": {
+      "architectures": [
+        "DebertaV2ForSequenceClassification"
+      ],
+      "model_type": "deberta-v2",
+      "num_hidden_layers": 12,
+      "hidden_size": 768,
+      "num_attention_heads": 12,
+      "id2label": {
+        "0": "NEOT",
+        "1": "EOT"
+      },
+      "vocab_size": 251000
+    }
+  }
+}

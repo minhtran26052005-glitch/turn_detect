@@ -1,0 +1,112 @@
+{
+  "status": "TRIAL_COMPLETED",
+  "verified_at_utc": "2026-10-24T03:12:56.366171+00:00",
+  "checks": {
+    "artifact:onnx/config.json": true,
+    "artifact:onnx/model.onnx": true,
+    "artifact:onnx/parity_report.json": true,
+    "artifact:onnx/tokenizer.json": true,
+    "artifact:onnx/tokenizer_config.json": true,
+    "artifact:onnx/turn_detector_config.json": true,
+    "artifact:best/config.json": true,
+    "artifact:best/model.safetensors": true,
+    "artifact:best/tokenizer.json": true,
+    "artifact:best/tokenizer_config.json": true,
+    "artifact:best/training_args.bin": true,
+    "artifact:best/turn_detector_config.json": true,
+    "training_source:train.py": true,
+    "training_source:common.py": true,
+    "training_source:metrics.py": true,
+    "training_source:prepare.py": true,
+    "frozen_manifest": true,
+    "frozen_split:train": true,
+    "frozen_split:dev": true,
+    "frozen_split:holdout": true,
+    "original_unchanged:train.jsonl": true,
+    "original_unchanged:test.jsonl": true,
+    "original_unchanged:text_based.py": true,
+    "original_unchanged:checkpoint-23000/model_quantized.onnx": true,
+    "local_checkpoint_matches_holdout": true,
+    "threshold_frozen": true,
+    "onnx_parity": true,
+    "local_onnx_acceptance": true,
+    "notebook_colab": true,
+    "job_completed": true,
+    "best_selected_on_dev": true,
+    "holdout_target_met": true,
+    "holdout_consumed_receipt": true,
+    "score_recomputed:holdout": true,
+    "score_recomputed:legacy_regression": true,
+    "new_model_crawl": true,
+    "notebook_code_compiles": true
+  },
+  "all_passed": true,
+  "artifact_sha256": {
+    "onnx/config.json": "9109a6b252d32419b0550135493f1f2f5b48abb06923c0e383e42a847ca8dc44",
+    "onnx/model.onnx": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+    "onnx/parity_report.json": "311dd5d909c4dd8735610644d4415acada90f8298f6b73cb275fa3626c7ba89e",
+    "onnx/tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+    "onnx/tokenizer_config.json": "6dcb0f62f3f314f1d3ca35960fb0cac0f229c2d9372a058871019ad6c351e08f",
+    "onnx/turn_detector_config.json": "33da8efd0b71d94b75be02d4eb2ef0feeeb54b400d074d671d2494f55c82683a",
+    "best/config.json": "9109a6b252d32419b0550135493f1f2f5b48abb06923c0e383e42a847ca8dc44",
+    "best/model.safetensors": "9f7111d36c07e64c24755a1abddb130efd4b75180964fe93c4c55d3d771a15d8",
+    "best/tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+    "best/tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687",
+    "best/training_args.bin": "01616996169df518aa3261b39b759892648577e228e1210467b2955d716aa74b",
+    "best/turn_detector_config.json": "33da8efd0b71d94b75be02d4eb2ef0feeeb54b400d074d671d2494f55c82683a"
+  },
+  "optimizer_steps": 2000,
+  "selected_checkpoint": 1750,
+  "frozen_holdout_target_achieved": true,
+  "legacy_test_target_achieved": false,
+  "holdout_metrics": {
+    "samples": 17099,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.9380665535996258,
+    "eot_precision": 0.8663844199830651,
+    "eot_recall": 0.9498700334199777,
+    "eot_f1": 0.9062084846337791,
+    "joint_score": 0.9062084846337791,
+    "false_eot": 789,
+    "missed_eot": 270,
+    "false_eot_rate": 0.06736105182276103,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        10924,
+        789
+      ],
+      [
+        270,
+        5116
+      ]
+    ]
+  },
+  "legacy_test_metrics": {
+    "samples": 4183,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.934735835524743,
+    "eot_precision": 0.8998316498316499,
+    "eot_recall": 0.8740801308258381,
+    "eot_f1": 0.8867689755288262,
+    "joint_score": 0.8867689755288262,
+    "false_eot": 119,
+    "missed_eot": 154,
+    "false_eot_rate": 0.0402027027027027,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        2841,
+        119
+      ],
+      [
+        154,
+        1069
+      ]
+    ]
+  },
+  "unit_tests_observed": {
+    "command": "python -m pytest -q",
+    "passed": 27,
+    "duration_seconds": 23.81
+  },
+  "scope": "Provided-label frozen holdout with heuristic grouping. Legacy test remains below 90% EOT F1. One 2000-step trial does not establish the optimization ceiling."
+}

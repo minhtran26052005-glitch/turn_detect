@@ -1,0 +1,90 @@
+{
+  "complete": true,
+  "checked_utc": "2026-11-07T16:03:10.484191+00:00",
+  "scope": "Independent source/order-only schedule; no inference or optimizer updates",
+  "boot": "65117834-0b91-465e-a099-805d6100f317",
+  "active_target_processes": [],
+  "parent_stop_marker": true,
+  "parent_status": {
+    "stage": "STOPPED_WITH_CHECKPOINT",
+    "pid": 1121366,
+    "start_ticks": "24252420",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T14:01:54.260244+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+  },
+  "trial_status": {
+    "stage": "COMPLETE",
+    "pid": 1319777,
+    "start_ticks": "29117021",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T15:31:07.046631+00:00",
+    "report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196"
+  },
+  "update_histogram": {
+    "updates": 22147,
+    "valid_points_16": 16579,
+    "mixed_label_updates": 10874,
+    "valid_points_15": 3604,
+    "all_NEOT_updates": 11258,
+    "valid_points_14": 359,
+    "valid_points_13": 53,
+    "valid_points_12": 45,
+    "valid_points_11": 58,
+    "valid_points_10": 169,
+    "valid_points_9": 52,
+    "valid_points_8": 45,
+    "valid_points_7": 371,
+    "valid_points_6": 36,
+    "valid_points_5": 91,
+    "valid_points_4": 180,
+    "valid_points_3": 28,
+    "valid_points_2": 31,
+    "valid_points_1": 446,
+    "all_EOT_updates": 15
+  },
+  "points": {
+    "vi:0": 157946,
+    "en:0": 160364,
+    "en:1": 8762,
+    "vi:1": 6243
+  },
+  "sum_per_batch_loss_coefficients": {
+    "vi:0": 10435.925159386534,
+    "en:0": 9938.587125921269,
+    "en:1": 1018.2436299853823,
+    "vi:1": 754.2440847164362
+  },
+  "last1000_points": 3316,
+  "source_hashes": {
+    "asr_only_adaptation_20261107_v1.py": "31bdbcce1a432b89a5111eb2fae76c2986992a69a8264663503e3ad98acdce1f",
+    "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+    "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+    "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+    "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+    "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+  },
+  "report_hashes": {
+    "outputs/asr_only_adaptation_20261107_v1/report.json": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+    "outputs/asr_only_adaptation_20261107_v1/completion_verification.json": "f5483b24938599fc39420ffd6e5112ca9916f39c275cdd1a11aba97b63d21258",
+    "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/migration_receipt.json": "f63bbd0edd01453ce8a971eb0a58647f946b1dd8ec77cd276a1d8867466cb33f",
+    "outputs/sentence_mix_end_only_test_20261107_v1/report.json": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482"
+  },
+  "mount": [
+    [
+      "/dev/sda1",
+      "/mnt/hdd500",
+      "fuseblk",
+      "rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+      "0",
+      "0"
+    ]
+  ],
+  "ssd_free_gib": 39.32011413574219,
+  "hdd_free_gib": 23.014732360839844,
+  "windows_free_gib": 16.47098159790039
+}

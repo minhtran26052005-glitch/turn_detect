@@ -1,0 +1,57 @@
+{
+  "source_pages_flagged": 10,
+  "additional_pages_quarantined": 5,
+  "distinct_records_quarantined": 784,
+  "sources": [
+    {
+      "language": "en",
+      "source_id": "en:hf:fineweb:en:<urn:uuid:a0051201-9415-4223-9132-03feb9aaeb58>",
+      "source_sha256": "45719fe43554ccb0ae8087c14ea49d0af0b1db0ed65df4c0db93cf497cd2af18",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "generated_before_quarantine": 72,
+      "distinct_records_quarantined": 72
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:541229e7-6da6-477b-bc1b-2500ad840458>",
+      "source_sha256": "5485390f020ff735afe04771fc4007e3aaf64f2ba17dd96a4eea6fb379c5b47a",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "generated_before_quarantine": 109,
+      "distinct_records_quarantined": 109
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:627a30c1-9225-4b08-81c2-4853d185d447>",
+      "source_sha256": "9ff7db4e81afefa2a60532de39ab8a4052a80b6496a4fe63077c35f03f70c3fc",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "generated_before_quarantine": 54,
+      "distinct_records_quarantined": 54
+    },
+    {
+      "language": "vi",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:aaa1053e-1d9d-40fd-a395-30bbc6a92ead>",
+      "source_sha256": "1e2b9a2488f40d7525bbfab76c632dc90f19159b35236d39b0c2bb6674fae463",
+      "split": "train",
+      "reason": "NON_LATIN_DOMINANT_IN_LATIN_LANGUAGE_SOURCE",
+      "generated_before_quarantine": 96,
+      "distinct_records_quarantined": 96
+    },
+    {
+      "language": "zh",
+      "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:cc6c019d-56a5-42c0-ab46-b7992603d985>",
+      "source_sha256": "3c1ccff7a03cc7b63abc7a304788833a8da423a9a183f60510012ddd6c4dfd1f",
+      "split": "train",
+      "reason": "NON_CHINESE_SCRIPT_DOMINANT",
+      "generated_before_quarantine": 453,
+      "distinct_records_quarantined": 453
+    }
+  ],
+  "original_sources_and_test_unchanged": true,
+  "derived_records_preserved_in": "quarantined_records_v1",
+  "labels_not_reassigned": true,
+  "curation_before_any_new_optimizer_step": true,
+  "script_report_sha256": "7dc8db72dd8bf09299bc8e88174b799bf63562d691333a853eeeeaf098fb6935"
+}

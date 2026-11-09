@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-31T03:56:23.248233+00:00",
+  "state": "RECOVERED",
+  "http_status": 404,
+  "last_notified_issue_key": "colab_api_sessions_http404",
+  "worker_liveness": "VERIFIED_GENERATING",
+  "counts_are_historical": true,
+  "last_verified_accepted": {
+    "en": 0,
+    "vi": 9902
+  },
+  "last_verified_commit_index": 497,
+  "milestone_10000_verified": true,
+  "current_probe": "ACTIVE_CURRENT_SESSION",
+  "assigned_runtime_count": 1,
+  "current_http_status": 200,
+  "notification_deduplicated": true,
+  "recovered_utc": "2026-10-31T03:56:23.248233+00:00",
+  "new_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+  "new_pid": 5723,
+  "new_start_ticks": "132478"
+}

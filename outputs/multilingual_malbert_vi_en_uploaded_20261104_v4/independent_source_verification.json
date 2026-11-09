@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "fixtures": {
+    "punctuation_ambiguity": true,
+    "same_turn_future": true,
+    "no_gold_or_speaker_reset": true,
+    "stream_lane_resume_equivalent": true
+  },
+  "every_training_segment_matched_to_kept_contiguous_raw_source": true,
+  "source_rows_verified": 198509,
+  "every_eot_unknown_label_verified": true,
+  "all_eligible_scored_word_gaps_verified": 6169873,
+  "origin_segments": {
+    "daily:segments": 113104,
+    "factory/gen500:segments": 5453,
+    "asr/run2b:segments": 210,
+    "factory/gen4000:segments": 49121
+  },
+  "original_test_or_dev_in_training": false,
+  "drive_replay_rows": 0,
+  "label_provenance": "Punctuation silver; not human/audio gold"
+}

@@ -1,0 +1,18 @@
+{
+  "user_requested": true,
+  "removed": [
+    "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/student.pt",
+    "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/onnx_fp16/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/onnx_fp32/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/onnx_int8/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/student.pt",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/onnx_fp16/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/onnx_fp32/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/onnx_int8/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/student.pt",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/onnx_fp16/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/onnx_fp32/model.onnx",
+    "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/onnx_int8/model.onnx"
+  ],
+  "reports_data_retained": true
+}

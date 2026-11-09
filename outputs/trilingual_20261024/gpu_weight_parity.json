@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"weight_checks\": [{\"name\": \"embedding.weight\", \"different_weights\": 0, \"max_delta\": 0.0}, {\"name\": \"gru.weight_ih_l0\", \"different_weights\": 0, \"max_delta\": 0.0}, {\"name\": \"gru.weight_hh_l0\", \"different_weights\": 0, \"max_delta\": 0.0}, {\"name\": \"head.0.weight\", \"different_weights\": 0, \"max_delta\": 0.0}, {\"name\": \"head.3.weight\", \"different_weights\": 0, \"max_delta\": 0.0}], \"cudnn_allow_tf32_before\": true}\n"
+    }
+  ],
+  "elapsed_seconds": 0.26600000000325963
+}

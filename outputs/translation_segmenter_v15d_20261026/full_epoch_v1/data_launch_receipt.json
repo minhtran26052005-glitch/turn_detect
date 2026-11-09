@@ -1,0 +1,24 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "launcher": {
+    "pid": 21961,
+    "start_ticks": "524392",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_data_v1"
+    ],
+    "source_sha256": {
+      "turn_v2/translation_segmenter_full_data_v1.py": "512b120f2fbf1fce21906322b6535263854ea6a0f705d7747e329af54f1cbd6a",
+      "turn_v2/translation_segmenter_epoch_sampling_v1.py": "56692b08a178317a9aed311928a8bbb9009353f03f12ea38614a8af70df68028",
+      "turn_v2/translation_segmenter_causal_extraction_v1.py": "8f55530f7a582eea83b1d6bf0c164c753b8e6cc9187a5a30bd32446d6144d77e",
+      "turn_v2/translation_segmenter_causal_extraction_v2.py": "03e079663f7ea12955b60b30f3cad4aa6090c6b2b6d104029b6c21b90538857c"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "at_utc": "2026-10-27T05:03:03.021744+00:00",
+  "completed_result_reported": true,
+  "test_scope": "PUNCTUATION_DERIVED_PROSE_DIAGNOSTIC_NOT_CONVERSATIONAL_GOLD",
+  "report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "drive_manifest_sha256": "d0c59e7157b07becc6d3de85cda1220a159077be346800a094769c761ccad180",
+  "review": "review_complete_v3.html",
+  "test_provenance": "test_provenance.md",
+  "prepared_crawl_plan": "crawl_plan_v3.json",
+  "crawl_recipe_activated": false,
+  "languages": {
+    "vi": {
+      "samples": 39167,
+      "threshold": 0.6599999999999999,
+      "accuracy": 0.8113973498097888,
+      "eot_precision": 0.7533182259630948,
+      "eot_recall": 0.8322107647374382,
+      "eot_f1": 0.7908017331709666,
+      "joint_score": 0.7908017331709666,
+      "false_eot": 4572,
+      "missed_eot": 2815,
+      "false_eot_rate": 0.20419830281375614,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          17818,
+          4572
+        ],
+        [
+          2815,
+          13962
+        ]
+      ]
+    },
+    "en": {
+      "samples": 28155,
+      "threshold": 0.58,
+      "accuracy": 0.8485171372757947,
+      "eot_precision": 0.8639057479471617,
+      "eot_recall": 0.8368377368930696,
+      "eot_f1": 0.8501563433229105,
+      "joint_score": 0.8485171372757947,
+      "false_eot": 1906,
+      "missed_eot": 2359,
+      "false_eot_rate": 0.1391545593925677,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11791,
+          1906
+        ],
+        [
+          2359,
+          12099
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 51871,
+      "threshold": 0.7549999999999999,
+      "accuracy": 0.8420119141716952,
+      "eot_precision": 0.5818938605619147,
+      "eot_recall": 0.7946191739295188,
+      "eot_f1": 0.671819310400064,
+      "joint_score": 0.671819310400064,
+      "false_eot": 6027,
+      "missed_eot": 2168,
+      "false_eot_rate": 0.1458792206220501,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          35288,
+          6027
+        ],
+        [
+          2168,
+          8388
+        ]
+      ]
+    }
+  },
+  "reader_report": "bao_cao_ket_qua.html",
+  "reader_report_updated_at_utc": "2026-10-27T05:23:15.370815+00:00",
+  "reader_report_drive_verified": true,
+  "legacy_dev_comparison_reported": true,
+  "legacy_dev_report_sha256": "168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92",
+  "reader_report_drive_manifest_sha256": "ada6f3337d91c87a362003441e23d0deaba167ee1a0714853e593b7924a77c50"
+}

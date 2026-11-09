@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "verified": true,
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "worker": {
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.multilingual_malbert_vi_en_uploaded_train_v4",
+    "resumed_from_checkpoint_step": 1505080,
+    "recovery_folder": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834"
+  },
+  "before": {
+    "step": 1505080,
+    "branch_step": 40000,
+    "epoch_zero_based": 0,
+    "cursor": 3528,
+    "active_lanes": 16,
+    "uploaded_rows_seen": 629168,
+    "uploaded_origin_exposures": {
+      "daily": 335967,
+      "factory/gen4000": 233831,
+      "factory/gen500": 27935,
+      "asr/run2b": 31435
+    },
+    "parameters": 11941122,
+    "optimizer_entries": 27,
+    "fingerprint": {
+      "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+      "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "parameters": 11941122,
+      "drive_replay_rows": 0,
+      "code_sha256": {
+        "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+        "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+        "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+      }
+    },
+    "checkpoint_sha256": "b3c80475a124b345c76768280ef2f663ab1771a0fedc3e825fb6966a758bfe09",
+    "all_rng_sampler_conversation_lanes_verified": true,
+    "all_model_weights_finite": true
+  },
+  "after": {
+    "step": 1505580,
+    "branch_step": 40500,
+    "epoch_zero_based": 0,
+    "cursor": 3567,
+    "active_lanes": 16,
+    "uploaded_rows_seen": 637035,
+    "uploaded_origin_exposures": {
+      "daily": 340546,
+      "factory/gen4000": 235616,
+      "factory/gen500": 28323,
+      "asr/run2b": 32550
+    },
+    "parameters": 11941122,
+    "optimizer_entries": 27,
+    "fingerprint": {
+      "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+      "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "parameters": 11941122,
+      "drive_replay_rows": 0,
+      "code_sha256": {
+        "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+        "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+        "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+      }
+    },
+    "checkpoint_sha256": "8447b1c47590a4c3751db8dd2a951348ad870a80e21e9df1edee8c194e776e85",
+    "all_rng_sampler_conversation_lanes_verified": true,
+    "all_model_weights_finite": true
+  },
+  "full_optimizer_rng_sampler_resume": true,
+  "base_model_reset": false,
+  "all_dataset_hashes_unchanged": true,
+  "disk_mount_verified": true,
+  "model_or_threshold_selected_from_test": false
+}

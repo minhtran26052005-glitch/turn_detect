@@ -1,0 +1,146 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "boot_id": "9dbdcd11-af99-4cff-be48-4bcfec9ba926",
+    "project_exists": true,
+    "campaign_state_exists": true,
+    "drive_mounted": true,
+    "free_bytes": 110134423552,
+    "workers": [
+      {
+        "pid": "3071",
+        "start_ticks": "69643",
+        "argv": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v8"
+        ]
+      },
+      {
+        "pid": "22349",
+        "start_ticks": "541490",
+        "argv": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_drive_backup_v7"
+        ]
+      },
+      {
+        "pid": "50877",
+        "start_ticks": "1239905",
+        "argv": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_train_v5",
+          "--language",
+          "vi",
+          "--generation",
+          "cycle000084_full_epoch_contiguous_v1",
+          "--epoch",
+          "1",
+          "--budget",
+          "500"
+        ]
+      }
+    ],
+    "content_directories": [
+      ".config",
+      "drive",
+      "turn_detect_v2",
+      "sample_data"
+    ],
+    "gpu": "Tesla T4, 15360 MiB, 6241 MiB, 100 %",
+    "destination_exists": true,
+    "destination_identity.json": {
+      "campaign": "translation_segmenter_v15d",
+      "nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+      "destination_kind": "user_mounted_google_drive",
+      "intended_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+    },
+    "latest_manifest.json": {
+      "captured_at_utc": "2026-10-28T06:57:45.229597+00:00",
+      "pass_complete": true,
+      "full_recovery_available": true,
+      "full_epoch_recipe_supported": true,
+      "missing_recovery_files": [],
+      "active_campaign_launcher": {
+        "pid": 3071,
+        "start_ticks": "69643",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v8"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v8",
+        "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+        "log": "/content/turn_detect_v2/restore_full_epoch_control_v7/worker.log",
+        "restore_receipt": "/content/turn_detect_v2/restore_full_epoch_control_v7/restore_receipt.json"
+      }
+    },
+    "resume_receipts": {
+      "vi": {
+        "cycle": 84,
+        "cycle_step": 13100,
+        "total_steps": 14500,
+        "bytes": 3362177675,
+        "training_fingerprint": "f2cfc55e4493fead0f5257e11a82c60bc3013dc44d14d6b82fc0049e5f8a952a",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 838400,
+        "full_epoch_rows": 1618675,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.42787454498884564,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      },
+      "en": {
+        "cycle": 84,
+        "cycle_step": 13500,
+        "total_steps": 14900,
+        "bytes": 3354757963,
+        "training_fingerprint": "e0c5fc5a18a01d95655116a80377c15435b3c8f54014c8b260f7dc28f5b3dfd4",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 864000,
+        "full_epoch_rows": 876968,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.34293032010150337,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      },
+      "zh": {
+        "cycle": 84,
+        "cycle_step": 11700,
+        "total_steps": 13100,
+        "bytes": 3394672203,
+        "training_fingerprint": "f1a7be2ebcb8bdd9204ca127ee7b64821892f880b7bd84326ec1e3435fdc5541",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 748800,
+        "full_epoch_rows": 4868059,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.45283444732138783,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      }
+    }
+  }
+}

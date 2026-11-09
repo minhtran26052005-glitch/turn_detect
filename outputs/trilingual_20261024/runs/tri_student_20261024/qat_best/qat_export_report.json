@@ -1,0 +1,73 @@
+{
+  "training_method": "INT4_QAT_WITH_DISTILLATION",
+  "group_size": 64,
+  "tensors": [
+    {
+      "onnx_name": "embedding.weight",
+      "shape": [
+        18711,
+        64
+      ],
+      "elements": 1197504,
+      "packed_bytes": 598752,
+      "scale_bytes": 37422,
+      "baked_weight_decode_exact": true
+    },
+    {
+      "onnx_name": "head.0.weight",
+      "shape": [
+        128,
+        450
+      ],
+      "elements": 57600,
+      "packed_bytes": 28800,
+      "scale_bytes": 2048,
+      "baked_weight_decode_exact": true
+    },
+    {
+      "onnx_name": "head.3.weight",
+      "shape": [
+        2,
+        128
+      ],
+      "elements": 256,
+      "packed_bytes": 128,
+      "scale_bytes": 8,
+      "baked_weight_decode_exact": true
+    },
+    {
+      "onnx_name": "onnx::GRU_237",
+      "shape": [
+        1,
+        384,
+        64
+      ],
+      "elements": 24576,
+      "packed_bytes": 12288,
+      "scale_bytes": 768,
+      "baked_weight_decode_exact": true
+    },
+    {
+      "onnx_name": "onnx::GRU_238",
+      "shape": [
+        1,
+        384,
+        128
+      ],
+      "elements": 49152,
+      "packed_bytes": 24576,
+      "scale_bytes": 1536,
+      "baked_weight_decode_exact": true
+    }
+  ],
+  "model_sha256": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+  "model_bytes": 728710,
+  "latent_student_sha256": "cadb68a9f7cf845b2028aec405e24c46e7b15c109a17ee2b154e924e6c6c2c98",
+  "quant_params_sha256": "4a3ae056c492e987cd8227a93647841f1c7ef7c5f64a9f36828d55372c69fbe1",
+  "frozen_scales_used_without_refit": true,
+  "baked_weight_decode_exact": true,
+  "max_probability_delta_pytorch_vs_packed_onnx": 1.904576602193564e-07,
+  "right_padding_probability_delta": 0.0,
+  "technical_parity_passed": true,
+  "holdout_evaluated": false
+}

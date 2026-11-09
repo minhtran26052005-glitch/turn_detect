@@ -1,0 +1,91 @@
+{
+  "action": "handover",
+  "new_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "old_owner": {
+    "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 7510,
+    "start_ticks": "164260"
+  },
+  "identity_verified": true,
+  "source_hashes_verified": {
+    "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+    "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "processes_on_new_vm": [],
+  "commit_max": 1011,
+  "latest_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+  "authoritative_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 20488,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1011,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 4679,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 119330,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 15809,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 4679,
+      "zh": 0
+    }
+  },
+  "state_file_is_stale": false,
+  "recent_verified_shards": [
+    {
+      "index": 1009,
+      "language": "vi",
+      "accepted": 5,
+      "object_sha256": "38b5ae0b5a45a652547731d5c0dee0cb3c08ddc8f0ab65571430eec59e587130",
+      "commit_sha256": "bd2548043fc05198aa971d38309d65efcc07f838cf891a5c2b8fe8f5e27d1dda",
+      "readback_verified": true
+    },
+    {
+      "index": 1010,
+      "language": "vi",
+      "accepted": 6,
+      "object_sha256": "a6a039c175b685eafd1320455c4b2187ceee67f6b0bdb2678487ac1e67e02622",
+      "commit_sha256": "60ec6966f6564ea69a6f7d18f74901c42ae7037632d97757d9d96ac10bf97c28",
+      "readback_verified": true
+    },
+    {
+      "index": 1011,
+      "language": "vi",
+      "accepted": 3,
+      "object_sha256": "e7d7d821b958ead8d8996e50d6ea16a177d4184e2af01fb63b8e4eb1f0a7b5ce",
+      "commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+      "readback_verified": true
+    }
+  ],
+  "colab_free_gib": 235.56830978393555,
+  "gpu": "23034, 22564, 0, NVIDIA L4",
+  "state_owner_stable_during_inspection": true,
+  "handover": {
+    "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/owner_2432dc61_to_eb59f31a.json",
+    "sha256": "46fd1dc61f725e60b4e96c3f1c25bbd79daf8eecf5974031baaf6f53525db491",
+    "previous_owner_marked_stopped_on_user_confirmation": true,
+    "generation_counters_unchanged": true
+  },
+  "checked_utc": "2026-11-03T01:38:32.812844+00:00"
+}

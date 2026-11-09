@@ -1,0 +1,9 @@
+{
+  "independent_inferences_audited": 35244,
+  "source_references_and_confusion_counts_verified": true,
+  "causal_buffers_future_words_and_predicted_resets_verified": true,
+  "all_100_pairs_word_conservation_verified": true,
+  "frozen_weights_and_full_optimizer_rng_pin_sha_verified": true,
+  "report_sha256": "211ff9272be93f72b2baec194b033063749bfe32593b9c1a39cd11dcd7c80ce8",
+  "complete": true
+}

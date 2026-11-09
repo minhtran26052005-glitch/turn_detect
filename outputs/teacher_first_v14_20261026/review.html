@@ -1,0 +1,132 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="60"><title>Teacher lớn trước — VI EN ZH</title><style>body{font:17px system-ui;line-height:1.65;max-width:1200px;margin:24px auto;padding:24px;background:#f1f5fa;color:#19354a}section{background:white;border-radius:12px;padding:22px;margin:20px 0}table{border-collapse:collapse;width:100%}td,th{padding:12px;border-bottom:1px solid #ddd;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}.scroll{overflow:auto}</style>
+<h1>Train teacher lớn trước rồi mới distill</h1><p>Ba model riêng VI / EN / ZH từ <a href="https://huggingface.co/microsoft/mdeberta-v3-base">microsoft/mdeberta-v3-base</a>: 12 lớp, hidden 768, khoảng 278 triệu params/model. Fine-tune toàn bộ; chưa nén trong pha này.</p>
+<section><h2>Trạng thái lần kiểm tra</h2><p>Thời điểm: 2026-10-26T10:16:50.741549+07:00</p><pre>{
+  &quot;parent_verified&quot;: false,
+  &quot;child_verified&quot;: false,
+  &quot;GPU&quot;: &quot;NVIDIA L4, 0 %, 3 MiB, 23034 MiB&quot;,
+  &quot;remote_disk_free_GiB&quot;: 153.95
+}</pre><pre>{
+  &quot;status&quot;: &quot;STOPPED_BY_REQUEST&quot;,
+  &quot;pid&quot;: 188629,
+  &quot;teacher_first&quot;: true
+}</pre><p>Đây là snapshot lần kiểm tra; lịch theo dõi cập nhật mỗi 15 phút khi app có thể chạy. Ô cuối a.ipynb đọc kernel hiện tại. Tải lại trang không giữ VM Colab sống.</p></section>
+<section><h2>Teacher được giữ tốt nhất theo silver dev</h2><div class="scroll"><table><tr><th>Tiếng</th><th>Params</th><th>Bước train gần nhất</th><th>Accuracy / F1 semantic silver dev</th><th>Accuracy / F1 observed-floor dev</th></tr><tr><td>vi</td><td>278,810,882</td><td>4500</td><td>96.77% / 93.33% (31 mẫu)</td><td>52.41% / 38.94% (145 mẫu)</td></tr><tr><td>en</td><td>278,810,882</td><td>4500</td><td>96.15% / 94.44% (52 mẫu)</td><td>48.10% / 56.84% (79 mẫu)</td></tr><tr><td>zh</td><td>278,810,882</td><td>4500</td><td>95.45% / 95.24% (22 mẫu)</td><td>55.07% / 69.31% (69 mẫu)</td></tr></table></div><p>Checkpoint baseline dùng encoder pretrained với head EOT mới khởi tạo. Điểm được chọn trên silver dev nhỏ (VI31 / EN52 / ZH22), không phải bài kiểm tra độc lập. Cột floor dùng ngưỡng của semantic dev và đo việc người nói thực sự nhường lượt; hai mục tiêu khác nhau.</p><p><a href="terminal_punctuation_eval_20261026T025016Z/review.html">Mở kiểm tra mới: NEOT trước dấu chấm, EOT tại dấu chấm</a> · <a href="natural_floor_review/review.html">Mở natural-floor: input và dự đoán từng mẫu</a> · <a href="natural_floor_review/vi_natural_floor_predictions.jsonl">VI JSONL</a> · <a href="natural_floor_review/en_natural_floor_predictions.jsonl">EN JSONL</a> · <a href="natural_floor_review/zh_natural_floor_predictions.jsonl">ZH JSONL</a></p></section>
+<section><h2>Điều kiện trước khi distill</h2><p>Teacher đạt cả accuracy và F1 EOT ≥90%, có kiểm chứng độc lập đúng nhiệm vụ trước khi distill. Chưa có human/publisher semantic EOT gold độc lập cho cả ba tiếng; silver90 không tự mở khóa distillation. Hiện chưa thay các gói INT4.</p><pre>{
+  &quot;distillation_allowed&quot;: false,
+  &quot;languages&quot;: {
+    &quot;vi&quot;: {
+      &quot;teacher_silver_dev_pass&quot;: true,
+      &quot;independent_qualification&quot;: {
+        &quot;passed&quot;: false,
+        &quot;reasons&quot;: [
+          &quot;INDEPENDENT_EOT_GOLD_NOT_AVAILABLE&quot;
+        ]
+      },
+      &quot;distillation_allowed&quot;: false
+    },
+    &quot;en&quot;: {
+      &quot;teacher_silver_dev_pass&quot;: true,
+      &quot;independent_qualification&quot;: {
+        &quot;passed&quot;: false,
+        &quot;reasons&quot;: [
+          &quot;INDEPENDENT_EOT_GOLD_NOT_AVAILABLE&quot;
+        ]
+      },
+      &quot;distillation_allowed&quot;: false
+    },
+    &quot;zh&quot;: {
+      &quot;teacher_silver_dev_pass&quot;: true,
+      &quot;independent_qualification&quot;: {
+        &quot;passed&quot;: false,
+        &quot;reasons&quot;: [
+          &quot;INDEPENDENT_EOT_GOLD_NOT_AVAILABLE&quot;
+        ]
+      },
+      &quot;distillation_allowed&quot;: false
+    }
+  },
+  &quot;quality_target_certified&quot;: false,
+  &quot;rule&quot;: &quot;All three large teachers first; silver90 alone never enables distillation&quot;
+}</pre></section>
+<section><h2>Dữ liệu tích lũy</h2><pre>[
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 17
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 35
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 3760
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 7355
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 7
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 24
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 501
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 5416
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 10
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 12
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 3127
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 3427
+  }
+]</pre><p>Qwen chỉ nhìn text đã quan sát và ngữ cảnh quá khứ; nhãn cắt prefix cũ được chấm lại. Không lấy dấu câu hay phần tương lai làm đáp án.</p></section>
+<section><h2>Lưu và khôi phục</h2><p>Teacher best và optimizer/RNG được lưu trên Colab. Metadata nhỏ tải về máy không chứa teacher weights và không đủ khôi phục training khi mất VM. Chưa xác nhận backup toàn bộ teacher ra ngoài VM; không tải model lớn xuống Windows.</p><pre>{
+  &quot;cycle&quot;: 45,
+  &quot;path&quot;: &quot;outputs/teacher_first_v14_20261026/recovery/metadata_snapshot.zip&quot;,
+  &quot;bytes&quot;: 17121011,
+  &quot;sha256&quot;: &quot;c89328ad69e2517250c25dff3295546ffb057e04bf231157d88e23a055b7cce3&quot;,
+  &quot;scope&quot;: &quot;METADATA_ONLY_NOT_A_FULL_TEACHER_RECOVERY&quot;,
+  &quot;teacher_weights_backed_up_externally&quot;: false
+}</pre><p><a href="summary.json">JSON</a> · <a href="../../README_TEACHER_FIRST.md">Cách chạy</a> · <a href="../continuous_v13_20261026/review.html">Đối chứng GRU v13 đã dừng để nhường GPU</a></p></section></html>

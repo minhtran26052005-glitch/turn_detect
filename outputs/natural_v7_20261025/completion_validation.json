@@ -1,0 +1,1456 @@
+{
+  "technical_status": "PASS",
+  "passed": 361,
+  "total": 361,
+  "checks": [
+    {
+      "check": "original_control:data_v2\\frozen\\manifest.json",
+      "passed": true
+    },
+    {
+      "check": "original_control:data_v2\\frozen\\holdout_consumed.json",
+      "passed": true
+    },
+    {
+      "check": "original_control:models\\turn_v2_distilled_qat4_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "original_control:models\\turn_v3_trilingual_pilot_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v5/canonical_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v5/canonical_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v5/canonical_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v5/canonical_20261025:train:dev",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v5/canonical_20261025:train:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v5/canonical_20261025:dev:sealed",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/turn_context_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/turn_context_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/turn_context_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/turn_context_20261025:train:dev",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/turn_context_20261025:train:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/turn_context_20261025:dev:sealed",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/pho_text_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/pho_text_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "data_hash:data_v6/pho_text_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/pho_text_20261025:train:dev",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/pho_text_20261025:train:sealed",
+      "passed": true
+    },
+    {
+      "check": "whole_call_isolation:data_v6/pho_text_20261025:dev:sealed",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/turn_context_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/turn_context_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/turn_context_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/turn_context_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/turn_context_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/turn_context_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/turn_context_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/turn_context_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/turn_context_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/turn_context_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/turn_context_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/turn_context_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/pho_text_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/pho_text_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/pho_text_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/pho_text_20261025:train",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/pho_text_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/pho_text_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/pho_text_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/pho_text_20261025:dev",
+      "passed": true
+    },
+    {
+      "check": "same_case_ids:data_v6/pho_text_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "same_reference_labels_and_call_ids:data_v6/pho_text_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "causal_current_end:data_v6/pho_text_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "causal_partner_end:data_v6/pho_text_20261025:sealed",
+      "passed": true
+    },
+    {
+      "check": "held_384_retained",
+      "passed": true
+    },
+    {
+      "check": "no_human_gold_claim",
+      "passed": true
+    },
+    {
+      "check": "EN_ZH_ASR_unchanged:train",
+      "passed": true
+    },
+    {
+      "check": "EN_ZH_ASR_unchanged:dev",
+      "passed": true
+    },
+    {
+      "check": "EN_ZH_ASR_unchanged:sealed",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:stored_labels",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:probability_alignment",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:legacy_vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:vi:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:en:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:zh:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025:no_held_quality_claim",
+      "passed": true
+    },
+    {
+      "check": "executed_source_hash:natural_v5_train.py",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:stored_labels",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:probability_alignment",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:legacy_vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:vi:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:en:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:zh:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v6_20261025\\runs\\natural_v6_minilm_finetune_20261025:no_held_quality_claim",
+      "passed": true
+    },
+    {
+      "check": "executed_source_hash:natural_v6_finetune.py",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:stored_labels",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:probability_alignment",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:legacy_vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:vi:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:en:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:zh:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "outputs\\natural_v7_20261025\\runs\\natural_v7_text_20261025:no_held_quality_claim",
+      "passed": true
+    },
+    {
+      "check": "executed_source_hash:natural_v7_train.py",
+      "passed": true
+    },
+    {
+      "check": "qwen:feature_hash",
+      "passed": true
+    },
+    {
+      "check": "qwen:train_dev_only",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "qwen:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "qwen:head_hash:vi",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:samples",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "qwen:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "qwen:head_hash:en",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "qwen:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "qwen:head_hash:zh",
+      "passed": true
+    },
+    {
+      "check": "minilm:feature_hash",
+      "passed": true
+    },
+    {
+      "check": "minilm:train_dev_only",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "minilm:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "minilm:head_hash:vi",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:samples",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "minilm:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "minilm:head_hash:en",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "minilm:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "minilm:head_hash:zh",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:samples",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:accuracy",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:false_eot",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "ASR_old_matched:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:samples",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:accuracy",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:false_eot",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "ASR_new_matched:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "LoRA_source_matches",
+      "passed": true
+    },
+    {
+      "check": "LoRA_real_backward",
+      "passed": true
+    },
+    {
+      "check": "LoRA_optimizer_steps_completed",
+      "passed": true
+    },
+    {
+      "check": "LoRA_is_not_a_quantized_deployment",
+      "passed": true
+    },
+    {
+      "check": "LoRA_dev_case_alignment",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:probability_alignment",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:samples",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:legacy_vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:vi:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:en:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:samples",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:accuracy",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:false_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "LoRA_raw_grid_dev:zh:natural:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "LoRA_adapter_exact",
+      "passed": true
+    },
+    {
+      "check": "calibration_prediction_hash:runs/stream_v4_campaign_20261025/round_02/best",
+      "passed": true
+    },
+    {
+      "check": "exact_dev_calibration_recomputed:runs/stream_v4_campaign_20261025/round_02/best",
+      "passed": true
+    },
+    {
+      "check": "calibration_prediction_hash:runs/natural_v5_train_20261025/round_02/best",
+      "passed": true
+    },
+    {
+      "check": "exact_dev_calibration_recomputed:runs/natural_v5_train_20261025/round_02/best",
+      "passed": true
+    },
+    {
+      "check": "calibration_prediction_hash:runs/natural_v8_lora_20261025_r3/best_adapter",
+      "passed": true
+    },
+    {
+      "check": "exact_dev_calibration_recomputed:runs/natural_v8_lora_20261025_r3/best_adapter",
+      "passed": true
+    },
+    {
+      "check": "model_selected_before_held_hash",
+      "passed": true
+    },
+    {
+      "check": "exact_calibration_hash",
+      "passed": true
+    },
+    {
+      "check": "held_data_hash_frozen",
+      "passed": true
+    },
+    {
+      "check": "held_case_alignment:selected",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:selected:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:samples",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:selected:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:selected:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held_case_alignment:V4_control",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V4_control:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held_case_alignment:V5_control",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:vi:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:en:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:samples",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:accuracy",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:eot_f1",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:false_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:missed_eot",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:false_eot_rate",
+      "passed": true
+    },
+    {
+      "check": "held:V5_control:zh:confusion_matrix_NEOT_EOT",
+      "passed": true
+    },
+    {
+      "check": "held_numeric_target_not_overclaimed",
+      "passed": true
+    },
+    {
+      "check": "held_marker_now_regression",
+      "passed": true
+    },
+    {
+      "check": "crawl_204_unlabeled_no_fake_accuracy",
+      "passed": true
+    },
+    {
+      "check": "crawl_original_observed_prefixes",
+      "passed": true
+    },
+    {
+      "check": "crawl_frozen_threshold_decisions",
+      "passed": true
+    },
+    {
+      "check": "crawl_player_actual_saved_predictions",
+      "passed": true
+    },
+    {
+      "check": "listening20_train_dev_only",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000003__ch_0__pause_0001",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000003__ch_0__pause_0062",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000003__ch_0__pause_0119",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000003__ch_1__pause_0127",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000004__ch_1__pause_0000",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000004__ch_0__pause_0035",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000004__ch_0__pause_0071",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000004__ch_1__pause_0131",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000005__ch_1__pause_0000",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000005__ch_0__pause_0056",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000005__ch_1__pause_0052",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000005__ch_0__pause_0171",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000006__ch_0__pause_0000",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000006__ch_0__pause_0049",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000006__ch_0__pause_0103",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000006__ch_0__pause_0154",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000007__ch_1__pause_0000",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000007__ch_0__pause_0032",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000007__ch_0__pause_0085",
+      "passed": true
+    },
+    {
+      "check": "listening_hash:datahive_vi_000007__ch_0__pause_0146",
+      "passed": true
+    },
+    {
+      "check": "previous_notebook_cells_unchanged",
+      "passed": true
+    },
+    {
+      "check": "notebook_code_actually_executed_in_colab",
+      "passed": true
+    },
+    {
+      "check": "notebook_actual_saved_outputs",
+      "passed": true
+    },
+    {
+      "check": "JS_syntax:review.html",
+      "passed": true
+    },
+    {
+      "check": "template_resolved:review.html",
+      "passed": true
+    },
+    {
+      "check": "JS_syntax:asr_review/review.html",
+      "passed": true
+    },
+    {
+      "check": "template_resolved:asr_review/review.html",
+      "passed": true
+    },
+    {
+      "check": "JS_syntax:crawl_review.html",
+      "passed": true
+    },
+    {
+      "check": "template_resolved:crawl_review.html",
+      "passed": true
+    },
+    {
+      "check": "unit_tests_passed",
+      "passed": true
+    },
+    {
+      "check": "review_behaviour_passed",
+      "passed": true
+    }
+  ],
+  "user_target_achieved": false,
+  "gold_quality_not_certified": true,
+  "source_final_manifest_sha256": "7c06af3b936cb0f2153b90e7df9df45a2b7786e8ff64893ea4eb007715b4ebdc",
+  "UI_scope": "JavaScript syntax checked; no visual browser QA claim",
+  "old_holdout_evaluated": false
+}

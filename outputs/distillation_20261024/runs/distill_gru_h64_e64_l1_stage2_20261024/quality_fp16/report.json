@@ -1,0 +1,127 @@
+{
+  "scope": "DEV_ONLY_COMPRESSION_SELECTION; consumed holdout is not evaluated",
+  "model": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp16",
+  "model_sha256": "a7e31ab7b9228186e59f38dec007b87c169c156a96c13f3ed3fd4ddb4a43b05d",
+  "contract_sha256_before": "2d6ffb2d2710544b41ca4b89f3f7c4736a667c6f1366249a5290aef4aebafa2d",
+  "dev_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+  "samples": 17833,
+  "dev_at_contract_threshold": {
+    "samples": 17833,
+    "threshold": 0.48999999999999994,
+    "accuracy": 0.9313632030505243,
+    "eot_precision": 0.8605224248398226,
+    "eot_recall": 0.9331908070550508,
+    "eot_f1": 0.8953846153846153,
+    "joint_score": 0.8953846153846153,
+    "false_eot": 849,
+    "missed_eot": 375,
+    "false_eot_rate": 0.06947626841243862,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11371,
+        849
+      ],
+      [
+        375,
+        5238
+      ]
+    ]
+  },
+  "dev_at_teacher_threshold": {
+    "samples": 17833,
+    "threshold": 0.5449999999999999,
+    "accuracy": 0.9309145965345147,
+    "eot_precision": 0.8678421494542401,
+    "eot_recall": 0.9207197577053269,
+    "eot_f1": 0.8934993084370678,
+    "joint_score": 0.8934993084370678,
+    "false_eot": 787,
+    "missed_eot": 445,
+    "false_eot_rate": 0.06440261865793781,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11433,
+        787
+      ],
+      [
+        445,
+        5168
+      ]
+    ]
+  },
+  "dev_selected_threshold": {
+    "samples": 17833,
+    "threshold": 0.48999999999999994,
+    "accuracy": 0.9313632030505243,
+    "eot_precision": 0.8605224248398226,
+    "eot_recall": 0.9331908070550508,
+    "eot_f1": 0.8953846153846153,
+    "joint_score": 0.8953846153846153,
+    "false_eot": 849,
+    "missed_eot": 375,
+    "false_eot_rate": 0.06947626841243862,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11371,
+        849
+      ],
+      [
+        375,
+        5238
+      ]
+    ]
+  },
+  "teacher_dev_matched": {
+    "samples": 17833,
+    "threshold": 0.5449999999999999,
+    "accuracy": 0.9379240733471653,
+    "eot_precision": 0.8712920237310481,
+    "eot_recall": 0.9419205415998575,
+    "eot_f1": 0.9052307165482407,
+    "joint_score": 0.9052307165482407,
+    "false_eot": 781,
+    "missed_eot": 326,
+    "false_eot_rate": 0.06391162029459901,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11439,
+        781
+      ],
+      [
+        326,
+        5287
+      ]
+    ]
+  },
+  "agreement_with_teacher_at_0_5": 0.9635507205742163,
+  "mean_abs_probability_delta": 0.040147447842413184,
+  "max_abs_probability_delta": 0.9410238170947877,
+  "segmentation_changed_rows": 0,
+  "encoded_tokens": 413119,
+  "reference_model_bytes": 108201936,
+  "model_bytes": 521300,
+  "deployment_bytes": 744397,
+  "model_size_ratio": 0.004817843555035836,
+  "deployment_size_ratio": 0.006879701302202208,
+  "size_target_model_met": true,
+  "size_target_deployment_met": true,
+  "dev_quality_target_met": false,
+  "cpu": {
+    "threads": 2,
+    "batch_size": 1,
+    "session_options": {
+      "session.disable_quant_qdq": "1"
+    },
+    "padding": "dynamic_multiple_8",
+    "load_seconds": 0.01600000000325963,
+    "inference_seconds": 2.4060000000026776,
+    "samples_per_second": 7411.8869492851845,
+    "batch_latency_ms_after_first": {
+      "mean": 0.11492306520911724,
+      "p50": 0.10705000022426248,
+      "p95": 0.17069999667000957
+    }
+  },
+  "holdout_evaluated": false,
+  "holdout_marker_unchanged": true
+}

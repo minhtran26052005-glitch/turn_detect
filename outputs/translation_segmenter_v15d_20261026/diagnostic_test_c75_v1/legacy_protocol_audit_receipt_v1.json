@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-10-27T08:17:09.970717+00:00",
+  "state": "AUDIT_COMPLETE_AND_CORRECTION_VERIFIED_ON_DRIVE",
+  "comparison_status": "UNMATCHED_TASK_CONTRACT_NOT_VALID_FOR_MODEL_RANKING",
+  "no_new_inference_or_labels_changed": true,
+  "report": "bao_cao_ket_qua.html#old-dev-comparison",
+  "report_sha256": "085e65e62689f74c87fce3252d913f700f4eee34b682a187afb52d3f289f3470",
+  "drive_manifest_sha256": "cfee1597cf2a64d87e2406759175cde0ddaff106430430c44e3d0ed74142c29e",
+  "all21_published_metadata_readback_hashes_match": true,
+  "original_prose_and_legacy_results_unchanged": true,
+  "desktop_and_mobile_qa_passed": true,
+  "current_campaign_cycle": 84,
+  "campaign_parent_verified": true,
+  "campaign_child_verified": true,
+  "campaign_unchanged_by_audit": true,
+  "drive_backup_cycle": 83,
+  "drive_full_recovery_available": true,
+  "followup": "Use observed following words and preserve target boundary for any future matched benchmark; do not rescore old holdouts or tune from this diagnostic."
+}

@@ -1,0 +1,158 @@
+{
+  "now_utc": "2026-11-07T02:04:09.265020+00:00",
+  "first_status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 1121366,
+    "start_ticks": "24252420",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T01:19:13.630118+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 3231096,
+    "branch_step": 50,
+    "epoch": 1,
+    "uploaded_rows_seen": 27750592,
+    "uploaded_origin_exposures": {
+      "daily": 14682375,
+      "factory/gen4000": 10435645,
+      "factory/gen500": 1134285,
+      "asr/run2b": 1498287
+    },
+    "loss": 0.7812486886978149,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "loss_policy": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "curriculum_stage": 3,
+    "curriculum_family_fraction": 1.0,
+    "curriculum_stage_step": 50,
+    "curriculum_stage_budget": null,
+    "curriculum_stage_seen": 776,
+    "full_filtered_epochs_complete": 0,
+    "tasks_assigned": 32,
+    "total_tasks": 98520
+  },
+  "seconds_per_10000_train": 283.473716970547,
+  "measured_blocks": 713,
+  "completed_dev_times": [
+    {
+      "branch": 10000,
+      "seconds": 572.488426
+    },
+    {
+      "branch": 20000,
+      "seconds": 541.323446
+    },
+    {
+      "branch": 30000,
+      "seconds": 570.172028
+    }
+  ],
+  "status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 1121366,
+    "start_ticks": "24252420",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T02:04:08.676872+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 3266896,
+    "branch_step": 35850,
+    "epoch": 1,
+    "uploaded_rows_seen": 28307309,
+    "uploaded_origin_exposures": {
+      "daily": 14955545,
+      "factory/gen4000": 10662506,
+      "factory/gen500": 1158248,
+      "asr/run2b": 1531010
+    },
+    "loss": 0.7529006600379944,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "loss_policy": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "curriculum_stage": 3,
+    "curriculum_family_fraction": 1.0,
+    "curriculum_stage_step": 35850,
+    "curriculum_stage_budget": null,
+    "curriculum_stage_seen": 557493,
+    "full_filtered_epochs_complete": 0,
+    "tasks_assigned": 10787,
+    "total_tasks": 98520
+  },
+  "resume": {
+    "step": 3266546,
+    "branch_step": 35500,
+    "epoch": 0,
+    "tasks_assigned": 10682,
+    "active_lanes": 15,
+    "optimizer_entries": 27,
+    "uploaded_rows_seen": 28301853,
+    "uploaded_origin_exposures": {
+      "daily": 14952855,
+      "factory/gen4000": 10660271,
+      "factory/gen500": 1158013,
+      "asr/run2b": 1530714
+    },
+    "parameters": 11941122,
+    "source_order_cursor_and_all_rng_preserved": true,
+    "drive_replay_rows": 0,
+    "curriculum_stage": 3,
+    "curriculum_family_fraction": 1.0,
+    "curriculum_stage_step": 35500,
+    "curriculum_stage_seen": 552037,
+    "full_filtered_epochs_complete": 0
+  },
+  "latest_dev": {
+    "branch": 30000,
+    "global_step": 3261046,
+    "threshold": 0.1,
+    "metrics": {
+      "vi": {
+        "samples": 18627,
+        "tp": 167,
+        "tn": 17778,
+        "fp": 263,
+        "fn": 419,
+        "accuracy": 0.9633864819885113,
+        "eot_f1": 0.328740157480315,
+        "eot_precision": 0.3883720930232558,
+        "eot_recall": 0.28498293515358364,
+        "false_share_of_cuts": 0.6116279069767442,
+        "false_positive_rate": 0.014577905881048722,
+        "actual_eot": 586
+      },
+      "en": {
+        "samples": 16360,
+        "tp": 363,
+        "tn": 15253,
+        "fp": 411,
+        "fn": 333,
+        "accuracy": 0.9545232273838631,
+        "eot_f1": 0.49387755102040815,
+        "eot_precision": 0.4689922480620155,
+        "eot_recall": 0.521551724137931,
+        "false_share_of_cuts": 0.5310077519379846,
+        "false_positive_rate": 0.026238508682328906,
+        "actual_eot": 696
+      }
+    },
+    "retention": false
+  },
+  "report_sha256": "77ab31529e43337b5718be2f40d2412b64d70470217b24d72033479fccf7b8e2",
+  "full_epoch_points": 5040023
+}

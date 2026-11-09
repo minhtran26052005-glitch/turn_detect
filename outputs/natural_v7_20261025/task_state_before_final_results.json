@@ -1,0 +1,41 @@
+{
+  "status": "ACTIVE_WORK_NOT_QUALITY_COMPLETE",
+  "latest_verified_job": "natural_v8_lora_20261025_r3",
+  "latest_verified_optimizer_step": 90,
+  "runtime": "Connected Colab L4; inspect current job status before inferring liveness",
+  "input_constraint": "TEXT_ONLY; public natural conversations",
+  "user_target": "Each vi/en/zh accuracy>0.9 AND EOT_F1>0.9 on real unseen references; do not claim from dev or unlabeled punctuation crawl",
+  "natural_train_cases": 1433,
+  "natural_dev_cases": 293,
+  "held_cases": 384,
+  "held_classifier_scores_used": false,
+  "next_steps": [
+    "Wait for R3 to finish without restarting",
+    "python tools/natural_v8_colab.py collect --revision 3",
+    "python tools/natural_exact_calibration.py",
+    "python tools/natural_final_colab.py freeze",
+    "verify freeze job COMPLETED then python tools/natural_final_colab.py launch",
+    "collect final results and recompute metrics",
+    "refresh natural_campaign_report.py and notebook final cell",
+    "run validate_natural_campaign.py and preserve model/source artifacts"
+  ],
+  "preserved_failed_jobs": [
+    "natural_campaign_pipeline_20261025",
+    "natural_v8_lora_20261025",
+    "natural_v8_lora_20261025_r2",
+    "natural_campaign_recovery_20261025"
+  ],
+  "failure_fixes": "Unused incompatible torchao disabled only in R3 process; explicit tokenizer return_dict=False. Failed runs occurred before optimizer.",
+  "serving_default_changed": false,
+  "new_compact_quality_qualified_model_exists": false,
+  "known_models": {
+    "V4_teacher_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+    "V5_teacher_sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66"
+  },
+  "artifacts": {
+    "report": "outputs/natural_v7_20261025/review.html",
+    "listening": "outputs/natural_v7_20261025/asr_review/review.html",
+    "notebook": "a.ipynb",
+    "live_notebook_receipt": "outputs/natural_v7_20261025/notebook_colab_receipt_live.json"
+  }
+}

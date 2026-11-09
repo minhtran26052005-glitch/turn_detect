@@ -1,0 +1,8 @@
+{
+  "stage": "NATURAL_TEXT_TRAINING",
+  "round": 3,
+  "step": 600,
+  "steps_per_round": 600,
+  "loss": 0.18817142769694328,
+  "elapsed_seconds": 1468.916080093004
+}

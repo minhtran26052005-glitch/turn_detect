@@ -1,0 +1,6 @@
+{
+  "status": "EXACT_TEACHER_BACKUP_VERIFIED",
+  "path": "outputs\\trilingual_20261024\\runs\\tri_teacher_20261024\\best\\model.safetensors",
+  "bytes": 1115268200,
+  "sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80"
+}

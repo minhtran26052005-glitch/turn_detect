@@ -1,0 +1,9 @@
+{
+  "teacher_path": "runs/natural_v5_train_20261025/round_02/best",
+  "weights_sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66",
+  "threshold_fixed_from_old_dev": 0.24,
+  "old_sha256": "54d32007d1cd3113472456a5060f6a2003170af95b37810838309b1724892e34",
+  "new_sha256": "91fe4ff2422484e7540a1470c96d2560ad0a11cca22e0d250aa1bfe6282e0cff",
+  "scope": "Matched Vietnamese development; ASR route including its decoding changed, model/codec/cases/labels/threshold fixed",
+  "held_loaded": false
+}

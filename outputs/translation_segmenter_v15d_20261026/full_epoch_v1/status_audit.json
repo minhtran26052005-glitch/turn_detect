@@ -1,0 +1,15 @@
+{
+  "data_status.json": {
+    "at_utc": "2026-10-27T08:34:50.087430+00:00",
+    "stage": "FAILED_PRESERVED",
+    "error": "KeyError('split')"
+  },
+  "data_error.json": {
+    "at_utc": "2026-10-27T08:34:50.086199+00:00",
+    "error": "KeyError('split')",
+    "traceback": "Traceback (most recent call last):\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 270, in <module>\n    try:build()\n        ~~~~~^^\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 173, in build\n    reason_row = valid_record(row)\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 44, in valid_record\n    if row['language'] not in LANGUAGES or row['split'] not in ('train', 'dev'):\n                                           ~~~^^^^^^^^^\nKeyError: 'split'\n"
+  },
+  "log_tail": "/usr/local/lib/python3.13/dist-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  import pkg_resources\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 270, in <module>\n    try:build()\n        ~~~~~^^\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 173, in build\n    reason_row = valid_record(row)\n  File \"/content/turn_detect_v2/turn_v2/translation_segmenter_full_data_v1.py\", line 44, in valid_record\n    if row['language'] not in LANGUAGES or row['split'] not in ('train', 'dev'):\n                                           ~~~^^^^^^^^^\nKeyError: 'split'\n",
+  "audit_live": false,
+  "free_gib": 132.64
+}

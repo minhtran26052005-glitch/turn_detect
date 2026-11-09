@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "\n{\"run\": \"distill_gru_h64_e64_l1_stage2_20261024\", \"accuracy\": 0.9314192788650255, \"f1\": 0.895461150525686, \"best_epoch\": 2}\n{\"run\": \"distill_gru_h96_e64_l1_20261024\", \"accuracy\": 0.9356249649526159, \"f1\": 0.9009661835748792, \"best_epoch\": 9}\n"
+    }
+  ],
+  "elapsed_seconds": 0.09300000000803266
+}

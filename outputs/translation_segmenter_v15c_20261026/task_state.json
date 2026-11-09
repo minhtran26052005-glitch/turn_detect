@@ -1,0 +1,135 @@
+{
+  "campaign": "translation_sentence_boundary_lookahead_v15c",
+  "updated_at_utc": "2026-10-26T04:14:11.663690+00:00",
+  "status": "STOPPED_BY_REQUEST_DATA_SNAPSHOT_REFRESHED",
+  "objective": {
+    "model_input": "Punctuation-free text only: left context plus 1 or 2 future words",
+    "label_source": "Original punctuation is supervision metadata only; sentence-final punctuation => EOT; internal punctuation => NEOT",
+    "priority": "Measure period EOT recall by lookahead horizon",
+    "qwen_used": false,
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ]
+  },
+  "runtime": {
+    "parent_pid": 336572,
+    "parent_start_ticks": "8156693",
+    "child_pid": 337961,
+    "child_start_ticks": "8187352",
+    "child_module": "turn_v2.translation_segmenter_v15c --phase collect --cycle 13",
+    "source_sha256": "7bd4dd908d114add5826b8c9ec06dcc0ca13a28f0fe56b0d260411cc2c0fbbea",
+    "last_status_utc": "2026-10-26T03:59:37.078454+00:00",
+    "cycle": 17,
+    "stage": "STOPPED_BY_REQUEST",
+    "pid_start_ticks_verified": true,
+    "gpu": "NVIDIA L4; worker stopped; snapshot read only",
+    "remote_disk_free_bytes": 165271736320,
+    "parent_pid_start_ticks_verified": false,
+    "child_pid_start_ticks_verified": false
+  },
+  "data": {
+    "carryover_source": "outputs/translation_segmenter_v15b_20261026/corpus.sqlite",
+    "carryover_method": "sqlite3.Connection.backup",
+    "carryover_receipt_expected": "carryover_receipt.json",
+    "current_cycle_snapshot_available": false,
+    "model_metrics_available": false,
+    "prose_punctuation_labels_are_human_gold": false,
+    "latest_local_snapshot_cycle": 17,
+    "latest_local_snapshot_sha256": "b0cdc767e795a68ff28d2b8efed51af8f0e1bad14aba0bb28b99a8d4a3dc9592",
+    "latest_local_snapshot_bytes": 429763,
+    "snapshot_examples": 4477,
+    "snapshot_examples_by_language": {
+      "vi": 420,
+      "en": 477,
+      "zh": 1566
+    },
+    "snapshot_examples_by_language_split": {
+      "vi": {
+        "train": 360,
+        "dev": 42,
+        "test": 18
+      },
+      "en": {
+        "train": 343,
+        "dev": 106,
+        "test": 28
+      },
+      "zh": {
+        "train": 1062,
+        "dev": 326,
+        "test": 178
+      }
+    },
+    "punctuation_characters_in_context_or_future_input": 0,
+    "punctuation_input_audit": "PASS: Unicode punctuation category P absent from all context/text fields; target_punctuation remains separate",
+    "latest_live_crawl_cycle": 17,
+    "cycle12_added_pages": {
+      "vi": 4,
+      "en": 4,
+      "zh": 4
+    },
+    "cycle12_added_examples": {
+      "vi": 100,
+      "en": 97,
+      "zh": 394
+    },
+    "teacher_optimizer_checkpoint_available": false,
+    "cycle13_progress_pages_so_far": {
+      "vi": 1,
+      "en": 1,
+      "zh": 2
+    },
+    "snapshot_pages": 110,
+    "latest_cycle_added_pages": {
+      "vi": 3,
+      "en": 3,
+      "zh": 4
+    },
+    "latest_cycle_added_examples": {
+      "vi": 122,
+      "en": 78,
+      "zh": 412
+    },
+    "latest_cycle_http_errors": [
+      {
+        "language": "vi",
+        "query": "kinh tế",
+        "http": 429,
+        "retry": 1,
+        "cursor": {
+          "continue": "||info",
+          "excontinue": 3
+        }
+      }
+    ],
+    "snapshot_is_data_only_not_model_recovery": true
+  },
+  "history": {
+    "v14": "STOPPED_BY_REQUEST",
+    "v15b": "STOPPED_BY_REQUEST",
+    "v15_previous_status_file": "RUNNING but stale; no matching PID/start-tick process was live at launch audit",
+    "v15c_launch": "2026-10-26T03:53:38Z"
+  },
+  "quality_target_certified": false,
+  "notes": [
+    "No punctuation is exposed to the model.",
+    "A period-EOT label is a target, not a deterministic inference guarantee.",
+    "Require independent conversational/human gold before claims about real turn detection."
+  ],
+  "training_deferred_at_cycle12": {
+    "vi": {
+      "train_samples": 360,
+      "dev_samples": 42
+    },
+    "en": {
+      "train_samples": 343,
+      "dev_samples": 106
+    },
+    "zh": {
+      "train_samples": 1062,
+      "dev_samples": 326
+    }
+  }
+}

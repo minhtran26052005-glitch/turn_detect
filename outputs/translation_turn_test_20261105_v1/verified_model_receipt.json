@@ -1,0 +1,16 @@
+{
+  "all_eight_checkpoint_files_identical_to_user_zip": true,
+  "sha256": {
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+    "trainer_state.json": "03bb1da1e713a919b013a1ec9edc5e5b57f16edeb738f0b093754406f104c7bc",
+    "generation_config.json": "3260e9cbe7cb04cc5a21b85caf81e1e0bf73bdb502e18c439e9a08f9f3db60f8",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "9d7f277d8675859513c120b6151a5305fe4c906071a8dfeb8b0aad533bf738b3",
+    "training_args.bin": "7e8314e3c23fb6f572fa23d9e8cc2f6553e74dfb983ab9aede68c052257dffd4",
+    "model.safetensors": "c32df2ca279d43140551bdf44d026722887780ece9cc33a465b36afe778330ac"
+  },
+  "source": "/home/edabk/MinhDuc/zipformer-vi/llm-onevoice/genie_v68/q3_06b_hf/mix4r2_s15640",
+  "isolated_copy": "/home/edabk/hoangbpm/turn_detect/data/translation_qwen3_06b_15640_user_20261105/saves/qwen3_0.6b_mix4r2_1ep/checkpoint-15640",
+  "partial_upload_preserved": true
+}

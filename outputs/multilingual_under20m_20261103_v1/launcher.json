@@ -1,0 +1,10 @@
+{
+  "pid": 427431,
+  "start_ticks": "58812839",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_under20m_distill_v1 ",
+  "module": "turn_v2.multilingual_under20m_distill_v1",
+  "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+  "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1",
+  "launched_unix": 1793680961.6871858,
+  "recipe_sha256": "3387ac2a2856a3773580af52ea2248cf87c7cbc1e9dcf46aa099c6cbdc84b855"
+}

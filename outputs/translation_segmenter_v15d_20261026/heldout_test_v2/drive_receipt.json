@@ -1,0 +1,44 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-595d62b4-0421-4af5-885c-0d72e4aa1d1002f68001-a8cf-4ec7-9f7b-a3b56cdd3208.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/heldout_test_v2",
+    "files": [
+      {
+        "name": "report.json",
+        "bytes": 16976,
+        "sha256": "c8bf0e0762e468bfa1b174d8eeb55354d4825fc789b1a2e6773f707efb51e4d0",
+        "drive_readback_verified": true
+      },
+      {
+        "name": "manifest.json",
+        "bytes": 3022,
+        "sha256": "29ba85796ddc32fbfc7aefa345c0375f73a6c3fffc48132e56317ed635c6156c",
+        "drive_readback_verified": true
+      },
+      {
+        "name": "status.json",
+        "bytes": 197,
+        "sha256": "4ca4d4e9375b2b61282700336b93a43cd78af64905296c0d671640a5680f282a",
+        "drive_readback_verified": true
+      },
+      {
+        "name": "review_samples.jsonl",
+        "bytes": 379524,
+        "sha256": "457ba4c9f237326e0416501551fd17b24e4606ff81e31d82f8b21d658dc831ab",
+        "drive_readback_verified": true
+      },
+      {
+        "name": "review.html",
+        "bytes": 384398,
+        "sha256": "5f789f3a6368deebb4acf5ce1251e234bcba8f83165c4de62970d25fc4bf2492",
+        "drive_readback_verified": true
+      }
+    ],
+    "scope": "compact complete test report and bounded review; full traces remain managed by the main backup manifests"
+  }
+}

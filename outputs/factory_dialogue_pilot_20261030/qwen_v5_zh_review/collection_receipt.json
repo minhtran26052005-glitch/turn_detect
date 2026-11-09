@@ -1,0 +1,18 @@
+{
+  "manifest.json": {
+    "bytes": 1406,
+    "sha256": "7f84e0088eb983e90770e2111d48d7e0c3a123e75bd5ed64c1c2d086605e1e11"
+  },
+  "dialogues.jsonl": {
+    "bytes": 72692,
+    "sha256": "e4466786b6c6563bf9ce7a6fee17465fc9495756b6fb8743725adc4502c32f5e"
+  },
+  "examples_zh_sample.jsonl": {
+    "bytes": 66970,
+    "sha256": "74050fe7d8c67a7c91906b9dd586f8713b6368117aaafb051e2372a4a3c8909e"
+  },
+  "rejected_summary.json": {
+    "bytes": 244,
+    "sha256": "f83546dfdb82bd4fbd59f2264ea7c4ec23aa50970b1095ae66bc41c8a8e11044"
+  }
+}

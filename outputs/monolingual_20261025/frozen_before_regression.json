@@ -1,0 +1,26 @@
+{
+  "registry": {
+    "project_root_relative": "../..",
+    "architecture": "THREE_INDEPENDENT_MODELS",
+    "models": {
+      "vi": {
+        "path": "models/turn_v2_distilled_qat4_20261024/onnx",
+        "status": "ESTABLISHED_VI_FROZEN_DEV_ONLY",
+        "model_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412"
+      },
+      "en": {
+        "path": "models/turn_monolingual_en_20261025/onnx",
+        "status": "RESEARCH_ONLY_UNSEEN_REAL_TARGET_NOT_CERTIFIED",
+        "model_sha256": "b702da5bf187c40881a1c6a6d139c0230ce8945bd9f28e9ca1d250ee525af88d"
+      },
+      "zh": {
+        "path": "models/turn_monolingual_zh_20261025/onnx",
+        "status": "RESEARCH_ONLY_UNSEEN_REAL_TARGET_NOT_CERTIFIED",
+        "model_sha256": "4e744f29f761797005fe69111b28052cef57370bc5080d0b48f21bbc3f131df1"
+      }
+    }
+  },
+  "registry_sha256": "343ba8cdad6394e9a9db980d360c8f2357d6f28893eeed3cf041dbb369141d80",
+  "cohort": "Previously consumed384; regression diagnostic only, not a fresh acceptance set",
+  "threshold_selection": "Prior same-language development only"
+}

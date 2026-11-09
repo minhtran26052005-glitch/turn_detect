@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"archive\": \"content/tri_final_20261024_artifacts.zip\", \"bytes\": 276211, \"sha256\": \"df69e6ad735d669ba1e6b32322ad35647813ba41eced81a848984f3be31b54df\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+  "audited_trace_records": 606460,
+  "canonical_cases": 569,
+  "max_probability_delta": 1.1324882507324219e-06,
+  "all_calibration_and_monitor_records_audited": true,
+  "both_full_epochs_verified": true,
+  "first100_training_inputs_each_arm_audited": true,
+  "all_training_forwards_audited": false,
+  "treatment_calibration_uses_identical_input_cache": true,
+  "parent_checkpoint_unchanged": true
+}

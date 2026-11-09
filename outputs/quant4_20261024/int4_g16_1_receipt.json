@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+    "-m",
+    "turn_v2.evaluate_compressed",
+    "--model",
+    "outputs\\quant4_20261024\\int4_g16",
+    "--output",
+    "outputs\\quant4_20261024\\int4_g16_quality",
+    "--teacher",
+    "models\\turn_v2_distilled_min_20261024\\onnx",
+    "--reference-run",
+    "outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\quality_int8",
+    "--threads",
+    "2",
+    "--select-threshold"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 25.64000000001397
+}

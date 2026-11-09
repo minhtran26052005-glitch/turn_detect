@@ -1,0 +1,9 @@
+{
+  "stage": "SUPERVISED_QWEN_LORA",
+  "step": 180,
+  "steps_max": 180,
+  "loss": 0.7281497549265623,
+  "gradient_norm": 4.397648811340332,
+  "elapsed_seconds": 1300.7415910150012,
+  "cuda_peak_allocated": 8925584384
+}

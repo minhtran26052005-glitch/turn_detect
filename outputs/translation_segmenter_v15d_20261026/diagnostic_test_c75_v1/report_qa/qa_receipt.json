@@ -1,0 +1,19 @@
+{
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "layout_horizontal_overflow": false,
+  "lookahead_switch_1_and_2": true,
+  "language_filters": {
+    "vi": 3,
+    "en": 2,
+    "zh": 2,
+    "all": 7
+  },
+  "javascript_errors": [],
+  "screenshots": [
+    "desktop_results.png",
+    "desktop_model.png",
+    "desktop_examples.png",
+    "mobile_results.png"
+  ]
+}

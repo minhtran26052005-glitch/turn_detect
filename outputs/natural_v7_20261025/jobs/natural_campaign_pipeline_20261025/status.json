@@ -1,0 +1,15 @@
+{
+  "status": "FAILED",
+  "started_at_utc": "2026-10-24T20:56:53.354224+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/natural_campaign_pipeline.py"
+  ],
+  "timeout_seconds": 12000,
+  "pid": 173789,
+  "elapsed_seconds": 425.05242705345154,
+  "heartbeat_unix": 1792875833.4059312,
+  "exit_code": 1,
+  "finished_at_utc": "2026-10-24T21:03:58.406654+00:00"
+}

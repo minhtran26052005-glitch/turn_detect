@@ -1,0 +1,37 @@
+{
+  "stage": "CURRICULUM_PREPARATION_COMPLETE",
+  "pid": 872891,
+  "start_ticks": "16545706",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "at_utc": "2026-11-06T03:54:48.926746+00:00",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "stages": [
+    {
+      "index": 0,
+      "family_count": 874,
+      "eligible_points_per_pass": 463539,
+      "update_budget": 10000
+    },
+    {
+      "index": 1,
+      "family_count": 2174,
+      "eligible_points_per_pass": 1624700,
+      "update_budget": 20000
+    },
+    {
+      "index": 2,
+      "family_count": 4343,
+      "eligible_points_per_pass": 3302616,
+      "update_budget": 30000
+    },
+    {
+      "index": 3,
+      "family_count": 8681,
+      "eligible_points_per_pass": 6163255,
+      "update_budget": null
+    }
+  ]
+}

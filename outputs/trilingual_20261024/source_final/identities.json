@@ -1,0 +1,19 @@
+{
+  "backup_trilingual_teacher.py": "8ea34c3d90ad8a9aa03be8141ff964806fec226bed4f16338be3ddbfce107a4a",
+  "evaluate_trilingual_student.py": "a789eb8ae1f58c512e2d2510ec581ab05b89d6591be9c5d3cb9b33c25fe9733a",
+  "finalize_trilingual.py": "57cf55229ca1fea5d50ea2b552dc78744c36be3ebf3be71e9ed19d73bf526ef0",
+  "prepare_livekit_eot.py": "27625a4efc766ed801a2801fe5d93404b28ea7ec6c557d917ed40236f1793e42",
+  "report_trilingual_stream.py": "8ac0684f75e8eac53af0f9e4ba138db5dbebd1c9a72c6d4f02cd077eef9b9114",
+  "stream_turn_review.py": "07f0e9b1ec8a11b8ff91bf3b63c6ed011e9401292291b16052864eed6ca8e126",
+  "sync_trilingual_receipts.py": "ef9493e569f07abdcce45a63d69667b986a100ba7c96e3ab4d5531e3eb8a2f7f",
+  "test_trilingual_data.py": "c1ba97c4bd44182d4e6444ed88c4dbbaa653e677ba4f4e7e5b2fb3eb8521a0df",
+  "trilingual_colab.py": "4d813e18f060ae4d8fe2714184f912ae2ed8b9cfb41c14b0dc0a4d296e01ac8f",
+  "trilingual_data.py": "7b52641d891f11fde3bd94e77b8724bc5fdb85e7833d4d1c9947f9026795b93a",
+  "trilingual_final.py": "d4546894d34d6ff79eb1899164409a3e67e039b5de0073df58635c7ab0a0b6fd",
+  "trilingual_real_pause.py": "8fb6af999d2a39e1d19948fa4876335287a845efd3d5e7d5acfb5e06cdc3c45e",
+  "trilingual_runtime.py": "54f3c5d3c80f71055e611d1306a3492fe52a8c55299ee068ec315e6635f83414",
+  "trilingual_student.py": "bcc213ee1fd540af7ff70ac1d5df554812833a9d35a7f1e3a8741e872a03add7",
+  "trilingual_teacher.py": "d601f0624a8c09c97fe6e3201e6ef117f404192f628f5f4b8f30c2c40448f436",
+  "update_trilingual_notebook.py": "ff2c67f5901c06b81f07ad2ddc355b84db7e8a7806d20e949ca165aa179887ec",
+  "validate_trilingual.py": "a4bd234b7a612276a5e49a7019a71d47244ef62ff4ca9895c78d981a80cf0fdb"
+}

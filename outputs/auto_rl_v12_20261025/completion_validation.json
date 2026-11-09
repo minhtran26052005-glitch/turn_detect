@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "passed": 56,
+  "total": 56,
+  "checks": [
+    {
+      "check": "judge_probe6_passed",
+      "passed": true
+    },
+    {
+      "check": "loop_code_unchanged",
+      "passed": true
+    },
+    {
+      "check": "generated_judge_code_unchanged",
+      "passed": true
+    },
+    {
+      "check": "no_real_quality_overclaim",
+      "passed": true
+    },
+    {
+      "check": "round_01:candidate_count",
+      "passed": true
+    },
+    {
+      "check": "round_01:candidate_labels_unassigned",
+      "passed": true
+    },
+    {
+      "check": "round_01:judge_sees_same_visible_text",
+      "passed": true
+    },
+    {
+      "check": "round_01:judge_acceptance_recomputed",
+      "passed": true
+    },
+    {
+      "check": "round_01:source_hashes",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:natural",
+      "passed": true
+    },
+    {
+      "check": "round_01:vi:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:natural",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "round_01:en:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:natural",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "round_01:zh:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "round_02:candidate_count",
+      "passed": true
+    },
+    {
+      "check": "round_02:candidate_labels_unassigned",
+      "passed": true
+    },
+    {
+      "check": "round_02:judge_sees_same_visible_text",
+      "passed": true
+    },
+    {
+      "check": "round_02:judge_acceptance_recomputed",
+      "passed": true
+    },
+    {
+      "check": "round_02:source_hashes",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:natural",
+      "passed": true
+    },
+    {
+      "check": "round_02:vi:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:natural",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "round_02:en:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:accepted_counts",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:no_exact_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:dev_labels",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:natural",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "round_02:zh:dev_gate",
+      "passed": true
+    },
+    {
+      "check": "Colab_job_completed",
+      "passed": true
+    },
+    {
+      "check": "failed_judge_did_not_update_policy",
+      "passed": true
+    }
+  ],
+  "quality_target_certified": false
+}

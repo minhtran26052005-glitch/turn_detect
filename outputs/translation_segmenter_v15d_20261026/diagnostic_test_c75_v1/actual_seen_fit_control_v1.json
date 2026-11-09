@@ -1,0 +1,271 @@
+{
+  "scope": "ACTUAL_CYCLE75_OPTIMIZER_DRAWN_TRAIN_CONTROL_NOT_TEST",
+  "created_at_utc": "2026-10-27T04:09:52.547987+00:00",
+  "languages": {
+    "vi": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.841,
+        "eot_precision": 0.8343137254901961,
+        "eot_recall": 0.851,
+        "eot_f1": 0.8425742574257425,
+        "joint_score": 0.841,
+        "false_eot": 169,
+        "missed_eot": 149,
+        "false_eot_rate": 0.169,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            831,
+            169
+          ],
+          [
+            149,
+            851
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered actual cycle75 optimizer-drawn unique rows per label/lookahead; exact train-pool fingerprint and final NumPy RNG verified",
+      "rows_id_sha256": "597a85d8126e86205bf831e4ac79ac5654e7ea3fa79d7d138309b01617b05d76",
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "threshold_from_dev": 0.6599999999999999,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.825,
+          "eot_precision": 0.8060263653483992,
+          "eot_recall": 0.856,
+          "eot_f1": 0.8302618816682832,
+          "joint_score": 0.825,
+          "false_eot": 103,
+          "missed_eot": 72,
+          "false_eot_rate": 0.206,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              397,
+              103
+            ],
+            [
+              72,
+              428
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.857,
+          "eot_precision": 0.8650306748466258,
+          "eot_recall": 0.846,
+          "eot_f1": 0.8554095045500506,
+          "joint_score": 0.8554095045500506,
+          "false_eot": 66,
+          "missed_eot": 77,
+          "false_eot_rate": 0.132,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              434,
+              66
+            ],
+            [
+              77,
+              423
+            ]
+          ]
+        }
+      },
+      "scope": "ACTUALLY_OPTIMIZED_TRAIN_FIT_CONTROL",
+      "full_trace_sha256": "4a09bc44d71a8d9c9e4464c1b50dd4d4ea88de9da17577cf41c3c5a9ec1302b9"
+    },
+    "en": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.58,
+        "accuracy": 0.8885,
+        "eot_precision": 0.8992805755395683,
+        "eot_recall": 0.875,
+        "eot_f1": 0.8869741510390269,
+        "joint_score": 0.8869741510390269,
+        "false_eot": 98,
+        "missed_eot": 125,
+        "false_eot_rate": 0.098,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            902,
+            98
+          ],
+          [
+            125,
+            875
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered actual cycle75 optimizer-drawn unique rows per label/lookahead; exact train-pool fingerprint and final NumPy RNG verified",
+      "rows_id_sha256": "bc4af34397301b14518f90ee29f170f2eaf6bb07120fa52674184f0db690c402",
+      "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+      "threshold_from_dev": 0.58,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.58,
+          "accuracy": 0.874,
+          "eot_precision": 0.8800813008130082,
+          "eot_recall": 0.866,
+          "eot_f1": 0.8729838709677419,
+          "joint_score": 0.8729838709677419,
+          "false_eot": 59,
+          "missed_eot": 67,
+          "false_eot_rate": 0.118,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              441,
+              59
+            ],
+            [
+              67,
+              433
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.58,
+          "accuracy": 0.903,
+          "eot_precision": 0.918918918918919,
+          "eot_recall": 0.884,
+          "eot_f1": 0.9011213047910296,
+          "joint_score": 0.9011213047910296,
+          "false_eot": 39,
+          "missed_eot": 58,
+          "false_eot_rate": 0.078,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              461,
+              39
+            ],
+            [
+              58,
+              442
+            ]
+          ]
+        }
+      },
+      "scope": "ACTUALLY_OPTIMIZED_TRAIN_FIT_CONTROL",
+      "full_trace_sha256": "d565e6a8f773abc20bd150141083e7275d9e52be6c382e574d18f25891720f40"
+    },
+    "zh": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.7549999999999999,
+        "accuracy": 0.866,
+        "eot_precision": 0.8969631236442517,
+        "eot_recall": 0.827,
+        "eot_f1": 0.8605619146722164,
+        "joint_score": 0.8605619146722164,
+        "false_eot": 95,
+        "missed_eot": 173,
+        "false_eot_rate": 0.095,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            905,
+            95
+          ],
+          [
+            173,
+            827
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered actual cycle75 optimizer-drawn unique rows per label/lookahead; exact train-pool fingerprint and final NumPy RNG verified",
+      "rows_id_sha256": "dc6a1686dde4e14909b5a1476da83f0e3e86fd4abbd6c51d2a66a7e416fb70ac",
+      "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+      "threshold_from_dev": 0.7549999999999999,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.86,
+          "eot_precision": 0.8930131004366813,
+          "eot_recall": 0.818,
+          "eot_f1": 0.8538622129436325,
+          "joint_score": 0.8538622129436325,
+          "false_eot": 49,
+          "missed_eot": 91,
+          "false_eot_rate": 0.098,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              451,
+              49
+            ],
+            [
+              91,
+              409
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.872,
+          "eot_precision": 0.9008620689655172,
+          "eot_recall": 0.836,
+          "eot_f1": 0.8672199170124482,
+          "joint_score": 0.8672199170124482,
+          "false_eot": 46,
+          "missed_eot": 82,
+          "false_eot_rate": 0.092,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              454,
+              46
+            ],
+            [
+              82,
+              418
+            ]
+          ]
+        }
+      },
+      "scope": "ACTUALLY_OPTIMIZED_TRAIN_FIT_CONTROL",
+      "full_trace_sha256": "16d6f7244b188f4125db86b340ba1ab0ad5cf36a7ff936b01cea766d3dad0995"
+    }
+  },
+  "complete": true,
+  "sampler_replay": {
+    "vi": {
+      "training_fingerprint_verified": true,
+      "saved_numpy_rng_exactly_replayed": true,
+      "optimizer_cycle": 75,
+      "optimizer_steps_replayed": 100,
+      "row_draws": 6400,
+      "unique_rows_actually_drawn_in_cycle75": 6376,
+      "control_rows": 2000,
+      "control_ids_sha256": "7799473ba7940be7d03597ad4f90478631aa37b7bd7902020ea685c2bf1df546"
+    },
+    "en": {
+      "training_fingerprint_verified": true,
+      "saved_numpy_rng_exactly_replayed": true,
+      "optimizer_cycle": 75,
+      "optimizer_steps_replayed": 100,
+      "row_draws": 6400,
+      "unique_rows_actually_drawn_in_cycle75": 6363,
+      "control_rows": 2000,
+      "control_ids_sha256": "c00a7e8fba4f402ddc61c0858f470b999c077fffc26bfe2ecc58d02f6fd18263"
+    },
+    "zh": {
+      "training_fingerprint_verified": true,
+      "saved_numpy_rng_exactly_replayed": true,
+      "optimizer_cycle": 75,
+      "optimizer_steps_replayed": 100,
+      "row_draws": 6400,
+      "unique_rows_actually_drawn_in_cycle75": 6374,
+      "control_rows": 2000,
+      "control_ids_sha256": "be551dbab95a9083505536743eab02bab133db320f8091bf4a69163826a4a957"
+    }
+  },
+  "completed_at_utc": "2026-10-27T04:13:21.471919+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "streams": 210,
+  "words": 169011,
+  "all_eligible_gaps_labels_masks_recounted": true,
+  "source_subset_unchanged": true,
+  "surviving_conflict_keys_label_consistent": true,
+  "expected_scored_points": 333315,
+  "train_dev_family_disjoint": true,
+  "test_not_used": true
+}

@@ -1,0 +1,534 @@
+{
+  "checked_utc": "2026-11-03T08:27:14.761342+00:00",
+  "user_instruction": "Regenerate all three languages as spoken text; retain old datasets; newest user says Colab reconnected.",
+  "order": [
+    "vi",
+    "en",
+    "zh"
+  ],
+  "accepted_quota_per_language_per_cycle": 10000,
+  "repeat_until_user_stop": true,
+  "register": "synthetic spoken-style transcription",
+  "numbers_units_codes": "word forms as pronounced, no digit numerals or written unit abbreviations",
+  "turns": "A/B/A/B substantial paragraphs, 2-8 sentences each",
+  "boundary_policy": "Full stop EOT; comma/semicolon NEOT; input lowercase punctuation-free;1/2word future only same speaker; lacking future skipped",
+  "training_eligible": false,
+  "review_state": "UNREVIEWED",
+  "is_human_or_audio_gold": false,
+  "current_training_on_ssh_unchanged": true,
+  "source_hashes": {
+    "turn_v2/factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+    "turn_v2/factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "turn_v2/factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "tools/factory_spoken_colab_v9.py": "d06efa01437e3245cee23ab14bbfb70e89e82516d27d568e3d9adb5d473713b6",
+    "tools/collect_factory_spoken_review_v9.py": "3888eb8604cf485ad6609a9175fe29315a969c992b5b9f10a1f72b48899efb80",
+    "tools/factory_spoken_session.py": "6cc5c36b49fa76cbb0071843c226dbee00b10b651125ca369bb146eeb3777c04",
+    "tools/recover_factory_spoken_colab_v9.py": "53487b0f5c1f15189322d130a790d06580b4f7cdde9c942b05f45e312bac9107",
+    "tools/colab_runtime.py": "b3f55fd8843ff7743d5248dd0210e692d6a0000c9c2edb9dcecbe988ab06cc2e"
+  },
+  "legacy_preserved": true,
+  "legacy_output": "factory_dialogue_campaign_v6",
+  "legacy_last_observed_commit": 759,
+  "legacy_last_observed_accepted": {
+    "vi": 10000,
+    "en": 7572
+  },
+  "legacy_stop_requested_on_verified_drive": true,
+  "legacy_other_vm_liveness": "UNKNOWN, not falsely marked stopped",
+  "actual_colab_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "drive_nonce_verified": "9e618b0f2db442a6a9ee3ee18f1d7143",
+  "drive_output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9",
+  "phase": "STOPPED_BY_REQUEST_SUPERSEDED_BY_BILINGUAL_V10",
+  "notified_generation_milestones": [],
+  "windows_free_gib": 14.96645736694336,
+  "new_pid": 10402,
+  "new_start_ticks": "245097",
+  "generation_resumed_and_committed": true,
+  "current_owner_verified": true,
+  "stage_observed": "GENERATING",
+  "state_observed": {
+    "attempts": {
+      "en": 0,
+      "vi": 29428,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1458,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 171445,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "fdafc1e6bb2bc6f242aaf7e2c8ec2d40c5e40498d932abbb1433e88e4724e3b7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 22703,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    }
+  },
+  "recent_verified_shards": [
+    {
+      "index": 1200,
+      "language": "vi",
+      "accepted": 8,
+      "rejected": 12,
+      "rejection_reasons": {
+        "ValueError('digit_numeral_not_spoken_word')": 2,
+        "ValueError('expected_two_to_eight_sentences')": 6,
+        "ValueError('expected_four_spoken_turns')": 4
+      },
+      "object_sha256": "b6068cacd79a2e419ac0df6b5cb1da356cd26ff1bb9f9bcc71b27c45e53eccdc",
+      "commit_sha256": "01caa2e07ed972c111a152a4dc6e5a016294b775d3257127fae6193e22440605",
+      "readback_verified": true
+    }
+  ],
+  "gpu_observed": "100 %, 19668 MiB, 23034 MiB",
+  "first_spoken_review": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_spoken_campaign_v9\\review.html",
+  "first_batches_readback_verified": true,
+  "first_batch_quality_review": "Sampled3acceptedVI dialogues: natural workplace phrasing and word-form quantities; not human gold, all UNREVIEWED",
+  "current_ssh_training_module": "turn_v2.multilingual_malbert_train_v1",
+  "current_ssh_training_pid": 889316,
+  "current_ssh_training_start_ticks": "59865865",
+  "current_ssh_training_last_verified_branch_step": null,
+  "source_accepted_not_auto_imported_to_training": true,
+  "last_notified_issue_key": null,
+  "launch_reported_to_user": true,
+  "heartbeat_trigger_utc": "2026-11-02T15:21:03.117Z",
+  "last_verified_state_utc": "2026-11-03T07:39:35.920312+00:00",
+  "last_verified_state_observed": {
+    "attempts": {
+      "en": 0,
+      "vi": 29428,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1458,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 171445,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "fdafc1e6bb2bc6f242aaf7e2c8ec2d40c5e40498d932abbb1433e88e4724e3b7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 22703,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    }
+  },
+  "current_counters": {
+    "en": 0,
+    "vi": 6725,
+    "zh": 0
+  },
+  "current_worker_liveness": "LIVE_VERIFIED_GENERATING",
+  "state_observation_is_historical": false,
+  "connection_discovery": {
+    "checked_utc": "2026-11-03T01:21:53.602228+00:00",
+    "assigned_runtime_count": 1,
+    "runtime_checks": [
+      {
+        "runtime_index": 0,
+        "http_status": 404
+      }
+    ]
+  },
+  "last_notified_issue_utc": "2026-11-03T01:22:47.350477+00:00",
+  "pending_recovery_authorization": {
+    "old_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "old_pid": 7510,
+    "old_start_ticks": "164260",
+    "new_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "previous_runtime_ended_confirmed_by_user": true,
+    "user_statement": "Phiên cũ đã kết thúc",
+    "confirmed_utc": "2026-11-03T01:28:42.674849+00:00",
+    "confirmation_question_pending": false,
+    "scope": "Only old2432dc61/PID7510/ticks164260 -> neweb59f31a-2c7b-4231-a29a-aa835d106e3d, verified after explicit user previous-runtime-ended confirmation",
+    "handover_completed": true,
+    "consumed_for_exact_handover": true,
+    "new_boot_verified_utc": "2026-11-03T01:36:35.001587+00:00",
+    "handover_receipt_sha256": "46fd1dc61f725e60b4e96c3f1c25bbd79daf8eecf5974031baaf6f53525db491"
+  },
+  "source_hashes_verified_on_drive": {
+    "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+    "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "recovery": {
+    "new_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "old_runtime_ended_confirmed_by_user": true,
+    "counters_before": {
+      "en": 0,
+      "vi": 4679,
+      "zh": 0
+    },
+    "commit_index_before": 1011,
+    "verified_resumed_generation": true,
+    "worker_not_started": false,
+    "start_request_in_flight": false,
+    "handover": {
+      "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/owner_2432dc61_to_eb59f31a.json",
+      "sha256": "46fd1dc61f725e60b4e96c3f1c25bbd79daf8eecf5974031baaf6f53525db491",
+      "previous_owner_marked_stopped_on_user_confirmation": true,
+      "generation_counters_unchanged": true
+    },
+    "source_hashes_verified": {
+      "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+      "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+      "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+      "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+    },
+    "recent_verified_shards_before": [
+      {
+        "index": 1009,
+        "language": "vi",
+        "accepted": 5,
+        "object_sha256": "38b5ae0b5a45a652547731d5c0dee0cb3c08ddc8f0ab65571430eec59e587130",
+        "commit_sha256": "bd2548043fc05198aa971d38309d65efcc07f838cf891a5c2b8fe8f5e27d1dda",
+        "readback_verified": true
+      },
+      {
+        "index": 1010,
+        "language": "vi",
+        "accepted": 6,
+        "object_sha256": "a6a039c175b685eafd1320455c4b2187ceee67f6b0bdb2678487ac1e67e02622",
+        "commit_sha256": "60ec6966f6564ea69a6f7d18f74901c42ae7037632d97757d9d96ac10bf97c28",
+        "readback_verified": true
+      },
+      {
+        "index": 1011,
+        "language": "vi",
+        "accepted": 3,
+        "object_sha256": "e7d7d821b958ead8d8996e50d6ea16a177d4184e2af01fb63b8e4eb1f0a7b5ce",
+        "commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+        "readback_verified": true
+      }
+    ],
+    "launch": {
+      "pid": 10402,
+      "start_ticks": "245097",
+      "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+      "module": "factory_spoken_campaign_v9",
+      "output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9"
+    },
+    "actual_owner": {
+      "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+      "module": "factory_spoken_campaign_v9",
+      "pid": 10402,
+      "start_ticks": "245097"
+    },
+    "full_commit_chain_and_signatures_recovered_before_loading": true,
+    "verified_new_commit": 1012,
+    "latest_verified_commit": 1013,
+    "verified_new_shards": [
+      {
+        "index": 1012,
+        "language": "vi",
+        "accepted": 4,
+        "examples": 100,
+        "rejected": 16,
+        "object_sha256": "c6325bd8b00a46544d023f02289a46432372d26f6bd142902d9a75e8d1bfdb28",
+        "commit_sha256": "52f9f9dfdba6278eaec11f47354fa3f9c7a5339f7749bb8f79eeb15831f69c05",
+        "previous_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+        "readback_verified": true,
+        "chain_link_verified": true
+      }
+    ],
+    "latest_readback_verified_shards": [
+      {
+        "index": 1013,
+        "language": "vi",
+        "accepted": 3,
+        "rejected": 17,
+        "rejection_reasons": {
+          "ValueError('expected_two_to_eight_sentences')": 12,
+          "ValueError('expected_four_spoken_turns')": 3,
+          "ValueError('spoken_turn_too_short')": 1,
+          "ValueError('digit_numeral_not_spoken_word')": 1
+        },
+        "object_sha256": "c8ba871d4c1519baa4c2e450986be63bbb10ee16cb5e46a7771762a28d66cbf3",
+        "commit_sha256": "c5211a6dc91635331e0373a244e0911c72fef0a4cc56cd8a2bae9f5167b7e0ca",
+        "readback_verified": true
+      }
+    ],
+    "new_accepted_since_baseline": 7,
+    "new_examples_since_baseline": 184,
+    "completion_reported": true,
+    "verified_utc": "2026-11-03T01:52:41.752942+00:00"
+  },
+  "last_reported_recovery": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "pid": 10402,
+    "start_ticks": "245097",
+    "commit": 1013,
+    "accepted": {
+      "en": 0,
+      "vi": 4686,
+      "zh": 0
+    },
+    "reported_utc": "2026-11-03T01:54:18.212119+00:00"
+  },
+  "recovery_authorization_history": [
+    {
+      "old_boot_id": "a182486d-e426-4a5a-b2e8-3459bbc77778",
+      "old_pid": 4725,
+      "old_start_ticks": "106548",
+      "new_boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+      "previous_runtime_ended_confirmed_by_user": true,
+      "user_statement": "Phiên cũ đã kết thúc",
+      "confirmation_question_pending": false,
+      "observed_utc": "2026-11-02T12:52:45.291467+00:00",
+      "confirmed_utc": "2026-11-02T13:09:56.154612+00:00",
+      "handover_completed": true,
+      "handover_receipt_sha256": "016b09eb7ef67a6abbba4d9615f14cc47b8f4bc716fa725cf6cf8fb80efaa928",
+      "consumed_for_exact_handover": true
+    },
+    {
+      "old_boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+      "old_pid": 11713,
+      "old_start_ticks": "260234",
+      "new_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+      "previous_runtime_ended_confirmed_by_user": true,
+      "user_statement": "Phiên cũ đã kết thúc",
+      "confirmed_utc": "2026-11-02T15:43:27.460471+00:00",
+      "confirmation_question_pending": false,
+      "scope": "Only this exact spoken owner and new VM; does not authorize takeover of later owners",
+      "handover_completed": true,
+      "handover_receipt_sha256": "ced6b985d925dcb24b39c0b3c4c5bbadceb72baf108c52c9007e709bc4d7681b",
+      "consumed_for_exact_handover": true
+    }
+  ],
+  "controller_source_hashes": {
+    "tools\\factory_spoken_session.py": "6cc5c36b49fa76cbb0071843c226dbee00b10b651125ca369bb146eeb3777c04",
+    "tools\\factory_spoken_colab_v9.py": "d06efa01437e3245cee23ab14bbfb70e89e82516d27d568e3d9adb5d473713b6",
+    "tools\\collect_factory_spoken_review_v9.py": "3888eb8604cf485ad6609a9175fe29315a969c992b5b9f10a1f72b48899efb80",
+    "tools\\recover_factory_spoken_colab_v9.py": "53487b0f5c1f15189322d130a790d06580b4f7cdde9c942b05f45e312bac9107"
+  },
+  "session_selection_fix": {
+    "same_vm_kernels": 2,
+    "verified_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "safety_boundary_tests_passed": 6,
+    "worker_engine_source_unchanged": true,
+    "no_new_kernel_or_interrupt": true
+  },
+  "recovery_history": [
+    {
+      "inspection_report": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\factory_spoken_campaign_v9\\recovery_d917302f_inspect.json",
+      "new_vm_process_count": 0,
+      "drive_identity_verified": true,
+      "commit_index_verified": 260,
+      "latest_commit_sha256": "5ab251a4df9f28f8a156c38b7e67cd8eb3ea90a42487e36be49616d721c1eae6",
+      "sources_staged_without_start": true,
+      "owner_not_changed": false,
+      "worker_not_started": false,
+      "verified_resumed_generation": true,
+      "handover": {
+        "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/owner_a182486d_to_d917302f.json",
+        "sha256": "016b09eb7ef67a6abbba4d9615f14cc47b8f4bc716fa725cf6cf8fb80efaa928",
+        "previous_owner_marked_stopped_on_user_confirmation": true,
+        "generation_counters_unchanged": true
+      },
+      "old_runtime_ended_confirmed_by_user": true,
+      "start_request_in_flight": false,
+      "launch": {
+        "pid": 11713,
+        "start_ticks": "260234",
+        "boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+        "module": "factory_spoken_campaign_v9",
+        "output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9"
+      },
+      "full_commit_chain_and_signatures_recovered_before_loading": true,
+      "verified_new_commit": 263,
+      "verified_new_shards": [
+        {
+          "index": 263,
+          "language": "vi",
+          "accepted": 2,
+          "rejected": 18,
+          "rejection_reasons": {
+            "ValueError('expected_two_to_eight_sentences')": 12,
+            "ValueError('digit_numeral_not_spoken_word')": 2,
+            "ValueError('expected_four_spoken_turns')": 3,
+            "ValueError('truncated_spoken_paragraph')": 1
+          },
+          "object_sha256": "1af0c7d2eddb89678a6373bcc84b9d364e7e15479fa0817662f86c26bc532b2d",
+          "commit_sha256": "45b2cbbe834949eb164dc7706dcfc1d4cf0b1aa1febbc67859f351c5675ca6bd",
+          "readback_verified": true
+        }
+      ],
+      "actual_owner": {
+        "boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+        "module": "factory_spoken_campaign_v9",
+        "pid": 11713,
+        "start_ticks": "260234"
+      },
+      "completion_reported": true
+    },
+    {
+      "new_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+      "handover": {
+        "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/owner_d917302f_to_2432dc61.json",
+        "sha256": "ced6b985d925dcb24b39c0b3c4c5bbadceb72baf108c52c9007e709bc4d7681b",
+        "previous_owner_marked_stopped_on_user_confirmation": true,
+        "generation_counters_unchanged": true
+      },
+      "old_runtime_ended_confirmed_by_user": true,
+      "counters_before": {
+        "en": 0,
+        "vi": 1632,
+        "zh": 0
+      },
+      "commit_index_before": 330,
+      "source_hashes_verified": {
+        "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+        "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+        "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+        "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+      },
+      "recent_verified_shards_before": [
+        {
+          "index": 328,
+          "language": "vi",
+          "accepted": 4,
+          "object_sha256": "23a30a2b54409d26de6dae139c8a9820fd8305c56643bb005719e9079098ccbd",
+          "commit_sha256": "7979ff2e26ac8cdebbcc12a438e0e8fc18e7b641bf3d94aa75af0533d681488a",
+          "readback_verified": true
+        },
+        {
+          "index": 329,
+          "language": "vi",
+          "accepted": 8,
+          "object_sha256": "3dcac181509251bd3134382413d70934c908532c1d763dd5462e1f9f47405f10",
+          "commit_sha256": "54c739d5f3b072dc9b5b58715efc2f2ab042beaff8b8244729338e33c2b24459",
+          "readback_verified": true
+        },
+        {
+          "index": 330,
+          "language": "vi",
+          "accepted": 7,
+          "object_sha256": "98abd331abbabbc346f8aadaccf53f6675f1392ce1cfbba699a3a0ec9cd80995",
+          "commit_sha256": "ce2f9806824a542c918bfd53be12b07db01262e094853d4a7711ced0b10c3f58",
+          "readback_verified": true
+        }
+      ],
+      "start_request_in_flight": false,
+      "worker_not_started": false,
+      "verified_resumed_generation": true,
+      "launch": {
+        "pid": 7510,
+        "start_ticks": "164260",
+        "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+        "module": "factory_spoken_campaign_v9",
+        "output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9"
+      },
+      "actual_owner": {
+        "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+        "module": "factory_spoken_campaign_v9",
+        "pid": 7510,
+        "start_ticks": "164260"
+      },
+      "full_commit_chain_and_signatures_recovered_before_loading": true,
+      "last_loading_observation_utc": "2026-11-02T15:50:20.913766+00:00",
+      "verified_new_commit": 332,
+      "verified_new_shards": [
+        {
+          "index": 331,
+          "accepted": 0,
+          "examples": 0,
+          "rejected": 20,
+          "object_sha256": "a1804a8759a662176f304cfe22a1d37dc138f26e7a817fc2783ffc8555f91a72",
+          "commit_sha256": "7bbc08b5a9637a0672039851734db1b26eaddf9407bdd7f99b7d969de4c7079c",
+          "previous_commit_sha256": "ce2f9806824a542c918bfd53be12b07db01262e094853d4a7711ced0b10c3f58",
+          "readback_verified": true,
+          "chain_link_verified": true,
+          "language": "vi"
+        },
+        {
+          "index": 332,
+          "accepted": 6,
+          "examples": 130,
+          "rejected": 14,
+          "object_sha256": "325108ef7074e0e39269c24626ddb67b0def8a006eb21d7993b812d1ebafb852",
+          "commit_sha256": "5dee920d8885b7532e6fb27457d3b0ed287eca626a891d60c4cf464d90bd5622",
+          "previous_commit_sha256": "7bbc08b5a9637a0672039851734db1b26eaddf9407bdd7f99b7d969de4c7079c",
+          "readback_verified": true,
+          "chain_link_verified": true,
+          "language": "vi"
+        }
+      ],
+      "new_accepted": 6,
+      "new_examples": 130,
+      "completion_reported": true,
+      "verified_utc": "2026-11-02T15:53:27.245119+00:00"
+    }
+  ],
+  "colab_free_gib": 220.21,
+  "previous_connection_discovery": {
+    "checked_utc": "2026-11-02T15:22:07.818329+00:00",
+    "assigned_runtime_count": 0,
+    "first_attempt": {
+      "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+      "matches": 0
+    }
+  },
+  "transport_repair": {
+    "ipv6_tcp_timed_out": true,
+    "ipv4_tcp_succeeded": true,
+    "tls_certificate_validation_enabled": true,
+    "same_colab_destination_preserved": true,
+    "os_network_settings_unchanged": true,
+    "client_source_sha256": "b3f55fd8843ff7743d5248dd0210e692d6a0000c9c2edb9dcecbe988ab06cc2e",
+    "verified_current_boot": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "vscode_reloaded_only": true,
+    "existing_kernel_selected_no_creation": true,
+    "security_validation": "Off-destination refused before DNS; TLS hostname/certificate verification enabled; live authenticated read and exact handover succeeded",
+    "http_and_websocket_ipv4_first": true,
+    "https_adapter_only_validated_colab_prefix": true,
+    "global_urllib3_pools_unchanged": true,
+    "requests_certificate_verification_enabled": true,
+    "live_http_ws_and_new_generation_verified": true
+  },
+  "current_ssh_training_last_verified_utc": "2026-11-03T07:45:14.315248+00:00",
+  "current_ssh_training_last_verified_step": 6350,
+  "training_change_authorized_by_user": true,
+  "must_not_auto_resume": true,
+  "superseded_by": "factory_spoken_campaign_v10",
+  "old_worker_actual_stopped_verified": true,
+  "old_pid": 10402,
+  "old_start_ticks": "245097",
+  "old_final_commit": 1478,
+  "old_final_counts": {
+    "vi": 6815,
+    "en": 0,
+    "zh": 0
+  },
+  "language_scope_handover_receipt": "outputs\\factory_spoken_campaign_v10\\transition_v9_receipt.json"
+}

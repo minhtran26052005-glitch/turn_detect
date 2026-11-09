@@ -1,0 +1,23 @@
+{
+  "args": [
+    "/home/edabk/hoangbpm/turn_detect/data/translation_qwen3_06b_15640_user_20261105/translator_source/scripts/demo/translate_cli.py",
+    "--model",
+    "/home/edabk/hoangbpm/turn_detect/data/translation_qwen3_06b_15640_user_20261105/saves/qwen3_0.6b_mix4r2_1ep/checkpoint-15640",
+    "--template",
+    "B",
+    "--device",
+    "cpu",
+    "--cpu-threads",
+    "2",
+    "--show-prompt",
+    "--style",
+    "written",
+    "--context",
+    "en: hi there, how do you do",
+    "--lang",
+    "en",
+    "vi: mình ổn nhé, còn bạn?"
+  ],
+  "stdout": "--- prompt\nConversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:\n---\nI'm doing well, and you?\n",
+  "wall_s": 4.2903642654418945
+}

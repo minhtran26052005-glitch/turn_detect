@@ -1,0 +1,190 @@
+{
+  "checked_utc": "2026-11-02T03:45:04.670110+00:00",
+  "launcher.json": {
+    "pid": 2611438,
+    "start_ticks": "27127617",
+    "module": "turn_v2.multilingual_three_teacher_distill_v1",
+    "output": "/mnt/hdd500/turn_detect_training/multilingual_distill_v1"
+  },
+  "status.json": {
+    "stage": "TRAINING",
+    "pid": 2611438,
+    "at_unix": 1793590997.245404,
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "one_shared_student": true,
+    "test_used": false,
+    "qwen_pilot_used": false,
+    "source": "punctuation_derived_corpus",
+    "step": 475350,
+    "current_language": "zh",
+    "counts": {
+      "vi": 2535187,
+      "en": 2535184,
+      "zh": 2535200
+    },
+    "rounds": {
+      "vi": 1,
+      "en": 2,
+      "zh": 0
+    },
+    "loss": 0.23156758497158686,
+    "cuda_peak_reserved_gib": 4.25
+  },
+  "latest_dev.json": {
+    "step": 475000,
+    "split": "dev",
+    "scope": "punctuation-derived, not human/audio conversational gold",
+    "shared_threshold": 0.55,
+    "by_language": {
+      "vi": {
+        "samples": 1000,
+        "accuracy": 0.833,
+        "eot_f1": 0.7302100161550888,
+        "tp": 226,
+        "fp": 98,
+        "fn": 69
+      },
+      "en": {
+        "samples": 1000,
+        "accuracy": 0.846,
+        "eot_f1": 0.7601246105919003,
+        "tp": 244,
+        "fp": 76,
+        "fn": 78
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.875,
+        "eot_f1": 0.659400544959128,
+        "tp": 121,
+        "fp": 71,
+        "fn": 54
+      }
+    },
+    "sample_policy": "first hashed example_ids of each frozen DEV split",
+    "test_used_for_selection": false,
+    "same_model_for_all_languages": true
+  },
+  "resume_receipt.json": {
+    "step": 475300,
+    "bytes": 1624061459,
+    "cursors": {
+      "vi": "8ff5fbb49d09b14624591d1c934250af07a5a6b7e0170517bc65cfb71cb951c0",
+      "en": "e3cd68c5aa986357a53e2fa85ee65d57267eaedd896fabb6837f2a02933e497d",
+      "zh": "81f577785be625780da92d55f22d35bb55b6fde318d79f76e46d7eb3f5091ece"
+    },
+    "counts": {
+      "vi": 2534931,
+      "en": 2534912,
+      "zh": 2534928
+    },
+    "rounds": {
+      "vi": 1,
+      "en": 2,
+      "zh": 0
+    },
+    "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+    "teacher_hashes": {
+      "vi": "89efce27ab5ed556cd3725cff84b35e814dee7d9a17ba266abcf1898d81e28c6",
+      "en": "afbe10b37d7939e7a4afebf86038724e063eae3ab48bfbf4d8c8f3e9cd6d2a7c",
+      "zh": "23e286c0989be5b5190608d68645d975f624e94d74d531328c910ac5cf20a362"
+    },
+    "optimizer_and_rng_included": true
+  },
+  "error.json": null,
+  "process": {
+    "pid": 2611438,
+    "start_ticks": "27127617",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_three_teacher_distill_v1 ",
+    "state": "R",
+    "children": ""
+  },
+  "disk": {
+    "/home/edabk": 80.989,
+    "/mnt/hdd500": 23.015
+  },
+  "mount": "/dev/sda1 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "gpu": "NVIDIA GeForce RTX 3090, 0 %, 5448 MiB, 24576 MiB",
+  "gpu_processes": "2611438, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 4674 MiB",
+  "checkpoint": {
+    "bytes": 1624061459,
+    "mtime": 1793590943.5759876
+  },
+  "heartbeat_trigger_utc": "2026-11-02T03:42:59.704Z",
+  "step_observations": [
+    475350,
+    475460
+  ],
+  "latest_status": {
+    "stage": "TRAINING",
+    "pid": 2611438,
+    "at_unix": 1793591035.4919202,
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "one_shared_student": true,
+    "test_used": false,
+    "qwen_pilot_used": false,
+    "source": "punctuation_derived_corpus",
+    "step": 475460,
+    "current_language": "en",
+    "counts": {
+      "vi": 2535779,
+      "en": 2535776,
+      "zh": 2535776
+    },
+    "rounds": {
+      "vi": 1,
+      "en": 2,
+      "zh": 0
+    },
+    "loss": 0.22254641056060792,
+    "cuda_peak_reserved_gib": 4.25
+  },
+  "latest_dev": {
+    "step": 475000,
+    "split": "dev",
+    "scope": "punctuation-derived, not human/audio conversational gold",
+    "shared_threshold": 0.55,
+    "by_language": {
+      "vi": {
+        "samples": 1000,
+        "accuracy": 0.833,
+        "eot_f1": 0.7302100161550888,
+        "tp": 226,
+        "fp": 98,
+        "fn": 69
+      },
+      "en": {
+        "samples": 1000,
+        "accuracy": 0.846,
+        "eot_f1": 0.7601246105919003,
+        "tp": 244,
+        "fp": 76,
+        "fn": 78
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.875,
+        "eot_f1": 0.659400544959128,
+        "tp": 121,
+        "fp": 71,
+        "fn": 54
+      }
+    },
+    "sample_policy": "first hashed example_ids of each frozen DEV split",
+    "test_used_for_selection": false,
+    "same_model_for_all_languages": true
+  },
+  "windows_free_gib": 22.275,
+  "ssh_checkpoint_drive_backup_configured": false,
+  "completed_stream_probes_not_repeated": true
+}

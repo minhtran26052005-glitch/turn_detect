@@ -1,0 +1,18 @@
+{
+  "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+  "paragraphs": 200,
+  "mixed_pairs": 100,
+  "pair_policy": "Locked random-review order: VI_i then EN_i; not translations.",
+  "review_pairs": "First20 fixed before scoring, matching old probe; all100 pairs scored on SSH.",
+  "every_eligible_word_gap_scored": true,
+  "question_exclamation_endpoints_unscored": true,
+  "final_flush_is_model_prediction": false,
+  "lookahead_words": [
+    1,
+    2
+  ],
+  "inputs": "Lowercase unpunctuated buffer since last predicted EOT plus only next1/2 observed words. No language/role/source boundary or gold reset.",
+  "source_module_sha256": "f25264636520a8ca28e11793e759ba8cd73e0048a0c2c2bb21f675da7ab29354",
+  "sampler_module_sha256": "40d16bd340c0d98cbe917fc3b69bb9c7958a2875633e60c1b08015261d31f0fb",
+  "scope": "Previously exposed Qwen synthetic punctuation diagnostic, excluded from new TRAIN/DEV by dialogue ID; not independent human/audio gold."
+}

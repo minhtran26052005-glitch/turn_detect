@@ -1,0 +1,27 @@
+{
+  "stage": "TRAINING_ADDITIONAL_DATA_VERIFIED",
+  "pid": 967901,
+  "at_utc": "2026-11-03T09:01:29.846479+00:00",
+  "verified": true,
+  "trainer": {
+    "pid": 967949,
+    "start_ticks": "60335466",
+    "module": "turn_v2.multilingual_malbert_vi_en_checked_train_v3",
+    "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb"
+  },
+  "step": 92500,
+  "epoch": 0,
+  "cursor": 204784,
+  "additional_rows_seen": 4784,
+  "optimizer_entries": 27,
+  "rng_order_and_source_verified": true,
+  "parameters": 11941122,
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "checkpoint_sha256": "3f758b29ed3a35f920f71fcd5f92435d01558081ec0a3111b420374acbd211a3",
+  "new_cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+  "original_dev_test_excluded": true,
+  "test_used": false
+}

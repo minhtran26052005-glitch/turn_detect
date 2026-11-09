@@ -1,0 +1,83 @@
+{
+  "status": "FROZEN_TEXT_FEATURES_TRAIN_DEV_ONLY",
+  "encoder": "qwen",
+  "repo": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "cases": 1726,
+  "dimensions": 2562,
+  "zero_shot_dev_metrics": {
+    "vi": {
+      "samples": 145,
+      "threshold": 0.06,
+      "accuracy": 0.5862068965517241,
+      "eot_precision": 0.40350877192982454,
+      "eot_recall": 0.46938775510204084,
+      "eot_f1": 0.4339622641509434,
+      "joint_score": 0.4339622641509434,
+      "false_eot": 34,
+      "missed_eot": 26,
+      "false_eot_rate": 0.3541666666666667,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          62,
+          34
+        ],
+        [
+          26,
+          23
+        ]
+      ]
+    },
+    "en": {
+      "samples": 79,
+      "threshold": 0.05,
+      "accuracy": 0.5316455696202531,
+      "eot_precision": 0.7666666666666667,
+      "eot_recall": 0.4339622641509434,
+      "eot_f1": 0.5542168674698795,
+      "joint_score": 0.5316455696202531,
+      "false_eot": 7,
+      "missed_eot": 30,
+      "false_eot_rate": 0.2692307692307692,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          19,
+          7
+        ],
+        [
+          30,
+          23
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 69,
+      "threshold": 0.06,
+      "accuracy": 0.5507246376811594,
+      "eot_precision": 0.7894736842105263,
+      "eot_recall": 0.5660377358490566,
+      "eot_f1": 0.6593406593406593,
+      "joint_score": 0.5507246376811594,
+      "false_eot": 8,
+      "missed_eot": 23,
+      "false_eot_rate": 0.5,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          8,
+          8
+        ],
+        [
+          23,
+          30
+        ]
+      ]
+    }
+  },
+  "sealed_loaded": false,
+  "input": "Same current/past-partner text for both encoders; <=254 mDeBERTa tokens per field; no audio/IDs/timing/labels as features",
+  "feature_transform": "Qwen normalized last assistant state, or MiniLM normalized mean-pooled current/partner plus absdiff/product; two text char-length features",
+  "canonical_manifest_sha256": "26f97f54f544084f466fc325b9cfc09b8f1634ebe3fb0eb15eaf17f0aaa7a735",
+  "source_sha256": "08c453a005bb8a7e275fcdbe1bfc2aae73adfa898f572e8e9ba5e0ff0ba3b3c3",
+  "features_sha256": "abf1da25075672e2395c485c530e31c085b7337ca1a8b2ae1a88ab7e95039d35",
+  "elapsed_seconds": 66.72841455700109
+}

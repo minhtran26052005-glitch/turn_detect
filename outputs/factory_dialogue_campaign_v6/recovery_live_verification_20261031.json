@@ -1,0 +1,54 @@
+{
+  "state": {
+    "attempts": {
+      "en": 1964,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 574,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 1892,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 50831,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "984ad7b29fda00d22888fe8b45f5fdb23fe078fd18b2570da8e66bad5edc9f40",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 72,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 1892,
+      "vi": 10000
+    }
+  },
+  "owner": {
+    "boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+    "module": "factory_dialogue_campaign_v8",
+    "pid": 5723,
+    "start_ticks": "132478"
+  },
+  "command": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py ",
+  "verified_commit": {
+    "index": 574,
+    "accepted": 30,
+    "rejected": 2,
+    "examples": 786,
+    "object_sha256": "59b6857fa12605edf8a51efa391e4a0f466a86f9195a161a6d2feb005d3628a5",
+    "readback_verified": true,
+    "chain_link_verified": true
+  },
+  "drive_identity_verified": true,
+  "gpu": "19746, 23034, 100",
+  "colab_free_gib": 177.77,
+  "sample_language": "en",
+  "sample_paragraph": "I've checked the labels on the last three batches from shift A and noticed the batch code is missing on two units from record R187. The printer seems to be offline during the last 15 minutes of the run. I'll need to verify if the system logs show any print queue issues during that time.",
+  "checked_utc": "2026-10-31T03:56:23.248233+00:00",
+  "windows_free_gib": 21.24
+}

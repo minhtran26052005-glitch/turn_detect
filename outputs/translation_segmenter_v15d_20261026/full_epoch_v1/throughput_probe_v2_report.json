@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "sequence_widths": {
+    "64": {
+      "seconds_per_64_row_backward": 0.3215898269997221,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        64,
+        64
+      ],
+      "microbatch": 32,
+      "accumulation": 2,
+      "adamw_step_included": false
+    },
+    "128": {
+      "seconds_per_64_row_backward": 0.4401793143339698,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        128,
+        128
+      ],
+      "microbatch": 32,
+      "accumulation": 2,
+      "adamw_step_included": false
+    },
+    "256": {
+      "seconds_per_64_row_backward": 1.2798912540001766,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        256,
+        256
+      ],
+      "microbatch": 32,
+      "accumulation": 2,
+      "adamw_step_included": false
+    }
+  },
+  "shared_model_architecture": "mdeberta-v3-base",
+  "representative_weights_language": "vi",
+  "synthetic_tokens_only": true,
+  "dataset_reads_or_writes": false,
+  "optimizer_steps": 0,
+  "checkpoint_unchanged": true,
+  "test_or_dev_scored": false,
+  "optimizer_and_storage_overhead_not_included": true,
+  "not_a_quality_evaluation": true
+}

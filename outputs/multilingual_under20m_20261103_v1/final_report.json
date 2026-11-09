@@ -1,0 +1,433 @@
+{
+  "complete": true,
+  "accepted": false,
+  "candidates": [
+    {
+      "candidate": "compact_fp32",
+      "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_fp32",
+      "parameters": 18668738,
+      "parameter_limit_passed": true,
+      "storage_bits": 32,
+      "model_bytes": 74734935,
+      "model_sha256": "ae4e2c8b07172d61919037ac22ad671a1fc3a191c642c12c8229d0f02f970346",
+      "dev": {
+        "threshold": 0.11,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 1,
+            "tn": 1954,
+            "fp": 14,
+            "fn": 89,
+            "accuracy": 0.9499514091350826,
+            "eot_f1": 0.01904761904761905,
+            "eot_precision": 0.06666666666666667,
+            "eot_recall": 0.011111111111111112,
+            "false_share_of_cuts": 0.9333333333333333,
+            "false_positive_rate": 0.007113821138211382
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 1,
+            "tn": 2170,
+            "fp": 13,
+            "fn": 120,
+            "accuracy": 0.9422743055555556,
+            "eot_f1": 0.014814814814814815,
+            "eot_precision": 0.07142857142857142,
+            "eot_recall": 0.008264462809917356,
+            "false_share_of_cuts": 0.9285714285714286,
+            "false_positive_rate": 0.005955107650022904
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 92,
+            "tn": 604,
+            "fp": 221,
+            "fn": 83,
+            "accuracy": 0.696,
+            "eot_f1": 0.3770491803278688,
+            "eot_precision": 0.2939297124600639,
+            "eot_recall": 0.5257142857142857,
+            "false_share_of_cuts": 0.7060702875399361,
+            "false_positive_rate": 0.2678787878787879
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 28,
+            "tn": 1451,
+            "fp": 517,
+            "fn": 62,
+            "accuracy": 0.7186588921282799,
+            "eot_f1": 0.08818897637795275,
+            "eot_precision": 0.05137614678899083,
+            "eot_recall": 0.3111111111111111,
+            "false_share_of_cuts": 0.9486238532110092,
+            "false_positive_rate": 0.2627032520325203
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 35,
+            "tn": 1636,
+            "fp": 547,
+            "fn": 86,
+            "accuracy": 0.7252604166666666,
+            "eot_f1": 0.09957325746799431,
+            "eot_precision": 0.06013745704467354,
+            "eot_recall": 0.2892561983471074,
+            "false_share_of_cuts": 0.9398625429553265,
+            "false_positive_rate": 0.2505726065048099
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 92,
+            "tn": 604,
+            "fp": 221,
+            "fn": 83,
+            "accuracy": 0.696,
+            "eot_f1": 0.3770491803278688,
+            "eot_precision": 0.2939297124600639,
+            "eot_recall": 0.5257142857142857,
+            "false_share_of_cuts": 0.7060702875399361,
+            "false_positive_rate": 0.2678787878787879
+          }
+        },
+        "score": 0.014814814814814815,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false,
+        "zh": false
+      },
+      "test_used": false
+    },
+    {
+      "candidate": "compact_int8",
+      "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int8",
+      "parameters": 18668738,
+      "parameter_limit_passed": true,
+      "storage_bits": 8,
+      "model_bytes": 19445526,
+      "model_sha256": "0cc4d8e6de0964bf49fe587b337468159c4126fe73991e6e5fad75399361dd72",
+      "dev": {
+        "threshold": 0.11,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 1,
+            "tn": 1954,
+            "fp": 14,
+            "fn": 89,
+            "accuracy": 0.9499514091350826,
+            "eot_f1": 0.01904761904761905,
+            "eot_precision": 0.06666666666666667,
+            "eot_recall": 0.011111111111111112,
+            "false_share_of_cuts": 0.9333333333333333,
+            "false_positive_rate": 0.007113821138211382
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 1,
+            "tn": 2170,
+            "fp": 13,
+            "fn": 120,
+            "accuracy": 0.9422743055555556,
+            "eot_f1": 0.014814814814814815,
+            "eot_precision": 0.07142857142857142,
+            "eot_recall": 0.008264462809917356,
+            "false_share_of_cuts": 0.9285714285714286,
+            "false_positive_rate": 0.005955107650022904
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 90,
+            "tn": 605,
+            "fp": 220,
+            "fn": 85,
+            "accuracy": 0.695,
+            "eot_f1": 0.3711340206185567,
+            "eot_precision": 0.2903225806451613,
+            "eot_recall": 0.5142857142857142,
+            "false_share_of_cuts": 0.7096774193548387,
+            "false_positive_rate": 0.26666666666666666
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 28,
+            "tn": 1451,
+            "fp": 517,
+            "fn": 62,
+            "accuracy": 0.7186588921282799,
+            "eot_f1": 0.08818897637795275,
+            "eot_precision": 0.05137614678899083,
+            "eot_recall": 0.3111111111111111,
+            "false_share_of_cuts": 0.9486238532110092,
+            "false_positive_rate": 0.2627032520325203
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 35,
+            "tn": 1635,
+            "fp": 548,
+            "fn": 86,
+            "accuracy": 0.7248263888888888,
+            "eot_f1": 0.09943181818181818,
+            "eot_precision": 0.060034305317324184,
+            "eot_recall": 0.2892561983471074,
+            "false_share_of_cuts": 0.9399656946826758,
+            "false_positive_rate": 0.2510306917086578
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 90,
+            "tn": 605,
+            "fp": 220,
+            "fn": 85,
+            "accuracy": 0.695,
+            "eot_f1": 0.3711340206185567,
+            "eot_precision": 0.2903225806451613,
+            "eot_recall": 0.5142857142857142,
+            "false_share_of_cuts": 0.7096774193548387,
+            "false_positive_rate": 0.26666666666666666
+          }
+        },
+        "score": 0.014814814814814815,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false,
+        "zh": false
+      },
+      "test_used": false
+    },
+    {
+      "candidate": "compact_int4_g64",
+      "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g64",
+      "parameters": 18668738,
+      "parameter_limit_passed": true,
+      "storage_bits": 4,
+      "model_bytes": 10126900,
+      "model_sha256": "5bdaad5858e6fc0096616f76ed3027095b086c428f26a7dd08cfecddec65e8a9",
+      "dev": {
+        "threshold": 0.1,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 5,
+            "tn": 1817,
+            "fp": 151,
+            "fn": 85,
+            "accuracy": 0.8853255587949466,
+            "eot_f1": 0.04065040650406504,
+            "eot_precision": 0.03205128205128205,
+            "eot_recall": 0.05555555555555555,
+            "false_share_of_cuts": 0.967948717948718,
+            "false_positive_rate": 0.07672764227642276
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 1,
+            "tn": 2175,
+            "fp": 8,
+            "fn": 120,
+            "accuracy": 0.9444444444444444,
+            "eot_f1": 0.015384615384615385,
+            "eot_precision": 0.1111111111111111,
+            "eot_recall": 0.008264462809917356,
+            "false_share_of_cuts": 0.8888888888888888,
+            "false_positive_rate": 0.0036646816307833257
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 11,
+            "tn": 789,
+            "fp": 36,
+            "fn": 164,
+            "accuracy": 0.8,
+            "eot_f1": 0.0990990990990991,
+            "eot_precision": 0.23404255319148937,
+            "eot_recall": 0.06285714285714286,
+            "false_share_of_cuts": 0.7659574468085106,
+            "false_positive_rate": 0.04363636363636364
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 84,
+            "tn": 470,
+            "fp": 1498,
+            "fn": 6,
+            "accuracy": 0.2691933916423712,
+            "eot_f1": 0.10047846889952153,
+            "eot_precision": 0.05309734513274336,
+            "eot_recall": 0.9333333333333333,
+            "false_share_of_cuts": 0.9469026548672567,
+            "false_positive_rate": 0.7611788617886179
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 32,
+            "tn": 1637,
+            "fp": 546,
+            "fn": 89,
+            "accuracy": 0.7243923611111112,
+            "eot_f1": 0.09155937052932761,
+            "eot_precision": 0.05536332179930796,
+            "eot_recall": 0.2644628099173554,
+            "false_share_of_cuts": 0.9446366782006921,
+            "false_positive_rate": 0.25011452130096196
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 11,
+            "tn": 789,
+            "fp": 36,
+            "fn": 164,
+            "accuracy": 0.8,
+            "eot_f1": 0.0990990990990991,
+            "eot_precision": 0.23404255319148937,
+            "eot_recall": 0.06285714285714286,
+            "false_share_of_cuts": 0.7659574468085106,
+            "false_positive_rate": 0.04363636363636364
+          }
+        },
+        "score": 0.015384615384615385,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false,
+        "zh": false
+      },
+      "test_used": false
+    },
+    {
+      "candidate": "compact_int4_g32",
+      "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g32",
+      "parameters": 18668738,
+      "parameter_limit_passed": true,
+      "storage_bits": 4,
+      "model_bytes": 10709314,
+      "model_sha256": "83a278a4f07b3fb88fab173c5cb593b9d8747fbf55d7759d7a157d30cc9ebcb8",
+      "dev": {
+        "threshold": 0.22,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 0,
+            "tn": 1962,
+            "fp": 6,
+            "fn": 90,
+            "accuracy": 0.9533527696793003,
+            "eot_f1": 0.0,
+            "eot_precision": 0.0,
+            "eot_recall": 0.0,
+            "false_share_of_cuts": 1.0,
+            "false_positive_rate": 0.003048780487804878
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 0,
+            "tn": 2179,
+            "fp": 4,
+            "fn": 121,
+            "accuracy": 0.9457465277777778,
+            "eot_f1": 0.0,
+            "eot_precision": 0.0,
+            "eot_recall": 0.0,
+            "false_share_of_cuts": 1.0,
+            "false_positive_rate": 0.0018323408153916628
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 8,
+            "tn": 806,
+            "fp": 19,
+            "fn": 167,
+            "accuracy": 0.814,
+            "eot_f1": 0.07920792079207921,
+            "eot_precision": 0.2962962962962963,
+            "eot_recall": 0.045714285714285714,
+            "false_share_of_cuts": 0.7037037037037037,
+            "false_positive_rate": 0.02303030303030303
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 4,
+            "tn": 1893,
+            "fp": 75,
+            "fn": 86,
+            "accuracy": 0.9217687074829932,
+            "eot_f1": 0.047337278106508875,
+            "eot_precision": 0.05063291139240506,
+            "eot_recall": 0.044444444444444446,
+            "false_share_of_cuts": 0.9493670886075949,
+            "false_positive_rate": 0.038109756097560975
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 3,
+            "tn": 2179,
+            "fp": 4,
+            "fn": 118,
+            "accuracy": 0.9470486111111112,
+            "eot_f1": 0.046875,
+            "eot_precision": 0.42857142857142855,
+            "eot_recall": 0.024793388429752067,
+            "false_share_of_cuts": 0.5714285714285714,
+            "false_positive_rate": 0.0018323408153916628
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 8,
+            "tn": 806,
+            "fp": 19,
+            "fn": 167,
+            "accuracy": 0.814,
+            "eot_f1": 0.07920792079207921,
+            "eot_precision": 0.2962962962962963,
+            "eot_recall": 0.045714285714285714,
+            "false_share_of_cuts": 0.7037037037037037,
+            "false_positive_rate": 0.02303030303030303
+          }
+        },
+        "score": 0.0,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false,
+        "zh": false
+      },
+      "test_used": false
+    }
+  ],
+  "reason": "All candidates meet parameter budget, but none retain all three language quality gates",
+  "parameter_limit_exclusive": 20000000,
+  "test_used": false
+}

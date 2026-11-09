@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "initial_control_model_optimizer_all_rng_order_exact": true,
+  "first100_actual_training_inputs": 1622,
+  "first100_scored": 1600,
+  "all100windows16": true,
+  "causal_inputs_labels_masks_predicted_resets_verified": true,
+  "full_coverage333315": true,
+  "full_resume27optimizer_rng_order_lanes_accumulator_verified": true,
+  "updates": 20833
+}

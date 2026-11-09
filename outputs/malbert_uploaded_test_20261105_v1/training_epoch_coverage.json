@@ -1,0 +1,15 @@
+{
+  "epoch_0001_coverage.json": {
+    "complete": true,
+    "scored_points": 6169873,
+    "expected_eligible_points": 6169873,
+    "all_uploaded_eligible_gaps_visited": true,
+    "source_exposures": {
+      "daily": 3261294,
+      "factory/gen4000": 2321316,
+      "factory/gen500": 253928,
+      "asr/run2b": 333335
+    },
+    "drive_replay_rows": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "historical_report_sha256": "7dc8db72dd8bf09299bc8e88174b799bf63562d691333a853eeeeaf098fb6935",
+  "raw_archive_sha256": "57dbb83c3e5a6a3309d8e6759e9661e372fc421973b78ce08ea9cd1166127bff",
+  "pages_checked_by_prior_complete_scan": 40647,
+  "all_flagged_source_hashes_and_splits_match_restored_raw_database": true,
+  "prior_scan_reused_for_unchanged_cycle84_sources": true,
+  "human_language_or_label_certification": false,
+  "new_generation_record_audit_still_running": true
+}

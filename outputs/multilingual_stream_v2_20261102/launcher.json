@@ -1,0 +1,10 @@
+{
+  "pid": 2827094,
+  "start_ticks": "50410807",
+  "state": "R",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "module": "turn_v2.factory_stream_train_v1",
+  "base_step": 486235,
+  "source_commit": 722,
+  "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d"
+}

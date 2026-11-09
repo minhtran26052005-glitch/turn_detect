@@ -1,0 +1,32 @@
+{
+  "phase": "qat",
+  "epoch": 4,
+  "step": 72,
+  "loss": 0.1826478367050489,
+  "dev": {
+    "zh": {
+      "samples": 855,
+      "threshold": 0.4599999999999999,
+      "accuracy": 0.791812865497076,
+      "eot_precision": 0.9031007751937985,
+      "eot_recall": 0.7845117845117845,
+      "eot_f1": 0.8396396396396396,
+      "joint_score": 0.791812865497076,
+      "false_eot": 50,
+      "missed_eot": 128,
+      "false_eot_rate": 0.19157088122605365,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          211,
+          50
+        ],
+        [
+          128,
+          466
+        ]
+      ]
+    }
+  },
+  "minimum_language_joint_score": 0.791812865497076,
+  "elapsed_seconds": 9.61714869899879
+}

@@ -1,0 +1,20 @@
+{
+  "checked_unix": 1793670044.614239,
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "pid": 10402,
+  "start_ticks": "245097",
+  "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v9/factory_spoken_campaign_v9.py ",
+  "owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 10402,
+    "start_ticks": "245097"
+  },
+  "io": "rchar: 115967724\nwchar: 4260046\nsyscr: 13560\nsyscw: 186\nread_bytes: 353267712\nwrite_bytes: 4669440\ncancelled_write_bytes: 4096\n",
+  "wchan": "folio_wait_bit_common",
+  "colab_free_gib": 235.5617446899414,
+  "log_tail": "",
+  "public_model_cache_bytes": 0,
+  "gpu": "0 %, 0 MiB, 23034 MiB",
+  "checked_utc": "2026-11-03T01:40:44.511202+00:00"
+}

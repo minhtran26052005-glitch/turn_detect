@@ -1,0 +1,7 @@
+{
+  "user_requested": true,
+  "removed": [
+    "outputs/compression_20261024/work/int8_quint8_no_constfold/model.onnx"
+  ],
+  "reports_data_retained": true
+}

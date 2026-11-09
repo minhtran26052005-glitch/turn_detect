@@ -1,0 +1,93 @@
+{
+  "overall": {
+    "samples": 1682,
+    "threshold": 0.5449999999999999,
+    "accuracy": 0.6099881093935791,
+    "eot_precision": 0.6100123609394313,
+    "eot_recall": 0.9752964426877471,
+    "eot_f1": 0.7505703422053231,
+    "joint_score": 0.6099881093935791,
+    "false_eot": 631,
+    "missed_eot": 25,
+    "false_eot_rate": 0.9417910447761194,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        39,
+        631
+      ],
+      [
+        25,
+        987
+      ]
+    ]
+  },
+  "slices": {
+    "livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 403,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.45409429280397023,
+      "eot_precision": 0.4214876033057851,
+      "eot_recall": 0.9386503067484663,
+      "eot_f1": 0.5817490494296578,
+      "joint_score": 0.45409429280397023,
+      "false_eot": 210,
+      "missed_eot": 10,
+      "false_eot_rate": 0.875,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          30,
+          210
+        ],
+        [
+          10,
+          153
+        ]
+      ]
+    },
+    "natural": {
+      "samples": 77,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.6493506493506493,
+      "eot_precision": 0.6578947368421053,
+      "eot_recall": 0.9803921568627451,
+      "eot_f1": 0.7874015748031497,
+      "joint_score": 0.6493506493506493,
+      "false_eot": 26,
+      "missed_eot": 1,
+      "false_eot_rate": 1.0,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          50
+        ]
+      ]
+    },
+    "scicom_read_speech": {
+      "samples": 1202,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.6597337770382695,
+      "eot_precision": 0.6649703138252756,
+      "eot_recall": 0.9824561403508771,
+      "eot_f1": 0.7931208902377339,
+      "joint_score": 0.6597337770382695,
+      "false_eot": 395,
+      "missed_eot": 14,
+      "false_eot_rate": 0.9777227722772277,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9,
+          395
+        ],
+        [
+          14,
+          784
+        ]
+      ]
+    }
+  },
+  "natural_target_met": false
+}

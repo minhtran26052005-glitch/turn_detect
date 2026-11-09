@@ -1,0 +1,39 @@
+{
+  "data_status.json": {
+    "at_utc": "2026-10-27T12:22:48.243817+00:00",
+    "stage": "REEXTRACTING_ALL_TRAIN_DEV_SOURCES",
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "source_cycle": 84,
+    "language": "en",
+    "processed_pages": 1,
+    "total_pages": 40647,
+    "generated_rows": 34
+  },
+  "encoding_cache_parity.json": {
+    "complete": true,
+    "examples_checked": 3000,
+    "all3_languages": true,
+    "model_inference": false,
+    "encoder_mathematically_identical": true
+  },
+  "campaign_status.json": {
+    "campaign": "translation_segmenter_full_epoch_v6",
+    "status": "RUNNING",
+    "stage": "WAITING_FOR_COMPLETE_THREE_LANGUAGE_DATA_AUDIT",
+    "heartbeat_utc": "2026-10-27T12:22:50.534366+00:00",
+    "pid": 13944,
+    "qwen_judge_enabled": false,
+    "quality_target_certified": false
+  },
+  "backup_manifest": {
+    "captured_at_utc": "2026-10-27T12:21:23.165930+00:00",
+    "pass_complete": true,
+    "full_recovery_available": true,
+    "required_restore_for_full_epoch": "turn_v2.restore_full_epoch_campaign_v6",
+    "verified_active_campaign_source": {
+      "module": "turn_v2.translation_segmenter_full_campaign_v6",
+      "source_sha256": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614"
+    }
+  },
+  "backup_data_sha256": "57dbb83c3e5a6a3309d8e6759e9661e372fc421973b78ce08ea9cd1166127bff"
+}

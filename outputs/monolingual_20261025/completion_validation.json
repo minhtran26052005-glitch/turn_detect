@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "passed": 37,
+  "total": 37,
+  "checks": [
+    {
+      "check": "technical_finalization_checks",
+      "passed": true
+    },
+    {
+      "check": "explicit_separate_paths",
+      "passed": true
+    },
+    {
+      "check": "vi:regression_case_alignment",
+      "passed": true
+    },
+    {
+      "check": "vi:regression_recomputed",
+      "passed": true
+    },
+    {
+      "check": "vi:weights_exact",
+      "passed": true
+    },
+    {
+      "check": "en:regression_case_alignment",
+      "passed": true
+    },
+    {
+      "check": "en:regression_recomputed",
+      "passed": true
+    },
+    {
+      "check": "en:weights_exact",
+      "passed": true
+    },
+    {
+      "check": "zh:regression_case_alignment",
+      "passed": true
+    },
+    {
+      "check": "zh:regression_recomputed",
+      "passed": true
+    },
+    {
+      "check": "zh:weights_exact",
+      "passed": true
+    },
+    {
+      "check": "en:uploaded_source_matches:monolingual_teacher.py",
+      "passed": true
+    },
+    {
+      "check": "en:uploaded_source_matches:monolingual_student.py",
+      "passed": true
+    },
+    {
+      "check": "en:uploaded_source_matches:monolingual_data.py",
+      "passed": true
+    },
+    {
+      "check": "en:executed_teacher_source",
+      "passed": true
+    },
+    {
+      "check": "en:teacher_job_completed",
+      "passed": true
+    },
+    {
+      "check": "en:student_job_completed",
+      "passed": true
+    },
+    {
+      "check": "en:language_isolation:train",
+      "passed": true
+    },
+    {
+      "check": "en:language_isolation:dev",
+      "passed": true
+    },
+    {
+      "check": "en:teacher_saved_locally",
+      "passed": true
+    },
+    {
+      "check": "zh:uploaded_source_matches:monolingual_teacher.py",
+      "passed": true
+    },
+    {
+      "check": "zh:uploaded_source_matches:monolingual_student.py",
+      "passed": true
+    },
+    {
+      "check": "zh:uploaded_source_matches:monolingual_data.py",
+      "passed": true
+    },
+    {
+      "check": "zh:executed_teacher_source",
+      "passed": true
+    },
+    {
+      "check": "zh:teacher_job_completed",
+      "passed": true
+    },
+    {
+      "check": "zh:student_job_completed",
+      "passed": true
+    },
+    {
+      "check": "zh:language_isolation:train",
+      "passed": true
+    },
+    {
+      "check": "zh:language_isolation:dev",
+      "passed": true
+    },
+    {
+      "check": "zh:teacher_saved_locally",
+      "passed": true
+    },
+    {
+      "check": "VI_accepted_weights_unchanged",
+      "passed": true
+    },
+    {
+      "check": "crawl_not_fake_gold",
+      "passed": true
+    },
+    {
+      "check": "player_actual_private_model_predictions",
+      "passed": true
+    },
+    {
+      "check": "player_JS_syntax",
+      "passed": true
+    },
+    {
+      "check": "previous39_notebook_cells_preserved",
+      "passed": true
+    },
+    {
+      "check": "notebook_real_Colab_execution",
+      "passed": true
+    },
+    {
+      "check": "59_tests_passed",
+      "passed": true
+    },
+    {
+      "check": "no_unseen_quality_overclaim",
+      "passed": true
+    }
+  ],
+  "quality_target_certified": false,
+  "scope": "Technical architecture/provenance/metrics checks; not a model quality certificate"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "reported": true,
+  "reported_utc": "2026-11-02T08:51:29.769866+00:00",
+  "dev_target_met_vi_en": true,
+  "trilingual_policy_accepted": false,
+  "candidate_threshold": 0.75,
+  "baseline_threshold": 0.53,
+  "frozen_branch_step": 29200,
+  "training_modified": false,
+  "test_rescored": false,
+  "precision_worker_exited": true,
+  "trainer_observed": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-02T08:51:28.896253+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 521255,
+    "base_step": 486235,
+    "branch_step": 35020,
+    "current_language": "zh",
+    "counts": {
+      "vi": 891951,
+      "en": 901073,
+      "zh": 448256
+    },
+    "epochs": {
+      "vi": 0,
+      "en": 0
+    },
+    "loss": 0.06642054234980606,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "zh_file_remote_sha256": "03461bcdf66990d1b01acfb61e50cf28e9f6bc7e44044bd8197fb0de8f858ef0",
+  "windows_free_gib": 23.676414489746094
+}

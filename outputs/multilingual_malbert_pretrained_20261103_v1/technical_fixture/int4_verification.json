@@ -1,0 +1,140 @@
+{
+  "parameters": 11941122,
+  "parameter_limit_exclusive": 20000000,
+  "storage_bits": 4,
+  "compute_precision": "FP32",
+  "logits_parity_max_delta": 1.6391277313232422e-06,
+  "padding_max_delta": 0.0,
+  "matrices": [
+    {
+      "name": "backbone.embeddings.word_embeddings.weight",
+      "shape": [
+        32000,
+        128
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.embeddings.position_embeddings.weight",
+      "shape": [
+        512,
+        128
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.embeddings.token_type_embeddings.weight",
+      "shape": [
+        2,
+        128
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.embedding_hidden_mapping_in.weight",
+      "shape": [
+        768,
+        128
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.query.weight",
+      "shape": [
+        768,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.key.weight",
+      "shape": [
+        768,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.value.weight",
+      "shape": [
+        768,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.dense.weight",
+      "shape": [
+        768,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.ffn.weight",
+      "shape": [
+        3072,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.ffn_output.weight",
+      "shape": [
+        768,
+        3072
+      ],
+      "bits": 4
+    },
+    {
+      "name": "backbone.pooler.weight",
+      "shape": [
+        768,
+        768
+      ],
+      "bits": 4
+    },
+    {
+      "name": "classifier.weight",
+      "shape": [
+        2,
+        768
+      ],
+      "bits": 4
+    }
+  ],
+  "packed_int4": true,
+  "qat_scales_preserved": true,
+  "variable_length_checks": [
+    {
+      "length": 4,
+      "max_delta": 1.1920928955078125e-06
+    },
+    {
+      "length": 6,
+      "max_delta": 1.0794028639793396e-06
+    },
+    {
+      "length": 4,
+      "max_delta": 1.6689300537109375e-06
+    },
+    {
+      "length": 13,
+      "max_delta": 1.5795230865478516e-06
+    },
+    {
+      "length": 6,
+      "max_delta": 2.5033950805664062e-06
+    },
+    {
+      "length": 30,
+      "max_delta": 1.3709068298339844e-06
+    }
+  ],
+  "model_sha256": "7745fff78f930b6e673328fb62f7fd5e12ac797451b79b95e11278538c3c654e",
+  "technical_fixture_only": true,
+  "actual_qat_step": 1,
+  "all_matrix_gradients_nonzero": true,
+  "qat_vs_actual_packed_delta": 1.6391277313232422e-06,
+  "quality_evaluated": false
+}

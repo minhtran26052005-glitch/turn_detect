@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/gedabk/turn-detection-service",
+  "commit": "e3914a0d3d696fbadd6071af68cf0319b2aa2e57",
+  "private": true,
+  "test_samples": 360,
+  "test_full_in_git": false,
+  "dev_and_test_reports_in_git": true,
+  "checks": {
+    "pytest_passed": 8,
+    "synthetic_colab_train_infer_distill": true,
+    "colab_training_cpu_backend_emulation": true,
+    "saved_test_traces_match_report": true,
+    "github_tree_matches_local": false,
+    "legacy_cli_help_and_int4_grouping": true,
+    "readme_metrics_match_c75_report": true,
+    "readme_examples_match_saved_predictions": 6
+  },
+  "drive_source_backup": {
+    "scope": "code, reports and 360 test samples only; no model weights or full corpus",
+    "commit": "165c0bc151d283936c1590a20201b641c2c75802",
+    "sha256": "fa6efc0143af493cc345d40e1eddb0788353094405505ade19986058232b3e2c",
+    "bytes": 146719,
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/handoff/source_fa6efc0143af493cc345d40e1eddb0788353094405505ade19986058232b3e2c.zip",
+    "sha256_readback_verified": true,
+    "note": "Backup contains the previous commit; latest code is on GitHub."
+  },
+  "at_utc": "2026-10-28T09:01:37.262899+00:00"
+}

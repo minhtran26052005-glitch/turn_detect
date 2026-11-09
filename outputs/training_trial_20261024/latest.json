@@ -1,0 +1,251 @@
+{
+  "run_name": "trial_gold_20261024_093324",
+  "status": {
+    "status": "COMPLETED",
+    "started_at_utc": "2026-10-24T02:33:24.473412+00:00",
+    "root": "/content/turn_detect_v2",
+    "output": "/content/turn_detect_v2/runs/trial_gold_20261024_093324",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.train",
+      "--data",
+      "data_v2/frozen",
+      "--model",
+      "microsoft/mdeberta-v3-base",
+      "--revision",
+      "a0484667b22365f84929a935b5e50a51f71f159d",
+      "--output",
+      "runs/trial_gold_20261024_093324",
+      "--epochs",
+      "3",
+      "--max-steps",
+      "2000",
+      "--batch-size",
+      "16",
+      "--accumulation",
+      "2",
+      "--eval-steps",
+      "250",
+      "--precision",
+      "fp32",
+      "--seed",
+      "42",
+      "--export"
+    ],
+    "hard_timeout_seconds": 7200,
+    "supervisor_pid": 182560,
+    "training_pid": 182561,
+    "elapsed_seconds": 1190.0821702480316,
+    "heartbeat_unix": 1792810384.5547833,
+    "progress": {
+      "event": "training_finished_finalizing_artifacts",
+      "updated_at_unix": 1792810321.9400153,
+      "elapsed_seconds": 1060.0274894237518,
+      "step": 2000,
+      "max_steps": 2000,
+      "epoch": 0.20305599268998425,
+      "best_model_checkpoint": "runs/trial_gold_20261024_093324/checkpoints/checkpoint-1750",
+      "best_metric": 0.905483651226158,
+      "metrics": {
+        "loss": 0.2044780158996582,
+        "grad_norm": 2.4819912910461426,
+        "learning_rate": 1.3962203067041657e-11,
+        "epoch": 0.20305599268998425,
+        "eval_loss": 0.19536802172660828,
+        "eval_samples": 17833,
+        "eval_threshold": 0.5,
+        "eval_accuracy": 0.9366343296136377,
+        "eval_eot_precision": 0.8621748263047342,
+        "eval_eot_recall": 0.9506502761446641,
+        "eval_eot_f1": 0.9042535163531605,
+        "eval_joint_score": 0.9042535163531605,
+        "eval_false_eot": 853,
+        "eval_missed_eot": 277,
+        "eval_false_eot_rate": 0.06980360065466448,
+        "eval_runtime": 31.1012,
+        "eval_samples_per_second": 573.387,
+        "eval_steps_per_second": 35.851,
+        "train_runtime": 1059.1556,
+        "train_samples_per_second": 60.425,
+        "train_steps_per_second": 1.888,
+        "total_flos": 1643947355652096.0,
+        "train_loss": 0.24302668380737305
+      }
+    },
+    "exit_code": 0,
+    "finished_at_utc": "2026-10-24T02:53:14.555584+00:00",
+    "optimizer_steps": 2000,
+    "dev_selected_threshold": {
+      "samples": 17833,
+      "threshold": 0.49999999999999994,
+      "accuracy": 0.9377558459036618,
+      "eot_precision": 0.8672320991681618,
+      "eot_recall": 0.9472652770354534,
+      "eot_f1": 0.905483651226158,
+      "joint_score": 0.905483651226158,
+      "false_eot": 814,
+      "missed_eot": 296,
+      "false_eot_rate": 0.06661211129296235,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11406,
+          814
+        ],
+        [
+          296,
+          5317
+        ]
+      ]
+    }
+  },
+  "progress": {
+    "event": "training_finished_finalizing_artifacts",
+    "updated_at_unix": 1792810321.9400153,
+    "elapsed_seconds": 1060.0274894237518,
+    "step": 2000,
+    "max_steps": 2000,
+    "epoch": 0.20305599268998425,
+    "best_model_checkpoint": "runs/trial_gold_20261024_093324/checkpoints/checkpoint-1750",
+    "best_metric": 0.905483651226158,
+    "metrics": {
+      "loss": 0.2044780158996582,
+      "grad_norm": 2.4819912910461426,
+      "learning_rate": 1.3962203067041657e-11,
+      "epoch": 0.20305599268998425,
+      "eval_loss": 0.19536802172660828,
+      "eval_samples": 17833,
+      "eval_threshold": 0.5,
+      "eval_accuracy": 0.9366343296136377,
+      "eval_eot_precision": 0.8621748263047342,
+      "eval_eot_recall": 0.9506502761446641,
+      "eval_eot_f1": 0.9042535163531605,
+      "eval_joint_score": 0.9042535163531605,
+      "eval_false_eot": 853,
+      "eval_missed_eot": 277,
+      "eval_false_eot_rate": 0.06980360065466448,
+      "eval_runtime": 31.1012,
+      "eval_samples_per_second": 573.387,
+      "eval_steps_per_second": 35.851,
+      "train_runtime": 1059.1556,
+      "train_samples_per_second": 60.425,
+      "train_steps_per_second": 1.888,
+      "total_flos": 1643947355652096.0,
+      "train_loss": 0.24302668380737305
+    }
+  },
+  "report": {
+    "mode": "FULL_DEV_SELECTION",
+    "gpu": "NVIDIA L4",
+    "elapsed_seconds": 1093.5367251110001,
+    "optimizer_steps": 2000,
+    "train_samples": 315174,
+    "dev_samples": 17833,
+    "silver_samples_available": 0,
+    "silver_samples_in_training_dataset": 0,
+    "train_metrics": {
+      "train_runtime": 1059.1556,
+      "train_samples_per_second": 60.425,
+      "train_steps_per_second": 1.888,
+      "train_loss": 0.24302668380737305,
+      "epoch": 0.20305599268998425
+    },
+    "dev_argmax": {
+      "samples": 17833,
+      "threshold": 0.5,
+      "accuracy": 0.9377558459036618,
+      "eot_precision": 0.8672320991681618,
+      "eot_recall": 0.9472652770354534,
+      "eot_f1": 0.905483651226158,
+      "joint_score": 0.905483651226158,
+      "false_eot": 814,
+      "missed_eot": 296,
+      "false_eot_rate": 0.06661211129296235,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11406,
+          814
+        ],
+        [
+          296,
+          5317
+        ]
+      ]
+    },
+    "dev_selected_threshold": {
+      "samples": 17833,
+      "threshold": 0.49999999999999994,
+      "accuracy": 0.9377558459036618,
+      "eot_precision": 0.8672320991681618,
+      "eot_recall": 0.9472652770354534,
+      "eot_f1": 0.905483651226158,
+      "joint_score": 0.905483651226158,
+      "false_eot": 814,
+      "missed_eot": 296,
+      "false_eot_rate": 0.06661211129296235,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11406,
+          814
+        ],
+        [
+          296,
+          5317
+        ]
+      ]
+    },
+    "target": {
+      "accuracy": 0.9,
+      "eot_f1": 0.9
+    },
+    "holdout_evaluated": false,
+    "target_achieved": false,
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.1",
+      "datasets": "4.8.5",
+      "accelerate": "1.15.0"
+    },
+    "data_identity": {
+      "manifest_sha256": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+      "seed": 42,
+      "model": "microsoft/mdeberta-v3-base",
+      "base_model_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+      "max_length": 256,
+      "silver_sha256": null,
+      "training_settings": {
+        "lr": 2e-05,
+        "epochs": 3.0,
+        "max_steps": 2000,
+        "batch_size": 16,
+        "accumulation": 2,
+        "precision": "fp32"
+      },
+      "code_sha256": {
+        "train.py": "966f8919661a34a8f0361e6a11ab7cb786eed56786eca6f4ec7a2fcf17750e38",
+        "common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+        "metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+        "prepare.py": "6d20bf618d28ade8c0a9cb02986d9b21004d22f3f88d103d2bc2a5e3cc8e438d"
+      }
+    },
+    "base_model_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+    "export": {
+      "format": "FP32_ONNX",
+      "samples": 8,
+      "batch_size": 1,
+      "max_abs_prob_EOT_delta": 1.7022459967153125e-06,
+      "argmax_classes_equal": true,
+      "passed": true,
+      "quantized": false,
+      "note": "INT8 requires separate dev/holdout parity and batch-sensitivity evaluation"
+    }
+  },
+  "log_tail": "001,\n  \"optimizer_steps\": 2000,\n  \"train_samples\": 315174,\n  \"dev_samples\": 17833,\n  \"silver_samples_available\": 0,\n  \"silver_samples_in_training_dataset\": 0,\n  \"train_metrics\": {\n    \"train_runtime\": 1059.1556,\n    \"train_samples_per_second\": 60.425,\n    \"train_steps_per_second\": 1.888,\n    \"train_loss\": 0.24302668380737305,\n    \"epoch\": 0.20305599268998425\n  },\n  \"dev_argmax\": {\n    \"samples\": 17833,\n    \"threshold\": 0.5,\n    \"accuracy\": 0.9377558459036618,\n    \"eot_precision\": 0.8672320991681618,\n    \"eot_recall\": 0.9472652770354534,\n    \"eot_f1\": 0.905483651226158,\n    \"joint_score\": 0.905483651226158,\n    \"false_eot\": 814,\n    \"missed_eot\": 296,\n    \"false_eot_rate\": 0.06661211129296235,\n    \"confusion_matrix_NEOT_EOT\": [\n      [\n        11406,\n        814\n      ],\n      [\n        296,\n        5317\n      ]\n    ]\n  },\n  \"dev_selected_threshold\": {\n    \"samples\": 17833,\n    \"threshold\": 0.49999999999999994,\n    \"accuracy\": 0.9377558459036618,\n    \"eot_precision\": 0.8672320991681618,\n    \"eot_recall\": 0.9472652770354534,\n    \"eot_f1\": 0.905483651226158,\n    \"joint_score\": 0.905483651226158,\n    \"false_eot\": 814,\n    \"missed_eot\": 296,\n    \"false_eot_rate\": 0.06661211129296235,\n    \"confusion_matrix_NEOT_EOT\": [\n      [\n        11406,\n        814\n      ],\n      [\n        296,\n        5317\n      ]\n    ]\n  },\n  \"target\": {\n    \"accuracy\": 0.9,\n    \"eot_f1\": 0.9\n  },\n  \"holdout_evaluated\": false,\n  \"target_achieved\": false,\n  \"versions\": {\n    \"torch\": \"2.11.0+cu130\",\n    \"transformers\": \"5.20.1\",\n    \"datasets\": \"4.8.5\",\n    \"accelerate\": \"1.15.0\"\n  },\n  \"data_identity\": {\n    \"manifest_sha256\": \"1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc\",\n    \"seed\": 42,\n    \"model\": \"microsoft/mdeberta-v3-base\",\n    \"base_model_revision\": \"a0484667b22365f84929a935b5e50a51f71f159d\",\n    \"max_length\": 256,\n    \"silver_sha256\": null,\n    \"training_settings\": {\n      \"lr\": 2e-05,\n      \"epochs\": 3.0,\n      \"max_steps\": 2000,\n      \"batch_size\": 16,\n      \"accumulation\": 2,\n      \"precision\": \"fp32\"\n    },\n    \"code_sha256\": {\n      \"train.py\": \"966f8919661a34a8f0361e6a11ab7cb786eed56786eca6f4ec7a2fcf17750e38\",\n      \"common.py\": \"f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece\",\n      \"metrics.py\": \"e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde\",\n      \"prepare.py\": \"6d20bf618d28ade8c0a9cb02986d9b21004d22f3f88d103d2bc2a5e3cc8e438d\"\n    }\n  },\n  \"base_model_revision\": \"a0484667b22365f84929a935b5e50a51f71f159d\",\n  \"export\": {\n    \"format\": \"FP32_ONNX\",\n    \"samples\": 8,\n    \"batch_size\": 1,\n    \"max_abs_prob_EOT_delta\": 1.7022459967153125e-06,\n    \"argmax_classes_equal\": true,\n    \"passed\": true,\n    \"quantized\": false,\n    \"note\": \"INT8 requires separate dev/holdout parity and batch-sensitivity evaluation\"\n  }\n}\n",
+  "gpu": "0 %, 270 MiB, 23034 MiB",
+  "checkpoints": [
+    "checkpoint-1750",
+    "checkpoint-2000"
+  ],
+  "observed_at_utc": "2026-10-24T02:53:17.748479+00:00"
+}

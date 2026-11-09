@@ -1,0 +1,67 @@
+{
+  "complete": true,
+  "at_utc": "2026-11-04T01:58:04.793455+00:00",
+  "checkpoint_step": 827000,
+  "threshold": 0.75,
+  "current_runtime_changed": false,
+  "new_model_inference_or_test_rerun": false,
+  "model_or_threshold_selection_from_test": false,
+  "facts": {
+    "same_checkpoint_original_dev_f1": {
+      "vi": 0.7784431137724551,
+      "en": 0.8617886178861789
+    },
+    "original_dev_streams": {
+      "vi": 24,
+      "en": 24,
+      "mixed": 24
+    },
+    "new_zip_dev_f1": {
+      "en": 0.25125628140703515,
+      "vi": 0.17878359264497878
+    },
+    "new_zip_test_f1": {
+      "en": 0.24489795918367346,
+      "vi": 0.1613564884452345
+    },
+    "all_train_eot_share": 0.0878012801280128,
+    "additional_train_eot_rows": 8288,
+    "additional_train_rows": 199960,
+    "additional_train_eot_share": 0.041448289657931583,
+    "additional_context_modes": {
+      "reference_reset_train_only": 98383,
+      "fragment_train_only": 49531,
+      "rolling": 52046
+    },
+    "additional_context_mode_shares": {
+      "reference_reset_train_only": 0.4920134026805361,
+      "fragment_train_only": 0.24770454090818164,
+      "rolling": 0.26028205641128227
+    },
+    "fixed_cached_inputs_do_not_follow_current_student_predicted_reset_history": true,
+    "false_cuts_with_p_at_least_099": {
+      "count": 4202,
+      "all_false_cuts": 5508,
+      "share": 0.7628903413217138
+    },
+    "missed_eot_with_p_at_most_001": {
+      "count": 6719,
+      "all_missed_eot": 6952,
+      "share": 0.9664844649021864
+    }
+  },
+  "interpretation": {
+    "confirmed": "Weak transfer to the broader source/protocol distribution, unrepresentative original periodic DEV, and highly confident wrong predictions in the saved trace. Training input history differs by construction from predicted-reset inference.",
+    "plausible_contributors": [
+      "Source/style shift and unrepresentative calibration data",
+      "Fixed reference-reset/fragment TRAIN histories versus predicted-reset inference",
+      "Sparse EOT supervision and repeated fitting of the same sampled inputs"
+    ],
+    "not_established": [
+      "How much each factor contributes without controlled DEV-only ablation",
+      "Whether the 11.94M parameter limit is the limiting cause",
+      "That more epochs with unchanged sampling/loss would solve the gap"
+    ],
+    "next_priority_proposal_only": "Build a representative family-disjoint VI/EN DEV from eligible DEV sources after excluding known train overlap; assess TRAIN hard negatives and predicted-reset-history training there; preserve the viewed TEST as a diagnostic reference."
+  }
+}

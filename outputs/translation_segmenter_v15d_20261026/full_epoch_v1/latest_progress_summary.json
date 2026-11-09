@@ -1,0 +1,213 @@
+{
+  "checked_at_utc": "2026-10-28T06:58:48.662926+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "boot_id": "9dbdcd11-af99-4cff-be48-4bcfec9ba926",
+  "status": "RUNNING_VERIFIED",
+  "campaign_process_verified": true,
+  "child_process_verified": true,
+  "backup_process_verified": true,
+  "active_child": {
+    "pid": 50877,
+    "start_ticks": "1239905",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_train_v5",
+      "--language",
+      "vi",
+      "--generation",
+      "cycle000084_full_epoch_contiguous_v1",
+      "--epoch",
+      "1",
+      "--budget",
+      "500"
+    ],
+    "module": "turn_v2.translation_segmenter_full_train_v5",
+    "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/runs/cycle000084_full_epoch_contiguous_v1/vi/epoch_0001.log"
+  },
+  "gpu": "Tesla T4, 100 %, 6241 MiB",
+  "languages": {
+    "vi": {
+      "epoch": 1,
+      "seen_rows": 844160,
+      "total_rows": 1618675,
+      "coverage": 0.5215129658516997,
+      "epoch_step": 13190,
+      "checkpoint_epoch_step": 13163,
+      "train_weighted_loss": 0.4277599337387643
+    },
+    "en": {
+      "epoch": 1,
+      "seen_rows": 864000,
+      "total_rows": 876968,
+      "coverage": 0.9852126873500515,
+      "epoch_step": 13500,
+      "checkpoint_epoch_step": 13500,
+      "train_weighted_loss": 0.34293032010150337
+    },
+    "zh": {
+      "epoch": 1,
+      "seen_rows": 748800,
+      "total_rows": 4868059,
+      "coverage": 0.15381900671294246,
+      "epoch_step": 11700,
+      "checkpoint_epoch_step": 11700,
+      "train_weighted_loss": 0.45283444732138783
+    }
+  },
+  "cache_status": {
+    "en_dev.json": {
+      "stage": "COMPLETE",
+      "at_utc": "2026-10-28T06:39:38.426450+00:00",
+      "pid": 50876,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "en",
+      "split": "dev",
+      "rows_committed": 109888,
+      "total_rows": 109888,
+      "CPU_only": true,
+      "GPU_lock_held": false,
+      "rows_per_second": 798.3759655058573
+    },
+    "en_train.json": {
+      "stage": "COMPLETE",
+      "at_utc": "2026-10-28T05:03:15.056788+00:00",
+      "pid": 27003,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "en",
+      "split": "train",
+      "rows_committed": 876968,
+      "total_rows": 876968,
+      "CPU_only": true,
+      "GPU_lock_held": false,
+      "rows_per_second": 4421.756980697526
+    },
+    "zh_train.json": {
+      "stage": "COMPLETE",
+      "at_utc": "2026-10-28T06:24:28.215554+00:00",
+      "pid": 33797,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "zh",
+      "split": "train",
+      "rows_committed": 4868059,
+      "total_rows": 4868059,
+      "CPU_only": true,
+      "GPU_lock_held": false,
+      "rows_per_second": 1427.5487535045418
+    },
+    "vi_train.json": {
+      "stage": "COMPLETE",
+      "at_utc": "2026-10-28T05:16:01.210240+00:00",
+      "pid": 27826,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "vi",
+      "split": "train",
+      "rows_committed": 1618675,
+      "total_rows": 1618675,
+      "CPU_only": true,
+      "GPU_lock_held": false,
+      "rows_per_second": 2117.6396844371993
+    }
+  },
+  "drive": {
+    "status": {
+      "stage": "SYNCED",
+      "at_utc": "2026-10-28T06:57:45.336238+00:00",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+      "verified_files": 66,
+      "full_recovery_available": true,
+      "files": 66,
+      "data_cycle": 84,
+      "logical_bytes": 35880303444,
+      "object_bytes": 39123645759,
+      "pruned_objects": 2,
+      "next_check_seconds": 900
+    },
+    "manifest": {
+      "captured_at_utc": "2026-10-28T06:57:45.229597+00:00",
+      "pass_complete": true,
+      "full_recovery_available": true,
+      "full_epoch_recipe_supported": true,
+      "missing_recovery_files": [],
+      "active_campaign_launcher": {
+        "pid": 3071,
+        "start_ticks": "69643",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v8"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v8",
+        "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+        "log": "/content/turn_detect_v2/restore_full_epoch_control_v7/worker.log",
+        "restore_receipt": "/content/turn_detect_v2/restore_full_epoch_control_v7/restore_receipt.json"
+      }
+    },
+    "resume_receipts": {
+      "vi": {
+        "cycle": 84,
+        "cycle_step": 13100,
+        "total_steps": 14500,
+        "bytes": 3362177675,
+        "training_fingerprint": "f2cfc55e4493fead0f5257e11a82c60bc3013dc44d14d6b82fc0049e5f8a952a",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 838400,
+        "full_epoch_rows": 1618675,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.42787454498884564,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      },
+      "en": {
+        "cycle": 84,
+        "cycle_step": 13500,
+        "total_steps": 14900,
+        "bytes": 3354757963,
+        "training_fingerprint": "e0c5fc5a18a01d95655116a80377c15435b3c8f54014c8b260f7dc28f5b3dfd4",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 864000,
+        "full_epoch_rows": 876968,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.34293032010150337,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      },
+      "zh": {
+        "cycle": 84,
+        "cycle_step": 11700,
+        "total_steps": 13100,
+        "bytes": 3394672203,
+        "training_fingerprint": "f1a7be2ebcb8bdd9204ca127ee7b64821892f880b7bd84326ec1e3435fdc5541",
+        "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+        "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+        "full_epoch_number": 1,
+        "full_epoch_cursor": 748800,
+        "full_epoch_rows": 4868059,
+        "full_epoch_complete": false,
+        "epoch_weighted_loss": 0.45283444732138783,
+        "weights_optimizer_rng_and_sampler": true,
+        "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt",
+        "weights_and_optimizer_remote_only": true
+      }
+    }
+  },
+  "remote_free_bytes": 110134185984,
+  "new_dev_or_test_quality_score_available": false,
+  "source_package_independent_status_helper": true
+}

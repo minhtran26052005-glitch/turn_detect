@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-11-02T15:22:07.818329+00:00",
+  "assigned_runtime_count": 0,
+  "first_attempt": {
+    "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+    "matches": 0
+  }
+}

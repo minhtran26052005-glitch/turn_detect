@@ -1,0 +1,13 @@
+{
+  "train_sha256": "74c1ec511e9a90f138ea1be7503f65627c622133809f284f01084e404f55384b",
+  "teacher_tokenizer_sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+  "source": "frozen train only; no dev/holdout tokens used to construct the vocabulary",
+  "train_records": 315174,
+  "observed_train_tokens": 6374049,
+  "original_tokenizer_vocab": 250101,
+  "retained_vocab": 23078,
+  "observed_unique_train_ids": 2142,
+  "character_and_byte_ids": 20968,
+  "segmentation_changed_train": 0,
+  "tokenizer_bytes": 1400784
+}

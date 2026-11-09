@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "turn_v2\\monolingual_data.py",
+      "sha256": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f"
+    },
+    {
+      "path": "turn_v2\\monolingual_runtime.py",
+      "sha256": "c4b01cd18e05e971fddfe1ebff39a47a1c5ef06d0ed97d3c308febd6d21a68e0"
+    },
+    {
+      "path": "turn_v2\\monolingual_standalone.py",
+      "sha256": "f4ca4debf9280cb6b1883c0d308bfba92434b7f6b904b9048898f487f61b6e2a"
+    },
+    {
+      "path": "turn_v2\\monolingual_student.py",
+      "sha256": "d09fb147657012027810d4074b653251fd8026fa11445cf7ea0cf942b7ce8db7"
+    },
+    {
+      "path": "turn_v2\\monolingual_teacher.py",
+      "sha256": "b18fb5b3dedc25fa051c52274c4a6cfaf05444cc46194be85449c5f75a3b7590"
+    },
+    {
+      "path": "tools\\backup_monolingual_teacher.py",
+      "sha256": "e87b4547d53691f9b98a4c6299e2fa1d2318c6c3df48c53efbcef9056d640663"
+    },
+    {
+      "path": "tools\\finalize_monolingual.py",
+      "sha256": "4b122fe7f72897772e77b840816456a6f9d4e49ec4e785e7d65e6af3d1cc3703"
+    },
+    {
+      "path": "tools\\monolingual_campaign.py",
+      "sha256": "2d97fd04c1acbf5718c44474b06dfef25469eaa8c161441182e99b5d35fbe26b"
+    },
+    {
+      "path": "tools\\monolingual_colab.py",
+      "sha256": "bdf3502c21decaf4d3407d89be8c5de7f4b17d8aff5e565d2d3536ef79f82942"
+    },
+    {
+      "path": "tools\\report_monolingual.py",
+      "sha256": "5e39604aa582ca04c48cd85093517e7a95ff2b53c1efdc2f9fcfa96f8ac0a470"
+    },
+    {
+      "path": "tools\\validate_monolingual.py",
+      "sha256": "3b909cf0abba7951160e0da781d6b67729fec28b6dae45bdce879be18b308aff"
+    },
+    {
+      "path": "tools\\templates\\monolingual_status_cell.py",
+      "sha256": "0b6254cfcab0999dc821e7051d00453dd63d944b720932ee281ece5eb33dee2d"
+    },
+    {
+      "path": "tests\\test_monolingual.py",
+      "sha256": "506975c030d91fb8da7d6cea1b5ae64a56cd11f4e25b17ff20490973e6e7c7a3"
+    },
+    {
+      "path": "README_MONOLINGUAL.md",
+      "sha256": "8b49c50397ab3688c21bf8922c404bc94941fd97b4308ce580fe82d2fabaaa61"
+    },
+    {
+      "path": "a.ipynb",
+      "sha256": "ac955a0185ed19bf96c6ab919de98f48faddd39d90e926f853d4e4c366a0cdca"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"status\": \"GRACEFUL_RECOVERY_OF_BOOTSTRAP_ERROR\", \"old_pid\": 175985, \"reason\": \"Legacy dev rows can omit source_id; source identity optional, exact-input protection retained\", \"model_optimizer_updates_before_error\": 0, \"old_source_sha256\": {\"turn_v2/continuous_v13.py\": \"93c6c40644eb756186e1bf3279f1cb02a4ec3ac20b6cfb14963cae87cce56cc2\", \"turn_v2/continuous_v13_state.py\": \"acb1e0b594afbe09cf4de2b69f3f77415f3060b43ed0764f6105594e815a8f7c\"}}\n"
+    }
+  ],
+  "elapsed_seconds": 10.639999999984866
+}

@@ -1,0 +1,39 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "launcher": {
+    "pid": 4496,
+    "start_ticks": "101591",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "/content/turn_detect_old_dev_c75_vi_v1/worker.py"
+    ],
+    "source_sha256": "494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9"
+  },
+  "config": {
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+    "identity": {
+      "campaign": "translation_segmenter_v15d",
+      "nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+      "destination_kind": "user_mounted_google_drive",
+      "intended_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+    },
+    "dev_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+    "old_predictions_sha256": "a315c9bc2badbffbacaf4380e8eb0805c4847e71d74cf4b790d2bae718da9dea",
+    "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+    "threshold": 0.6599999999999999,
+    "parent_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+    "frozen_model_reference": {
+      "folder": "diagnostic_test_c75_v1",
+      "logical_path": "frozen/vi/model.safetensors",
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "cycle": 75
+    },
+    "user_request": "Evaluate frozen new VI model on original17833 legacy dev; fixed threshold, no model training"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "vi": {
+    "rows": 865075,
+    "source_pages": 8258,
+    "total_optimizer_steps": 1100,
+    "microbatch": 32,
+    "gradient_accumulation": 2,
+    "total_training_row_draws": 70400,
+    "upper_bound_unique_current_rows_seen_fraction": 0.08138022714793515,
+    "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+  },
+  "en": {
+    "rows": 449514,
+    "source_pages": 7406,
+    "total_optimizer_steps": 1100,
+    "microbatch": 32,
+    "gradient_accumulation": 2,
+    "total_training_row_draws": 70400,
+    "upper_bound_unique_current_rows_seen_fraction": 0.15661358711853246,
+    "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+  },
+  "zh": {
+    "rows": 1128617,
+    "source_pages": 7735,
+    "total_optimizer_steps": 1100,
+    "microbatch": 32,
+    "gradient_accumulation": 2,
+    "total_training_row_draws": 70400,
+    "upper_bound_unique_current_rows_seen_fraction": 0.06237722805876573,
+    "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+  }
+}

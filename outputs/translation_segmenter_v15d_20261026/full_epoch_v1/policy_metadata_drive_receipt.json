@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "scope": "small_policy_metadata_only",
+  "directory": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/full_epoch_v1/policy_v6_metadata",
+  "files": {
+    "README.md": {
+      "sha256": "6686e375932a3e342f559f27bb031c781bc7a24212c36640603fe7dd7b023ef2",
+      "bytes": 7458
+    },
+    "implementation_receipt.json": {
+      "sha256": "8c04b4ad5fa57b07d93030dacd3eecaae9044382955e5c1ccbbf89790490f4d8",
+      "bytes": 8176
+    },
+    "status_receipt.json": {
+      "sha256": "55611b4fc3b4a52d5d9fd4b129a61a0ba2b5580ddd56628966ff68964ab33a92",
+      "bytes": 13420
+    },
+    "restored_source_script_audit_adoption.json": {
+      "sha256": "4287aee1e25cb1686eeafbe0346eb9566f0ed5006ba74a41f6be7fcd66f71846",
+      "bytes": 487
+    },
+    "local_check_receipt.json": {
+      "sha256": "8c84bc24cb9a8c728cb5078676f6f53a4aec976f4e852340052949764c91d3cd",
+      "bytes": 432
+    }
+  },
+  "no_large_Windows_transfer": true
+}

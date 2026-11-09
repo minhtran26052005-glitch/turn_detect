@@ -1,0 +1,13 @@
+{
+  "cycle": 45,
+  "language": "zh",
+  "step": 100,
+  "steps": 100,
+  "total_steps": 100,
+  "loss": 0.6375749409198761,
+  "train_samples": 539995,
+  "dev_samples": 72484,
+  "parameters": 278810882,
+  "GPU_peak_GiB": 5.282273769378662,
+  "qwen_judge_enabled": false
+}

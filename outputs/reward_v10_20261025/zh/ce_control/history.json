@@ -1,0 +1,224 @@
+[
+  {
+    "step": 75,
+    "threshold": 0.145,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 339,
+        "threshold": 0.145,
+        "accuracy": 0.6106194690265486,
+        "eot_precision": 0.453416149068323,
+        "eot_recall": 0.6239316239316239,
+        "eot_f1": 0.5251798561151079,
+        "joint_score": 0.5251798561151079,
+        "false_eot": 88,
+        "missed_eot": 44,
+        "false_eot_rate": 0.3963963963963964,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            134,
+            88
+          ],
+          [
+            44,
+            73
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 69,
+        "threshold": 0.145,
+        "accuracy": 0.7101449275362319,
+        "eot_precision": 0.7796610169491526,
+        "eot_recall": 0.8679245283018868,
+        "eot_f1": 0.8214285714285714,
+        "joint_score": 0.7101449275362319,
+        "false_eot": 13,
+        "missed_eot": 7,
+        "false_eot_rate": 0.8125,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            3,
+            13
+          ],
+          [
+            7,
+            46
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 448,
+        "threshold": 0.145,
+        "accuracy": 0.9285714285714286,
+        "eot_precision": 0.9476082004555809,
+        "eot_recall": 0.9788235294117648,
+        "eot_f1": 0.9629629629629629,
+        "joint_score": 0.9285714285714286,
+        "false_eot": 23,
+        "missed_eot": 9,
+        "false_eot_rate": 1.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            0,
+            23
+          ],
+          [
+            9,
+            416
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.5251798561151079,
+    "natural_target_met": false
+  },
+  {
+    "step": 150,
+    "threshold": 0.065,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 339,
+        "threshold": 0.065,
+        "accuracy": 0.5339233038348082,
+        "eot_precision": 0.4072398190045249,
+        "eot_recall": 0.7692307692307693,
+        "eot_f1": 0.5325443786982249,
+        "joint_score": 0.5325443786982249,
+        "false_eot": 131,
+        "missed_eot": 27,
+        "false_eot_rate": 0.5900900900900901,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            91,
+            131
+          ],
+          [
+            27,
+            90
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 69,
+        "threshold": 0.065,
+        "accuracy": 0.6811594202898551,
+        "eot_precision": 0.7540983606557377,
+        "eot_recall": 0.8679245283018868,
+        "eot_f1": 0.8070175438596491,
+        "joint_score": 0.6811594202898551,
+        "false_eot": 15,
+        "missed_eot": 7,
+        "false_eot_rate": 0.9375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1,
+            15
+          ],
+          [
+            7,
+            46
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 448,
+        "threshold": 0.065,
+        "accuracy": 0.9397321428571429,
+        "eot_precision": 0.9481981981981982,
+        "eot_recall": 0.9905882352941177,
+        "eot_f1": 0.9689298043728424,
+        "joint_score": 0.9397321428571429,
+        "false_eot": 23,
+        "missed_eot": 4,
+        "false_eot_rate": 1.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            0,
+            23
+          ],
+          [
+            4,
+            421
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.5325443786982249,
+    "natural_target_met": false
+  },
+  {
+    "step": 225,
+    "threshold": 0.055,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 339,
+        "threshold": 0.055,
+        "accuracy": 0.5339233038348082,
+        "eot_precision": 0.4055299539170507,
+        "eot_recall": 0.7521367521367521,
+        "eot_f1": 0.5269461077844312,
+        "joint_score": 0.5269461077844312,
+        "false_eot": 129,
+        "missed_eot": 29,
+        "false_eot_rate": 0.581081081081081,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            93,
+            129
+          ],
+          [
+            29,
+            88
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 69,
+        "threshold": 0.055,
+        "accuracy": 0.6811594202898551,
+        "eot_precision": 0.7540983606557377,
+        "eot_recall": 0.8679245283018868,
+        "eot_f1": 0.8070175438596491,
+        "joint_score": 0.6811594202898551,
+        "false_eot": 15,
+        "missed_eot": 7,
+        "false_eot_rate": 0.9375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1,
+            15
+          ],
+          [
+            7,
+            46
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 448,
+        "threshold": 0.055,
+        "accuracy": 0.9397321428571429,
+        "eot_precision": 0.9481981981981982,
+        "eot_recall": 0.9905882352941177,
+        "eot_f1": 0.9689298043728424,
+        "joint_score": 0.9397321428571429,
+        "false_eot": 23,
+        "missed_eot": 4,
+        "false_eot_rate": 1.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            0,
+            23
+          ],
+          [
+            4,
+            421
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.5269461077844312,
+    "natural_target_met": false
+  }
+]

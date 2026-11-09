@@ -1,0 +1,110 @@
+{
+  "checked_utc": "2026-11-05T07:09:55.182257+00:00",
+  "status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T07:09:53.100042+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2088980,
+    "branch_step": 623900,
+    "epoch": 2,
+    "uploaded_rows_seen": 9808072,
+    "uploaded_origin_exposures": {
+      "daily": 5191037,
+      "factory/gen4000": 3698528,
+      "factory/gen500": 398992,
+      "asr/run2b": 519515
+    },
+    "loss": 0.0020685840863734484,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "tasks_assigned": 20419,
+    "total_tasks": 34602
+  },
+  "resume_receipt": {
+    "step": 2088580,
+    "branch_step": 623500,
+    "epoch": 1,
+    "tasks_assigned": 20376,
+    "active_lanes": 16,
+    "optimizer_entries": 27,
+    "uploaded_rows_seen": 9801785,
+    "uploaded_origin_exposures": {
+      "daily": 5187672,
+      "factory/gen4000": 3695928,
+      "factory/gen500": 398992,
+      "asr/run2b": 519193
+    },
+    "parameters": 11941122,
+    "source_order_cursor_and_all_rng_preserved": true,
+    "drive_replay_rows": 0
+  },
+  "complete_epochs": {
+    "epoch_0001_coverage.json": {
+      "complete": true,
+      "scored_points": 6169873,
+      "expected_eligible_points": 6169873,
+      "all_uploaded_eligible_gaps_visited": true,
+      "source_exposures": {
+        "daily": 3261294,
+        "factory/gen4000": 2321316,
+        "factory/gen500": 253928,
+        "asr/run2b": 333335
+      },
+      "drive_replay_rows": 0
+    }
+  },
+  "train": {
+    "streams": 17301,
+    "source_rows": 198509,
+    "words": 3373257,
+    "origin:daily:streams": 12504,
+    "en:k1:NEOT": 1432483,
+    "en:k2:NEOT": 1348585,
+    "en:k1:EOT": 68301,
+    "en:k2:EOT": 67359,
+    "vi:k1:NEOT": 1610582,
+    "vi:k2:NEOT": 1528066,
+    "vi:k1:EOT": 57316,
+    "vi:k2:EOT": 57181,
+    "origin:factory/gen500:streams": 510,
+    "origin:asr/run2b:streams": 210,
+    "origin:factory/gen4000:streams": 4077
+  },
+  "sources": [
+    "daily",
+    "factory/gen500",
+    "asr/run2b",
+    "factory/gen4000"
+  ],
+  "exclusions": {
+    "daily:raw:test": 9514,
+    "daily:raw:dev": 9678,
+    "daily:raw:train": 169930,
+    "daily:excluded_turn:not_kept_or_hard_check": 1305,
+    "daily:excluded_turn:short": 2760,
+    "daily:excluded_turn:noncontiguous_chunks": 6,
+    "factory/gen500:raw:train": 8198,
+    "factory/gen500:excluded_turn:not_kept_or_hard_check": 102,
+    "asr/run2b:raw:train": 12415,
+    "asr/run2b:excluded_turn:not_kept_or_hard_check": 103,
+    "asr/run2b:excluded_turn:noncontiguous_chunks": 1,
+    "factory/gen4000:raw:train": 64947,
+    "factory/gen4000:excluded_turn:not_kept_or_hard_check": 147,
+    "daily:excluded_turn:duplicate_source": 6333,
+    "daily:excluded_turn:held_family": 38092,
+    "factory/gen500:excluded_turn:held_family": 669,
+    "factory/gen500:excluded_turn:duplicate_source": 1,
+    "factory/gen4000:excluded_turn:duplicate_source": 27,
+    "factory/gen4000:excluded_turn:held_family": 20
+  },
+  "no_active_error": true
+}

@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "launcher": {
+    "pid": 873860,
+    "start_ticks": "16570173",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.multilingual_malbert_vi_en_curriculum_train_v6",
+    "source_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+      "uploaded_vi_en_curriculum_data_v6.py": "842d989887094805a39784c65d8f17b08267904c7d0d0b85fbcc0de54a9bcb73",
+      "uploaded_vi_en_curriculum_evaluation_v6.py": "5bfa670178356143939a5f869d4c1ab1d9ede0ab4b322bfe12152451b5c0b99d",
+      "multilingual_malbert_vi_en_curriculum_train_v6.py": "c1d577d133462d89cf99b99e63cca1a858853955e1f7b812c24f18de80341503",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+      "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+    }
+  },
+  "parent_step": 2624058,
+  "step": 2624558,
+  "branch_step": 500,
+  "curriculum_stage": 0,
+  "curriculum_family_fraction": 0.1,
+  "stage_scored_exposures": 7928,
+  "actual_causal_training_inputs_audited": 1582,
+  "actual_optimizer_updates_audited": 100,
+  "all_labels_conflict_masks_source_future_and_predicted_resets_verified": true,
+  "model_optimizer_and_global_rng_preserved_at_cutover": true,
+  "initial_stage_sampler_permutation_verified": true,
+  "parent_sampler_order_lanes_kept_in_full_pin": true,
+  "optimizer_entries": 27,
+  "all_weights_finite_and_changed_after_training": true,
+  "parameters": 11941122,
+  "full_filtered_epochs_complete": 0,
+  "new_checkpoint_sha256": "fc91f9290bc7dabed252f8a31b052a4f4528b6460a7725ab098204844613e3c8",
+  "manifest_sha256": "1df05f4c3f2e88cea19cdd8c79fa0cf3af5a09ec6a03f8c1b6b555103159c51f",
+  "curriculum_plan_sha256": "2014b6233eb4ca74467314f66bbb495d7f405342fe48228be7bd8c0ec5af90ee",
+  "actual_parent_process_absent": true,
+  "test_used": false
+}

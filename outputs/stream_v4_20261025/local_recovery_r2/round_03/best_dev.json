@@ -1,0 +1,193 @@
+{
+  "round": 3,
+  "step": 200,
+  "languages": {
+    "vi": {
+      "samples": 3600,
+      "threshold": 0.565,
+      "accuracy": 0.9305555555555556,
+      "eot_precision": 0.8555389221556886,
+      "eot_recall": 0.9525,
+      "eot_f1": 0.9014195583596214,
+      "joint_score": 0.9014195583596214,
+      "false_eot": 193,
+      "missed_eot": 57,
+      "false_eot_rate": 0.08041666666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2207,
+          193
+        ],
+        [
+          57,
+          1143
+        ]
+      ]
+    },
+    "en": {
+      "samples": 1605,
+      "threshold": 0.26999999999999996,
+      "accuracy": 0.7040498442367601,
+      "eot_precision": 0.6797337278106509,
+      "eot_recall": 0.9562955254942768,
+      "eot_f1": 0.7946389969736273,
+      "joint_score": 0.7040498442367601,
+      "false_eot": 433,
+      "missed_eot": 42,
+      "false_eot_rate": 0.672360248447205,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          211,
+          433
+        ],
+        [
+          42,
+          919
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 787,
+      "threshold": 0.39499999999999996,
+      "accuracy": 0.7941550190597204,
+      "eot_precision": 0.8492647058823529,
+      "eot_recall": 0.8523985239852399,
+      "eot_f1": 0.850828729281768,
+      "joint_score": 0.7941550190597204,
+      "false_eot": 82,
+      "missed_eot": 80,
+      "false_eot_rate": 0.3346938775510204,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          163,
+          82
+        ],
+        [
+          80,
+          462
+        ]
+      ]
+    }
+  },
+  "slices": {
+    "vi:vi_legacy_rehearsal": {
+      "samples": 3600,
+      "threshold": 0.565,
+      "accuracy": 0.9305555555555556,
+      "eot_precision": 0.8555389221556886,
+      "eot_recall": 0.9525,
+      "eot_f1": 0.9014195583596214,
+      "joint_score": 0.9014195583596214,
+      "false_eot": 193,
+      "missed_eot": 57,
+      "false_eot_rate": 0.08041666666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2207,
+          193
+        ],
+        [
+          57,
+          1143
+        ]
+      ]
+    },
+    "en:livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 403,
+      "threshold": 0.26999999999999996,
+      "accuracy": 0.6947890818858561,
+      "eot_precision": 0.5847457627118644,
+      "eot_recall": 0.8466257668711656,
+      "eot_f1": 0.6917293233082706,
+      "joint_score": 0.6917293233082706,
+      "false_eot": 98,
+      "missed_eot": 25,
+      "false_eot_rate": 0.4083333333333333,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          142,
+          98
+        ],
+        [
+          25,
+          138
+        ]
+      ]
+    },
+    "en:scicom_read_speech": {
+      "samples": 1202,
+      "threshold": 0.26999999999999996,
+      "accuracy": 0.7071547420965059,
+      "eot_precision": 0.6998207885304659,
+      "eot_recall": 0.9786967418546366,
+      "eot_f1": 0.8160919540229885,
+      "joint_score": 0.7071547420965059,
+      "false_eot": 335,
+      "missed_eot": 17,
+      "false_eot_rate": 0.8292079207920792,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          69,
+          335
+        ],
+        [
+          17,
+          781
+        ]
+      ]
+    },
+    "zh:livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 339,
+      "threshold": 0.39499999999999996,
+      "accuracy": 0.7079646017699115,
+      "eot_precision": 0.5616438356164384,
+      "eot_recall": 0.7008547008547008,
+      "eot_f1": 0.623574144486692,
+      "joint_score": 0.623574144486692,
+      "false_eot": 64,
+      "missed_eot": 35,
+      "false_eot_rate": 0.2882882882882883,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          158,
+          64
+        ],
+        [
+          35,
+          82
+        ]
+      ]
+    },
+    "zh:scicom_read_speech": {
+      "samples": 448,
+      "threshold": 0.39499999999999996,
+      "accuracy": 0.859375,
+      "eot_precision": 0.9547738693467337,
+      "eot_recall": 0.8941176470588236,
+      "eot_f1": 0.9234507897934386,
+      "joint_score": 0.859375,
+      "false_eot": 18,
+      "missed_eot": 45,
+      "false_eot_rate": 0.782608695652174,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          18
+        ],
+        [
+          45,
+          380
+        ]
+      ]
+    }
+  },
+  "thresholds": {
+    "vi": 0.565,
+    "en": 0.26999999999999996,
+    "zh": 0.39499999999999996
+  },
+  "minimum_slice_joint_score": 0.623574144486692,
+  "development_all_slices_over_90": false,
+  "independent_real_three_language_success": false,
+  "acceptance_blocker": "No independent real-pause Vietnamese gold; legacy VI is a text-prefix proxy"
+}

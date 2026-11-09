@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"pid\": 334873, \"start_ticks\": \"8116122\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.translation_segmenter_v15b\", \"--steps\", \"100\", \"--microbatch\", \"32\", \"--queries-per-language\", \"4\", \"--pages-per-query\", \"25\"], \"log\": \"outputs/translation_segmenter_v15b_20261026/worker_1.log\", \"source_sha256\": \"a1d7f744a0662fa8a72dde8b638ebee0f4125ad61f11e07f64ff981d4365a52b\", \"qwen_judge_enabled\": false, \"max_cycles\": 0, \"global_timeout\": null}\n"
+    }
+  ],
+  "elapsed_seconds": 0.2970000000004802
+}

@@ -1,0 +1,34 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "root": "/content/turn_detection_handoff_qa_4e44482bdc2b",
+    "processes": {
+      "smoke": {
+        "pid": 76158,
+        "start_ticks": "1858222",
+        "command": [
+          "/usr/bin/python3",
+          "scripts/smoke_colab.py"
+        ],
+        "log": "/content/turn_detection_handoff_qa_4e44482bdc2b/smoke.log"
+      },
+      "traces": {
+        "pid": 76159,
+        "start_ticks": "1858222",
+        "command": [
+          "/usr/bin/python3",
+          "-m",
+          "turn_detection.summarize_test",
+          "--input",
+          "/content/turn_detection_handoff_qa_4e44482bdc2b/trace"
+        ],
+        "log": "/content/turn_detection_handoff_qa_4e44482bdc2b/traces.log"
+      }
+    }
+  }
+}

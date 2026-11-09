@@ -1,0 +1,34 @@
+{
+  "teacher": {
+    "backend": "PyTorch FP32 CPU teacher",
+    "batch_size": 1,
+    "threads": 2,
+    "timed_calls": 120,
+    "cases": 24,
+    "median_ms": 12.7113935,
+    "p95_ms": 34.076977299999996,
+    "mean_ms": 15.982426066666669,
+    "peak_process_rss_bytes": 2009550848,
+    "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+    "current_process_rss_bytes": 1486737408,
+    "legacy_ru_maxrss_not_used": 2009550848,
+    "measurement_includes_normalization_and_tokenization": true,
+    "shared_host_not_isolated": true
+  },
+  "compressed": {
+    "backend": "ONNX Runtime CPU, matrix storage precision from contract",
+    "batch_size": 1,
+    "threads": 2,
+    "timed_calls": 120,
+    "cases": 24,
+    "median_ms": 8.966085,
+    "p95_ms": 30.54159395,
+    "mean_ms": 12.610156258333332,
+    "peak_process_rss_bytes": 1700372480,
+    "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+    "current_process_rss_bytes": 746131456,
+    "legacy_ru_maxrss_not_used": 1700372480,
+    "measurement_includes_normalization_and_tokenization": true,
+    "shared_host_not_isolated": true
+  }
+}

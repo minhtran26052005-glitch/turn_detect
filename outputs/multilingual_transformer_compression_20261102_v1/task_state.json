@@ -1,0 +1,14 @@
+{
+  "phase": "COMPLETE",
+  "accepted": true,
+  "reported_complete": true,
+  "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+  "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+  "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+  "tiny_retention_passed": false,
+  "cpu_quality_package_sha_verification_passed": true,
+  "backed_up_to_drive": false,
+  "reported_utc": "2026-11-02T11:00:45.490856+00:00",
+  "meets_new_user_under20m_parameter_requirement": false,
+  "size_requirement_superseded_by": "multilingual_under20m_20261103_v1"
+}

@@ -1,0 +1,18 @@
+{
+  "tools\\benchmark_compact.py": "8317d4d39b0c6abb3471df18e7c2015a7dd4c1d0c3c79708ab186a7c70df03e3",
+  "tools\\build_notebook.py": "a2d984163769e0fe9a0fad0bb6763fc497234a9b6d9d9f16263f37ca7f872703",
+  "tools\\colab_runtime.py": "9a29505a5dff583a968215e16edd5f54d2e2277421f4b42d7c9dd4ff842bb19b",
+  "tools\\collect_trial.py": "f161a0653b7c20d41889a720f2aabd2c126d4492f7c3da8d386d7db2ccaa439e",
+  "tools\\extend_crawl_notebook.py": "4e39aedfc08459d1a5fef4684381c0f33b662a194629601c919fbe51e62b7289",
+  "tools\\finalize_compression.py": "25c223109eae88e4ff8e93d3ad8ed41bb73737b46fde31dacfcbace978798ad9",
+  "tools\\monitor_trial.py": "f1e773c218aed5829f3b5d19a8b25b64f977e461b0a7a33bf7b2220fd5a3c9ea",
+  "tools\\publish_compact_colab.py": "859c215b1ba922c18d2afc1a1701f2417991234b8126e3c53a360978717c2577",
+  "tools\\report_compact.py": "1771b3f9b4decd9af8ce723e1c1843c9bd914b7af972026bc99f4168f506665c",
+  "tools\\report_trial.py": "2d29d508b5f10b270e5c93e1c72347974f01449d5727523b5c7710aadd57772f",
+  "tools\\run_notebook_colab.py": "6b4f755a3e94699c84ae22489c8969085d0db3b9bc9672a9b91128b8fc265925",
+  "tools\\sync_colab.py": "626862708a8b672fe1a0e3099376a996e11d83dbc65af6ac4905aa3b3e18773d",
+  "tools\\train_supervisor.py": "aed3c596deadc61ce20c9ef33bf787be651d3d08a6d2221ef943e0df5fb905ea",
+  "tools\\update_compact_notebook.py": "93f90acbb3d6ebac8570b4f48edfefb0509265b2ebd426984be57c05f95e2693",
+  "tools\\upload_colab_model.py": "bf5e0712f5974bad013b2d10ed0b976e51437c34a5bf9d80e4a844292f4884d1",
+  "tools\\validate_compact.py": "8fdf035f5e2d85ecfd477256394fa35a900f233efdc2a51bfad1aa2f5f47362f"
+}

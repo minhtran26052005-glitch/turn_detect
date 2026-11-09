@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "reported": true,
+  "phase": "COMPLETE",
+  "parent_paused": true,
+  "adopted": false,
+  "auto_resume_authorized": false,
+  "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+  "checkpoint_step": 3731173,
+  "selected_threshold": 0.03,
+  "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+  "completion_verification_passed": true,
+  "no_training": true,
+  "no_test": true
+}

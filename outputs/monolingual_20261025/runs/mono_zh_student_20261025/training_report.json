@@ -1,0 +1,83 @@
+{
+  "status": "TRILINGUAL_STUDENT_DISTILL_QAT_COMPLETE",
+  "phases": [
+    {
+      "phase": "distill",
+      "optimizer_steps": 180,
+      "epochs": 10,
+      "best_epoch": 7,
+      "dev": {
+        "zh": {
+          "samples": 855,
+          "threshold": 0.48499999999999993,
+          "accuracy": 0.7941520467836257,
+          "eot_precision": 0.9163346613545816,
+          "eot_recall": 0.7744107744107744,
+          "eot_f1": 0.8394160583941606,
+          "joint_score": 0.7941520467836257,
+          "false_eot": 42,
+          "missed_eot": 134,
+          "false_eot_rate": 0.16091954022988506,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              219,
+              42
+            ],
+            [
+              134,
+              460
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "phase": "qat",
+      "optimizer_steps": 72,
+      "epochs": 4,
+      "best_epoch": 1,
+      "dev": {
+        "zh": {
+          "samples": 855,
+          "threshold": 0.49499999999999994,
+          "accuracy": 0.7929824561403509,
+          "eot_precision": 0.9064327485380117,
+          "eot_recall": 0.7828282828282829,
+          "eot_f1": 0.8401084010840109,
+          "joint_score": 0.7929824561403509,
+          "false_eot": 48,
+          "missed_eot": 129,
+          "false_eot_rate": 0.1839080459770115,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              213,
+              48
+            ],
+            [
+              129,
+              465
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "config": {
+    "model_type": "deberta-v2",
+    "architecture": "tiny_turn_gru",
+    "vocab_size": 13419,
+    "embedding_size": 64,
+    "hidden_size": 128,
+    "layers": 1,
+    "teacher_size": 768,
+    "pad_token_id": 0
+  },
+  "deployment_parameters": 991426,
+  "data_manifest_sha256": "5b5e5482290cefc8a6c4affa1e5f82be267e854541726163f4fa3dbdde6ef002",
+  "teacher_checkpoint_sha256": "4c5bac37dc95496b430b223a101861c6c9a1468358c8574d80bf396e24c1ae13",
+  "train_samples": 4380,
+  "dev_samples": 855,
+  "test_evaluated": false,
+  "elapsed_seconds": 9.61808449900127,
+  "old_holdout_evaluated": false
+}

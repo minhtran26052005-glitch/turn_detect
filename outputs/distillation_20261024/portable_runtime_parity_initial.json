@@ -1,0 +1,10 @@
+{
+  "full_dev_input_encoding_rows": 17833,
+  "edge_cases": 4,
+  "changed_encoded_rows": 0,
+  "inference_samples": 132,
+  "max_probability_delta": 0.0,
+  "same_predictions": true,
+  "passed": true,
+  "runtime": "numpy + tokenizers + onnxruntime; standalone source has no torch/transformers imports"
+}

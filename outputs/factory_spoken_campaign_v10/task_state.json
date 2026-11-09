@@ -1,0 +1,145 @@
+{
+  "phase": "REMOTE_STATUS_UNKNOWN_NO_ASSIGNED_RUNTIME",
+  "authorized_active_languages": [
+    "vi",
+    "en"
+  ],
+  "language_change_user_authorized": true,
+  "user_instruction": "bỏ tiếng trung nhé, tất cả bỏ tiếng trung focus vào chỉ tiếng anh và tiếng việt, check cả colab",
+  "authorized_transition_boot": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "authorized_old_pid": 10402,
+  "authorized_old_start_ticks": "245097",
+  "repeat_until_user_stop": true,
+  "quota_per_language": 10000,
+  "order": [
+    "vi",
+    "en"
+  ],
+  "drive_output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9",
+  "training_eligible": false,
+  "notified_generation_milestones": [],
+  "last_notified_issue_key": "spoken_v10_api_sessions_http404_after_eb59f31a_113294",
+  "handover_completed": true,
+  "checked_utc": "2026-11-04T03:43:35.408000+00:00",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "actual_colab_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "pid": 113294,
+  "start_ticks": "2625926",
+  "verified_resumed_generation": true,
+  "last_verified_state": {
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "attempts": {
+      "en": 0,
+      "vi": 30248,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1499,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6912,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 176125,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 23336,
+      "zh": 0
+    },
+    "schema": 10,
+    "total_counts": {
+      "en": 0,
+      "vi": 6912,
+      "zh": 0
+    }
+  },
+  "last_verified_unix": 1793694829.0774467,
+  "source_sha256": {
+    "factory_spoken_campaign_v10.py": "3565e04b1b1cb77fbcb949b2d6631ccace704b741925559fc8af9599900d54ce",
+    "factory_spoken_spec_v2.py": "8ddf6485e1875a2a45e45df1334685282892870f9ca5282f76d646ff3743bbd1",
+    "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "transition_receipt_sha256": "aeb4d5dc59df19f2cfa0b6ddebc1aaf17e7d7b4efaecd491a3b3a0407add6abb",
+  "language_policy_sha256": "a7ce7e1b6531c864017fd34a68e52beb9b0514ee333f13d9a9d43e05a4cadeb9",
+  "session_selection": {
+    "selection": "explicit_known_owner_boot_with_verified_drive_and_all_runtime_process_probes",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "assigned_runtime_count": 1,
+    "selected_matching_sessions": 2,
+    "selected_views_verified": true,
+    "other_runtimes_have_no_generation_worker": true,
+    "other_runtime_boots": []
+  },
+  "reported_language_handover": true,
+  "last_reported_handover": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "pid": 113294,
+    "verified_commit": 1488
+  },
+  "windows_free_gib": 20.122352600097656,
+  "spare_runtime_removed": {
+    "boot_id": "e024f0d6-1375-4f0c-9d60-250856f083b5",
+    "no_gpu_job": true,
+    "no_generation_or_training_job": true,
+    "only_default_content": true,
+    "python_service_pids": [
+      89,
+      148,
+      1164,
+      1689
+    ],
+    "server_id": "r-da2fb26e-9962-4341-b6b7-f8e8c3c6ef03",
+    "label": "Colab GPU L4 (1)",
+    "user_authorized_spare_runtime_shutdown": true,
+    "checked_utc": "2026-11-03T08:34:52.975415+00:00",
+    "action": "Colab: Remove Server via VS Code",
+    "removed_server_absent_from_assignments": true,
+    "assigned_runtime_count_after": 1,
+    "active_owner": {
+      "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+      "module": "factory_spoken_campaign_v10",
+      "pid": 113294,
+      "start_ticks": "2625926"
+    },
+    "active_worker_continued_generation_verified": true,
+    "verified_post_shutdown_commit": 1499,
+    "commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+    "object_sha256": "c867434d3ba473d479cef7bc0ef7ad83cd76622d68edbe165cced34dd0b4e5d3",
+    "object_readback_verified": true,
+    "reported": true
+  },
+  "current_generation_verified": false,
+  "current_worker_liveness": "UNKNOWN",
+  "current_counters": null,
+  "discovery": {
+    "checked_utc": "2026-11-04T03:42:21.341731+00:00",
+    "assigned_runtime_count": 0,
+    "runtime_checks": []
+  },
+  "last_notified_issue_utc": "2026-11-03T17:36:27.145080+00:00",
+  "user_stop_requested": true,
+  "desired_state": "DISCARDED_BY_USER",
+  "monitoring_enabled": false,
+  "auto_recovery_enabled": false,
+  "actual_worker_state": "UNKNOWN",
+  "physical_stop_verified": false,
+  "stop_attempt_result": "NEED_CURRENT_A_IPYNB_SESSION matches0",
+  "user_request_utc": "2026-11-04T04:12:42.435572+00:00",
+  "preserve_drive_files": true
+}

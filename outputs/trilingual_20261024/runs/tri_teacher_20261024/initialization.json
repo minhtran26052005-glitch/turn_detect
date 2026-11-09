@@ -1,0 +1,8 @@
+{
+  "base_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "control_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "full_vocab_size": 251000,
+  "restored_control_rows": 23078,
+  "mapped_input_probability_delta": 0.0,
+  "initialization": "Restore VI 12-layer encoder/head and known embedding rows; unused full-vocab rows from pretrained mDeBERTa"
+}

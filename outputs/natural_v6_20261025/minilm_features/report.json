@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_TEXT_FEATURES_TRAIN_DEV_ONLY",
+  "encoder": "minilm",
+  "repo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "cases": 1726,
+  "dimensions": 1538,
+  "zero_shot_dev_metrics": null,
+  "sealed_loaded": false,
+  "input": "Same current/past-partner text for both encoders; <=254 mDeBERTa tokens per field; no audio/IDs/timing/labels as features",
+  "feature_transform": "Qwen normalized last assistant state, or MiniLM normalized mean-pooled current/partner plus absdiff/product; two text char-length features",
+  "canonical_manifest_sha256": "26f97f54f544084f466fc325b9cfc09b8f1634ebe3fb0eb15eaf17f0aaa7a735",
+  "source_sha256": "08c453a005bb8a7e275fcdbe1bfc2aae73adfa898f572e8e9ba5e0ff0ba3b3c3",
+  "features_sha256": "38f1587b617974cf81d74963d77461563cbb89ff48fa68828c17573df946fa66",
+  "elapsed_seconds": 2.545783642002789
+}

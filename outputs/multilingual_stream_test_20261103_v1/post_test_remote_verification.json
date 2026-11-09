@@ -1,0 +1,54 @@
+{
+  "checked_unix": 1793679509.3483543,
+  "main_start_ticks": "50410807",
+  "main_cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "main_status": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T04:18:29.077968+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 742565,
+    "base_step": 486235,
+    "branch_step": 256330,
+    "current_language": "zh",
+    "counts": {
+      "vi": 6532051,
+      "en": 6592045,
+      "zh": 3281019
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.05288418371152754,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "main_error_present": false,
+  "evaluator_process_exists": false,
+  "test_status": {
+    "stage": "COMPLETE",
+    "pid": 399406,
+    "start_ticks": "58647694",
+    "at_utc": "2026-11-03T04:15:30.504288+00:00",
+    "training_interrupted": false,
+    "checkpoint_step": 741935,
+    "branch_step": 255700,
+    "report_sha256": "211ff9272be93f72b2baec194b033063749bfe32593b9c1a39cd11dcd7c80ce8"
+  },
+  "test_error_present": false,
+  "completion_verification": {
+    "independent_inferences_audited": 35244,
+    "source_references_and_confusion_counts_verified": true,
+    "causal_buffers_future_words_and_predicted_resets_verified": true,
+    "all_100_pairs_word_conservation_verified": true,
+    "frozen_weights_and_full_optimizer_rng_pin_sha_verified": true,
+    "report_sha256": "211ff9272be93f72b2baec194b033063749bfe32593b9c1a39cd11dcd7c80ce8",
+    "complete": true
+  },
+  "report_sha256": "211ff9272be93f72b2baec194b033063749bfe32593b9c1a39cd11dcd7c80ce8",
+  "ssd_free_gib": 58.95526123046875,
+  "hdd_free_gib": 23.014732360839844,
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "gpu_processes": "2827094, 3662",
+  "checked_utc": "2026-11-03T04:18:29.148791+00:00"
+}

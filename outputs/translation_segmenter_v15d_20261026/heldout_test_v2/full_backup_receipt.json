@@ -1,0 +1,11 @@
+{
+  "manifest_captured_at_utc": "2026-10-26T18:17:48.698684+00:00",
+  "report_sha_matches": true,
+  "trace_sha_matches": {
+    "vi": true,
+    "en": true,
+    "zh": true
+  },
+  "pass_complete": true,
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+}

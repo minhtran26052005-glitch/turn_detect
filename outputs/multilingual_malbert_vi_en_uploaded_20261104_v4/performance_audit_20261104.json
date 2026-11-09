@@ -1,0 +1,54 @@
+{
+  "recorded_utc": "2026-11-04T07:38:03.923940+00:00",
+  "training_status_snapshot_utc": "2026-11-04T07:34:33.235341+00:00",
+  "read_only_measurement": true,
+  "sample_seconds": 6.315106936999655,
+  "logical_cpu_count": 20,
+  "host_cpu_busy_percent": 98.89152810768013,
+  "host_iowait_percent": 0.0,
+  "training_worker_pid": 205061,
+  "worker_cpu_one_core_100_percent": 99.6,
+  "worker_share_of_total_cpu_percent": 4.98,
+  "gpu_utilization_percent_min": 94,
+  "gpu_utilization_percent_max": 97,
+  "gpu_memory_used_mib": 4948,
+  "gpu_memory_total_mib": 24576,
+  "worker_threads_config": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TOKENIZERS_PARALLELISM": "false"
+  },
+  "qnn_jobs": [
+    {
+      "pid": 203667,
+      "cpu_one_core_100_percent": 482.81
+    },
+    {
+      "pid": 203628,
+      "cpu_one_core_100_percent": 473.47
+    },
+    {
+      "pid": 203589,
+      "cpu_one_core_100_percent": 464.76
+    },
+    {
+      "pid": 203706,
+      "cpu_one_core_100_percent": 448.45
+    }
+  ],
+  "qnn_share_of_total_cpu_percent": 93.4745,
+  "qnn_project_directory": "/home/edabk/MinhDuc/zipformer-vi/streaming-vi/zipformer30m_streaming_chunk32/scripts",
+  "qnn_jobs_modified": false,
+  "windows_cpu_percent": 27,
+  "model_config": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_hidden_groups": 1,
+    "embedding_size": 128
+  },
+  "current_train_lanes": 16,
+  "batch_lanes_changed": false,
+  "optimizer_rng_dataset_policy_changed": false,
+  "interpretation": "GPU busy-time utilization is not SM occupancy or a throughput benchmark. Free VRAM alone does not establish a larger-batch speedup. Current host-wide CPU load is dominated by unrelated QNN jobs; the current train is about one logical CPU.",
+  "candidate_performance_work": "Measure points/sec for batch16 versus32 on controlled identical snapshots before considering a versioned handover; CPU encoding and CPU-GPU synchronization are also optimization candidates."
+}

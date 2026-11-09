@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"remote_disk_free_bytes\": 182132101120, \"remote_disk_total_bytes\": 253055008768}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "parent_step": 3731173,
+  "parent_full_sha256": "feb4bc2e6cbd4d8c7fa3148f49edb86500c898045a33cc1db8a334bcc03255a8",
+  "initial_child_sha256": "8bb344b1b0fe81a1574713ab78325c5f98e2d4a5f3ced705a527900dbb02b222",
+  "preserved_exact_fields": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng"
+  ],
+  "optimizer_entries": 27,
+  "parameters": 11941122,
+  "new_asr_order_and_fresh_lanes_explicitly_versioned": true,
+  "parent_order_cursor_lanes_sampler_kept_in_immutable_full_pin": true,
+  "baseline_reused_not_rescored": true,
+  "baseline_dev_sha256": "5505fb1063f2e259b5208f2b405daf17a4fe7f7190fc046e0b1077635000aee2",
+  "shared_training_threshold": 0.1,
+  "base_reset": false,
+  "test_used": false
+}

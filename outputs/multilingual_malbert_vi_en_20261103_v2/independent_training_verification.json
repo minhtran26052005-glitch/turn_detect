@@ -1,0 +1,48 @@
+{
+  "verified": true,
+  "pid": 914852,
+  "start_ticks": "60017417",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_train_v2 ",
+  "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+  "parameters": 11941122,
+  "checkpoint_sha256": "0abc6c507fbaa48de2728c5f4f8e4b9f6cb8c477e5f3e69607d4c2fda5f116fd",
+  "step": 37500,
+  "epoch": 2,
+  "cursor": 124784,
+  "optimizer_entries": 27,
+  "optimizer_step_matches": true,
+  "rng_and_sampler_present": true,
+  "order_is_full_bilingual_permutation": true,
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "train_counts": {
+    "vi": 100000,
+    "en": 100000
+  },
+  "dev_counts": {
+    "vi": 2058,
+    "en": 2304
+  },
+  "fingerprint": {
+    "train_sha256": "e1853b9330e13befc10ddef3fbebdfc92499fed89123527c7c15a0f9a338a89a",
+    "cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+    "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "code_sha256": {
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+      "multilingual_malbert_vi_en_train_v2.py": "1804f327830f32fb6fee4ef4117d33a1c1f0ce0c136934a2e3e0cab2dd26cb1e",
+      "malbert_turn_export_v2.py": "1d241147e9104b6a8328c9f88e673b011eecc6dd4804cda866e5a7e7a79eaa0b",
+      "bilingual_stream_evaluation_v1.py": "063aa7f64052fedf05299f619658c70980b8ff71894b4b626acf64c29fc70d76"
+    }
+  },
+  "parent_step": 14082,
+  "migration_optimizer_rng_order_preserved": true,
+  "latest_dev_languages_verified": true,
+  "test_used": false,
+  "checked_utc": "2026-11-03T08:20:40.739522+00:00"
+}

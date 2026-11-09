@@ -1,0 +1,59 @@
+{
+  "complete": true,
+  "checked_utc": "2026-11-02T13:19:44.461077+00:00",
+  "new_boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+  "pid": 11713,
+  "start_ticks": "260234",
+  "owner_and_cmdline_verified": true,
+  "single_generator_on_new_vm": true,
+  "source_hashes_unchanged": {
+    "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+    "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "handover_receipt": {
+    "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/owner_a182486d_to_d917302f.json",
+    "sha256": "016b09eb7ef67a6abbba4d9615f14cc47b8f4bc716fa725cf6cf8fb80efaa928",
+    "previous_owner_marked_stopped_on_user_confirmation": true,
+    "generation_counters_unchanged": true
+  },
+  "recovered_old_commit": 260,
+  "accepted_before": {
+    "en": 0,
+    "vi": 1297,
+    "zh": 0
+  },
+  "new_verified_commit": 263,
+  "accepted_after": {
+    "en": 0,
+    "vi": 1304,
+    "zh": 0
+  },
+  "new_accepted_vi": 7,
+  "new_verified_shards": [
+    {
+      "index": 263,
+      "language": "vi",
+      "accepted": 2,
+      "rejected": 18,
+      "rejection_reasons": {
+        "ValueError('expected_two_to_eight_sentences')": 12,
+        "ValueError('digit_numeral_not_spoken_word')": 2,
+        "ValueError('expected_four_spoken_turns')": 3,
+        "ValueError('truncated_spoken_paragraph')": 1
+      },
+      "object_sha256": "1af0c7d2eddb89678a6373bcc84b9d364e7e15479fa0817662f86c26bc532b2d",
+      "commit_sha256": "45b2cbbe834949eb164dc7706dcfc1d4cf0b1aa1febbc67859f351c5675ca6bd",
+      "readback_verified": true
+    }
+  ],
+  "gpu": "100 %, 19692 MiB, 23034 MiB",
+  "colab_free_gib": 177.774,
+  "windows_free_gib": 25.1812744140625,
+  "counters_not_reset": true,
+  "large_local_downloads": false,
+  "source_flags_unreviewed": true,
+  "auto_import_to_training": false,
+  "reported_to_user": true
+}

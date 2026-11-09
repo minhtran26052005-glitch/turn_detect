@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "languages": {
+    "vi": {
+      "all_prediction_rows_audited": 39167,
+      "retained": 39147,
+      "excluded": 20,
+      "input_fields_match_frozen_c75": true,
+      "only1or2future_words": true,
+      "reported_confusion_counts_match_trace": true
+    },
+    "en": {
+      "all_prediction_rows_audited": 28155,
+      "retained": 28154,
+      "excluded": 1,
+      "input_fields_match_frozen_c75": true,
+      "only1or2future_words": true,
+      "reported_confusion_counts_match_trace": true
+    },
+    "zh": {
+      "all_prediction_rows_audited": 51871,
+      "retained": 51871,
+      "excluded": 0,
+      "input_fields_match_frozen_c75": true,
+      "only1or2future_words": true,
+      "reported_confusion_counts_match_trace": true
+    }
+  },
+  "checkpoint_sha256_matches": true,
+  "weights_sha256_matches": true,
+  "threshold_locked_from_same_checkpoint_dev": true,
+  "test_selected_model_or_threshold": false,
+  "delegated_predictor_source_sha256": "f25264636520a8ca28e11793e759ba8cd73e0048a0c2c2bb21f675da7ab29354",
+  "report_sha256": "ab2566835c25dfb6e7f73ffc36e61ec23d82d7b3deaeb9c100a79cabcd63d7c3",
+  "factory_overlap_total": 21,
+  "main_checkpoint_model_downloaded_to_windows": false
+}

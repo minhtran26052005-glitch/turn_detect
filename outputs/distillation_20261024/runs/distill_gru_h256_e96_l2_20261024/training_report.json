@@ -1,0 +1,44 @@
+{
+  "status": "FULL_DEV_TARGET_MET",
+  "architecture": {
+    "model_type": "deberta-v2",
+    "architecture": "tiny_turn_gru",
+    "vocab_size": 3313,
+    "embedding_size": 96,
+    "hidden_size": 256,
+    "layers": 2,
+    "teacher_size": 768,
+    "pad_token_id": 0
+  },
+  "parameters_training": 1873186,
+  "parameters_deployment": 1207330,
+  "train_samples": 315174,
+  "dev_samples": 17833,
+  "optimizer_steps": 9856,
+  "best_epoch": 7,
+  "dev_selected_threshold": {
+    "samples": 17833,
+    "threshold": 0.5049999999999999,
+    "accuracy": 0.9366904054281389,
+    "eot_precision": 0.8723015609432082,
+    "eot_recall": 0.9358631747728487,
+    "eot_f1": 0.9029651912333476,
+    "joint_score": 0.9029651912333476,
+    "false_eot": 769,
+    "missed_eot": 360,
+    "false_eot_rate": 0.06292962356792144,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11451,
+        769
+      ],
+      [
+        360,
+        5253
+      ]
+    ]
+  },
+  "holdout_evaluated": false,
+  "holdout_marker_unchanged": true,
+  "elapsed_seconds": 132.57757711399972
+}

@@ -1,0 +1,113 @@
+{
+  "phase": "COMPLETE_ACCEPTED_TRANSFORMER_INT8_CONTROL",
+  "requested_utc": "2026-11-02T09:50:07.036309+00:00",
+  "user_instruction": "Distill and compress the shared multilingual SSH model as done for the Vietnamese tiny GRU QAT INT4 model.",
+  "remote_output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1",
+  "preparation_pid": 3193269,
+  "preparation_start_ticks": "51937840",
+  "source_teacher": {
+    "branch_step": 28000,
+    "step": 514235,
+    "weights_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+    "selection": "Existing best by DEV, frozen before compression"
+  },
+  "train_rows": 300000,
+  "per_language": 100000,
+  "source_corpus": "accepted TRAIN source722 plus legacy ZH TRAIN, fixed subset not full corpus",
+  "new_spoken_v9_used": false,
+  "architectures": [
+    {
+      "embedding": 64,
+      "hidden": 128,
+      "vocab": 8192
+    },
+    {
+      "embedding": 64,
+      "hidden": 192,
+      "vocab": 8192
+    }
+  ],
+  "plan": "GRU128 KD8epochs -> matched FP32control4epochs + QATg64/g32 each4epochs -> ONNXFP32/INT8/realpackedINT4 -> per-language DEVretention -> CPUbenchmark -> package smallest passing; GRU192 fallback if needed",
+  "retention_gate": "Eachlanguage F1/precision drop<=2pp, recall drop<=3pp vs frozen teacher at independently DEV-calibrated shared threshold; no test selection",
+  "training_preserves_own_optimizer_rng_cursor": true,
+  "active_main_training_unchanged": true,
+  "colab_spoken_generation_unchanged": true,
+  "libraries_isolated": true,
+  "no_windows_training_or_large_downloads": true,
+  "old_vi_reference_manifest_sha256": "97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60",
+  "old_vi_reference_model_bytes": 177124,
+  "pending_cpu_quality_and_speed_validation": false,
+  "reported_complete": true,
+  "checked_utc": "2026-11-02T11:03:42.487297+00:00",
+  "pipeline_pid": 3217492,
+  "pipeline_start_ticks": "52069749",
+  "pipeline_module": "turn_v2.multilingual_tiny_compress_v3",
+  "preparation_counts_observed": {
+    "vi": 71000,
+    "en": 71000,
+    "zh": 71000
+  },
+  "technical_int4_export_parity_passed": true,
+  "technical_int8_cpu_export_passed": true,
+  "portable_three_language_input_parity_passed": true,
+  "technical_smoke_is_untrained_fixture_not_delivery": true,
+  "python310_hash_compatibility_fixed_in_isolated_library": true,
+  "do_not_resume_waiting_helper_v1_or_v2": true,
+  "source_sha256": {
+    "turn_v2\\multilingual_tiny_prepare_v1.py": "b24e48236bfd42be9404fb824196964dacd6a446d4251c5b2d3fdeffc58f25fa",
+    "turn_v2\\multilingual_tiny_compress_v3.py": "fba8b5b3fe0b5982697da46264bf3dc34c4514ff97d1dfce56d5fa49eeb862c6",
+    "turn_v2\\multilingual_tiny_benchmark_v1.py": "e7f5ed925812b78bbe705fb0bfb97d8c0a1ef76867c68d842b069142f1cbe759",
+    "turn_v2\\tiny_compression_v1\\common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68",
+    "tools\\collect_multilingual_tiny_compression_v1.py": "dd26e4ce811bfef1cd2f00c21a6a0eb4c5f91b744adcf1b9bfe9468d183ae75c"
+  },
+  "preparation_complete": true,
+  "latest_pipeline_status": {
+    "stage": "COMPLETE_NO_ACCEPTED_COMPRESSED_MODEL",
+    "pid": 3217492,
+    "at_utc": "2026-11-02T10:39:32.029035+00:00",
+    "main_training_interrupted": false
+  },
+  "pipeline_process_verified": {
+    "present": false
+  },
+  "transformer_control_status": {
+    "stage": "COMPLETE",
+    "pid": 3391254,
+    "at_utc": "2026-11-02T10:55:45.382577+00:00",
+    "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+    "model_bytes": 139823559
+  },
+  "transformer_control_process": {
+    "present": false
+  },
+  "first_tiny_checkpoints_verified": {
+    "optimizer_entries": 13,
+    "rng": [
+      "numpy_rng",
+      "torch_rng",
+      "cuda_rng"
+    ],
+    "order_size": 300000,
+    "cache_train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+    "gru128_distill_steps": 9376
+  },
+  "quality_preserving_transformer_control": {
+    "module": "turn_v2.multilingual_transformer_compress_v1",
+    "pid": 3391254,
+    "start_ticks": "52255374",
+    "fallback_only_if_no_tiny_candidate_passes": true,
+    "method": "Stored-weight post-training quantization, original six-layer architecture; not another distilled tiny model"
+  },
+  "tiny_training_complete": true,
+  "tiny_retention_passed": false,
+  "tiny_quality_failure_already_explained_in_current_user_turn": true,
+  "pending_transformer_control": false,
+  "accepted_family": "original_architecture_PTQ_control",
+  "completion_reported_utc": "2026-11-02T11:00:45.490856+00:00",
+  "accepted_package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+  "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+  "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+  "backed_up_to_drive": false,
+  "meets_new_user_under20m_parameter_requirement": false,
+  "size_requirement_superseded_by": "multilingual_under20m_20261103_v1"
+}

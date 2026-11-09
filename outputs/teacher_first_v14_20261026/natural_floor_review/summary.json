@@ -1,0 +1,182 @@
+{
+  "created_utc": "2026-10-26T02:13:50.966342+00:00",
+  "inference_device": "CPU_FP32_READ_ONLY_REVIEW",
+  "labels_are": "existing observed-floor/VAD labels; is_human_gold=false",
+  "threshold_source": "frozen semantic silver dev threshold in each best_report.json",
+  "languages": {
+    "vi": {
+      "source_path": "/content/turn_detect_v2/data_v10/reward_20261025/vi/dev.jsonl",
+      "total_dev_rows": 3745,
+      "natural_floor_rows": 145,
+      "source_dev_sha256": "3ff773b45b6435ec712a0b42d172e6637de3a1c8cbc42be79509f21295034b84",
+      "natural_rows_sha256": "53fab429f869ffb4938263792b55fec53afc9172a5cd9632191f632ceb1ae5da",
+      "best_report_cycle": 18,
+      "checkpoint_sha256": "c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6",
+      "threshold": 0.09,
+      "metrics_recomputed_cpu_fp32": {
+        "samples": 145,
+        "threshold": 0.09,
+        "accuracy": 0.503448275862069,
+        "eot_precision": 0.3230769230769231,
+        "eot_recall": 0.42857142857142855,
+        "eot_f1": 0.3684210526315789,
+        "joint_score": 0.3684210526315789,
+        "false_eot": 44,
+        "missed_eot": 28,
+        "false_eot_rate": 0.4583333333333333,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            52,
+            44
+          ],
+          [
+            28,
+            21
+          ]
+        ]
+      },
+      "metrics_saved_at_checkpoint": {
+        "samples": 145,
+        "threshold": 0.09,
+        "accuracy": 0.5241379310344828,
+        "eot_precision": 0.34375,
+        "eot_recall": 0.4489795918367347,
+        "eot_f1": 0.3893805309734513,
+        "joint_score": 0.3893805309734513,
+        "false_eot": 42,
+        "missed_eot": 27,
+        "false_eot_rate": 0.4375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            54,
+            42
+          ],
+          [
+            27,
+            22
+          ]
+        ]
+      },
+      "prediction_file": "outputs/teacher_first_v14_20261026/natural_floor_review/vi_natural_floor_predictions.jsonl",
+      "prediction_sha256": "bb8b5616a72c7d7774d4542355b64da582efd041d48f314784d33766ba895b9b",
+      "prediction_bytes": 431393,
+      "note": "CPU FP32 per-case recomputation; saved training report used Colab GPU BF16 autocast."
+    },
+    "en": {
+      "source_path": "/content/turn_detect_v2/data_v10/reward_20261025/en/dev.jsonl",
+      "total_dev_rows": 1684,
+      "natural_floor_rows": 79,
+      "source_dev_sha256": "333c67e91f682e8f311bb735d1bc99f4e40310d1c93d5c3a8e7a912acdb09bd0",
+      "natural_rows_sha256": "fdc54f38f78f0011496f74fab28311e72837501fdced92d494b5e73ff68e2d0e",
+      "best_report_cycle": 34,
+      "checkpoint_sha256": "67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7",
+      "threshold": 0.4099999999999999,
+      "metrics_recomputed_cpu_fp32": {
+        "samples": 79,
+        "threshold": 0.4099999999999999,
+        "accuracy": 0.45569620253164556,
+        "eot_precision": 0.625,
+        "eot_recall": 0.4716981132075472,
+        "eot_f1": 0.5376344086021505,
+        "joint_score": 0.45569620253164556,
+        "false_eot": 15,
+        "missed_eot": 28,
+        "false_eot_rate": 0.5769230769230769,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11,
+            15
+          ],
+          [
+            28,
+            25
+          ]
+        ]
+      },
+      "metrics_saved_at_checkpoint": {
+        "samples": 79,
+        "threshold": 0.4099999999999999,
+        "accuracy": 0.4810126582278481,
+        "eot_precision": 0.6428571428571429,
+        "eot_recall": 0.5094339622641509,
+        "eot_f1": 0.5684210526315789,
+        "joint_score": 0.4810126582278481,
+        "false_eot": 15,
+        "missed_eot": 26,
+        "false_eot_rate": 0.5769230769230769,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11,
+            15
+          ],
+          [
+            26,
+            27
+          ]
+        ]
+      },
+      "prediction_file": "outputs/teacher_first_v14_20261026/natural_floor_review/en_natural_floor_predictions.jsonl",
+      "prediction_sha256": "3336df027d47c493173065983c3c4c36780e3f75b87368a098c017e00881a403",
+      "prediction_bytes": 213623,
+      "note": "CPU FP32 per-case recomputation; saved training report used Colab GPU BF16 autocast."
+    },
+    "zh": {
+      "source_path": "/content/turn_detect_v2/data_v10/reward_20261025/zh/dev.jsonl",
+      "total_dev_rows": 856,
+      "natural_floor_rows": 69,
+      "source_dev_sha256": "2f9c551ef165cd794eda75b8b345f04ffc40b7934db627c5a185c6c57be2f5df",
+      "natural_rows_sha256": "342527ea2b3dce4070260a1fdb48db55f1e6189b3cddb4cb76791c359b5d4eff",
+      "best_report_cycle": 5,
+      "checkpoint_sha256": "9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83",
+      "threshold": 0.49999999999999994,
+      "metrics_recomputed_cpu_fp32": {
+        "samples": 69,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.5507246376811594,
+        "eot_precision": 0.7291666666666666,
+        "eot_recall": 0.660377358490566,
+        "eot_f1": 0.693069306930693,
+        "joint_score": 0.5507246376811594,
+        "false_eot": 13,
+        "missed_eot": 18,
+        "false_eot_rate": 0.8125,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            3,
+            13
+          ],
+          [
+            18,
+            35
+          ]
+        ]
+      },
+      "metrics_saved_at_checkpoint": {
+        "samples": 69,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.5507246376811594,
+        "eot_precision": 0.7291666666666666,
+        "eot_recall": 0.660377358490566,
+        "eot_f1": 0.693069306930693,
+        "joint_score": 0.5507246376811594,
+        "false_eot": 13,
+        "missed_eot": 18,
+        "false_eot_rate": 0.8125,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            3,
+            13
+          ],
+          [
+            18,
+            35
+          ]
+        ]
+      },
+      "prediction_file": "outputs/teacher_first_v14_20261026/natural_floor_review/zh_natural_floor_predictions.jsonl",
+      "prediction_sha256": "f88ba32f0d179656768131500e5cf964ac76f0d29d7d5c2cbea59805effa25b8",
+      "prediction_bytes": 180868,
+      "note": "CPU FP32 per-case recomputation; saved training report used Colab GPU BF16 autocast."
+    }
+  }
+}

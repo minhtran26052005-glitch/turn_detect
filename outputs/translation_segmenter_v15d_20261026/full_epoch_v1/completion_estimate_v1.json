@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-10-27T15:37:44.187762+00:00",
+  "status": "PRELIMINARY_SHAPE_TIMING_NOT_END_TO_END_ETA",
+  "candidate_rows_before_filtering": 8982604,
+  "accepted_train_rows_final": null,
+  "upper_candidate_steps_per_all_language_round": 140354,
+  "synthetic_gpu_compute_hours_per_round_if_all_candidates_were_train": {
+    "64": 12.537894049644166,
+    "128": 17.161368745563887,
+    "256": 49.89940473998355
+  },
+  "optimizer_dev_encoding_disk_backup_and_network_cost_not_measured": true,
+  "train_epochs_to_dev_saturation_unknown": true,
+  "campaign_has_no_automatic_end_date": true,
+  "measured_checkpoint_optimizer_updates": 0,
+  "data_status": {
+    "at_utc": "2026-10-27T13:39:50.233234+00:00",
+    "stage": "RESOLVING_ALL_ENCODED_INPUT_COLLISIONS",
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "generated_rows": 8982604
+  },
+  "current_workers_verified": {
+    "audit_process_verified": true,
+    "campaign_process_verified": true,
+    "backup_process_verified": true
+  },
+  "technical_overlap_bug_fixed_in": "translation_segmenter_full_data_v5"
+}

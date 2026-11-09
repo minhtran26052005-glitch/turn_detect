@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "parent_step": 2624058,
+  "parent_branch_step": 268978,
+  "parent_epoch": 0,
+  "parent_full_sha256": "f286fb672433a9831328e81e9f6a7f055a6f9f7b6796fb54e27f71453d44b87a",
+  "initial_child_full_sha256": "1621a6b20613abdd1c43ab0cb2aca28b55d480ef2a100ff999f8908ae103d450",
+  "parameters": 11941122,
+  "optimizer_entries": 27,
+  "preserved_fields": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "best_threshold"
+  ],
+  "parent_order_cursor_lanes_and_sampler_retained_in_immutable_full_pin": true,
+  "new_order_cursor_and_fresh_conversation_lanes_explicitly_versioned": true,
+  "sampler_advanced_only_by_deterministic_initial_stage_permutation": true,
+  "curriculum_stage": 0,
+  "initial_stage_families": 874,
+  "active_loss": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "base_model_reset": false,
+  "test_used": false,
+  "full_filtered_epochs_complete": 0,
+  "partial_parent_tail_archived_not_counted_as_new_epoch": true
+}

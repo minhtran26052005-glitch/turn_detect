@@ -1,0 +1,8 @@
+{
+  "reason": "h128 is below 90 F1 by .079 percentage points and best epoch is final epoch 8; test 8 more epochs at lower LR before increasing capacity",
+  "initial_student": "distill_gru_h128_e64_l1_20261024/student.pt",
+  "epochs": 8,
+  "lr": 0.0002,
+  "unchanged_objective": "same frozen teacher/logits/features; gold train only",
+  "holdout_evaluated": false
+}

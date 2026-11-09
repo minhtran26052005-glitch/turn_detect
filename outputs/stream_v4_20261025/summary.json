@@ -1,0 +1,352 @@
+{
+  "status": "TRAINED_AND_EVALUATED_REAL_TARGET_NOT_ACHIEVED",
+  "user_target_achieved": false,
+  "colab_initial_optimizer_steps": 1800,
+  "colab_followup_optimizer_steps": 300,
+  "local_optimizer_steps": 600,
+  "selected_checkpoint": "runs/stream_v4_campaign_20261025/round_02/best",
+  "selected_round": 2,
+  "selected_step": 200,
+  "weights_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "weights_bytes": 1115268200,
+  "thresholds": {
+    "vi": 0.26499999999999996,
+    "en": 0.135,
+    "zh": 0.27499999999999997
+  },
+  "fresh_natural_auto_label_metrics": {
+    "vi": {
+      "samples": 30,
+      "threshold": 0.26499999999999996,
+      "accuracy": 0.5,
+      "eot_precision": 0.47619047619047616,
+      "eot_recall": 0.7142857142857143,
+      "eot_f1": 0.5714285714285714,
+      "joint_score": 0.5,
+      "false_eot": 11,
+      "missed_eot": 4,
+      "false_eot_rate": 0.6875,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          11
+        ],
+        [
+          4,
+          10
+        ]
+      ]
+    },
+    "en": {
+      "samples": 20,
+      "threshold": 0.135,
+      "accuracy": 0.7,
+      "eot_precision": 0.75,
+      "eot_recall": 0.6,
+      "eot_f1": 0.6666666666666666,
+      "joint_score": 0.6666666666666666,
+      "false_eot": 2,
+      "missed_eot": 4,
+      "false_eot_rate": 0.2,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          8,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 20,
+      "threshold": 0.27499999999999997,
+      "accuracy": 0.55,
+      "eot_precision": 0.5294117647058824,
+      "eot_recall": 0.9,
+      "eot_f1": 0.6666666666666666,
+      "joint_score": 0.55,
+      "false_eot": 8,
+      "missed_eot": 1,
+      "false_eot_rate": 0.8,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ]
+    }
+  },
+  "original_teacher_matched_fresh": {
+    "en": {
+      "samples": 20,
+      "threshold": 0.11499999999999999,
+      "accuracy": 0.75,
+      "eot_precision": 0.8571428571428571,
+      "eot_recall": 0.6,
+      "eot_f1": 0.7058823529411765,
+      "joint_score": 0.7058823529411765,
+      "false_eot": 1,
+      "missed_eot": 4,
+      "false_eot_rate": 0.1,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9,
+          1
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    "vi": {
+      "samples": 30,
+      "threshold": 0.31499999999999995,
+      "accuracy": 0.4666666666666667,
+      "eot_precision": 0.42857142857142855,
+      "eot_recall": 0.42857142857142855,
+      "eot_f1": 0.42857142857142855,
+      "joint_score": 0.42857142857142855,
+      "false_eot": 8,
+      "missed_eot": 8,
+      "false_eot_rate": 0.5,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          8,
+          8
+        ],
+        [
+          8,
+          6
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 20,
+      "threshold": 0.16499999999999998,
+      "accuracy": 0.65,
+      "eot_precision": 0.6153846153846154,
+      "eot_recall": 0.8,
+      "eot_f1": 0.6956521739130435,
+      "joint_score": 0.65,
+      "false_eot": 5,
+      "missed_eot": 2,
+      "false_eot_rate": 0.5,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ]
+    }
+  },
+  "full_legacy_vi_dev": {
+    "vi": {
+      "samples": 17833,
+      "threshold": 0.26499999999999996,
+      "accuracy": 0.9337744630740762,
+      "eot_precision": 0.8515228426395939,
+      "eot_recall": 0.9563513272759665,
+      "eot_f1": 0.900897876982462,
+      "joint_score": 0.900897876982462,
+      "false_eot": 936,
+      "missed_eot": 245,
+      "false_eot_rate": 0.07659574468085106,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11284,
+          936
+        ],
+        [
+          245,
+          5368
+        ]
+      ]
+    }
+  },
+  "dev_slices": {
+    "vi:vi_legacy_rehearsal": {
+      "samples": 3600,
+      "threshold": 0.26499999999999996,
+      "accuracy": 0.9344444444444444,
+      "eot_precision": 0.8607784431137725,
+      "eot_recall": 0.9583333333333334,
+      "eot_f1": 0.9069400630914827,
+      "joint_score": 0.9069400630914827,
+      "false_eot": 186,
+      "missed_eot": 50,
+      "false_eot_rate": 0.0775,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2214,
+          186
+        ],
+        [
+          50,
+          1150
+        ]
+      ]
+    },
+    "en:livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 403,
+      "threshold": 0.135,
+      "accuracy": 0.7344913151364765,
+      "eot_precision": 0.6296296296296297,
+      "eot_recall": 0.8343558282208589,
+      "eot_f1": 0.7176781002638523,
+      "joint_score": 0.7176781002638523,
+      "false_eot": 80,
+      "missed_eot": 27,
+      "false_eot_rate": 0.3333333333333333,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          160,
+          80
+        ],
+        [
+          27,
+          136
+        ]
+      ]
+    },
+    "en:scicom_read_speech": {
+      "samples": 1202,
+      "threshold": 0.135,
+      "accuracy": 0.7504159733777038,
+      "eot_precision": 0.7417475728155339,
+      "eot_recall": 0.9573934837092731,
+      "eot_f1": 0.8358862144420132,
+      "joint_score": 0.7504159733777038,
+      "false_eot": 266,
+      "missed_eot": 34,
+      "false_eot_rate": 0.6584158415841584,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          138,
+          266
+        ],
+        [
+          34,
+          764
+        ]
+      ]
+    },
+    "zh:livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 339,
+      "threshold": 0.27499999999999997,
+      "accuracy": 0.7522123893805309,
+      "eot_precision": 0.6050955414012739,
+      "eot_recall": 0.811965811965812,
+      "eot_f1": 0.6934306569343066,
+      "joint_score": 0.6934306569343066,
+      "false_eot": 62,
+      "missed_eot": 22,
+      "false_eot_rate": 0.27927927927927926,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          160,
+          62
+        ],
+        [
+          22,
+          95
+        ]
+      ]
+    },
+    "zh:scicom_read_speech": {
+      "samples": 448,
+      "threshold": 0.27499999999999997,
+      "accuracy": 0.9464285714285714,
+      "eot_precision": 0.9546485260770975,
+      "eot_recall": 0.9905882352941177,
+      "eot_f1": 0.9722863741339491,
+      "joint_score": 0.9464285714285714,
+      "false_eot": 20,
+      "missed_eot": 4,
+      "false_eot_rate": 0.8695652173913043,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          421
+        ]
+      ]
+    }
+  },
+  "held_read_speech": {
+    "en": {
+      "samples": 1321,
+      "threshold": 0.135,
+      "accuracy": 0.7342922028766087,
+      "eot_precision": 0.7217153284671532,
+      "eot_recall": 0.945041816009558,
+      "eot_f1": 0.818416968442835,
+      "joint_score": 0.7342922028766087,
+      "false_eot": 305,
+      "missed_eot": 46,
+      "false_eot_rate": 0.6301652892561983,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          179,
+          305
+        ],
+        [
+          46,
+          791
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 534,
+      "threshold": 0.27499999999999997,
+      "accuracy": 0.9307116104868914,
+      "eot_precision": 0.9407265774378585,
+      "eot_recall": 0.9879518072289156,
+      "eot_f1": 0.9637610186092067,
+      "joint_score": 0.9307116104868914,
+      "false_eot": 31,
+      "missed_eot": 6,
+      "false_eot_rate": 0.8611111111111112,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          31
+        ],
+        [
+          6,
+          492
+        ]
+      ]
+    }
+  },
+  "followup_stop_reason": "DEV_PLATEAU",
+  "fresh_crawl_cases": 204,
+  "fresh_crawl_gold_labels": 0,
+  "fresh_crawl_accuracy": null,
+  "fresh_crawl_eot_f1": null,
+  "accepted_serving_default_changed": false,
+  "compression_of_v4_teacher_performed": false,
+  "human_gold_available": false,
+  "fresh_natural_conversation_counts": {
+    "vi": 2,
+    "en": 1,
+    "zh": 1
+  },
+  "test_status_after_this_run": "SEEN; retained as regression, do not tune on these pilot scores",
+  "next_training_architecture": "TEXT_ONLY; user selected more public natural conversation training data",
+  "local_branch_report": "local_final/report.json",
+  "colab_report": "colab_final/report.json"
+}

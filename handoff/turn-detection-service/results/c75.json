@@ -1,0 +1,33 @@
+{
+  "scope": "FROZEN_C75_NEW_SOURCE_PROSE_DIAGNOSTIC_TEST_NOT_HUMAN_AUDIO_GOLD",
+  "checkpoint_cycle": 75,
+  "test_used_for_selection": false,
+  "human_audio_conversational_gold": false,
+  "report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "languages": {
+    "vi": {
+      "samples": 39167,
+      "accuracy": 0.8113973498097888,
+      "eot_f1": 0.7908017331709666,
+      "threshold_from_dev": 0.6599999999999999,
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "full_trace_sha256": "153c40ac1fd8ad031f58874b8b087b32efe3476493862c4aedd1843b50d24485"
+    },
+    "en": {
+      "samples": 28155,
+      "accuracy": 0.8485171372757947,
+      "eot_f1": 0.8501563433229105,
+      "threshold_from_dev": 0.58,
+      "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+      "full_trace_sha256": "948e8485b4a22f83af7983076ed88e85ad5835b6349c3b108791733d9b72dd77"
+    },
+    "zh": {
+      "samples": 51871,
+      "accuracy": 0.8420119141716952,
+      "eot_f1": 0.671819310400064,
+      "threshold_from_dev": 0.7549999999999999,
+      "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+      "full_trace_sha256": "8c52e8a142f62747a5a13d5cb17e8637ca0f6c85a4f4e9e8f025677fc0dcb6c6"
+    }
+  }
+}

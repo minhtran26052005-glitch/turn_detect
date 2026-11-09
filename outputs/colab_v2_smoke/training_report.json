@@ -1,0 +1,106 @@
+{
+  "mode": "SMOKE_NOT_A_QUALITY_RESULT",
+  "gpu": "NVIDIA L4",
+  "elapsed_seconds": 4.291957120000006,
+  "optimizer_steps": 3,
+  "train_samples": 34,
+  "dev_samples": 16,
+  "silver_samples_available": 2,
+  "silver_samples_in_training_dataset": 2,
+  "train_metrics": {
+    "train_runtime": 2.0336,
+    "train_samples_per_second": 5.901,
+    "train_steps_per_second": 1.475,
+    "train_loss": 0.7274738550186157,
+    "epoch": 0.3333333333333333
+  },
+  "dev_argmax": {
+    "samples": 16,
+    "threshold": 0.5,
+    "accuracy": 0.5,
+    "eot_precision": 0.0,
+    "eot_recall": 0.0,
+    "eot_f1": 0.0,
+    "joint_score": 0.0,
+    "false_eot": 0,
+    "missed_eot": 8,
+    "false_eot_rate": 0.0,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0
+      ]
+    ]
+  },
+  "dev_selected_threshold": {
+    "samples": 16,
+    "threshold": 0.37499999999999994,
+    "accuracy": 0.5,
+    "eot_precision": 0.5,
+    "eot_recall": 0.75,
+    "eot_f1": 0.6,
+    "joint_score": 0.5,
+    "false_eot": 6,
+    "missed_eot": 2,
+    "false_eot_rate": 0.75,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  "target": {
+    "accuracy": 0.9,
+    "eot_f1": 0.9
+  },
+  "holdout_evaluated": false,
+  "target_achieved": false,
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0"
+  },
+  "data_identity": {
+    "manifest_sha256": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+    "seed": 42,
+    "model": "microsoft/mdeberta-v3-base",
+    "base_model_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+    "max_length": 256,
+    "silver_sha256": "7afe8704734da1838bc9232a624b332cff7866e6c61449a9086675e054129821",
+    "training_settings": {
+      "lr": 2e-05,
+      "epochs": 3,
+      "max_steps": 3,
+      "batch_size": 4,
+      "accumulation": 1,
+      "precision": "fp32"
+    },
+    "code_sha256": {
+      "train.py": "07c7bf6f7ce78d934b8848080e86cf9e16c8a920ec5fd8ea8fdc85cb9822d685",
+      "common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+      "metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+      "prepare.py": "6d20bf618d28ade8c0a9cb02986d9b21004d22f3f88d103d2bc2a5e3cc8e438d"
+    }
+  },
+  "base_model_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "export": {
+    "format": "FP32_ONNX",
+    "samples": 8,
+    "batch_size": 1,
+    "max_abs_prob_EOT_delta": 1.5056080071573774e-07,
+    "argmax_classes_equal": true,
+    "passed": true,
+    "quantized": false,
+    "note": "INT8 requires separate dev/holdout parity and batch-sensitivity evaluation"
+  }
+}

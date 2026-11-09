@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "inferences": 35270,
+  "source_boundary_population_exact": true,
+  "causal_context_future_reset_encoding_labels_metrics_verified": true,
+  "all_probabilities_finite": true,
+  "trace_sha256": "55ed06c6b469c5d68a1c429359f72d57a6d4819858015283a7247d5c75506990",
+  "canonical_single_case_count": 16,
+  "max_probability_delta": 9.834766387939453e-07
+}

@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "reason": "Frozen teacher vocabulary119547 requires uint32 digest; no input or model computation changed",
+  "before_fingerprint": {
+    "dataset_manifest_sha256": "5d7790988078cdaee66d3e8d4eec88cfcbbdf1581dc52a04a02b4b1bb80a7276",
+    "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "parameters": 11941122,
+    "drive_replay_rows": 0,
+    "code_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_evaluation_v4.py": "d8c0f02af400abb68dc6c24726a5275bdaa12a7ef567dacb52bea270e60c34f1",
+      "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "after_fingerprint": {
+    "dataset_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+    "train_streams_sha256": "5a4e25620ed6345076837aff3277d02ae1e3f601ed29c2ef2e8f7513e4ee0e04",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "parameters": 11941122,
+    "drive_replay_rows": 0,
+    "code_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_evaluation_v4.py": "046dafbf1eb88ea239ac181ef7f761a9ad795d2c11d480e87599833a418017dd",
+      "multilingual_malbert_vi_en_uploaded_train_v4.py": "3340c0d981e6d7cb7b5b3c5ace9f22434c8f9536ba93a2c5391e47de0a0477de",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "source_data_and_dev_file_shas_unchanged": true,
+  "model_optimizer_all_rng_order_preserved": true,
+  "branch_step": 0,
+  "uploaded_rows_seen": 0,
+  "full_resume_sha256": "ed2df010989c18501db560d129332634cc2d598c3614274c3a07436b274390fd"
+}

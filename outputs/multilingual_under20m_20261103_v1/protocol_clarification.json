@@ -1,0 +1,8 @@
+{
+  "sampler_seed": 43,
+  "same_kd_initial_weights_for_control_and_qat": true,
+  "same_data_order_each_run": true,
+  "torch_rng_is_continuous_across_stages_and_checkpointed": true,
+  "bitwise_matched_dropout_streams_across_stages": false,
+  "interpretation": "Quality retention measured per candidate vs frozen teacher; do not attribute differences solely to quantization from these separate training runs."
+}

@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "step": 2624158,
+  "branch_step": 100,
+  "epoch": 0,
+  "uploaded_rows_seen": 18211573,
+  "uploaded_origin_exposures": {
+    "daily": 9620683,
+    "factory/gen4000": 6861087,
+    "factory/gen500": 750067,
+    "asr/run2b": 979736
+  },
+  "optimizer_entries": 27,
+  "checkpoint_sha256": "414d452284e52418747354b601adf00eeac82ae18625536cfaa6d916165d3878",
+  "full_resume_load_passed": true,
+  "parameters": 11941122,
+  "drive_replay_rows": 0,
+  "causal_predicted_reset_stream_state_preserved": true,
+  "all_sources_trained_once": false,
+  "curriculum_stage": 0,
+  "active_stage_families": 874,
+  "active_stage_streams": 1725,
+  "curriculum_stage_step": 100
+}

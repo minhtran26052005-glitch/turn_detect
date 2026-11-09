@@ -1,0 +1,9 @@
+{
+  "command": "python -m pytest tests -q",
+  "exit_code": 0,
+  "passed": 72,
+  "warnings": 3,
+  "seconds": 30.52,
+  "receipt_tool_chunk": "396491",
+  "quality_target_certified": false
+}

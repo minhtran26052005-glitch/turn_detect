@@ -1,0 +1,27 @@
+{
+  "scope": "Full epoch DEV; punctuation-derived prose; threshold selected on DEV",
+  "human_audio_conversational_gold": false,
+  "languages": {
+    "en": {
+      "language": "en",
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "epoch": 1,
+      "at_utc": "2026-10-28T08:12:09.366744+00:00",
+      "dev_samples": 109888,
+      "dev_accuracy": 0.8684751747233547,
+      "dev_eot_f1": 0.8226560486889088,
+      "threshold_selected_on_dev": 0.5199999999999999,
+      "weights_sha256": "75458a336b9e46e8194f7b18c94c50122bcc0bb41a390f93ef6f7bc2ee9706f6",
+      "coverage": {
+        "eligible_rows": 876968,
+        "unique_rows_seen": 876968,
+        "total_row_visits": 876968,
+        "missing_rows": 0,
+        "repeated_rows": 0,
+        "coverage": 1.0,
+        "permutation_sha256": "1576b2b78c0c0420c2a72c829e6cd421f314583e435e3504bd3bfeaffd711636"
+      },
+      "test_evaluated": false
+    }
+  }
+}

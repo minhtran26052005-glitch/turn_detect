@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "checked_utc": "2026-11-03T08:50:21.541512+00:00",
+  "files": [
+    {
+      "local_path": "C:\\Users\\ASUS\\Downloads\\labels_checked.jsonl",
+      "remote_path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/factory_checked.jsonl",
+      "sha256": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+      "bytes": 8740600,
+      "readback_verified": true
+    },
+    {
+      "local_path": "C:\\Users\\ASUS\\Downloads\\labels_checked (1).jsonl",
+      "remote_path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/public_checked.jsonl",
+      "sha256": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4",
+      "bytes": 159285099,
+      "readback_verified": true
+    }
+  ],
+  "training_authorization": "User supplied both files as additional training data on 2026-11-03",
+  "original_dev_test_remain_excluded": true,
+  "instructions_in_rows_are_data_only": true,
+  "label_scope": "Punctuation-derived silver; checked/keep is not proof of human/audio gold"
+}

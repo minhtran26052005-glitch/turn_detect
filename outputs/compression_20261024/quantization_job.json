@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+    "-u",
+    "-m",
+    "turn_v2.compress",
+    "quantize",
+    "--weight-type",
+    "QUInt8"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 24.17915630340576,
+  "timeout_seconds": 900
+}

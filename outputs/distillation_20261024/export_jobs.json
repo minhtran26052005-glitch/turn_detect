@@ -1,0 +1,17 @@
+[
+  {
+    "run": "distill_gru_h128_e64_l1_20261024",
+    "exit_code": 0,
+    "elapsed_seconds": 9.497161149978638
+  },
+  {
+    "run": "distill_gru_h256_e96_l2_20261024",
+    "exit_code": 0,
+    "elapsed_seconds": 9.29477596282959
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_20261024",
+    "exit_code": 0,
+    "elapsed_seconds": 9.271636247634888
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "scope": "EXTERNAL_REAL_PAUSE_TEXT_ONLY; fixed 200ms, oracle word timings, zero transcript lag; NOT official audio leaderboard",
+  "samples": 2057,
+  "models": {
+    "student_INT4": {
+      "span_metrics": {
+        "en": {
+          "samples": 1105,
+          "threshold": 0.36499999999999994,
+          "accuracy": 0.5619909502262443,
+          "eot_precision": 0.4176470588235294,
+          "eot_recall": 0.5325,
+          "eot_f1": 0.46813186813186813,
+          "joint_score": 0.46813186813186813,
+          "false_eot": 297,
+          "missed_eot": 187,
+          "false_eot_rate": 0.42127659574468085,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              408,
+              297
+            ],
+            [
+              187,
+              213
+            ]
+          ]
+        },
+        "zh": {
+          "samples": 952,
+          "threshold": 0.42999999999999994,
+          "accuracy": 0.6271008403361344,
+          "eot_precision": 0.48338368580060426,
+          "eot_recall": 0.46511627906976744,
+          "eot_f1": 0.4740740740740741,
+          "joint_score": 0.4740740740740741,
+          "false_eot": 171,
+          "missed_eot": 184,
+          "false_eot_rate": 0.28125,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              437,
+              171
+            ],
+            [
+              184,
+              160
+            ]
+          ]
+        }
+      },
+      "fixed_200ms_policy": {
+        "en": {
+          "turns": 400,
+          "turns_with_premature_EOT": 126,
+          "premature_turn_fraction": 0.315,
+          "turns_no_premature_and_final_EOT": 123
+        },
+        "zh": {
+          "turns": 344,
+          "turns_with_premature_EOT": 95,
+          "premature_turn_fraction": 0.2761627906976744,
+          "turns_no_premature_and_final_EOT": 96
+        }
+      }
+    },
+    "vi_QAT_control": {
+      "span_metrics": {
+        "en": {
+          "samples": 1105,
+          "threshold": 0.4699999999999999,
+          "accuracy": 0.4588235294117647,
+          "eot_precision": 0.3840749414519906,
+          "eot_recall": 0.82,
+          "eot_f1": 0.5231259968102073,
+          "joint_score": 0.4588235294117647,
+          "false_eot": 526,
+          "missed_eot": 72,
+          "false_eot_rate": 0.7460992907801418,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              179,
+              526
+            ],
+            [
+              72,
+              328
+            ]
+          ]
+        },
+        "zh": {
+          "samples": 952,
+          "threshold": 0.4699999999999999,
+          "accuracy": 0.6386554621848739,
+          "eot_precision": 0.0,
+          "eot_recall": 0.0,
+          "eot_f1": 0.0,
+          "joint_score": 0.0,
+          "false_eot": 0,
+          "missed_eot": 344,
+          "false_eot_rate": 0.0,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              608,
+              0
+            ],
+            [
+              344,
+              0
+            ]
+          ]
+        }
+      },
+      "fixed_200ms_policy": {
+        "en": {
+          "turns": 400,
+          "turns_with_premature_EOT": 164,
+          "premature_turn_fraction": 0.41,
+          "turns_no_premature_and_final_EOT": 171
+        },
+        "zh": {
+          "turns": 344,
+          "turns_with_premature_EOT": 0,
+          "premature_turn_fraction": 0.0,
+          "turns_no_premature_and_final_EOT": 0
+        }
+      }
+    },
+    "teacher": {
+      "span_metrics": {
+        "en": {
+          "samples": 1105,
+          "threshold": 0.5049999999999999,
+          "accuracy": 0.5819004524886878,
+          "eot_precision": 0.4438405797101449,
+          "eot_recall": 0.6125,
+          "eot_f1": 0.5147058823529411,
+          "joint_score": 0.5147058823529411,
+          "false_eot": 307,
+          "missed_eot": 155,
+          "false_eot_rate": 0.43546099290780144,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              398,
+              307
+            ],
+            [
+              155,
+              245
+            ]
+          ]
+        },
+        "zh": {
+          "samples": 952,
+          "threshold": 0.37499999999999994,
+          "accuracy": 0.6197478991596639,
+          "eot_precision": 0.4807692307692308,
+          "eot_recall": 0.6540697674418605,
+          "eot_f1": 0.5541871921182266,
+          "joint_score": 0.5541871921182266,
+          "false_eot": 243,
+          "missed_eot": 119,
+          "false_eot_rate": 0.3996710526315789,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              365,
+              243
+            ],
+            [
+              119,
+              225
+            ]
+          ]
+        }
+      },
+      "fixed_200ms_policy": {
+        "en": {
+          "turns": 400,
+          "turns_with_premature_EOT": 125,
+          "premature_turn_fraction": 0.3125,
+          "turns_no_premature_and_final_EOT": 146
+        },
+        "zh": {
+          "turns": 344,
+          "turns_with_premature_EOT": 123,
+          "premature_turn_fraction": 0.35755813953488375,
+          "turns_no_premature_and_final_EOT": 120
+        }
+      }
+    }
+  },
+  "frozen_models": {
+    "student_INT4": {
+      "weights": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+      "contract": "ce548e467fef6674d285ad305af93573bb14e390ace5d578faa78574fa5541b1"
+    },
+    "vi_QAT_control": {
+      "weights": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+      "contract": "cdf0901e2154855628ff6c86a43eb796d41ff9170634b4f23a3e40d42e2834c3"
+    },
+    "teacher": {
+      "weights": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+      "contract": "8e6840f7a474b3c608aafcc06be45a45cd8a8c9b628cb37a31c34cbfb77856c3"
+    }
+  },
+  "evaluation_only": true,
+  "thresholds_or_weights_retuned": false,
+  "training_data_source": "No LiveKit rows used in teacher/student training"
+}

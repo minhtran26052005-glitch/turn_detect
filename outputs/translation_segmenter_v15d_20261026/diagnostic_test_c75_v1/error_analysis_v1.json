@@ -1,0 +1,273 @@
+{
+  "created_at_utc": "2026-10-27T04:34:58.224995+00:00",
+  "scope": "EXPLORATORY_ERROR_ANALYSIS_PLUS_FIXED_TRAIN_POOL_CONTROL",
+  "diagnostic_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "training_coverage": {
+    "vi": {
+      "rows": 865075,
+      "source_pages": 8258,
+      "total_optimizer_steps": 1100,
+      "microbatch": 32,
+      "gradient_accumulation": 2,
+      "total_training_row_draws": 70400,
+      "upper_bound_unique_current_rows_seen_fraction": 0.08138022714793515,
+      "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+    },
+    "en": {
+      "rows": 449514,
+      "source_pages": 7406,
+      "total_optimizer_steps": 1100,
+      "microbatch": 32,
+      "gradient_accumulation": 2,
+      "total_training_row_draws": 70400,
+      "upper_bound_unique_current_rows_seen_fraction": 0.15661358711853246,
+      "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+    },
+    "zh": {
+      "rows": 1128617,
+      "source_pages": 7735,
+      "total_optimizer_steps": 1100,
+      "microbatch": 32,
+      "gradient_accumulation": 2,
+      "total_training_row_draws": 70400,
+      "upper_bound_unique_current_rows_seen_fraction": 0.06237722805876573,
+      "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+    }
+  },
+  "train_fit_controls": {
+    "vi": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.804,
+        "eot_precision": 0.7974559686888454,
+        "eot_recall": 0.815,
+        "eot_f1": 0.8061325420375866,
+        "joint_score": 0.804,
+        "false_eot": 207,
+        "missed_eot": 185,
+        "false_eot_rate": 0.207,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            793,
+            207
+          ],
+          [
+            185,
+            815
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered train rows per label/lookahead stratum, source added<=75",
+      "rows_id_sha256": "f00eaedcfcd5295913d5927d1a739532a7f517f1074d98d5df365952f13852e7",
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "threshold_from_dev": 0.6599999999999999,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.781,
+          "eot_precision": 0.7655954631379962,
+          "eot_recall": 0.81,
+          "eot_f1": 0.7871720116618076,
+          "joint_score": 0.781,
+          "false_eot": 124,
+          "missed_eot": 95,
+          "false_eot_rate": 0.248,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              376,
+              124
+            ],
+            [
+              95,
+              405
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.6599999999999999,
+          "accuracy": 0.827,
+          "eot_precision": 0.8316430020283976,
+          "eot_recall": 0.82,
+          "eot_f1": 0.8257804632426989,
+          "joint_score": 0.8257804632426989,
+          "false_eot": 83,
+          "missed_eot": 90,
+          "false_eot_rate": 0.166,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              417,
+              83
+            ],
+            [
+              90,
+              410
+            ]
+          ]
+        }
+      },
+      "scope": "TRAIN_POOL_FIT_CONTROL; not proof these sampled rows received an optimizer update",
+      "full_trace_sha256": "5482b7b81dc5a8705a332e6403bf62f42cf1aa97afb0abd25620e28474df98f5"
+    },
+    "en": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.58,
+        "accuracy": 0.8595,
+        "eot_precision": 0.8584247258225324,
+        "eot_recall": 0.861,
+        "eot_f1": 0.8597104343484773,
+        "joint_score": 0.8595,
+        "false_eot": 142,
+        "missed_eot": 139,
+        "false_eot_rate": 0.142,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            858,
+            142
+          ],
+          [
+            139,
+            861
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered train rows per label/lookahead stratum, source added<=75",
+      "rows_id_sha256": "9e6c7266eb6af01a0d07a663a7ec05f49d053b3f0264912ae78614c6cde9ae47",
+      "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+      "threshold_from_dev": 0.58,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.58,
+          "accuracy": 0.85,
+          "eot_precision": 0.844488188976378,
+          "eot_recall": 0.858,
+          "eot_f1": 0.8511904761904762,
+          "joint_score": 0.85,
+          "false_eot": 79,
+          "missed_eot": 71,
+          "false_eot_rate": 0.158,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              421,
+              79
+            ],
+            [
+              71,
+              429
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.58,
+          "accuracy": 0.869,
+          "eot_precision": 0.8727272727272727,
+          "eot_recall": 0.864,
+          "eot_f1": 0.8683417085427135,
+          "joint_score": 0.8683417085427135,
+          "false_eot": 63,
+          "missed_eot": 68,
+          "false_eot_rate": 0.126,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              437,
+              63
+            ],
+            [
+              68,
+              432
+            ]
+          ]
+        }
+      },
+      "scope": "TRAIN_POOL_FIT_CONTROL; not proof these sampled rows received an optimizer update",
+      "full_trace_sha256": "838efd0dac74b57b1d3927053c6459fc288b5962dff9b20715f618286c7c857c"
+    },
+    "zh": {
+      "metrics": {
+        "samples": 2000,
+        "threshold": 0.7549999999999999,
+        "accuracy": 0.829,
+        "eot_precision": 0.8615384615384616,
+        "eot_recall": 0.784,
+        "eot_f1": 0.8209424083769633,
+        "joint_score": 0.8209424083769633,
+        "false_eot": 126,
+        "missed_eot": 216,
+        "false_eot_rate": 0.126,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            874,
+            126
+          ],
+          [
+            216,
+            784
+          ]
+        ]
+      },
+      "control_rows": 2000,
+      "sampling": "500 SHA-ordered train rows per label/lookahead stratum, source added<=75",
+      "rows_id_sha256": "d68fb5757ad8e88c2b05d781b3c84c246b54bb84aa97a2a0bab149022d79bc95",
+      "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+      "threshold_from_dev": 0.7549999999999999,
+      "by_lookahead_words": {
+        "1": {
+          "samples": 1000,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.829,
+          "eot_precision": 0.8599562363238512,
+          "eot_recall": 0.786,
+          "eot_f1": 0.8213166144200627,
+          "joint_score": 0.8213166144200627,
+          "false_eot": 64,
+          "missed_eot": 107,
+          "false_eot_rate": 0.128,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              436,
+              64
+            ],
+            [
+              107,
+              393
+            ]
+          ]
+        },
+        "2": {
+          "samples": 1000,
+          "threshold": 0.7549999999999999,
+          "accuracy": 0.829,
+          "eot_precision": 0.8631346578366446,
+          "eot_recall": 0.782,
+          "eot_f1": 0.8205666316894019,
+          "joint_score": 0.8205666316894019,
+          "false_eot": 62,
+          "missed_eot": 109,
+          "false_eot_rate": 0.124,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              438,
+              62
+            ],
+            [
+              109,
+              391
+            ]
+          ]
+        }
+      },
+      "scope": "TRAIN_POOL_FIT_CONTROL; not proof these sampled rows received an optimizer update",
+      "full_trace_sha256": "f1137105d6c6ec170a1b817bb5f7beb1f54afe1ed10d53eff95aeeae79a2565d"
+    }
+  },
+  "quality_target_certified": false,
+  "complete": true,
+  "completed_at_utc": "2026-10-27T04:35:54.355225+00:00"
+}

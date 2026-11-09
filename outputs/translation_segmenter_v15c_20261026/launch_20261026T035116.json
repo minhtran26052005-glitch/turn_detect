@@ -1,0 +1,14 @@
+{
+  "status": "error",
+  "outputs": [
+    {
+      "output_type": "error",
+      "traceback": [
+        "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1461/2870734647.py\"\u001b[0;36m, line \u001b[0;32m37\u001b[0m\n\u001b[0;31m    (run/'carryover_receipt.json').write_text(json.dumps({'source_run':str(previous_b),'source_v14_status':old_status.get('status'),\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unexpected indent\n"
+      ],
+      "ename": "IndentationError",
+      "evalue": "unexpected indent (2870734647.py, line 37)"
+    }
+  ],
+  "elapsed_seconds": 0.20300000000042928
+}

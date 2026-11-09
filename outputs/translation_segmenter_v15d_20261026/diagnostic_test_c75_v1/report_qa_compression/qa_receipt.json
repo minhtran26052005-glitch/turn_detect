@@ -1,0 +1,12 @@
+{
+  "compression_section_present": true,
+  "all_numbers_match_verified_artifacts": true,
+  "old_dev_distinguished_from_new_test": true,
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "horizontal_page_overflow": false,
+  "lookahead_switch_works": true,
+  "language_filters_work": true,
+  "javascript_errors": [],
+  "report_sha256": "036db25ae35dc65b36d1aba2fbddf798df2c6d9554fdbd7aa088393bd799af10"
+}

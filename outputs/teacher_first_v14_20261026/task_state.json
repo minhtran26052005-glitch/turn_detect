@@ -1,0 +1,777 @@
+{
+  "status": "ACTIVE_TEACHER_FIRST_COLAB",
+  "verified_at_utc": "2026-10-26T03:02:58.929214+00:00",
+  "worker_module": "turn_v2.teacher_first_v14",
+  "pid": 188629,
+  "start_ticks": "4617618",
+  "process_verified": true,
+  "current_stage": "TRAINING_LARGE_TEACHER",
+  "teacher_base": "microsoft/mdeberta-v3-base",
+  "teacher_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "languages": [
+    "vi",
+    "en",
+    "zh"
+  ],
+  "independent_checkpoints": true,
+  "max_cycles": 0,
+  "global_timeout": null,
+  "GRU_training_enabled": false,
+  "distillation_enabled": false,
+  "quality_target_certified": false,
+  "original_serving_models_modified": false,
+  "old_worker_stopped_after_cycle": 8,
+  "old_final_snapshot": "outputs/continuous_v13_20261026/latest_snapshot.zip",
+  "full_teacher_backup_external": false,
+  "metadata_not_sufficient_for_teacher_recovery": true,
+  "automation_id": "theo-d-i-v-ti-p-t-c-turn-detector-tr-n-colab",
+  "local_large_weights_downloaded": false,
+  "unit_tests_passed": 76,
+  "next_steps": [
+    "Keep existing continuous teacher worker healthy; cycle2 collection has begun",
+    "Continue data and full teacher fine-tuning on Colab",
+    "Require independent EOT qualification before any distillation",
+    "Full teacher weights/optimizer remain on Colab; metadata backup cannot restore lost weights"
+  ],
+  "current_teacher_cycle": 45,
+  "child_process_verified": true,
+  "completed_teacher_cycles": 43,
+  "optimizer_steps_per_language": {
+    "vi": 4300,
+    "en": 4300,
+    "zh": 4300
+  },
+  "parameters_per_teacher": 278810882,
+  "technical_artifact_validation": "32/32 PASS; original notebook sources and cell order preserved, execution outputs allowed to change",
+  "metadata_snapshot": {
+    "cycle": 44,
+    "path": "outputs/teacher_first_v14_20261026/recovery/metadata_snapshot.zip",
+    "bytes": 16985791,
+    "sha256": "4461fe650b25b5cafe8515dcc79986b4bcb96c9e6b9c3f86088967a8dd8a6f61",
+    "scope": "METADATA_ONLY_NOT_A_FULL_TEACHER_RECOVERY",
+    "teacher_weights_backed_up_externally": false
+  },
+  "distillation_gate": {
+    "distillation_allowed": false,
+    "languages": {
+      "vi": {
+        "teacher_silver_dev_pass": false,
+        "independent_qualification": {
+          "passed": false,
+          "reasons": [
+            "INDEPENDENT_EOT_GOLD_NOT_AVAILABLE"
+          ]
+        },
+        "distillation_allowed": false
+      },
+      "en": {
+        "teacher_silver_dev_pass": false,
+        "independent_qualification": {
+          "passed": false,
+          "reasons": [
+            "INDEPENDENT_EOT_GOLD_NOT_AVAILABLE"
+          ]
+        },
+        "distillation_allowed": false
+      },
+      "zh": {
+        "teacher_silver_dev_pass": false,
+        "independent_qualification": {
+          "passed": false,
+          "reasons": [
+            "INDEPENDENT_EOT_GOLD_NOT_AVAILABLE"
+          ]
+        },
+        "distillation_allowed": false
+      }
+    },
+    "quality_target_certified": false,
+    "rule": "All three large teachers first; silver90 alone never enables distillation"
+  },
+  "data_counts": [
+    {
+      "language": "en",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 17
+    },
+    {
+      "language": "en",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 35
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "EOT",
+      "samples": 864
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 1803
+    },
+    {
+      "language": "vi",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 7
+    },
+    {
+      "language": "vi",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 24
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "EOT",
+      "samples": 164
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 1122
+    },
+    {
+      "language": "zh",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 10
+    },
+    {
+      "language": "zh",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 12
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "EOT",
+      "samples": 305
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 269
+    }
+  ],
+  "last_remote_free_bytes": 165297119232,
+  "last_champion_hashes": {
+    "en": "903088db0cb011314d385199f87012afb63427c2596c975b7f4ec39f24815ed4",
+    "vi": "94e65858cac966beb52f2ee57b7833e008d15008d22b61cb14e110a5aa16b327",
+    "zh": "9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83"
+  },
+  "last_notified_milestone": "ALL_THREE_SILVER_JOINT_GE90_VI96.77_92.31_EN94.23_91.89_ZH90.91_90.00_NOT_INDEPENDENT_GOLD",
+  "runtime_selection": "runtime_selection.json",
+  "monitor_fix": "Select original notebook when two a-jvsc sessions exist; worker never restarted",
+  "last_verified_ZH_step500": "zh_step500_technical_receipt.json",
+  "Drive_mounted": false,
+  "current_metrics": {
+    "vi": {
+      "semantic_dev": {
+        "samples": 31,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9354838709677419,
+        "eot_precision": 1.0,
+        "eot_recall": 0.7142857142857143,
+        "eot_f1": 0.8333333333333334,
+        "joint_score": 0.8333333333333334,
+        "false_eot": 0,
+        "missed_eot": 2,
+        "false_eot_rate": 0.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            24,
+            0
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "natural_floor_dev": {
+        "samples": 145,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.6206896551724138,
+        "eot_precision": 0.425,
+        "eot_recall": 0.3469387755102041,
+        "eot_f1": 0.38202247191011235,
+        "joint_score": 0.38202247191011235,
+        "false_eot": 23,
+        "missed_eot": 32,
+        "false_eot_rate": 0.23958333333333334,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            73,
+            23
+          ],
+          [
+            32,
+            17
+          ]
+        ]
+      },
+      "champion": {
+        "language": "vi",
+        "cycle": 18,
+        "stage": "trained",
+        "total_steps": 1800,
+        "semantic_dev": {
+          "samples": 31,
+          "threshold": 0.09,
+          "accuracy": 0.967741935483871,
+          "eot_precision": 0.875,
+          "eot_recall": 1.0,
+          "eot_f1": 0.9333333333333333,
+          "joint_score": 0.9333333333333333,
+          "false_eot": 1,
+          "missed_eot": 0,
+          "false_eot_rate": 0.041666666666666664,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              23,
+              1
+            ],
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "natural_floor_dev": {
+          "samples": 145,
+          "threshold": 0.09,
+          "accuracy": 0.5241379310344828,
+          "eot_precision": 0.34375,
+          "eot_recall": 0.4489795918367347,
+          "eot_f1": 0.3893805309734513,
+          "joint_score": 0.3893805309734513,
+          "false_eot": 42,
+          "missed_eot": 27,
+          "false_eot_rate": 0.4375,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              54,
+              42
+            ],
+            [
+              27,
+              22
+            ]
+          ]
+        },
+        "identity": {
+          "language": "vi",
+          "base": "microsoft/mdeberta-v3-base",
+          "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+          "architecture": "DebertaV2ForSequenceClassification",
+          "parameters": 278810882,
+          "trainable_parameters": 278810882,
+          "layers": 12,
+          "hidden_size": 768,
+          "training": "FULL_PRETRAINED_FINE_TUNING_FP32_MASTER_BF16_AUTOCAST",
+          "train_languages": [
+            "vi"
+          ],
+          "shared_trainable_weights": false,
+          "dev_definition": "INHERITED_FROZEN_SEMANTIC_QWEN_SILVER_SMALL_NOT_GOLD",
+          "dev_cases": 31,
+          "natural_floor_cases": 145,
+          "source_sha256": "4f4a7321470e0bbfd06fa41b29eb391bbf3739ad9800e1c2178e6ff41abcd6b6",
+          "input_codec": "monolingual_data.encode_tail:256"
+        },
+        "quality_target_certified": false,
+        "student_training_enabled": false,
+        "path": "outputs/teacher_first_v14_20261026/teachers/vi/best",
+        "weights_sha256": "c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6"
+      }
+    },
+    "en": {
+      "semantic_dev": {
+        "samples": 52,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9423076923076923,
+        "eot_precision": 0.8888888888888888,
+        "eot_recall": 0.9411764705882353,
+        "eot_f1": 0.9142857142857143,
+        "joint_score": 0.9142857142857143,
+        "false_eot": 2,
+        "missed_eot": 1,
+        "false_eot_rate": 0.05714285714285714,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            33,
+            2
+          ],
+          [
+            1,
+            16
+          ]
+        ]
+      },
+      "natural_floor_dev": {
+        "samples": 79,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.5063291139240507,
+        "eot_precision": 0.6944444444444444,
+        "eot_recall": 0.4716981132075472,
+        "eot_f1": 0.5617977528089888,
+        "joint_score": 0.5063291139240507,
+        "false_eot": 11,
+        "missed_eot": 28,
+        "false_eot_rate": 0.4230769230769231,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            15,
+            11
+          ],
+          [
+            28,
+            25
+          ]
+        ]
+      },
+      "champion": {
+        "language": "en",
+        "cycle": 34,
+        "stage": "trained",
+        "total_steps": 3400,
+        "semantic_dev": {
+          "samples": 52,
+          "threshold": 0.4099999999999999,
+          "accuracy": 0.9615384615384616,
+          "eot_precision": 0.8947368421052632,
+          "eot_recall": 1.0,
+          "eot_f1": 0.9444444444444444,
+          "joint_score": 0.9444444444444444,
+          "false_eot": 2,
+          "missed_eot": 0,
+          "false_eot_rate": 0.05714285714285714,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              33,
+              2
+            ],
+            [
+              0,
+              17
+            ]
+          ]
+        },
+        "natural_floor_dev": {
+          "samples": 79,
+          "threshold": 0.4099999999999999,
+          "accuracy": 0.4810126582278481,
+          "eot_precision": 0.6428571428571429,
+          "eot_recall": 0.5094339622641509,
+          "eot_f1": 0.5684210526315789,
+          "joint_score": 0.4810126582278481,
+          "false_eot": 15,
+          "missed_eot": 26,
+          "false_eot_rate": 0.5769230769230769,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              15
+            ],
+            [
+              26,
+              27
+            ]
+          ]
+        },
+        "identity": {
+          "language": "en",
+          "base": "microsoft/mdeberta-v3-base",
+          "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+          "architecture": "DebertaV2ForSequenceClassification",
+          "parameters": 278810882,
+          "trainable_parameters": 278810882,
+          "layers": 12,
+          "hidden_size": 768,
+          "training": "FULL_PRETRAINED_FINE_TUNING_FP32_MASTER_BF16_AUTOCAST",
+          "train_languages": [
+            "en"
+          ],
+          "shared_trainable_weights": false,
+          "dev_definition": "INHERITED_FROZEN_SEMANTIC_QWEN_SILVER_SMALL_NOT_GOLD",
+          "dev_cases": 52,
+          "natural_floor_cases": 79,
+          "source_sha256": "4f4a7321470e0bbfd06fa41b29eb391bbf3739ad9800e1c2178e6ff41abcd6b6",
+          "input_codec": "monolingual_data.encode_tail:256"
+        },
+        "quality_target_certified": false,
+        "student_training_enabled": false,
+        "path": "outputs/teacher_first_v14_20261026/teachers/en/best",
+        "weights_sha256": "67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7"
+      }
+    },
+    "zh": {
+      "semantic_dev": {
+        "samples": 22,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9545454545454546,
+        "eot_precision": 0.9090909090909091,
+        "eot_recall": 1.0,
+        "eot_f1": 0.9523809523809523,
+        "joint_score": 0.9523809523809523,
+        "false_eot": 1,
+        "missed_eot": 0,
+        "false_eot_rate": 0.08333333333333333,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11,
+            1
+          ],
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "natural_floor_dev": {
+        "samples": 69,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.6811594202898551,
+        "eot_precision": 0.7818181818181819,
+        "eot_recall": 0.8113207547169812,
+        "eot_f1": 0.7962962962962963,
+        "joint_score": 0.6811594202898551,
+        "false_eot": 12,
+        "missed_eot": 10,
+        "false_eot_rate": 0.75,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            4,
+            12
+          ],
+          [
+            10,
+            43
+          ]
+        ]
+      },
+      "champion": {
+        "language": "zh",
+        "cycle": 5,
+        "stage": "trained",
+        "total_steps": 500,
+        "semantic_dev": {
+          "samples": 22,
+          "threshold": 0.49999999999999994,
+          "accuracy": 0.9545454545454546,
+          "eot_precision": 0.9090909090909091,
+          "eot_recall": 1.0,
+          "eot_f1": 0.9523809523809523,
+          "joint_score": 0.9523809523809523,
+          "false_eot": 1,
+          "missed_eot": 0,
+          "false_eot_rate": 0.08333333333333333,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              1
+            ],
+            [
+              0,
+              10
+            ]
+          ]
+        },
+        "natural_floor_dev": {
+          "samples": 69,
+          "threshold": 0.49999999999999994,
+          "accuracy": 0.5507246376811594,
+          "eot_precision": 0.7291666666666666,
+          "eot_recall": 0.660377358490566,
+          "eot_f1": 0.693069306930693,
+          "joint_score": 0.5507246376811594,
+          "false_eot": 13,
+          "missed_eot": 18,
+          "false_eot_rate": 0.8125,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              3,
+              13
+            ],
+            [
+              18,
+              35
+            ]
+          ]
+        },
+        "identity": {
+          "language": "zh",
+          "base": "microsoft/mdeberta-v3-base",
+          "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+          "architecture": "DebertaV2ForSequenceClassification",
+          "parameters": 278810882,
+          "trainable_parameters": 278810882,
+          "layers": 12,
+          "hidden_size": 768,
+          "training": "FULL_PRETRAINED_FINE_TUNING_FP32_MASTER_BF16_AUTOCAST",
+          "train_languages": [
+            "zh"
+          ],
+          "shared_trainable_weights": false,
+          "dev_definition": "INHERITED_FROZEN_SEMANTIC_QWEN_SILVER_SMALL_NOT_GOLD",
+          "dev_cases": 22,
+          "natural_floor_cases": 69,
+          "source_sha256": "4f4a7321470e0bbfd06fa41b29eb391bbf3739ad9800e1c2178e6ff41abcd6b6",
+          "input_codec": "monolingual_data.encode_tail:256"
+        },
+        "quality_target_certified": false,
+        "student_training_enabled": false,
+        "path": "outputs/teacher_first_v14_20261026/teachers/zh/best",
+        "weights_sha256": "9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83"
+      }
+    }
+  },
+  "remote_connection_state": "CONNECTED_STATUS_VERIFIED",
+  "last_verified_worker_state_remains_historical": true,
+  "natural_floor_case_review": {
+    "path": "outputs/teacher_first_v14_20261026/natural_floor_review/review.html",
+    "rows_total": 293,
+    "per_language": {
+      "vi": {
+        "rows": 145,
+        "threshold": 0.09,
+        "checkpoint_sha256": "c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6",
+        "prediction_sha256": "bb8b5616a72c7d7774d4542355b64da582efd041d48f314784d33766ba895b9b",
+        "cpu_fp32_metrics": {
+          "samples": 145,
+          "threshold": 0.09,
+          "accuracy": 0.503448275862069,
+          "eot_precision": 0.3230769230769231,
+          "eot_recall": 0.42857142857142855,
+          "eot_f1": 0.3684210526315789,
+          "joint_score": 0.3684210526315789,
+          "false_eot": 44,
+          "missed_eot": 28,
+          "false_eot_rate": 0.4583333333333333,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              52,
+              44
+            ],
+            [
+              28,
+              21
+            ]
+          ]
+        },
+        "saved_gpu_bf16_metrics": {
+          "samples": 145,
+          "threshold": 0.09,
+          "accuracy": 0.5241379310344828,
+          "eot_precision": 0.34375,
+          "eot_recall": 0.4489795918367347,
+          "eot_f1": 0.3893805309734513,
+          "joint_score": 0.3893805309734513,
+          "false_eot": 42,
+          "missed_eot": 27,
+          "false_eot_rate": 0.4375,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              54,
+              42
+            ],
+            [
+              27,
+              22
+            ]
+          ]
+        }
+      },
+      "en": {
+        "rows": 79,
+        "threshold": 0.4099999999999999,
+        "checkpoint_sha256": "67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7",
+        "prediction_sha256": "3336df027d47c493173065983c3c4c36780e3f75b87368a098c017e00881a403",
+        "cpu_fp32_metrics": {
+          "samples": 79,
+          "threshold": 0.4099999999999999,
+          "accuracy": 0.45569620253164556,
+          "eot_precision": 0.625,
+          "eot_recall": 0.4716981132075472,
+          "eot_f1": 0.5376344086021505,
+          "joint_score": 0.45569620253164556,
+          "false_eot": 15,
+          "missed_eot": 28,
+          "false_eot_rate": 0.5769230769230769,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              15
+            ],
+            [
+              28,
+              25
+            ]
+          ]
+        },
+        "saved_gpu_bf16_metrics": {
+          "samples": 79,
+          "threshold": 0.4099999999999999,
+          "accuracy": 0.4810126582278481,
+          "eot_precision": 0.6428571428571429,
+          "eot_recall": 0.5094339622641509,
+          "eot_f1": 0.5684210526315789,
+          "joint_score": 0.4810126582278481,
+          "false_eot": 15,
+          "missed_eot": 26,
+          "false_eot_rate": 0.5769230769230769,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              15
+            ],
+            [
+              26,
+              27
+            ]
+          ]
+        }
+      },
+      "zh": {
+        "rows": 69,
+        "threshold": 0.49999999999999994,
+        "checkpoint_sha256": "9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83",
+        "prediction_sha256": "f88ba32f0d179656768131500e5cf964ac76f0d29d7d5c2cbea59805effa25b8",
+        "cpu_fp32_metrics": {
+          "samples": 69,
+          "threshold": 0.49999999999999994,
+          "accuracy": 0.5507246376811594,
+          "eot_precision": 0.7291666666666666,
+          "eot_recall": 0.660377358490566,
+          "eot_f1": 0.693069306930693,
+          "joint_score": 0.5507246376811594,
+          "false_eot": 13,
+          "missed_eot": 18,
+          "false_eot_rate": 0.8125,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              3,
+              13
+            ],
+            [
+              18,
+              35
+            ]
+          ]
+        },
+        "saved_gpu_bf16_metrics": {
+          "samples": 69,
+          "threshold": 0.49999999999999994,
+          "accuracy": 0.5507246376811594,
+          "eot_precision": 0.7291666666666666,
+          "eot_recall": 0.660377358490566,
+          "eot_f1": 0.693069306930693,
+          "joint_score": 0.5507246376811594,
+          "false_eot": 13,
+          "missed_eot": 18,
+          "false_eot_rate": 0.8125,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              3,
+              13
+            ],
+            [
+              18,
+              35
+            ]
+          ]
+        }
+      }
+    },
+    "label_scope": "observed-floor/VAD, not human gold",
+    "inference": "CPU FP32 recomputation; original training evaluation used GPU BF16 autocast"
+  },
+  "terminal_punctuation_evaluation": {
+    "status": "COMPLETED_RULE_DIAGNOSTIC",
+    "protocol": "terminal_period_streaming_v1",
+    "scope": "RULE_DIAGNOSTIC_CRAWLED_PROSE_NOT_DIALOGUE_GOLD",
+    "verified_at_utc": "2026-10-26T02:59:04.984449+00:00",
+    "source_corpus": "outputs/trilingual_stream_20261024/crawl/paragraphs.jsonl",
+    "source_corpus_sha256": "62a523511c3fec4ead0fcf8e7a6dc20d7ab63141c44fed9edd1bc498f73a9697",
+    "manifest": "outputs\\teacher_first_v14_20261026\\terminal_punctuation_eval_20261026T025016Z\\sentence_prefix_manifest.jsonl",
+    "manifest_sha256": "74d4f2310451b79d3eeeca97b2412a0b89001327015a0bbec65378fc31233ec5",
+    "trace": "outputs\\teacher_first_v14_20261026\\terminal_punctuation_eval_20261026T025016Z\\trace.jsonl",
+    "trace_sha256": "2f162dc6edd79ccd4fe3cb65bb6a9e26566089f0e0281351ec6abf03e91bef7c",
+    "review_html": "outputs\\teacher_first_v14_20261026\\terminal_punctuation_eval_20261026T025016Z\\review.html",
+    "prefix_events": 6136,
+    "languages": {
+      "vi": {
+        "checkpoint_sha256": "c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6",
+        "threshold_from_frozen_semantic_silver_dev": 0.09,
+        "sentences": 25,
+        "prefix_events": 1007,
+        "accuracy": 0.5461767626613704,
+        "eot_f1": 0.09861932938856016,
+        "premature_eot_rate_before_terminal_period": 0.4653767820773931,
+        "terminal_period_end_rate": 1.0,
+        "strict_sentence_passes": 0,
+        "strict_sentence_rate": 0.0,
+        "period_codec": {
+          "terminal_pairs": 25,
+          "identical_token_ids_after_normalize": 25,
+          "punctuation_survives_input_codec": false
+        }
+      },
+      "en": {
+        "checkpoint_sha256": "67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7",
+        "threshold_from_frozen_semantic_silver_dev": 0.4099999999999999,
+        "sentences": 71,
+        "prefix_events": 1957,
+        "accuracy": 0.8063362289218191,
+        "eot_f1": 0.2249488752556237,
+        "premature_eot_rate_before_terminal_period": 0.19247083775185578,
+        "terminal_period_end_rate": 0.7746478873239436,
+        "strict_sentence_passes": 0,
+        "strict_sentence_rate": 0.0,
+        "period_codec": {
+          "terminal_pairs": 71,
+          "identical_token_ids_after_normalize": 71,
+          "punctuation_survives_input_codec": false
+        }
+      },
+      "zh": {
+        "checkpoint_sha256": "9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83",
+        "threshold_from_frozen_semantic_silver_dev": 0.49999999999999994,
+        "sentences": 61,
+        "prefix_events": 3172,
+        "accuracy": 0.7134300126103404,
+        "eot_f1": 0.10969637610186092,
+        "premature_eot_rate_before_terminal_period": 0.290581806493089,
+        "terminal_period_end_rate": 0.9180327868852459,
+        "strict_sentence_passes": 0,
+        "strict_sentence_rate": 0.0,
+        "period_codec": {
+          "terminal_pairs": 61,
+          "identical_token_ids_after_normalize": 61,
+          "punctuation_survives_input_codec": false
+        }
+      }
+    },
+    "rule": "all preterminal prefixes NEOT; final . or 。 prefix EOT",
+    "punctuation_preserved_by_current_codec": false,
+    "quality_target_certified": false,
+    "training_worker_modified": false,
+    "weights_downloaded_to_local": false,
+    "packaging_recovery": "Inference completed on Colab; retrieved the saved trace after its first report packaging attempt referenced a corpus path that existed only locally. Recomputed artifact hashes and metrics from the trace."
+  },
+  "child_pid": 323629,
+  "child_start_ticks": "7845977",
+  "current_language": "en",
+  "current_step": 55,
+  "current_steps": 100,
+  "latest_snapshot_scope": "METADATA_ONLY_NOT_A_FULL_TEACHER_RECOVERY"
+}

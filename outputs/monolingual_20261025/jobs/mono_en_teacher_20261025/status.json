@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-25T04:17:48.074385+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.monolingual_teacher",
+    "--language",
+    "en",
+    "--data",
+    "data_v9/monolingual_20261025/en",
+    "--output",
+    "runs/mono_en_teacher_20261025",
+    "--steps",
+    "400"
+  ],
+  "timeout_seconds": 2400,
+  "pid": 158065,
+  "elapsed_seconds": 310.0375852584839,
+  "heartbeat_unix": 1792902173.111425,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-25T04:22:58.111973+00:00"
+}

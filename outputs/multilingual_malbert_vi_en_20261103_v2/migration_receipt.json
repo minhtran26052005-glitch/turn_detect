@@ -1,0 +1,29 @@
+{
+  "authorized_active_languages": [
+    "vi",
+    "en"
+  ],
+  "user_instruction": "Drop Chinese everywhere; focus English and Vietnamese",
+  "model_optimizer_rng_preserved": true,
+  "optimizer_entries": 27,
+  "parent_step": 14082,
+  "parent_epoch": 0,
+  "parent_cursor": 225312,
+  "projected_cursor": 150107,
+  "parent_rows": 300000,
+  "active_rows": 200000,
+  "remaining_vi_en_order_preserved_exactly": true,
+  "all_model_tensors_equal": true,
+  "all_optimizer_tensors_equal": true,
+  "sampler_rng_numpy_python_torch_cuda_preserved": true,
+  "parent_checkpoint_sha256": "f6454ff4f1a458d4e9b13ca24f6b001af8e81791ee5f2bf601bf59c7e61fb9e1",
+  "migrated_checkpoint_sha256": "0b8cbdcd727ea70a9f17669c1a29d4338a19a53f95bd12c1fb8b9824f6ac0e18",
+  "lr_progress_preserved_by_offset": -4694.0,
+  "cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+  "parameters": 11941122,
+  "dev_counts": {
+    "vi": 2058,
+    "en": 2304
+  },
+  "checked_utc": "2026-11-03T08:01:47.016745+00:00"
+}

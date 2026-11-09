@@ -1,0 +1,41 @@
+{
+  "rows": 300000,
+  "by_language": {
+    "vi": 100000,
+    "en": 100000,
+    "zh": 100000
+  },
+  "labels": {
+    "vi:NEOT": 87237,
+    "en:NEOT": 85934,
+    "zh:EOT": 18615,
+    "zh:NEOT": 81385,
+    "en:EOT": 14066,
+    "vi:EOT": 12763
+  },
+  "sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+  "source": "Frozen source722 accepted TRAIN VI/EN sampler plus accepted legacy ZH TRAIN; no new spokenv9 or DEV/test rows.",
+  "subset_not_full_corpus": true,
+  "new_spoken_generator_data_used": false,
+  "sampler_state_after": {
+    "positions": {
+      "vi": 74986,
+      "en": 74711
+    },
+    "epochs": {
+      "vi": 0,
+      "en": 0
+    },
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 175245803149049559488444645851273562414,
+        "inc": 23138952420814303595697743501633595667
+      },
+      "has_uint32": 0,
+      "uinteger": 1194497958
+    },
+    "seed": 202611029
+  },
+  "zh_cursor_after": "04f2b5816cf8dfff08f46fd27f135e5031f022574859c874f1dd2445454ed2d8"
+}

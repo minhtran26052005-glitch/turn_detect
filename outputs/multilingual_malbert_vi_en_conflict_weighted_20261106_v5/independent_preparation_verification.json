@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "all_17301_source_streams_words_labels_unchanged": true,
+  "all_6169873_original_gaps_checked": true,
+  "conflicting_keys": 697,
+  "excluded_gaps": 6618,
+  "remaining_gaps": 6163255,
+  "removed_by_language_label": {
+    "en:0": 2253,
+    "vi:0": 2544,
+    "en:1": 1043,
+    "vi:1": 778
+  },
+  "all_masked_keys_verified_both_labels": true,
+  "all_surviving_rule_keys_consistent": true,
+  "all_dev_and_teacher_files_byte_identical": true,
+  "predicted_only_reset_and_restored_lane_fixtures_passed": true,
+  "weighted_CE_value_and_twofold_relative_EOT_gradient_verified": true,
+  "dev_test_used_to_build_conflicts": false,
+  "manifest_sha256": "b13b27a95e96f69c9b15f9c80a5d64d810f284db89acdb6e5a2821c27bd2b842",
+  "prelaunch_stop_guard_clarification": {
+    "old_manifest_sha256": "b96f5e83ec126cc131bef45e3f5de6dfa8f59293bc4bedb35b5861a0cdf6ea9a",
+    "old_source_sha256": "f19ccbad0aeb8394587ba085e47c61f0f1ab78994fe9a808afc668eaf5521020",
+    "new_source_sha256": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+    "reason": "Accept actual v4 STOPPED_WITH_CHECKPOINT only with explicit STOP_REQUESTED and observed PID absence",
+    "data_mask_unchanged": true
+  }
+}

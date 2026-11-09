@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "preserved_zh_cache_rows": 3060000,
+  "remaining_zh_cache_rows": 1808059,
+  "all_three_checkpoint_files_and_receipts_unchanged": true,
+  "VI_EN_resume_cursors": {
+    "vi": 32000,
+    "en": 32000
+  },
+  "optimizer_or_sampler_reinitialization": false,
+  "kernel_reset_or_interrupt": false,
+  "prefetch": {
+    "pid": 83530,
+    "start_ticks": "2031550",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_cache_v1",
+      "--generation",
+      "cycle000084_full_epoch_contiguous_v1",
+      "--language",
+      "zh",
+      "--split",
+      "train"
+    ],
+    "module": "turn_v2.translation_segmenter_cache_v1",
+    "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+    "source_sha256": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "language": "zh",
+    "split": "train",
+    "CPU_only": true
+  },
+  "coordinator": {
+    "pid": 83531,
+    "start_ticks": "2031550",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_campaign_v8"
+    ],
+    "module": "turn_v2.translation_segmenter_full_campaign_v8",
+    "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v8.log",
+    "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca"
+  },
+  "backup": {
+    "pid": 83532,
+    "start_ticks": "2031551",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_drive_backup_v7"
+    ],
+    "module": "turn_v2.translation_segmenter_drive_backup_v7",
+    "log": "outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_cache_handoff_v1.log",
+    "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+  },
+  "effective_batch_unchanged": 64,
+  "source_sha256": {
+    "turn_v2/translation_segmenter_cache_v1.py": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+    "turn_v2/translation_segmenter_full_train_v5.py": "6fd13e325cfad823423923b7a65483235d2575cad27b4db8489da03fb254badc",
+    "turn_v2/translation_segmenter_full_campaign_v8.py": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+    "turn_v2/translation_segmenter_cache_handoff_v1.py": "ff7d93965e56df36f208fd5ae9ca7e54ea31f170f0b08b94d60ec40fd7bc441b"
+  },
+  "data_generation": "cycle000084_full_epoch_contiguous_v1"
+}

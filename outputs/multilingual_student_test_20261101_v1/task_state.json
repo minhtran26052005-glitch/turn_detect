@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "reported": true,
+  "reported_before_heartbeat": true,
+  "checkpoint_step": 211200,
+  "threshold_from_dev": 0.56,
+  "report_sha256": "4b3cf677d762d2c0577fcd9523768d5b5453b60763c5e4951c7af608e3bac138",
+  "completed_utc": "2026-10-31T17:18:08.269560+00:00",
+  "training_paused": false,
+  "checked_utc": "2026-10-31T17:57:10.273999+00:00"
+}

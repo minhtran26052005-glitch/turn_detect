@@ -1,0 +1,12 @@
+{
+  "vi_calls": 2,
+  "en_zh_conversation_groups": {
+    "en": [
+      "en__callhome_en_callhome-telephony-no-initial-GT-en-5011_a_response"
+    ],
+    "zh": [
+      "zh__callhome_zh_callhome-telephony-no-initial-GT-zh-0110_a_response"
+    ]
+  },
+  "representative_human_gold_benchmark": false
+}

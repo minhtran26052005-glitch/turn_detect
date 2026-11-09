@@ -1,0 +1,14 @@
+{
+  "frozen_manifest_sha256": "b5732ca1acaa317fff66981beda0cff7502258b8d747f6af0ed9a67b5c5e2f7f",
+  "inherited_conflict_filter_field_scope": "Parent v5/v6 historical filter metadata; current v7 masks are in train_streams.json.gz and the following current audit",
+  "current_conflicting_keys": 75,
+  "current_masked_points": {
+    "en:0": 96,
+    "en:1": 51,
+    "vi:0": 101,
+    "vi:1": 28
+  },
+  "authoritative_current_audit": "sentence_pack_audit.json",
+  "independent_verification": "independent_pack_verification.json",
+  "training_data_and_code_unchanged": true
+}

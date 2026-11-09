@@ -1,0 +1,167 @@
+{
+  "created_at": "2026-10-23T21:23:57+0700",
+  "command": [
+    ".\\run_turn_detector.py",
+    "--input",
+    ".\\test.jsonl",
+    "--train",
+    ".\\train.jsonl",
+    "--batch-size",
+    "1",
+    "--output-dir",
+    ".\\outputs\\test_cpu_single"
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "1.26.4",
+    "onnxruntime": "1.23.2",
+    "onnxruntime-gpu": "1.23.2",
+    "transformers": "5.8.0.dev0",
+    "tokenizers": "0.22.2",
+    "tqdm": "4.67.1"
+  },
+  "available_providers": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "session_providers": [
+    "CPUExecutionProvider"
+  ],
+  "settings": {
+    "max_length": 256,
+    "batch_size": 1,
+    "decision": "argmax of two logits; class 1 is EOT per supplied inference code",
+    "context_truncation": "left",
+    "text_truncation": "right only beyond max_length - 3",
+    "lowercase": true
+  },
+  "samples": 4183,
+  "nonempty_context_samples": 0,
+  "load_seconds": 1.5803311999989091,
+  "inference_seconds": 229.99727770000027,
+  "samples_per_second": 18.18717178668587,
+  "sha256": {
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\text_based.py": "263b2bd762100cbec052ab17acd50ee94a13f01467e01b483b79ddabf8ff754d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\run_turn_detector.py": "492f6e5c03a0d33221480ebc6a48e893a16de44ac6f45315d3241e6c1f42ae1d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\config.json": "b9a3ff7a36395c6bdcc4496fba90a8b8570926a3127be2202b322d2214af918b",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\model_quantized.onnx": "06eca8cb4b449039a3b72ce51a93e7a528ea9a92cb7aea1d80f244f078469daf",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\ort_config.json": "2012e7b3f7d4d5d9a8b18682b3e5ec647fe60f15e0ccd1ed62eb247f3b8b8cf7",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\special_tokens_map.json": "63cd5b53789b3b5ae2c3d7aa377bcba1557ff0b41dc69ce07b94350ea32291c2",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer.json": "1b7b5426f019fe68073c1b8a3e384f7c2986659ee26401b29694524e4ac62f4e",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer_config.json": "003a9e8a39f5367191d3464ab9510a0e1dd7d3a5cc8ddf62e78bfc247a2a619f",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\test.jsonl": "ecc01c6c7198f9543102bf1082fdacee8676f079c0ce20db0f4efb2f5f192aa0",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\train.jsonl": "e6f588c086adad037bb0d59eb86b6602e18220163d62f4087ae11a67e947c5a0"
+  },
+  "metrics": {
+    "samples": 4183,
+    "label_counts": {
+      "EOT": 1223,
+      "NEOT": 2960
+    },
+    "accuracy": 0.6502510160172126,
+    "eot_precision": 0.44871794871794873,
+    "eot_recall": 0.8585445625511039,
+    "eot_f1": 0.5893909626719057,
+    "macro_f1": 0.6423948359060132,
+    "confusion_matrix": {
+      "rows_actual": [
+        "NEOT",
+        "EOT"
+      ],
+      "columns_predicted": [
+        "NEOT",
+        "EOT"
+      ],
+      "values": [
+        [
+          1670,
+          1290
+        ],
+        [
+          173,
+          1050
+        ]
+      ]
+    },
+    "false_eot": 1290,
+    "missed_eot": 173
+  },
+  "latency_ms_including_tokenization_after_warmup": {
+    "mean": 54.90216141518877,
+    "p50": 51.27910000010161,
+    "p95": 80.55384999752275,
+    "max": 278.32930000295164
+  },
+  "overlap_definition": "exact (context.strip().lower(), text.strip().lower())",
+  "exact_input_overlap_train": 645,
+  "metrics_without_exact_train_overlap": {
+    "samples": 3538,
+    "label_counts": {
+      "EOT": 1167,
+      "NEOT": 2371
+    },
+    "accuracy": 0.6311475409836066,
+    "eot_precision": 0.4679368029739777,
+    "eot_recall": 0.8628963153384748,
+    "eot_f1": 0.6068092799035855,
+    "macro_f1": 0.6297288347880983,
+    "confusion_matrix": {
+      "rows_actual": [
+        "NEOT",
+        "EOT"
+      ],
+      "columns_predicted": [
+        "NEOT",
+        "EOT"
+      ],
+      "values": [
+        [
+          1226,
+          1145
+        ],
+        [
+          160,
+          1007
+        ]
+      ]
+    },
+    "false_eot": 1145,
+    "missed_eot": 160
+  },
+  "metrics_on_exact_train_overlap": {
+    "samples": 645,
+    "label_counts": {
+      "NEOT": 589,
+      "EOT": 56
+    },
+    "accuracy": 0.7550387596899225,
+    "eot_precision": 0.22872340425531915,
+    "eot_recall": 0.7678571428571429,
+    "eot_f1": 0.3524590163934426,
+    "macro_f1": 0.6007036955772185,
+    "confusion_matrix": {
+      "rows_actual": [
+        "NEOT",
+        "EOT"
+      ],
+      "columns_predicted": [
+        "NEOT",
+        "EOT"
+      ],
+      "values": [
+        [
+          444,
+          145
+        ],
+        [
+          13,
+          43
+        ]
+      ]
+    },
+    "false_eot": 145,
+    "missed_eot": 13
+  }
+}

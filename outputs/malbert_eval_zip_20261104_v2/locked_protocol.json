@@ -1,0 +1,57 @@
+{
+  "checkpoint": {
+    "step": 1340000,
+    "epoch": 50,
+    "parameters": 11941122,
+    "storage_compute": "Full precision mALBERT, not INT4",
+    "cursor": 166384,
+    "additional_row_training_exposures": 10081247,
+    "full_399960_row_order_permutation_verified": true,
+    "minimum_requested_step": 1334000,
+    "optimizer_entries": 27,
+    "all_rng_and_sampler_present": true,
+    "full_checkpoint_sha256": "9c1a41c1cfa4eaef1c96d97bae379778a8bd0541c023e726bd8be4daa9447a98",
+    "weights_sha256": "d4fa7cc1c547f5f635eb21d9dd3fa56f133c3cd3790e6ba94fa011e685433032",
+    "original_dev_sha256": "4b4adc61e5ff6280e853d3428108761bea553377cbd37a98b0692e58d575bbea",
+    "threshold": 0.73,
+    "threshold_source": "Matching original rolling VI/EN DEV at the same checkpoint, before external ZIP scoring",
+    "training_fingerprint": {
+      "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+      "cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+      "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "code_sha256": {
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+        "multilingual_malbert_vi_en_checked_train_v3.py": "e64bee02a59afce9d000eb8e9ab33f6708a5b141377b7347dd5b8504f63cf082",
+        "malbert_turn_export_v2.py": "1d241147e9104b6a8328c9f88e673b011eecc6dd4804cda866e5a7e7a79eaa0b",
+        "bilingual_stream_evaluation_v1.py": "063aa7f64052fedf05299f619658c70980b8ff71894b4b626acf64c29fc70d76",
+        "checked_dialogues_prepare_v1.py": "228d3a082d7f863dc703322159424adba764d18acfe30000e1188df4126e6fc2"
+      }
+    },
+    "main_worker_not_paused": true,
+    "external_eval_used_for_threshold_or_checkpoint_selection": false
+  },
+  "label_policies": [
+    "fullstop_matches_training",
+    "all_terminal_marks_diagnostic"
+  ],
+  "lookahead_words": [
+    1,
+    2
+  ],
+  "source_text_field": "source_raw only, never target/rest_of_sentence/instruction",
+  "include_keep_false_if_source_has_punctuation": true,
+  "known_train_overlap_included_and_tagged": true,
+  "source_turns_only_limit_future_availability": true,
+  "conversation_history_reset": "Predicted EOT only; no gold/role/language resets",
+  "single_item_sources": [
+    "numeric/code",
+    "numeric/sentence",
+    "onevoice"
+  ],
+  "final_flush_is_model_eot": false,
+  "test_tuning": false
+}

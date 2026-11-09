@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "completed_at_utc": "2026-10-27T07:20:12.304203+00:00",
+  "scope": "LEGACY_DEV_TRANSFER_DIAGNOSTIC_NOT_NEW_BLIND_TEST",
+  "protocol": {
+    "material_passport": {
+      "mode": "run",
+      "scope": "LEGACY_DEV_DIAGNOSTIC_NOT_NEW_BLIND_TEST",
+      "model": "frozen VI cycle75/100"
+    },
+    "data_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+    "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+    "threshold_fixed_from_new_campaign_dev": 0.6599999999999999,
+    "old_qat_threshold_fixed": 0.47,
+    "input_mapping": "Preserve original context and text; new model native encode_tail(context,text,256). No future words invented or moved.",
+    "input_mismatch": "Legacy rows have current-prefix text and no future words; this differs from training the new model on left text plus1/2 following words.",
+    "context_nonempty": 0,
+    "samples": 17833,
+    "model_or_threshold_selection_on_this_evaluation": false,
+    "holdout_reopened": false,
+    "quality_target_certified": false,
+    "direct_old_vs_new_score_is_not_isolated_compression_effect": true,
+    "legacy_label_source_counts": {
+      "provided_gold": 17833
+    }
+  },
+  "new_model_metrics": {
+    "samples": 17833,
+    "threshold": 0.6599999999999999,
+    "accuracy": 0.784837099758874,
+    "eot_precision": 0.6190029482712409,
+    "eot_recall": 0.8229110992339213,
+    "eot_f1": 0.7065391969407265,
+    "false_eot": 2843,
+    "missed_eot": 994,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        9377,
+        2843
+      ],
+      [
+        994,
+        4619
+      ]
+    ]
+  },
+  "old_small_model_metrics": {
+    "samples": 17833,
+    "threshold": 0.47,
+    "accuracy": 0.9354567375091123,
+    "eot_precision": 0.8643043762246897,
+    "eot_recall": 0.9429894886869766,
+    "eot_f1": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11389,
+        831
+      ],
+      [
+        320,
+        5293
+      ]
+    ]
+  },
+  "model_checkpoint_cycle": 75,
+  "new_encoded_input_sha256": "fa6e5ccc7b262790f9f8992e70268722b37e9909a2913fb8eacdc169d0a3f232",
+  "new_current_text_truncated_rows": 0,
+  "paired_correctness": {
+    "both_correct": 13577,
+    "both_wrong": 732,
+    "new_only_correct": 419,
+    "old_only_correct": 3105
+  },
+  "full_predictions_sha256": "af2179c847f04ea480c8e9da2f14b7ff1e0616f29cf000059f7856b03ab55203",
+  "prediction_arrays_sha256": "42a91378372af7952dfb428506819e8652bfdde9efb538afb2c225363e1d870e",
+  "runtime_versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "numpy": "2.1.3"
+  },
+  "inference_device": "Colab NVIDIA L4",
+  "threshold_not_retuned": true,
+  "model_not_updated": true,
+  "human_conversational_gold_certified": false
+}

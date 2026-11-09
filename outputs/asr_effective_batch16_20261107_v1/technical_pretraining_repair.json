@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "before_any_training": true,
+  "branch_step": 0,
+  "all_model_optimizer_rng_order_fields_unchanged": true,
+  "change": "LR guard absolute tolerance1e-15 only; no LR or state change",
+  "source_sha256": "eb79c9f2b783c57fc2e55b0a40067f3f1517b278643152d80c2a47568934fb23"
+}

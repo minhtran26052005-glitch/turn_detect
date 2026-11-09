@@ -1,0 +1,94 @@
+{
+  "status": "BOUNDED_AUTO_CRAWL_JUDGE_RL_COMPLETE",
+  "rounds": [
+    {
+      "round": 1,
+      "pages": 6,
+      "candidates": 93,
+      "accepted": 51,
+      "errors": []
+    },
+    {
+      "round": 2,
+      "pages": 5,
+      "candidates": 90,
+      "accepted": 56,
+      "errors": [
+        {
+          "language": "zh",
+          "title": "铁路运输",
+          "error": "HTTPError:429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Cinfo%7Crevisi"
+        }
+      ]
+    }
+  ],
+  "selected_models": {
+    "vi": {
+      "path": "outputs/auto_rl_v12_20261025/round_01/vi",
+      "dev": {
+        "threshold": 0.105,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.105,
+            "accuracy": 0.8358333333333333,
+            "eot_precision": 0.6611316113161132,
+            "eot_recall": 0.9641255605381166,
+            "eot_f1": 0.7843852608537031,
+            "joint_score": 0.7843852608537031,
+            "false_eot": 551,
+            "missed_eot": 40,
+            "false_eot_rate": 0.22173038229376257,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1934,
+                551
+              ],
+              [
+                40,
+                1075
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.105,
+            "accuracy": 0.503448275862069,
+            "eot_precision": 0.37362637362637363,
+            "eot_recall": 0.6938775510204082,
+            "eot_f1": 0.4857142857142857,
+            "joint_score": 0.4857142857142857,
+            "false_eot": 57,
+            "missed_eot": 15,
+            "false_eot_rate": 0.59375,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                39,
+                57
+              ],
+              [
+                15,
+                34
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.4857142857142857,
+        "natural_target_met": false
+      }
+    },
+    "en": {
+      "path": "outputs/reward_v10_20261025/en/data_sft",
+      "dev": null
+    },
+    "zh": {
+      "path": "outputs/reward_v10_20261025/zh/data_sft",
+      "dev": null
+    }
+  },
+  "probe_passed": true,
+  "quality_target_certified": false,
+  "source_sha256": "69498a5469a72a592fce7e251cd664d6427462e8c93b2b5afdb56c88ed15a5a1",
+  "GPU_peak_bytes": 16954317824,
+  "elapsed_seconds": 116.4073000909998
+}

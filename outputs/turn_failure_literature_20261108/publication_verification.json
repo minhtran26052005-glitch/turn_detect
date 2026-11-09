@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "files": [
+    {
+      "name": "bundle_verification.json",
+      "sha256": "a86670f12c8c71d3170f010829e634eb811f44291f94e7e5aaa881886f5f1f82"
+    },
+    {
+      "name": "local_evidence.json",
+      "sha256": "47ac319afceb0f8fd8a1bf4f8e9b2afefe8e47f3a2acd89268ff10f1c28b7a21"
+    },
+    {
+      "name": "README.md",
+      "sha256": "c72288ccad189d69f9323adef5521215f4efe548def86e06dd0bb332b28c9e10"
+    },
+    {
+      "name": "references.json",
+      "sha256": "a31cface72c60bb13ee00fb27e5fde322ffd1e6b574b8778aa3dc0bce3a20bfa"
+    },
+    {
+      "name": "review.html",
+      "sha256": "24fdc3c24b6d4959725ee734699766c96bde6ed42fdb2007c7b6cd220bb65e1a"
+    },
+    {
+      "name": "search_log.json",
+      "sha256": "e07c630fa94582ad0c195e3f7c6745e7da8c7e99a2096c12b4b8041c35588675"
+    }
+  ],
+  "main_desired_state": "PAUSED_BY_USER_FOR_TEST",
+  "stop_requested": true,
+  "at_utc": "2026-11-08T15:17:56.499616+00:00",
+  "ssd_free_gib": 41.942543029785156,
+  "html_table_and_links_checked": true,
+  "new_training_or_test": false
+}

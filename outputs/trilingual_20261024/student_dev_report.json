@@ -1,0 +1,110 @@
+{
+  "scope": "STRUCTURAL_PROXY_DEV_SELECTION; full VI regression is previously exposed dev",
+  "dev": {
+    "vi": {
+      "samples": 2400,
+      "threshold": 0.235,
+      "accuracy": 0.9091666666666667,
+      "eot_precision": 0.8219026548672567,
+      "eot_recall": 0.92875,
+      "eot_f1": 0.8720657276995305,
+      "joint_score": 0.8720657276995305,
+      "false_eot": 161,
+      "missed_eot": 57,
+      "false_eot_rate": 0.100625,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1439,
+          161
+        ],
+        [
+          57,
+          743
+        ]
+      ]
+    },
+    "en": {
+      "samples": 2387,
+      "threshold": 0.36499999999999994,
+      "accuracy": 0.8755760368663594,
+      "eot_precision": 0.7625523012552301,
+      "eot_recall": 0.9123904881101377,
+      "eot_f1": 0.8307692307692308,
+      "joint_score": 0.8307692307692308,
+      "false_eot": 227,
+      "missed_eot": 70,
+      "false_eot_rate": 0.1429471032745592,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1361,
+          227
+        ],
+        [
+          70,
+          729
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 2403,
+      "threshold": 0.42999999999999994,
+      "accuracy": 0.9230129005409904,
+      "eot_precision": 0.860981308411215,
+      "eot_recall": 0.9178082191780822,
+      "eot_f1": 0.8884870403857745,
+      "joint_score": 0.8884870403857745,
+      "false_eot": 119,
+      "missed_eot": 66,
+      "false_eot_rate": 0.074375,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1481,
+          119
+        ],
+        [
+          66,
+          737
+        ]
+      ]
+    }
+  },
+  "vi_full_dev": {
+    "samples": 17833,
+    "threshold": 0.235,
+    "accuracy": 0.9042225088319408,
+    "eot_precision": 0.7986844118096986,
+    "eot_recall": 0.9301621236415464,
+    "eot_f1": 0.8594238683127572,
+    "joint_score": 0.8594238683127572,
+    "false_eot": 1316,
+    "missed_eot": 392,
+    "false_eot_rate": 0.1076923076923077,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        10904,
+        1316
+      ],
+      [
+        392,
+        5221
+      ]
+    ]
+  },
+  "strict_gpu_reference_vs_packed_dev_max_delta": 9.413974874750153e-06,
+  "original_training_eval_vs_packed_max_delta": 0.0005807749906701631,
+  "precision_note": "Training cuDNN TF32 was enabled; verify exact same QAT weights with TF32 disabled. GPU fake-quant weights match packed decode exactly.",
+  "quality_target_all_languages_met": false,
+  "full_vi_target_met": false,
+  "test_evaluated": false,
+  "old_holdout_evaluated": false,
+  "deployed_thresholds": {
+    "vi": 0.235,
+    "en": 0.36499999999999994,
+    "zh": 0.42999999999999994
+  },
+  "model_sha256": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+  "torch_imported": false,
+  "transformers_imported": false,
+  "onnx_bytes": 728710,
+  "deployment_bytes": 1888631
+}

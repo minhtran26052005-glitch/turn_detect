@@ -1,0 +1,177 @@
+{
+  "best_path": "runs/natural_v8_lora_20261025_r3/best_adapter",
+  "best_dev": {
+    "step": 180,
+    "thresholds": {
+      "vi": 0.43999999999999995,
+      "en": 0.30499999999999994,
+      "zh": 0.20999999999999996
+    },
+    "slices": {
+      "vi:legacy_vi": {
+        "samples": 3600,
+        "threshold": 0.43999999999999995,
+        "accuracy": 0.8636111111111111,
+        "eot_precision": 0.7439779766001376,
+        "eot_recall": 0.9008333333333334,
+        "eot_f1": 0.814926498303807,
+        "joint_score": 0.814926498303807,
+        "false_eot": 372,
+        "missed_eot": 119,
+        "false_eot_rate": 0.155,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2028,
+            372
+          ],
+          [
+            119,
+            1081
+          ]
+        ]
+      },
+      "vi:natural": {
+        "samples": 145,
+        "threshold": 0.43999999999999995,
+        "accuracy": 0.5862068965517241,
+        "eot_precision": 0.43820224719101125,
+        "eot_recall": 0.7959183673469388,
+        "eot_f1": 0.5652173913043478,
+        "joint_score": 0.5652173913043478,
+        "false_eot": 50,
+        "missed_eot": 10,
+        "false_eot_rate": 0.5208333333333334,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            46,
+            50
+          ],
+          [
+            10,
+            39
+          ]
+        ]
+      },
+      "en:natural": {
+        "samples": 79,
+        "threshold": 0.30499999999999994,
+        "accuracy": 0.7468354430379747,
+        "eot_precision": 0.7704918032786885,
+        "eot_recall": 0.8867924528301887,
+        "eot_f1": 0.8245614035087719,
+        "joint_score": 0.7468354430379747,
+        "false_eot": 14,
+        "missed_eot": 6,
+        "false_eot_rate": 0.5384615384615384,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            12,
+            14
+          ],
+          [
+            6,
+            47
+          ]
+        ]
+      },
+      "zh:natural": {
+        "samples": 69,
+        "threshold": 0.20999999999999996,
+        "accuracy": 0.7681159420289855,
+        "eot_precision": 0.7846153846153846,
+        "eot_recall": 0.9622641509433962,
+        "eot_f1": 0.864406779661017,
+        "joint_score": 0.7681159420289855,
+        "false_eot": 14,
+        "missed_eot": 2,
+        "false_eot_rate": 0.875,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2,
+            14
+          ],
+          [
+            2,
+            51
+          ]
+        ]
+      }
+    },
+    "natural_languages": {
+      "vi": {
+        "samples": 145,
+        "threshold": 0.43999999999999995,
+        "accuracy": 0.5862068965517241,
+        "eot_precision": 0.43820224719101125,
+        "eot_recall": 0.7959183673469388,
+        "eot_f1": 0.5652173913043478,
+        "joint_score": 0.5652173913043478,
+        "false_eot": 50,
+        "missed_eot": 10,
+        "false_eot_rate": 0.5208333333333334,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            46,
+            50
+          ],
+          [
+            10,
+            39
+          ]
+        ]
+      },
+      "en": {
+        "samples": 79,
+        "threshold": 0.30499999999999994,
+        "accuracy": 0.7468354430379747,
+        "eot_precision": 0.7704918032786885,
+        "eot_recall": 0.8867924528301887,
+        "eot_f1": 0.8245614035087719,
+        "joint_score": 0.7468354430379747,
+        "false_eot": 14,
+        "missed_eot": 6,
+        "false_eot_rate": 0.5384615384615384,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            12,
+            14
+          ],
+          [
+            6,
+            47
+          ]
+        ]
+      },
+      "zh": {
+        "samples": 69,
+        "threshold": 0.20999999999999996,
+        "accuracy": 0.7681159420289855,
+        "eot_precision": 0.7846153846153846,
+        "eot_recall": 0.9622641509433962,
+        "eot_f1": 0.864406779661017,
+        "joint_score": 0.7681159420289855,
+        "false_eot": 14,
+        "missed_eot": 2,
+        "false_eot_rate": 0.875,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2,
+            14
+          ],
+          [
+            2,
+            51
+          ]
+        ]
+      }
+    },
+    "minimum_dev_slice_joint_score": 0.5652173913043478,
+    "development_target_met": false,
+    "development_all_slices_over_90": false,
+    "natural_hold_false_eot_below_10_percent": false,
+    "independent_real_target_achieved": false,
+    "scope": "Development automatic floor labels; not independent human gold"
+  },
+  "stale_evaluations": 0,
+  "held_classifier_scored": false
+}

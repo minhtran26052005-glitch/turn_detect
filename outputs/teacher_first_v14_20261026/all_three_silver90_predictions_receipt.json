@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"reports\": {\"vi\": {\"steps\": 400, \"metrics\": {\"samples\": 31, \"threshold\": 0.32999999999999996, \"accuracy\": 0.967741935483871, \"eot_precision\": 1.0, \"eot_recall\": 0.8571428571428571, \"eot_f1\": 0.9230769230769231, \"joint_score\": 0.9230769230769231, \"false_eot\": 0, \"missed_eot\": 1, \"false_eot_rate\": 0.0, \"confusion_matrix_NEOT_EOT\": [[24, 0], [1, 6]]}, \"checkpoint_sha256\": \"94e65858cac966beb52f2ee57b7833e008d15008d22b61cb14e110a5aa16b327\", \"scope\": \"FROZEN_QWEN_SILVER_DEV_NOT_INDEPENDENT_GOLD\"}, \"en\": {\"steps\": 300, \"metrics\": {\"samples\": 52, \"threshold\": 0.6649999999999999, \"accuracy\": 0.9423076923076923, \"eot_precision\": 0.85, \"eot_recall\": 1.0, \"eot_f1\": 0.918918918918919, \"joint_score\": 0.918918918918919, \"false_eot\": 3, \"missed_eot\": 0, \"false_eot_rate\": 0.08571428571428572, \"confusion_matrix_NEOT_EOT\": [[32, 3], [0, 17]]}, \"checkpoint_sha256\": \"903088db0cb011314d385199f87012afb63427c2596c975b7f4ec39f24815ed4\", \"scope\": \"FROZEN_QWEN_SILVER_DEV_NOT_INDEPENDENT_GOLD\"}, \"zh\": {\"steps\": 300, \"metrics\": {\"samples\": 22, \"threshold\": 0.83, \"accuracy\": 0.9090909090909091, \"eot_precision\": 0.9, \"eot_recall\": 0.9, \"eot_f1\": 0.9, \"joint_score\": 0.9, \"false_eot\": 1, \"missed_eot\": 1, \"false_eot_rate\": 0.08333333333333333, \"confusion_matrix_NEOT_EOT\": [[11, 1], [1, 9]]}, \"checkpoint_sha256\": \"b3018bc83abd0f8033707165abc922321bde940ff0fc5ab6513c8b9448bde9d9\", \"scope\": \"FROZEN_QWEN_SILVER_DEV_NOT_INDEPENDENT_GOLD\"}}, \"all_silver_joint_ge90\": true, \"quality_target_certified\": false, \"Drive_mounted\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

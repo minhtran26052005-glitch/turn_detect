@@ -1,0 +1,19 @@
+{
+  "initial_path": "runs/stream_v4_campaign_20261025/round_02/best",
+  "initial_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "canonical_data_sha256": "47075f72b170d967bf2423c8dfc6e41b1b35545f9bda578cb496d3bae093328b",
+  "replay_train_sha256": "1498b2a2bc0c3705f502ec00a9fa6f21301c64ee08fb8a35610882442b1e12fa",
+  "source_sha256": "03e3ee6f70856bf6da001640ffffca1e7bb1ea2a3235759fc1ebfc67b8ae07a7",
+  "codec_source_sha256": "f5444c413bfacc11fe4a508d0bea87dd4aeb382601256a04caa8afb2d530e256",
+  "natural_train_samples": 1433,
+  "replay_samples": 104143,
+  "dev_samples": 3893,
+  "rounds_max": 4,
+  "steps_per_round": 600,
+  "microbatch": 16,
+  "accumulation": 2,
+  "stopping": "strict development target plus hold FPR<=10%, or six stale dev evaluations after at least two rounds, or maxrounds",
+  "sealed_data_loaded": false,
+  "old_v4_pilot_loaded": false,
+  "input": "Text only; latest current tokens plus strictly past text context"
+}

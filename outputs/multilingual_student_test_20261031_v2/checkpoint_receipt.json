@@ -1,0 +1,27 @@
+{
+  "step": 106000,
+  "counts": {
+    "vi": 565344,
+    "en": 565328,
+    "zh": 565328
+  },
+  "cursors": {
+    "vi": "585989310da0365da386888b9a3bf58f75c4b67c2baf7fcd9f57e6bd9059ce90",
+    "en": "a46bca15f6e8f6fa888d27838b0974689fb288f4d5af70f6fd721e387563e735",
+    "zh": "1c312c1a828697cf824d594947bfd952141a7ff6336e34995bfa27d4a517e44a"
+  },
+  "rounds": {
+    "vi": 0,
+    "en": 0,
+    "zh": 0
+  },
+  "source_checkpoint_sha256": "e84a567601e427bbaced86940d8607e03f1adc95a74dc2ddd7fdbe8bbe5ecdcb",
+  "weights_sha256": "6df4cd14af0e8f2bf8cfcbbf1f4eaa420834929275ae566d129836a2f3168204",
+  "optimizer_rng_sampler_preserved_in_pin": true,
+  "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+  "student_base": "distilbert/distilbert-base-multilingual-cased",
+  "student_revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+  "same_model_for_all_languages": true,
+  "training_continues_independently": true,
+  "test_used_for_selection": false
+}

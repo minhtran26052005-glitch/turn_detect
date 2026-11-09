@@ -1,0 +1,100 @@
+{
+  "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+  "checked_unix": 1793634620.39902,
+  "start_ticks": "164260",
+  "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v9/factory_spoken_campaign_v9.py ",
+  "io": "rchar: 174979980\nwchar: 10438338078\nsyscr: 25244\nsyscw: 69212\nread_bytes: 466472960\nwrite_bytes: 12205342720\ncancelled_write_bytes: 4096\n",
+  "wchan": "futex_wait_queue",
+  "status.json": {
+    "at_unix": 1793634592.746546,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 0,
+    "pid": 7510,
+    "stage": "LOADING_QWEN",
+    "start_ticks": "164260",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 6868,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 330,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 1632,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 41870,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "ce2f9806824a542c918bfd53be12b07db01262e094853d4a7711ced0b10c3f58",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 5236,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 1632,
+        "zh": 0
+      }
+    }
+  },
+  "log_tail": "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n\rFetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:27<01:49, 27.40s/it]",
+  "cache_sizes": [
+    {
+      "name": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "bytes": 1671853
+    },
+    {
+      "name": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f.25256809.incomplete",
+      "bytes": 2848452608
+    },
+    {
+      "name": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+      "bytes": 1244659840
+    },
+    {
+      "name": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "bytes": 2776833
+    },
+    {
+      "name": "d46195ac87f837ad233d02b2f80f148bf7c005e0",
+      "bytes": 728
+    },
+    {
+      "name": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836.a4f1ed23.incomplete",
+      "bytes": 2614382592
+    },
+    {
+      "name": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a.c45926fe.incomplete",
+      "bytes": 2689654784
+    },
+    {
+      "name": "2b85c00f1b118961cd7a477e2bba0fe197a4ce1a",
+      "bytes": 32878
+    },
+    {
+      "name": "417d038a63fa3de29cfde265caedae14d1a58d92",
+      "bytes": 9732
+    },
+    {
+      "name": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "bytes": 11422654
+    },
+    {
+      "name": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282.31c4ce2b.incomplete",
+      "bytes": 2750377984
+    }
+  ],
+  "gpu": "23034, 0, 0",
+  "colab_free_gib": 224.1971778869629,
+  "checked_utc": "2026-11-02T15:50:20.913766+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "command": "python -m pytest -q",
+  "exit_code": 0,
+  "elapsed_seconds": 27.203999999997905,
+  "free_local_GiB": 37.96741485595703
+}

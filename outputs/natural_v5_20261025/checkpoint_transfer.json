@@ -1,0 +1,409 @@
+{
+  "selected_path": "runs/natural_v5_train_20261025/round_02/best/model.safetensors",
+  "sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66",
+  "bytes": 1115268200,
+  "parts": [
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_000.bin",
+      "name": "part_000.bin",
+      "bytes": 16777216,
+      "sha256": "07db914ec60469a1cae457eaddc469e08b264f8c3c52487f0e2f679118e099d1"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_001.bin",
+      "name": "part_001.bin",
+      "bytes": 16777216,
+      "sha256": "a323683a4ccae075d0a5cf54f739edd82ba3531f3b84e9676bbb47373b0594c8"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_002.bin",
+      "name": "part_002.bin",
+      "bytes": 16777216,
+      "sha256": "e5540cd2bfea1bc2e68ae7b9bbee168e1c1f983fdafe7f933ed530efa4de1f20"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_003.bin",
+      "name": "part_003.bin",
+      "bytes": 16777216,
+      "sha256": "6c6d3bf3c1b6de1a7b65216ca392e8edca6fce947f51cb34b4485d5b7082704a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_004.bin",
+      "name": "part_004.bin",
+      "bytes": 16777216,
+      "sha256": "4e6b46f85ce29991310baa7c17116867f683c73042730ddc3ce9727ad2f9c304"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_005.bin",
+      "name": "part_005.bin",
+      "bytes": 16777216,
+      "sha256": "b8f06955c64ba06856c2cd53bfad029a20f84718f3f651d00f4176637f3f3e78"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_006.bin",
+      "name": "part_006.bin",
+      "bytes": 16777216,
+      "sha256": "48d8266d3361c4a0ffff594499246cc81692b42d95dfe683e7ca83cea331325c"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_007.bin",
+      "name": "part_007.bin",
+      "bytes": 16777216,
+      "sha256": "a211ad87701bd6657d719f7bab9f658f0d8d76957918e1e70f124edd25b14e52"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_008.bin",
+      "name": "part_008.bin",
+      "bytes": 16777216,
+      "sha256": "251d6a79e61340a680ae4330ebbe5a7caff77b32ad4446bc10cd4f8ccd7140d3"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_009.bin",
+      "name": "part_009.bin",
+      "bytes": 16777216,
+      "sha256": "3d0ab0cf5dea4b347f40dd18472d0dff8900124c3760aef1b94a070a797e4093"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_010.bin",
+      "name": "part_010.bin",
+      "bytes": 16777216,
+      "sha256": "1244c9a544eb20ce9a4ddb136c57e29739272fd1ff7d27255c1ecef92e19bdd3"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_011.bin",
+      "name": "part_011.bin",
+      "bytes": 16777216,
+      "sha256": "9f2faecd2ad66ca7a81d946959f8f1f3c2bace23f7b3c658bbf0912b562028d0"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_012.bin",
+      "name": "part_012.bin",
+      "bytes": 16777216,
+      "sha256": "7bf96e3d814fab3f2768441bd7c1e4e201f23eec37a94245ef71d678595c800d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_013.bin",
+      "name": "part_013.bin",
+      "bytes": 16777216,
+      "sha256": "4c9ace4061d2c090686ae7075c91f3cabd4e2a9af8a99e4cc8ca8ec2ca0a820e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_014.bin",
+      "name": "part_014.bin",
+      "bytes": 16777216,
+      "sha256": "677cd4afdc07502f97c778c50a2de795cd2bfb395271790a560266d40edca112"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_015.bin",
+      "name": "part_015.bin",
+      "bytes": 16777216,
+      "sha256": "ad9f6381d01147cf6261c1c8c45627e0e5b96ad3ad7a760c71251ebe9fd317c7"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_016.bin",
+      "name": "part_016.bin",
+      "bytes": 16777216,
+      "sha256": "d47f00005ac1532c4f87412f7a72314f7dd3295a398f65034e7dac8a99ae393a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_017.bin",
+      "name": "part_017.bin",
+      "bytes": 16777216,
+      "sha256": "ee8b3c1085f6269333edcf1cce6bd5a0d15ff58e98c50b35ef59e2e2bdd98ba0"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_018.bin",
+      "name": "part_018.bin",
+      "bytes": 16777216,
+      "sha256": "0681ba64bda88e3e35bd06f973d5b9e95727dace6bc0a4e3aa87d3e4f5725ec0"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_019.bin",
+      "name": "part_019.bin",
+      "bytes": 16777216,
+      "sha256": "19782a876f8c225adf04d98ce922e857f3599e5daffa0ff3b4f87b36dc8bd554"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_020.bin",
+      "name": "part_020.bin",
+      "bytes": 16777216,
+      "sha256": "e5588da7bb2b820dcd5965ab097ca4b707cd5ef96be4e39ec5a97bc613992399"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_021.bin",
+      "name": "part_021.bin",
+      "bytes": 16777216,
+      "sha256": "f3f6732cd049f752b900b7ba2f3c1a83b2e2d4782d43870e00b6a33ecfb471da"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_022.bin",
+      "name": "part_022.bin",
+      "bytes": 16777216,
+      "sha256": "d21415f3eb9406bc2a5ddb7f05b4ca50fb35b443851683adf2c24accec0588ab"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_023.bin",
+      "name": "part_023.bin",
+      "bytes": 16777216,
+      "sha256": "056d35edca2f62ec15b1cbeeff47e0ed0ee77a761f0ef72ba2d7181a1a428821"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_024.bin",
+      "name": "part_024.bin",
+      "bytes": 16777216,
+      "sha256": "595bd436aa30feee0fbdca037f4083e5e561cbb2a6698875d338b8cf43a83b09"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_025.bin",
+      "name": "part_025.bin",
+      "bytes": 16777216,
+      "sha256": "7374de6c7c721a5846ea574b9d7f94744644e2cf6886dc5ae680f877b4fa99f5"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_026.bin",
+      "name": "part_026.bin",
+      "bytes": 16777216,
+      "sha256": "89439b560d165b2d53e70270baafa627f3f0f22c5ada75653760332e84d2b332"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_027.bin",
+      "name": "part_027.bin",
+      "bytes": 16777216,
+      "sha256": "721677bb5cfc14cbe1ab1546562267069ded64628eec178cf183045c287cd40e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_028.bin",
+      "name": "part_028.bin",
+      "bytes": 16777216,
+      "sha256": "8fd49f26ec87a194df8ed415078228b5436cf9c66b19f1ab51ac458749c75b47"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_029.bin",
+      "name": "part_029.bin",
+      "bytes": 16777216,
+      "sha256": "317c72ec26fc1ad0e1eb8612ad508f394083dc63321dd8deb134c60199b9f3f4"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_030.bin",
+      "name": "part_030.bin",
+      "bytes": 16777216,
+      "sha256": "89b214839dda9a07d5755e2fce324afbf247d20c8a1ad0d467c4ef83727e0725"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_031.bin",
+      "name": "part_031.bin",
+      "bytes": 16777216,
+      "sha256": "d1b7e20cd6d7106cb4ee279b5f98fd4dd87f0b3433887682a11586b3217d2e04"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_032.bin",
+      "name": "part_032.bin",
+      "bytes": 16777216,
+      "sha256": "9bdb3695a8a2d2f31dabb465a72ea44a41fb7b1f707a467a35e296ac2f83cf48"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_033.bin",
+      "name": "part_033.bin",
+      "bytes": 16777216,
+      "sha256": "b6eca033cb984b05ab74b1e3cfce2d63dcf10922313331e781631001dea172df"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_034.bin",
+      "name": "part_034.bin",
+      "bytes": 16777216,
+      "sha256": "310a05e47ee2cb35bbde4a055ed6ecac5f43e4544b33d5743b48ac20b71dfe85"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_035.bin",
+      "name": "part_035.bin",
+      "bytes": 16777216,
+      "sha256": "1cb373708a9c55e0944e5ec9664ecc45878154f5d115b5d507174c7ec33efe6a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_036.bin",
+      "name": "part_036.bin",
+      "bytes": 16777216,
+      "sha256": "518f887138edd46676c6ccc034c5a6b4026d9cb61cd704827a90b702fb10fe3f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_037.bin",
+      "name": "part_037.bin",
+      "bytes": 16777216,
+      "sha256": "95db157dcf7faf8318909ad0421d971766e9118516f7fba2bec2da168bc3022d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_038.bin",
+      "name": "part_038.bin",
+      "bytes": 16777216,
+      "sha256": "ea84f982b3be6d710b4f95b9b31d9eb5444ffa0a66e99334469506c98bc1dfb5"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_039.bin",
+      "name": "part_039.bin",
+      "bytes": 16777216,
+      "sha256": "1686c554f65501e7601149da893be3d5e3c1904701eb7a3df734b57d60a127c7"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_040.bin",
+      "name": "part_040.bin",
+      "bytes": 16777216,
+      "sha256": "1335fc208777b554124d888d1bf0d320f5d5b4e5a3d3c6c55e1a235047c0b6db"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_041.bin",
+      "name": "part_041.bin",
+      "bytes": 16777216,
+      "sha256": "f5d06ce51c040b508e670e5ebdbf055e7d7eef08a22533d122dd0bdbed52ee87"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_042.bin",
+      "name": "part_042.bin",
+      "bytes": 16777216,
+      "sha256": "ca7371bdddbd14e63f83bbf3a216195280071bbc64e210530e86010539feecf3"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_043.bin",
+      "name": "part_043.bin",
+      "bytes": 16777216,
+      "sha256": "00fa956407b9ee7017c5be4a5b35d81774136f26a1de26d628d688f69f794eb1"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_044.bin",
+      "name": "part_044.bin",
+      "bytes": 16777216,
+      "sha256": "9e5e465edeeab331dec24461de4c4b40afd7d1aa6403547a74dde3ee1fcb1825"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_045.bin",
+      "name": "part_045.bin",
+      "bytes": 16777216,
+      "sha256": "e8f3b3d0c180d5d4890f8f0bae79a86e85302982a39cdf90593ea11b09810fdd"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_046.bin",
+      "name": "part_046.bin",
+      "bytes": 16777216,
+      "sha256": "6b5fec9c329a4258e77ab4e4c082729a4f35ec7c9520c2629fd714ae2413d7aa"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_047.bin",
+      "name": "part_047.bin",
+      "bytes": 16777216,
+      "sha256": "06b4f6c2f58101670830687195d298801582a3190c8736a3a43c305b277e8d59"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_048.bin",
+      "name": "part_048.bin",
+      "bytes": 16777216,
+      "sha256": "83c65a56f6007d19579fce5dd8d0ca0d5cc999af2ff531090929429e9c1a4fa4"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_049.bin",
+      "name": "part_049.bin",
+      "bytes": 16777216,
+      "sha256": "ad5afc090e3c639aaa6865fa7f94ddd3d80039e276ad1e9350fa25ad381d92d3"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_050.bin",
+      "name": "part_050.bin",
+      "bytes": 16777216,
+      "sha256": "a635b74d02791d237c83da9f2ec7f1e0daf45c5d25b6e4331a17114412dc0d3d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_051.bin",
+      "name": "part_051.bin",
+      "bytes": 16777216,
+      "sha256": "b5c965ab309f12d456f183b5f9cf2d73db319b8fcd99a44af14eb9150ade7a12"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_052.bin",
+      "name": "part_052.bin",
+      "bytes": 16777216,
+      "sha256": "9289bef9022317e7a221acc819c1d64f230b11d5168ea652024c0880ab94da6a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_053.bin",
+      "name": "part_053.bin",
+      "bytes": 16777216,
+      "sha256": "c46db979f92c241f29328a3353e9eb4ab043cea78cc3aab7f0bc171d76734276"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_054.bin",
+      "name": "part_054.bin",
+      "bytes": 16777216,
+      "sha256": "fe1cd2eb6bd4a62f9baa524926a4dad0177325882aae2abf4771732314b6d88c"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_055.bin",
+      "name": "part_055.bin",
+      "bytes": 16777216,
+      "sha256": "b227b6f4c40eb282f35c55769f0e0d3639691f869218d9fc028c94f5661412b9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_056.bin",
+      "name": "part_056.bin",
+      "bytes": 16777216,
+      "sha256": "cec2605928f46523c43a1091a47417236bd02d696d74b3f6cac00832eb1bf5c9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_057.bin",
+      "name": "part_057.bin",
+      "bytes": 16777216,
+      "sha256": "36a8c618597fd970fd8edbcbf3f60407812f741b874a6d407349fd47da3469f0"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_058.bin",
+      "name": "part_058.bin",
+      "bytes": 16777216,
+      "sha256": "76d288c0abd54c5bffcd12ef8c54e636edc60fb6451a52858bc547ffc70d811d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_059.bin",
+      "name": "part_059.bin",
+      "bytes": 16777216,
+      "sha256": "664b96836f42fa50558744064e33d7f37f40991136bf492344f4dea55400a925"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_060.bin",
+      "name": "part_060.bin",
+      "bytes": 16777216,
+      "sha256": "0f1499a2b171702fe63a81a5ecd0aac3c2e4e051f5c69376b022d4e1f0aab66f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_061.bin",
+      "name": "part_061.bin",
+      "bytes": 16777216,
+      "sha256": "88f08803507db35108a52a0bb83fd4620567eeb7a0c380be5cf2cc7319d267d2"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_062.bin",
+      "name": "part_062.bin",
+      "bytes": 16777216,
+      "sha256": "aa661d1c42963caf0a4b3249e28eb103bb0c2e71da599dc194d34a4e55766305"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_063.bin",
+      "name": "part_063.bin",
+      "bytes": 16777216,
+      "sha256": "697cd182f0518d148e72fdb7427c536b441d4fba81df1cf0e1b146befc5b398e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_064.bin",
+      "name": "part_064.bin",
+      "bytes": 16777216,
+      "sha256": "fbe77a478a26683bf5daee33b4f54b1818f803c28b6680213b0f9feb3b38c570"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_065.bin",
+      "name": "part_065.bin",
+      "bytes": 16777216,
+      "sha256": "eb134185dd58e47aebdb08da0140d95c498ce37a6484d51b1fe922bcdf3a9341"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/natural_v5_20261025/checkpoint_parts/part_066.bin",
+      "name": "part_066.bin",
+      "bytes": 7971944,
+      "sha256": "00718bd185629f66a363e87aa3ebb1acc5b9816eeaa6ae7b81800a40361e3732"
+    }
+  ]
+}

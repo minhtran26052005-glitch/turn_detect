@@ -1,0 +1,13 @@
+{
+  "pid": 914852,
+  "start_ticks": "60017417",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_train_v2 ",
+  "module": "turn_v2.multilingual_malbert_vi_en_train_v2",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+  "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_20261103_v2",
+  "launched_unix": 1793693007.570712
+}

@@ -1,0 +1,683 @@
+{
+  "criterion": "Smallest actual five-file model core among all full-dev passing variants; identical portable runner overhead added after selection",
+  "candidates": [
+    {
+      "run": "distill_gru_h128_e64_l1_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/quality_int8/report.json",
+      "model_bytes": 382113,
+      "model_core_bytes": 605389,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9333819323725677,
+        "eot_precision": 0.8587643911139938,
+        "eot_recall": 0.9435239622305363,
+        "eot_f1": 0.899151103565365,
+        "joint_score": 0.899151103565365,
+        "false_eot": 871,
+        "missed_eot": 317,
+        "false_eot_rate": 0.07127659574468086,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11349,
+            871
+          ],
+          [
+            317,
+            5296
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h128_e64_l1_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/quality_fp16/report.json",
+      "model_bytes": 703833,
+      "model_core_bytes": 927110,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9333258565580665,
+        "eot_precision": 0.8576972833117723,
+        "eot_recall": 0.9449492250133619,
+        "eot_f1": 0.8992116639823684,
+        "joint_score": 0.8992116639823684,
+        "false_eot": 880,
+        "missed_eot": 309,
+        "false_eot_rate": 0.07201309328968904,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11340,
+            880
+          ],
+          [
+            309,
+            5304
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h128_e64_l1_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_20261024/quality_fp32/report.json",
+      "model_bytes": 1390694,
+      "model_core_bytes": 1613919,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9334380081870689,
+        "eot_precision": 0.85878728923476,
+        "eot_recall": 0.9437021200783895,
+        "eot_f1": 0.8992445463033698,
+        "joint_score": 0.8992445463033698,
+        "false_eot": 871,
+        "missed_eot": 316,
+        "false_eot_rate": 0.07127659574468086,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11349,
+            871
+          ],
+          [
+            316,
+            5297
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h128_e64_l1_stage2_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_stage2_20261024/quality_int8/report.json",
+      "model_bytes": 382113,
+      "model_core_bytes": 605397,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.49499999999999994,
+        "accuracy": 0.9347277519205967,
+        "eot_precision": 0.8646123586297328,
+        "eot_recall": 0.9397826474256191,
+        "eot_f1": 0.9006317227249445,
+        "joint_score": 0.9006317227249445,
+        "false_eot": 826,
+        "missed_eot": 338,
+        "false_eot_rate": 0.06759410801963993,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11394,
+            826
+          ],
+          [
+            338,
+            5275
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h128_e64_l1_stage2_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_stage2_20261024/quality_fp16/report.json",
+      "model_bytes": 703833,
+      "model_core_bytes": 927117,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5149999999999999,
+        "accuracy": 0.9348959793641003,
+        "eot_precision": 0.8669634025717112,
+        "eot_recall": 0.9369321218599679,
+        "eot_f1": 0.9005908040071924,
+        "joint_score": 0.9005908040071924,
+        "false_eot": 807,
+        "missed_eot": 354,
+        "false_eot_rate": 0.0660392798690671,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11413,
+            807
+          ],
+          [
+            354,
+            5259
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h128_e64_l1_stage2_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h128_e64_l1_stage2_20261024/quality_fp32/report.json",
+      "model_bytes": 1390694,
+      "model_core_bytes": 1613926,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5149999999999999,
+        "accuracy": 0.9349520551786015,
+        "eot_precision": 0.8671063478977741,
+        "eot_recall": 0.9369321218599679,
+        "eot_f1": 0.9006679225894845,
+        "joint_score": 0.9006679225894845,
+        "false_eot": 806,
+        "missed_eot": 354,
+        "false_eot_rate": 0.06595744680851064,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11414,
+            806
+          ],
+          [
+            354,
+            5259
+          ]
+        ]
+      },
+      "parameters": 344642,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h256_e96_l2_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h256_e96_l2_20261024/quality_int8/report.json",
+      "model_bytes": 1266213,
+      "model_core_bytes": 1489490,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.49999999999999994,
+        "accuracy": 0.9366904054281389,
+        "eot_precision": 0.8714380384360504,
+        "eot_recall": 0.9371102797078211,
+        "eot_f1": 0.9030818095973904,
+        "joint_score": 0.9030818095973904,
+        "false_eot": 776,
+        "missed_eot": 353,
+        "false_eot_rate": 0.0635024549918167,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11444,
+            776
+          ],
+          [
+            353,
+            5260
+          ]
+        ]
+      },
+      "parameters": 1207330,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h256_e96_l2_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h256_e96_l2_20261024/quality_fp16/report.json",
+      "model_bytes": 2435632,
+      "model_core_bytes": 2658909,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5049999999999999,
+        "accuracy": 0.93674648124264,
+        "eot_precision": 0.8723227627428192,
+        "eot_recall": 0.936041332620702,
+        "eot_f1": 0.9030594706084565,
+        "joint_score": 0.9030594706084565,
+        "false_eot": 769,
+        "missed_eot": 359,
+        "false_eot_rate": 0.06292962356792144,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11451,
+            769
+          ],
+          [
+            359,
+            5254
+          ]
+        ]
+      },
+      "parameters": 1207330,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h256_e96_l2_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h256_e96_l2_20261024/quality_fp32/report.json",
+      "model_bytes": 4842731,
+      "model_core_bytes": 5065956,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5049999999999999,
+        "accuracy": 0.9366904054281389,
+        "eot_precision": 0.8723015609432082,
+        "eot_recall": 0.9358631747728487,
+        "eot_f1": 0.9029651912333476,
+        "joint_score": 0.9029651912333476,
+        "false_eot": 769,
+        "missed_eot": 360,
+        "false_eot_rate": 0.06292962356792144,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11451,
+            769
+          ],
+          [
+            360,
+            5253
+          ]
+        ]
+      },
+      "parameters": 1207330,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/quality_int8/report.json",
+      "model_bytes": 287700,
+      "model_core_bytes": 510974,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9298491560589918,
+        "eot_precision": 0.8471824259789876,
+        "eot_recall": 0.9481560662747194,
+        "eot_f1": 0.8948297604035309,
+        "joint_score": 0.8948297604035309,
+        "false_eot": 960,
+        "missed_eot": 291,
+        "false_eot_rate": 0.07855973813420622,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11260,
+            960
+          ],
+          [
+            291,
+            5322
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/quality_fp16/report.json",
+      "model_bytes": 521300,
+      "model_core_bytes": 744575,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9297930802444906,
+        "eot_precision": 0.8468267854302529,
+        "eot_recall": 0.9485123819704258,
+        "eot_f1": 0.8947899159663866,
+        "joint_score": 0.8947899159663866,
+        "false_eot": 963,
+        "missed_eot": 289,
+        "false_eot_rate": 0.07880523731587562,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11257,
+            963
+          ],
+          [
+            289,
+            5324
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_20261024/quality_fp32/report.json",
+      "model_bytes": 1027425,
+      "model_core_bytes": 1250648,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9298491560589918,
+        "eot_precision": 0.8469615017499205,
+        "eot_recall": 0.9485123819704258,
+        "eot_f1": 0.8948651147155223,
+        "joint_score": 0.8948651147155223,
+        "false_eot": 962,
+        "missed_eot": 289,
+        "false_eot_rate": 0.07872340425531915,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11258,
+            962
+          ],
+          [
+            289,
+            5324
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_stage2_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/quality_int8/report.json",
+      "model_bytes": 287700,
+      "model_core_bytes": 510981,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.49499999999999994,
+        "accuracy": 0.9313632030505243,
+        "eot_precision": 0.8612345679012345,
+        "eot_recall": 0.9321218599679316,
+        "eot_f1": 0.8952772073921971,
+        "joint_score": 0.8952772073921971,
+        "false_eot": 843,
+        "missed_eot": 381,
+        "false_eot_rate": 0.06898527004909984,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11377,
+            843
+          ],
+          [
+            381,
+            5232
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_stage2_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/quality_fp16/report.json",
+      "model_bytes": 521300,
+      "model_core_bytes": 744582,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9313632030505243,
+        "eot_precision": 0.8605224248398226,
+        "eot_recall": 0.9331908070550508,
+        "eot_f1": 0.8953846153846153,
+        "joint_score": 0.8953846153846153,
+        "false_eot": 849,
+        "missed_eot": 375,
+        "false_eot_rate": 0.06947626841243862,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11371,
+            849
+          ],
+          [
+            375,
+            5238
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h64_e64_l1_stage2_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h64_e64_l1_stage2_20261024/quality_fp32/report.json",
+      "model_bytes": 1027425,
+      "model_core_bytes": 1250655,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9313632030505243,
+        "eot_precision": 0.8605224248398226,
+        "eot_recall": 0.9331908070550508,
+        "eot_f1": 0.8953846153846153,
+        "joint_score": 0.8953846153846153,
+        "false_eot": 849,
+        "missed_eot": 375,
+        "false_eot_rate": 0.06947626841243862,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11371,
+            849
+          ],
+          [
+            375,
+            5238
+          ]
+        ]
+      },
+      "parameters": 253826,
+      "passes": false
+    },
+    {
+      "run": "distill_gru_h96_e64_l1_20261024",
+      "precision": "int8",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_int8",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h96_e64_l1_20261024/quality_int8/report.json",
+      "model_bytes": 328761,
+      "model_core_bytes": 552035,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5449999999999999,
+        "accuracy": 0.9356249649526159,
+        "eot_precision": 0.8750209978162271,
+        "eot_recall": 0.928024229467308,
+        "eot_f1": 0.9007435587065536,
+        "joint_score": 0.9007435587065536,
+        "false_eot": 744,
+        "missed_eot": 404,
+        "false_eot_rate": 0.06088379705400982,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11476,
+            744
+          ],
+          [
+            404,
+            5209
+          ]
+        ]
+      },
+      "parameters": 293090,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h96_e64_l1_20261024",
+      "precision": "fp16",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp16",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h96_e64_l1_20261024/quality_fp16/report.json",
+      "model_bytes": 600276,
+      "model_core_bytes": 823551,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5349999999999999,
+        "accuracy": 0.9356249649526159,
+        "eot_precision": 0.8733901990299381,
+        "eot_recall": 0.9303402814893996,
+        "eot_f1": 0.9009661835748792,
+        "joint_score": 0.9009661835748792,
+        "false_eot": 757,
+        "missed_eot": 391,
+        "false_eot_rate": 0.061947626841243865,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11463,
+            757
+          ],
+          [
+            391,
+            5222
+          ]
+        ]
+      },
+      "parameters": 293090,
+      "passes": true
+    },
+    {
+      "run": "distill_gru_h96_e64_l1_20261024",
+      "precision": "fp32",
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp32",
+      "report": "outputs/distillation_20261024/runs/distill_gru_h96_e64_l1_20261024/quality_fp32/report.json",
+      "model_bytes": 1184481,
+      "model_core_bytes": 1407704,
+      "dev": {
+        "samples": 17833,
+        "threshold": 0.5349999999999999,
+        "accuracy": 0.9356249649526159,
+        "eot_precision": 0.8733901990299381,
+        "eot_recall": 0.9303402814893996,
+        "eot_f1": 0.9009661835748792,
+        "joint_score": 0.9009661835748792,
+        "false_eot": 757,
+        "missed_eot": 391,
+        "false_eot_rate": 0.061947626841243865,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11463,
+            757
+          ],
+          [
+            391,
+            5222
+          ]
+        ]
+      },
+      "parameters": 293090,
+      "passes": true
+    }
+  ],
+  "selected": {
+    "run": "distill_gru_h96_e64_l1_20261024",
+    "precision": "int8",
+    "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_int8",
+    "report": "outputs/distillation_20261024/runs/distill_gru_h96_e64_l1_20261024/quality_int8/report.json",
+    "model_bytes": 328761,
+    "model_core_bytes": 552035,
+    "dev": {
+      "samples": 17833,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.9356249649526159,
+      "eot_precision": 0.8750209978162271,
+      "eot_recall": 0.928024229467308,
+      "eot_f1": 0.9007435587065536,
+      "joint_score": 0.9007435587065536,
+      "false_eot": 744,
+      "missed_eot": 404,
+      "false_eot_rate": 0.06088379705400982,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11476,
+          744
+        ],
+        [
+          404,
+          5209
+        ]
+      ]
+    },
+    "parameters": 293090,
+    "passes": true
+  },
+  "manifest": {
+    "status": "SMALLEST_TESTED_STUDENT_FULL_DEV_TARGET_MET",
+    "model_dir": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_distilled_min_20261024\\onnx",
+    "files": {
+      "config.json": {
+        "bytes": 194,
+        "sha256": "d243bcd4570da13068f814e969112a870f2d65d1db3e4bf13ba215ade300904b"
+      },
+      "model.onnx": {
+        "bytes": 328761,
+        "sha256": "846e6c9e606813b013d2574f148962a331645acf3984d04cc78839b8b075d182"
+      },
+      "requirements.txt": {
+        "bytes": 48,
+        "sha256": "3e5c0f0d1ee02a338820654a2b496cc81f87816e88fb7090aceaa76bfb59cbbb"
+      },
+      "run_model.py": {
+        "bytes": 3351,
+        "sha256": "272d4bc3e40e7d6705b5691620abbba6bf665443cbb19de87a2346471687c806"
+      },
+      "tokenizer.json": {
+        "bytes": 219195,
+        "sha256": "79dfd4a3a571d7d4584a0191e5f0277b6faa42e10c3a6ecc6f0e59eb9c0e2d47"
+      },
+      "tokenizer_config.json": {
+        "bytes": 2927,
+        "sha256": "6dcb0f62f3f314f1d3ca35960fb0cac0f229c2d9372a058871019ad6c351e08f"
+      },
+      "turn_detector_config.json": {
+        "bytes": 1003,
+        "sha256": "5eece29405b7499d0f748e3aec7676231b7140524160e4f3c691cf0d58773387"
+      }
+    },
+    "onnx_bytes": 328761,
+    "deployment_bytes": 555479,
+    "deployment_includes": "ONNX, tokenizer/configuration, portable Python runner, requirements; installed runtime libraries excluded",
+    "teacher_onnx_bytes": 108201936,
+    "teacher_deployment_bytes": 109609065,
+    "deployment_reduction_factor": 197.32350817942714,
+    "source_run": "distill_gru_h96_e64_l1_20261024",
+    "parameters_deployment": 293090,
+    "storage_precision": "int8",
+    "dev_metrics": {
+      "samples": 17833,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.9356249649526159,
+      "eot_precision": 0.8750209978162271,
+      "eot_recall": 0.928024229467308,
+      "eot_f1": 0.9007435587065536,
+      "joint_score": 0.9007435587065536,
+      "false_eot": 744,
+      "missed_eot": 404,
+      "false_eot_rate": 0.06088379705400982,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11476,
+          744
+        ],
+        [
+          404,
+          5209
+        ]
+      ]
+    },
+    "quality_scope": "Full frozen dev selection; no fresh holdout or real-dialogue guarantee",
+    "holdout_evaluated": false,
+    "selected_report": "outputs/distillation_20261024/runs/distill_gru_h96_e64_l1_20261024/quality_int8/report.json",
+    "candidates_tested": 18,
+    "training_trials": 6
+  }
+}

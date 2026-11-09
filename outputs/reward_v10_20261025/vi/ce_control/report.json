@@ -1,0 +1,60 @@
+{
+  "phase": "ce_control",
+  "steps": 225,
+  "best_step": 0,
+  "dev": {
+    "step": 150,
+    "threshold": 0.09999999999999999,
+    "slices": {
+      "legacy_vi": {
+        "samples": 3600,
+        "threshold": 0.09999999999999999,
+        "accuracy": 0.7630555555555556,
+        "eot_precision": 0.5688025210084033,
+        "eot_recall": 0.9713004484304932,
+        "eot_f1": 0.7174561112951309,
+        "joint_score": 0.7174561112951309,
+        "false_eot": 821,
+        "missed_eot": 32,
+        "false_eot_rate": 0.33038229376257544,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1664,
+            821
+          ],
+          [
+            32,
+            1083
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 145,
+        "threshold": 0.09999999999999999,
+        "accuracy": 0.45517241379310347,
+        "eot_precision": 0.35,
+        "eot_recall": 0.7142857142857143,
+        "eot_f1": 0.4697986577181208,
+        "joint_score": 0.45517241379310347,
+        "false_eot": 65,
+        "missed_eot": 14,
+        "false_eot_rate": 0.6770833333333334,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            31,
+            65
+          ],
+          [
+            14,
+            35
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.45517241379310347,
+    "natural_target_met": false
+  },
+  "gradient_verified": true,
+  "student_sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041",
+  "quality_target_certified": false
+}

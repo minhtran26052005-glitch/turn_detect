@@ -1,0 +1,17 @@
+{
+  "stage": "CALIBRATING_NEW_CAUSAL_DEV",
+  "pid": 1121366,
+  "start_ticks": "24252420",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "at_utc": "2026-11-07T13:42:34.662327+00:00",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "tag": "runs/finetune/dev_00490000",
+  "threshold": 0.7000000000000001,
+  "f1": {
+    "vi": 0.3320754716981132,
+    "en": 0.45685279187817257
+  }
+}

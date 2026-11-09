@@ -1,0 +1,96 @@
+{
+  "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+  "selected_pairs": 20,
+  "pair_policy": "First 20 rows from each already-frozen random review; VI_i followed by EN_i. Not parallel translations.",
+  "pair_ids": [
+    [
+      "vi_r00001_a000009528",
+      "en_r00001_a000001267"
+    ],
+    [
+      "vi_r00001_a000010760",
+      "en_r00001_a000002039"
+    ],
+    [
+      "vi_r00001_a000002118",
+      "en_r00001_a000002648"
+    ],
+    [
+      "vi_r00001_a000008357",
+      "en_r00001_a000000381"
+    ],
+    [
+      "vi_r00001_a000013165",
+      "en_r00001_a000001522"
+    ],
+    [
+      "vi_r00001_a000013764",
+      "en_r00001_a000001254"
+    ],
+    [
+      "vi_r00001_a000013297",
+      "en_r00001_a000000872"
+    ],
+    [
+      "vi_r00001_a000003601",
+      "en_r00001_a000002977"
+    ],
+    [
+      "vi_r00001_a000009200",
+      "en_r00001_a000002727"
+    ],
+    [
+      "vi_r00001_a000000406",
+      "en_r00001_a000000656"
+    ],
+    [
+      "vi_r00001_a000005258",
+      "en_r00001_a000000271"
+    ],
+    [
+      "vi_r00001_a000010310",
+      "en_r00001_a000002130"
+    ],
+    [
+      "vi_r00001_a000011599",
+      "en_r00001_a000001338"
+    ],
+    [
+      "vi_r00001_a000000244",
+      "en_r00001_a000001063"
+    ],
+    [
+      "vi_r00001_a000012024",
+      "en_r00001_a000003220"
+    ],
+    [
+      "vi_r00001_a000004661",
+      "en_r00001_a000000301"
+    ],
+    [
+      "vi_r00001_a000001060",
+      "en_r00001_a000002587"
+    ],
+    [
+      "vi_r00001_a000002205",
+      "en_r00001_a000000539"
+    ],
+    [
+      "vi_r00001_a000003425",
+      "en_r00001_a000000915"
+    ],
+    [
+      "vi_r00001_a000005777",
+      "en_r00001_a000001343"
+    ]
+  ],
+  "source_data_used_for_training": false,
+  "source_module_sha256": "0477c393af9f72969ff3605a4295a3e9cadaff531740ef78ad0a4082b8f23f3e",
+  "inputs": "Causal buffer since last predicted EOT; only next 1/2 observed words, no gold resets/language selector.",
+  "reference": "Only sentence-final full stop EOT and internal comma/semicolon NEOT; question/exclamation endpoints unscored.",
+  "splice": "Constructed cross-language and cross-source-paragraph transition; outside same-speaker lookahead training protocol.",
+  "end_of_stream": "Explicit flush; not credited as a model boundary.",
+  "scope": "Synthetic user examples, punctuation-derived diagnostic; not independent human/audio gold.",
+  "comparison_scope": "Same frozen checkpoint and DEV threshold; compare two inference buffer policies. No model/threshold chosen from these results.",
+  "original_report_sha256": "0bda1ef1ccfbbce15ba8910ebd2dd389475e2073f3bf9025bf78af4e6783f36e"
+}

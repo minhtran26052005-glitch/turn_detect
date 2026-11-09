@@ -1,0 +1,14 @@
+{
+  "step": 3752006,
+  "branch_step": 20833,
+  "seen": 333315,
+  "expected": 333315,
+  "pending_gradient_samples": 0,
+  "pending_rows": 0,
+  "optimizer_entries": 27,
+  "windows": {
+    "16": 20832,
+    "3": 1
+  },
+  "checkpoint_sha256": "080ddd152d4bfc9289fd817e3af3d98ecc6fb78c0aaf62d19dd81c4cf265a687"
+}

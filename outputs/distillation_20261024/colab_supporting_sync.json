@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"supporting_artifacts\": 11, \"status\": \"SYNC_VERIFIED\"}\n"
+    }
+  ],
+  "elapsed_seconds": 1.1099999999860302
+}

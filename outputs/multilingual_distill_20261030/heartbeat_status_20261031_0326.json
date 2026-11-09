@@ -1,0 +1,91 @@
+{
+  "checked_unix": 1793417184.669854,
+  "status.json": {
+    "stage": "TRAINING",
+    "pid": 2611438,
+    "at_unix": 1793417183.2056942,
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "one_shared_student": true,
+    "test_used": false,
+    "qwen_pilot_used": false,
+    "source": "punctuation_derived_corpus",
+    "step": 107360,
+    "current_language": "en",
+    "counts": {
+      "vi": 572592,
+      "en": 572592,
+      "zh": 572576
+    },
+    "rounds": {
+      "vi": 0,
+      "en": 0,
+      "zh": 0
+    },
+    "loss": 0.27319120466709135,
+    "cuda_peak_reserved_gib": 4.25
+  },
+  "launcher.json": {
+    "pid": 2611438,
+    "start_ticks": "27127617",
+    "module": "turn_v2.multilingual_three_teacher_distill_v1",
+    "output": "/mnt/hdd500/turn_detect_training/multilingual_distill_v1"
+  },
+  "latest_dev.json": {
+    "step": 107000,
+    "split": "dev",
+    "scope": "punctuation-derived, not human/audio conversational gold",
+    "shared_threshold": 0.55,
+    "by_language": {
+      "vi": {
+        "samples": 1000,
+        "accuracy": 0.816,
+        "eot_f1": 0.7041800643086816,
+        "tp": 219,
+        "fp": 108,
+        "fn": 76
+      },
+      "en": {
+        "samples": 1000,
+        "accuracy": 0.849,
+        "eot_f1": 0.7742899850523169,
+        "tp": 259,
+        "fp": 88,
+        "fn": 63
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.859,
+        "eot_f1": 0.6259946949602122,
+        "tp": 118,
+        "fp": 84,
+        "fn": 57
+      }
+    },
+    "sample_policy": "first hashed example_ids of each frozen DEV split",
+    "test_used_for_selection": false,
+    "same_model_for_all_languages": true
+  },
+  "process": {
+    "pid": 2611438,
+    "ticks": "27127617",
+    "cmd": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_three_teacher_distill_v1 "
+  },
+  "free_gib": {
+    "/home/edabk": 16.86,
+    "/mnt/hdd500": 27.11
+  },
+  "mount": [
+    "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0"
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090, 0, 5476, 24576",
+  "gpu_processes": "2611438, 4674",
+  "checkpoint": {
+    "bytes": 1624061459,
+    "mtime": 1793417167.856955
+  }
+}

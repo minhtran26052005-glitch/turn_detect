@@ -1,0 +1,853 @@
+{
+  "at_utc": "2026-11-09T03:25:58.683961+00:00",
+  "states": {
+    "multilingual_malbert_pretrained_20261103_v1": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 889316,
+        "at_utc": "2026-11-03T07:53:17.558984+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_20261103_v2": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 914852,
+        "at_utc": "2026-11-03T08:55:13.346698+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_checked_20261103_v3": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 967949,
+        "at_utc": "2026-11-04T03:57:38.216059+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_uploaded_20261104_v4": {
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 205061,
+        "start_ticks": "547555",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-05T17:35:56.533206+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/conversation lanes checkpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_conflict_weighted_20261106_v5": {
+      "task_state.json": {
+        "phase": "STOPPED_WITH_CHECKPOINT",
+        "process": {
+          "present": true,
+          "pid": 754535,
+          "start_ticks": "12833606",
+          "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5 ",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "identity_match": true
+        },
+        "checked_utc": "2026-11-05T17:45:06.380488+00:00",
+        "desired_state": "STOPPED_BY_REQUEST_FOR_CURRICULUM_V6",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "drive_data_excluded": true,
+        "parameters": 11941122,
+        "latest_status": {
+          "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+          "pid": 754535,
+          "start_ticks": "12833606",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-05T17:45:56.350587+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "run": "finetune",
+          "step": 2362730,
+          "branch_step": 7650,
+          "epoch": 1,
+          "uploaded_rows_seen": 14104922,
+          "uploaded_origin_exposures": {
+            "daily": 7456746,
+            "factory/gen4000": 5303900,
+            "factory/gen500": 584305,
+            "asr/run2b": 759971
+          },
+          "loss": 1.0126503705978394,
+          "learning_rate": 4.000000000000001e-06,
+          "parameters": 11941122,
+          "group_size": null,
+          "drive_replay_rows": 0,
+          "loss_policy": {
+            "NEOT": 1.0,
+            "EOT": 2.0
+          },
+          "cutover_partial_tail": true,
+          "tasks_assigned": 9898,
+          "total_tasks": 34602
+        },
+        "host_boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "hdd_mounted": true,
+        "recovery_process": {
+          "present": false
+        },
+        "dataset_manifest_collected_from_remote_snapshot": true,
+        "compression_accepted": false,
+        "current_training_version": 5,
+        "reported_cutover": true,
+        "reported_cutover_utc": "2026-11-05T17:47:07.571862+00:00",
+        "last_notified_dev_branch_step": 0,
+        "last_notified_dev_run": "finetune",
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "filtered_train_points_per_full_epoch": 6163255,
+        "conflict_filter_verified": true,
+        "weighted_training_independently_verified": true,
+        "cutover_controller_complete": true,
+        "filter_window_left_words": 8,
+        "partial_parent_epoch_tail_active": true,
+        "parent_step": 2355080,
+        "parent_branch_step": 890000,
+        "parent_weights_optimizer_rng_preserved": true,
+        "new_filtered_full_epochs_complete": 0,
+        "reported_preparation_error": false,
+        "last_storage_observation": {
+          "checked_utc": "2026-11-05T17:45:58.748233+00:00",
+          "windows_free_gib": 19.358993530273438,
+          "reserve_gib": 10,
+          "ssh_disks_gib": {
+            "ssd": 43.53549575805664,
+            "hdd": 23.014732360839844
+          },
+          "hdd_mounted": true,
+          "mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0"
+        },
+        "active_learning_diagnostic": {
+          "status": "COMPLETE",
+          "complete": true,
+          "verified": true,
+          "reported": true,
+          "reported_utc": "2026-11-06T03:30:30.466001+00:00",
+          "output": "outputs/malbert_learning_diagnostic_20261106_v1",
+          "parent_step": 2585080,
+          "report_sha256": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28",
+          "sanity_passed": true,
+          "sanity_steps": 200,
+          "sanity_fixed_samples": 1000,
+          "paired_updates": 3000,
+          "rates": [
+            4e-06,
+            1e-05
+          ],
+          "auto_apply_to_main": false,
+          "monitor": {
+            "baseline": {
+              "vi": {
+                "samples": 18627,
+                "tp": 89,
+                "tn": 17942,
+                "fp": 99,
+                "fn": 497,
+                "accuracy": 0.968003435872658,
+                "eot_f1": 0.22997416020671835,
+                "eot_precision": 0.4734042553191489,
+                "eot_recall": 0.15187713310580206,
+                "false_share_of_cuts": 0.526595744680851,
+                "false_positive_rate": 0.005487500692866249,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 272,
+                "tn": 15466,
+                "fp": 198,
+                "fn": 424,
+                "accuracy": 0.9619804400977995,
+                "eot_f1": 0.4665523156089194,
+                "eot_precision": 0.5787234042553191,
+                "eot_recall": 0.39080459770114945,
+                "false_share_of_cuts": 0.42127659574468085,
+                "false_positive_rate": 0.012640449438202247,
+                "actual_eot": 696
+              }
+            },
+            "lr4e6": {
+              "vi": {
+                "samples": 18627,
+                "tp": 114,
+                "tn": 17918,
+                "fp": 123,
+                "fn": 472,
+                "accuracy": 0.9680571213829388,
+                "eot_f1": 0.2770352369380316,
+                "eot_precision": 0.4810126582278481,
+                "eot_recall": 0.1945392491467577,
+                "false_share_of_cuts": 0.5189873417721519,
+                "false_positive_rate": 0.006817803891136855,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 288,
+                "tn": 15424,
+                "fp": 240,
+                "fn": 408,
+                "accuracy": 0.9603911980440097,
+                "eot_f1": 0.47058823529411764,
+                "eot_precision": 0.5454545454545454,
+                "eot_recall": 0.41379310344827586,
+                "false_share_of_cuts": 0.45454545454545453,
+                "false_positive_rate": 0.015321756894790603,
+                "actual_eot": 696
+              }
+            },
+            "lr1e5": {
+              "vi": {
+                "samples": 18627,
+                "tp": 86,
+                "tn": 17974,
+                "fp": 67,
+                "fn": 500,
+                "accuracy": 0.9695603156708005,
+                "eot_f1": 0.2327469553450609,
+                "eot_precision": 0.5620915032679739,
+                "eot_recall": 0.14675767918088736,
+                "false_share_of_cuts": 0.43790849673202614,
+                "false_positive_rate": 0.003713763095172108,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 252,
+                "tn": 15432,
+                "fp": 232,
+                "fn": 444,
+                "accuracy": 0.958679706601467,
+                "eot_f1": 0.4271186440677966,
+                "eot_precision": 0.5206611570247934,
+                "eot_recall": 0.3620689655172414,
+                "false_share_of_cuts": 0.4793388429752066,
+                "false_positive_rate": 0.01481103166496425,
+                "actual_eot": 696
+              }
+            }
+          }
+        },
+        "last_reported_learning_diagnostic": "malbert_learning_diagnostic_20261106_v1@2585080",
+        "active_successor": {
+          "output": "multilingual_malbert_vi_en_curriculum_20261106_v6",
+          "module": "turn_v2.multilingual_malbert_vi_en_curriculum_train_v6",
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "verified": true
+        },
+        "reported_curriculum_handover": true
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 754535,
+        "start_ticks": "12833606",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-06T03:58:40.982534+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/conversation lanes checkpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_curriculum_20261106_v6": {
+      "task_state.json": {
+        "last_notified_dev_branch_step": 590000,
+        "reported_cutover": true,
+        "phase": "STOPPED_WITH_CHECKPOINT",
+        "desired_state": "STOPPED_BY_REQUEST_FOR_SENTENCE_MIX_V7",
+        "checked_utc": "2026-11-06T03:59:46.946743+00:00",
+        "process": {
+          "present": true,
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_curriculum_train_v6 ",
+          "cpu_ticks": 5671,
+          "identity_match": true
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "current_training_version": 6,
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "drive_data_excluded": true,
+        "latest_status": {
+          "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-07T01:00:19.352915+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "run": "finetune",
+          "step": 3222508,
+          "branch_step": 598450,
+          "epoch": 2,
+          "uploaded_rows_seen": 27615616,
+          "uploaded_origin_exposures": {
+            "daily": 14612978,
+            "factory/gen4000": 10384477,
+            "factory/gen500": 1130370,
+            "asr/run2b": 1487791
+          },
+          "loss": 0.5578680634498596,
+          "learning_rate": 4.000000000000001e-06,
+          "parameters": 11941122,
+          "group_size": null,
+          "drive_replay_rows": 0,
+          "loss_policy": {
+            "NEOT": 1.0,
+            "EOT": 2.0
+          },
+          "curriculum_stage": 3,
+          "curriculum_family_fraction": 1.0,
+          "curriculum_stage_step": 538450,
+          "curriculum_stage_budget": null,
+          "curriculum_stage_seen": 8454811,
+          "full_filtered_epochs_complete": 1,
+          "tasks_assigned": 12922,
+          "total_tasks": 34602
+        },
+        "reported_cutover_utc": "2026-11-06T04:01:40.005260+00:00",
+        "last_reported_curriculum_cutover": "multilingual_malbert_vi_en_curriculum_20261106_v6@2624558",
+        "curriculum_preparation_verified": true,
+        "curriculum_resume_fixture_verified": true,
+        "actual_curriculum_training_verified": true,
+        "curriculum_plan_sha256": "2014b6233eb4ca74467314f66bbb495d7f405342fe48228be7bd8c0ec5af90ee",
+        "parent_step": 2624058,
+        "parent_worker_stopped_with_checkpoint": true,
+        "new_stage_order_and_lanes_explicitly_versioned": true,
+        "full_filtered_epochs_complete": 1,
+        "stage_update_budgets": [
+          10000,
+          20000,
+          30000,
+          null
+        ],
+        "last_notified_dev_run": "finetune",
+        "last_notified_dev_global_step": 3214058,
+        "last_notified_dev_report_sha256": "2e874de849f20e309dd9db78de7710cd768822f559fb54c790b3f6886f366d9f",
+        "last_notified_dev_metrics": {
+          "vi": {
+            "samples": 18627,
+            "tp": 128,
+            "tn": 17885,
+            "fp": 156,
+            "fn": 458,
+            "accuracy": 0.9670370966876041,
+            "eot_f1": 0.2942528735632184,
+            "eot_precision": 0.4507042253521127,
+            "eot_recall": 0.21843003412969283,
+            "false_share_of_cuts": 0.5492957746478874,
+            "false_positive_rate": 0.008646970788758939,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 316,
+            "tn": 15431,
+            "fp": 233,
+            "fn": 380,
+            "accuracy": 0.9625305623471883,
+            "eot_f1": 0.5076305220883535,
+            "eot_precision": 0.575591985428051,
+            "eot_recall": 0.4540229885057471,
+            "false_share_of_cuts": 0.424408014571949,
+            "false_positive_rate": 0.014874872318692544,
+            "actual_eot": 696
+          }
+        },
+        "last_notified_dev_utc": "2026-11-07T01:01:02.180516+00:00",
+        "curriculum_stage": 3,
+        "curriculum_stage_seen": 8454811,
+        "last_storage_observation": {
+          "checked_utc": "2026-11-07T01:02:11.118716+00:00",
+          "windows_free_gib": 15.106407165527344,
+          "ssd_free_gib": 41.33921813964844,
+          "hdd_free_gib": 23.014732360839844,
+          "hdd_rw_verified": true,
+          "temporary_low_windows_free_gib": 12.627864837646484
+        },
+        "last_reported_direct_progress_comparison": "direct_progress_comparison.json",
+        "last_reported_full_filtered_epochs": 1,
+        "full_epoch_0001_independently_verified": true,
+        "input_sentence_structure_audit": {
+          "complete": true,
+          "reported": true,
+          "report": "input_sentence_structure_audit_20261107.json",
+          "turns": 167888,
+          "single_unit_turns": 82021,
+          "multi_unit_turns": 85867,
+          "terminal_eot_anchors": 106442,
+          "total_eot_anchors": 232059,
+          "training_changed": false
+        },
+        "active_successor": {
+          "output": "multilingual_malbert_vi_en_sentence_mix_20261107_v7",
+          "launcher": {
+            "pid": 1121366,
+            "start_ticks": "24252420",
+            "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+            "module": "turn_v2.multilingual_malbert_vi_en_sentence_mix_train_v7",
+            "source_sha256": {
+              "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+              "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+              "uploaded_vi_en_curriculum_data_v6.py": "842d989887094805a39784c65d8f17b08267904c7d0d0b85fbcc0de54a9bcb73",
+              "uploaded_vi_en_sentence_mix_data_v7.py": "53f047a33e561201f16d32f444780fb0d108d6fd520cfcd607185a82fca582c5",
+              "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+              "multilingual_malbert_vi_en_sentence_mix_train_v7.py": "e6938081429701dd553c159e48939b0348201b60d367faf50965976b6febb319",
+              "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+              "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+            }
+          },
+          "verified": true
+        },
+        "reported_sentence_mix_handover": true
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 873860,
+        "start_ticks": "16570173",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T01:19:03.494187+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+      }
+    },
+    "multilingual_malbert_vi_en_sentence_mix_20261107_v7": {
+      "task_state.json": {
+        "last_notified_dev_branch_step": 480000,
+        "reported_cutover": true,
+        "phase": "PAUSED_WITH_FULL_CHECKPOINT",
+        "desired_state": "PAUSED_BY_USER_FOR_TEST",
+        "checked_utc": "2026-11-07T15:00:48.955842+00:00",
+        "process": {
+          "present": false
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "current_training_version": 7,
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "drive_data_excluded": true,
+        "latest_status": {
+          "stage": "STOPPED_WITH_CHECKPOINT",
+          "pid": 1121366,
+          "start_ticks": "24252420",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-07T14:01:54.260244+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+        },
+        "curriculum_stage": 3,
+        "curriculum_stage_seen": 6062196,
+        "full_filtered_epochs_complete": 1,
+        "reported_cutover_utc": "2026-11-07T01:22:53.187509+00:00",
+        "parent_step": 3231046,
+        "actual_balanced_training_verified": true,
+        "independent_pack_verification_complete": true,
+        "manifest_clarification": "manifest_clarification.json",
+        "balanced_sentence_pack_count": 49260,
+        "unique_sentence_units": 208906,
+        "eligible_points_per_full_epoch": 5040023,
+        "initial_curriculum_stage": 3,
+        "sentence_count_ratios": {
+          "1": 0.15,
+          "2": 0.15,
+          "3": 0.15,
+          "4": 0.15,
+          "5": 0.15,
+          "6": 0.05,
+          "7": 0.05,
+          "8": 0.05,
+          "9": 0.05,
+          "10": 0.05
+        },
+        "last_notified_dev_global_step": 3711046,
+        "last_notified_dev_run": "finetune",
+        "last_notified_dev_report_sha256": "b7fdb91b201810275ee5b8c6ab92bc5fc73caee32333abcc9341b7a6fc6240a4",
+        "last_notified_dev_metrics": {
+          "vi": {
+            "samples": 18627,
+            "tp": 128,
+            "tn": 17873,
+            "fp": 168,
+            "fn": 458,
+            "accuracy": 0.9663928705642347,
+            "eot_f1": 0.29024943310657597,
+            "eot_precision": 0.43243243243243246,
+            "eot_recall": 0.21843003412969283,
+            "false_share_of_cuts": 0.5675675675675675,
+            "false_positive_rate": 0.00931212238789424,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 312,
+            "tn": 15313,
+            "fp": 351,
+            "fn": 384,
+            "accuracy": 0.9550733496332519,
+            "eot_f1": 0.45916114790286977,
+            "eot_precision": 0.47058823529411764,
+            "eot_recall": 0.4482758620689655,
+            "false_share_of_cuts": 0.5294117647058824,
+            "false_positive_rate": 0.022408069458631257,
+            "actual_eot": 696
+          }
+        },
+        "last_notified_dev_utc": "2026-11-07T13:47:29.732682+00:00",
+        "last_eta_report": "direct_eta_20261107.json",
+        "last_storage_observation": {
+          "checked_utc": "2026-11-08T15:05:56.888977+00:00",
+          "windows_free_gib": 12.558589935302734,
+          "ssd_free_gib": 41.94316482543945,
+          "hdd_free_gib": 23.014732360839844,
+          "hdd_rw_verified": true
+        },
+        "last_reported_full_filtered_epochs": 1,
+        "full_epoch_0001_independently_verified": true,
+        "latest_dev_retention_passed": false,
+        "last_direct_trend_verification": "direct_dev_trend_verification_20261107.json",
+        "semantic_boundary_review_20261107": {
+          "complete": true,
+          "reported": true,
+          "branch_step": 480000,
+          "sample_errors": 32,
+          "positive_controls": 8,
+          "files": {
+            "semantic_boundary_review_sample_20261107.json": "2ce8a9b509c5693739d4ffd5d109a79f81d97dcc87b822cefe0420eb0ca3c2b0",
+            "semantic_boundary_review_20261107.json": "e5f372fdbbe9d63882908bcf1af513cc41ace9ad120016f17484da7601016fbb",
+            "semantic_boundary_review_20261107.html": "2e28bca4b144bad9b3d6ef4cc9907d3a152e2feba7e87582fbada0cedc6cf3ad"
+          },
+          "review_counts": {
+            "fn": {
+              "missed_clear_early_boundary": 11,
+              "uncertain_source": 5
+            },
+            "fp": {
+              "plausible_translation_boundary": 10,
+              "uncertain_source": 2,
+              "premature_semantic_split": 4
+            },
+            "tp": {
+              "valid_positive_control": 8
+            }
+          },
+          "method": "Assistant qualitative review, source-stratified hash sample, not representative or human gold; saved trace only; no new inference or training changes"
+        },
+        "user_pause_request_utc": "2026-11-07T14:01:54.081492+00:00",
+        "user_pause_reason": "Pause training and test current model; count multi-sentence turns with no internal cut, excluding single-sentence turns",
+        "auto_resume_authorized": false,
+        "active_end_only_test": {
+          "phase": "COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T14:35:39.755124+00:00",
+          "trainer_paused": true,
+          "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+          "checkpoint_step": 3731173,
+          "branch_step": 500127,
+          "single_sentence_excluded": true,
+          "refined_translation_multi": 18,
+          "refined_translation_end_only": 6,
+          "big_test_multi": 4446,
+          "big_test_no_internal_cut": 1190,
+          "independent_end_only_verification_complete": true,
+          "refined_cohort_verification_complete": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/sentence_mix_end_only_test_20261107_v1"
+        },
+        "reported_pause": true,
+        "paused_checkpoint_step": 3731173,
+        "last_reported_end_only_test": "sentence_mix_end_only_test_20261107_v1@3731173",
+        "active_asr_adaptation": {
+          "phase": "COMPLETE",
+          "desired_state": "BOUNDED_TRIAL_COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+          "budget_full_epochs": 1,
+          "full_epochs_complete": 1,
+          "final_step": 3753320,
+          "final_branch_step": 22147,
+          "last_notified_dev_branch_step": 22147,
+          "last_notified_dev_global_step": 3753320,
+          "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+          "parent_paused": true,
+          "no_default_replacement": true,
+          "adopted": false,
+          "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+          "auto_extend_authorized": false,
+          "completion_verification_passed": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_only_adaptation_20261107_v1"
+        },
+        "last_reported_asr_adaptation": "asr_only_adaptation_20261107_v1@3753320",
+        "active_calibration_audit": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/malbert_calibration_audit_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_resume_authorized": false,
+          "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+          "checkpoint_step": 3731173,
+          "selected_threshold": 0.03,
+          "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+          "completion_verification_passed": true,
+          "no_training": true,
+          "no_test": true
+        },
+        "last_reported_calibration_audit": "malbert_calibration_audit_20261107_v1@3731173",
+        "active_effective16_trial": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_effective_batch16_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_extend_authorized": false,
+          "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+          "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+          "completion_verification_passed": true,
+          "final_identity_verified": true,
+          "last_notified_dev_branch_step": 20833,
+          "last_notified_dev_global_step": 3752006
+        },
+        "last_reported_effective16_trial": "asr_effective_batch16_20261107_v1@3752006",
+        "last_notified_storage_issue_key": null,
+        "last_notified_storage_alert": {
+          "issue_key": "windows_c_near_10gib_reserve",
+          "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+          "windows_free_gib": 11.265777587890625,
+          "reserve_gib": 10,
+          "margin_gib": 1.265777587890625,
+          "parent_process": {
+            "present": false
+          },
+          "parent_desired_state": "PAUSED_BY_USER_FOR_TEST",
+          "no_files_deleted": true
+        },
+        "user_requested_failed_checkpoint_cleanup": {
+          "complete": true,
+          "at_utc": "2026-11-08T15:05:56.888945+00:00",
+          "receipt": "/home/edabk/hoangbpm/turn_detect/outputs/failed_checkpoint_cleanup_20261108/deletion_receipt.json",
+          "removed_failed_weights_intentional": true,
+          "do_not_restore_or_rerun_deleted_failed_branches": true,
+          "main_full_checkpoint_sha_unchanged": true
+        },
+        "user_requested_failure_research": {
+          "complete": true,
+          "at_utc": "2026-11-08T15:17:54.015019+00:00",
+          "review": "outputs/turn_failure_literature_20261108/README.md",
+          "new_training_or_test": false,
+          "proposed_context_experiment_launched": false,
+          "primary_papers": 10
+        },
+        "authorized_context_window_ab": {
+          "authorized": true,
+          "module": "turn_v2.context_window_ab_20261108_v1",
+          "output": "outputs/context_window_ab_20261108_v1",
+          "pid": 1705550,
+          "start_ticks": "37990349",
+          "parent_stays_paused": true,
+          "budget_full_epochs_each_arm": 1,
+          "complete": true,
+          "reported": true,
+          "adopted": false,
+          "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+          "reported_utc": "2026-11-08T16:52:32.439214+00:00",
+          "worker_exited": true
+        },
+        "last_reported_context_window_ab": "context_window_ab_20261108_v1@3752006"
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 1121366,
+        "start_ticks": "24252420",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T14:01:54.260244+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+      }
+    },
+    "asr_only_adaptation_20261107_v1": {
+      "task_state.json": {
+        "phase": "COMPLETE",
+        "desired_state": "BOUNDED_TRIAL_COMPLETE",
+        "reported": true,
+        "parent_paused": true,
+        "budget_full_epochs": 1,
+        "reported_start": false,
+        "complete": true,
+        "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+        "full_epochs_complete": 1,
+        "final_step": 3753320,
+        "final_branch_step": 22147,
+        "last_notified_dev_branch_step": 22147,
+        "last_notified_dev_global_step": 3753320,
+        "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+        "no_default_replacement": true,
+        "adopted": false,
+        "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+        "auto_extend_authorized": false,
+        "completion_verification_passed": true,
+        "checkpoint_cleanup": {
+          "user_requested": true,
+          "weights_removed": true,
+          "receipt": "/home/edabk/hoangbpm/turn_detect/outputs/failed_checkpoint_cleanup_20261108/deletion_receipt.json",
+          "rerun_requires_restoring_or_retraining": true
+        }
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1319777,
+        "start_ticks": "29117021",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T15:31:07.046631+00:00",
+        "report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196"
+      }
+    },
+    "asr_effective_batch16_20261107_v1": {
+      "task_state.json": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_extend_authorized": false,
+        "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+        "completion_verification_passed": true,
+        "final_identity_verified": true,
+        "last_notified_dev_branch_step": 20833,
+        "last_notified_dev_global_step": 3752006,
+        "checkpoint_cleanup": {
+          "user_requested": true,
+          "weights_removed": true,
+          "receipt": "/home/edabk/hoangbpm/turn_detect/outputs/failed_checkpoint_cleanup_20261108/deletion_receipt.json",
+          "rerun_requires_restoring_or_retraining": true
+        }
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1356032,
+        "start_ticks": "29899130",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T18:01:27.907624+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+      }
+    },
+    "malbert_calibration_audit_20261107_v1": {
+      "task_state.json": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_resume_authorized": false,
+        "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+        "checkpoint_step": 3731173,
+        "selected_threshold": 0.03,
+        "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+        "completion_verification_passed": true,
+        "no_training": true,
+        "no_test": true
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1342708,
+        "start_ticks": "29614860",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T16:20:05.715377+00:00",
+        "threshold": 0.03,
+        "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca"
+      }
+    },
+    "context_window_ab_20261108_v1": {
+      "task_state.json": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_extend_authorized": false,
+        "reported_utc": "2026-11-08T16:52:32.439214+00:00",
+        "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+        "last_notified_dev_branch_step": 20833,
+        "last_notified_dev_global_step": 3752006
+      },
+      "status.json": {
+        "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+        "stage": "COMPLETE",
+        "pid": 1705550,
+        "start_ticks": "37990349",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-08T16:50:42.866694+00:00"
+      }
+    }
+  },
+  "workers": [],
+  "main_sha256": "feb4bc2e6cbd4d8c7fa3148f49edb86500c898045a33cc1db8a334bcc03255a8",
+  "main_stop_requested": true,
+  "boot_id": "bd7525e3-4324-4733-94cb-b0dc4861abc1",
+  "ssd_free_gib": 40.9212532043457,
+  "hdd_free_gib": null,
+  "mount": "",
+  "root_readme_exists": false,
+  "windows_free_gib": 11.937461853027344,
+  "hdd_mount_verified": false
+}

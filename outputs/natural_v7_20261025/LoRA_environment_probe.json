@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"peft\": \"0.21.2\", \"accelerate\": \"1.15.0\", \"bitsandbytes\": null}\n"
+    }
+  ],
+  "elapsed_seconds": 0.10899999999674037
+}

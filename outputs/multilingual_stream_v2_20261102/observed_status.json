@@ -1,0 +1,21 @@
+{
+  "stage": "TRAINING_NEW_STREAMING",
+  "pid": 2827094,
+  "at_utc": "2026-11-02T05:28:57.260008+00:00",
+  "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+  "step": 487255,
+  "base_step": 486235,
+  "branch_step": 1020,
+  "current_language": "zh",
+  "counts": {
+    "vi": 25914,
+    "en": 26310,
+    "zh": 13056
+  },
+  "epochs": {
+    "vi": 0,
+    "en": 0
+  },
+  "loss": 0.11159443243717154,
+  "cuda_peak_reserved_gib": 3.26
+}

@@ -1,0 +1,147 @@
+{
+  "status": "STOPPED_BY_REQUEST",
+  "stage": null,
+  "cycle": "9",
+  "process_verified": false,
+  "queried_at_utc": "2026-10-25T18:06:57.533129+00:00",
+  "worker_heartbeat_utc": null,
+  "GPU": "NVIDIA L4, 98 %, 17226 MiB, 23034 MiB",
+  "data_counts": [
+    {
+      "language": "en",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 17
+    },
+    {
+      "language": "en",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 35
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "EOT",
+      "samples": 85
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 220
+    },
+    {
+      "language": "vi",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 7
+    },
+    {
+      "language": "vi",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 24
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "EOT",
+      "samples": 47
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 74
+    },
+    {
+      "language": "zh",
+      "split": "semantic_dev",
+      "label": "EOT",
+      "samples": 10
+    },
+    {
+      "language": "zh",
+      "split": "semantic_dev",
+      "label": "NEOT",
+      "samples": 12
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "EOT",
+      "samples": 49
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "NEOT",
+      "samples": 66
+    }
+  ],
+  "reference_disagreements": [
+    {
+      "language": "vi",
+      "paired_natural_dev_cases": 0,
+      "semantic_vs_floor_disagree": 0
+    },
+    {
+      "language": "en",
+      "paired_natural_dev_cases": 21,
+      "semantic_vs_floor_disagree": 10
+    },
+    {
+      "language": "zh",
+      "paired_natural_dev_cases": 1,
+      "semantic_vs_floor_disagree": 1
+    }
+  ],
+  "champions": [
+    {
+      "language": "vi",
+      "semantic_samples": 31,
+      "semantic_accuracy": 0.9032258064516129,
+      "semantic_eot_f1": 0.7272727272727273,
+      "floor_samples": 145,
+      "floor_accuracy": 0.5241379310344828,
+      "floor_eot_f1": 0.3669724770642202,
+      "path": "outputs/continuous_v13_20261026/cycles/000005/vi/sft",
+      "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4"
+    },
+    {
+      "language": "en",
+      "semantic_samples": 52,
+      "semantic_accuracy": 0.7307692307692307,
+      "semantic_eot_f1": 0.6666666666666666,
+      "floor_samples": 79,
+      "floor_accuracy": 0.5949367088607594,
+      "floor_eot_f1": 0.68,
+      "path": "outputs/continuous_v13_20261026/cycles/000008/en/sft",
+      "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4"
+    },
+    {
+      "language": "zh",
+      "semantic_samples": 22,
+      "semantic_accuracy": 0.8636363636363636,
+      "semantic_eot_f1": 0.8571428571428571,
+      "floor_samples": 69,
+      "floor_accuracy": 0.5072463768115942,
+      "floor_eot_f1": 0.6304347826086957,
+      "path": "outputs/continuous_v13_20261026/cycles/000008/zh/rl",
+      "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4"
+    }
+  ],
+  "snapshot": {
+    "cycle": 8,
+    "path": "outputs/continuous_v13_20261026/recovery/latest_snapshot.zip",
+    "sha256": "fb3dd15d239adab86568773d2c2a55bb16f7b789e9ca97903d3cd8750858fac4",
+    "bytes": 56450206,
+    "created_at_utc": "2026-10-25T18:03:28.641447+00:00"
+  },
+  "quality_target_certified": false,
+  "automation_id": "theo-d-i-v-ti-p-t-c-turn-detector-tr-n-colab",
+  "continuous": true,
+  "max_cycles": 0,
+  "checkpoint_policy": "Compact snapshots, Drive backup by15minute monitor; no full Qwen download to Windows"
+}

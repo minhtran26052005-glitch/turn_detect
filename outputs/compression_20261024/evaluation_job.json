@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+    "-u",
+    "-m",
+    "turn_v2.evaluate_compressed",
+    "--model",
+    "outputs\\compression_20261024\\work\\int8_quint8_no_constfold",
+    "--output",
+    "outputs\\compression_20261024\\int8_quint8_full_dev",
+    "--kept-ids",
+    "outputs\\compression_20261024\\work\\kept_original_ids.json",
+    "--batch-size",
+    "1",
+    "--threads",
+    "4",
+    "--select-threshold"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 406.7277641296387,
+  "timeout_seconds": 1800
+}

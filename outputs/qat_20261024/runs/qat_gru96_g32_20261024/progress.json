@@ -1,0 +1,7 @@
+{
+  "stage": "QAT_TRAINING",
+  "epoch": 6,
+  "step": 7200,
+  "loss": 0.10786524929106235,
+  "elapsed_seconds": 81.58775382900058
+}

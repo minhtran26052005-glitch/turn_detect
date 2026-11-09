@@ -1,0 +1,1041 @@
+{
+  "files": {
+    "launcher.json": {
+      "pid": 967949,
+      "start_ticks": "60335466",
+      "module": "turn_v2.multilingual_malbert_vi_en_checked_train_v3",
+      "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb"
+    },
+    "status.json": {
+      "stage": "FINETUNING_PRETRAINED_MALBERT",
+      "pid": 967949,
+      "at_utc": "2026-11-04T03:41:46.295087+00:00",
+      "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+      "parameters": 11941122,
+      "large_teacher_must_remain_stopped": true,
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "run": "finetune",
+      "step": 1442450,
+      "epoch": 55,
+      "rows_seen": 205712,
+      "loss": 0.24219506978988647,
+      "kd_weight": 0.3,
+      "group_size": null,
+      "additional_rows_seen": 10900887
+    },
+    "cutover_v2_launcher.json": {
+      "pid": 967901,
+      "start_ticks": "60335190",
+      "module": "turn_v2.checked_dialogues_cutover_v2"
+    },
+    "cutover_v2_status.json": {
+      "stage": "TRAINING_ADDITIONAL_DATA_VERIFIED",
+      "pid": 967901,
+      "at_utc": "2026-11-03T09:01:29.846479+00:00",
+      "verified": true,
+      "trainer": {
+        "pid": 967949,
+        "start_ticks": "60335466",
+        "module": "turn_v2.multilingual_malbert_vi_en_checked_train_v3",
+        "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb"
+      },
+      "step": 92500,
+      "epoch": 0,
+      "cursor": 204784,
+      "additional_rows_seen": 4784,
+      "optimizer_entries": 27,
+      "rng_order_and_source_verified": true,
+      "parameters": 11941122,
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "checkpoint_sha256": "3f758b29ed3a35f920f71fcd5f92435d01558081ec0a3111b420374acbd211a3",
+      "new_cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+      "original_dev_test_excluded": true,
+      "test_used": false
+    },
+    "preparation_status.json": {
+      "stage": "COMPLETE",
+      "pid": 965244,
+      "at_utc": "2026-11-03T08:55:12.933838+00:00",
+      "rows": 399960,
+      "additional_rows": 199960
+    },
+    "dataset_manifest.json": {
+      "complete": true,
+      "rows": 399960,
+      "counts": {
+        "vi": 199988,
+        "en": 199972
+      },
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "parent_rows": 200000,
+      "additional_rows": 199960,
+      "additional_label_counts": {
+        "vi:NEOT": 96370,
+        "vi:EOT": 3618,
+        "en:EOT": 4670,
+        "en:NEOT": 95302
+      },
+      "candidate_points": {
+        "vi:NEOT": 1868218,
+        "vi:EOT": 67007,
+        "en:NEOT": 1547424,
+        "en:EOT": 73418
+      },
+      "audit_counts": {
+        "factory_checked.jsonl:rows": 8198,
+        "factory_checked.jsonl:train:kept": 8095,
+        "factory_checked.jsonl:train:rejected": 103,
+        "public_checked.jsonl:rows": 189122,
+        "public_checked.jsonl:test:kept": 9455,
+        "public_checked.jsonl:test:rejected": 59,
+        "public_checked.jsonl:dev:kept": 9608,
+        "public_checked.jsonl:dev:rejected": 70,
+        "public_checked.jsonl:train:kept": 168746,
+        "public_checked.jsonl:train:rejected": 1184,
+        "excluded:not_kept_or_hard_check": 1407,
+        "excluded:short_turn": 2760,
+        "excluded:noncontiguous_chunks": 6,
+        "train:paragraphs:vi": 59544,
+        "train:paragraphs:en": 59876,
+        "test:paragraphs:en": 4346,
+        "test:paragraphs:vi": 4386,
+        "dev:paragraphs:en": 4424,
+        "dev:paragraphs:vi": 4488,
+        "excluded:duplicate_train_paragraph": 6418,
+        "excluded:protected_family_paragraph": 37814,
+        "excluded:protected_exact_model_input": 22993,
+        "excluded:already_in_parent_train": 127,
+        "excluded:duplicate_additional_input": 1292,
+        "excluded:conflicting_selected_inputs": 40
+      },
+      "raw_sources_sha256": {
+        "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+        "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+      },
+      "source_manifest_sha256": "f36327908afa76203f2e3b12cca3b2b222e49e85c26e7856b585ed11f8e741cd",
+      "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+      "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+      "parent_cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+      "files": {
+        "ids": {
+          "sha256": "9d06392d258340d23256166d572bb5ea1fe383577682f1ed0a9314d5e784add2",
+          "bytes": 204779648
+        },
+        "lengths": {
+          "sha256": "119441bf2b14f7bec78278fd0c9f3f8ae09b435bf191ea428f1e6b1065097a0b",
+          "bytes": 800048
+        },
+        "labels": {
+          "sha256": "8601d3c138009954247457d26e256dd8d0cf4c95ef3213c26d34310257c1ec11",
+          "bytes": 400088
+        },
+        "logits": {
+          "sha256": "d6127d398c5c85c4379342f88f242625353cd3fddce0b08fe39c11954d7468ad",
+          "bytes": 1599968
+        },
+        "language_ids": {
+          "sha256": "3d0e54612d038852ff468e32ff5a0702155f6aa3fabc5d6f5d5ce6ddae8881bd",
+          "bytes": 400088
+        },
+        "source_row_indices": {
+          "sha256": "71c3a83f527c71a5202422fb3975f485b5a4346edf94a0438ac2f058b13d9d68",
+          "bytes": 1599968
+        },
+        "teacher_mask": {
+          "sha256": "78cff1db15d20f421cf7b336bf95142d00da182f38b3ab314a01f327d67d26ae",
+          "bytes": 400088
+        }
+      },
+      "source_module_sha256": "228d3a082d7f863dc703322159424adba764d18acfe30000e1188df4126e6fc2",
+      "protected_model_input_hashes": 494243,
+      "protected_family_exclusions": 1166,
+      "protected_exact_token_input_overlap_after_filtering": 0,
+      "original_dev_test_in_train": false,
+      "source_target_double_counting": false,
+      "parser": "Contiguous source_raw chunks from the same turn/speaker/language; rest_of_sentence and target never used",
+      "sampling": "Lowest deterministic SHA priorities, at most100000 eligible 1/2-word points per language; not all candidate gaps",
+      "labels": "Punctuation silver, not human/audio gold; ellipsis/abbreviation and ?/! endpoints unscored",
+      "kd": "Parent rows retain frozen logits; additional rows use CE only, teacher_mask=0, no fabricated teacher targets",
+      "overlap_limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows",
+      "test_predictions_used_for_selection": false,
+      "test_input_fields_used_only_for_dedup": true
+    },
+    "additional_data_audit.json": {
+      "verified": true,
+      "total_train_rows": 399960,
+      "parent_rows_preserved": 200000,
+      "additional_rows": 199960,
+      "additional_label_counts": {
+        "vi:NEOT": 96370,
+        "vi:EOT": 3618,
+        "en:EOT": 4670,
+        "en:NEOT": 95302
+      },
+      "additional_source_rows_by_file": {
+        "public_checked.jsonl": 182277,
+        "factory_checked.jsonl": 17683
+      },
+      "unique_source_turns_in_subset": 83149,
+      "every_additional_row_checked": true,
+      "raw_chunk_provenance_verified": true,
+      "causal_one_two_word_future_verified": true,
+      "chunk_edges_not_used_as_eot": true,
+      "teacher_mask_zero_for_added_rows": true,
+      "original_dev_test_in_train": false,
+      "fixed_dev_c75_student_token_input_overlap": 0,
+      "parent_train_token_input_overlap": 0,
+      "duplicate_added_token_inputs": 0,
+      "dev_files_byte_identical": true,
+      "raw_source_sha256": {
+        "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+        "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+      },
+      "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+      "cache_receipt_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+      "scope": "Import integrity audit of TRAIN punctuation-silver samples; not model quality or human/audio gold",
+      "test_input_fields_only_used_for_dedup": true,
+      "test_scored_or_used_for_selection": false,
+      "limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows"
+    },
+    "additional_data_review.json": {
+      "audit": {
+        "verified": true,
+        "total_train_rows": 399960,
+        "parent_rows_preserved": 200000,
+        "additional_rows": 199960,
+        "additional_label_counts": {
+          "vi:NEOT": 96370,
+          "vi:EOT": 3618,
+          "en:EOT": 4670,
+          "en:NEOT": 95302
+        },
+        "additional_source_rows_by_file": {
+          "public_checked.jsonl": 182277,
+          "factory_checked.jsonl": 17683
+        },
+        "unique_source_turns_in_subset": 83149,
+        "every_additional_row_checked": true,
+        "raw_chunk_provenance_verified": true,
+        "causal_one_two_word_future_verified": true,
+        "chunk_edges_not_used_as_eot": true,
+        "teacher_mask_zero_for_added_rows": true,
+        "original_dev_test_in_train": false,
+        "fixed_dev_c75_student_token_input_overlap": 0,
+        "parent_train_token_input_overlap": 0,
+        "duplicate_added_token_inputs": 0,
+        "dev_files_byte_identical": true,
+        "raw_source_sha256": {
+          "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+          "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+        },
+        "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+        "cache_receipt_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+        "scope": "Import integrity audit of TRAIN punctuation-silver samples; not model quality or human/audio gold",
+        "test_input_fields_only_used_for_dedup": true,
+        "test_scored_or_used_for_selection": false,
+        "limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows"
+      },
+      "cases": [
+        {
+          "language": "vi",
+          "context": "bạn có biết chó và voi là những loài động vật duy nhất hiểu được hành",
+          "text": "động",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_48ebadea-ac59-4801-8efd-f9feffbad00a.s5.vi",
+          "family_id": "public_checked.jsonl:topical_chat-t_48ebadea-ac59-4801-8efd-f9feffbad00a",
+          "turn_idx": 2,
+          "speaker": "S2",
+          "boundary": 26,
+          "context_start": 10,
+          "paragraph_words": 30,
+          "future_end": 27,
+          "context_mode": "reference_reset_train_only",
+          "raw_display": "Ừ, mình cũng vậy, mình thiên về thích chó hơn. Bạn có biết chó và voi là những loài động vật duy nhất hiểu được hành động chỉ tay không?",
+          "word_count": 30
+        },
+        {
+          "language": "vi",
+          "context": "nghĩ phần",
+          "text": "đó",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_21302cce-6c34-4d9e-8727-d4c8e807243f.s0.vi",
+          "family_id": "public_checked.jsonl:topical_chat-t_21302cce-6c34-4d9e-8727-d4c8e807243f",
+          "turn_idx": 9,
+          "speaker": "S2",
+          "boundary": 5,
+          "context_start": 3,
+          "paragraph_words": 34,
+          "future_end": 6,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Ừ, mình không nghĩ phần đó đúng đâu, nhưng mà Polanski thì bạn nói đúng chắc rồi. Còn phim hay nào khác bạn nghĩ ra không? Bộ Texas Chainsaw bản gốc khá hay đấy.",
+          "word_count": 34
+        },
+        {
+          "language": "vi",
+          "context": "mười bảy lần trong ba mươi bảy năm",
+          "text": "qua",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_b70858dd-9db3-4283-a4c1-ce577e3f73b6.s0.vi",
+          "family_id": "public_checked.jsonl:topical_chat-t_b70858dd-9db3-4283-a4c1-ce577e3f73b6",
+          "turn_idx": 15,
+          "speaker": "S2",
+          "boundary": 63,
+          "context_start": 55,
+          "paragraph_words": 65,
+          "future_end": 64,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Mình không biết chuyện đó. Mình cũng không quan tâm lắm về wiki và người sáng lập. Rò rỉ tài liệu thì cũng không sao, nhưng họ hơi thiên vị một chút, chỉ là ý kiến cá nhân của mình thôi. Dù sao thì, bạn có biết là chính phủ u ét đã đóng cửa mười bảy lần trong ba mươi bảy năm qua không?",
+          "word_count": 65
+        },
+        {
+          "language": "vi",
+          "context": "có lẽ em thuộc về bệnh viện tâm thần",
+          "text": "anh",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "personachat-train-0-8375.s0.vi",
+          "family_id": "public_checked.jsonl:personachat-train-0-8375",
+          "turn_idx": 8,
+          "speaker": "S1",
+          "boundary": 9,
+          "context_start": 0,
+          "paragraph_words": 14,
+          "future_end": 10,
+          "context_mode": "rolling",
+          "raw_display": "Có lẽ em thuộc về bệnh viện tâm thần. Anh sẽ làm giám thị.",
+          "word_count": 14
+        },
+        {
+          "language": "vi",
+          "context": "đúng vậy",
+          "text": "một thư",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 2,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_8cb0ea4f-d3ac-44cc-8d08-54e7e5740dd0.s15.vi",
+          "family_id": "public_checked.jsonl:topical_chat-t_8cb0ea4f-d3ac-44cc-8d08-54e7e5740dd0",
+          "turn_idx": 2,
+          "speaker": "S2",
+          "boundary": 2,
+          "context_start": 0,
+          "paragraph_words": 54,
+          "future_end": 4,
+          "context_mode": "reference_reset_train_only",
+          "raw_display": "Đúng vậy. Một thư viện, có lẽ là lâu đời nhất thế giới, tuy nhiên cũng đang dự phòng trên internet. Thư viện Alexandria ở Ai Cập, nhiều lần bị đốt trong các cuộc chinh phục, đã lưu một bản sao của internet phòng khi bị đốt. Chuyện đó có thể xảy ra không?",
+          "word_count": 54
+        },
+        {
+          "language": "vi",
+          "context": "đúng đấy",
+          "text": "anh là",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 2,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "personachat-train-0-1032.s0.vi",
+          "family_id": "public_checked.jsonl:personachat-train-0-1032",
+          "turn_idx": 5,
+          "speaker": "S2",
+          "boundary": 3,
+          "context_start": 1,
+          "paragraph_words": 21,
+          "future_end": 5,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Haha, đúng đấy. Anh là tay đua xe thể thao chuyên nghiệp, còn rảnh thì anh chơi ba môn phối hợp.",
+          "word_count": 21
+        },
+        {
+          "language": "en",
+          "context": "the way down to the off position you ll feel a little click when it seats then and this is the part that matters you take your personal lock the red one with your name on it and you put it on that breaker so nobody can flip it back up while i m in there",
+          "text": "now",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "factory_checked.jsonl",
+          "dialogue_id": "r00103",
+          "family_id": "factory_checked.jsonl:r00103",
+          "turn_idx": 2,
+          "speaker": "S1",
+          "boundary": 104,
+          "context_start": 48,
+          "paragraph_words": 268,
+          "future_end": 105,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Okay so here's what we're doing, I need you to help me walk through the lockout before we sign anything. First, the main breaker for Station Three is right there on the disconnect panel, the big red handle on the left side, you pull that all the way down to the off position, you'll feel a little click when it seats. Then, and this is the part that matters, you take your personal lock, the red one with your name on it, and you put it on that breaker so nobody can flip it back up while I'm in there. Now I'm gonna attach my hazard tag right next to yours, it's got my name and the date on it, so make sure you can see both of them. After that you walk over to the local control panel, the one down at the station, and you hit the start button, it should do nothing, no spin up, no lights, that's your zero energy check. If anything moves or you hear a hum, stop, tell me right away, we don't go further. Last thing, the conveyor, you need to confirm it's in manual mode, not auto, so the two hundred and forty brackets sitting on the inbound side don't start feeding into a dead station. You see the mode switch up there, flip it to manual, and that's it, we're clear to work the area. You follow so far, or do you want me to go over any of that again before we lock it down?",
+          "word_count": 268
+        },
+        {
+          "language": "en",
+          "context": "i personally like my touch screen thanks",
+          "text": "for",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_4f3803e7-f787-45ce-85fc-6bf64e420c28.s11.en",
+          "family_id": "public_checked.jsonl:topical_chat-t_4f3803e7-f787-45ce-85fc-6bf64e420c28",
+          "turn_idx": 10,
+          "speaker": "S2",
+          "boundary": 7,
+          "context_start": 0,
+          "paragraph_words": 15,
+          "future_end": 8,
+          "context_mode": "rolling",
+          "raw_display": "I personally like my touch screen. Thanks for the nice chat. Have a good day.",
+          "word_count": 15
+        },
+        {
+          "language": "en",
+          "context": "interesting",
+          "text": "she seems",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 2,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_6dca2295-ea5c-49c6-8984-20849f146481.s4.en",
+          "family_id": "public_checked.jsonl:topical_chat-t_6dca2295-ea5c-49c6-8984-20849f146481",
+          "turn_idx": 0,
+          "speaker": "S1",
+          "boundary": 1,
+          "context_start": 0,
+          "paragraph_words": 14,
+          "future_end": 3,
+          "context_mode": "rolling",
+          "raw_display": "Interesting. She seems to combine all different kinds of styles. Like modern street style.",
+          "word_count": 14
+        },
+        {
+          "language": "en",
+          "context": "iceland seems to be embarking",
+          "text": "on a",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 2,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_c106e831-5b35-49aa-aebc-f299a19d31bd.s0.en",
+          "family_id": "public_checked.jsonl:topical_chat-t_c106e831-5b35-49aa-aebc-f299a19d31bd",
+          "turn_idx": 15,
+          "speaker": "S2",
+          "boundary": 5,
+          "context_start": 0,
+          "paragraph_words": 12,
+          "future_end": 7,
+          "context_mode": "rolling",
+          "raw_display": "Iceland seems to be embarking on a bold project with their constitution.",
+          "word_count": 12
+        },
+        {
+          "language": "en",
+          "context": "i wonder if it was easier",
+          "text": "to",
+          "label": "NEOT",
+          "split": "train",
+          "lookahead_words": 1,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "topical_chat-t_a1336b8d-ab23-47ce-a254-600ded735fcc.s9.en",
+          "family_id": "public_checked.jsonl:topical_chat-t_a1336b8d-ab23-47ce-a254-600ded735fcc",
+          "turn_idx": 1,
+          "speaker": "S1",
+          "boundary": 13,
+          "context_start": 7,
+          "paragraph_words": 25,
+          "future_end": 14,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Yeah, that is weird. I wonder why. I wonder if it was easier to get sponsors and ads for bowling, like from beer companies maybe.",
+          "word_count": 25
+        },
+        {
+          "language": "en",
+          "context": "perfect",
+          "text": "how long",
+          "label": "EOT",
+          "split": "train",
+          "lookahead_words": 2,
+          "source_kind": "USER_CHECKED_SOURCE_TEXT",
+          "label_source": "PUNCTUATION_SILVER_NOT_HUMAN_AUDIO_GOLD",
+          "origin": "public_checked.jsonl",
+          "dialogue_id": "taskmaster3-dlg-c83f6d25-335d-43de-b14a-77439a1d7dae.s0.en",
+          "family_id": "public_checked.jsonl:taskmaster3-dlg-c83f6d25-335d-43de-b14a-77439a1d7dae",
+          "turn_idx": 6,
+          "speaker": "S1",
+          "boundary": 8,
+          "context_start": 7,
+          "paragraph_words": 26,
+          "future_end": 10,
+          "context_mode": "fragment_train_only",
+          "raw_display": "Oh, the seven thirty P M is perfect. How long does it take to drive there, and is parking free? I mean around seven P M.",
+          "word_count": 26
+        }
+      ]
+    },
+    "independent_training_verification.json": {
+      "verified": true,
+      "trainer": {
+        "pid": 967949,
+        "start_ticks": "60335466",
+        "module": "turn_v2.multilingual_malbert_vi_en_checked_train_v3",
+        "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb"
+      },
+      "step": 92500,
+      "epoch": 0,
+      "cursor": 204784,
+      "additional_rows_seen": 4784,
+      "optimizer_entries": 27,
+      "rng_order_and_source_verified": true,
+      "parameters": 11941122,
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "checkpoint_sha256": "3f758b29ed3a35f920f71fcd5f92435d01558081ec0a3111b420374acbd211a3",
+      "new_cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+      "original_dev_test_excluded": true,
+      "test_used": false
+    },
+    "migration_receipt.json": {
+      "authorized_active_languages": [
+        "vi",
+        "en"
+      ],
+      "user_authorized_additional_train": true,
+      "model_optimizer_rng_preserved": true,
+      "all_model_tensors_equal": true,
+      "all_optimizer_tensors_equal": true,
+      "rng_and_sampler_state_equal": true,
+      "parent_pid": 914852,
+      "parent_start_ticks": "60017417",
+      "parent_step": 85498,
+      "parent_epoch": 6,
+      "parent_cursor": 92752,
+      "parent_rows": 200000,
+      "active_rows": 399960,
+      "additional_rows": 199960,
+      "remaining_parent_order_preserved_before_any_new_rows": true,
+      "new_branch_epoch": 0,
+      "lr_step_offset": 76097.07136,
+      "optimizer_entries": 27,
+      "parameters": 11941122,
+      "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+      "migrated_checkpoint_sha256": "4e804e19d9d0880c9e2c485ff87de534d3bf84a1e05ebf804e339c4eed96f37c",
+      "cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+      "dev_files_unchanged": {
+        "dev_rows_vi_en.jsonl": "7d9c727b99c492dd4e7c306fa942fd3688ecc5222a79e06aff73a9efc017e8b3",
+        "dev_streams_vi_en.json": "7a1ef044f1e4f01f85a81a9dfbbafe808a807e04818c8b541e9097e025b9bc2a",
+        "teacher_vi_en_dev.json": "bb93d8a17c515e5103cefeb55ebcf7bb6df8b32fea4711a2ffdc6c8e4a6b4e5f"
+      },
+      "dataset_fingerprint_changed_only_in_versioned_child": true,
+      "test_used": false
+    },
+    "initialization_receipt.json": {
+      "mode": "INHERITED_FULL_RESUME_CHECKPOINT",
+      "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+      "model_optimizer_rng_inherited": true,
+      "new_base_initialization_used_for_training": false,
+      "parameters": 11941122,
+      "pretrained_source_revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411"
+    },
+    "recipe.json": {
+      "parameters": 11941122,
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "additional_data": {
+        "complete": true,
+        "rows": 399960,
+        "counts": {
+          "vi": 199988,
+          "en": 199972
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parent_rows": 200000,
+        "additional_rows": 199960,
+        "additional_label_counts": {
+          "vi:NEOT": 96370,
+          "vi:EOT": 3618,
+          "en:EOT": 4670,
+          "en:NEOT": 95302
+        },
+        "candidate_points": {
+          "vi:NEOT": 1868218,
+          "vi:EOT": 67007,
+          "en:NEOT": 1547424,
+          "en:EOT": 73418
+        },
+        "audit_counts": {
+          "factory_checked.jsonl:rows": 8198,
+          "factory_checked.jsonl:train:kept": 8095,
+          "factory_checked.jsonl:train:rejected": 103,
+          "public_checked.jsonl:rows": 189122,
+          "public_checked.jsonl:test:kept": 9455,
+          "public_checked.jsonl:test:rejected": 59,
+          "public_checked.jsonl:dev:kept": 9608,
+          "public_checked.jsonl:dev:rejected": 70,
+          "public_checked.jsonl:train:kept": 168746,
+          "public_checked.jsonl:train:rejected": 1184,
+          "excluded:not_kept_or_hard_check": 1407,
+          "excluded:short_turn": 2760,
+          "excluded:noncontiguous_chunks": 6,
+          "train:paragraphs:vi": 59544,
+          "train:paragraphs:en": 59876,
+          "test:paragraphs:en": 4346,
+          "test:paragraphs:vi": 4386,
+          "dev:paragraphs:en": 4424,
+          "dev:paragraphs:vi": 4488,
+          "excluded:duplicate_train_paragraph": 6418,
+          "excluded:protected_family_paragraph": 37814,
+          "excluded:protected_exact_model_input": 22993,
+          "excluded:already_in_parent_train": 127,
+          "excluded:duplicate_additional_input": 1292,
+          "excluded:conflicting_selected_inputs": 40
+        },
+        "raw_sources_sha256": {
+          "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+          "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+        },
+        "source_manifest_sha256": "f36327908afa76203f2e3b12cca3b2b222e49e85c26e7856b585ed11f8e741cd",
+        "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+        "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+        "parent_cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+        "files": {
+          "ids": {
+            "sha256": "9d06392d258340d23256166d572bb5ea1fe383577682f1ed0a9314d5e784add2",
+            "bytes": 204779648
+          },
+          "lengths": {
+            "sha256": "119441bf2b14f7bec78278fd0c9f3f8ae09b435bf191ea428f1e6b1065097a0b",
+            "bytes": 800048
+          },
+          "labels": {
+            "sha256": "8601d3c138009954247457d26e256dd8d0cf4c95ef3213c26d34310257c1ec11",
+            "bytes": 400088
+          },
+          "logits": {
+            "sha256": "d6127d398c5c85c4379342f88f242625353cd3fddce0b08fe39c11954d7468ad",
+            "bytes": 1599968
+          },
+          "language_ids": {
+            "sha256": "3d0e54612d038852ff468e32ff5a0702155f6aa3fabc5d6f5d5ce6ddae8881bd",
+            "bytes": 400088
+          },
+          "source_row_indices": {
+            "sha256": "71c3a83f527c71a5202422fb3975f485b5a4346edf94a0438ac2f058b13d9d68",
+            "bytes": 1599968
+          },
+          "teacher_mask": {
+            "sha256": "78cff1db15d20f421cf7b336bf95142d00da182f38b3ab314a01f327d67d26ae",
+            "bytes": 400088
+          }
+        },
+        "source_module_sha256": "228d3a082d7f863dc703322159424adba764d18acfe30000e1188df4126e6fc2",
+        "protected_model_input_hashes": 494243,
+        "protected_family_exclusions": 1166,
+        "protected_exact_token_input_overlap_after_filtering": 0,
+        "original_dev_test_in_train": false,
+        "source_target_double_counting": false,
+        "parser": "Contiguous source_raw chunks from the same turn/speaker/language; rest_of_sentence and target never used",
+        "sampling": "Lowest deterministic SHA priorities, at most100000 eligible 1/2-word points per language; not all candidate gaps",
+        "labels": "Punctuation silver, not human/audio gold; ellipsis/abbreviation and ?/! endpoints unscored",
+        "kd": "Parent rows retain frozen logits; additional rows use CE only, teacher_mask=0, no fabricated teacher targets",
+        "overlap_limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows",
+        "test_predictions_used_for_selection": false,
+        "test_input_fields_used_only_for_dedup": true
+      },
+      "migration": {
+        "authorized_active_languages": [
+          "vi",
+          "en"
+        ],
+        "user_authorized_additional_train": true,
+        "model_optimizer_rng_preserved": true,
+        "all_model_tensors_equal": true,
+        "all_optimizer_tensors_equal": true,
+        "rng_and_sampler_state_equal": true,
+        "parent_pid": 914852,
+        "parent_start_ticks": "60017417",
+        "parent_step": 85498,
+        "parent_epoch": 6,
+        "parent_cursor": 92752,
+        "parent_rows": 200000,
+        "active_rows": 399960,
+        "additional_rows": 199960,
+        "remaining_parent_order_preserved_before_any_new_rows": true,
+        "new_branch_epoch": 0,
+        "lr_step_offset": 76097.07136,
+        "optimizer_entries": 27,
+        "parameters": 11941122,
+        "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+        "migrated_checkpoint_sha256": "4e804e19d9d0880c9e2c485ff87de534d3bf84a1e05ebf804e339c4eed96f37c",
+        "cache_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+        "dev_files_unchanged": {
+          "dev_rows_vi_en.jsonl": "7d9c727b99c492dd4e7c306fa942fd3688ecc5222a79e06aff73a9efc017e8b3",
+          "dev_streams_vi_en.json": "7a1ef044f1e4f01f85a81a9dfbbafe808a807e04818c8b541e9097e025b9bc2a",
+          "teacher_vi_en_dev.json": "bb93d8a17c515e5103cefeb55ebcf7bb6df8b32fea4711a2ffdc6c8e4a6b4e5f"
+        },
+        "dataset_fingerprint_changed_only_in_versioned_child": true,
+        "test_used": false
+      },
+      "loss": "Parent rows retain CE+frozen-KL; additional rows are CE only via teacher_mask=0",
+      "dev": "Byte-identical original VI/EN rolling calibration and predicted-reset DEV; imported DEV/TEST excluded",
+      "state": "Model/AdamW27/TorchCUDA_numpyPythonRNG/sampler retained. Finish remaining parent row order before additional rows.",
+      "deployment": "Same strict VI/EN retention gates, then FP32/INT8/real packed INT4 QAT and CPU verification; no automatic replacement",
+      "new_spoken_colab_imported": false,
+      "human_audio_gold": false,
+      "drive_backup_configured": false
+    },
+    "cache/receipt.json": {
+      "complete": true,
+      "rows": 399960,
+      "counts": {
+        "vi": 199988,
+        "en": 199972
+      },
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "parent_rows": 200000,
+      "additional_rows": 199960,
+      "additional_label_counts": {
+        "vi:NEOT": 96370,
+        "vi:EOT": 3618,
+        "en:EOT": 4670,
+        "en:NEOT": 95302
+      },
+      "candidate_points": {
+        "vi:NEOT": 1868218,
+        "vi:EOT": 67007,
+        "en:NEOT": 1547424,
+        "en:EOT": 73418
+      },
+      "audit_counts": {
+        "factory_checked.jsonl:rows": 8198,
+        "factory_checked.jsonl:train:kept": 8095,
+        "factory_checked.jsonl:train:rejected": 103,
+        "public_checked.jsonl:rows": 189122,
+        "public_checked.jsonl:test:kept": 9455,
+        "public_checked.jsonl:test:rejected": 59,
+        "public_checked.jsonl:dev:kept": 9608,
+        "public_checked.jsonl:dev:rejected": 70,
+        "public_checked.jsonl:train:kept": 168746,
+        "public_checked.jsonl:train:rejected": 1184,
+        "excluded:not_kept_or_hard_check": 1407,
+        "excluded:short_turn": 2760,
+        "excluded:noncontiguous_chunks": 6,
+        "train:paragraphs:vi": 59544,
+        "train:paragraphs:en": 59876,
+        "test:paragraphs:en": 4346,
+        "test:paragraphs:vi": 4386,
+        "dev:paragraphs:en": 4424,
+        "dev:paragraphs:vi": 4488,
+        "excluded:duplicate_train_paragraph": 6418,
+        "excluded:protected_family_paragraph": 37814,
+        "excluded:protected_exact_model_input": 22993,
+        "excluded:already_in_parent_train": 127,
+        "excluded:duplicate_additional_input": 1292,
+        "excluded:conflicting_selected_inputs": 40
+      },
+      "raw_sources_sha256": {
+        "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+        "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+      },
+      "source_manifest_sha256": "f36327908afa76203f2e3b12cca3b2b222e49e85c26e7856b585ed11f8e741cd",
+      "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+      "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+      "parent_cache_sha256": "b8c799f1c2860e5ba21f8b1a73117505716941ca54a39ba817bb1c83e51f2a1e",
+      "files": {
+        "ids": {
+          "sha256": "9d06392d258340d23256166d572bb5ea1fe383577682f1ed0a9314d5e784add2",
+          "bytes": 204779648
+        },
+        "lengths": {
+          "sha256": "119441bf2b14f7bec78278fd0c9f3f8ae09b435bf191ea428f1e6b1065097a0b",
+          "bytes": 800048
+        },
+        "labels": {
+          "sha256": "8601d3c138009954247457d26e256dd8d0cf4c95ef3213c26d34310257c1ec11",
+          "bytes": 400088
+        },
+        "logits": {
+          "sha256": "d6127d398c5c85c4379342f88f242625353cd3fddce0b08fe39c11954d7468ad",
+          "bytes": 1599968
+        },
+        "language_ids": {
+          "sha256": "3d0e54612d038852ff468e32ff5a0702155f6aa3fabc5d6f5d5ce6ddae8881bd",
+          "bytes": 400088
+        },
+        "source_row_indices": {
+          "sha256": "71c3a83f527c71a5202422fb3975f485b5a4346edf94a0438ac2f058b13d9d68",
+          "bytes": 1599968
+        },
+        "teacher_mask": {
+          "sha256": "78cff1db15d20f421cf7b336bf95142d00da182f38b3ab314a01f327d67d26ae",
+          "bytes": 400088
+        }
+      },
+      "source_module_sha256": "228d3a082d7f863dc703322159424adba764d18acfe30000e1188df4126e6fc2",
+      "protected_model_input_hashes": 494243,
+      "protected_family_exclusions": 1166,
+      "protected_exact_token_input_overlap_after_filtering": 0,
+      "original_dev_test_in_train": false,
+      "source_target_double_counting": false,
+      "parser": "Contiguous source_raw chunks from the same turn/speaker/language; rest_of_sentence and target never used",
+      "sampling": "Lowest deterministic SHA priorities, at most100000 eligible 1/2-word points per language; not all candidate gaps",
+      "labels": "Punctuation silver, not human/audio gold; ellipsis/abbreviation and ?/! endpoints unscored",
+      "kd": "Parent rows retain frozen logits; additional rows use CE only, teacher_mask=0, no fabricated teacher targets",
+      "overlap_limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows",
+      "test_predictions_used_for_selection": false,
+      "test_input_fields_used_only_for_dedup": true
+    },
+    "first_checkpoint_verification.json": {
+      "run": "finetune",
+      "step": 85500,
+      "optimizer_entries": 27,
+      "checkpoint_sha256": "94c7709e390e664ebe97afd56cfa28b4d1064634fb25d866cbca616a378681fd",
+      "torch_load_passed": true,
+      "optimizer_rng_order_source_verified": true,
+      "parameters": 11941122
+    },
+    "latest_dev.json": {
+      "run": "finetune",
+      "step": 1442000,
+      "epoch": 55,
+      "dev": {
+        "threshold": 0.82,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 66,
+            "tn": 1961,
+            "fp": 7,
+            "fn": 24,
+            "accuracy": 0.9849368318756074,
+            "eot_f1": 0.8098159509202454,
+            "eot_precision": 0.9041095890410958,
+            "eot_recall": 0.7333333333333333,
+            "false_share_of_cuts": 0.0958904109589041,
+            "false_positive_rate": 0.003556910569105691
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 100,
+            "tn": 2164,
+            "fp": 19,
+            "fn": 21,
+            "accuracy": 0.9826388888888888,
+            "eot_f1": 0.8333333333333334,
+            "eot_precision": 0.8403361344537815,
+            "eot_recall": 0.8264462809917356,
+            "false_share_of_cuts": 0.15966386554621848,
+            "false_positive_rate": 0.008703618873110398
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 62,
+            "tn": 1960,
+            "fp": 8,
+            "fn": 28,
+            "accuracy": 0.9825072886297376,
+            "eot_f1": 0.775,
+            "eot_precision": 0.8857142857142857,
+            "eot_recall": 0.6888888888888889,
+            "false_share_of_cuts": 0.11428571428571428,
+            "false_positive_rate": 0.0040650406504065045
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 88,
+            "tn": 2161,
+            "fp": 22,
+            "fn": 33,
+            "accuracy": 0.9761284722222222,
+            "eot_f1": 0.7619047619047619,
+            "eot_precision": 0.8,
+            "eot_recall": 0.7272727272727273,
+            "false_share_of_cuts": 0.2,
+            "false_positive_rate": 0.010077874484654145
+          }
+        },
+        "score": 0.8098159509202454,
+        "scope": "VI/EN-only synthetic punctuation causal predicted-reset DEV; not human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2,
+        "active_languages": [
+          "vi",
+          "en"
+        ]
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false
+      },
+      "scope": "Unchanged VI/EN synthetic punctuation DEV; no supplemental DEV/test in training or selection",
+      "test_used": false
+    }
+  },
+  "process": {
+    "present": true,
+    "pid": 967949,
+    "start_ticks": "60335466",
+    "expected_ticks_match": true,
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_checked_train_v3 "
+  },
+  "cutover_process": {
+    "present": false
+  },
+  "parent_process_present": false,
+  "runs": {
+    "finetune": {
+      "resume_receipt.json": {
+        "step": 1442000,
+        "epoch": 54,
+        "cursor": 198512,
+        "optimizer_entries": 27,
+        "parameters": 11941122,
+        "optimizer_rng_sampler_scales_included": true,
+        "additional_rows_seen": 10897359
+      },
+      "best_report.json": {
+        "run": "finetune",
+        "step": 654000,
+        "epoch": 23,
+        "dev": {
+          "threshold": 0.33999999999999997,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 80,
+              "tn": 1957,
+              "fp": 11,
+              "fn": 10,
+              "accuracy": 0.9897959183673469,
+              "eot_f1": 0.8839779005524862,
+              "eot_precision": 0.8791208791208791,
+              "eot_recall": 0.8888888888888888,
+              "false_share_of_cuts": 0.12087912087912088,
+              "false_positive_rate": 0.005589430894308943
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 109,
+              "tn": 2167,
+              "fp": 16,
+              "fn": 12,
+              "accuracy": 0.9878472222222222,
+              "eot_f1": 0.8861788617886179,
+              "eot_precision": 0.872,
+              "eot_recall": 0.9008264462809917,
+              "false_share_of_cuts": 0.128,
+              "false_positive_rate": 0.007329363261566651
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 73,
+              "tn": 1949,
+              "fp": 19,
+              "fn": 17,
+              "accuracy": 0.9825072886297376,
+              "eot_f1": 0.8021978021978022,
+              "eot_precision": 0.7934782608695652,
+              "eot_recall": 0.8111111111111111,
+              "false_share_of_cuts": 0.20652173913043478,
+              "false_positive_rate": 0.009654471544715448
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 99,
+              "tn": 2156,
+              "fp": 27,
+              "fn": 22,
+              "accuracy": 0.9787326388888888,
+              "eot_f1": 0.8016194331983806,
+              "eot_precision": 0.7857142857142857,
+              "eot_recall": 0.8181818181818182,
+              "false_share_of_cuts": 0.21428571428571427,
+              "false_positive_rate": 0.012368300503893724
+            }
+          },
+          "score": 0.8839779005524862,
+          "scope": "VI/EN-only synthetic punctuation causal predicted-reset DEV; not human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2,
+          "active_languages": [
+            "vi",
+            "en"
+          ]
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false
+        },
+        "scope": "Unchanged VI/EN synthetic punctuation DEV; no supplemental DEV/test in training or selection",
+        "test_used": false
+      }
+    }
+  },
+  "old_large_trainer_absent": true,
+  "old_compact_trainer_absent": true,
+  "old_trilingual_malbert_absent": true,
+  "gpu_processes": "967949, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 8678 MiB",
+  "disks": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_checked_20261103_v3": 43.02790069580078,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "checked_utc": "2026-11-04T03:41:47.257052+00:00",
+  "windows_free_gib": 20.12640380859375
+}

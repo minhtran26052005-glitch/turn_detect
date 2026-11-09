@@ -1,0 +1,38 @@
+{
+  "checkpoint_step": 827000,
+  "threshold": 0.75,
+  "original_dev": {
+    "vi": {
+      "samples": 2058,
+      "tp": 65,
+      "tn": 1956,
+      "fp": 12,
+      "fn": 25,
+      "accuracy": 0.9820213799805636,
+      "eot_f1": 0.7784431137724551,
+      "eot_precision": 0.8441558441558441,
+      "eot_recall": 0.7222222222222222,
+      "false_share_of_cuts": 0.15584415584415584,
+      "false_positive_rate": 0.006097560975609756
+    },
+    "en": {
+      "samples": 2304,
+      "tp": 106,
+      "tn": 2164,
+      "fp": 19,
+      "fn": 15,
+      "accuracy": 0.9852430555555556,
+      "eot_f1": 0.8617886178861789,
+      "eot_precision": 0.848,
+      "eot_recall": 0.8760330578512396,
+      "false_share_of_cuts": 0.152,
+      "false_positive_rate": 0.008703618873110398
+    }
+  },
+  "stream_count": 72,
+  "stream_language_compositions": {
+    "vi": 24,
+    "en": 24,
+    "mixed": 24
+  }
+}

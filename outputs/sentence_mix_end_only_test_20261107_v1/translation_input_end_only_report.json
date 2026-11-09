@@ -1,0 +1,92 @@
+{
+  "complete": true,
+  "model_inferences": 3900,
+  "message_count": 310,
+  "inference_scope": "New paused detector only on same 310 ASR-style translation-test messages. Translator and references not used; no new BLEU/chrF or measured latency.",
+  "single_sentence_messages_excluded_from_primary_denominator": true,
+  "counts": [
+    {
+      "group": "ALL",
+      "cohort": "at_least_two_completed_fullstops",
+      "messages": 16,
+      "end_only": 4,
+      "with_internal_cut": 12,
+      "chunks": 31,
+      "words": 221,
+      "words_in_end_only": 42,
+      "end_only_percent": 25.0
+    },
+    {
+      "group": "ALL",
+      "cohort": "multi_sentence",
+      "messages": 21,
+      "end_only": 9,
+      "with_internal_cut": 12,
+      "chunks": 36,
+      "words": 286,
+      "words_in_end_only": 107,
+      "end_only_percent": 42.857142857142854
+    },
+    {
+      "group": "ALL",
+      "cohort": "single_sentence_excluded",
+      "messages": 289,
+      "end_only": 238,
+      "with_internal_cut": 51,
+      "chunks": 348,
+      "words": 4235,
+      "words_in_end_only": 3137,
+      "end_only_percent": 82.3529411764706
+    },
+    {
+      "group": "language:en",
+      "cohort": "multi_sentence",
+      "messages": 16,
+      "end_only": 5,
+      "with_internal_cut": 11,
+      "chunks": 29,
+      "words": 195,
+      "words_in_end_only": 55,
+      "end_only_percent": 31.25
+    },
+    {
+      "group": "language:en",
+      "cohort": "single_sentence_excluded",
+      "messages": 134,
+      "end_only": 105,
+      "with_internal_cut": 29,
+      "chunks": 170,
+      "words": 1979,
+      "words_in_end_only": 1347,
+      "end_only_percent": 78.35820895522389
+    },
+    {
+      "group": "language:vi",
+      "cohort": "multi_sentence",
+      "messages": 5,
+      "end_only": 4,
+      "with_internal_cut": 1,
+      "chunks": 7,
+      "words": 91,
+      "words_in_end_only": 52,
+      "end_only_percent": 80.0
+    },
+    {
+      "group": "language:vi",
+      "cohort": "single_sentence_excluded",
+      "messages": 155,
+      "end_only": 133,
+      "with_internal_cut": 22,
+      "chunks": 178,
+      "words": 2256,
+      "words_in_end_only": 1790,
+      "end_only_percent": 85.80645161290323
+    }
+  ],
+  "source_sha256": "37ec2f88414da996d2b29792d5f88116b77f42f3879b22ae25ee7fefa0973250",
+  "old_asr_segmentation_sha256": "5af0a95c37ea45b97737d272da6d8d46f24717a146b8e98fac7306532a60f273",
+  "decisions_sha256": "cf7eb4326798d8b3a1ce8eabbf674dc2abca7bd1095ab851cf6c71c0bcb175cd",
+  "segmentation_sha256": "bc8864bba508740164bcfaa56bfb45dd0d0154da116e709aaf1be70676f53302",
+  "all_causal_inputs_and_chunk_word_conservation_verified": true,
+  "final_message_flush_forced_not_model_eot": true
+}

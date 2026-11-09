@@ -1,0 +1,25 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "uploaded_sources": {
+      "turn_v2/translation_segmenter_exact_encoding_v1.py": "47559c85aecd8eb91314619cb6707c32b515bdd82ab9af53f83af5f3f7b33fc1",
+      "turn_v2/translation_segmenter_causal_extraction_v2.py": "03e079663f7ea12955b60b30f3cad4aa6090c6b2b6d104029b6c21b90538857c",
+      "turn_v2/translation_segmenter_full_data_v2.py": "2e1d4ee524c0b9de1b41b93a6d02373e13c6eda4ed6f62935b8e2d47c670930a",
+      "turn_v2/translation_segmenter_full_data_v3.py": "d1b008c858a8a31da8af382c2b886107dfcca60e00ddbe5d93638691097bd498",
+      "turn_v2/translation_segmenter_full_data_v4.py": "00522633b267879ec7bf49bfefcdd8313733f14e069a3b186b0803b940d47a2c",
+      "turn_v2/translation_segmenter_full_verify_v1.py": "f2f9aa7de2ff7923e8793bf5d9056a2040449856a0b7de8a04fa0504f8f73732",
+      "turn_v2/translation_segmenter_epoch_sampling_v1.py": "56692b08a178317a9aed311928a8bbb9009353f03f12ea38614a8af70df68028",
+      "turn_v2/translation_segmenter_full_train_v4.py": "12340b84a74bee89340056b6c39aa11a27cde35dfbb759fd7257e49791e1f3f7",
+      "turn_v2/translation_segmenter_full_campaign_v6.py": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614",
+      "turn_v2/translation_segmenter_drive_backup_v2.py": "4a39100a11c9c2c405c72df016356e69a2d95fe01d1af2f5176a319bf4136e01",
+      "turn_v2/translation_segmenter_drive_backup_v5.py": "1b59bde02c2e718dcea0cda1687172b411ac3c1ac7f74249fd42a53ea40f2f8d",
+      "turn_v2/translation_segmenter_drive_backup_v6.py": "d3dfc71c0d884e08a11960e5b3914238d5996c63b63a56abc347b6ee1ced2efc",
+      "turn_v2/restore_full_epoch_campaign_v6.py": "16f8534da78f94dfe0efa9a0d669d0df3b8edebb6442254ebd497d4d70adbbc7"
+    }
+  }
+}

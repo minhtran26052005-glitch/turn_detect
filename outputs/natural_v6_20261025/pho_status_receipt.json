@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"download\": {\"status\": \"COMPLETED\", \"started_at_utc\": \"2026-10-24T20:32:19.808952+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"tools/natural_v6_pho_download.py\"], \"timeout_seconds\": 5400, \"pid\": 167725, \"elapsed_seconds\": 40.004929304122925, \"heartbeat_unix\": 1792873974.8132594, \"exit_code\": 0, \"finished_at_utc\": \"2026-10-24T20:32:59.813884+00:00\"}, \"repair\": {\"status\": \"RUNNING\", \"started_at_utc\": \"2026-10-24T20:33:39.918478+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.natural_v6_pho\"], \"timeout_seconds\": 5400, \"pid\": 168089, \"elapsed_seconds\": 1275.1462988853455, \"heartbeat_unix\": 1792875295.064778}, \"outputs/natural_v6_20261025/pho_download.json\": {\"repo\": \"vinai/PhoWhisper-large\", \"revision\": \"b9136a44b5f2ca664bd0b8f74baecf1715f6eeeb\", \"local_path\": \"/root/.cache/huggingface/hub/models--vinai--PhoWhisper-large/snapshots/b9136a44b5f2ca664bd0b8f74baecf1715f6eeeb\", \"files\": [{\"name\": \"README.md\", \"bytes\": 1021, \"sha256\": \"736bfe608f0cf60fd942fbf734b10e0df70659ab5b9504f8bf2e194365e0c0a1\"}, {\"name\": \"added_tokens.json\", \"bytes\": 2082, \"sha256\": \"ce949fe720c14311cb6c446e69cfe340dc669d7b006077a6feed6ae571dd7e88\"}, {\"name\": \"config.json\", \"bytes\": 1334, \"sha256\": \"e231b4ad7d065c241b5e9249b36738b466d850b1c135ec41da66d93abb58a082\"}, {\"name\": \"generation_config.json\", \"bytes\": 4258, \"sha256\": \"0d70e4acf8d9f19c22cf060ddfb8c1c01dca36527f8b58476adffa54d39eb448\"}, {\"name\": \"merges.txt\", \"bytes\": 493864, \"sha256\": \"78f27f801feb4283ae969d4cadacb28fc051b655647402b1a252c7079ea11c46\"}, {\"name\": \"normalizer.json\", \"bytes\": 52666, \"sha256\": \"bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd\"}, {\"name\": \"preprocessor_config.json\", \"bytes\": 339, \"sha256\": \"a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d\"}, {\"name\": \"pytorch_model.bin\", \"bytes\": 6173655608, \"sha256\": \"9e0077352544f497673395b313a9ef6d7cd2967598197c4d691d8042333060b2\"}, {\"name\": \"special_tokens_map.json\", \"bytes\": 2077, \"sha256\": \"b0aac6950381c4ae2f60b3f0fab04bcfe399a6a320cb3e4c7aee2d52924d733e\"}, {\"name\": \"tokenizer.json\", \"bytes\": 2204003, \"sha256\": \"c218b12acbc2168cad951ae8a8c8d345df09dfa63b787214d4ac27762170fd7b\"}, {\"name\": \"tokenizer_config.json\", \"bytes\": 805, \"sha256\": \"14f84bdf4b9ecdbd4738ddc81c17a1baedfc02bb93c6e049c951e15a1b40b70d\"}, {\"name\": \"vocab.json\", \"bytes\": 835550, \"sha256\": \"8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9\"}], \"license\": \"BSD3Clause model card\", \"attribution\": \"Thanh-Thien Le, Linh The Nguyen, Dat Quoc Nguyen. PhoWhisper: Automatic Speech Recognition for Vietnamese. ICLR2024 Tiny Papers.\"}, \"data_v6/pho_text_20261025/progress.json\": {\"stage\": \"PHOWHISPER_SAME_CAUSAL_WINDOWS\", \"completed\": 1332, \"total\": 1392, \"elapsed_seconds\": 1265.6171159290025, \"VRAM_allocated\": 3097094656}}\n"
+    }
+  ],
+  "elapsed_seconds": 0.09400000001187436
+}

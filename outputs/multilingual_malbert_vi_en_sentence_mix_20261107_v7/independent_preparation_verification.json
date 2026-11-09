@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "manifest_sha256": "b5732ca1acaa317fff66981beda0cff7502258b8d747f6af0ed9a67b5c5e2f7f",
+  "curriculum_plan_sha256": "fe83ccd9e57f798c2822f97e16cf2630adfb860ee03f5c1bc684b776d2331d3d",
+  "pack_count": 49260,
+  "unique_sentence_units": 208906,
+  "balanced_histogram_verified": true,
+  "all_source_provenance_words_labels_and_pack_joins_verified": true,
+  "protected_source_checks_passed": true,
+  "dev_bytes_identical": true,
+  "initial_stage": 3
+}

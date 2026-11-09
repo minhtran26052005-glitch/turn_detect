@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-24T09:44:15.153825+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "notebook": "C:\\Users\\ASUS\\Documents\\turn_detect\\a.ipynb",
+  "cells": [
+    {
+      "cell": 24,
+      "tag": "compression_result",
+      "status": "ok",
+      "elapsed_seconds": 2.360000000000582
+    }
+  ],
+  "passed": true,
+  "selected_tags": [
+    "compression_result"
+  ]
+}

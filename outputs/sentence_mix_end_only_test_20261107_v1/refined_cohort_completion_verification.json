@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+  "refined_denominators_independently_recounted": true,
+  "period_multi": 18,
+  "all_terminal_multi": 19,
+  "end_only_both": 6,
+  "html_review_examples": 19,
+  "user_summary_sha256": "ad1db4ce30ad02e7904e0937f9bef4bead372853baff6c54c1b995efb1978429"
+}

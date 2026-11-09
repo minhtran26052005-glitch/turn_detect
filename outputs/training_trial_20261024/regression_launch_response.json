@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"regression_pid\": 191527, \"launched\": true}\n"
+    }
+  ],
+  "elapsed_seconds": 0.09300000000803266
+}

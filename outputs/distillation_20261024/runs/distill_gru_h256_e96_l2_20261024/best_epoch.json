@@ -1,0 +1,28 @@
+{
+  "epoch": 7,
+  "step": 8624,
+  "loss": 0.09986178839409893,
+  "dev": {
+    "samples": 17833,
+    "threshold": 0.5,
+    "accuracy": 0.9365782537991364,
+    "eot_precision": 0.8710264900662251,
+    "eot_recall": 0.9372884375556744,
+    "eot_f1": 0.9029434480391315,
+    "joint_score": 0.9029434480391315,
+    "false_eot": 779,
+    "missed_eot": 352,
+    "false_eot_rate": 0.06374795417348608,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11441,
+        779
+      ],
+      [
+        352,
+        5261
+      ]
+    ]
+  },
+  "elapsed_seconds": 115.96536621999985
+}

@@ -1,0 +1,37 @@
+{
+  "verified": true,
+  "total_train_rows": 399960,
+  "parent_rows_preserved": 200000,
+  "additional_rows": 199960,
+  "additional_label_counts": {
+    "vi:NEOT": 96370,
+    "vi:EOT": 3618,
+    "en:EOT": 4670,
+    "en:NEOT": 95302
+  },
+  "additional_source_rows_by_file": {
+    "public_checked.jsonl": 182277,
+    "factory_checked.jsonl": 17683
+  },
+  "unique_source_turns_in_subset": 83149,
+  "every_additional_row_checked": true,
+  "raw_chunk_provenance_verified": true,
+  "causal_one_two_word_future_verified": true,
+  "chunk_edges_not_used_as_eot": true,
+  "teacher_mask_zero_for_added_rows": true,
+  "original_dev_test_in_train": false,
+  "fixed_dev_c75_student_token_input_overlap": 0,
+  "parent_train_token_input_overlap": 0,
+  "duplicate_added_token_inputs": 0,
+  "dev_files_byte_identical": true,
+  "raw_source_sha256": {
+    "factory_checked.jsonl": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+    "public_checked.jsonl": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4"
+  },
+  "train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+  "cache_receipt_sha256": "24202cde9f760f07fb219263fa4d1f3d57b7b9e47a65bc80b71f07771ea824a5",
+  "scope": "Import integrity audit of TRAIN punctuation-silver samples; not model quality or human/audio gold",
+  "test_input_fields_only_used_for_dedup": true,
+  "test_scored_or_used_for_selection": false,
+  "limitations": "Exact normalized full-paragraph family exclusion and actual student token-window input hashing; not exhaustive paraphrase or all possible reset windows"
+}

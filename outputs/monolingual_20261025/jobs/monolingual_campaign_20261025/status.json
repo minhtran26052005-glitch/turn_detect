@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-25T04:17:40.178673+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/monolingual_campaign.py"
+  ],
+  "timeout_seconds": 10200,
+  "pid": 158011,
+  "elapsed_seconds": 760.0874176025391,
+  "heartbeat_unix": 1792902615.265495,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-25T04:30:20.266093+00:00"
+}

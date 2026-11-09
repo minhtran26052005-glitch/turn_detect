@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"pid\": 179115, \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.continuous_v13_r3\", \"--output\", \"outputs/continuous_v13_20261026\", \"--max-cycles\", \"0\", \"--steps\", \"200\", \"--cadence\", \"300\"], \"source_sha256\": {\"turn_v2/continuous_v13_r3.py\": \"e773de3e74f036bf28f8c103039866e0ae7ccb7e68ef52d5c88d8d4c870c31fd\", \"turn_v2/continuous_v13_state.py\": \"acb1e0b594afbe09cf4de2b69f3f77415f3060b43ed0764f6105594e815a8f7c\", \"turn_v2/continuous_v13_objective.py\": \"93de973331625c716ca623b31ffbf62f6d30db5d1fa742730058a793a04eed65\"}, \"global_timeout\": null, \"max_cycles\": 0, \"log\": \"outputs/continuous_v13_20261026/worker_3.log\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.14000000001396984
+}

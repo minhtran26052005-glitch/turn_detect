@@ -1,0 +1,26 @@
+{
+  "at_utc": "2026-10-27T07:06:30.239682+00:00",
+  "status": "SYNCED_SUPERSEDED_BY_V6",
+  "local_report_complete": true,
+  "reason": "ColabRuntime: The Colab extension has no assigned runtime",
+  "raw_test_report_sha256_unchanged": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "files_sha256": {
+    "bao_cao_ket_qua.html": "036db25ae35dc65b36d1aba2fbddf798df2c6d9554fdbd7aa088393bd799af10",
+    "review_complete_v3.html": "036db25ae35dc65b36d1aba2fbddf798df2c6d9554fdbd7aa088393bd799af10",
+    "vi_compression_evidence_v1.json": "964ebacc5ea99dc96b967967aee9ef2013694069e53166e96612051ff123f01b",
+    "plain_report_receipt_v2.json": "1e828a8d9ec41a06427cc8428b2c95f22f945e7a5efd522bf414bf583bccc544",
+    "report_qa_compression/qa_receipt.json": "7124a8113014a3214dbdda449d3ccd4d293d59b1ef899f6d3aa92407b4080e00",
+    "README.md": "8ec42772c2d3bfca70100ffc1bd4d07ed3ffc2d70218310d7b809c81e1659191"
+  },
+  "source_module": "turn_v2.translation_segmenter_diagnostic_publication_v5",
+  "source_module_sha256": "20810dbf016161b9337312a99fd02fa59ee6d276a37c6a20eea22cd886df869d",
+  "report_builder": "tools/build_translation_segmenter_plain_report.py",
+  "expected_previous_reader_report_sha256": "5753c8c52631b20051effe5808870006df95eddb048f71bb903b41f53967c8c1",
+  "target_control_folder": "review_publication_v5",
+  "destination": "MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1",
+  "publisher_started": false,
+  "required_followup": "None; completed reader report verified on Drive. Preserve legacy dev result, do not rescore or retune.",
+  "resolved_at_utc": "2026-10-27T07:45:46.141888+00:00",
+  "superseded_by": "review_publication_v6",
+  "drive_manifest_sha256": "ada6f3337d91c87a362003441e23d0deaba167ee1a0714853e593b7924a77c50"
+}

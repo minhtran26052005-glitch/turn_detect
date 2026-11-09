@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "pid": 967949,
+  "start_ticks": "60335466",
+  "step": 100000,
+  "epoch": 0,
+  "additional_rows_seen": 124784,
+  "optimizer_entries": 27,
+  "optimizer_steps_match": true,
+  "all_rng_states_present": true,
+  "order_is_full_399960_permutation": true,
+  "parameters": 11941122,
+  "checkpoint_sha256": "6996acd4e680a03bc78462fa8baaee0081f00de74022038bdc4d1d35fb53f6e6",
+  "source_fingerprints_verified": true,
+  "import_controller_exited_normally": true,
+  "old_parent_absent": true
+}

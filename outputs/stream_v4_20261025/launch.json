@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"stream_v4_campaign_20261025\", \"launcher_pid\": 121396, \"command\": [\"/usr/bin/python3\", \"tools/distill_job.py\", \"--job\", \"jobs/stream_v4_campaign_20261025\", \"--timeout\", \"3600\", \"--\", \"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.stream_v4_train\", \"--output\", \"runs/stream_v4_campaign_20261025\", \"--rounds\", \"3\", \"--steps\", \"600\"], \"bundle_sha256\": \"be26e7031a6f864f4b8631b7547af83cf8f831200aa1729f908d13c3cd51778f\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.4539999999979045
+}

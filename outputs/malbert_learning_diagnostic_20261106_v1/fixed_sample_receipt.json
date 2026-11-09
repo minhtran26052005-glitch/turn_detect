@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "rows": 1000,
+  "EOT_per_language": 125,
+  "NEOT_per_language": 375,
+  "conflicts_encountered_and_removed": 0,
+  "original_causal_collection_inferences": 7172,
+  "labels_and_encoding_verified": true,
+  "sample_is_purposefully_class_stratified_not_natural_distribution": true,
+  "oracle_reference_reset": false,
+  "fixed_inputs_preserved_for_memorization": true
+}

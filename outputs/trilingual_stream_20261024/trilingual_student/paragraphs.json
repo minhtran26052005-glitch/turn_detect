@@ -1,0 +1,278 @@
+[
+  {
+    "paragraph_id": 0,
+    "language": "vi",
+    "source_url": "https://vi.wikipedia.org/?curid=80",
+    "title": "Hà Nội",
+    "text": "Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Đây là thành phố trực thuộc trung ương lớn thứ hai về quy mô dân số, được xếp loại đô thị đặc biệt, có vị trí là trung tâm văn hóa, chính trị, một trong hai trung tâm kinh tế, giáo dục quan trọng tại Việt Nam. Hà Nội nằm về phía Tây Bắc của trung tâm vùng đồng bằng châu thổ sông Hồng, với địa hình bao gồm vùng đồng bằng trung tâm và vùng đồi núi ở phía Bắc và phía Tây thành phố. Với diện tích 3.359,82 km², và dân số xấp xỉ 8,8 triệu người, Hà Nội là thành phố trực thuộc trung ương có diện tích lớn thứ sáu tại Việt Nam, đồng thời cũng là thành phố đông dân thứ hai và có mật độ dân số cao nhất trong 34 đơn vị hành chính cấp tỉnh của Việt Nam nhưng phân bố dân số không đồng đều. Hà Nội có 126 đơn vị hành chính cấp xã, gồm 51 phường và 75 xã. Hà Nội đã sớm trở thành trung tâm chính trị, kinh tế và văn hóa ngay từ những buổi đầu của lịch sử Việt Nam. Với vai trò thủ đô, Hà Nội là nơi tập trung nhiều địa điểm văn hóa giải trí, công trình thể thao quan trọng của đất nước, đồng thời cũng là địa điểm được lựa chọn để tổ chức nhiều sự kiện chính trị và thể thao quốc tế. Đây là nơi tập trung nhiều làng nghề truyền thống, đồng thời cũng là 1 trong 3 vùng tập trung nhiều hội lễ của miền Bắc Việt Nam. Thành phố có chỉ số phát triển con người ở mức cao, dẫn đầu trong số các đơn vị hành chính của Việt Nam. Nền ẩm thực Hà Nội với nhiều nét riêng biệt cũng là một trong những yếu tố thu hút khách du lịch tới thành phố. Thành phố được UNESCO trao tặng danh hiệu \"Thành phố vì hòa bình\" vào ngày 16 tháng 7 năm 1999. Khu Hoàng thành Thăng Long cũng được tổ chức UNESCO công nhận là di sản văn hóa thế giới.",
+    "events": 411,
+    "first_eot": {
+      "step": 16,
+      "source_fraction": 0.03889886295631358,
+      "raw_prefix": "Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Đây"
+    },
+    "final_prediction": {
+      "language": "vi",
+      "prediction": "EOT",
+      "prob_EOT": 0.8047038711455544,
+      "threshold": 0.235,
+      "input_truncated": true,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 1,
+    "language": "vi",
+    "source_url": "https://vi.wikipedia.org/?curid=999",
+    "title": "Đà Nẵng",
+    "text": "Đà Nẵng là một trong chín thành phố trực thuộc trung ương của Việt Nam, nằm tại khu vực Duyên hải Nam Trung Bộ và Tây Nguyên. Đây là thành phố có diện tích lớn thứ hai của Việt Nam (sau thành phố Đồng Nai), đóng vai trò là trung tâm chính trị, kinh tế – xã hội lớn của miền Trung và là hạt nhân quan trọng trong Vùng kinh tế trọng điểm miền Trung. Thành phố Đà Nẵng hiện là đô thị loại I, là thành phố trung tâm cấp vùng và cấp quốc gia.",
+    "events": 106,
+    "first_eot": {
+      "step": 22,
+      "source_fraction": 0.2311212814645309,
+      "raw_prefix": "Đà Nẵng là một trong chín thành phố trực thuộc trung ương của Việt Nam, nằm tại khu vực Duyên hải Nam"
+    },
+    "final_prediction": {
+      "language": "vi",
+      "prediction": "EOT",
+      "prob_EOT": 0.5078013242776402,
+      "threshold": 0.235,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 2,
+    "language": "vi",
+    "source_url": "https://vi.wikipedia.org/?curid=999",
+    "title": "Đà Nẵng",
+    "text": "Về mặt địa lý, Đà Nẵng nằm ở trung bộ của Việt Nam, có vị trí trọng yếu cả về kinh tế – xã hội và quốc phòng – an ninh với vai trò cực tăng trưởng quốc gia là trung tâm công nghiệp, tài chính, du lịch, dịch vụ, văn hóa, giáo dục, y tế, khoa học, công nghệ, khởi nghiệp, đổi mới sáng tạo của khu vực Miền Trung, Tây Nguyên và cả nước; trung tâm tổ chức các sự kiện tầm khu vực và quốc tế. Đà Nẵng cũng là đô thị biển và đầu mối giao thông rất quan trọng về đường bộ, đường sắt, đường biển và đường hàng không.",
+    "events": 133,
+    "first_eot": {
+      "step": 25,
+      "source_fraction": 0.17716535433070865,
+      "raw_prefix": "Về mặt địa lý, Đà Nẵng nằm ở trung bộ của Việt Nam, có vị trí trọng yếu cả về kinh tế – xã"
+    },
+    "final_prediction": {
+      "language": "vi",
+      "prediction": "EOT",
+      "prob_EOT": 0.9630342173599062,
+      "threshold": 0.235,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 3,
+    "language": "vi",
+    "source_url": "https://vi.wikipedia.org/?curid=999",
+    "title": "Đà Nẵng",
+    "text": "Trong những năm gần đây, Đà Nẵng tích cực đầu tư xây dựng cơ sở hạ tầng, cải thiện môi trường, nâng cao an sinh xã hội và được đánh giá là thành phố đáng sống nhất Việt Nam. Năm 2018, Đà Nẵng được chọn đại diện cho Việt Nam lọt vào danh sách 10 địa điểm tốt nhất để sống ở nước ngoài do tạp chí du lịch Live and Invest Overseas (LIO) bình chọn.",
+    "events": 84,
+    "first_eot": {
+      "step": 17,
+      "source_fraction": 0.2063953488372093,
+      "raw_prefix": "Trong những năm gần đây, Đà Nẵng tích cực đầu tư xây dựng cơ sở hạ tầng"
+    },
+    "final_prediction": {
+      "language": "vi",
+      "prediction": "EOT",
+      "prob_EOT": 0.9546194527310927,
+      "threshold": 0.235,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 4,
+    "language": "en",
+    "source_url": "https://en.wikipedia.org/?curid=17867",
+    "title": "London",
+    "text": "London is the capital and largest city of England and the United Kingdom, with a population of 9.14 million people in 2025. Its wider metropolitan area is the largest in Western Europe, with a population of 15.4 million. London stands on the River Thames in southeast England, at the head of a 50-mile (80 km) tidal estuary down to the North Sea, and has been a major settlement for nearly 2,000 years. Its ancient core and financial centre, the City of London, was founded by the Romans as Londinium and has retained its medieval boundaries. The City of Westminster, to the west of the City of London, has been the site of the national government and parliament for centuries. London grew rapidly in the 19th century, becoming the world's largest city at the time. Since the 19th century the name \"London\" has referred to the metropolis around the City of London, historically split among the counties of Middlesex, Essex, Surrey, Kent and Hertfordshire. Since 1965 it has largely comprised the administrative area of Greater London, governed by 33 local authorities and the Greater London Authority.",
+    "events": 217,
+    "first_eot": {
+      "step": 6,
+      "source_fraction": 0.03451407811080836,
+      "raw_prefix": "London is the capital and largest city"
+    },
+    "final_prediction": {
+      "language": "en",
+      "prediction": "NEOT",
+      "prob_EOT": 0.09506773080168997,
+      "threshold": 0.36499999999999994,
+      "input_truncated": true,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 5,
+    "language": "en",
+    "source_url": "https://en.wikipedia.org/?curid=17867",
+    "title": "London",
+    "text": "As one of the world's major global cities, London exerts a strong influence on world art, architecture, culture, cinema, entertainment, commerce, finance, education, healthcare, media, science, technology, tourism, transport and communications. London is Europe's largest city economy and one of the world's major financial centres. London is home to several of the world's leading academic institutions and hosts Europe's largest concentration of higher education institutions, comprising over 50 universities and colleges collectively enrolling more than 500,000 students in 2023. It is the most-visited city in Europe and has the world's busiest city airport system. The London Underground is the world's oldest rapid transit system.",
+    "events": 126,
+    "first_eot": {
+      "step": 13,
+      "source_fraction": 0.10190217391304347,
+      "raw_prefix": "As one of the world's major global cities, London exerts a strong influence"
+    },
+    "final_prediction": {
+      "language": "en",
+      "prediction": "EOT",
+      "prob_EOT": 0.8854255386811927,
+      "threshold": 0.36499999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 6,
+    "language": "en",
+    "source_url": "https://en.wikipedia.org/?curid=17867",
+    "title": "London",
+    "text": "London's diverse cultures encompass over 300 languages. The 2025 population of Greater London of just over 9.8 million made it Europe's third-most populous city, accounting for 13.1 per cent of the United Kingdom's population and 15.5 per cent of England's population. The Greater London Built-up Area is the fourth-most populous in Europe, with about 9.8 million inhabitants as of 2011. The London metropolitan area is the third-most-populous in Europe, with about 15 million inhabitants as of 2025, making London a megacity.",
+    "events": 97,
+    "first_eot": {
+      "step": 10,
+      "source_fraction": 0.14258555133079848,
+      "raw_prefix": "London's diverse cultures encompass over 300 languages. The 2025 population"
+    },
+    "final_prediction": {
+      "language": "en",
+      "prediction": "EOT",
+      "prob_EOT": 0.9137698560720194,
+      "threshold": 0.36499999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 7,
+    "language": "en",
+    "source_url": "https://en.wikipedia.org/?curid=17867",
+    "title": "London",
+    "text": "Landmarks include the Tower of London, Westminster Abbey, Buckingham Palace, the London Eye, Piccadilly Circus, St Paul's Cathedral, Tower Bridge and Trafalgar Square. The city has the most museums, art galleries, libraries and cultural venues in the UK, including the British Museum, the National Gallery, the Natural History Museum, Tate Modern, the British Library and numerous West End theatres. Annual sporting events include the FA Cup Final (held at Wembley Stadium), the Wimbledon Tennis Championships and the London Marathon. It became the first city to host three Summer Olympic Games upon hosting the 2012 Summer Olympics after previously hosting in 1908 and 1948.",
+    "events": 123,
+    "first_eot": {
+      "step": 3,
+      "source_fraction": 0.04,
+      "raw_prefix": "Landmarks include the Tower"
+    },
+    "final_prediction": {
+      "language": "en",
+      "prediction": "EOT",
+      "prob_EOT": 0.8640475158476895,
+      "threshold": 0.36499999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 8,
+    "language": "zh",
+    "source_url": "https://zh.wikipedia.org/?curid=235",
+    "title": "上海市",
+    "text": "上海市，简称沪，别称申，是中华人民共和国直轄市，因吴淞江下游原有支流上海浦得名。“沪”，源于晋朝时期当地捕鱼工具“扈”，江流入海处称“渎”，吴淞江下游一带遂称“扈渎”，后改为“沪”。又因属春秋战国时期楚国春申君黄歇的封邑，别名“申”。上海是中國的经济、金融、贸易、航运、商業、上游製造和對外開放中心，也是一座港口城市，是中國人口第二多的城市，是中國最發達的城市之一，也是一座全球城市。上海位於中国东部海岸线的中心，长江三角洲最东部，东临东海，南濒杭州湾，西接江苏、浙江两省，北端的崇明岛处于长江入海口中，与周围的江苏、浙江、安徽三省多个城市共同构成了长江三角洲城市群。",
+    "events": 284,
+    "first_eot": {
+      "step": 49,
+      "source_fraction": 0.176056338028169,
+      "raw_prefix": "上海市，简称沪，别称申，是中华人民共和国直轄市，因吴淞江下游原有支流上海浦得名。“沪”，源于晋朝时期"
+    },
+    "final_prediction": {
+      "language": "zh",
+      "prediction": "NEOT",
+      "prob_EOT": 0.16540220790363044,
+      "threshold": 0.42999999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 9,
+    "language": "zh",
+    "source_url": "https://zh.wikipedia.org/?curid=235",
+    "title": "上海市",
+    "text": "早在新石器時代，上海地區已經有先民聚居。春秋時代，上海属吳國，戰國時代則属楚國。晋代，上海的人口聚集起來，初步发展为區域性渔港、盐产地和商贸集镇。唐代到元代，上海所属地区归华亭县、松江府管辖。1292年上海縣始建縣。明清两朝時的上海有棉纺织业。1843年，《南京条约》签订，正式开埠，上海作为指定的五大通商口岸之一，设立租界。此时的上海還是苏松太道的驻地。上海开埠後不少江蘇、浙江、廣東、安徽、山東等省份及外国移民前往上海，上海开始吸收江南地区附近传统的吴越文化与各地移民带入的多样文化，融合開埠後的西方近现代文化，逐渐形成了上海当地的海派文化。",
+    "events": 267,
+    "first_eot": {
+      "step": 47,
+      "source_fraction": 0.17582417582417584,
+      "raw_prefix": "早在新石器時代，上海地區已經有先民聚居。春秋時代，上海属吳國，戰國時代則属楚國。晋代，上海的人口"
+    },
+    "final_prediction": {
+      "language": "zh",
+      "prediction": "EOT",
+      "prob_EOT": 0.9379102675836312,
+      "threshold": 0.42999999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 10,
+    "language": "zh",
+    "source_url": "https://zh.wikipedia.org/?curid=235",
+    "title": "上海市",
+    "text": "自20世纪以来，上海已成为中国最重要的经济中心及亚洲最大的城市之一，常被稱為中國的紐約。中華人民共和國成立后，当中央政府实施计划经济，主要发展内陆时，上海曾大量支援中国大陆其他地区的发展。1990年，浦东开发开放，上海经济迅猛发展；2005年设立国家综合配套改革试验区，2013年批准成立上海自贸区。上海入选GaWC的Alpha+世界级城市，2020年全球排名位列第5名。上海港是世界规模最大的集装箱港口，上海地铁是世界上运营里程最长的城市轨道交通系统。上海证券交易所作为中国大陆三所证券交易所之一，市值排名世界第三位。2025年上海GDP达5.67万亿元人民币，全球排名位居世界第十，前三名为东京、纽约和洛杉矶。",
+    "events": 281,
+    "first_eot": {
+      "step": 52,
+      "source_fraction": 0.1758957654723127,
+      "raw_prefix": "自20世纪以来，上海已成为中国最重要的经济中心及亚洲最大的城市之一，常被稱為中國的紐約。中華人民共和國成立后"
+    },
+    "final_prediction": {
+      "language": "zh",
+      "prediction": "NEOT",
+      "prob_EOT": 0.015630952994171166,
+      "threshold": 0.42999999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  },
+  {
+    "paragraph_id": 11,
+    "language": "zh",
+    "source_url": "https://zh.wikipedia.org/?curid=235",
+    "title": "上海市",
+    "text": "上海拥有豫园、上海城隍廟、南京路、外滩、陆家嘴摩天大楼天际线等景点。上海被《米其林旅游指南》评为最高级的“三星级旅游推荐”目的地。上海是国家历史文化名城，文化底蕴深厚，境內有3435处不可移动文物。自1989年以来，上海先后五次公布优秀历史建筑名单，共计1058处。",
+    "events": 124,
+    "first_eot": {
+      "step": 32,
+      "source_fraction": 0.24812030075187969,
+      "raw_prefix": "上海拥有豫园、上海城隍廟、南京路、外滩、陆家嘴摩天大楼天际线等景点"
+    },
+    "final_prediction": {
+      "language": "zh",
+      "prediction": "EOT",
+      "prob_EOT": 0.703566502334369,
+      "threshold": 0.42999999999999994,
+      "input_truncated": false,
+      "quality_status": "TRILINGUAL_PILOT_TARGET_NOT_MET",
+      "smoke_only": false
+    },
+    "scope": "First EOT in prose is not a validated speech cut-off"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "receipts": {
+    "remote": "/content/turn_detect_v2/jobs/trial_gold_20261024_093324/receipts.zip",
+    "size": 4673362,
+    "sha256": "9cf681fd03841e0bbe45561c82bc9f3d89cf5a4ff17e45bc5453d3c0419f8f05",
+    "name": "receipts.zip"
+  },
+  "onnx": [
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/config.json",
+      "size": 1043,
+      "sha256": "9109a6b252d32419b0550135493f1f2f5b48abb06923c0e383e42a847ca8dc44",
+      "name": "config.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/model.onnx",
+      "size": 1116285156,
+      "sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+      "name": "model.onnx"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/parity_report.json",
+      "size": 275,
+      "sha256": "311dd5d909c4dd8735610644d4415acada90f8298f6b73cb275fa3626c7ba89e",
+      "name": "parity_report.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/tokenizer.json",
+      "size": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+      "name": "tokenizer.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/tokenizer_config.json",
+      "size": 2927,
+      "sha256": "6dcb0f62f3f314f1d3ca35960fb0cac0f229c2d9372a058871019ad6c351e08f",
+      "name": "tokenizer_config.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/onnx/turn_detector_config.json",
+      "size": 1072,
+      "sha256": "33da8efd0b71d94b75be02d4eb2ef0feeeb54b400d074d671d2494f55c82683a",
+      "name": "turn_detector_config.json"
+    }
+  ],
+  "best": [
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/config.json",
+      "size": 1043,
+      "sha256": "9109a6b252d32419b0550135493f1f2f5b48abb06923c0e383e42a847ca8dc44",
+      "name": "config.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/model.safetensors",
+      "size": 1115268200,
+      "sha256": "9f7111d36c07e64c24755a1abddb130efd4b75180964fe93c4c55d3d771a15d8",
+      "name": "model.safetensors"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/tokenizer.json",
+      "size": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+      "name": "tokenizer.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/tokenizer_config.json",
+      "size": 2928,
+      "sha256": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687",
+      "name": "tokenizer_config.json"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/training_args.bin",
+      "size": 5201,
+      "sha256": "01616996169df518aa3261b39b759892648577e228e1210467b2955d716aa74b",
+      "name": "training_args.bin"
+    },
+    {
+      "remote": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best/turn_detector_config.json",
+      "size": 1072,
+      "sha256": "33da8efd0b71d94b75be02d4eb2ef0feeeb54b400d074d671d2494f55c82683a",
+      "name": "turn_detector_config.json"
+    }
+  ],
+  "local_model_dir": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_trial_20261024\\onnx",
+  "local_pytorch_dir": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_trial_20261024\\best"
+}

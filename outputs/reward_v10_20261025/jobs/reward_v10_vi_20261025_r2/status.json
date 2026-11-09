@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-25T05:28:27.363259+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.reward_v10_train",
+    "--language",
+    "vi"
+  ],
+  "timeout_seconds": 2400,
+  "pid": 3723,
+  "elapsed_seconds": 40.006545066833496,
+  "heartbeat_unix": 1792906142.3691921,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-25T05:29:07.369807+00:00"
+}

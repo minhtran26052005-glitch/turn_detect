@@ -1,0 +1,80 @@
+{
+  "checked_utc": "2026-11-03T07:48:41.271917+00:00",
+  "owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 10402,
+    "start_ticks": "245097"
+  },
+  "cmdline_and_ticks_verified": true,
+  "single_worker_verified": true,
+  "drive_identity_verified": true,
+  "stage": "GENERATING",
+  "state": {
+    "attempts": {
+      "en": 0,
+      "vi": 29428,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1458,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 171445,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "fdafc1e6bb2bc6f242aaf7e2c8ec2d40c5e40498d932abbb1433e88e4724e3b7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 22703,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    }
+  },
+  "new_generation_verification": "resume_generation_verification_eb59f31a.json",
+  "new_generation_verified": true,
+  "baseline_commit": 1011,
+  "baseline_vi_accepted": 4679,
+  "latest_readback_verified_shards": [
+    {
+      "index": 1200,
+      "language": "vi",
+      "accepted": 8,
+      "rejected": 12,
+      "rejection_reasons": {
+        "ValueError('digit_numeral_not_spoken_word')": 2,
+        "ValueError('expected_two_to_eight_sentences')": 6,
+        "ValueError('expected_four_spoken_turns')": 4
+      },
+      "object_sha256": "b6068cacd79a2e419ac0df6b5cb1da356cd26ff1bb9f9bcc71b27c45e53eccdc",
+      "commit_sha256": "01caa2e07ed972c111a152a4dc6e5a016294b775d3257127fae6193e22440605",
+      "readback_verified": true
+    }
+  ],
+  "gpu": "23034, 2614, 98, NVIDIA L4",
+  "colab_free_gib": 220.21,
+  "windows_free_gib": 22.231143951416016,
+  "error_file_present": false,
+  "main_ssh_last_check_receipt": "../multilingual_stream_test_20261103_v1/post_test_remote_verification.json",
+  "no_kernel_create_reset_interrupt": true,
+  "transport_repair_verified": "reconnect_transport_verification.json",
+  "process_verified_utc": "2026-11-03T04:10:15.232680+00:00",
+  "colab_disk_verified_utc": "2026-11-03T04:10:15.232680+00:00",
+  "generation_resumed_reported_previously": true,
+  "remote_status_utc": "2026-11-03T07:39:35.920312+00:00",
+  "latest_shard_readback_this_turn": false,
+  "current_training_campaign": "multilingual_malbert_pretrained_20261103_v1"
+}

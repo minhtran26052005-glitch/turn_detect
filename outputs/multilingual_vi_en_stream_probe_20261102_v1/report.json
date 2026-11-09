@@ -1,0 +1,129 @@
+{
+  "complete": true,
+  "checkpoint": {
+    "step": 473700,
+    "source_checkpoint_sha256": "6fe719b59c0b376c01593b32d1dcddab8c5c6073f291f4b770c743239ba175a8",
+    "weights_sha256": "1e8418591241d4284849fbdeb595a76a7a950de175af3a3610dcf466c7e2d9c7",
+    "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+    "optimizer_rng_cursors_preserved": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+    "one_model_no_language_selector": true,
+    "train_continues": true
+  },
+  "threshold_from_same_checkpoint_dev": 0.38,
+  "pairs": 20,
+  "source_paragraphs_transferred": 200,
+  "evaluated_paragraphs": 40,
+  "metrics_on_matched_fullstop_comma_anchors": {
+    "monolingual": {
+      "1": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7796610169491526,
+          "eot_f1": 0.7936507936507936,
+          "tp": 25,
+          "tn": 21,
+          "fp": 6,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.890625,
+          "eot_f1": 0.9333333333333333,
+          "tp": 49,
+          "tn": 8,
+          "fp": 6,
+          "fn": 1
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7627118644067796,
+          "eot_f1": 0.78125,
+          "tp": 25,
+          "tn": 20,
+          "fp": 7,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.890625,
+          "eot_f1": 0.9333333333333333,
+          "tp": 49,
+          "tn": 8,
+          "fp": 6,
+          "fn": 1
+        }
+      }
+    },
+    "mixed_matched": {
+      "1": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7796610169491526,
+          "eot_f1": 0.7936507936507936,
+          "tp": 25,
+          "tn": 21,
+          "fp": 6,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.765625,
+          "eot_f1": 0.845360824742268,
+          "tp": 41,
+          "tn": 8,
+          "fp": 6,
+          "fn": 9
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7627118644067796,
+          "eot_f1": 0.78125,
+          "tp": 25,
+          "tn": 20,
+          "fp": 7,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.78125,
+          "eot_f1": 0.8571428571428571,
+          "tp": 42,
+          "tn": 8,
+          "fp": 6,
+          "fn": 8
+        }
+      }
+    }
+  },
+  "language_splice_observations": {
+    "1": {
+      "total": 20,
+      "predicted_eot": 16,
+      "full_stop_reference_total": 15,
+      "full_stop_predicted_eot": 12
+    },
+    "2": {
+      "total": 20,
+      "predicted_eot": 19,
+      "full_stop_reference_total": 15,
+      "full_stop_predicted_eot": 14
+    }
+  },
+  "inferences": 7088,
+  "predictions_sha256": "484a246c6f2824362c18775cc33ad33a4571b3be145a1efd71fe9ae30540ab25",
+  "cases_sha256": "7c06d2d7e31cb1ebbba34e3feb45b2e7aeba9c3b2988995cb925fca2a512a125",
+  "scope": "Synthetic punctuation diagnostic on artificial VI->EN splices; not a language-ID test, translations, or independent conversational gold.",
+  "language_selector_supplied_to_model": false,
+  "gold_resets_supplied_to_model": false,
+  "threshold_selected_on_probe": false,
+  "probe_data_used_for_training": false,
+  "training_interrupted": false,
+  "final_flush_is_model_prediction": false,
+  "completed_utc": "2026-11-02T03:28:39.556028+00:00"
+}

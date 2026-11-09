@@ -1,0 +1,14 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "runs": [
+    "distill_gru_h128_e64_l1_stage2_20261024"
+  ],
+  "status": "COLLECTED_SHA256_VERIFIED",
+  "bytes": 2782461,
+  "sha256": "85bf9b0daa63c7e4350a4b7ef186c225bfaf7b4717009b8eb57d3b319d7dd28f"
+}

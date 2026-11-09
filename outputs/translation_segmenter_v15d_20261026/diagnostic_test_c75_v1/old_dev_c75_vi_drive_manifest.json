@@ -1,0 +1,73 @@
+{
+  "at_utc": "2026-10-27T07:20:12.480745+00:00",
+  "complete": true,
+  "destination_identity": {
+    "campaign": "translation_segmenter_v15d",
+    "nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+    "destination_kind": "user_mounted_google_drive",
+    "intended_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+  },
+  "files": {
+    "dev.jsonl": {
+      "sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+      "bytes": 4705909,
+      "object": "objects/be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e.bin",
+      "readback_verified": true
+    },
+    "old_qat_predictions.npz": {
+      "sha256": "a315c9bc2badbffbacaf4380e8eb0805c4847e71d74cf4b790d2bae718da9dea",
+      "bytes": 162514,
+      "object": "objects/a315c9bc2badbffbacaf4380e8eb0805c4847e71d74cf4b790d2bae718da9dea.bin",
+      "readback_verified": true
+    },
+    "config.json": {
+      "sha256": "8b0f9727d017051f4ba79dde4efb1e6b96ce3b813c128f2b9c7d448e49b358af",
+      "bytes": 1115,
+      "object": "objects/8b0f9727d017051f4ba79dde4efb1e6b96ce3b813c128f2b9c7d448e49b358af.bin",
+      "readback_verified": true
+    },
+    "worker.py": {
+      "sha256": "494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9",
+      "bytes": 11255,
+      "object": "objects/494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9.bin",
+      "readback_verified": true
+    },
+    "protocol.json": {
+      "sha256": "f763a9cf7cac0805d0f6bfaf0e67332404a7aa15688911836032f50ad3c25e25",
+      "bytes": 1025,
+      "object": "objects/f763a9cf7cac0805d0f6bfaf0e67332404a7aa15688911836032f50ad3c25e25.bin",
+      "readback_verified": true
+    },
+    "report.json": {
+      "sha256": "168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92",
+      "bytes": 2831,
+      "object": "objects/168f3f507895f64110921406df99002c67117fc6b3d668a3e78f686c57aa9b92.bin",
+      "readback_verified": true
+    },
+    "predictions.npz": {
+      "sha256": "42a91378372af7952dfb428506819e8652bfdde9efb538afb2c225363e1d870e",
+      "bytes": 72665,
+      "object": "objects/42a91378372af7952dfb428506819e8652bfdde9efb538afb2c225363e1d870e.bin",
+      "readback_verified": true
+    },
+    "predictions.jsonl.gz": {
+      "sha256": "af2179c847f04ea480c8e9da2f14b7ff1e0616f29cf000059f7856b03ab55203",
+      "bytes": 858503,
+      "object": "objects/af2179c847f04ea480c8e9da2f14b7ff1e0616f29cf000059f7856b03ab55203.bin",
+      "readback_verified": true
+    },
+    "review_samples.jsonl": {
+      "sha256": "1946961badfee4e14f6ddcfbfe0c48765f615d0fa2ed3616b34087ec668c37d4",
+      "bytes": 9250,
+      "object": "objects/1946961badfee4e14f6ddcfbfe0c48765f615d0fa2ed3616b34087ec668c37d4.bin",
+      "readback_verified": true
+    }
+  },
+  "frozen_model_reference": {
+    "folder": "diagnostic_test_c75_v1",
+    "logical_path": "frozen/vi/model.safetensors",
+    "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+    "cycle": 75
+  },
+  "scope": "OLD_DEV_TRANSFER_DIAGNOSTIC_NO_MODEL_OR_THRESHOLD_SELECTION"
+}

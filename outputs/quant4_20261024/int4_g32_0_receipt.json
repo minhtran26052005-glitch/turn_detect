@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+    "-m",
+    "turn_v2.quantize_student4",
+    "--source",
+    "outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp32",
+    "--output",
+    "outputs\\quant4_20261024\\int4_g32",
+    "--group-size",
+    "32"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.8589999999967404
+}

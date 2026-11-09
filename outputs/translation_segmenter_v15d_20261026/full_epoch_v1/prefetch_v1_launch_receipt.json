@@ -1,0 +1,19 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "pid": 83450,
+    "start_ticks": "2029632",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_cache_handoff_v1"
+    ],
+    "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/cache_handoff_v1/worker.log"
+  }
+}

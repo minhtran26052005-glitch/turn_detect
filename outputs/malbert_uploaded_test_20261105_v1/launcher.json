@@ -1,0 +1,10 @@
+{
+  "module": "turn_v2.malbert_uploaded_test_20261105_v1",
+  "minimum_branch_step": 477300,
+  "source_sha256": "e6d31e13c7aa37ea2a2d3c5cb4516573f632cd4f5c5b3f8d2bd7c130e7803f3a",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "reported": false,
+  "pid": 580864,
+  "start_ticks": "6931813",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.malbert_uploaded_test_20261105_v1 "
+}

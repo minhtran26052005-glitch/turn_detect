@@ -1,0 +1,33 @@
+{
+  "checkpoint_branch_step": 29200,
+  "scope": "ZH legacy punctuation DEV anchors, not all-gap streaming; locked thresholds only, no tuning",
+  "test_used": false,
+  "by_threshold": {
+    "0.53": {
+      "samples": 1000,
+      "tp": 90,
+      "tn": 782,
+      "fp": 43,
+      "fn": 85,
+      "accuracy": 0.872,
+      "eot_f1": 0.5844155844155844,
+      "eot_precision": 0.6766917293233082,
+      "eot_recall": 0.5142857142857142,
+      "false_share_of_cuts": 0.3233082706766917,
+      "false_positive_rate": 0.052121212121212124
+    },
+    "0.75": {
+      "samples": 1000,
+      "tp": 32,
+      "tn": 823,
+      "fp": 2,
+      "fn": 143,
+      "accuracy": 0.855,
+      "eot_f1": 0.3062200956937799,
+      "eot_precision": 0.9411764705882353,
+      "eot_recall": 0.18285714285714286,
+      "false_share_of_cuts": 0.058823529411764705,
+      "false_positive_rate": 0.0024242424242424242
+    }
+  }
+}

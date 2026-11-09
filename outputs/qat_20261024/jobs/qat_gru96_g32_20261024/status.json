@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T15:25:44.073969+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.qat_student",
+    "--student",
+    "runs/distill_gru_h96_e64_l1_20261024",
+    "--output",
+    "runs/qat_gru96_g32_20261024",
+    "--group-size",
+    "32",
+    "--epochs",
+    "8",
+    "--lr",
+    "0.0001",
+    "--batch-size",
+    "256",
+    "--seed",
+    "43"
+  ],
+  "timeout_seconds": 900,
+  "pid": 91786,
+  "elapsed_seconds": 100.01347017288208,
+  "heartbeat_unix": 1792855639.0866907,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T15:27:24.087442+00:00"
+}

@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "passed": 29,
+  "total": 29,
+  "checks": [
+    {
+      "check": "snapshot_exact_bytes",
+      "passed": true
+    },
+    {
+      "check": "snapshot_SHA256",
+      "passed": true
+    },
+    {
+      "check": "ZIP_CRC",
+      "passed": true
+    },
+    {
+      "check": "safe_relative_archive_members",
+      "passed": true
+    },
+    {
+      "check": "SQLite_integrity",
+      "passed": true
+    },
+    {
+      "check": "whole_source_train_dev_isolation",
+      "passed": true
+    },
+    {
+      "check": "no_cycle_limit",
+      "passed": true
+    },
+    {
+      "check": "no_silver_quality_stop",
+      "passed": true
+    },
+    {
+      "check": "archived_executed_source:turn_v2/continuous_v13_r3.py",
+      "passed": true
+    },
+    {
+      "check": "archived_executed_source:turn_v2/continuous_v13_state.py",
+      "passed": true
+    },
+    {
+      "check": "archived_executed_source:turn_v2/continuous_v13_objective.py",
+      "passed": true
+    },
+    {
+      "check": "vi:champion_weights_exact",
+      "passed": true
+    },
+    {
+      "check": "vi:CPU_restore_finite",
+      "passed": true
+    },
+    {
+      "check": "vi:semantic_dev_metrics_recomputed",
+      "passed": true
+    },
+    {
+      "check": "vi:dev_fingerprint_preserved",
+      "passed": true
+    },
+    {
+      "check": "vi:model_optimizer_resume_in_archive",
+      "passed": true
+    },
+    {
+      "check": "en:champion_weights_exact",
+      "passed": true
+    },
+    {
+      "check": "en:CPU_restore_finite",
+      "passed": true
+    },
+    {
+      "check": "en:semantic_dev_metrics_recomputed",
+      "passed": true
+    },
+    {
+      "check": "en:dev_fingerprint_preserved",
+      "passed": true
+    },
+    {
+      "check": "en:model_optimizer_resume_in_archive",
+      "passed": true
+    },
+    {
+      "check": "zh:champion_weights_exact",
+      "passed": true
+    },
+    {
+      "check": "zh:CPU_restore_finite",
+      "passed": true
+    },
+    {
+      "check": "zh:semantic_dev_metrics_recomputed",
+      "passed": true
+    },
+    {
+      "check": "zh:dev_fingerprint_preserved",
+      "passed": true
+    },
+    {
+      "check": "zh:model_optimizer_resume_in_archive",
+      "passed": true
+    },
+    {
+      "check": "three_distinct_model_weights",
+      "passed": true
+    },
+    {
+      "check": "old45_notebook_cells_preserved",
+      "passed": true
+    },
+    {
+      "check": "notebook_executed_on_Colab",
+      "passed": true
+    }
+  ],
+  "snapshot_cycle": 3,
+  "quality_target_certified": false,
+  "scope": "Technical recovery and metric recomputation; not an independent quality certificate"
+}

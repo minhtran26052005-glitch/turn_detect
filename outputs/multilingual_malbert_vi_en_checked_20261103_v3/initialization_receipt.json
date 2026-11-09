@@ -1,0 +1,8 @@
+{
+  "mode": "INHERITED_FULL_RESUME_CHECKPOINT",
+  "parent_checkpoint_sha256": "224fc89d971e6febcb0a62d075a72ef543d5bd2866c3c9c821311e09edf8c487",
+  "model_optimizer_rng_inherited": true,
+  "new_base_initialization_used_for_training": false,
+  "parameters": 11941122,
+  "pretrained_source_revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411"
+}

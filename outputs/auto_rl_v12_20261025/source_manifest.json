@@ -1,0 +1,38 @@
+[
+  {
+    "path": "turn_v2\\auto_rl_v11.py",
+    "sha256": "69498a5469a72a592fce7e251cd664d6427462e8c93b2b5afdb56c88ed15a5a1"
+  },
+  {
+    "path": "turn_v2\\auto_rl_v12.py",
+    "sha256": "23b39cfd0de35904cce30062148fcdca032cb9de5f7e097ebe490f3d13ee9769"
+  },
+  {
+    "path": "tools\\auto_rl_v11_colab.py",
+    "sha256": "4d7a87cf9cb6f88a5452cdcde1bf6c658853f8c01664d0f266d6c382cb59cbbf"
+  },
+  {
+    "path": "tools\\finalize_auto_rl.py",
+    "sha256": "b963c01abc4c2b7ac75f675f60c142f4cc5117cf9f88c767952d7f0151b55c3c"
+  },
+  {
+    "path": "tools\\report_auto_rl_notebook.py",
+    "sha256": "57a6b565cba14fd8840d97c65326da396100ada1113f64af4e3f38602dcbb846"
+  },
+  {
+    "path": "tools\\templates\\auto_rl_status_cell.py",
+    "sha256": "fb7972f8cf60d3ff8bdc8aa82a86dbb962bf828015eb680cac4aacf26e44ddcf"
+  },
+  {
+    "path": "tests\\test_auto_rl.py",
+    "sha256": "f9afb34167df28461881c67261d9423c312330b7f63c21cbf4b0eb551bae8ea4"
+  },
+  {
+    "path": "README_AUTO_RL.md",
+    "sha256": "7f971abe5e200478937ee4ef9832266a38a10a8ef921d635d0cf98752e627f0f"
+  },
+  {
+    "path": "a.ipynb",
+    "sha256": "9f2630fad3e92794617eb8ee81873a00bcb05fb8f4060f3d3d968bdf8764c16e"
+  }
+]

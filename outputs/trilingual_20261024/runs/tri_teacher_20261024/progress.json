@@ -1,0 +1,6 @@
+{
+  "stage": "CACHING_TRAIN_KD_TARGETS",
+  "samples": 69632,
+  "total": 71329,
+  "elapsed_seconds": 450.9981931930015
+}

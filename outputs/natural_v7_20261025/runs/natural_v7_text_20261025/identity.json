@@ -1,0 +1,30 @@
+{
+  "source_sha256": "f2004c5c5d2fdbb5f2b16f59e673b3643d716217c82fc63ec4dcc51da5878016",
+  "codec_sha256": "e6b9b317645d53fdd9b67533be5d8df213567b5b263bac813887ccbb314effff",
+  "data_manifest_sha256": "eeca44b87d0f917a702a6debf1582a8fec827832702da9da75bc2b40f311b3b3",
+  "initial_path": "runs/stream_v4_campaign_20261025/round_02/best",
+  "initial_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "candidate_baselines": [
+    {
+      "path": "runs/stream_v4_campaign_20261025/round_02/best",
+      "sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509"
+    },
+    {
+      "path": "runs/natural_v5_train_20261025/round_02/best",
+      "sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66"
+    }
+  ],
+  "input": "Only current/past-partner normalized text, latest254currenttokens, latestcontext to512total",
+  "dev_samples": 3893,
+  "train_samples_with_replay": 105574,
+  "replay": 104142,
+  "rounds_max": 3,
+  "steps_per_round": 300,
+  "microbatch": 8,
+  "accumulation": 3,
+  "language_batch": "Each optimizer step has one microbatch per language",
+  "held_labels_used_as_targets_or_for_selection": false,
+  "held_text_hashes_used_for_replay_dedup": true,
+  "stop": "4 stale evaluations after at least one complete round, strict dev target, or maxrounds",
+  "quality_protocol": "Do not consume limited held cohort if dev stays below target; all prior pilots regression only"
+}

@@ -1,0 +1,28 @@
+{
+  "torch_imported": false,
+  "transformers_imported": false,
+  "demos": [
+    {
+      "text": "h? n?i l? th? ?? v? l? m?t trong nh?ng trung t?m v?n h?a l?n c?a vi?t nam",
+      "prediction": "NEOT",
+      "prob_EOT": 0.01777953026858736,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "t?i mu?n ??t v? ?i",
+      "prediction": "NEOT",
+      "prob_EOT": 0.007850391351418197,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "c?m ?n b?n",
+      "prediction": "NEOT",
+      "prob_EOT": 0.00619447312157849,
+      "threshold": 0.5449999999999999,
+      "smoke_only": false
+    }
+  ],
+  "passed": true
+}

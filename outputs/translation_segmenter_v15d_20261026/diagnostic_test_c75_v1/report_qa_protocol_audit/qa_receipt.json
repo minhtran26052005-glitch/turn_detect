@@ -1,0 +1,7 @@
+{
+  "protocol_mismatch_is_primary_heading": true,
+  "raw_legacy_scores_retained_in_expandable_reference": true,
+  "audit_counts_match_sources": true,
+  "desktop_mobile_no_horizontal_overflow": true,
+  "report_sha256": "085e65e62689f74c87fce3252d913f700f4eee34b682a187afb52d3f289f3470"
+}

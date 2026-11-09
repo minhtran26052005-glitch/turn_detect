@@ -1,0 +1,408 @@
+{
+  "bytes": 1115268200,
+  "sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "parts": [
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_000.bin",
+      "name": "part_000.bin",
+      "bytes": 16777216,
+      "sha256": "7abd0db4b52ce880993f62d50dc5ed79daf145c3479670b2c5d0724def7b8786"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_001.bin",
+      "name": "part_001.bin",
+      "bytes": 16777216,
+      "sha256": "cc57e0eccda182aa5e01b6f74421bb0ad1484ae5951b2363b788672188d96887"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_002.bin",
+      "name": "part_002.bin",
+      "bytes": 16777216,
+      "sha256": "700fcf4e9ac8ffcf015ae19da2c40c05beee053e7bb36c03701bdf338299c4ed"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_003.bin",
+      "name": "part_003.bin",
+      "bytes": 16777216,
+      "sha256": "82031948b766ec0bd01aa7a87607e73c592cb827efc9668aeeda9cdeeaab2838"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_004.bin",
+      "name": "part_004.bin",
+      "bytes": 16777216,
+      "sha256": "c7623fefe54271440b17de4d35d855b6799002bdc388bbdb70b1d503397d270d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_005.bin",
+      "name": "part_005.bin",
+      "bytes": 16777216,
+      "sha256": "c35eb29ba60df973b3b1c6db4cb17b9365f786fce74d40b6984bc1ad00c45727"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_006.bin",
+      "name": "part_006.bin",
+      "bytes": 16777216,
+      "sha256": "656b05f2b2c533f294c499a86673ba4ed5be8165c1b5fbbec1118241aa03cd98"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_007.bin",
+      "name": "part_007.bin",
+      "bytes": 16777216,
+      "sha256": "6ac7f0b5bbe75f70be2ba889c18b208bb141dda9365df8fee58d7abca286c6fc"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_008.bin",
+      "name": "part_008.bin",
+      "bytes": 16777216,
+      "sha256": "07ace2ef6954d0740787c5d1324d862ade38b4a21a1e5be63f1d8fe54fe76766"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_009.bin",
+      "name": "part_009.bin",
+      "bytes": 16777216,
+      "sha256": "0281e4a1728eec1dd9662028f6ddbd1e56e32840337534d31d567a20ae28974a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_010.bin",
+      "name": "part_010.bin",
+      "bytes": 16777216,
+      "sha256": "ec97f6f987d41a550ad2bbc76b224a322abbb0f2a779d415a2a04e2a2c25882d"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_011.bin",
+      "name": "part_011.bin",
+      "bytes": 16777216,
+      "sha256": "14895edfc496d7ef34a2054aac33c7f19f41de3bfe1c3a645b96e37d3802bdbe"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_012.bin",
+      "name": "part_012.bin",
+      "bytes": 16777216,
+      "sha256": "f844e8a637653c777dc0d1b8083e11bd4ab423c69dae7ab8a91c34a07226b0c9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_013.bin",
+      "name": "part_013.bin",
+      "bytes": 16777216,
+      "sha256": "bccd8b96a550812e8fc50a170bcf9cdb1788661413719dc98b86f2a3fe31703f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_014.bin",
+      "name": "part_014.bin",
+      "bytes": 16777216,
+      "sha256": "59c27dbf770954b18f8b9498679910e333b702fabfb25b1f54da8b4c48a375e9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_015.bin",
+      "name": "part_015.bin",
+      "bytes": 16777216,
+      "sha256": "48e1499cf0480f5a58e53e0c815dcecd1c3a1a74b10a5b9866fe50b6ff41328e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_016.bin",
+      "name": "part_016.bin",
+      "bytes": 16777216,
+      "sha256": "09cd4d48c9ea9ed3af6ac36dad9ffebbed8eab9e37baad8775a113c9e6348a37"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_017.bin",
+      "name": "part_017.bin",
+      "bytes": 16777216,
+      "sha256": "9ee174e1090192444879a5102a319a81542c60b552d84268b691c2dced6154e9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_018.bin",
+      "name": "part_018.bin",
+      "bytes": 16777216,
+      "sha256": "de1e12121eeb072ccb618e91404ee8c442738a58cabbfbd95c05e8dcd2d0816e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_019.bin",
+      "name": "part_019.bin",
+      "bytes": 16777216,
+      "sha256": "d3ed3b0df6adb85b1048a022e5d9c2cdba02c3df1b979f24cadf32c424d69647"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_020.bin",
+      "name": "part_020.bin",
+      "bytes": 16777216,
+      "sha256": "9ea7ffe83745256e698486ec709a31de88129079355155607586208d809f7abb"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_021.bin",
+      "name": "part_021.bin",
+      "bytes": 16777216,
+      "sha256": "694f035e2b4c90d5be02d5f603cc996f0ec6d4bc41f609a90411fd05ed7c439c"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_022.bin",
+      "name": "part_022.bin",
+      "bytes": 16777216,
+      "sha256": "118f47f7d96f2d9d77296ae311c0af47e42a72be54265c19b585c7b2cd68ee5a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_023.bin",
+      "name": "part_023.bin",
+      "bytes": 16777216,
+      "sha256": "e6100bca9e4f4805950faed3ff352cfc96a9f004abe9b3ff2a91759539330608"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_024.bin",
+      "name": "part_024.bin",
+      "bytes": 16777216,
+      "sha256": "47e66c6bb5c967239edd70aace48dcbca9803e09b770bb96c0db3c98eb7f2396"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_025.bin",
+      "name": "part_025.bin",
+      "bytes": 16777216,
+      "sha256": "01db58e6ef865267bd013d08766c2c8045f0aa5e9c075df6eda9c8323fe9fd05"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_026.bin",
+      "name": "part_026.bin",
+      "bytes": 16777216,
+      "sha256": "d2134dae0e468485050b47bfe0d7df60d6c5432a92ac302aa8ceed7e69e32453"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_027.bin",
+      "name": "part_027.bin",
+      "bytes": 16777216,
+      "sha256": "84bd3c3bdc313385a4a90b0c6ec807cd13698bc6fa92814ed92a0ebc85811606"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_028.bin",
+      "name": "part_028.bin",
+      "bytes": 16777216,
+      "sha256": "1b0e80449b542d726551e1db864ce4beb396abb5497cf66439b1aee604205f62"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_029.bin",
+      "name": "part_029.bin",
+      "bytes": 16777216,
+      "sha256": "9d60a6b69cfb8f11f1796614daa649abf53d8539545557c004a1639d9dc806b2"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_030.bin",
+      "name": "part_030.bin",
+      "bytes": 16777216,
+      "sha256": "d194c499133f22157090ca8345864990cfdc64e35ac3a46381515097922fa829"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_031.bin",
+      "name": "part_031.bin",
+      "bytes": 16777216,
+      "sha256": "12d6b315542aea1ca452135141ad22491c6be299ddab227cb87617ea375984db"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_032.bin",
+      "name": "part_032.bin",
+      "bytes": 16777216,
+      "sha256": "b238e2946504d99960b7bebe2396397c802a77426ce769a7a8bfc63df61cde02"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_033.bin",
+      "name": "part_033.bin",
+      "bytes": 16777216,
+      "sha256": "23e5c3a6a96e0ad2eabd933f5dbc44e406eb8b243b8ec1b8180ae9da8224c078"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_034.bin",
+      "name": "part_034.bin",
+      "bytes": 16777216,
+      "sha256": "addf486721178ac5df788a3e7c96e3184caa997adc9a61354798b8447fc26f83"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_035.bin",
+      "name": "part_035.bin",
+      "bytes": 16777216,
+      "sha256": "2f72eb36caa7cfed374d4747bbc3483f0876d72cbb605fc5a33b78452bc42c88"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_036.bin",
+      "name": "part_036.bin",
+      "bytes": 16777216,
+      "sha256": "20b26efcfe93300798ce21d919fefd6668a45d44090f9d5f79cdb92e21fd8118"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_037.bin",
+      "name": "part_037.bin",
+      "bytes": 16777216,
+      "sha256": "d8b13470ea93fa8f0dfad252e18cdf97aa0fc2ec32581531c8065bdf58b6b01f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_038.bin",
+      "name": "part_038.bin",
+      "bytes": 16777216,
+      "sha256": "eb9494c3ef0a81c3d5a6d2d66614a59066daca43a98de4d48d3b560e6c058ffc"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_039.bin",
+      "name": "part_039.bin",
+      "bytes": 16777216,
+      "sha256": "8406678ddb391ef1d49e6071dd8d1931a4860007f3f8da47aab83c0dfdf6e3b4"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_040.bin",
+      "name": "part_040.bin",
+      "bytes": 16777216,
+      "sha256": "ad4e68d6241da5fc0a4c15650db00bb47f49440c4d3de11669bf456b4dcacbdf"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_041.bin",
+      "name": "part_041.bin",
+      "bytes": 16777216,
+      "sha256": "8e142b5f482b57eae33181b5c1821e13c4b7071772aa30040358dd35c91b4763"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_042.bin",
+      "name": "part_042.bin",
+      "bytes": 16777216,
+      "sha256": "14702483c86f6b486c3d4e4a43bf25798cbf42812212cdc140398025729e26a7"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_043.bin",
+      "name": "part_043.bin",
+      "bytes": 16777216,
+      "sha256": "120c568632832f5d15f54bf7e0d0fdc3eba7aa462d3ea8cb2ece747c6160ab76"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_044.bin",
+      "name": "part_044.bin",
+      "bytes": 16777216,
+      "sha256": "65e2261880f6809a8bb2fdecc107f7cdb163b569becaf520d1d345386db07b0f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_045.bin",
+      "name": "part_045.bin",
+      "bytes": 16777216,
+      "sha256": "3531d1b106e7f3f87c1316235cad72260fc3aeea09d06c8dcd449a37dd1978b0"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_046.bin",
+      "name": "part_046.bin",
+      "bytes": 16777216,
+      "sha256": "24af329347f4e5d928d9f814d8d0f4a1f067bfc27f55206f10714df6901f817a"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_047.bin",
+      "name": "part_047.bin",
+      "bytes": 16777216,
+      "sha256": "fd031aaa77931c052a3932fb41a3449a538074b5d62208ed44f26f73b39d38b7"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_048.bin",
+      "name": "part_048.bin",
+      "bytes": 16777216,
+      "sha256": "d3755656e3ba452a0d3fc637cba2bbb396a9f2aa52ecbd40751c6b143a3b805f"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_049.bin",
+      "name": "part_049.bin",
+      "bytes": 16777216,
+      "sha256": "841ea1d0d659aac412a8bc205420f6c27459f8d2ace81fae6599220b47d2ebce"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_050.bin",
+      "name": "part_050.bin",
+      "bytes": 16777216,
+      "sha256": "4f9d6e9574b13ff9c8e902d9915691e6b6a4ac921b7fb69275b1285be439f104"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_051.bin",
+      "name": "part_051.bin",
+      "bytes": 16777216,
+      "sha256": "0f084c2b925e1579b5454bbdc88ea7df5eeee422cf5cf931111e45fb7e797303"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_052.bin",
+      "name": "part_052.bin",
+      "bytes": 16777216,
+      "sha256": "7d15a7cd262a5f43e8b456644ad7555cbf8b7192a54f85f75e9ed8a9c20c3e24"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_053.bin",
+      "name": "part_053.bin",
+      "bytes": 16777216,
+      "sha256": "f4c39a390d1a6739d3d82f56b4dec47fe4a2978dcaa169407d5df508e5df9dd9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_054.bin",
+      "name": "part_054.bin",
+      "bytes": 16777216,
+      "sha256": "1c00f5bd785bd7dc9b5db4c2345307cded165d3fc281c9affacbbf2690934cac"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_055.bin",
+      "name": "part_055.bin",
+      "bytes": 16777216,
+      "sha256": "0030fcf2d04ca5c65427792018398f92703320d5a05f30c4333ca75f5c148872"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_056.bin",
+      "name": "part_056.bin",
+      "bytes": 16777216,
+      "sha256": "50f75301fca95235ae81b987e108c830556cc8ba03994f2358e1169a8b813ea9"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_057.bin",
+      "name": "part_057.bin",
+      "bytes": 16777216,
+      "sha256": "7ab31d8d51cd9d485b19249f41394e3714b7893b39a3d0d562bc7b1f98dae061"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_058.bin",
+      "name": "part_058.bin",
+      "bytes": 16777216,
+      "sha256": "5dfd8bba9b85199cbb28391fc92406bdbbbf6a26db1082229afabe2e7a402656"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_059.bin",
+      "name": "part_059.bin",
+      "bytes": 16777216,
+      "sha256": "1d0592be4aca4545e4814b8037ad7a56fa9ae081bce0e950de0a60a030c558d2"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_060.bin",
+      "name": "part_060.bin",
+      "bytes": 16777216,
+      "sha256": "43d137fb23dad96be9175679b350e7e912fc70624e47114d08a800f3e32ef852"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_061.bin",
+      "name": "part_061.bin",
+      "bytes": 16777216,
+      "sha256": "c404371e096b0c68089543ac87dfa6140bebff6bced04e15d5743320e27e7c9e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_062.bin",
+      "name": "part_062.bin",
+      "bytes": 16777216,
+      "sha256": "3f28ceb8e8cb940260f260a5ff03103cd7e126d1a46600ad33ef6b99255b523e"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_063.bin",
+      "name": "part_063.bin",
+      "bytes": 16777216,
+      "sha256": "17c43d3a3c5baea698b49834f1df6153f244e5cd27e60a96ae5e04fa604211cd"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_064.bin",
+      "name": "part_064.bin",
+      "bytes": 16777216,
+      "sha256": "fc2d04606aed1faca41a69ca43ab694c26d92b66e652b5b4436b877ddc67a160"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_065.bin",
+      "name": "part_065.bin",
+      "bytes": 16777216,
+      "sha256": "8f2106ca764120d0d06b1d1f81bf37f26ab3ff5813bab26f328e8b0a067245d5"
+    },
+    {
+      "path": "content/turn_detect_v2/outputs/trilingual_20261024/teacher_transfer_parts/part_066.bin",
+      "name": "part_066.bin",
+      "bytes": 7971944,
+      "sha256": "5cc920a1ce8d2481cd51b370d30fdc6419d68f7196c5e612eed8f487123188f6"
+    }
+  ]
+}

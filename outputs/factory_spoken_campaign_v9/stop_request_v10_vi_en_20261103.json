@@ -1,0 +1,44 @@
+{
+  "stop_requested": true,
+  "old_owner_verified": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 10402,
+    "start_ticks": "245097"
+  },
+  "before": {
+    "attempts": {
+      "en": 0,
+      "vi": 29808,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1477,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6812,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 173583,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "28030b1de42bbdb8cfcbaba1a5518ae9f680694741ff429d9b0ebf5c86176207",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 22996,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6812,
+      "zh": 0
+    }
+  },
+  "reason": "Explicit user removes Chinese from all active generation/training"
+}

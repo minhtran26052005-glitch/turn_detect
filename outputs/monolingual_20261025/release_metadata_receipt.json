@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "weights_and_thresholds_unchanged": true,
+  "parent_validation_sha256": "cdc4060012c433c1f0f986a54a2950507fa7d1086e4ac5bbad34f9698bf41272",
+  "source_sha256": "c54998febf87c889c59c94f059407669e1ba5bbf6cafae16245ad12b1e18813a",
+  "archives": [
+    {
+      "language": "en",
+      "zip": "models\\turn_monolingual_en_20261025.zip",
+      "zip_bytes": 848928,
+      "zip_sha256": "65b466059c3b29e5045af94b97b1b334b02187f89561c5c2199ecaca511c9c5a",
+      "model_bytes": 712969,
+      "package_bytes": 1857663,
+      "standalone_CLI": "PASS",
+      "quality_status": "FULL_DEV_EVALUATED_TARGET_UNMET_RESEARCH_ONLY"
+    },
+    {
+      "language": "zh",
+      "zip": "models\\turn_monolingual_zh_20261025.zip",
+      "zip_bytes": 634322,
+      "zip_sha256": "68dc59b0b2351ce6b42e1eebbe677aa50c148fd39fc10d3f42a9981133a2b58d",
+      "model_bytes": 548781,
+      "package_bytes": 1383983,
+      "standalone_CLI": "PASS",
+      "quality_status": "FULL_DEV_EVALUATED_TARGET_UNMET_RESEARCH_ONLY"
+    }
+  ],
+  "note": "Export pending label advanced after verified full-dev evaluation; prior artifacts preserved"
+}

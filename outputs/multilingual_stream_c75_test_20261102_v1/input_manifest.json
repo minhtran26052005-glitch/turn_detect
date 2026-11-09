@@ -1,0 +1,29 @@
+{
+  "test_files": {
+    "vi": {
+      "path": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261101_v1/frozen/clean_vi.jsonl.gz",
+      "sha256": "4910685d55727de536ef36e05d105cdb2b744531541d8489583a248c0a31081f",
+      "expected_rows": 39167,
+      "prior_trace_sha256": "6ec7ad5869d5592ebcda574a8cfe1b0878a0f13803fb6818970f17627bd728ed"
+    },
+    "en": {
+      "path": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261101_v1/frozen/clean_en.jsonl.gz",
+      "sha256": "4db6e360826cac7e4ace68b409de4c2edfc14579da89f937d067a832f99bda17",
+      "expected_rows": 28155,
+      "prior_trace_sha256": "11cce57e7ee403c5aff2e67f056a4c889c1735230fb7695ec4ebb70044b64c26"
+    },
+    "zh": {
+      "path": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261101_v1/frozen/clean_zh.jsonl.gz",
+      "sha256": "264f6ef52d74bca04c06345e4922c6675bbb87d633cf5942019e116b39002497",
+      "expected_rows": 51871,
+      "prior_trace_sha256": "49af66734d3685ad1e8d5ddf6d709a6ff7c043c25d3b5b40159f392311c90f37"
+    }
+  },
+  "prior_report_sha256": "4b3cf677d762d2c0577fcd9523768d5b5453b60763c5e4951c7af608e3bac138",
+  "cycle84_fingerprint": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+  "prior_cycle84_audit_reused_not_rescanned": true,
+  "prior_audit_scope": "Exact teacher-token inputs and source IDs/source hashes, 8339693 accepted cycle84 train/dev rows in the verified prior report",
+  "source_sha256": "6f2e4b166c77d9bc24b3b69c7cf5a48c4674092fd6bf56620f15c305a6c449a5",
+  "previous_predictions_are_comparison_only": true,
+  "scope": "Previously exposed C75 fixed-reference-context punctuation diagnostic, not predicted-reset streaming or independent human/audio gold"
+}

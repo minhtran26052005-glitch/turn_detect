@@ -1,0 +1,68 @@
+{
+  "complete": true,
+  "sequence_widths": {
+    "128_32": {
+      "seconds_per_64_row_backward": 0.43833711600139696,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        128,
+        128
+      ],
+      "microbatch": 32,
+      "accumulation": 2,
+      "adamw_step_included": false,
+      "adamw_state_loaded": true,
+      "peak_allocated_VRAM_GiB": 4.931087493896484,
+      "peak_reserved_VRAM_GiB": 5.689453125
+    },
+    "128_64": {
+      "seconds_per_64_row_backward": 0.46329701733460144,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        128
+      ],
+      "microbatch": 64,
+      "accumulation": 1,
+      "adamw_step_included": false,
+      "adamw_state_loaded": true,
+      "peak_allocated_VRAM_GiB": 4.239819049835205,
+      "peak_reserved_VRAM_GiB": 5.162109375
+    },
+    "256_32": {
+      "seconds_per_64_row_backward": 1.2893354656662268,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        256,
+        256
+      ],
+      "microbatch": 32,
+      "accumulation": 2,
+      "adamw_step_included": false,
+      "adamw_state_loaded": true,
+      "peak_allocated_VRAM_GiB": 5.274930953979492,
+      "peak_reserved_VRAM_GiB": 6.224609375
+    },
+    "256_64": {
+      "seconds_per_64_row_backward": 1.3039268489992537,
+      "timed_repeats": 3,
+      "max_sequence_widths": [
+        256
+      ],
+      "microbatch": 64,
+      "accumulation": 1,
+      "adamw_step_included": false,
+      "adamw_state_loaded": true,
+      "peak_allocated_VRAM_GiB": 5.294583797454834,
+      "peak_reserved_VRAM_GiB": 6.701171875
+    }
+  },
+  "shared_model_architecture": "mdeberta-v3-base",
+  "representative_weights_language": "vi",
+  "synthetic_tokens_only": true,
+  "dataset_reads_or_writes": false,
+  "optimizer_steps": 0,
+  "checkpoint_unchanged": true,
+  "test_or_dev_scored": false,
+  "optimizer_and_storage_overhead_not_included": true,
+  "not_a_quality_evaluation": true
+}

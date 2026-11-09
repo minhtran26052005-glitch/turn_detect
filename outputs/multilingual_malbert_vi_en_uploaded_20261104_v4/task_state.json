@@ -1,0 +1,182 @@
+{
+  "phase": "STOPPED_WITH_CHECKPOINT",
+  "process": {
+    "present": false
+  },
+  "checked_utc": "2026-11-05T17:19:12.751850+00:00",
+  "desired_state": "SUPERSEDED_BY_V5",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "drive_data_excluded": true,
+  "parameters": 11941122,
+  "latest_status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T17:19:09.662541+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2350330,
+    "branch_step": 885250,
+    "epoch": 3,
+    "uploaded_rows_seen": 13910026,
+    "uploaded_origin_exposures": {
+      "daily": 7358596,
+      "factory/gen4000": 5228443,
+      "factory/gen500": 576604,
+      "asr/run2b": 746383
+    },
+    "loss": 0.001982957823202014,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "tasks_assigned": 8826,
+    "total_tasks": 34602
+  },
+  "compression_accepted": false,
+  "dataset_manifest_collected_from_remote_snapshot": true,
+  "reported_uploaded_only_cutover": true,
+  "reported_cutover_utc": "2026-11-04T04:25:06.699596+00:00",
+  "last_notified_dev_branch_step": 810000,
+  "first_new_sources_training_verified": true,
+  "independent_causal_training_verification": {
+    "complete": true,
+    "trace_rows_audited": 1593,
+    "every_encoded_input_label_and_predicted_reset_verified": true,
+    "full_checkpoint_load_passed": true,
+    "step": 1466580,
+    "branch_step": 1500,
+    "epoch": 0,
+    "uploaded_rows_seen": 23598,
+    "origin_exposures": {
+      "daily": 14924,
+      "factory/gen4000": 6919,
+      "factory/gen500": 1648,
+      "asr/run2b": 107
+    },
+    "new_asr_and_gen4000_actual_training_verified": true,
+    "optimizer_entries": 27,
+    "parameters": 11941122,
+    "model_weights_changed_after_actual_training": true,
+    "all_model_weights_finite": true,
+    "original_model_optimizer_and_rng_migration_receipt_sha256": "0d3e638d2603d756610407f70e30e2e510eaad7d91b815dadde2ae090d578217",
+    "drive_replay_rows": 0
+  },
+  "all_new_epoch_training_complete": true,
+  "old_drive_generation_desired_state": "DISCARDED_BY_USER",
+  "old_drive_physical_stop_verified": false,
+  "host_boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "hdd_mounted": true,
+  "recovery_process": {
+    "present": false
+  },
+  "last_reported_recovery": {
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "pid": 205061,
+    "verified_branch_step": 40500
+  },
+  "recovery_verified": true,
+  "last_notified_dev_run": "finetune",
+  "last_notified_dev_global_step": 2275080,
+  "last_notified_dev_at_utc": "2026-11-05T14:47:17.416303+00:00",
+  "last_reported_connection_issue": null,
+  "last_notified_dev_report_sha256": "ab9c639c32e1f487fb0e591ef9e3bbdd9fee175c93cbad4b887c2c7e2f16985b",
+  "last_notified_dev_metrics": {
+    "vi": {
+      "samples": 18627,
+      "tp": 93,
+      "tn": 17947,
+      "fp": 94,
+      "fn": 493,
+      "accuracy": 0.968486605465185,
+      "eot_f1": 0.240620957309185,
+      "eot_precision": 0.49732620320855614,
+      "eot_recall": 0.15870307167235495,
+      "false_share_of_cuts": 0.5026737967914439,
+      "false_positive_rate": 0.005210354193226539,
+      "actual_eot": 586
+    },
+    "en": {
+      "samples": 16360,
+      "tp": 314,
+      "tn": 15401,
+      "fp": 263,
+      "fn": 382,
+      "accuracy": 0.9605745721271394,
+      "eot_f1": 0.49332285938727416,
+      "eot_precision": 0.5441941074523396,
+      "eot_recall": 0.4511494252873563,
+      "false_share_of_cuts": 0.4558058925476603,
+      "false_positive_rate": 0.01679009193054137,
+      "actual_eot": 696
+    }
+  },
+  "last_storage_observation": {
+    "checked_utc": "2026-11-05T14:46:20.575240+00:00",
+    "windows_free_gib": 20.71194839477539,
+    "reserve_gib": 10,
+    "ssh_disks_gib": {
+      "ssd": 46.44415283203125,
+      "hdd": 23.014732360839844
+    },
+    "hdd_mounted": true,
+    "mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0"
+  },
+  "active_uploaded_test": {
+    "name": "malbert_uploaded_test_20261105_v1",
+    "phase": "COMPLETE",
+    "reported": true,
+    "module": "turn_v2.malbert_uploaded_test_20261105_v1",
+    "pid": 580864,
+    "start_ticks": "6931813",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "request": "Test current uploaded-only v4 model, original TEST split only",
+    "test_selection": false,
+    "checkpoint_step": 1945080,
+    "report_sha256": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96"
+  },
+  "last_reported_uploaded_test": "malbert_uploaded_test_20261105_v1@1945080",
+  "first_uploaded_epoch_complete": true,
+  "completed_uploaded_epoch_count": 2,
+  "all_uploaded_eligible_gaps_seen_at_least_once": true,
+  "minimum_six_uploaded_epochs_complete": false,
+  "current_uploaded_display_epoch": 3,
+  "old_135m_new_dev_recheck": {
+    "complete": true,
+    "reported": true,
+    "checkpoint": 514235,
+    "parameters": 135326210,
+    "report_sha256": "b97bb82239422bab7d41a7842edbd9c9b50e553b1eae0292e73d47202ff2e6ce",
+    "verification_file": "teacher_new_dev_user_recheck_20261105.json",
+    "checked_utc": "2026-11-05T15:48:17.477789+00:00",
+    "prior_completed_dev_run_reused_verified": true,
+    "test_scored": false
+  },
+  "active_translation_turn_test": {
+    "name": "translation_turn_test_20261105_v1",
+    "phase": "COMPLETE",
+    "reported": true,
+    "pid": 740150,
+    "start_ticks": "12384185",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.translation_turn_test_20261105_v1",
+    "translation_checkpoint": 15640,
+    "turn_detector_checkpoint": 1945080,
+    "template": "B",
+    "scope": "310 VI/EN messages: whole_written,whole_asr,detector_asr; forced final-message flush",
+    "train_unchanged": true,
+    "report_sha256": "e05c84065922f312ee85b221d64c3e1b8ea4cc5bb0b1d2e95160c50fe07b47af"
+  },
+  "last_reported_translation_turn_test": "translation_turn_test_20261105_v1@qwen15640+turn1945080",
+  "superseded_by": "multilingual_malbert_vi_en_conflict_weighted_20261106_v5",
+  "final_global_step": 2355080,
+  "final_branch_step": 890000,
+  "auto_resume": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T20:32:19.808952+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/natural_v6_pho_download.py"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 167725,
+  "elapsed_seconds": 40.004929304122925,
+  "heartbeat_unix": 1792873974.8132594,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T20:32:59.813884+00:00"
+}

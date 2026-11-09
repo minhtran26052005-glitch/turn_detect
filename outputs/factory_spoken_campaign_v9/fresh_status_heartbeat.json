@@ -1,0 +1,242 @@
+{
+  "action": "status",
+  "boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+  "drive_mounted": true,
+  "colab_free_gib": 177.772,
+  "processes": [
+    {
+      "pid": 11713,
+      "start_ticks": "260234",
+      "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v9/factory_spoken_campaign_v9.py "
+    }
+  ],
+  "gpu": "23034, 2038, 98, NVIDIA L4",
+  "dependencies": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.21.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "jieba": "0.42.1"
+  },
+  "identity_verified": true,
+  "spoken_owner.json": {
+    "boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 11713,
+    "start_ticks": "260234"
+  },
+  "spoken_state.json": {
+    "attempts": {
+      "en": 0,
+      "vi": 5668,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 270,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 1341,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 34367,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "d027a69f2c7ebf5f8d9ff85d239150f0b24ff81db6e4a73aac9eeeaba25fe260",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 4327,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 1341,
+      "zh": 0
+    }
+  },
+  "spoken_status.json": {
+    "at_unix": 1793625765.4873908,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 19.81,
+    "last_accepted": 3,
+    "last_reasons": {
+      "ValueError('digit_numeral_not_spoken_word')": 2,
+      "ValueError('expected_four_spoken_turns')": 3,
+      "ValueError('expected_two_to_eight_sentences')": 10,
+      "ValueError('spoken_turn_too_short')": 2
+    },
+    "last_rejected": 17,
+    "pid": 11713,
+    "stage": "BATCH_COMMITTED",
+    "start_ticks": "260234",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 5668,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 270,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 1341,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 34367,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "d027a69f2c7ebf5f8d9ff85d239150f0b24ff81db6e4a73aac9eeeaba25fe260",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 4327,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 1341,
+        "zh": 0
+      }
+    }
+  },
+  "legacy_owner.json": {
+    "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "module": "factory_dialogue_campaign_v8",
+    "pid": 5543,
+    "start_ticks": "119138"
+  },
+  "legacy_state.json": {
+    "attempts": {
+      "en": 7884,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 759,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 7572,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 203861,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "133cd7df580fc345a5d2f0ca134b688d5d501609169073ec2497fa3f9352cf8d",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 312,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 7572,
+      "vi": 10000
+    }
+  },
+  "legacy_status.json": {
+    "at_unix": 1793596259.1789675,
+    "engine_version": 8,
+    "gpu_peak_reserved_gib": 20.18,
+    "last_accepted": 29,
+    "last_reasons": {
+      "ValueError('missing_EOT_or_NEOT')": 3
+    },
+    "last_rejected": 3,
+    "pid": 5543,
+    "stage": "BATCH_COMMITTED",
+    "start_ticks": "119138",
+    "state": {
+      "attempts": {
+        "en": 7884,
+        "vi": 13936
+      },
+      "batch_size": 32,
+      "commit_index": 759,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 7572,
+        "vi": 10000
+      },
+      "example_counts": {
+        "en": 203861,
+        "vi": 245080
+      },
+      "language": "en",
+      "last_commit_sha256": "133cd7df580fc345a5d2f0ca134b688d5d501609169073ec2497fa3f9352cf8d",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 312,
+        "vi": 3936
+      },
+      "schema": 6,
+      "total_counts": {
+        "en": 7572,
+        "vi": 10000
+      }
+    }
+  },
+  "status.json": {
+    "at_unix": 1793625765.503972,
+    "batch": 20,
+    "batch_started_unix": 1793625765.5039647,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 19.81,
+    "language": "vi",
+    "pid": 11713,
+    "stage": "GENERATING",
+    "start_ticks": "260234",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 5668,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 270,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 1341,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 34367,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "d027a69f2c7ebf5f8d9ff85d239150f0b24ff81db6e4a73aac9eeeaba25fe260",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 4327,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 1341,
+        "zh": 0
+      }
+    }
+  },
+  "launcher.json": {
+    "pid": 11713,
+    "start_ticks": "260234",
+    "boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+    "module": "factory_spoken_campaign_v9",
+    "output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9"
+  },
+  "checked_utc": "2026-11-02T13:22:54.874968+00:00"
+}

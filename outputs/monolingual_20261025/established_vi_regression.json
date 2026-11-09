@@ -1,0 +1,32 @@
+{
+  "status": "EXISTING_VI_MODEL_ON_SEEN_NATURAL_REGRESSION",
+  "model_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+  "threshold_fixed_from_original_dev": 0.4699999999999999,
+  "metrics": {
+    "samples": 210,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.32857142857142857,
+    "eot_precision": 0.1342281879194631,
+    "eot_recall": 0.625,
+    "eot_f1": 0.22099447513812154,
+    "joint_score": 0.22099447513812154,
+    "false_eot": 129,
+    "missed_eot": 12,
+    "false_eot_rate": 0.7247191011235955,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        49,
+        129
+      ],
+      [
+        12,
+        20
+      ]
+    ]
+  },
+  "calls": 1,
+  "references": "Automatic observed-floor/VAD; not human semantic gold",
+  "fresh_test": false,
+  "weights_or_threshold_changed": false,
+  "protocol": "Same210 current PhoWhisper text/context as earlier Qwen report; each model uses its own deployment tokenizer/codec; descriptive comparison, not isolated causal proof"
+}

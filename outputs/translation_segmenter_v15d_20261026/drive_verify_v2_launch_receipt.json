@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"pid\": 34648, \"start_ticks\": \"832474\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.drive_recovery_verify_v2\"], \"source_sha256\": \"a917b5cf6ef81851b6526571ea58469e595d82712adc15f02af3b87d3d81e6bf\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.5149999999994179
+}

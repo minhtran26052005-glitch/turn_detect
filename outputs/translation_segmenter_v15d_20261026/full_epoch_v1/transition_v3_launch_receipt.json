@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "turn_v2/translation_segmenter_full_train_v2.py": "f641ecd7fa651ee2f68deb805788cfbda219c773c120f7cb4279a8d0117a0628",
+    "turn_v2/translation_segmenter_full_campaign_v2.py": "fe51e1456c943aed0280bbf6fabd823b3035d98f1cebe0ee459a494c84791747",
+    "turn_v2/translation_segmenter_drive_backup_v3.py": "e41c148e7cde61315a0e31f3dc30d924459e49aabfd449b5481583dbc61d1a57",
+    "turn_v2/restore_full_epoch_campaign_v2.py": "132222cf5f0325392c62f7e35c1191612f844464baf04a9dd4c285649283a85f"
+  },
+  "result": {
+    "connection": {
+      "runtime_label": "Colab GPU L4",
+      "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+      "kernel_name": "python3",
+      "execution_state": "idle"
+    },
+    "terminal_control": true,
+    "remote_exception": false,
+    "output": "{\"campaign\": {\"pid\": 35656, \"start_ticks\": \"857183\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.translation_segmenter_full_campaign_v2\"], \"module\": \"turn_v2.translation_segmenter_full_campaign_v2\", \"source_sha256\": \"fe51e1456c943aed0280bbf6fabd823b3035d98f1cebe0ee459a494c84791747\", \"log\": \"/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/transition_v3/worker.log\", \"max_cycles\": 0}, \"backup\": {\"pid\": 35657, \"start_ticks\": \"857184\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.translation_segmenter_drive_backup_v3\"], \"module\": \"turn_v2.translation_segmenter_drive_backup_v3\", \"source_sha256\": \"e41c148e7cde61315a0e31f3dc30d924459e49aabfd449b5481583dbc61d1a57\", \"drive_path\": \"/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026\", \"log\": \"/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_v3.log\"}}"
+  }
+}

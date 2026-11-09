@@ -1,0 +1,17 @@
+{
+  "stage": "FAILED",
+  "receipts": [
+    {
+      "job": "reward_v10_qwen_20261025",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "reward_v10_vi_20261025",
+      "status": "FAILED",
+      "exit_code": 1
+    }
+  ],
+  "elapsed_seconds": 80.40082244999996,
+  "failed_job": "reward_v10_vi_20261025"
+}

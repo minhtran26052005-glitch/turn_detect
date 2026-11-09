@@ -1,0 +1,421 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\auto_rl_v12_20261025\\round_01\\vi\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\auto_rl_v12_20261025\\round_01\\vi\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\embedding_int8.onnx",
+      "size": 363029864
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\embedding_int8_no_constfold.onnx",
+      "size": 362571553
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\embedding_int8_preprocessed.onnx",
+      "size": 398664764
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\fp32\\model.onnx",
+      "size": 416108770
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\int8_quint8\\model.onnx",
+      "size": 164028517
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\int8_quint8_no_constfold\\model.onnx",
+      "size": 106785546
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\int8_quint8_preprocessed\\model.onnx",
+      "size": 142823938
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\compression_20261024\\work\\weight_only_int8\\model.onnx",
+      "size": 108201936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\student.pt",
+      "size": 2768133
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_fp16\\model.onnx",
+      "size": 703833
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_fp32\\model.onnx",
+      "size": 1390694
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_20261024\\onnx_int8\\model.onnx",
+      "size": 382113
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\student.pt",
+      "size": 2768133
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_fp16\\model.onnx",
+      "size": 703833
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_fp32\\model.onnx",
+      "size": 1390694
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h128_e64_l1_stage2_20261024\\onnx_int8\\model.onnx",
+      "size": 382113
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\student.pt",
+      "size": 7497221
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_fp16\\model.onnx",
+      "size": 2435632
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_fp32\\model.onnx",
+      "size": 4842731
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h256_e96_l2_20261024\\onnx_int8\\model.onnx",
+      "size": 1266213
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\student.pt",
+      "size": 1815045
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_fp16\\model.onnx",
+      "size": 521300
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_fp32\\model.onnx",
+      "size": 1027425
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_20261024\\onnx_int8\\model.onnx",
+      "size": 287700
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\student.pt",
+      "size": 1815045
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp16\\model.onnx",
+      "size": 521300
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp32\\model.onnx",
+      "size": 1027425
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_int8\\model.onnx",
+      "size": 287700
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\student.pt",
+      "size": 2267013
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp16\\model.onnx",
+      "size": 600276
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_fp32\\model.onnx",
+      "size": 1184481
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\onnx_int8\\model.onnx",
+      "size": 328761
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_student_20261025\\distill_best\\student.pt",
+      "size": 6591493
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_student_20261025\\qat_best\\qat_reference_fp32.onnx",
+      "size": 5214059
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_student_20261025\\qat_best\\quant_params.pt",
+      "size": 43600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_student_20261025\\qat_best\\student.pt",
+      "size": 6591676
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_student_20261025\\qat_best\\onnx_int4\\model.onnx",
+      "size": 712969
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_student_20261025\\distill_best\\student.pt",
+      "size": 5355269
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_student_20261025\\qat_best\\qat_reference_fp32.onnx",
+      "size": 3977834
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_student_20261025\\qat_best\\quant_params.pt",
+      "size": 33936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_student_20261025\\qat_best\\student.pt",
+      "size": 5355452
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_student_20261025\\qat_best\\onnx_int4\\model.onnx",
+      "size": 548781
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v6_20261025\\minilm_recovery\\non_embedding_delta.safetensors",
+      "size": 85791240
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v8_20261025\\runs\\natural_v8_lora_20261025_r3\\best_adapter\\adapter_model.safetensors",
+      "size": 66126768
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024\\qat_reference_fp32.onnx",
+      "size": 1184481
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024\\quant_params.pt",
+      "size": 21328
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g32_20261024\\onnx_int4\\model.onnx",
+      "size": 186058
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g64_20261024_r2\\qat_reference_fp32.onnx",
+      "size": 1184481
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g64_20261024_r2\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g64_20261024_r2\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\qat_20261024\\runs\\qat_gru96_g64_20261024_r2\\onnx_int4\\model.onnx",
+      "size": 177124
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\quant4_20261024\\int4_g16\\model.onnx",
+      "size": 204191
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\quant4_20261024\\int4_g32\\model.onnx",
+      "size": 185933
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\quant4_20261024\\int4_g64\\model.onnx",
+      "size": 176999
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\quant4_20261024\\int4_g8\\model.onnx",
+      "size": 240703
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\ce_control\\quant_params.pt",
+      "size": 43600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\ce_control\\student.pt",
+      "size": 6591676
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\cost_ce\\quant_params.pt",
+      "size": 43600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\cost_ce\\student.pt",
+      "size": 6591676
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\data_sft\\quant_params.pt",
+      "size": 43600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\data_sft\\student.pt",
+      "size": 6591676
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\reinforce\\quant_params.pt",
+      "size": 43600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\en\\reinforce\\student.pt",
+      "size": 6591676
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\ce_control\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\ce_control\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\cost_ce\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\cost_ce\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\data_sft\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\data_sft\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\reinforce\\quant_params.pt",
+      "size": 12368
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\vi\\reinforce\\student.pt",
+      "size": 2267196
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\ce_control\\quant_params.pt",
+      "size": 33936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\ce_control\\student.pt",
+      "size": 5355452
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\cost_ce\\quant_params.pt",
+      "size": 33936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\cost_ce\\student.pt",
+      "size": 5355452
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\data_sft\\quant_params.pt",
+      "size": 33936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\data_sft\\student.pt",
+      "size": 5355452
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\reinforce\\quant_params.pt",
+      "size": 33936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\reward_v10_20261025\\zh\\reinforce\\student.pt",
+      "size": 5355452
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\local_recovery_r2\\round_01\\trainable_delta.safetensors",
+      "size": 87429096
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\local_recovery_r2\\round_03\\trainable_delta.safetensors",
+      "size": 87429096
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\partial_stage_before_strict_gpu_check\\onnx\\model.onnx",
+      "size": 728710
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_student_20261024\\distill_best\\student.pt",
+      "size": 6710021
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_student_20261024\\qat_best\\qat_reference_fp32.onnx",
+      "size": 5332586
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_student_20261024\\qat_best\\quant_params.pt",
+      "size": 44496
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_student_20261024\\qat_best\\student.pt",
+      "size": 6710204
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_student_20261024\\qat_best\\onnx_int4\\model.onnx",
+      "size": 728710
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\trilingual_20261024\\runs\\tri_teacher_20261024\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_monolingual_en_20261025\\onnx\\model.onnx",
+      "size": 712969
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_monolingual_zh_20261025\\onnx\\model.onnx",
+      "size": 548781
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_compact_20261024\\onnx\\model.onnx",
+      "size": 108201936
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_distilled_int4_20261024\\onnx\\model.onnx",
+      "size": 185933
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_distilled_min_20261024\\onnx\\model.onnx",
+      "size": 328761
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_distilled_qat4_20261024\\onnx\\model.onnx",
+      "size": 177124
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_trial_20261024\\best\\model.safetensors",
+      "size": 1115268200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v2_trial_20261024\\onnx\\model.onnx",
+      "size": 1116285156
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\models\\turn_v3_trilingual_pilot_20261024\\onnx\\model.onnx",
+      "size": 728710
+    }
+  ],
+  "free_bytes": 12091985920
+}

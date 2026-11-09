@@ -1,0 +1,448 @@
+{
+  "checked_unix": 1793694829.0774467,
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v10",
+    "pid": 113294,
+    "start_ticks": "2625926"
+  },
+  "state": {
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "attempts": {
+      "en": 0,
+      "vi": 30248,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1499,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6912,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 176125,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 23336,
+      "zh": 0
+    },
+    "schema": 10,
+    "total_counts": {
+      "en": 0,
+      "vi": 6912,
+      "zh": 0
+    }
+  },
+  "status": {
+    "at_unix": 1793694810.8881285,
+    "batch": 20,
+    "batch_started_unix": 1793694777.923337,
+    "engine_version": 10,
+    "gpu_peak_reserved_gib": 19.62,
+    "language": "vi",
+    "pid": 113294,
+    "stage": "GENERATING",
+    "start_ticks": "2625926",
+    "state": {
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "attempts": {
+        "en": 0,
+        "vi": 30248,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1499,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 6912,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 176125,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 23336,
+        "zh": 0
+      },
+      "schema": 10,
+      "total_counts": {
+        "en": 0,
+        "vi": 6912,
+        "zh": 0
+      }
+    }
+  },
+  "verified_shards": [
+    {
+      "index": 1499,
+      "engine_version": 10,
+      "language": "vi",
+      "accepted": 6,
+      "rejected": 14,
+      "rejection_reasons": {
+        "ValueError('written_acronym_or_unit')": 1,
+        "ValueError('spoken_turn_too_short')": 2,
+        "ValueError('expected_two_to_eight_sentences')": 5,
+        "ValueError('digit_numeral_not_spoken_word')": 3,
+        "ValueError('expected_four_spoken_turns')": 3
+      },
+      "object_sha256": "c867434d3ba473d479cef7bc0ef7ad83cd76622d68edbe165cced34dd0b4e5d3",
+      "commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+      "readback_verified": true
+    }
+  ],
+  "dialogues": [
+    {
+      "dialogue_id": "vi_spoken_r00001_a000030233",
+      "generation_task": {
+        "attempt": 30233,
+        "batch_units": 500,
+        "cycle": 1,
+        "delivery_profile": "nói rõ ràng, bình thường, không cố chèn ngập ngừng",
+        "equipment": "trạm đo kích thước",
+        "id": "vi_spoken_r00001_a000030233",
+        "industry": "dệt may",
+        "language": "vi",
+        "observed_issues": 14,
+        "prompt": "Ngành dệt may, tại trạm đo kích thước. Chủ đề rà soát biên bản họp và những điểm chưa thống nhất. Vai đại diện khách hàng và giám sát chất lượng. Tình huống chốt việc cần xác minh và người chịu trách nhiệm. Cách nói nói rõ ràng, bình thường, không cố chèn ngập ngừng. Có thể nhắc lô năm trăm sản phẩm và mười bốn trường hợp cần xem lại, không bắt buộc dùng cả hai. Viết đúng dạng lời nói đã chép lại, số và đơn vị thành lời đọc, chỉ tiếng Việt.",
+        "register": "spoken_transcript",
+        "roles": [
+          "đại diện khách hàng",
+          "giám sát chất lượng"
+        ],
+        "seed": 8425099934663021376,
+        "style": "chốt việc cần xác minh và người chịu trách nhiệm",
+        "topic": "rà soát biên bản họp và những điểm chưa thống nhất"
+      },
+      "is_audio_transcription": false,
+      "is_human_gold": false,
+      "language": "vi",
+      "numbers_as_spoken_words": true,
+      "register": "spoken_transcript",
+      "review_state": "UNREVIEWED",
+      "source": "QWEN_SYNTHETIC",
+      "spoken_quality_checks": {
+        "long_alternating_turns": true,
+        "no_digit_numerals": true,
+        "no_written_units_or_acronyms": true,
+        "requires_human_review": true,
+        "spoken_style_is_prompted_not_human_verified": true
+      },
+      "training_eligible": false,
+      "turns": [
+        {
+          "sentences": [
+            {
+              "display": "Các anh kiểm tra lại biên bản họp chiều qua, mấy điểm chưa thống nhất về quy cách cắt vải ở lô năm trăm cái đó chưa rõ.",
+              "normalized": "các anh kiểm tra lại biên bản họp chiều qua mấy điểm chưa thống nhất về quy cách cắt vải ở lô năm trăm cái đó chưa rõ"
+            },
+            {
+              "display": "Tôi thấy hai bên có ý kiến khác nhau về độ giãn của sợi, nên cần xác minh lại.",
+              "normalized": "tôi thấy hai bên có ý kiến khác nhau về độ giãn của sợi nên cần xác minh lại"
+            }
+          ],
+          "speaker": "đại diện khách hàng"
+        },
+        {
+          "sentences": [
+            {
+              "display": "À, đúng, phần đó chưa rõ.",
+              "normalized": "à đúng phần đó chưa rõ"
+            },
+            {
+              "display": "Chúng tôi đang đợi kết quả thử nghiệm từ phòng kỹ thuật.",
+              "normalized": "chúng tôi đang đợi kết quả thử nghiệm từ phòng kỹ thuật"
+            },
+            {
+              "display": "Còn mười bốn trường hợp cần xem lại, phần lớn là về độ phẳng ở cổ tay và vai.",
+              "normalized": "còn mười bốn trường hợp cần xem lại phần lớn là về độ phẳng ở cổ tay và vai"
+            },
+            {
+              "display": "Anh có thể chỉ rõ mấy trường hợp nào?",
+              "normalized": "anh có thể chỉ rõ mấy trường hợp nào"
+            }
+          ],
+          "speaker": "giám sát chất lượng"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Chủ yếu là ba lô ba, ba lô bốn và ba lô năm.",
+              "normalized": "chủ yếu là ba lô ba ba lô bốn và ba lô năm"
+            },
+            {
+              "display": "Có lẽ do máy cắt hơi lệch một chút.",
+              "normalized": "có lẽ do máy cắt hơi lệch một chút"
+            },
+            {
+              "display": "Chúng ta cần kiểm tra lại bộ phận cắt ở dây chuyền số hai.",
+              "normalized": "chúng ta cần kiểm tra lại bộ phận cắt ở dây chuyền số hai"
+            },
+            {
+              "display": "Có lẽ là lỗi ở đây.",
+              "normalized": "có lẽ là lỗi ở đây"
+            }
+          ],
+          "speaker": "đại diện khách hàng"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Được, chúng tôi sẽ kiểm tra ngay.",
+              "normalized": "được chúng tôi sẽ kiểm tra ngay"
+            },
+            {
+              "display": "Nếu lỗi ở máy cắt thì cần điều chỉnh lại độ chính xác.",
+              "normalized": "nếu lỗi ở máy cắt thì cần điều chỉnh lại độ chính xác"
+            },
+            {
+              "display": "Anh cho biết thời gian dự kiến để xử lý mấy trường hợp đó?",
+              "normalized": "anh cho biết thời gian dự kiến để xử lý mấy trường hợp đó"
+            }
+          ],
+          "speaker": "giám sát chất lượng"
+        }
+      ]
+    },
+    {
+      "dialogue_id": "vi_spoken_r00001_a000030236",
+      "generation_task": {
+        "attempt": 30236,
+        "batch_units": 80,
+        "cycle": 1,
+        "delivery_profile": "có ít ngập ngừng và lặp nhẹ tự nhiên, vẫn giữ mạch ý",
+        "equipment": "máy đóng gói",
+        "id": "vi_spoken_r00001_a000030236",
+        "industry": "thực phẩm đóng gói",
+        "language": "vi",
+        "observed_issues": 12,
+        "prompt": "Ngành thực phẩm đóng gói, tại máy đóng gói. Chủ đề so sánh thời gian chu kỳ và công đoạn ùn hàng. Vai chuyên gia thiết bị và quản lý bảo trì. Tình huống chốt việc cần xác minh và người chịu trách nhiệm. Cách nói có ít ngập ngừng và lặp nhẹ tự nhiên, vẫn giữ mạch ý. Có thể nhắc lô tám mươi sản phẩm và mười hai trường hợp cần xem lại, không bắt buộc dùng cả hai. Viết đúng dạng lời nói đã chép lại, số và đơn vị thành lời đọc, chỉ tiếng Việt.",
+        "register": "spoken_transcript",
+        "roles": [
+          "chuyên gia thiết bị",
+          "quản lý bảo trì"
+        ],
+        "seed": 6186543933078567664,
+        "style": "chốt việc cần xác minh và người chịu trách nhiệm",
+        "topic": "so sánh thời gian chu kỳ và công đoạn ùn hàng"
+      },
+      "is_audio_transcription": false,
+      "is_human_gold": false,
+      "language": "vi",
+      "numbers_as_spoken_words": true,
+      "register": "spoken_transcript",
+      "review_state": "UNREVIEWED",
+      "source": "QWEN_SYNTHETIC",
+      "spoken_quality_checks": {
+        "long_alternating_turns": true,
+        "no_digit_numerals": true,
+        "no_written_units_or_acronyms": true,
+        "requires_human_review": true,
+        "spoken_style_is_prompted_not_human_verified": true
+      },
+      "training_eligible": false,
+      "turns": [
+        {
+          "sentences": [
+            {
+              "display": "Mấy hôm trước tôi thấy ở máy số ba, chu kỳ đóng gói cứ kéo dài hơn bình thường, khoảng ba, à không, gần bốn phút mỗi lần.",
+              "normalized": "mấy hôm trước tôi thấy ở máy số ba chu kỳ đóng gói cứ kéo dài hơn bình thường khoảng ba à không gần bốn phút mỗi lần"
+            },
+            {
+              "display": "Có thể do bộ cảm biến ở chân máy không nhận đúng tín hiệu, hay bộ phận cấp liệu đang chậm?",
+              "normalized": "có thể do bộ cảm biến ở chân máy không nhận đúng tín hiệu hay bộ phận cấp liệu đang chậm"
+            }
+          ],
+          "speaker": "chuyên gia thiết bị"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Tôi kiểm tra rồi, cảm biến vẫn hoạt động, nhưng ở lô tám mươi sản phẩm vừa rồi, hệ thống có cảnh báo lỗi về công đoạn cấp liệu.",
+              "normalized": "tôi kiểm tra rồi cảm biến vẫn hoạt động nhưng ở lô tám mươi sản phẩm vừa rồi hệ thống có cảnh báo lỗi về công đoạn cấp liệu"
+            },
+            {
+              "display": "Chúng tôi đã xem lại mười hai trường hợp, phát hiện có hai lần thiết bị bị lệch vị trí.",
+              "normalized": "chúng tôi đã xem lại mười hai trường hợp phát hiện có hai lần thiết bị bị lệch vị trí"
+            }
+          ],
+          "speaker": "quản lý bảo trì"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Vậy thì nên kiểm tra lại bộ điều khiển ở khu vực đó.",
+              "normalized": "vậy thì nên kiểm tra lại bộ điều khiển ở khu vực đó"
+            },
+            {
+              "display": "Nếu không xử lý kịp, chu kỳ sẽ vẫn bị ảnh hưởng.",
+              "normalized": "nếu không xử lý kịp chu kỳ sẽ vẫn bị ảnh hưởng"
+            },
+            {
+              "display": "Anh có thể phối hợp với kỹ thuật viên kiểm tra lại trong ca chiều nay?",
+              "normalized": "anh có thể phối hợp với kỹ thuật viên kiểm tra lại trong ca chiều nay"
+            }
+          ],
+          "speaker": "chuyên gia thiết bị"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Được, tôi sẽ phân công người phụ trách xưởng đi kiểm tra.",
+              "normalized": "được tôi sẽ phân công người phụ trách xưởng đi kiểm tra"
+            },
+            {
+              "display": "Nếu phát hiện lỗi phần mềm, chúng tôi sẽ báo ngay để anh hỗ trợ.",
+              "normalized": "nếu phát hiện lỗi phần mềm chúng tôi sẽ báo ngay để anh hỗ trợ"
+            },
+            {
+              "display": "Khi nào anh có thời gian để xác minh thêm?",
+              "normalized": "khi nào anh có thời gian để xác minh thêm"
+            }
+          ],
+          "speaker": "quản lý bảo trì"
+        }
+      ]
+    },
+    {
+      "dialogue_id": "vi_spoken_r00001_a000030239",
+      "generation_task": {
+        "attempt": 30239,
+        "batch_units": 800,
+        "cycle": 1,
+        "delivery_profile": "nói rõ ràng, bình thường, không cố chèn ngập ngừng",
+        "equipment": "robot gắp hàng",
+        "id": "vi_spoken_r00001_a000030239",
+        "industry": "phụ tùng ô tô",
+        "language": "vi",
+        "observed_issues": 10,
+        "prompt": "Ngành phụ tùng ô tô, tại robot gắp hàng. Chủ đề so sánh thời gian chu kỳ và công đoạn ùn hàng. Vai chuyên gia thiết bị và quản lý bảo trì. Tình huống một bên chưa đồng ý và yêu cầu thêm bằng chứng. Cách nói nói rõ ràng, bình thường, không cố chèn ngập ngừng. Có thể nhắc lô tám trăm sản phẩm và mười trường hợp cần xem lại, không bắt buộc dùng cả hai. Viết đúng dạng lời nói đã chép lại, số và đơn vị thành lời đọc, chỉ tiếng Việt.",
+        "register": "spoken_transcript",
+        "roles": [
+          "chuyên gia thiết bị",
+          "quản lý bảo trì"
+        ],
+        "seed": 17993267144256128495,
+        "style": "một bên chưa đồng ý và yêu cầu thêm bằng chứng",
+        "topic": "so sánh thời gian chu kỳ và công đoạn ùn hàng"
+      },
+      "is_audio_transcription": false,
+      "is_human_gold": false,
+      "language": "vi",
+      "numbers_as_spoken_words": true,
+      "register": "spoken_transcript",
+      "review_state": "UNREVIEWED",
+      "source": "QWEN_SYNTHETIC",
+      "spoken_quality_checks": {
+        "long_alternating_turns": true,
+        "no_digit_numerals": true,
+        "no_written_units_or_acronyms": true,
+        "requires_human_review": true,
+        "spoken_style_is_prompted_not_human_verified": true
+      },
+      "training_eligible": false,
+      "turns": [
+        {
+          "sentences": [
+            {
+              "display": "Chu kỳ robot hiện giờ là ba mươi ba giây, nhưng cứ có mười trường hợp ùn hàng ở lô tám trăm.",
+              "normalized": "chu kỳ robot hiện giờ là ba mươi ba giây nhưng cứ có mười trường hợp ùn hàng ở lô tám trăm"
+            },
+            {
+              "display": "Anh thử kiểm tra lại xem có phải do thời gian chuyển động giữa các bước không.",
+              "normalized": "anh thử kiểm tra lại xem có phải do thời gian chuyển động giữa các bước không"
+            }
+          ],
+          "speaker": "chuyên gia thiết bị"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Mình đã đo rồi, thời gian chuyển động giữa công đoạn là mười lăm giây.",
+              "normalized": "mình đã đo rồi thời gian chuyển động giữa công đoạn là mười lăm giây"
+            },
+            {
+              "display": "Có thể là do phần mềm điều khiển chưa tối ưu, nhưng cần xác nhận rõ hơn.",
+              "normalized": "có thể là do phần mềm điều khiển chưa tối ưu nhưng cần xác nhận rõ hơn"
+            }
+          ],
+          "speaker": "quản lý bảo trì"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Vậy nếu tăng thời gian chu kỳ lên ba mươi lăm giây, liệu có giảm được tình trạng ùn hàng không?",
+              "normalized": "vậy nếu tăng thời gian chu kỳ lên ba mươi lăm giây liệu có giảm được tình trạng ùn hàng không"
+            },
+            {
+              "display": "Mình thấy có sự khác biệt rõ rệt ở mấy lô gần đây.",
+              "normalized": "mình thấy có sự khác biệt rõ rệt ở mấy lô gần đây"
+            }
+          ],
+          "speaker": "chuyên gia thiết bị"
+        },
+        {
+          "sentences": [
+            {
+              "display": "Đã thử mô phỏng rồi, tăng lên ba mươi lăm giây sẽ giảm thiểu ùn hàng ở ba trong năm trường hợp.",
+              "normalized": "đã thử mô phỏng rồi tăng lên ba mươi lăm giây sẽ giảm thiểu ùn hàng ở ba trong năm trường hợp"
+            },
+            {
+              "display": "Nhưng cần xem thêm dữ liệu thực tế trong ca chiều mai.",
+              "normalized": "nhưng cần xem thêm dữ liệu thực tế trong ca chiều mai"
+            }
+          ],
+          "speaker": "quản lý bảo trì"
+        }
+      ]
+    }
+  ],
+  "resumed_generation_verification": {
+    "verified": true,
+    "engine_version": 10,
+    "baseline_commit": 1478,
+    "baseline_counts": {
+      "en": 0,
+      "vi": 6815,
+      "zh": 0
+    },
+    "latest_commit": 1499,
+    "latest_commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+    "previous_link_verified": true,
+    "object_sha256": "c867434d3ba473d479cef7bc0ef7ad83cd76622d68edbe165cced34dd0b4e5d3",
+    "object_readback_verified": true,
+    "accepted_new": 97
+  },
+  "gpu": "98 %, 20330 MiB, 23034 MiB",
+  "session_selection": {
+    "selection": "explicit_known_owner_boot_with_verified_drive_and_all_runtime_process_probes",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "assigned_runtime_count": 1,
+    "selected_matching_sessions": 2,
+    "selected_views_verified": true,
+    "other_runtimes_have_no_generation_worker": true,
+    "other_runtime_boots": []
+  }
+}

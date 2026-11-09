@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T18:01:58.614760+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.stream_v4_evaluate",
+    "--followup",
+    "runs/stream_v4_balanced_20261025",
+    "--vi-pilot",
+    "data_v4/vi_natural_pause_20261025/cases.jsonl",
+    "--en-zh-pilot",
+    "data_v4/en_zh_natural_pause_20261025/cases.jsonl",
+    "--output",
+    "outputs/stream_v4_20261025/colab_final"
+  ],
+  "timeout_seconds": 1800,
+  "pid": 130162,
+  "elapsed_seconds": 65.00792026519775,
+  "heartbeat_unix": 1792864978.6219347,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T18:03:03.622682+00:00"
+}

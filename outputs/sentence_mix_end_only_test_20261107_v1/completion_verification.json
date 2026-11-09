@@ -1,0 +1,21 @@
+{
+  "all_inferences_audited": 579685,
+  "every_encoded_input_and_causal_future_verified": true,
+  "predicted_only_resets_verified": true,
+  "all_eligible_points_accounted_for": true,
+  "all_confusion_counts_verified": true,
+  "source_words_conserved_and_final_flush_not_eot": true,
+  "checkpoint_weights_and_trace_sha_verified": true,
+  "complete": true,
+  "canonical_predictor_cases": 62,
+  "max_probability_delta": 6.332993507385254e-08,
+  "all_canonical_decisions_identical": true,
+  "all_probabilities_finite": true,
+  "inferences_by_lookahead": {
+    "1": 297397,
+    "2": 282288
+  },
+  "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+  "end_only_rows": 76,
+  "translation_messages": 310
+}

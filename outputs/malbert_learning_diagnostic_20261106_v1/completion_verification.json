@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "checked_utc": "2026-11-06T03:28:54.188637+00:00",
+  "report_sha256": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28",
+  "fixed_sample_all_1000_source_labels_and_encodings_verified": true,
+  "train_provenance": "Pinned TRAIN file and dataset manifest SHA256 verified against the frozen full checkpoint",
+  "sanity_saved_model_metrics_exactly_reproduced": true,
+  "paired_full_checkpoints_27_adamw_rng_order_verified": true,
+  "monitor_full_rerollouts_exactly_reproduced": {
+    "baseline": {
+      "inferences": 35270,
+      "all_inputs_labels_encoded_hashes_and_predicted_resets_verified": true,
+      "canonical_single_input_cases": 16,
+      "max_probability_delta": 2.2351741790771484e-07,
+      "trace_sha256": "62956fe5a217a30f927a2a9675c2ea3e09d7de46051f5d3eac335114a40fe47d"
+    },
+    "lr4e6": {
+      "inferences": 35270,
+      "all_inputs_labels_encoded_hashes_and_predicted_resets_verified": true,
+      "canonical_single_input_cases": 16,
+      "max_probability_delta": 3.958120942115784e-09,
+      "trace_sha256": "27f0cb9f5189d866584c44144c3feee9099c1c3dfb5e5666afd6147475c9cde1"
+    },
+    "lr1e5": {
+      "inferences": 35270,
+      "all_inputs_labels_encoded_hashes_and_predicted_resets_verified": true,
+      "canonical_single_input_cases": 16,
+      "max_probability_delta": 2.8312206268310547e-07,
+      "trace_sha256": "aed3d00d52f7a96b721e7e0b6185525a3713c530c7fbe4c8401a53d6135e6c3b"
+    }
+  },
+  "calibration_only_selection_recomputed": true,
+  "main_identity": {
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5",
+    "source_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+      "uploaded_vi_en_evaluation_v5.py": "f0dc7e9a0b81f0f8e5df131c2f195e584e5f6f7ce8fe3cb6d912f2ae654d4579",
+      "multilingual_malbert_vi_en_conflict_weighted_train_v5.py": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "test_used": false,
+  "source_and_code_fingerprints_unchanged": true
+}

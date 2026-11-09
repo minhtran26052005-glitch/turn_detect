@@ -1,0 +1,61 @@
+{
+  "checked_unix": 1793670719.8070712,
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "pid": 10402,
+  "start_ticks": "245097",
+  "colab_free_gib": 220.2433738708496,
+  "io": "rchar: 178224760\nwchar: 16436171052\nsyscr: 28203\nsyscw: 58144\nread_bytes: 601255936\nwrite_bytes: 16439885824\ncancelled_write_bytes: 4096\n",
+  "campaign_files": [
+    "/content/factory_spoken_campaign_v9/worker.log",
+    "/content/factory_spoken_campaign_v9/worker.log",
+    "/content/factory_spoken_campaign_v9/WORKER_LOCK"
+  ],
+  "status.json": {
+    "at_unix": 1793670717.669707,
+    "batch": 20,
+    "batch_started_unix": 1793670707.1541119,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 18.83,
+    "language": "vi",
+    "pid": 10402,
+    "stage": "GENERATING",
+    "start_ticks": "245097",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 20508,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1012,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 4683,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 119430,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "52f9f9dfdba6278eaec11f47354fa3f9c7a5339f7749bb8f79eeb15831f69c05",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 15825,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 4683,
+        "zh": 0
+      }
+    }
+  },
+  "public_model_cache_bytes": 16397431693,
+  "gpu": "98 %, 19526 MiB, 23034 MiB",
+  "checked_utc": "2026-11-03T01:51:59.755991+00:00"
+}

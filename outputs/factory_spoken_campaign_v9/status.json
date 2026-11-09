@@ -1,0 +1,45 @@
+{
+  "at_unix": 1793691575.9203122,
+  "batch": 20,
+  "batch_started_unix": 1793691575.920305,
+  "engine_version": 9,
+  "gpu_peak_reserved_gib": 19.25,
+  "language": "vi",
+  "pid": 10402,
+  "stage": "GENERATING",
+  "start_ticks": "245097",
+  "state": {
+    "attempts": {
+      "en": 0,
+      "vi": 29428,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1458,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 171445,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "fdafc1e6bb2bc6f242aaf7e2c8ec2d40c5e40498d932abbb1433e88e4724e3b7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 22703,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6725,
+      "zh": 0
+    }
+  }
+}

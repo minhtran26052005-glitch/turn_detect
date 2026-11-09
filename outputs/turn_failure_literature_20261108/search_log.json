@@ -1,0 +1,33 @@
+{
+  "search_date": "2026-11-08",
+  "primary_sources_only": true,
+  "queries": [
+    "dynamic sentence boundary detection simultaneous translation lookahead",
+    "online punctuation restoration ELECTRA small streaming ASR right context",
+    "punctuation restoration noisy speech transcripts domain adaptation",
+    "fine tuning out of distribution feature distortion calibration",
+    "segmentation free streaming machine translation"
+  ],
+  "scope": "Targeted source discovery and relevant methods/results review, not exhaustive systematic screening.",
+  "included_primary_documents": 10,
+  "excluded_or_limited": [
+    {
+      "url": "https://aclanthology.org/2024.tacl-1.58/",
+      "reason": "Different summarization paper; excluded."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167639325000846",
+      "reason": "Publisher full text returned 403; no table-level quantitative claim used."
+    },
+    {
+      "url": "https://openreview.net/forum?id=UYneFzXSJWh",
+      "reason": "Challenge blocked access; corresponding author arXiv paper used instead."
+    }
+  ],
+  "not_claimed": [
+    "Exhaustive 2026 literature coverage",
+    "PRISMA counts",
+    "Meta-analysis",
+    "Exact replication"
+  ]
+}

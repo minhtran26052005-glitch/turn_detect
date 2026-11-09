@@ -1,0 +1,15 @@
+{
+  "status": "FAILED",
+  "started_at_utc": "2026-10-25T05:25:41.906672+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/reward_v10_campaign.py"
+  ],
+  "timeout_seconds": 9300,
+  "pid": 2945,
+  "elapsed_seconds": 85.01207160949707,
+  "heartbeat_unix": 1792906021.9179368,
+  "exit_code": 1,
+  "finished_at_utc": "2026-10-25T05:27:06.918748+00:00"
+}

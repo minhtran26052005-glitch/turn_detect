@@ -1,0 +1,7 @@
+{
+  "stage": "COMPLETE_NO_ACCEPTED_UNDER20M_MODEL",
+  "pid": 427431,
+  "at_utc": "2026-11-03T07:00:50.790500+00:00",
+  "hard_parameter_limit_exclusive": 20000000,
+  "main_training_interrupted": false
+}

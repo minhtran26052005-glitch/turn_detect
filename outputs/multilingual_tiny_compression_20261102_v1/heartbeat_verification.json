@@ -1,0 +1,3322 @@
+{
+  "files": {
+    "launcher.json": {
+      "pid": 3217492,
+      "start_ticks": "52069749",
+      "module": "turn_v2.multilingual_tiny_compress_v3",
+      "source_sha256": "fba8b5b3fe0b5982697da46264bf3dc34c4514ff97d1dfce56d5fa49eeb862c6",
+      "technical_checks_passed_before_launch": true,
+      "previous_helpers_stopped_while_only_waiting_no_training_steps": true,
+      "main_training_untouched": true
+    },
+    "preparation_launcher.json": {
+      "pid": 3193269,
+      "start_ticks": "51937840",
+      "module": "turn_v2.multilingual_tiny_prepare_v1"
+    },
+    "status.json": {
+      "stage": "COMPLETE_NO_ACCEPTED_COMPRESSED_MODEL",
+      "pid": 3217492,
+      "at_utc": "2026-11-02T10:39:32.029035+00:00",
+      "main_training_interrupted": false
+    },
+    "preparation_status.json": {
+      "stage": "COMPLETE",
+      "pid": 3193269,
+      "at_unix": 1793614458.389707,
+      "train_rows": 300000,
+      "teacher": {
+        "branch_step": 28000,
+        "step": 514235,
+        "weights_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+        "weight_bytes": 541317336,
+        "selection": "Existing campaign best, DEV-selected before compression; no tests used",
+        "source_dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+        "source_main_training_continues": true,
+        "optimizer_not_required_for_frozen_inference_teacher": true
+      },
+      "train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41"
+    },
+    "teacher_receipt.json": {
+      "branch_step": 28000,
+      "step": 514235,
+      "weights_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+      "weight_bytes": 541317336,
+      "selection": "Existing campaign best, DEV-selected before compression; no tests used",
+      "source_dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+      "source_main_training_continues": true,
+      "optimizer_not_required_for_frozen_inference_teacher": true
+    },
+    "train_receipt.json": {
+      "rows": 300000,
+      "by_language": {
+        "vi": 100000,
+        "en": 100000,
+        "zh": 100000
+      },
+      "labels": {
+        "vi:NEOT": 87237,
+        "en:NEOT": 85934,
+        "zh:EOT": 18615,
+        "zh:NEOT": 81385,
+        "en:EOT": 14066,
+        "vi:EOT": 12763
+      },
+      "sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+      "source": "Frozen source722 accepted TRAIN VI/EN sampler plus accepted legacy ZH TRAIN; no new spokenv9 or DEV/test rows.",
+      "subset_not_full_corpus": true,
+      "new_spoken_generator_data_used": false,
+      "sampler_state_after": {
+        "positions": {
+          "vi": 74986,
+          "en": 74711
+        },
+        "epochs": {
+          "vi": 0,
+          "en": 0
+        },
+        "rng": {
+          "bit_generator": "PCG64",
+          "state": {
+            "state": 175245803149049559488444645851273562414,
+            "inc": 23138952420814303595697743501633595667
+          },
+          "has_uint32": 0,
+          "uinteger": 1194497958
+        },
+        "seed": 202611029
+      },
+      "zh_cursor_after": "04f2b5816cf8dfff08f46fd27f135e5031f022574859c874f1dd2445454ed2d8"
+    },
+    "vocabulary_report.json": {
+      "size": 8192,
+      "train_only": true,
+      "train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+      "algorithm": "byte-level BPE with256byte fallback alphabet",
+      "teacher_tokenization_is_different": true,
+      "no_teacher_embedding_pca_mapping_claim": true,
+      "tokenizer_sha256": "98b7d881b9ffc85085880d211f8cb643b87e76ce7b626f9ba2879b52f7ebceee"
+    },
+    "technical_checks.json": {
+      "int8_cpu_smoke_passed": true,
+      "int8_max_probability_delta": 0.00022921568997613662,
+      "int4_packed_smoke_passed": true,
+      "int4_max_probability_delta": 1.1006596023488413e-08,
+      "fixture_not_quality_evaluation": true
+    },
+    "teacher_dev.json": {
+      "threshold": 0.26,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 82,
+          "tn": 1961,
+          "fp": 7,
+          "fn": 8,
+          "accuracy": 0.9927113702623906,
+          "eot_f1": 0.9162011173184358,
+          "eot_precision": 0.9213483146067416,
+          "eot_recall": 0.9111111111111111,
+          "false_share_of_cuts": 0.07865168539325842,
+          "false_positive_rate": 0.003556910569105691
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 119,
+          "tn": 2174,
+          "fp": 9,
+          "fn": 2,
+          "accuracy": 0.9952256944444444,
+          "eot_f1": 0.9558232931726908,
+          "eot_precision": 0.9296875,
+          "eot_recall": 0.9834710743801653,
+          "false_share_of_cuts": 0.0703125,
+          "false_positive_rate": 0.004122766834631242
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 137,
+          "tn": 719,
+          "fp": 106,
+          "fn": 38,
+          "accuracy": 0.856,
+          "eot_f1": 0.6555023923444976,
+          "eot_precision": 0.5637860082304527,
+          "eot_recall": 0.7828571428571428,
+          "false_share_of_cuts": 0.43621399176954734,
+          "false_positive_rate": 0.12848484848484848
+        }
+      },
+      "static_by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 84,
+          "tn": 1958,
+          "fp": 10,
+          "fn": 6,
+          "accuracy": 0.9922254616132167,
+          "eot_f1": 0.9130434782608695,
+          "eot_precision": 0.8936170212765957,
+          "eot_recall": 0.9333333333333333,
+          "false_share_of_cuts": 0.10638297872340426,
+          "false_positive_rate": 0.00508130081300813
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 115,
+          "tn": 2171,
+          "fp": 12,
+          "fn": 6,
+          "accuracy": 0.9921875,
+          "eot_f1": 0.9274193548387096,
+          "eot_precision": 0.905511811023622,
+          "eot_recall": 0.9504132231404959,
+          "false_share_of_cuts": 0.09448818897637795,
+          "false_positive_rate": 0.005497022446174988
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 137,
+          "tn": 719,
+          "fp": 106,
+          "fn": 38,
+          "accuracy": 0.856,
+          "eot_f1": 0.6555023923444976,
+          "eot_precision": 0.5637860082304527,
+          "eot_recall": 0.7828571428571428,
+          "false_share_of_cuts": 0.43621399176954734,
+          "false_positive_rate": 0.12848484848484848
+        }
+      },
+      "score": 0.6555023923444976,
+      "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+      "gold_reset_in_inference": false,
+      "language_id_supplied": false,
+      "max_future_words": 2
+    },
+    "candidate_results.json": [
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_fp32",
+        "storage_precision": "FP32",
+        "compute_precision": "FP32",
+        "model_bytes": 2639722,
+        "deployment_bytes": 3223743,
+        "model_sha256": "2aea5010e0a49abdda54071ea8f52eb67ffbe5422f238b4adc65341071f2bab5",
+        "dev": {
+          "threshold": 0.49,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 77,
+              "tn": 1962,
+              "fp": 6,
+              "fn": 13,
+              "accuracy": 0.9907677356656949,
+              "eot_f1": 0.8901734104046243,
+              "eot_precision": 0.927710843373494,
+              "eot_recall": 0.8555555555555555,
+              "false_share_of_cuts": 0.07228915662650602,
+              "false_positive_rate": 0.003048780487804878
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2172,
+              "fp": 11,
+              "fn": 10,
+              "accuracy": 0.9908854166666666,
+              "eot_f1": 0.9135802469135802,
+              "eot_precision": 0.9098360655737705,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.09016393442622951,
+              "false_positive_rate": 0.005038937242327073
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 64,
+              "tn": 763,
+              "fp": 62,
+              "fn": 111,
+              "accuracy": 0.827,
+              "eot_f1": 0.42524916943521596,
+              "eot_precision": 0.5079365079365079,
+              "eot_recall": 0.3657142857142857,
+              "false_share_of_cuts": 0.49206349206349204,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 77,
+              "tn": 1955,
+              "fp": 13,
+              "fn": 13,
+              "accuracy": 0.9873663751214772,
+              "eot_f1": 0.8555555555555555,
+              "eot_precision": 0.8555555555555555,
+              "eot_recall": 0.8555555555555555,
+              "false_share_of_cuts": 0.14444444444444443,
+              "false_positive_rate": 0.0066056910569105695
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2165,
+              "fp": 18,
+              "fn": 10,
+              "accuracy": 0.9878472222222222,
+              "eot_f1": 0.888,
+              "eot_precision": 0.8604651162790697,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.13953488372093023,
+              "false_positive_rate": 0.008245533669262483
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 64,
+              "tn": 763,
+              "fp": 62,
+              "fn": 111,
+              "accuracy": 0.827,
+              "eot_f1": 0.42524916943521596,
+              "eot_precision": 0.5079365079365079,
+              "eot_recall": 0.3657142857142857,
+              "false_share_of_cuts": 0.49206349206349204,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "score": 0.42524916943521596,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int8",
+        "storage_precision": "INT8",
+        "compute_precision": "FP32",
+        "model_bytes": 698816,
+        "deployment_bytes": 1282837,
+        "model_sha256": "22eef8b44fd5fa44917e34e5848a0e09a680e701bd09008e52116ecc70b003d7",
+        "dev": {
+          "threshold": 0.49,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 77,
+              "tn": 1962,
+              "fp": 6,
+              "fn": 13,
+              "accuracy": 0.9907677356656949,
+              "eot_f1": 0.8901734104046243,
+              "eot_precision": 0.927710843373494,
+              "eot_recall": 0.8555555555555555,
+              "false_share_of_cuts": 0.07228915662650602,
+              "false_positive_rate": 0.003048780487804878
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 10,
+              "accuracy": 0.9904513888888888,
+              "eot_f1": 0.9098360655737705,
+              "eot_precision": 0.9024390243902439,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.0975609756097561,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 64,
+              "tn": 763,
+              "fp": 62,
+              "fn": 111,
+              "accuracy": 0.827,
+              "eot_f1": 0.42524916943521596,
+              "eot_precision": 0.5079365079365079,
+              "eot_recall": 0.3657142857142857,
+              "false_share_of_cuts": 0.49206349206349204,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 77,
+              "tn": 1955,
+              "fp": 13,
+              "fn": 13,
+              "accuracy": 0.9873663751214772,
+              "eot_f1": 0.8555555555555555,
+              "eot_precision": 0.8555555555555555,
+              "eot_recall": 0.8555555555555555,
+              "false_share_of_cuts": 0.14444444444444443,
+              "false_positive_rate": 0.0066056910569105695
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2165,
+              "fp": 18,
+              "fn": 10,
+              "accuracy": 0.9878472222222222,
+              "eot_f1": 0.888,
+              "eot_precision": 0.8604651162790697,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.13953488372093023,
+              "false_positive_rate": 0.008245533669262483
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 64,
+              "tn": 763,
+              "fp": 62,
+              "fn": 111,
+              "accuracy": 0.827,
+              "eot_f1": 0.42524916943521596,
+              "eot_precision": 0.5079365079365079,
+              "eot_recall": 0.3657142857142857,
+              "false_share_of_cuts": 0.49206349206349204,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "score": 0.42524916943521596,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g64",
+        "storage_precision": "INT4",
+        "compute_precision": "FP32",
+        "model_bytes": 371063,
+        "deployment_bytes": 955267,
+        "model_sha256": "9b694424bff54d5b88899c857079099797c07abd2abfb3eb23d1210d6d711089",
+        "dev": {
+          "threshold": 0.49,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 76,
+              "tn": 1962,
+              "fp": 6,
+              "fn": 14,
+              "accuracy": 0.9902818270165209,
+              "eot_f1": 0.8837209302325582,
+              "eot_precision": 0.926829268292683,
+              "eot_recall": 0.8444444444444444,
+              "false_share_of_cuts": 0.07317073170731707,
+              "false_positive_rate": 0.003048780487804878
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2168,
+              "fp": 15,
+              "fn": 10,
+              "accuracy": 0.9891493055555556,
+              "eot_f1": 0.8987854251012146,
+              "eot_precision": 0.8809523809523809,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.11904761904761904,
+              "false_positive_rate": 0.006871278057718736
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 73,
+              "tn": 753,
+              "fp": 72,
+              "fn": 102,
+              "accuracy": 0.826,
+              "eot_f1": 0.45625,
+              "eot_precision": 0.503448275862069,
+              "eot_recall": 0.41714285714285715,
+              "false_share_of_cuts": 0.496551724137931,
+              "false_positive_rate": 0.08727272727272728
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 75,
+              "tn": 1955,
+              "fp": 13,
+              "fn": 15,
+              "accuracy": 0.9863945578231292,
+              "eot_f1": 0.8426966292134831,
+              "eot_precision": 0.8522727272727273,
+              "eot_recall": 0.8333333333333334,
+              "false_share_of_cuts": 0.14772727272727273,
+              "false_positive_rate": 0.0066056910569105695
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2162,
+              "fp": 21,
+              "fn": 10,
+              "accuracy": 0.9865451388888888,
+              "eot_f1": 0.8774703557312253,
+              "eot_precision": 0.8409090909090909,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.1590909090909091,
+              "false_positive_rate": 0.00961978928080623
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 73,
+              "tn": 753,
+              "fp": 72,
+              "fn": 102,
+              "accuracy": 0.826,
+              "eot_f1": 0.45625,
+              "eot_precision": 0.503448275862069,
+              "eot_recall": 0.41714285714285715,
+              "false_share_of_cuts": 0.496551724137931,
+              "false_positive_rate": 0.08727272727272728
+            }
+          },
+          "score": 0.45625,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g32",
+        "storage_precision": "INT4",
+        "compute_precision": "FP32",
+        "model_bytes": 391551,
+        "deployment_bytes": 975755,
+        "model_sha256": "4c7c6034545ce41bc7c715c6d6d7eef7f7fdee86bec428fe060a05f3d27f3b9e",
+        "dev": {
+          "threshold": 0.39,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 78,
+              "tn": 1963,
+              "fp": 5,
+              "fn": 12,
+              "accuracy": 0.9917395529640428,
+              "eot_f1": 0.9017341040462428,
+              "eot_precision": 0.9397590361445783,
+              "eot_recall": 0.8666666666666667,
+              "false_share_of_cuts": 0.060240963855421686,
+              "false_positive_rate": 0.002540650406504065
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2168,
+              "fp": 15,
+              "fn": 10,
+              "accuracy": 0.9891493055555556,
+              "eot_f1": 0.8987854251012146,
+              "eot_precision": 0.8809523809523809,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.11904761904761904,
+              "false_positive_rate": 0.006871278057718736
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 85,
+              "tn": 730,
+              "fp": 95,
+              "fn": 90,
+              "accuracy": 0.815,
+              "eot_f1": 0.4788732394366197,
+              "eot_precision": 0.4722222222222222,
+              "eot_recall": 0.4857142857142857,
+              "false_share_of_cuts": 0.5277777777777778,
+              "false_positive_rate": 0.11515151515151516
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 76,
+              "tn": 1952,
+              "fp": 16,
+              "fn": 14,
+              "accuracy": 0.9854227405247813,
+              "eot_f1": 0.8351648351648352,
+              "eot_precision": 0.8260869565217391,
+              "eot_recall": 0.8444444444444444,
+              "false_share_of_cuts": 0.17391304347826086,
+              "false_positive_rate": 0.008130081300813009
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 111,
+              "tn": 2160,
+              "fp": 23,
+              "fn": 10,
+              "accuracy": 0.9856770833333334,
+              "eot_f1": 0.8705882352941177,
+              "eot_precision": 0.8283582089552238,
+              "eot_recall": 0.9173553719008265,
+              "false_share_of_cuts": 0.17164179104477612,
+              "false_positive_rate": 0.010535959688502062
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 85,
+              "tn": 730,
+              "fp": 95,
+              "fn": 90,
+              "accuracy": 0.815,
+              "eot_f1": 0.4788732394366197,
+              "eot_precision": 0.4722222222222222,
+              "eot_recall": 0.4857142857142857,
+              "false_share_of_cuts": 0.5277777777777778,
+              "false_positive_rate": 0.11515151515151516
+            }
+          },
+          "score": 0.4788732394366197,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_fp32",
+        "storage_precision": "FP32",
+        "compute_precision": "FP32",
+        "model_bytes": 3199594,
+        "deployment_bytes": 3783615,
+        "model_sha256": "bb9ffb7cb0ed9adfbe93f02482c577460bacb6e9fd211486944ba5100d65b2e0",
+        "dev": {
+          "threshold": 0.17,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 81,
+              "tn": 1956,
+              "fp": 12,
+              "fn": 9,
+              "accuracy": 0.9897959183673469,
+              "eot_f1": 0.8852459016393442,
+              "eot_precision": 0.8709677419354839,
+              "eot_recall": 0.9,
+              "false_share_of_cuts": 0.12903225806451613,
+              "false_positive_rate": 0.006097560975609756
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 118,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 3,
+              "accuracy": 0.9934895833333334,
+              "eot_f1": 0.9402390438247012,
+              "eot_precision": 0.9076923076923077,
+              "eot_recall": 0.9752066115702479,
+              "false_share_of_cuts": 0.09230769230769231,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 127,
+              "tn": 622,
+              "fp": 203,
+              "fn": 48,
+              "accuracy": 0.749,
+              "eot_f1": 0.502970297029703,
+              "eot_precision": 0.38484848484848483,
+              "eot_recall": 0.7257142857142858,
+              "false_share_of_cuts": 0.6151515151515151,
+              "false_positive_rate": 0.24606060606060606
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 80,
+              "tn": 1950,
+              "fp": 18,
+              "fn": 10,
+              "accuracy": 0.9863945578231292,
+              "eot_f1": 0.851063829787234,
+              "eot_precision": 0.8163265306122449,
+              "eot_recall": 0.8888888888888888,
+              "false_share_of_cuts": 0.1836734693877551,
+              "false_positive_rate": 0.009146341463414634
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 117,
+              "tn": 2162,
+              "fp": 21,
+              "fn": 4,
+              "accuracy": 0.9891493055555556,
+              "eot_f1": 0.9034749034749034,
+              "eot_precision": 0.8478260869565217,
+              "eot_recall": 0.9669421487603306,
+              "false_share_of_cuts": 0.15217391304347827,
+              "false_positive_rate": 0.00961978928080623
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 127,
+              "tn": 622,
+              "fp": 203,
+              "fn": 48,
+              "accuracy": 0.749,
+              "eot_f1": 0.502970297029703,
+              "eot_precision": 0.38484848484848483,
+              "eot_recall": 0.7257142857142858,
+              "false_share_of_cuts": 0.6151515151515151,
+              "false_positive_rate": 0.24606060606060606
+            }
+          },
+          "score": 0.502970297029703,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int8",
+        "storage_precision": "INT8",
+        "compute_precision": "FP32",
+        "model_bytes": 844612,
+        "deployment_bytes": 1428633,
+        "model_sha256": "b5735db42c7e63211418cd527f86a17301cb08c9ada58c1f0ded7466fd2f330f",
+        "dev": {
+          "threshold": 0.16,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 81,
+              "tn": 1956,
+              "fp": 12,
+              "fn": 9,
+              "accuracy": 0.9897959183673469,
+              "eot_f1": 0.8852459016393442,
+              "eot_precision": 0.8709677419354839,
+              "eot_recall": 0.9,
+              "false_share_of_cuts": 0.12903225806451613,
+              "false_positive_rate": 0.006097560975609756
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 118,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 3,
+              "accuracy": 0.9934895833333334,
+              "eot_f1": 0.9402390438247012,
+              "eot_precision": 0.9076923076923077,
+              "eot_recall": 0.9752066115702479,
+              "false_share_of_cuts": 0.09230769230769231,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 130,
+              "tn": 617,
+              "fp": 208,
+              "fn": 45,
+              "accuracy": 0.747,
+              "eot_f1": 0.50682261208577,
+              "eot_precision": 0.38461538461538464,
+              "eot_recall": 0.7428571428571429,
+              "false_share_of_cuts": 0.6153846153846154,
+              "false_positive_rate": 0.25212121212121213
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 80,
+              "tn": 1950,
+              "fp": 18,
+              "fn": 10,
+              "accuracy": 0.9863945578231292,
+              "eot_f1": 0.851063829787234,
+              "eot_precision": 0.8163265306122449,
+              "eot_recall": 0.8888888888888888,
+              "false_share_of_cuts": 0.1836734693877551,
+              "false_positive_rate": 0.009146341463414634
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 117,
+              "tn": 2162,
+              "fp": 21,
+              "fn": 4,
+              "accuracy": 0.9891493055555556,
+              "eot_f1": 0.9034749034749034,
+              "eot_precision": 0.8478260869565217,
+              "eot_recall": 0.9669421487603306,
+              "false_share_of_cuts": 0.15217391304347827,
+              "false_positive_rate": 0.00961978928080623
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 130,
+              "tn": 617,
+              "fp": 208,
+              "fn": 45,
+              "accuracy": 0.747,
+              "eot_f1": 0.50682261208577,
+              "eot_precision": 0.38461538461538464,
+              "eot_recall": 0.7428571428571429,
+              "false_share_of_cuts": 0.6153846153846154,
+              "false_positive_rate": 0.25212121212121213
+            }
+          },
+          "score": 0.50682261208577,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g64",
+        "storage_precision": "INT4",
+        "compute_precision": "FP32",
+        "model_bytes": 447101,
+        "deployment_bytes": 1031305,
+        "model_sha256": "9a5eb7eb1d32fc6bc8e2f688983df28bd33a9ba552811f279b66df2120649f5d",
+        "dev": {
+          "threshold": 0.26,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 78,
+              "tn": 1959,
+              "fp": 9,
+              "fn": 12,
+              "accuracy": 0.9897959183673469,
+              "eot_f1": 0.8813559322033898,
+              "eot_precision": 0.896551724137931,
+              "eot_recall": 0.8666666666666667,
+              "false_share_of_cuts": 0.10344827586206896,
+              "false_positive_rate": 0.004573170731707317
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 117,
+              "tn": 2174,
+              "fp": 9,
+              "fn": 4,
+              "accuracy": 0.9943576388888888,
+              "eot_f1": 0.9473684210526315,
+              "eot_precision": 0.9285714285714286,
+              "eot_recall": 0.9669421487603306,
+              "false_share_of_cuts": 0.07142857142857142,
+              "false_positive_rate": 0.004122766834631242
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 108,
+              "tn": 674,
+              "fp": 151,
+              "fn": 67,
+              "accuracy": 0.782,
+              "eot_f1": 0.4976958525345622,
+              "eot_precision": 0.416988416988417,
+              "eot_recall": 0.6171428571428571,
+              "false_share_of_cuts": 0.583011583011583,
+              "false_positive_rate": 0.18303030303030304
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 78,
+              "tn": 1953,
+              "fp": 15,
+              "fn": 12,
+              "accuracy": 0.9868804664723032,
+              "eot_f1": 0.8524590163934426,
+              "eot_precision": 0.8387096774193549,
+              "eot_recall": 0.8666666666666667,
+              "false_share_of_cuts": 0.16129032258064516,
+              "false_positive_rate": 0.007621951219512195
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 117,
+              "tn": 2166,
+              "fp": 17,
+              "fn": 4,
+              "accuracy": 0.9908854166666666,
+              "eot_f1": 0.9176470588235294,
+              "eot_precision": 0.8731343283582089,
+              "eot_recall": 0.9669421487603306,
+              "false_share_of_cuts": 0.12686567164179105,
+              "false_positive_rate": 0.007787448465414567
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 108,
+              "tn": 674,
+              "fp": 151,
+              "fn": 67,
+              "accuracy": 0.782,
+              "eot_f1": 0.4976958525345622,
+              "eot_precision": 0.416988416988417,
+              "eot_recall": 0.6171428571428571,
+              "false_share_of_cuts": 0.583011583011583,
+              "false_positive_rate": 0.18303030303030304
+            }
+          },
+          "score": 0.4976958525345622,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": true,
+          "zh": false
+        }
+      },
+      {
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g32",
+        "storage_precision": "INT4",
+        "compute_precision": "FP32",
+        "model_bytes": 471945,
+        "deployment_bytes": 1056149,
+        "model_sha256": "d95f919d1043684df4dc10e6432291363416c4bed5fd19df755677c39038f779",
+        "dev": {
+          "threshold": 0.18,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 81,
+              "tn": 1958,
+              "fp": 10,
+              "fn": 9,
+              "accuracy": 0.9907677356656949,
+              "eot_f1": 0.8950276243093923,
+              "eot_precision": 0.8901098901098901,
+              "eot_recall": 0.9,
+              "false_share_of_cuts": 0.10989010989010989,
+              "false_positive_rate": 0.00508130081300813
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 118,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 3,
+              "accuracy": 0.9934895833333334,
+              "eot_f1": 0.9402390438247012,
+              "eot_precision": 0.9076923076923077,
+              "eot_recall": 0.9752066115702479,
+              "false_share_of_cuts": 0.09230769230769231,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 123,
+              "tn": 630,
+              "fp": 195,
+              "fn": 52,
+              "accuracy": 0.753,
+              "eot_f1": 0.49898580121703856,
+              "eot_precision": 0.3867924528301887,
+              "eot_recall": 0.7028571428571428,
+              "false_share_of_cuts": 0.6132075471698113,
+              "false_positive_rate": 0.23636363636363636
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 81,
+              "tn": 1952,
+              "fp": 16,
+              "fn": 9,
+              "accuracy": 0.9878522837706512,
+              "eot_f1": 0.8663101604278075,
+              "eot_precision": 0.8350515463917526,
+              "eot_recall": 0.9,
+              "false_share_of_cuts": 0.16494845360824742,
+              "false_positive_rate": 0.008130081300813009
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2161,
+              "fp": 22,
+              "fn": 6,
+              "accuracy": 0.9878472222222222,
+              "eot_f1": 0.8914728682170543,
+              "eot_precision": 0.8394160583941606,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.16058394160583941,
+              "false_positive_rate": 0.010077874484654145
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 123,
+              "tn": 630,
+              "fp": 195,
+              "fn": 52,
+              "accuracy": 0.753,
+              "eot_f1": 0.49898580121703856,
+              "eot_precision": 0.3867924528301887,
+              "eot_recall": 0.7028571428571428,
+              "false_share_of_cuts": 0.6132075471698113,
+              "false_positive_rate": 0.23636363636363636
+            }
+          },
+          "score": 0.49898580121703856,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        }
+      }
+    ],
+    "final_report.json": {
+      "complete": true,
+      "accepted": false,
+      "reason": "No compressed candidate retained all three languages within declared DEV margins",
+      "candidates": [
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_fp32",
+          "storage_precision": "FP32",
+          "compute_precision": "FP32",
+          "model_bytes": 2639722,
+          "deployment_bytes": 3223743,
+          "model_sha256": "2aea5010e0a49abdda54071ea8f52eb67ffbe5422f238b4adc65341071f2bab5",
+          "dev": {
+            "threshold": 0.49,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 77,
+                "tn": 1962,
+                "fp": 6,
+                "fn": 13,
+                "accuracy": 0.9907677356656949,
+                "eot_f1": 0.8901734104046243,
+                "eot_precision": 0.927710843373494,
+                "eot_recall": 0.8555555555555555,
+                "false_share_of_cuts": 0.07228915662650602,
+                "false_positive_rate": 0.003048780487804878
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2172,
+                "fp": 11,
+                "fn": 10,
+                "accuracy": 0.9908854166666666,
+                "eot_f1": 0.9135802469135802,
+                "eot_precision": 0.9098360655737705,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.09016393442622951,
+                "false_positive_rate": 0.005038937242327073
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 64,
+                "tn": 763,
+                "fp": 62,
+                "fn": 111,
+                "accuracy": 0.827,
+                "eot_f1": 0.42524916943521596,
+                "eot_precision": 0.5079365079365079,
+                "eot_recall": 0.3657142857142857,
+                "false_share_of_cuts": 0.49206349206349204,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 77,
+                "tn": 1955,
+                "fp": 13,
+                "fn": 13,
+                "accuracy": 0.9873663751214772,
+                "eot_f1": 0.8555555555555555,
+                "eot_precision": 0.8555555555555555,
+                "eot_recall": 0.8555555555555555,
+                "false_share_of_cuts": 0.14444444444444443,
+                "false_positive_rate": 0.0066056910569105695
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2165,
+                "fp": 18,
+                "fn": 10,
+                "accuracy": 0.9878472222222222,
+                "eot_f1": 0.888,
+                "eot_precision": 0.8604651162790697,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.13953488372093023,
+                "false_positive_rate": 0.008245533669262483
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 64,
+                "tn": 763,
+                "fp": 62,
+                "fn": 111,
+                "accuracy": 0.827,
+                "eot_f1": 0.42524916943521596,
+                "eot_precision": 0.5079365079365079,
+                "eot_recall": 0.3657142857142857,
+                "false_share_of_cuts": 0.49206349206349204,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "score": 0.42524916943521596,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int8",
+          "storage_precision": "INT8",
+          "compute_precision": "FP32",
+          "model_bytes": 698816,
+          "deployment_bytes": 1282837,
+          "model_sha256": "22eef8b44fd5fa44917e34e5848a0e09a680e701bd09008e52116ecc70b003d7",
+          "dev": {
+            "threshold": 0.49,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 77,
+                "tn": 1962,
+                "fp": 6,
+                "fn": 13,
+                "accuracy": 0.9907677356656949,
+                "eot_f1": 0.8901734104046243,
+                "eot_precision": 0.927710843373494,
+                "eot_recall": 0.8555555555555555,
+                "false_share_of_cuts": 0.07228915662650602,
+                "false_positive_rate": 0.003048780487804878
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 10,
+                "accuracy": 0.9904513888888888,
+                "eot_f1": 0.9098360655737705,
+                "eot_precision": 0.9024390243902439,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.0975609756097561,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 64,
+                "tn": 763,
+                "fp": 62,
+                "fn": 111,
+                "accuracy": 0.827,
+                "eot_f1": 0.42524916943521596,
+                "eot_precision": 0.5079365079365079,
+                "eot_recall": 0.3657142857142857,
+                "false_share_of_cuts": 0.49206349206349204,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 77,
+                "tn": 1955,
+                "fp": 13,
+                "fn": 13,
+                "accuracy": 0.9873663751214772,
+                "eot_f1": 0.8555555555555555,
+                "eot_precision": 0.8555555555555555,
+                "eot_recall": 0.8555555555555555,
+                "false_share_of_cuts": 0.14444444444444443,
+                "false_positive_rate": 0.0066056910569105695
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2165,
+                "fp": 18,
+                "fn": 10,
+                "accuracy": 0.9878472222222222,
+                "eot_f1": 0.888,
+                "eot_precision": 0.8604651162790697,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.13953488372093023,
+                "false_positive_rate": 0.008245533669262483
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 64,
+                "tn": 763,
+                "fp": 62,
+                "fn": 111,
+                "accuracy": 0.827,
+                "eot_f1": 0.42524916943521596,
+                "eot_precision": 0.5079365079365079,
+                "eot_recall": 0.3657142857142857,
+                "false_share_of_cuts": 0.49206349206349204,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "score": 0.42524916943521596,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g64",
+          "storage_precision": "INT4",
+          "compute_precision": "FP32",
+          "model_bytes": 371063,
+          "deployment_bytes": 955267,
+          "model_sha256": "9b694424bff54d5b88899c857079099797c07abd2abfb3eb23d1210d6d711089",
+          "dev": {
+            "threshold": 0.49,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 76,
+                "tn": 1962,
+                "fp": 6,
+                "fn": 14,
+                "accuracy": 0.9902818270165209,
+                "eot_f1": 0.8837209302325582,
+                "eot_precision": 0.926829268292683,
+                "eot_recall": 0.8444444444444444,
+                "false_share_of_cuts": 0.07317073170731707,
+                "false_positive_rate": 0.003048780487804878
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2168,
+                "fp": 15,
+                "fn": 10,
+                "accuracy": 0.9891493055555556,
+                "eot_f1": 0.8987854251012146,
+                "eot_precision": 0.8809523809523809,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.11904761904761904,
+                "false_positive_rate": 0.006871278057718736
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 73,
+                "tn": 753,
+                "fp": 72,
+                "fn": 102,
+                "accuracy": 0.826,
+                "eot_f1": 0.45625,
+                "eot_precision": 0.503448275862069,
+                "eot_recall": 0.41714285714285715,
+                "false_share_of_cuts": 0.496551724137931,
+                "false_positive_rate": 0.08727272727272728
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 75,
+                "tn": 1955,
+                "fp": 13,
+                "fn": 15,
+                "accuracy": 0.9863945578231292,
+                "eot_f1": 0.8426966292134831,
+                "eot_precision": 0.8522727272727273,
+                "eot_recall": 0.8333333333333334,
+                "false_share_of_cuts": 0.14772727272727273,
+                "false_positive_rate": 0.0066056910569105695
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2162,
+                "fp": 21,
+                "fn": 10,
+                "accuracy": 0.9865451388888888,
+                "eot_f1": 0.8774703557312253,
+                "eot_precision": 0.8409090909090909,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.1590909090909091,
+                "false_positive_rate": 0.00961978928080623
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 73,
+                "tn": 753,
+                "fp": 72,
+                "fn": 102,
+                "accuracy": 0.826,
+                "eot_f1": 0.45625,
+                "eot_precision": 0.503448275862069,
+                "eot_recall": 0.41714285714285715,
+                "false_share_of_cuts": 0.496551724137931,
+                "false_positive_rate": 0.08727272727272728
+              }
+            },
+            "score": 0.45625,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g32",
+          "storage_precision": "INT4",
+          "compute_precision": "FP32",
+          "model_bytes": 391551,
+          "deployment_bytes": 975755,
+          "model_sha256": "4c7c6034545ce41bc7c715c6d6d7eef7f7fdee86bec428fe060a05f3d27f3b9e",
+          "dev": {
+            "threshold": 0.39,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 78,
+                "tn": 1963,
+                "fp": 5,
+                "fn": 12,
+                "accuracy": 0.9917395529640428,
+                "eot_f1": 0.9017341040462428,
+                "eot_precision": 0.9397590361445783,
+                "eot_recall": 0.8666666666666667,
+                "false_share_of_cuts": 0.060240963855421686,
+                "false_positive_rate": 0.002540650406504065
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2168,
+                "fp": 15,
+                "fn": 10,
+                "accuracy": 0.9891493055555556,
+                "eot_f1": 0.8987854251012146,
+                "eot_precision": 0.8809523809523809,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.11904761904761904,
+                "false_positive_rate": 0.006871278057718736
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 85,
+                "tn": 730,
+                "fp": 95,
+                "fn": 90,
+                "accuracy": 0.815,
+                "eot_f1": 0.4788732394366197,
+                "eot_precision": 0.4722222222222222,
+                "eot_recall": 0.4857142857142857,
+                "false_share_of_cuts": 0.5277777777777778,
+                "false_positive_rate": 0.11515151515151516
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 76,
+                "tn": 1952,
+                "fp": 16,
+                "fn": 14,
+                "accuracy": 0.9854227405247813,
+                "eot_f1": 0.8351648351648352,
+                "eot_precision": 0.8260869565217391,
+                "eot_recall": 0.8444444444444444,
+                "false_share_of_cuts": 0.17391304347826086,
+                "false_positive_rate": 0.008130081300813009
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 111,
+                "tn": 2160,
+                "fp": 23,
+                "fn": 10,
+                "accuracy": 0.9856770833333334,
+                "eot_f1": 0.8705882352941177,
+                "eot_precision": 0.8283582089552238,
+                "eot_recall": 0.9173553719008265,
+                "false_share_of_cuts": 0.17164179104477612,
+                "false_positive_rate": 0.010535959688502062
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 85,
+                "tn": 730,
+                "fp": 95,
+                "fn": 90,
+                "accuracy": 0.815,
+                "eot_f1": 0.4788732394366197,
+                "eot_precision": 0.4722222222222222,
+                "eot_recall": 0.4857142857142857,
+                "false_share_of_cuts": 0.5277777777777778,
+                "false_positive_rate": 0.11515151515151516
+              }
+            },
+            "score": 0.4788732394366197,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_fp32",
+          "storage_precision": "FP32",
+          "compute_precision": "FP32",
+          "model_bytes": 3199594,
+          "deployment_bytes": 3783615,
+          "model_sha256": "bb9ffb7cb0ed9adfbe93f02482c577460bacb6e9fd211486944ba5100d65b2e0",
+          "dev": {
+            "threshold": 0.17,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 81,
+                "tn": 1956,
+                "fp": 12,
+                "fn": 9,
+                "accuracy": 0.9897959183673469,
+                "eot_f1": 0.8852459016393442,
+                "eot_precision": 0.8709677419354839,
+                "eot_recall": 0.9,
+                "false_share_of_cuts": 0.12903225806451613,
+                "false_positive_rate": 0.006097560975609756
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 118,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 3,
+                "accuracy": 0.9934895833333334,
+                "eot_f1": 0.9402390438247012,
+                "eot_precision": 0.9076923076923077,
+                "eot_recall": 0.9752066115702479,
+                "false_share_of_cuts": 0.09230769230769231,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 127,
+                "tn": 622,
+                "fp": 203,
+                "fn": 48,
+                "accuracy": 0.749,
+                "eot_f1": 0.502970297029703,
+                "eot_precision": 0.38484848484848483,
+                "eot_recall": 0.7257142857142858,
+                "false_share_of_cuts": 0.6151515151515151,
+                "false_positive_rate": 0.24606060606060606
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 80,
+                "tn": 1950,
+                "fp": 18,
+                "fn": 10,
+                "accuracy": 0.9863945578231292,
+                "eot_f1": 0.851063829787234,
+                "eot_precision": 0.8163265306122449,
+                "eot_recall": 0.8888888888888888,
+                "false_share_of_cuts": 0.1836734693877551,
+                "false_positive_rate": 0.009146341463414634
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 117,
+                "tn": 2162,
+                "fp": 21,
+                "fn": 4,
+                "accuracy": 0.9891493055555556,
+                "eot_f1": 0.9034749034749034,
+                "eot_precision": 0.8478260869565217,
+                "eot_recall": 0.9669421487603306,
+                "false_share_of_cuts": 0.15217391304347827,
+                "false_positive_rate": 0.00961978928080623
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 127,
+                "tn": 622,
+                "fp": 203,
+                "fn": 48,
+                "accuracy": 0.749,
+                "eot_f1": 0.502970297029703,
+                "eot_precision": 0.38484848484848483,
+                "eot_recall": 0.7257142857142858,
+                "false_share_of_cuts": 0.6151515151515151,
+                "false_positive_rate": 0.24606060606060606
+              }
+            },
+            "score": 0.502970297029703,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int8",
+          "storage_precision": "INT8",
+          "compute_precision": "FP32",
+          "model_bytes": 844612,
+          "deployment_bytes": 1428633,
+          "model_sha256": "b5735db42c7e63211418cd527f86a17301cb08c9ada58c1f0ded7466fd2f330f",
+          "dev": {
+            "threshold": 0.16,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 81,
+                "tn": 1956,
+                "fp": 12,
+                "fn": 9,
+                "accuracy": 0.9897959183673469,
+                "eot_f1": 0.8852459016393442,
+                "eot_precision": 0.8709677419354839,
+                "eot_recall": 0.9,
+                "false_share_of_cuts": 0.12903225806451613,
+                "false_positive_rate": 0.006097560975609756
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 118,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 3,
+                "accuracy": 0.9934895833333334,
+                "eot_f1": 0.9402390438247012,
+                "eot_precision": 0.9076923076923077,
+                "eot_recall": 0.9752066115702479,
+                "false_share_of_cuts": 0.09230769230769231,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 130,
+                "tn": 617,
+                "fp": 208,
+                "fn": 45,
+                "accuracy": 0.747,
+                "eot_f1": 0.50682261208577,
+                "eot_precision": 0.38461538461538464,
+                "eot_recall": 0.7428571428571429,
+                "false_share_of_cuts": 0.6153846153846154,
+                "false_positive_rate": 0.25212121212121213
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 80,
+                "tn": 1950,
+                "fp": 18,
+                "fn": 10,
+                "accuracy": 0.9863945578231292,
+                "eot_f1": 0.851063829787234,
+                "eot_precision": 0.8163265306122449,
+                "eot_recall": 0.8888888888888888,
+                "false_share_of_cuts": 0.1836734693877551,
+                "false_positive_rate": 0.009146341463414634
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 117,
+                "tn": 2162,
+                "fp": 21,
+                "fn": 4,
+                "accuracy": 0.9891493055555556,
+                "eot_f1": 0.9034749034749034,
+                "eot_precision": 0.8478260869565217,
+                "eot_recall": 0.9669421487603306,
+                "false_share_of_cuts": 0.15217391304347827,
+                "false_positive_rate": 0.00961978928080623
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 130,
+                "tn": 617,
+                "fp": 208,
+                "fn": 45,
+                "accuracy": 0.747,
+                "eot_f1": 0.50682261208577,
+                "eot_precision": 0.38461538461538464,
+                "eot_recall": 0.7428571428571429,
+                "false_share_of_cuts": 0.6153846153846154,
+                "false_positive_rate": 0.25212121212121213
+              }
+            },
+            "score": 0.50682261208577,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g64",
+          "storage_precision": "INT4",
+          "compute_precision": "FP32",
+          "model_bytes": 447101,
+          "deployment_bytes": 1031305,
+          "model_sha256": "9a5eb7eb1d32fc6bc8e2f688983df28bd33a9ba552811f279b66df2120649f5d",
+          "dev": {
+            "threshold": 0.26,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 78,
+                "tn": 1959,
+                "fp": 9,
+                "fn": 12,
+                "accuracy": 0.9897959183673469,
+                "eot_f1": 0.8813559322033898,
+                "eot_precision": 0.896551724137931,
+                "eot_recall": 0.8666666666666667,
+                "false_share_of_cuts": 0.10344827586206896,
+                "false_positive_rate": 0.004573170731707317
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 117,
+                "tn": 2174,
+                "fp": 9,
+                "fn": 4,
+                "accuracy": 0.9943576388888888,
+                "eot_f1": 0.9473684210526315,
+                "eot_precision": 0.9285714285714286,
+                "eot_recall": 0.9669421487603306,
+                "false_share_of_cuts": 0.07142857142857142,
+                "false_positive_rate": 0.004122766834631242
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 108,
+                "tn": 674,
+                "fp": 151,
+                "fn": 67,
+                "accuracy": 0.782,
+                "eot_f1": 0.4976958525345622,
+                "eot_precision": 0.416988416988417,
+                "eot_recall": 0.6171428571428571,
+                "false_share_of_cuts": 0.583011583011583,
+                "false_positive_rate": 0.18303030303030304
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 78,
+                "tn": 1953,
+                "fp": 15,
+                "fn": 12,
+                "accuracy": 0.9868804664723032,
+                "eot_f1": 0.8524590163934426,
+                "eot_precision": 0.8387096774193549,
+                "eot_recall": 0.8666666666666667,
+                "false_share_of_cuts": 0.16129032258064516,
+                "false_positive_rate": 0.007621951219512195
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 117,
+                "tn": 2166,
+                "fp": 17,
+                "fn": 4,
+                "accuracy": 0.9908854166666666,
+                "eot_f1": 0.9176470588235294,
+                "eot_precision": 0.8731343283582089,
+                "eot_recall": 0.9669421487603306,
+                "false_share_of_cuts": 0.12686567164179105,
+                "false_positive_rate": 0.007787448465414567
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 108,
+                "tn": 674,
+                "fp": 151,
+                "fn": 67,
+                "accuracy": 0.782,
+                "eot_f1": 0.4976958525345622,
+                "eot_precision": 0.416988416988417,
+                "eot_recall": 0.6171428571428571,
+                "false_share_of_cuts": 0.583011583011583,
+                "false_positive_rate": 0.18303030303030304
+              }
+            },
+            "score": 0.4976958525345622,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": true,
+            "zh": false
+          }
+        },
+        {
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g32",
+          "storage_precision": "INT4",
+          "compute_precision": "FP32",
+          "model_bytes": 471945,
+          "deployment_bytes": 1056149,
+          "model_sha256": "d95f919d1043684df4dc10e6432291363416c4bed5fd19df755677c39038f779",
+          "dev": {
+            "threshold": 0.18,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 81,
+                "tn": 1958,
+                "fp": 10,
+                "fn": 9,
+                "accuracy": 0.9907677356656949,
+                "eot_f1": 0.8950276243093923,
+                "eot_precision": 0.8901098901098901,
+                "eot_recall": 0.9,
+                "false_share_of_cuts": 0.10989010989010989,
+                "false_positive_rate": 0.00508130081300813
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 118,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 3,
+                "accuracy": 0.9934895833333334,
+                "eot_f1": 0.9402390438247012,
+                "eot_precision": 0.9076923076923077,
+                "eot_recall": 0.9752066115702479,
+                "false_share_of_cuts": 0.09230769230769231,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 123,
+                "tn": 630,
+                "fp": 195,
+                "fn": 52,
+                "accuracy": 0.753,
+                "eot_f1": 0.49898580121703856,
+                "eot_precision": 0.3867924528301887,
+                "eot_recall": 0.7028571428571428,
+                "false_share_of_cuts": 0.6132075471698113,
+                "false_positive_rate": 0.23636363636363636
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 81,
+                "tn": 1952,
+                "fp": 16,
+                "fn": 9,
+                "accuracy": 0.9878522837706512,
+                "eot_f1": 0.8663101604278075,
+                "eot_precision": 0.8350515463917526,
+                "eot_recall": 0.9,
+                "false_share_of_cuts": 0.16494845360824742,
+                "false_positive_rate": 0.008130081300813009
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 115,
+                "tn": 2161,
+                "fp": 22,
+                "fn": 6,
+                "accuracy": 0.9878472222222222,
+                "eot_f1": 0.8914728682170543,
+                "eot_precision": 0.8394160583941606,
+                "eot_recall": 0.9504132231404959,
+                "false_share_of_cuts": 0.16058394160583941,
+                "false_positive_rate": 0.010077874484654145
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 123,
+                "tn": 630,
+                "fp": 195,
+                "fn": 52,
+                "accuracy": 0.753,
+                "eot_f1": 0.49898580121703856,
+                "eot_precision": 0.3867924528301887,
+                "eot_recall": 0.7028571428571428,
+                "false_share_of_cuts": 0.6132075471698113,
+                "false_positive_rate": 0.23636363636363636
+              }
+            },
+            "score": 0.49898580121703856,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": false,
+            "zh": false
+          }
+        }
+      ],
+      "teacher": {
+        "threshold": 0.26,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 82,
+            "tn": 1961,
+            "fp": 7,
+            "fn": 8,
+            "accuracy": 0.9927113702623906,
+            "eot_f1": 0.9162011173184358,
+            "eot_precision": 0.9213483146067416,
+            "eot_recall": 0.9111111111111111,
+            "false_share_of_cuts": 0.07865168539325842,
+            "false_positive_rate": 0.003556910569105691
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 119,
+            "tn": 2174,
+            "fp": 9,
+            "fn": 2,
+            "accuracy": 0.9952256944444444,
+            "eot_f1": 0.9558232931726908,
+            "eot_precision": 0.9296875,
+            "eot_recall": 0.9834710743801653,
+            "false_share_of_cuts": 0.0703125,
+            "false_positive_rate": 0.004122766834631242
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 719,
+            "fp": 106,
+            "fn": 38,
+            "accuracy": 0.856,
+            "eot_f1": 0.6555023923444976,
+            "eot_precision": 0.5637860082304527,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.43621399176954734,
+            "false_positive_rate": 0.12848484848484848
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 84,
+            "tn": 1958,
+            "fp": 10,
+            "fn": 6,
+            "accuracy": 0.9922254616132167,
+            "eot_f1": 0.9130434782608695,
+            "eot_precision": 0.8936170212765957,
+            "eot_recall": 0.9333333333333333,
+            "false_share_of_cuts": 0.10638297872340426,
+            "false_positive_rate": 0.00508130081300813
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 115,
+            "tn": 2171,
+            "fp": 12,
+            "fn": 6,
+            "accuracy": 0.9921875,
+            "eot_f1": 0.9274193548387096,
+            "eot_precision": 0.905511811023622,
+            "eot_recall": 0.9504132231404959,
+            "false_share_of_cuts": 0.09448818897637795,
+            "false_positive_rate": 0.005497022446174988
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 719,
+            "fp": 106,
+            "fn": 38,
+            "accuracy": 0.856,
+            "eot_f1": 0.6555023923444976,
+            "eot_precision": 0.5637860082304527,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.43621399176954734,
+            "false_positive_rate": 0.12848484848484848
+          }
+        },
+        "score": 0.6555023923444976,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "test_used": false
+    }
+  },
+  "processes": {
+    "launcher.json": {
+      "present": false
+    },
+    "preparation_launcher.json": {
+      "present": false
+    }
+  },
+  "disk_free_gib": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1": 64.34492874145508,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "hdd_mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "gpu_processes": "2827094, 3662 MiB",
+  "cache_progress": {
+    "done": 300000,
+    "total": 300000,
+    "stats": {
+      "vi:unknown_pieces": 0,
+      "en:unknown_pieces": 0,
+      "zh:unknown_pieces": 0
+    }
+  },
+  "transformer_control": {
+    "launcher.json": {
+      "pid": 3391254,
+      "start_ticks": "52255374",
+      "module": "turn_v2.multilingual_transformer_compress_v1",
+      "source_sha256": "de23776a0b44cb4b63de8cbb04416b535a01892bc5e7050f94f880fe2b5fd54b",
+      "mode": "wait existing tiny campaign, then original-architecture PTQ only if no passing tiny candidate",
+      "main_training_untouched": true
+    },
+    "status.json": {
+      "stage": "COMPLETE",
+      "pid": 3391254,
+      "at_utc": "2026-11-02T10:55:45.382577+00:00",
+      "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+      "model_bytes": 139823559
+    },
+    "candidate_results.json": [
+      {
+        "candidate": "int4_g32",
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int4_g32",
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": true,
+          "zh": false
+        },
+        "model_bytes": 76418538,
+        "model_sha256": "dd48f112c8ebf0f2e230b74adfab5c537117c4214aeab46bbe1e55114cd0d04c",
+        "dev": {
+          "threshold": 0.42000000000000004,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 78,
+              "tn": 1962,
+              "fp": 6,
+              "fn": 12,
+              "accuracy": 0.9912536443148688,
+              "eot_f1": 0.896551724137931,
+              "eot_precision": 0.9285714285714286,
+              "eot_recall": 0.8666666666666667,
+              "false_share_of_cuts": 0.07142857142857142,
+              "false_positive_rate": 0.003048780487804878
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2180,
+              "fp": 3,
+              "fn": 2,
+              "accuracy": 0.9978298611111112,
+              "eot_f1": 0.9794238683127572,
+              "eot_precision": 0.9754098360655737,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.02459016393442623,
+              "false_positive_rate": 0.001374255611543747
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 111,
+              "tn": 763,
+              "fp": 62,
+              "fn": 64,
+              "accuracy": 0.874,
+              "eot_f1": 0.6379310344827587,
+              "eot_precision": 0.6416184971098265,
+              "eot_recall": 0.6342857142857142,
+              "false_share_of_cuts": 0.3583815028901734,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1959,
+              "fp": 9,
+              "fn": 8,
+              "accuracy": 0.9917395529640428,
+              "eot_f1": 0.9060773480662984,
+              "eot_precision": 0.9010989010989011,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.0989010989010989,
+              "false_positive_rate": 0.004573170731707317
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2170,
+              "fp": 13,
+              "fn": 6,
+              "accuracy": 0.9917534722222222,
+              "eot_f1": 0.9236947791164659,
+              "eot_precision": 0.8984375,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.1015625,
+              "false_positive_rate": 0.005955107650022904
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 111,
+              "tn": 763,
+              "fp": 62,
+              "fn": 64,
+              "accuracy": 0.874,
+              "eot_f1": 0.6379310344827587,
+              "eot_precision": 0.6416184971098265,
+              "eot_recall": 0.6342857142857142,
+              "false_share_of_cuts": 0.3583815028901734,
+              "false_positive_rate": 0.07515151515151515
+            }
+          },
+          "score": 0.6379310344827587,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "storage_bits": 4,
+        "embedding_bits": 4
+      },
+      {
+        "candidate": "mixed_int4_int8_embedding_g32",
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/mixed_int4_int8_embedding_g32",
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": true,
+          "zh": false
+        },
+        "model_bytes": 122521194,
+        "model_sha256": "eec7538b680b9292faf39139f25346ec40d970d881e1c32e46782d865e5d7f24",
+        "dev": {
+          "threshold": 0.42000000000000004,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 78,
+              "tn": 1962,
+              "fp": 6,
+              "fn": 12,
+              "accuracy": 0.9912536443148688,
+              "eot_f1": 0.896551724137931,
+              "eot_precision": 0.9285714285714286,
+              "eot_recall": 0.8666666666666667,
+              "false_share_of_cuts": 0.07142857142857142,
+              "false_positive_rate": 0.003048780487804878
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2180,
+              "fp": 3,
+              "fn": 2,
+              "accuracy": 0.9978298611111112,
+              "eot_f1": 0.9794238683127572,
+              "eot_precision": 0.9754098360655737,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.02459016393442623,
+              "false_positive_rate": 0.001374255611543747
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 111,
+              "tn": 764,
+              "fp": 61,
+              "fn": 64,
+              "accuracy": 0.875,
+              "eot_f1": 0.6397694524495677,
+              "eot_precision": 0.6453488372093024,
+              "eot_recall": 0.6342857142857142,
+              "false_share_of_cuts": 0.3546511627906977,
+              "false_positive_rate": 0.07393939393939394
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1959,
+              "fp": 9,
+              "fn": 8,
+              "accuracy": 0.9917395529640428,
+              "eot_f1": 0.9060773480662984,
+              "eot_precision": 0.9010989010989011,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.0989010989010989,
+              "false_positive_rate": 0.004573170731707317
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2173,
+              "fp": 10,
+              "fn": 6,
+              "accuracy": 0.9930555555555556,
+              "eot_f1": 0.9349593495934959,
+              "eot_precision": 0.92,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.08,
+              "false_positive_rate": 0.004580852038479157
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 111,
+              "tn": 764,
+              "fp": 61,
+              "fn": 64,
+              "accuracy": 0.875,
+              "eot_f1": 0.6397694524495677,
+              "eot_precision": 0.6453488372093024,
+              "eot_recall": 0.6342857142857142,
+              "false_share_of_cuts": 0.3546511627906977,
+              "false_positive_rate": 0.07393939393939394
+            }
+          },
+          "score": 0.6397694524495677,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "storage_bits": 4,
+        "embedding_bits": 8
+      },
+      {
+        "candidate": "int8_g64",
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+        "retention_passed": true,
+        "retention_by_language": {
+          "vi": true,
+          "en": true,
+          "zh": true
+        },
+        "model_bytes": 139823559,
+        "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+        "dev": {
+          "threshold": 0.26,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1961,
+              "fp": 7,
+              "fn": 8,
+              "accuracy": 0.9927113702623906,
+              "eot_f1": 0.9162011173184358,
+              "eot_precision": 0.9213483146067416,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.07865168539325842,
+              "false_positive_rate": 0.003556910569105691
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2174,
+              "fp": 9,
+              "fn": 2,
+              "accuracy": 0.9952256944444444,
+              "eot_f1": 0.9558232931726908,
+              "eot_precision": 0.9296875,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.0703125,
+              "false_positive_rate": 0.004122766834631242
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 718,
+              "fp": 107,
+              "fn": 38,
+              "accuracy": 0.855,
+              "eot_f1": 0.6539379474940334,
+              "eot_precision": 0.5614754098360656,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.4385245901639344,
+              "false_positive_rate": 0.1296969696969697
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 84,
+              "tn": 1958,
+              "fp": 10,
+              "fn": 6,
+              "accuracy": 0.9922254616132167,
+              "eot_f1": 0.9130434782608695,
+              "eot_precision": 0.8936170212765957,
+              "eot_recall": 0.9333333333333333,
+              "false_share_of_cuts": 0.10638297872340426,
+              "false_positive_rate": 0.00508130081300813
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 6,
+              "accuracy": 0.9921875,
+              "eot_f1": 0.9274193548387096,
+              "eot_precision": 0.905511811023622,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.09448818897637795,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 718,
+              "fp": 107,
+              "fn": 38,
+              "accuracy": 0.855,
+              "eot_f1": 0.6539379474940334,
+              "eot_precision": 0.5614754098360656,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.4385245901639344,
+              "false_positive_rate": 0.1296969696969697
+            }
+          },
+          "score": 0.6539379474940334,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "storage_bits": 8,
+        "embedding_bits": 8
+      }
+    ],
+    "cpu_benchmark.json": {
+      "teacher": {
+        "backend": "PyTorch FP32 CPU teacher",
+        "batch_size": 1,
+        "threads": 2,
+        "timed_calls": 120,
+        "cases": 24,
+        "median_ms": 12.7113935,
+        "p95_ms": 34.076977299999996,
+        "mean_ms": 15.982426066666669,
+        "peak_process_rss_bytes": 2009550848,
+        "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+        "current_process_rss_bytes": 1486737408,
+        "legacy_ru_maxrss_not_used": 2009550848,
+        "measurement_includes_normalization_and_tokenization": true,
+        "shared_host_not_isolated": true
+      },
+      "compressed": {
+        "backend": "ONNX Runtime CPU, matrix storage precision from contract",
+        "batch_size": 1,
+        "threads": 2,
+        "timed_calls": 120,
+        "cases": 24,
+        "median_ms": 8.966085,
+        "p95_ms": 30.54159395,
+        "mean_ms": 12.610156258333332,
+        "peak_process_rss_bytes": 1700372480,
+        "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+        "current_process_rss_bytes": 746131456,
+        "legacy_ru_maxrss_not_used": 1700372480,
+        "measurement_includes_normalization_and_tokenization": true,
+        "shared_host_not_isolated": true
+      }
+    },
+    "final_report.json": {
+      "complete": true,
+      "accepted": true,
+      "winner": {
+        "candidate": "int8_g64",
+        "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+        "retention_passed": true,
+        "retention_by_language": {
+          "vi": true,
+          "en": true,
+          "zh": true
+        },
+        "model_bytes": 139823559,
+        "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+        "dev": {
+          "threshold": 0.26,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1961,
+              "fp": 7,
+              "fn": 8,
+              "accuracy": 0.9927113702623906,
+              "eot_f1": 0.9162011173184358,
+              "eot_precision": 0.9213483146067416,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.07865168539325842,
+              "false_positive_rate": 0.003556910569105691
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2174,
+              "fp": 9,
+              "fn": 2,
+              "accuracy": 0.9952256944444444,
+              "eot_f1": 0.9558232931726908,
+              "eot_precision": 0.9296875,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.0703125,
+              "false_positive_rate": 0.004122766834631242
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 718,
+              "fp": 107,
+              "fn": 38,
+              "accuracy": 0.855,
+              "eot_f1": 0.6539379474940334,
+              "eot_precision": 0.5614754098360656,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.4385245901639344,
+              "false_positive_rate": 0.1296969696969697
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 84,
+              "tn": 1958,
+              "fp": 10,
+              "fn": 6,
+              "accuracy": 0.9922254616132167,
+              "eot_f1": 0.9130434782608695,
+              "eot_precision": 0.8936170212765957,
+              "eot_recall": 0.9333333333333333,
+              "false_share_of_cuts": 0.10638297872340426,
+              "false_positive_rate": 0.00508130081300813
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 6,
+              "accuracy": 0.9921875,
+              "eot_f1": 0.9274193548387096,
+              "eot_precision": 0.905511811023622,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.09448818897637795,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 718,
+              "fp": 107,
+              "fn": 38,
+              "accuracy": 0.855,
+              "eot_f1": 0.6539379474940334,
+              "eot_precision": 0.5614754098360656,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.4385245901639344,
+              "false_positive_rate": 0.1296969696969697
+            }
+          },
+          "score": 0.6539379474940334,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "storage_bits": 8,
+        "embedding_bits": 8
+      },
+      "teacher": {
+        "threshold": 0.26,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 82,
+            "tn": 1961,
+            "fp": 7,
+            "fn": 8,
+            "accuracy": 0.9927113702623906,
+            "eot_f1": 0.9162011173184358,
+            "eot_precision": 0.9213483146067416,
+            "eot_recall": 0.9111111111111111,
+            "false_share_of_cuts": 0.07865168539325842,
+            "false_positive_rate": 0.003556910569105691
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 119,
+            "tn": 2174,
+            "fp": 9,
+            "fn": 2,
+            "accuracy": 0.9952256944444444,
+            "eot_f1": 0.9558232931726908,
+            "eot_precision": 0.9296875,
+            "eot_recall": 0.9834710743801653,
+            "false_share_of_cuts": 0.0703125,
+            "false_positive_rate": 0.004122766834631242
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 719,
+            "fp": 106,
+            "fn": 38,
+            "accuracy": 0.856,
+            "eot_f1": 0.6555023923444976,
+            "eot_precision": 0.5637860082304527,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.43621399176954734,
+            "false_positive_rate": 0.12848484848484848
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 84,
+            "tn": 1958,
+            "fp": 10,
+            "fn": 6,
+            "accuracy": 0.9922254616132167,
+            "eot_f1": 0.9130434782608695,
+            "eot_precision": 0.8936170212765957,
+            "eot_recall": 0.9333333333333333,
+            "false_share_of_cuts": 0.10638297872340426,
+            "false_positive_rate": 0.00508130081300813
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 115,
+            "tn": 2171,
+            "fp": 12,
+            "fn": 6,
+            "accuracy": 0.9921875,
+            "eot_f1": 0.9274193548387096,
+            "eot_precision": 0.905511811023622,
+            "eot_recall": 0.9504132231404959,
+            "false_share_of_cuts": 0.09448818897637795,
+            "false_positive_rate": 0.005497022446174988
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 719,
+            "fp": 106,
+            "fn": 38,
+            "accuracy": 0.856,
+            "eot_f1": 0.6555023923444976,
+            "eot_precision": 0.5637860082304527,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.43621399176954734,
+            "false_positive_rate": 0.12848484848484848
+          }
+        },
+        "score": 0.6555023923444976,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+      "archive": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1.zip",
+      "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+      "manifest_sha256": "b22ac82f48bf7765573298ea8676980128310820bd26094de527b966547f009b",
+      "deployment_bytes": 142753473,
+      "candidates": [
+        {
+          "candidate": "int4_g32",
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int4_g32",
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": true,
+            "zh": false
+          },
+          "model_bytes": 76418538,
+          "model_sha256": "dd48f112c8ebf0f2e230b74adfab5c537117c4214aeab46bbe1e55114cd0d04c",
+          "dev": {
+            "threshold": 0.42000000000000004,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 78,
+                "tn": 1962,
+                "fp": 6,
+                "fn": 12,
+                "accuracy": 0.9912536443148688,
+                "eot_f1": 0.896551724137931,
+                "eot_precision": 0.9285714285714286,
+                "eot_recall": 0.8666666666666667,
+                "false_share_of_cuts": 0.07142857142857142,
+                "false_positive_rate": 0.003048780487804878
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 119,
+                "tn": 2180,
+                "fp": 3,
+                "fn": 2,
+                "accuracy": 0.9978298611111112,
+                "eot_f1": 0.9794238683127572,
+                "eot_precision": 0.9754098360655737,
+                "eot_recall": 0.9834710743801653,
+                "false_share_of_cuts": 0.02459016393442623,
+                "false_positive_rate": 0.001374255611543747
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 111,
+                "tn": 763,
+                "fp": 62,
+                "fn": 64,
+                "accuracy": 0.874,
+                "eot_f1": 0.6379310344827587,
+                "eot_precision": 0.6416184971098265,
+                "eot_recall": 0.6342857142857142,
+                "false_share_of_cuts": 0.3583815028901734,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 82,
+                "tn": 1959,
+                "fp": 9,
+                "fn": 8,
+                "accuracy": 0.9917395529640428,
+                "eot_f1": 0.9060773480662984,
+                "eot_precision": 0.9010989010989011,
+                "eot_recall": 0.9111111111111111,
+                "false_share_of_cuts": 0.0989010989010989,
+                "false_positive_rate": 0.004573170731707317
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 115,
+                "tn": 2170,
+                "fp": 13,
+                "fn": 6,
+                "accuracy": 0.9917534722222222,
+                "eot_f1": 0.9236947791164659,
+                "eot_precision": 0.8984375,
+                "eot_recall": 0.9504132231404959,
+                "false_share_of_cuts": 0.1015625,
+                "false_positive_rate": 0.005955107650022904
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 111,
+                "tn": 763,
+                "fp": 62,
+                "fn": 64,
+                "accuracy": 0.874,
+                "eot_f1": 0.6379310344827587,
+                "eot_precision": 0.6416184971098265,
+                "eot_recall": 0.6342857142857142,
+                "false_share_of_cuts": 0.3583815028901734,
+                "false_positive_rate": 0.07515151515151515
+              }
+            },
+            "score": 0.6379310344827587,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "storage_bits": 4,
+          "embedding_bits": 4
+        },
+        {
+          "candidate": "mixed_int4_int8_embedding_g32",
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/mixed_int4_int8_embedding_g32",
+          "retention_passed": false,
+          "retention_by_language": {
+            "vi": false,
+            "en": true,
+            "zh": false
+          },
+          "model_bytes": 122521194,
+          "model_sha256": "eec7538b680b9292faf39139f25346ec40d970d881e1c32e46782d865e5d7f24",
+          "dev": {
+            "threshold": 0.42000000000000004,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 78,
+                "tn": 1962,
+                "fp": 6,
+                "fn": 12,
+                "accuracy": 0.9912536443148688,
+                "eot_f1": 0.896551724137931,
+                "eot_precision": 0.9285714285714286,
+                "eot_recall": 0.8666666666666667,
+                "false_share_of_cuts": 0.07142857142857142,
+                "false_positive_rate": 0.003048780487804878
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 119,
+                "tn": 2180,
+                "fp": 3,
+                "fn": 2,
+                "accuracy": 0.9978298611111112,
+                "eot_f1": 0.9794238683127572,
+                "eot_precision": 0.9754098360655737,
+                "eot_recall": 0.9834710743801653,
+                "false_share_of_cuts": 0.02459016393442623,
+                "false_positive_rate": 0.001374255611543747
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 111,
+                "tn": 764,
+                "fp": 61,
+                "fn": 64,
+                "accuracy": 0.875,
+                "eot_f1": 0.6397694524495677,
+                "eot_precision": 0.6453488372093024,
+                "eot_recall": 0.6342857142857142,
+                "false_share_of_cuts": 0.3546511627906977,
+                "false_positive_rate": 0.07393939393939394
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 82,
+                "tn": 1959,
+                "fp": 9,
+                "fn": 8,
+                "accuracy": 0.9917395529640428,
+                "eot_f1": 0.9060773480662984,
+                "eot_precision": 0.9010989010989011,
+                "eot_recall": 0.9111111111111111,
+                "false_share_of_cuts": 0.0989010989010989,
+                "false_positive_rate": 0.004573170731707317
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 115,
+                "tn": 2173,
+                "fp": 10,
+                "fn": 6,
+                "accuracy": 0.9930555555555556,
+                "eot_f1": 0.9349593495934959,
+                "eot_precision": 0.92,
+                "eot_recall": 0.9504132231404959,
+                "false_share_of_cuts": 0.08,
+                "false_positive_rate": 0.004580852038479157
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 111,
+                "tn": 764,
+                "fp": 61,
+                "fn": 64,
+                "accuracy": 0.875,
+                "eot_f1": 0.6397694524495677,
+                "eot_precision": 0.6453488372093024,
+                "eot_recall": 0.6342857142857142,
+                "false_share_of_cuts": 0.3546511627906977,
+                "false_positive_rate": 0.07393939393939394
+              }
+            },
+            "score": 0.6397694524495677,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "storage_bits": 4,
+          "embedding_bits": 8
+        },
+        {
+          "candidate": "int8_g64",
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+          "retention_passed": true,
+          "retention_by_language": {
+            "vi": true,
+            "en": true,
+            "zh": true
+          },
+          "model_bytes": 139823559,
+          "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+          "dev": {
+            "threshold": 0.26,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 82,
+                "tn": 1961,
+                "fp": 7,
+                "fn": 8,
+                "accuracy": 0.9927113702623906,
+                "eot_f1": 0.9162011173184358,
+                "eot_precision": 0.9213483146067416,
+                "eot_recall": 0.9111111111111111,
+                "false_share_of_cuts": 0.07865168539325842,
+                "false_positive_rate": 0.003556910569105691
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 119,
+                "tn": 2174,
+                "fp": 9,
+                "fn": 2,
+                "accuracy": 0.9952256944444444,
+                "eot_f1": 0.9558232931726908,
+                "eot_precision": 0.9296875,
+                "eot_recall": 0.9834710743801653,
+                "false_share_of_cuts": 0.0703125,
+                "false_positive_rate": 0.004122766834631242
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 137,
+                "tn": 718,
+                "fp": 107,
+                "fn": 38,
+                "accuracy": 0.855,
+                "eot_f1": 0.6539379474940334,
+                "eot_precision": 0.5614754098360656,
+                "eot_recall": 0.7828571428571428,
+                "false_share_of_cuts": 0.4385245901639344,
+                "false_positive_rate": 0.1296969696969697
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 84,
+                "tn": 1958,
+                "fp": 10,
+                "fn": 6,
+                "accuracy": 0.9922254616132167,
+                "eot_f1": 0.9130434782608695,
+                "eot_precision": 0.8936170212765957,
+                "eot_recall": 0.9333333333333333,
+                "false_share_of_cuts": 0.10638297872340426,
+                "false_positive_rate": 0.00508130081300813
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 115,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 6,
+                "accuracy": 0.9921875,
+                "eot_f1": 0.9274193548387096,
+                "eot_precision": 0.905511811023622,
+                "eot_recall": 0.9504132231404959,
+                "false_share_of_cuts": 0.09448818897637795,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 137,
+                "tn": 718,
+                "fp": 107,
+                "fn": 38,
+                "accuracy": 0.855,
+                "eot_f1": 0.6539379474940334,
+                "eot_precision": 0.5614754098360656,
+                "eot_recall": 0.7828571428571428,
+                "false_share_of_cuts": 0.4385245901639344,
+                "false_positive_rate": 0.1296969696969697
+              }
+            },
+            "score": 0.6539379474940334,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "storage_bits": 8,
+          "embedding_bits": 8
+        }
+      ],
+      "cpu_benchmark": {
+        "teacher": {
+          "backend": "PyTorch FP32 CPU teacher",
+          "batch_size": 1,
+          "threads": 2,
+          "timed_calls": 120,
+          "cases": 24,
+          "median_ms": 12.7113935,
+          "p95_ms": 34.076977299999996,
+          "mean_ms": 15.982426066666669,
+          "peak_process_rss_bytes": 2009550848,
+          "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+          "current_process_rss_bytes": 1486737408,
+          "legacy_ru_maxrss_not_used": 2009550848,
+          "measurement_includes_normalization_and_tokenization": true,
+          "shared_host_not_isolated": true
+        },
+        "compressed": {
+          "backend": "ONNX Runtime CPU, matrix storage precision from contract",
+          "batch_size": 1,
+          "threads": 2,
+          "timed_calls": 120,
+          "cases": 24,
+          "median_ms": 8.966085,
+          "p95_ms": 30.54159395,
+          "mean_ms": 12.610156258333332,
+          "peak_process_rss_bytes": 1700372480,
+          "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+          "current_process_rss_bytes": 746131456,
+          "legacy_ru_maxrss_not_used": 1700372480,
+          "measurement_includes_normalization_and_tokenization": true,
+          "shared_host_not_isolated": true
+        }
+      },
+      "test_used": false,
+      "tiny_campaign_report": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/final_report.json",
+      "completed_utc": "2026-11-02T10:55:45.352627+00:00",
+      "original_archive_sha256": "1b473c59694a33061028f03dd0317af26a962ee01e4bf6a03e152cb578a167b2",
+      "benchmark_measurement_revision": 2
+    },
+    "package_verification.json": {
+      "complete": true,
+      "accepted": true,
+      "all_manifest_files_and_zip_hashes_match": true,
+      "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+      "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+      "archive_bytes": 132170620,
+      "manifest_sha256": "b22ac82f48bf7765573298ea8676980128310820bd26094de527b966547f009b",
+      "model_bytes": 139823559,
+      "deployment_bytes": 142753473,
+      "initializer_types": {
+        "INT8": 40,
+        "FLOAT16": 40,
+        "FLOAT": 64
+      },
+      "float_matrix_initializers": [],
+      "portable_runtime_imported_torch": false,
+      "portable_dev_smoke": {
+        "vi": {
+          "prediction": "NEOT",
+          "prob_EOT": 9.292994257029164e-05,
+          "threshold": 0.26,
+          "smoke_only": false
+        },
+        "en": {
+          "prediction": "NEOT",
+          "prob_EOT": 1.8432482240534505e-05,
+          "threshold": 0.26,
+          "smoke_only": false
+        },
+        "zh": {
+          "prediction": "NEOT",
+          "prob_EOT": 0.005270271933563177,
+          "threshold": 0.26,
+          "smoke_only": false
+        }
+      },
+      "main_training_interrupted": false,
+      "model_and_checkpoint_downloaded_to_windows": false,
+      "backed_up_to_drive": false
+    },
+    "process": {
+      "present": false
+    }
+  },
+  "run_summaries": {
+    "gru128_distill": {
+      "epoch": 5,
+      "step": 5860,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 71,
+          "tn": 1963,
+          "fp": 5,
+          "fn": 19,
+          "accuracy": 0.9883381924198251,
+          "eot_f1": 0.8554216867469879,
+          "eot_precision": 0.9342105263157895,
+          "eot_recall": 0.7888888888888889,
+          "false_share_of_cuts": 0.06578947368421052,
+          "false_positive_rate": 0.002540650406504065
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 110,
+          "tn": 2170,
+          "fp": 13,
+          "fn": 11,
+          "accuracy": 0.9895833333333334,
+          "eot_f1": 0.9016393442622951,
+          "eot_precision": 0.8943089430894309,
+          "eot_recall": 0.9090909090909091,
+          "false_share_of_cuts": 0.10569105691056911,
+          "false_positive_rate": 0.005955107650022904
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 88,
+          "tn": 725,
+          "fp": 100,
+          "fn": 87,
+          "accuracy": 0.813,
+          "eot_f1": 0.48484848484848486,
+          "eot_precision": 0.46808510638297873,
+          "eot_recall": 0.5028571428571429,
+          "false_share_of_cuts": 0.5319148936170213,
+          "false_positive_rate": 0.12121212121212122
+        }
+      }
+    },
+    "gru128_fp32_control": {
+      "epoch": 1,
+      "step": 1172,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 77,
+          "tn": 1962,
+          "fp": 6,
+          "fn": 13,
+          "accuracy": 0.9907677356656949,
+          "eot_f1": 0.8901734104046243,
+          "eot_precision": 0.927710843373494,
+          "eot_recall": 0.8555555555555555,
+          "false_share_of_cuts": 0.07228915662650602,
+          "false_positive_rate": 0.003048780487804878
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 111,
+          "tn": 2172,
+          "fp": 11,
+          "fn": 10,
+          "accuracy": 0.9908854166666666,
+          "eot_f1": 0.9135802469135802,
+          "eot_precision": 0.9098360655737705,
+          "eot_recall": 0.9173553719008265,
+          "false_share_of_cuts": 0.09016393442622951,
+          "false_positive_rate": 0.005038937242327073
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 64,
+          "tn": 763,
+          "fp": 62,
+          "fn": 111,
+          "accuracy": 0.827,
+          "eot_f1": 0.42524916943521596,
+          "eot_precision": 0.5079365079365079,
+          "eot_recall": 0.3657142857142857,
+          "false_share_of_cuts": 0.49206349206349204,
+          "false_positive_rate": 0.07515151515151515
+        }
+      }
+    },
+    "gru128_qat_g32": {
+      "epoch": 4,
+      "step": 4688,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 78,
+          "tn": 1963,
+          "fp": 5,
+          "fn": 12,
+          "accuracy": 0.9917395529640428,
+          "eot_f1": 0.9017341040462428,
+          "eot_precision": 0.9397590361445783,
+          "eot_recall": 0.8666666666666667,
+          "false_share_of_cuts": 0.060240963855421686,
+          "false_positive_rate": 0.002540650406504065
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 111,
+          "tn": 2168,
+          "fp": 15,
+          "fn": 10,
+          "accuracy": 0.9891493055555556,
+          "eot_f1": 0.8987854251012146,
+          "eot_precision": 0.8809523809523809,
+          "eot_recall": 0.9173553719008265,
+          "false_share_of_cuts": 0.11904761904761904,
+          "false_positive_rate": 0.006871278057718736
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 85,
+          "tn": 730,
+          "fp": 95,
+          "fn": 90,
+          "accuracy": 0.815,
+          "eot_f1": 0.4788732394366197,
+          "eot_precision": 0.4722222222222222,
+          "eot_recall": 0.4857142857142857,
+          "false_share_of_cuts": 0.5277777777777778,
+          "false_positive_rate": 0.11515151515151516
+        }
+      }
+    },
+    "gru128_qat_g64": {
+      "epoch": 3,
+      "step": 3516,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 76,
+          "tn": 1962,
+          "fp": 6,
+          "fn": 14,
+          "accuracy": 0.9902818270165209,
+          "eot_f1": 0.8837209302325582,
+          "eot_precision": 0.926829268292683,
+          "eot_recall": 0.8444444444444444,
+          "false_share_of_cuts": 0.07317073170731707,
+          "false_positive_rate": 0.003048780487804878
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 111,
+          "tn": 2168,
+          "fp": 15,
+          "fn": 10,
+          "accuracy": 0.9891493055555556,
+          "eot_f1": 0.8987854251012146,
+          "eot_precision": 0.8809523809523809,
+          "eot_recall": 0.9173553719008265,
+          "false_share_of_cuts": 0.11904761904761904,
+          "false_positive_rate": 0.006871278057718736
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 73,
+          "tn": 753,
+          "fp": 72,
+          "fn": 102,
+          "accuracy": 0.826,
+          "eot_f1": 0.45625,
+          "eot_precision": 0.503448275862069,
+          "eot_recall": 0.41714285714285715,
+          "false_share_of_cuts": 0.496551724137931,
+          "false_positive_rate": 0.08727272727272728
+        }
+      }
+    },
+    "gru192_distill": {
+      "epoch": 5,
+      "step": 5860,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 75,
+          "tn": 1958,
+          "fp": 10,
+          "fn": 15,
+          "accuracy": 0.9878522837706512,
+          "eot_f1": 0.8571428571428571,
+          "eot_precision": 0.8823529411764706,
+          "eot_recall": 0.8333333333333334,
+          "false_share_of_cuts": 0.11764705882352941,
+          "false_positive_rate": 0.00508130081300813
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 117,
+          "tn": 2169,
+          "fp": 14,
+          "fn": 4,
+          "accuracy": 0.9921875,
+          "eot_f1": 0.9285714285714286,
+          "eot_precision": 0.8931297709923665,
+          "eot_recall": 0.9669421487603306,
+          "false_share_of_cuts": 0.10687022900763359,
+          "false_positive_rate": 0.00641319285387082
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 130,
+          "tn": 589,
+          "fp": 236,
+          "fn": 45,
+          "accuracy": 0.719,
+          "eot_f1": 0.4805914972273567,
+          "eot_precision": 0.3551912568306011,
+          "eot_recall": 0.7428571428571429,
+          "false_share_of_cuts": 0.644808743169399,
+          "false_positive_rate": 0.28606060606060607
+        }
+      }
+    },
+    "gru192_fp32_control": {
+      "epoch": 1,
+      "step": 1172,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 81,
+          "tn": 1956,
+          "fp": 12,
+          "fn": 9,
+          "accuracy": 0.9897959183673469,
+          "eot_f1": 0.8852459016393442,
+          "eot_precision": 0.8709677419354839,
+          "eot_recall": 0.9,
+          "false_share_of_cuts": 0.12903225806451613,
+          "false_positive_rate": 0.006097560975609756
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 118,
+          "tn": 2171,
+          "fp": 12,
+          "fn": 3,
+          "accuracy": 0.9934895833333334,
+          "eot_f1": 0.9402390438247012,
+          "eot_precision": 0.9076923076923077,
+          "eot_recall": 0.9752066115702479,
+          "false_share_of_cuts": 0.09230769230769231,
+          "false_positive_rate": 0.005497022446174988
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 127,
+          "tn": 622,
+          "fp": 203,
+          "fn": 48,
+          "accuracy": 0.749,
+          "eot_f1": 0.502970297029703,
+          "eot_precision": 0.38484848484848483,
+          "eot_recall": 0.7257142857142858,
+          "false_share_of_cuts": 0.6151515151515151,
+          "false_positive_rate": 0.24606060606060606
+        }
+      }
+    },
+    "gru192_qat_g32": {
+      "epoch": 3,
+      "step": 3516,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 81,
+          "tn": 1958,
+          "fp": 10,
+          "fn": 9,
+          "accuracy": 0.9907677356656949,
+          "eot_f1": 0.8950276243093923,
+          "eot_precision": 0.8901098901098901,
+          "eot_recall": 0.9,
+          "false_share_of_cuts": 0.10989010989010989,
+          "false_positive_rate": 0.00508130081300813
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 118,
+          "tn": 2171,
+          "fp": 12,
+          "fn": 3,
+          "accuracy": 0.9934895833333334,
+          "eot_f1": 0.9402390438247012,
+          "eot_precision": 0.9076923076923077,
+          "eot_recall": 0.9752066115702479,
+          "false_share_of_cuts": 0.09230769230769231,
+          "false_positive_rate": 0.005497022446174988
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 123,
+          "tn": 630,
+          "fp": 195,
+          "fn": 52,
+          "accuracy": 0.753,
+          "eot_f1": 0.49898580121703856,
+          "eot_precision": 0.3867924528301887,
+          "eot_recall": 0.7028571428571428,
+          "false_share_of_cuts": 0.6132075471698113,
+          "false_positive_rate": 0.23636363636363636
+        }
+      }
+    },
+    "gru192_qat_g64": {
+      "epoch": 3,
+      "step": 3516,
+      "retention_passed": false,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 78,
+          "tn": 1959,
+          "fp": 9,
+          "fn": 12,
+          "accuracy": 0.9897959183673469,
+          "eot_f1": 0.8813559322033898,
+          "eot_precision": 0.896551724137931,
+          "eot_recall": 0.8666666666666667,
+          "false_share_of_cuts": 0.10344827586206896,
+          "false_positive_rate": 0.004573170731707317
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 117,
+          "tn": 2174,
+          "fp": 9,
+          "fn": 4,
+          "accuracy": 0.9943576388888888,
+          "eot_f1": 0.9473684210526315,
+          "eot_precision": 0.9285714285714286,
+          "eot_recall": 0.9669421487603306,
+          "false_share_of_cuts": 0.07142857142857142,
+          "false_positive_rate": 0.004122766834631242
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 108,
+          "tn": 674,
+          "fp": 151,
+          "fn": 67,
+          "accuracy": 0.782,
+          "eot_f1": 0.4976958525345622,
+          "eot_precision": 0.416988416988417,
+          "eot_recall": 0.6171428571428571,
+          "false_share_of_cuts": 0.583011583011583,
+          "false_positive_rate": 0.18303030303030304
+        }
+      }
+    }
+  },
+  "checked_utc": "2026-11-02T11:03:42.487297+00:00",
+  "windows_free_gib": 22.172252655029297
+}

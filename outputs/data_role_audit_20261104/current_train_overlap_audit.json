@@ -1,0 +1,1996 @@
+{
+  "checked_train_sha256": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+  "training_dataset_unchanged": true,
+  "actual_added_train_points": 199960,
+  "actual_added_train_source_turns": 83149,
+  "summary": {
+    "eval/onevoice/labels_checked.jsonl": {
+      "by_split": {
+        "test": {
+          "dialogues": 10,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 10
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 10
+    },
+    "eval/numeric/sentence/labels_checked.jsonl": {
+      "by_split": {
+        "dev": {
+          "dialogues": 168,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 168
+        },
+        "test": {
+          "dialogues": 170,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 170
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 338
+    },
+    "eval/factory/labels_checked.jsonl": {
+      "by_split": {
+        "test": {
+          "dialogues": 130,
+          "source_family_overlap": 24,
+          "exact_paragraph_overlap": 24,
+          "excluded_dialogues": 24,
+          "remaining_candidates": 106
+        },
+        "dev": {
+          "dialogues": 135,
+          "source_family_overlap": 30,
+          "exact_paragraph_overlap": 30,
+          "excluded_dialogues": 30,
+          "remaining_candidates": 105
+        }
+      },
+      "source_family_overlap_dialogues": 54,
+      "exact_source_paragraph_overlap_dialogues": 54,
+      "dialogs_requiring_exclusion": 54,
+      "candidate_dialogues_without_detected_overlap": 211
+    },
+    "eval/daily/labels_checked.jsonl": {
+      "by_split": {
+        "test": {
+          "dialogues": 484,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 484
+        },
+        "dev": {
+          "dialogues": 506,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 506
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 990
+    },
+    "eval/numeric/code/labels_checked.jsonl": {
+      "by_split": {
+        "dev": {
+          "dialogues": 182,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 182
+        },
+        "test": {
+          "dialogues": 182,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 182
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 364
+    },
+    "eval/asr/labels_checked.jsonl": {
+      "by_split": {
+        "dev": {
+          "dialogues": 46,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 46
+        },
+        "test": {
+          "dialogues": 62,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 62
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 108
+    },
+    "eval/numeric/dialogue/labels_checked.jsonl": {
+      "by_split": {
+        "dev": {
+          "dialogues": 1788,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 1788
+        },
+        "test": {
+          "dialogues": 1796,
+          "source_family_overlap": 0,
+          "exact_paragraph_overlap": 0,
+          "excluded_dialogues": 0,
+          "remaining_candidates": 1796
+        }
+      },
+      "source_family_overlap_dialogues": 0,
+      "exact_source_paragraph_overlap_dialogues": 0,
+      "dialogs_requiring_exclusion": 0,
+      "candidate_dialogues_without_detected_overlap": 3584
+    }
+  },
+  "overlap_examples": [
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00023",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 19,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "d213e879b73a93e7cf4f34d841b120b8a67b60a85ec5cca36f7f2fa5df7a5401",
+          "words": 30,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00023"
+          ]
+        },
+        {
+          "sha256": "dee68603051b877a101ebc6c0f9083355d41c8bdb9f9c0d66836393e4b73e739",
+          "words": 12,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00023"
+          ]
+        },
+        {
+          "sha256": "28e7897cc3591738b020f3efc3139feb084b6b87db25ecaea8e0690f6a2b9264",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00023"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00054",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 19,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "a626028d5656a300f71e2f7bcacbaebfd0180051eec54844dedc88405e6b9e37",
+          "words": 20,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00054"
+          ]
+        },
+        {
+          "sha256": "1ff1e31f29d4fea8635a3ed46505bf32938b48180c29eeee988ce5ff49b2495b",
+          "words": 29,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00054"
+          ]
+        },
+        {
+          "sha256": "7f125eda27e9c62b8cce2501efca34cbf3082660795233a0c323cc592220072b",
+          "words": 21,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00054"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00007",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 20,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "6de47e9b32ff1798b59061444fe587ac6736183d577e7870a8a8de1098932c6f",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00007"
+          ]
+        },
+        {
+          "sha256": "9631392f96d952aea28a8c81591e1cd2dc30b5facbf71a1f4bc0e11076238d3d",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00007"
+          ]
+        },
+        {
+          "sha256": "f13c939d66c5b004938fc0aad9df9722e73406feddd62434735f1529712b075c",
+          "words": 15,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00007"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00004",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "2a4840b39b7b809caf9cfde30acf03ba5f8918653ef3e882777f1ae2eacb22ee",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00004"
+          ]
+        },
+        {
+          "sha256": "8447aa034359838fcc9bb72f9b2260b4f2bbe9f2a510c9be387fe9b052ce8872",
+          "words": 18,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00004"
+          ]
+        },
+        {
+          "sha256": "acd3bf921d1349b73293074ae86ee8db797f3396ea4d5651eb667e0487f59815",
+          "words": 16,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00004"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00028",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "b00434cf14904ab89371c271ee5ee6d23381e8177d9f2c8286b134a3e776fd07",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00028"
+          ]
+        },
+        {
+          "sha256": "413b190f2a9a15009ce181f85ebccae43b136a83f33714c333168ff94cc57d97",
+          "words": 25,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00028"
+          ]
+        },
+        {
+          "sha256": "cb7e7b1ea73d6ee31e2e43ef0f790357d62ebd013cb0f38036a3a5a28e925206",
+          "words": 29,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00028"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00029",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 32,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "4eb06db89858c19d702a446fd27ae64c8fcd52e46b73231a38df4407f92e58f3",
+          "words": 14,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00029"
+          ]
+        },
+        {
+          "sha256": "ecc62f3e35bc0959712ccd45816b083ed4bb9ec8149375ca35aa203fe136188e",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00029"
+          ]
+        },
+        {
+          "sha256": "c8ffa795f70e1f1ddecc652b5500d371fe4617c30aa0a51c042816782d0eba9a",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00029"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00053",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "f0532b61f2750c9202a72bcc71876446560242b991756f558a8e13ec8160fcb6",
+          "words": 20,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00053"
+          ]
+        },
+        {
+          "sha256": "65a1e16a5f8f2a2e2ef798cb1d7075357be132f24f62a3a11c10c770733eb27f",
+          "words": 42,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00053"
+          ]
+        },
+        {
+          "sha256": "9d05edbc7bc8fb7b4bee2af21541df6a058a0f412860db874d7358876b617e90",
+          "words": 10,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00053"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00030",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "d18b8a77efc8f41b663ba13f613b887990c2f1809628bcc5f6449a152f8a0cf8",
+          "words": 8,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00030"
+          ]
+        },
+        {
+          "sha256": "91d6ed3a42cc9c08753c0c02e6079cbd83b04d659f372fa17a8d296287a40536",
+          "words": 44,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00030"
+          ]
+        },
+        {
+          "sha256": "e0582d21ef5b8e4e6f616cc61ffcc15868b588476f2168269a7246cf0e655179",
+          "words": 15,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00030"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00017",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 22,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "c2f93a26ce3686ffac052fac3c6239538794b1a5b94d12f7c231178f78932ed8",
+          "words": 34,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00017"
+          ]
+        },
+        {
+          "sha256": "38474dd77d5d0f91710cdd8de6415bd933a6d83090851a131b9d488202ca162f",
+          "words": 8,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00017"
+          ]
+        },
+        {
+          "sha256": "4d25515710a3852f92e37f8628a845959c01e8f2ba7b9dfa95603f8b799c7891",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00017"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00063",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 79,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "14b02348bc7dd05f325e5ac822dad600b996b11fadf6b94618bed9dc57471e31",
+          "words": 10,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00063"
+          ]
+        },
+        {
+          "sha256": "8d1a481822eae6e042082b4a08d73d3cec209a5b7533782c28fc00c42f8db8f0",
+          "words": 34,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00063"
+          ]
+        },
+        {
+          "sha256": "32709fb32b8a15341c3d2ede7ad9a4727b699999597398ce556c4a42fb54d3b5",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00063"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00010",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 44,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "3a1cd8c69b272ec2e0f92d2841f671abcd0f30fc40134063349bccc98f77dd4c",
+          "words": 19,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00010"
+          ]
+        },
+        {
+          "sha256": "30782de89718d6a7d9c047c6f1d8aa83f2d75732133a7ab577b93516f6753730",
+          "words": 180,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00010"
+          ]
+        },
+        {
+          "sha256": "ad8ddc670c3d720d3fd636074dd0589c4e8de21529c9901fbc5b0886a3f9ef02",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00010"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00078",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 34,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "af5bff977f372c8dca1d4153f7124a3bcf8ae72573702b6ece381e9be6aaccb5",
+          "words": 13,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00078"
+          ]
+        },
+        {
+          "sha256": "3b85fb31522931bfa85c3d57b9118595a0e7d112a1f3b7dc0d2d0240f729124d",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00078"
+          ]
+        },
+        {
+          "sha256": "914362bf8bec52d4e483201c60c491276ea1acd288fa2f4f66a357eea275e112",
+          "words": 31,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00078"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00104",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 64,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "2379e16728f0a66c6f6823ca2f83d54346c77bd8960d61749f110187ad6a0572",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00104"
+          ]
+        },
+        {
+          "sha256": "1a52416ee644ac927c654ecd3ff523efd5a9be6a70e5fbcd85a41a680dd748b3",
+          "words": 307,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00104"
+          ]
+        },
+        {
+          "sha256": "7e58fe14507a32cfb95b6ce76addf4547819b79fc7aab6d6cf938008f8f03ea0",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00104"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00016",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 57,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "0043699e3e0e9594e8a2d55a07e657767270147b50e22d2afc95375e83c93a33",
+          "words": 25,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00016"
+          ]
+        },
+        {
+          "sha256": "06d8c7a382694b3703088c0aca615c781fe7f764e97597c525c3f9ed3b35116e",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00016"
+          ]
+        },
+        {
+          "sha256": "2080cfe5a337fd6a68ceb2b7b1bd63b355c7cceba92d2ab1f22e28a0ca69f5fe",
+          "words": 28,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00016"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00061",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 41,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "b7939d6538914fe214556f7ad91a87ffdcb6fae6f47be4c2d82d31d5d90cc2b0",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00061"
+          ]
+        },
+        {
+          "sha256": "32cc3d0d2679707e213578275cdd4a52a208c0c1e8216f36e773a2c4bd8f61cb",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00061"
+          ]
+        },
+        {
+          "sha256": "483ba4521c2be00f48002086d1f3a7b4bfd40054bcf5617efa3c7bf5d5aeb3ec",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00061"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00117",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 43,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "a2222d82f010797919f9085cbaefdde193a6db63e91763a80ec996603ee891b8",
+          "words": 47,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00117"
+          ]
+        },
+        {
+          "sha256": "e7cab1401f87a6d66b88029edd3a9153e6475f0d200b1915b268f55d3eefeeb3",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00117"
+          ]
+        },
+        {
+          "sha256": "1ebaa3b301eb3bdef899648272f633abab3eb205eb4f2cda2b619964b8439197",
+          "words": 35,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00117"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00090",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 44,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "f5af4a2ea2559f1ee052805dd039b6014e6391ef845ecade90f94b64114e6189",
+          "words": 29,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00090"
+          ]
+        },
+        {
+          "sha256": "f1fd3e2b7730e9016cf7f05286fab5ef8d3f850b8990fadfba946b9438a858e6",
+          "words": 30,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00090"
+          ]
+        },
+        {
+          "sha256": "0341f48d9c954f0d16117e1cb4b395b94c24644f8b4f7c54a66b1ac01da5fd9b",
+          "words": 28,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00090"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00135",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 36,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "1c296ccf0ef257b8eb2d45ea68f53fe662a42f4e8a724a2c9c301ffb52827271",
+          "words": 29,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00135"
+          ]
+        },
+        {
+          "sha256": "c0bb89e9d6fa56371524a009d1957a2faa6161457be63122f0c4c8ee818490af",
+          "words": 8,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00135"
+          ]
+        },
+        {
+          "sha256": "83461011ca042ad84380ccdecf9d6bf972232e5bd561d37b6af8ca71350c45ba",
+          "words": 184,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00135"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00133",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 66,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "fa83686e0e2f1a9778d933aa523995cfff21f92b38a05a10808035d9af436ffa",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00133"
+          ]
+        },
+        {
+          "sha256": "35547e01f988c79d4a20465690ab10698999c532b78086391e5c096ebccd819f",
+          "words": 275,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00133"
+          ]
+        },
+        {
+          "sha256": "b4395025635addbf628c277a1e7b7a9351a5a9af6f196b2345a4b5bd14b690b1",
+          "words": 31,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00133"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00216",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 15,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "94d4eb7ac480732b0d625e6fc3447cf77236abcaee38bfb576beb3caec7cc93e",
+          "words": 47,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00216"
+          ]
+        },
+        {
+          "sha256": "80c9a7c137ba1a7d51d27736050532a6f094a6b89a8a6aa530d65a229b47b470",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00216"
+          ]
+        },
+        {
+          "sha256": "2e6383e6754f569520f7d5d97659ecca336d4418d666cc5bfb0dad4dcb9ebb74",
+          "words": 13,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00216"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00200",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 20,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "2dcff660da79c21078c5ea2413c4eea4dee49ee9bc35af7a24c9506457094718",
+          "words": 33,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00200"
+          ]
+        },
+        {
+          "sha256": "15ea5e1065728f2ec4970a8bfe8de11a6a62b5c62d02a131d37ae1bf21be6e30",
+          "words": 13,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00200"
+          ]
+        },
+        {
+          "sha256": "bf05f5d742403d043c3662a90d929127b6f0bcef39674b1779638e23e7269d2a",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00200"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00169",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 31,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "e3b0ebc784a50b8288764fd19416c83a408d561da702c5766967404f4be94534",
+          "words": 48,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00169"
+          ]
+        },
+        {
+          "sha256": "53720c48eaa8aa663ef170c08c075eee3d3a038ae03b56f42850b5c7a7e42876",
+          "words": 32,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00169"
+          ]
+        },
+        {
+          "sha256": "81d4e9b4b831710d48b5831d82a11570fd50f70dfc79ddf0ed657a593ea1084e",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00169"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00187",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "d671fc2770c8cb03520f64fbebd27f6e3b244ce9555a15b388c4d56034b63564",
+          "words": 8,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00187"
+          ]
+        },
+        {
+          "sha256": "52e8051f45a39f1fa248d6a0fecdeb52d9a53101ad8f9e0d6899a48ee834fe6d",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00187"
+          ]
+        },
+        {
+          "sha256": "71e9681f2219ee6b2bdee1ee32ed2fd00b26363e6742458c749a3c54929ce46e",
+          "words": 12,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00187"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00208",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 29,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "8c92c0c06291bf8ece4a595ffd5325927a8dd753a947c029212ebd90b7cb5a89",
+          "words": 50,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00208"
+          ]
+        },
+        {
+          "sha256": "96d273bc4ed9c0ec62451f4fa01e350af0b8b9a26c19a2a16c9a360287b2f441",
+          "words": 13,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00208"
+          ]
+        },
+        {
+          "sha256": "8ca72d0cfa5ebaa8be1631b2382df243377e2df6dd97bbea3c0841b2f7df1868",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00208"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00217",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 36,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "c5631e7b2d1d5e7a00c140c5753ab76dd92c64508ef0bf673b9ad42b5b54e220",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00217"
+          ]
+        },
+        {
+          "sha256": "232384a93eb8e7f9458fe3705fe3a6a28502ec48d71ffb29cafd436863ed0069",
+          "words": 17,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00217"
+          ]
+        },
+        {
+          "sha256": "c0b807cf5bf4b95a5d37fd0d6328018b6178e20c44b8e7677d945f3c20a38f28",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00217"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00258",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 20,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "ebc82d3e1dac6cbbd06e22f1f9ad3f0f6e1609794d560c07fef214a695f10145",
+          "words": 45,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00258"
+          ]
+        },
+        {
+          "sha256": "832d5ef9e19c8caa09a96bdb8169e682c58657fb1b63163e35675e23fff0d2e5",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00258"
+          ]
+        },
+        {
+          "sha256": "9e9d906ff076e00321d21b553e02f8566d2a770cdeec6bace72ffa2bb0325fe7",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00258"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00189",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 68,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "9cacbe1e2fc98f6c2751a3e646133c5778d9791cb6df5c8078a5313c04553349",
+          "words": 34,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00189"
+          ]
+        },
+        {
+          "sha256": "455c34fe8784e5eee85526cf5c23d283838a77972b872e0021604b5a052feff8",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00189"
+          ]
+        },
+        {
+          "sha256": "8d4a022910b30e026af50ffd2e92ff8f832c051fa952e9f8c5b3656465191142",
+          "words": 186,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00189"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00224",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 60,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "a1ba6fceac72b8dd64395ed720ed474c27207a13a075ead695a677d35d5aac23",
+          "words": 32,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00224"
+          ]
+        },
+        {
+          "sha256": "6ae0475d734518bc28e90fc1af9fb4e51270dc6c781cb755f06edb837b26aed5",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00224"
+          ]
+        },
+        {
+          "sha256": "2a7f63a6541f475812b3f529d04f684ae383e7f0138bdee9d81e130ce2f786dc",
+          "words": 19,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00224"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00232",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 40,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "0beb34b7d4037fc361840a7d53009637a0f062cd3dd873b87cd61411f9ab04e8",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00232"
+          ]
+        },
+        {
+          "sha256": "8db2dc00d5af42fb258e62923532f8b72b97d6f4c65a993ac5a1c829b5493101",
+          "words": 17,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00232"
+          ]
+        },
+        {
+          "sha256": "8cd8540feddb7ece6f6bf2fb34075d445bb2bb220e00264db8ba8817361f0570",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00232"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00271",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 22,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "63dde439ebab81011386cbeba2e882930bdb031c029c1aa768a3a047a7adc787",
+          "words": 31,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00271"
+          ]
+        },
+        {
+          "sha256": "7a2bbabc869185dee9876361b3d59a610b4326c07762ef6ee7b6861c003f582b",
+          "words": 19,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00271"
+          ]
+        },
+        {
+          "sha256": "5e9c48694a50b7c09123ba61417cc9017d4e8994f51696e8b75390d7df88a89f",
+          "words": 34,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00271"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00282",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 20,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "762996f035c0ba463e04f9f76dbbfc9b0bd08b899c9c57eedeb4a8fbe3b9e487",
+          "words": 18,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00282"
+          ]
+        },
+        {
+          "sha256": "0a3b5740cdc6beaf70131a3f6d8697466fa78f0f47d0599bed94f4e3c4b9e667",
+          "words": 46,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00282"
+          ]
+        },
+        {
+          "sha256": "be6c86f26d28b86fcfe33eff64278f6d1f0dbb6a71c075a6b1a1c063e49b2875",
+          "words": 21,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00282"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00280",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 36,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "dea8a393278c624400a9e2025ef27fb8ac50f2ee58b8443deb8606a989f38d8c",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00280"
+          ]
+        },
+        {
+          "sha256": "fed17e929bff94285fc929ff891faf8c1701a5c61279213012b5550616f50d40",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00280"
+          ]
+        },
+        {
+          "sha256": "5843da9fc3ffa4656cb80a0a9e4f8596e0d5286a221e4edfc8647d62fa4db43a",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00280"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00351",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 38,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "35ba7da49b658ad38ee24b17a755998e09dd0a23c5e18bfb7fb3368578b0fa45",
+          "words": 13,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00351"
+          ]
+        },
+        {
+          "sha256": "5c6f737c0cb8681536de1cb52b46338537fff4903ae949d8635af913dd2d4697",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00351"
+          ]
+        },
+        {
+          "sha256": "76bb52297dbc07f52d8c0baa7c584011f9a0ead5ac6c046a35a93a945625e1db",
+          "words": 33,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00351"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00304",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 36,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "de651e6baab9adda0ccbef4268143ef68a88ac76c686fce75a59a6b259df0a8b",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00304"
+          ]
+        },
+        {
+          "sha256": "3d5582a45f701195ffa3ccae0afe282828126327f76f5a5dc0aeb6cd78c94463",
+          "words": 16,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00304"
+          ]
+        },
+        {
+          "sha256": "08b543f11a821d6d13e32394985209c0f894f365b14cae611a987d2f4551675b",
+          "words": 19,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00304"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00352",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 62,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "fe5706c63b2d2cf4e7320450bbba7f5a49bace1ec2e81e369d4080789c408bc3",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00352"
+          ]
+        },
+        {
+          "sha256": "d89cd937ec5ab206fa415a313abfc06b0aa42432530281e0cf3401d8202600f4",
+          "words": 301,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00352"
+          ]
+        },
+        {
+          "sha256": "ad9cf47576dc3e200fc07da324a7c61a37e934316c7bd5e5efbc81efc4cd9e9c",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00352"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00363",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 20,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "c889e34db9c9aa3920146d5f333045e39968a2c8e37104824fc22c3f2244c61a",
+          "words": 33,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00363"
+          ]
+        },
+        {
+          "sha256": "d09eec10635d50643a00e8d80dbceba2606abca48d21ff69f840058536d5c47d",
+          "words": 40,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00363"
+          ]
+        },
+        {
+          "sha256": "f4f258b416f7f325a3254692a243870c5f2bd4b500a069f3e49f02bfc46ab70f",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00363"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00369",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 36,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "f59ba23406116d68368f15ded119687c60d03796957e16de1cdb6a78bf37bea0",
+          "words": 20,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00369"
+          ]
+        },
+        {
+          "sha256": "2ebb621b749f3639156026e2d73f08881c0a1b4024b7aad54fa388a21fbb46ae",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00369"
+          ]
+        },
+        {
+          "sha256": "0f45ce6bd2d31ad92d34738e8544c6c421ea6332c75909531590baf8502b4e16",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00369"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00353",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 67,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "d823f86a8fd5eff643b60d96e3e947d756f381fa10a6d43cc1249b1160272c55",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00353"
+          ]
+        },
+        {
+          "sha256": "d2ca044244acdc3bb5110b22e64d6cc97abf9b8e76405802567105300908601e",
+          "words": 46,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00353"
+          ]
+        },
+        {
+          "sha256": "c2ac959d39242113b3d0d0f34816d1d00f8094968c56e5a91ba49cbf9323a0b6",
+          "words": 218,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00353"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00433",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 21,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "eb33fde8ffbbf70a80315f46f5c41bd9e20d0db5c3506aa011880b7af0b3ba2b",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00433"
+          ]
+        },
+        {
+          "sha256": "91f54543ce08a8b66cba8bd136ff19c03a9aa33682b9a406b42fdb2acd63bb1c",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00433"
+          ]
+        },
+        {
+          "sha256": "a0864c848fa02276c43b0252d5d4c576ee0a216f36e13a15a467e83396f40dfb",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00433"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00402",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 31,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "7c8e940b1e1d115e10a2ba68c7c29a7ec318de944dcacc1e9a66e44883a4ba4c",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00402"
+          ]
+        },
+        {
+          "sha256": "abea3e439ab92942cd1688790666694dbd27a578c6939025c9c449f2879f0ef3",
+          "words": 25,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00402"
+          ]
+        },
+        {
+          "sha256": "6410137b6fa764b2ebb42379d60d897102fbe7bc70f0fc4bbc8c8f0a90523f3f",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00402"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00403",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 41,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "0649b08d735fa1859fef9e9a2ae7039bf93211193f0653b4cc25ea865a6a38eb",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00403"
+          ]
+        },
+        {
+          "sha256": "0b8ba802267195fe1361bbf675a5c4e76293949d88d06a0a690a902de7a67594",
+          "words": 12,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00403"
+          ]
+        },
+        {
+          "sha256": "99577e13e48d234c00dbf7a29024acc06157591a232fee0ac46efdc4ff734588",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00403"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00437",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 18,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "006304f7b7c03dcedae4ccbd22f83102d311e25c5579eb56dd62487322f7dc12",
+          "words": 32,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00437"
+          ]
+        },
+        {
+          "sha256": "3b72c6713c8ef99dcd249bf1d6f17eecc9e78a75ba9c4c894c4ae4921612b19c",
+          "words": 27,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00437"
+          ]
+        },
+        {
+          "sha256": "9859a60bcc27cb633f386e2b4c884e5d93787ff4c72544c9b26ae9283a9c9ff6",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00437"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00400",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 34,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "03201c6bf37937aa846193a8af0a5c123d3c9921b8c92c35b8c1e639459f50ef",
+          "words": 18,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00400"
+          ]
+        },
+        {
+          "sha256": "d11aa521f2d29cbc179ea87232781b002dcfa79e58ee5022ea05b5777e2f4143",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00400"
+          ]
+        },
+        {
+          "sha256": "cf224bea43429f5c727e32c491903bec8fa2574cee5dc8e6997ea5187b4260c9",
+          "words": 31,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00400"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00476",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 15,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "3c5a01bdde4fa38f309536f4f182be401ac3724f062cb3a6679e4e6c4090b29d",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00476"
+          ]
+        },
+        {
+          "sha256": "052701abbf4c02ef4a7ce903d2ff4f8fa3acae3a65b505d29811a32cccf02292",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00476"
+          ]
+        },
+        {
+          "sha256": "5761efc460493e8913c78d45c6335bdafa91b03afd770a09618493b404318a48",
+          "words": 10,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00476"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00412",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 31,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "84e58e3b895d6dbb57e5f2064ce34e81fa2d0fe72097662aa1a0f465ddeadba8",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00412"
+          ]
+        },
+        {
+          "sha256": "170b956525162af2c5356a28876414475e3d1e7878c91b5b50775774dcce0662",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00412"
+          ]
+        },
+        {
+          "sha256": "5bec814d5e268f64a024b6c920206ec12e4d98c9e68b584482c515951e738973",
+          "words": 23,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00412"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00361",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 46,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "244e70a8f9f0f26c185848d38433f2b0338ec1c129c9973e0941d131054b7bc1",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00361"
+          ]
+        },
+        {
+          "sha256": "78268a979044fc92e5bbaff28878e4279d737891da3ee4d5469bea2920266b47",
+          "words": 114,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00361"
+          ]
+        },
+        {
+          "sha256": "5ded04ee13dd76f4af59967b49dcdc665ab40cecf0f5815feacea676febf4fd5",
+          "words": 25,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00361"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00488",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 23,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "a7520c78584882ec3db3a1fdf0aa210cb6b0bcc0e230f9b0487be2e4626f94e8",
+          "words": 18,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00488"
+          ]
+        },
+        {
+          "sha256": "7de88b16f5e0ee9d58575a4a768e073e23c6040d70972a81fd1e9ed857543024",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00488"
+          ]
+        },
+        {
+          "sha256": "89364643b2e024912c35363dcecf89e893b697b7c2794dcac652dbb01f04887d",
+          "words": 9,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00488"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00475",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 17,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "1d0d729ed28798f4059f34ebcc44f93c1d39be24c786932d83d4c77ec3898dd2",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00475"
+          ]
+        },
+        {
+          "sha256": "8cf6731b9370429fbbdeb1190c6e9773c957ba2d1ffa79cef9a1a921b2961c7e",
+          "words": 12,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00475"
+          ]
+        },
+        {
+          "sha256": "f64a3bae53a9807b80dac7f25d92a0a37baf1b481b8411742e5ce6d40e9b4061",
+          "words": 40,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00475"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00459",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 30,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "c9d20e5a78e682714c42a5224e557517aa285cdb181b1813aa6f6aaf7f6c2dcc",
+          "words": 11,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00459"
+          ]
+        },
+        {
+          "sha256": "1619b23dbf0d4a1fd014999f59e48e1cd9decc8eaa5b85ad1e73fc5359112086",
+          "words": 39,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00459"
+          ]
+        },
+        {
+          "sha256": "3a1d1608813526d00988ab54b831ddd672fbd59290b1f5b20603ffbc878d2c90",
+          "words": 30,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00459"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00444",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 28,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "9ea1f36066fbe50dec25fca2cc5253b2a2522ccb6000ff2c93e3b783960facf1",
+          "words": 20,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00444"
+          ]
+        },
+        {
+          "sha256": "a0e6e4b4f71c8999fdd9da26f3098823e951ac942ef2c05b55e294b26bad7b3f",
+          "words": 12,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00444"
+          ]
+        },
+        {
+          "sha256": "c95d494fbaef1e55c5060e5e7fddf1edfcbf2f6cb2d37774e2399a1fb7cfe351",
+          "words": 29,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00444"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00466",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 40,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "c28c89c4ab3016856fae0bb41e432af786dbfe5fe1cbb2a307964ab3234894e8",
+          "words": 41,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00466"
+          ]
+        },
+        {
+          "sha256": "2bb7eb86ebddf0d671d969a1233265e2fe0c3c5f02f447a538c4094903773bb9",
+          "words": 22,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00466"
+          ]
+        },
+        {
+          "sha256": "ef4b929a4374356441f295d4ed365e06f1d20de49e3a8433de3ff507845f5722",
+          "words": 37,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00466"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00478",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 32,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "980fe585e06940253968ec1d5a2d58814095ccb98c82295dd8ab7bb118eace8a",
+          "words": 40,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00478"
+          ]
+        },
+        {
+          "sha256": "3ff90ae1d58b144e4931324b46b362a7556fb64ac6983da17318582aa4ad0c04",
+          "words": 32,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00478"
+          ]
+        },
+        {
+          "sha256": "feb7486b62a7b48e66affe502b891b5b75fccd29b2e3ae7aaab77b1a17466804",
+          "words": 21,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00478"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00451",
+      "split": "dev",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 77,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "5b1c5e03065f8100fc1de523f8743aa0491c9215cb2d9330965206bae4f6fc0b",
+          "words": 44,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00451"
+          ]
+        },
+        {
+          "sha256": "fda09907e4464e9b7cc844b5b13c99f457e03532e77538cb67302010bab648ec",
+          "words": 19,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00451"
+          ]
+        },
+        {
+          "sha256": "852f6f049a6759fd90d20b04d929c5653fbb14bfe3a5d8583b1f1e4b63672daa",
+          "words": 238,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00451"
+          ]
+        }
+      ]
+    },
+    {
+      "entry": "eval/factory/labels_checked.jsonl",
+      "dialogue_id": "gen500__r00481",
+      "split": "test",
+      "run": "gen500",
+      "reasons": [
+        "source_dialogue_family_already_in_current_train",
+        "exact_normalized_source_turn_already_used_in_current_train"
+      ],
+      "actual_train_points_from_same_source_dialogue": 35,
+      "matched_source_paragraphs": [
+        {
+          "sha256": "f492cce906ad7959e7fbea4cad6fdf9feef520a7baef9b04b8ae13c5453886f3",
+          "words": 28,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00481"
+          ]
+        },
+        {
+          "sha256": "44c003a447a06bb0e878cb88934b6ce72ce57f8cbb56a59f93a6888023c39464",
+          "words": 24,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00481"
+          ]
+        },
+        {
+          "sha256": "1582b330de36c1242207501d2d8df2ccb8304549479a8af85568d3cc8f6ad002",
+          "words": 26,
+          "actual_train_sources": [
+            "factory_checked.jsonl:r00481"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_overlapping_eval_dialogues": 54,
+  "scope": "Exact used-source-dialogue family and normalized complete-turn overlap against actual additional TRAIN samples. No model scoring or changes. Does not exhaust the old200000 replay token windows, all reset windows or paraphrases.",
+  "full_current_train_test_independence_certified": false
+}

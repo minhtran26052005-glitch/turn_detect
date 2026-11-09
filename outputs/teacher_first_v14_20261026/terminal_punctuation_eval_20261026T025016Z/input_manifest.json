@@ -1,0 +1,27 @@
+{
+  "protocol": "terminal_period_streaming_v1",
+  "source_path": "outputs\\trilingual_stream_20261024\\crawl\\paragraphs.jsonl",
+  "source_sha256": "62a523511c3fec4ead0fcf8e7a6dc20d7ab63141c44fed9edd1bc498f73a9697",
+  "source_paragraphs": 39,
+  "sentences": 157,
+  "prefix_events": 6136,
+  "by_language": {
+    "vi": {
+      "sentences": 25,
+      "prefix_events": 1007,
+      "terminal_periods": 25
+    },
+    "en": {
+      "sentences": 71,
+      "prefix_events": 1957,
+      "terminal_periods": 71
+    },
+    "zh": {
+      "sentences": 61,
+      "prefix_events": 3172,
+      "terminal_periods": 61
+    }
+  },
+  "label_rule": "all prefixes before final . or 。 are NEOT; final-period prefix EOT",
+  "annotation_scope": "RULE_DIAGNOSTIC_CRAWLED_PROSE_NOT_DIALOGUE_GOLD"
+}

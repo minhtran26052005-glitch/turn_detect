@@ -1,0 +1,524 @@
+{
+  "status": "PASS",
+  "passed": 129,
+  "total": 129,
+  "checks": [
+    {
+      "check": "executed_source_unchanged:turn_v2/reward_v10_train.py",
+      "passed": true
+    },
+    {
+      "check": "executed_source_unchanged:turn_v2/reward_v10_qwen.py",
+      "passed": true
+    },
+    {
+      "check": "executed_source_unchanged:turn_v2/reward_v10_objective.py",
+      "passed": true
+    },
+    {
+      "check": "executed_source_unchanged:turn_v2/reward_v10_data.py",
+      "passed": true
+    },
+    {
+      "check": "vi:data_hash:train",
+      "passed": true
+    },
+    {
+      "check": "vi:data_hash:dev",
+      "passed": true
+    },
+    {
+      "check": "vi:own_language_only",
+      "passed": true
+    },
+    {
+      "check": "vi:no_exact_train_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "vi:executed_train_source",
+      "passed": true
+    },
+    {
+      "check": "vi:baseline:labels",
+      "passed": true
+    },
+    {
+      "check": "vi:baseline:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "vi:baseline:natural",
+      "passed": true
+    },
+    {
+      "check": "vi:baseline:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:labels",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:natural",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:labels",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:natural",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:labels",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:natural",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:labels",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:legacy_vi",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:natural",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:student_hash",
+      "passed": true
+    },
+    {
+      "check": "vi:data_sft:backprop",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:student_hash",
+      "passed": true
+    },
+    {
+      "check": "vi:ce_control:backprop",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "vi:cost_ce:backprop",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "vi:reinforce:backprop",
+      "passed": true
+    },
+    {
+      "check": "vi:RL_vs_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "vi:RL_vs_cost_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "vi:job_completed",
+      "passed": true
+    },
+    {
+      "check": "en:data_hash:train",
+      "passed": true
+    },
+    {
+      "check": "en:data_hash:dev",
+      "passed": true
+    },
+    {
+      "check": "en:own_language_only",
+      "passed": true
+    },
+    {
+      "check": "en:no_exact_train_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "en:executed_train_source",
+      "passed": true
+    },
+    {
+      "check": "en:baseline:labels",
+      "passed": true
+    },
+    {
+      "check": "en:baseline:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "en:baseline:natural",
+      "passed": true
+    },
+    {
+      "check": "en:baseline:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "en:baseline:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:labels",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:natural",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:labels",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:natural",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:labels",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:natural",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:labels",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:natural",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:student_hash",
+      "passed": true
+    },
+    {
+      "check": "en:data_sft:backprop",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:student_hash",
+      "passed": true
+    },
+    {
+      "check": "en:ce_control:backprop",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "en:cost_ce:backprop",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "en:reinforce:backprop",
+      "passed": true
+    },
+    {
+      "check": "en:RL_vs_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "en:RL_vs_cost_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "en:job_completed",
+      "passed": true
+    },
+    {
+      "check": "zh:data_hash:train",
+      "passed": true
+    },
+    {
+      "check": "zh:data_hash:dev",
+      "passed": true
+    },
+    {
+      "check": "zh:own_language_only",
+      "passed": true
+    },
+    {
+      "check": "zh:no_exact_train_dev_overlap",
+      "passed": true
+    },
+    {
+      "check": "zh:executed_train_source",
+      "passed": true
+    },
+    {
+      "check": "zh:baseline:labels",
+      "passed": true
+    },
+    {
+      "check": "zh:baseline:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "zh:baseline:natural",
+      "passed": true
+    },
+    {
+      "check": "zh:baseline:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "zh:baseline:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:labels",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:natural",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:labels",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:natural",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:labels",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:natural",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:labels",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:livekit_PREVIOUSLY_EXPOSED_development",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:natural",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:scicom_read_speech",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:minimum_score",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:student_hash",
+      "passed": true
+    },
+    {
+      "check": "zh:data_sft:backprop",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:student_hash",
+      "passed": true
+    },
+    {
+      "check": "zh:ce_control:backprop",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "zh:cost_ce:backprop",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:student_hash",
+      "passed": true
+    },
+    {
+      "check": "zh:reinforce:backprop",
+      "passed": true
+    },
+    {
+      "check": "zh:RL_vs_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "zh:RL_vs_cost_CE_claim",
+      "passed": true
+    },
+    {
+      "check": "zh:job_completed",
+      "passed": true
+    },
+    {
+      "check": "Qwen_silver_count",
+      "passed": true
+    },
+    {
+      "check": "Qwen_source_matches",
+      "passed": true
+    },
+    {
+      "check": "Qwen_not_gold",
+      "passed": true
+    },
+    {
+      "check": "Qwen_pending_crawl_not_eval_gold",
+      "passed": true
+    },
+    {
+      "check": "notebook_earlier_cells_preserved",
+      "passed": true
+    },
+    {
+      "check": "notebook_actual_Colab_execution",
+      "passed": true
+    },
+    {
+      "check": "unit_tests_passed",
+      "passed": true
+    }
+  ],
+  "quality_target_certified": false
+}

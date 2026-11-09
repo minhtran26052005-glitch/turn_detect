@@ -1,0 +1,227 @@
+{
+  "checked_utc": "2026-11-03T04:30:03.322070+00:00",
+  "latest_test_weights": {
+    "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_stream_test_20261103_v1/frozen/model.safetensors",
+    "tensor_count": 104,
+    "parameter_elements": 135326210,
+    "tensor_dtypes": [
+      "F32"
+    ],
+    "bytes": 541317336
+  },
+  "compression_source_teacher_weights": {
+    "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/teacher/model.safetensors",
+    "tensor_count": 104,
+    "parameter_elements": 135326210,
+    "tensor_dtypes": [
+      "F32"
+    ],
+    "bytes": 541317336
+  },
+  "config": {
+    "architectures": [
+      "DistilBertForMaskedLM"
+    ],
+    "n_layers": 6,
+    "dim": 768,
+    "hidden_dim": 3072,
+    "n_heads": 12,
+    "vocab_size": 119547,
+    "max_position_embeddings": 512,
+    "num_labels": null
+  },
+  "accepted_manifest": {
+    "status": "DEV_RETENTION_VERIFIED_SILVER_ONLY",
+    "files": {
+      "onnx/run_model.py": {
+        "bytes": 3351,
+        "sha256": "272d4bc3e40e7d6705b5691620abbba6bf665443cbb19de87a2346471687c806"
+      },
+      "onnx/config.json": {
+        "bytes": 705,
+        "sha256": "4e3f2b285232030f92eeaa3b3311dc05d6cf23e3c5b1dfc4906f839a51cec786"
+      },
+      "onnx/turn_detector_config.json": {
+        "bytes": 779,
+        "sha256": "ea2879cca81d647cbd35972bfa51dd8f8f30c77d357fcd833ec3b5cd59791890"
+      },
+      "onnx/tokenizer_config.json": {
+        "bytes": 350,
+        "sha256": "c44a9017232641b275e253e47a2f633878554fd6f491551dc70e02615b6c9835"
+      },
+      "onnx/tokenizer.json": {
+        "bytes": 2919362,
+        "sha256": "bf1b59b7b11c95f194f51708d918eea378e09d05f84c0e1656dc5180e8117088"
+      },
+      "onnx/quantization_receipt.json": {
+        "bytes": 5317,
+        "sha256": "053449098ce4e823c9c057872c3bc7634fbdb8919d6cabbf81648a217c4d9873"
+      },
+      "onnx/model.onnx": {
+        "bytes": 139823559,
+        "sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c"
+      },
+      "onnx/requirements.txt": {
+        "bytes": 50,
+        "sha256": "eb4819aceb4c0b8483c63bbdb90f24eae58f83c4b7210a1d16c0802ad560666b"
+      }
+    },
+    "winner": {
+      "candidate": "int8_g64",
+      "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+      "retention_passed": true,
+      "retention_by_language": {
+        "vi": true,
+        "en": true,
+        "zh": true
+      },
+      "model_bytes": 139823559,
+      "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+      "dev": {
+        "threshold": 0.26,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 82,
+            "tn": 1961,
+            "fp": 7,
+            "fn": 8,
+            "accuracy": 0.9927113702623906,
+            "eot_f1": 0.9162011173184358,
+            "eot_precision": 0.9213483146067416,
+            "eot_recall": 0.9111111111111111,
+            "false_share_of_cuts": 0.07865168539325842,
+            "false_positive_rate": 0.003556910569105691
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 119,
+            "tn": 2174,
+            "fp": 9,
+            "fn": 2,
+            "accuracy": 0.9952256944444444,
+            "eot_f1": 0.9558232931726908,
+            "eot_precision": 0.9296875,
+            "eot_recall": 0.9834710743801653,
+            "false_share_of_cuts": 0.0703125,
+            "false_positive_rate": 0.004122766834631242
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 718,
+            "fp": 107,
+            "fn": 38,
+            "accuracy": 0.855,
+            "eot_f1": 0.6539379474940334,
+            "eot_precision": 0.5614754098360656,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.4385245901639344,
+            "false_positive_rate": 0.1296969696969697
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 84,
+            "tn": 1958,
+            "fp": 10,
+            "fn": 6,
+            "accuracy": 0.9922254616132167,
+            "eot_f1": 0.9130434782608695,
+            "eot_precision": 0.8936170212765957,
+            "eot_recall": 0.9333333333333333,
+            "false_share_of_cuts": 0.10638297872340426,
+            "false_positive_rate": 0.00508130081300813
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 115,
+            "tn": 2171,
+            "fp": 12,
+            "fn": 6,
+            "accuracy": 0.9921875,
+            "eot_f1": 0.9274193548387096,
+            "eot_precision": 0.905511811023622,
+            "eot_recall": 0.9504132231404959,
+            "false_share_of_cuts": 0.09448818897637795,
+            "false_positive_rate": 0.005497022446174988
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 137,
+            "tn": 718,
+            "fp": 107,
+            "fn": 38,
+            "accuracy": 0.855,
+            "eot_f1": 0.6539379474940334,
+            "eot_precision": 0.5614754098360656,
+            "eot_recall": 0.7828571428571428,
+            "false_share_of_cuts": 0.4385245901639344,
+            "false_positive_rate": 0.1296969696969697
+          }
+        },
+        "score": 0.6539379474940334,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "storage_bits": 8,
+      "embedding_bits": 8
+    },
+    "teacher": {
+      "branch_step": 28000,
+      "step": 514235,
+      "weights_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+      "weight_bytes": 541317336,
+      "selection": "Existing campaign best, DEV-selected before compression; no tests used",
+      "source_dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+      "source_main_training_continues": true,
+      "optimizer_not_required_for_frozen_inference_teacher": true
+    },
+    "architecture": "Original six-layer shared DistilBERT preserved; tiny GRU KD/QAT experiment did not retain all languages",
+    "method": "Post-training matrix weight-storage quantization with FP32 computation",
+    "source_spoken_v9_used": false,
+    "test_used": false,
+    "human_audio_gold": false,
+    "deployment_bytes": 142753473,
+    "runtime_libraries_included_in_size": false,
+    "main_training_interrupted": false,
+    "cpu_benchmark": {
+      "teacher": {
+        "backend": "PyTorch FP32 CPU teacher",
+        "batch_size": 1,
+        "threads": 2,
+        "timed_calls": 120,
+        "cases": 24,
+        "median_ms": 12.7113935,
+        "p95_ms": 34.076977299999996,
+        "mean_ms": 15.982426066666669,
+        "peak_process_rss_bytes": 2009550848,
+        "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+        "current_process_rss_bytes": 1486737408,
+        "legacy_ru_maxrss_not_used": 2009550848,
+        "measurement_includes_normalization_and_tokenization": true,
+        "shared_host_not_isolated": true
+      },
+      "compressed": {
+        "backend": "ONNX Runtime CPU, matrix storage precision from contract",
+        "batch_size": 1,
+        "threads": 2,
+        "timed_calls": 120,
+        "cases": 24,
+        "median_ms": 8.966085,
+        "p95_ms": 30.54159395,
+        "mean_ms": 12.610156258333332,
+        "peak_process_rss_bytes": 1700372480,
+        "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+        "current_process_rss_bytes": 746131456,
+        "legacy_ru_maxrss_not_used": 1700372480,
+        "measurement_includes_normalization_and_tokenization": true,
+        "shared_host_not_isolated": true
+      }
+    },
+    "benchmark_measurement_revision": "v2 exec-local VmHWM; v1 inherited resource high-water values replaced"
+  }
+}

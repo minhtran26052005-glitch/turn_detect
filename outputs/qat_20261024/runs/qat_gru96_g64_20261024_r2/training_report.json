@@ -1,0 +1,58 @@
+{
+  "status": "QAT_TRAINING_COMPLETED",
+  "train_samples": 315174,
+  "dev_samples": 17833,
+  "optimizer_steps": 8624,
+  "best_epoch": 4,
+  "dev_selected_threshold": {
+    "samples": 17833,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.9354567375091123,
+    "eot_precision": 0.8643043762246897,
+    "eot_recall": 0.9429894886869766,
+    "eot_f1": 0.9019340546988157,
+    "joint_score": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320,
+    "false_eot_rate": 0.06800327332242226,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11389,
+        831
+      ],
+      [
+        320,
+        5293
+      ]
+    ]
+  },
+  "initial_fake_quant_dev": {
+    "samples": 17833,
+    "threshold": 0.48999999999999994,
+    "accuracy": 0.9336062356305725,
+    "eot_precision": 0.8611971945848964,
+    "eot_recall": 0.9406734366648851,
+    "eot_f1": 0.8991825613079019,
+    "joint_score": 0.8991825613079019,
+    "false_eot": 851,
+    "missed_eot": 333,
+    "false_eot_rate": 0.06963993453355155,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11369,
+        851
+      ],
+      [
+        333,
+        5280
+      ]
+    ]
+  },
+  "group_size": 64,
+  "gradient_checks_passed": true,
+  "quant_params_sha256": "7614d933dbabba853b16ed38d85cf758bd1f1feb3e3b970ea48cfb5408e278b1",
+  "student_sha256": "09fb30dcf4a446eb350096c574c1ed54121eb55f9ad02df0fc3cc4080992dee3",
+  "holdout_evaluated": false,
+  "holdout_marker_unchanged": true,
+  "elapsed_seconds": 98.95475118400282
+}

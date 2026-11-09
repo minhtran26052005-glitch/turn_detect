@@ -1,0 +1,23 @@
+{
+  "pid": 336572,
+  "start_ticks": "8156693",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.translation_segmenter_v15c",
+    "--steps",
+    "100",
+    "--microbatch",
+    "32",
+    "--queries-per-language",
+    "4",
+    "--pages-per-query",
+    "25"
+  ],
+  "log": "outputs/translation_segmenter_v15c_20261026/worker_1.log",
+  "source_sha256": "7bd4dd908d114add5826b8c9ec06dcc0ca13a28f0fe56b0d260411cc2c0fbbea",
+  "qwen_judge_enabled": false,
+  "max_cycles": 0,
+  "global_timeout": null
+}

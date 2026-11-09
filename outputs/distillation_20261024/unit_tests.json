@@ -1,0 +1,7 @@
+{
+  "command": "python -m pytest -q",
+  "passed": 33,
+  "failed": 0,
+  "elapsed_seconds": 8.12,
+  "new_meaningful_tests": "padding invariance, variable batch sequence lengths, finite student distillation gradients"
+}

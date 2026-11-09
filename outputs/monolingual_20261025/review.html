@@ -1,0 +1,17 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Ba model riêng</title><style>body{font:18px system-ui;max-width:1050px;margin:40px auto;padding:20px;color:#18313e}td,th{padding:12px;border-bottom:1px solid #ccc;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}p{line-height:1.7}</style><h1>Việt / Anh / Trung: mỗi tiếng một model</h1><p>Bản Việt QAT cũ giữ nguyên. Anh và Trung có teacher, GRU distill, vocabulary và QAT INT4 riêng. Bộ router chọn đúng file theo tiếng được truyền vào.</p><h2>384 mẫu regression đã xem</h2><p>Nhãn observed-floor/VAD tự động; chưa có human semantic gold. Điểm này không phải test mới và không dùng chọn lại ngưỡng/trọng số. Mỗi model dùng tokenizer/codec triển khai của mình; so sánh mô tả, chưa tách được nguyên nhân thay đổi.</p><table><tr><th>Tiếng</th><th>Mẫu</th><th>Accuracy</th><th>F1 EOT</th></tr><tr><td>vi</td><td>210</td><td>32.86%</td><td>22.10%</td></tr><tr><td>en</td><td>93</td><td>62.37%</td><td>74.45%</td></tr><tr><td>zh</td><td>81</td><td>70.37%</td><td>81.25%</td></tr></table><p>Bản Việt trước đây đạt93,55%/90,19% trên dev tiền tố cũ. Khác dữ liệu và định nghĩa tham chiếu nên không thể chuyển điểm đó thành chứng nhận cho hội thoại mới.</p><p><a href="crawl_review.html">Phát lại204prefix bằng từng model riêng</a> · <a href="report.json">JSON kết quả</a></p><h2>File model riêng</h2><pre>{
+  &quot;vi&quot;: {
+    &quot;path&quot;: &quot;models/turn_v2_distilled_qat4_20261024/onnx&quot;,
+    &quot;status&quot;: &quot;ESTABLISHED_VI_FROZEN_DEV_ONLY&quot;,
+    &quot;model_sha256&quot;: &quot;9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412&quot;
+  },
+  &quot;en&quot;: {
+    &quot;path&quot;: &quot;models/turn_monolingual_en_20261025/onnx&quot;,
+    &quot;status&quot;: &quot;RESEARCH_ONLY_UNSEEN_REAL_TARGET_NOT_CERTIFIED&quot;,
+    &quot;model_sha256&quot;: &quot;b702da5bf187c40881a1c6a6d139c0230ce8945bd9f28e9ca1d250ee525af88d&quot;
+  },
+  &quot;zh&quot;: {
+    &quot;path&quot;: &quot;models/turn_monolingual_zh_20261025/onnx&quot;,
+    &quot;status&quot;: &quot;RESEARCH_ONLY_UNSEEN_REAL_TARGET_NOT_CERTIFIED&quot;,
+    &quot;model_sha256&quot;: &quot;4e744f29f761797005fe69111b28052cef57370bc5080d0b48f21bbc3f131df1&quot;
+  }
+}</pre></html>

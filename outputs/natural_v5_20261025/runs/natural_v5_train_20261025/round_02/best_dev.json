@@ -1,0 +1,173 @@
+{
+  "round": 2,
+  "step": 300,
+  "thresholds": {
+    "vi": 0.175,
+    "en": 0.24,
+    "zh": 0.26499999999999996
+  },
+  "slices": {
+    "vi:legacy_vi": {
+      "samples": 3600,
+      "threshold": 0.175,
+      "accuracy": 0.9188888888888889,
+      "eot_precision": 0.8170391061452514,
+      "eot_recall": 0.975,
+      "eot_f1": 0.8890577507598785,
+      "joint_score": 0.8890577507598785,
+      "false_eot": 262,
+      "missed_eot": 30,
+      "false_eot_rate": 0.10916666666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2138,
+          262
+        ],
+        [
+          30,
+          1170
+        ]
+      ]
+    },
+    "vi:natural": {
+      "samples": 145,
+      "threshold": 0.175,
+      "accuracy": 0.6,
+      "eot_precision": 0.45054945054945056,
+      "eot_recall": 0.8367346938775511,
+      "eot_f1": 0.5857142857142857,
+      "joint_score": 0.5857142857142857,
+      "false_eot": 50,
+      "missed_eot": 8,
+      "false_eot_rate": 0.5208333333333334,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          46,
+          50
+        ],
+        [
+          8,
+          41
+        ]
+      ]
+    },
+    "en:natural": {
+      "samples": 79,
+      "threshold": 0.24,
+      "accuracy": 0.7215189873417721,
+      "eot_precision": 0.7384615384615385,
+      "eot_recall": 0.9056603773584906,
+      "eot_f1": 0.8135593220338984,
+      "joint_score": 0.7215189873417721,
+      "false_eot": 17,
+      "missed_eot": 5,
+      "false_eot_rate": 0.6538461538461539,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9,
+          17
+        ],
+        [
+          5,
+          48
+        ]
+      ]
+    },
+    "zh:natural": {
+      "samples": 69,
+      "threshold": 0.26499999999999996,
+      "accuracy": 0.782608695652174,
+      "eot_precision": 0.7878787878787878,
+      "eot_recall": 0.9811320754716981,
+      "eot_f1": 0.8739495798319328,
+      "joint_score": 0.782608695652174,
+      "false_eot": 14,
+      "missed_eot": 1,
+      "false_eot_rate": 0.875,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          14
+        ],
+        [
+          1,
+          52
+        ]
+      ]
+    }
+  },
+  "natural_languages": {
+    "vi": {
+      "samples": 145,
+      "threshold": 0.175,
+      "accuracy": 0.6,
+      "eot_precision": 0.45054945054945056,
+      "eot_recall": 0.8367346938775511,
+      "eot_f1": 0.5857142857142857,
+      "joint_score": 0.5857142857142857,
+      "false_eot": 50,
+      "missed_eot": 8,
+      "false_eot_rate": 0.5208333333333334,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          46,
+          50
+        ],
+        [
+          8,
+          41
+        ]
+      ]
+    },
+    "en": {
+      "samples": 79,
+      "threshold": 0.24,
+      "accuracy": 0.7215189873417721,
+      "eot_precision": 0.7384615384615385,
+      "eot_recall": 0.9056603773584906,
+      "eot_f1": 0.8135593220338984,
+      "joint_score": 0.7215189873417721,
+      "false_eot": 17,
+      "missed_eot": 5,
+      "false_eot_rate": 0.6538461538461539,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          9,
+          17
+        ],
+        [
+          5,
+          48
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 69,
+      "threshold": 0.26499999999999996,
+      "accuracy": 0.782608695652174,
+      "eot_precision": 0.7878787878787878,
+      "eot_recall": 0.9811320754716981,
+      "eot_f1": 0.8739495798319328,
+      "joint_score": 0.782608695652174,
+      "false_eot": 14,
+      "missed_eot": 1,
+      "false_eot_rate": 0.875,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          14
+        ],
+        [
+          1,
+          52
+        ]
+      ]
+    }
+  },
+  "minimum_dev_slice_joint_score": 0.5857142857142857,
+  "development_target_met": false,
+  "development_all_slices_over_90": false,
+  "natural_hold_false_eot_below_10_percent": false,
+  "independent_real_target_achieved": false,
+  "scope": "Development automatic floor labels; not independent human gold"
+}

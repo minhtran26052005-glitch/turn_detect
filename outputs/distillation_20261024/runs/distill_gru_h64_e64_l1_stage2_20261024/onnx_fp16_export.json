@@ -1,0 +1,11 @@
+{
+  "path": "outputs\\distillation_20261024\\runs\\distill_gru_h64_e64_l1_stage2_20261024\\onnx_fp16",
+  "model_bytes": 521300,
+  "deployment_bytes": 744397,
+  "model_sha256": "a7e31ab7b9228186e59f38dec007b87c169c156a96c13f3ed3fd4ddb4a43b05d",
+  "max_probability_delta_vs_pytorch_fp32": 4.8222091903298014e-05,
+  "argmax_same_on_8_examples": true,
+  "padding_delta": 0.0,
+  "technical_parity_passed": true,
+  "note": "Reduced storage requires full dev evaluation; small parity sample is not quality evidence"
+}

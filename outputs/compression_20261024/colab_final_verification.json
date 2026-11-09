@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"status\": \"FINAL_COLAB_FILES_VERIFIED\", \"model_sha256\": \"6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac\", \"deployment_bytes\": 109609065, \"dev\": {\"samples\": 17833, \"threshold\": 0.5449999999999999, \"accuracy\": 0.9379240733471653, \"eot_precision\": 0.8712920237310481, \"eot_recall\": 0.9419205415998575, \"eot_f1\": 0.9052307165482407, \"joint_score\": 0.9052307165482407, \"false_eot\": 781, \"missed_eot\": 326, \"false_eot_rate\": 0.06391162029459901, \"confusion_matrix_NEOT_EOT\": [[11439, 781], [326, 5287]]}, \"holdout_evaluated\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 1.2969999999913853
+}

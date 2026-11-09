@@ -1,0 +1,8 @@
+{
+  "zip": "models\\turn_v3_trilingual_pilot_20261024.zip",
+  "bytes": 865294,
+  "sha256": "cd9d6e7a972dbde38ed9ae61d74938f0894fae59ecb81e5444db9cbe00ebb4e3",
+  "manifest_sha256": "1fa697c9f9e67ddce4c33b80ce2f4ee8c86ccbd25f1d3be27edfabdce1bee6e3",
+  "onnx_bytes": 728710,
+  "deployment_bytes": 1888631
+}

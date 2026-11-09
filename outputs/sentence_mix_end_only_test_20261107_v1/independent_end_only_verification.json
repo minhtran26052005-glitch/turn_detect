@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "at_utc": "2026-11-07T14:34:04.876701+00:00",
+  "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+  "independent_test_turn_census_verified": true,
+  "independent_translation_message_census_verified": true,
+  "turn_groups_checked": 16,
+  "messages_checked": 310,
+  "source_turns": {
+    "all_nonempty_punctuated": 15190,
+    "no_punctuation": 1777
+  },
+  "turns_under_three_words_excluded_separately": {
+    "single": 190
+  },
+  "no_new_model_inference": true,
+  "trainer_still_paused": true,
+  "full_checkpoint_unchanged": true
+}

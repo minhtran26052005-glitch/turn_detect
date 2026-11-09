@@ -1,0 +1,411 @@
+{
+  "status": "PASS",
+  "checks_passed": 94,
+  "checks_total": 94,
+  "checks": [
+    {
+      "name": "frozen models\\turn_v2_distilled_min_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "frozen models\\turn_v2_distilled_int4_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "frozen outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\student.pt",
+      "passed": true
+    },
+    {
+      "name": "frozen data_v2\\frozen\\manifest.json",
+      "passed": true
+    },
+    {
+      "name": "frozen data_v2\\frozen\\holdout_consumed.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\model.onnx identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\requirements.txt identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\run_model.py identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\tokenizer.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\tokenizer_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\turn_detector_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\model.onnx identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\requirements.txt identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\run_model.py identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\tokenizer.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\tokenizer_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_int4_20261024\\onnx\\turn_detector_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\model.onnx identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\requirements.txt identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\run_model.py identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\tokenizer.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\tokenizer_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_min_20261024\\onnx\\turn_detector_config.json identity",
+      "passed": true
+    },
+    {
+      "name": "frozen bytes only train",
+      "passed": true
+    },
+    {
+      "name": "frozen bytes only dev",
+      "passed": true
+    },
+    {
+      "name": "frozen bytes only holdout",
+      "passed": true
+    },
+    {
+      "name": "two QAT trials complete",
+      "passed": true
+    },
+    {
+      "name": "smallest passing QAT selected",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 completed true exit",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 full train/dev",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 trained checkpoint",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 frozen QAT scales",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 latent checkpoint hash",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 five matrix gradients",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 exact QAT weight decode",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 technical parity",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 training packed inference parity",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 full packed targets",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 holdout untouched",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 export/evaluate subprocess 0",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 export/evaluate subprocess 1",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 source qat_student.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 source tiny_student.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 source distill.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g32_20261024 source quantize_student4.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 completed true exit",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 full train/dev",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 trained checkpoint",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 frozen QAT scales",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 latent checkpoint hash",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 five matrix gradients",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 exact QAT weight decode",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 technical parity",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 training packed inference parity",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 full packed targets",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 holdout untouched",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 export/evaluate subprocess 0",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 export/evaluate subprocess 1",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 source qat_student.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 source tiny_student.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 source distill.py",
+      "passed": true
+    },
+    {
+      "name": "qat_gru96_g64_20261024_r2 source quantize_student4.py",
+      "passed": true
+    },
+    {
+      "name": "selected packed metrics recomputed",
+      "passed": true
+    },
+    {
+      "name": "QAT method explicitly recorded",
+      "passed": true
+    },
+    {
+      "name": "both targets at deployed threshold",
+      "passed": true
+    },
+    {
+      "name": "actual signed INT4 two codes per byte",
+      "passed": true
+    },
+    {
+      "name": "292288 packed matrix weights",
+      "passed": true
+    },
+    {
+      "name": "no external weight data",
+      "passed": true
+    },
+    {
+      "name": "seven deployment files only",
+      "passed": true
+    },
+    {
+      "name": "deployment exact byte count",
+      "passed": true
+    },
+    {
+      "name": "smaller than both previous packages",
+      "passed": true
+    },
+    {
+      "name": "native_verification.json full dev native runner",
+      "passed": true
+    },
+    {
+      "name": "native_verification.json matching metrics",
+      "passed": true
+    },
+    {
+      "name": "colab_native_verification.json full dev native runner",
+      "passed": true
+    },
+    {
+      "name": "colab_native_verification.json matching metrics",
+      "passed": true
+    },
+    {
+      "name": "Windows Colab parity",
+      "passed": true
+    },
+    {
+      "name": "QAT notebook executed on Colab",
+      "passed": true
+    },
+    {
+      "name": "QAT notebook outputs saved",
+      "passed": true
+    },
+    {
+      "name": "notebook cells compile with IPython magics",
+      "passed": true
+    },
+    {
+      "name": "embedded qat_student.py",
+      "passed": true
+    },
+    {
+      "name": "embedded export_qat_student.py",
+      "passed": true
+    },
+    {
+      "name": "39 unit tests including CUDA pass",
+      "passed": true
+    },
+    {
+      "name": "delivery ZIP identity",
+      "passed": true
+    },
+    {
+      "name": "ZIP package files only",
+      "passed": true
+    },
+    {
+      "name": "ZIP config.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP model.onnx",
+      "passed": true
+    },
+    {
+      "name": "ZIP requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "ZIP run_model.py",
+      "passed": true
+    },
+    {
+      "name": "ZIP tokenizer.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP turn_detector_config.json",
+      "passed": true
+    }
+  ],
+  "model_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+  "onnx_bytes": 177124,
+  "deployment_bytes": 403973,
+  "zip_bytes": 187305,
+  "dev_metrics": {
+    "samples": 17833,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.9354567375091123,
+    "eot_precision": 0.8643043762246897,
+    "eot_recall": 0.9429894886869766,
+    "eot_f1": 0.9019340546988157,
+    "joint_score": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320,
+    "false_eot_rate": 0.06800327332242226,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11389,
+        831
+      ],
+      [
+        320,
+        5293
+      ]
+    ]
+  },
+  "holdout_evaluated": false,
+  "scope": "Full frozen dev selection; no fresh holdout or real-dialogue guarantee"
+}

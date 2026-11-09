@@ -1,0 +1,8 @@
+{
+  "pid": 2719322,
+  "start_ticks": "49763340",
+  "module": "turn_v2.multilingual_bilingual_stream_probe_v2",
+  "source_sha256": "0477c393af9f72969ff3605a4295a3e9cadaff531740ef78ad0a4082b8f23f3e",
+  "checkpoint_and_threshold_reused_from_v1": true,
+  "training_interrupted": false
+}

@@ -1,0 +1,8 @@
+{
+  "language": "vi",
+  "round": 2,
+  "step": 75,
+  "sampled_judge_reward": 1.0,
+  "reference_KL": 0.47729694843292236,
+  "loss": 0.0637526884675026
+}

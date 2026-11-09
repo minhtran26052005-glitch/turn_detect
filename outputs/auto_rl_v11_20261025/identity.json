@@ -1,0 +1,70 @@
+{
+  "status": "PREDECLARED_TWO_ROUND_AUTO_CRAWL_RL",
+  "rounds_max": 2,
+  "train_steps_per_language_round": 75,
+  "reward_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "reward_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "reward_scope": "Semantic-completeness judge; not measured real turn-yield timing",
+  "judge_prompt_sha256": "71fca48467ac2151a357ac672fae1855b7329b04b284a6f05741a5dc9f00c401",
+  "probe": [
+    {
+      "language": "vi",
+      "text": "tôi muốn đặt vé đi đến",
+      "context": "",
+      "expected": "NEOT"
+    },
+    {
+      "language": "vi",
+      "text": "cảm ơn bạn đã giúp tôi",
+      "context": "",
+      "expected": "EOT"
+    },
+    {
+      "language": "en",
+      "text": "I would like to travel from",
+      "context": "",
+      "expected": "NEOT"
+    },
+    {
+      "language": "en",
+      "text": "Thank you for your help",
+      "context": "",
+      "expected": "EOT"
+    },
+    {
+      "language": "zh",
+      "text": "我想预订从",
+      "context": "",
+      "expected": "NEOT"
+    },
+    {
+      "language": "zh",
+      "text": "谢谢你的帮助",
+      "context": "",
+      "expected": "EOT"
+    }
+  ],
+  "source_sha256": "69498a5469a72a592fce7e251cd664d6427462e8c93b2b5afdb56c88ed15a5a1",
+  "start_models": {
+    "vi": {
+      "path": "outputs/reward_v10_20261025/vi/data_sft",
+      "sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041"
+    },
+    "en": {
+      "path": "outputs/reward_v10_20261025/en/data_sft",
+      "sha256": "f0a61fd2b9c7074986054c3c65fca18406b4615c98aef200ab0be9462fe4b2f0"
+    },
+    "zh": {
+      "path": "outputs/reward_v10_20261025/zh/data_sft",
+      "sha256": "f1096f5e1c3783a44211f6410a07e761ac9823fe1fe780bbfcdb0b9512656c6c"
+    }
+  },
+  "fixed_reward": {
+    "correct": 1,
+    "premature": -2,
+    "late": -0.5
+  },
+  "protected_eval_targets_in_judge": false,
+  "test_evaluation": false,
+  "local_teacher_download": false
+}

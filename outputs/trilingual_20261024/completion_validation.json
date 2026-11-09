@@ -1,0 +1,416 @@
+{
+  "status": "TECHNICAL_PASS_QUALITY_TARGET_NOT_MET",
+  "checks_passed": 99,
+  "checks_total": 99,
+  "checks": [
+    {
+      "name": "control data_v2\\frozen\\manifest.json",
+      "passed": true
+    },
+    {
+      "name": "control data_v2\\frozen\\holdout_consumed.json",
+      "passed": true
+    },
+    {
+      "name": "control models\\turn_v2_distilled_qat4_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "control models\\turn_v2_compact_20261024\\model_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\model.onnx",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\run_model.py",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\tokenizer.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v3_trilingual_pilot_20261024\\onnx\\turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\model.onnx",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\run_model.py",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\tokenizer.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_distilled_qat4_20261024\\onnx\\turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_compact_20261024\\onnx\\config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_compact_20261024\\onnx\\model.onnx",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_compact_20261024\\onnx\\tokenizer.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_compact_20261024\\onnx\\tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "name": "models\\turn_v2_compact_20261024\\onnx\\turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "name": "pilot split train",
+      "passed": true
+    },
+    {
+      "name": "pilot split dev",
+      "passed": true
+    },
+    {
+      "name": "pilot split test",
+      "passed": true
+    },
+    {
+      "name": "complete trilingual train/dev",
+      "passed": true
+    },
+    {
+      "name": "dialogue split isolation",
+      "passed": true
+    },
+    {
+      "name": "normalized input split isolation",
+      "passed": true
+    },
+    {
+      "name": "prefix proxies explicitly tagged",
+      "passed": true
+    },
+    {
+      "name": "legacy bytes train",
+      "passed": true
+    },
+    {
+      "name": "legacy bytes dev",
+      "passed": true
+    },
+    {
+      "name": "legacy bytes holdout",
+      "passed": true
+    },
+    {
+      "name": "teacher completed exit0",
+      "passed": true
+    },
+    {
+      "name": "teacher source/data bundle",
+      "passed": true
+    },
+    {
+      "name": "student completed exit0",
+      "passed": true
+    },
+    {
+      "name": "student source/data bundle",
+      "passed": true
+    },
+    {
+      "name": "final completed exit0",
+      "passed": true
+    },
+    {
+      "name": "final source/data bundle",
+      "passed": true
+    },
+    {
+      "name": "real_pause completed exit0",
+      "passed": true
+    },
+    {
+      "name": "real_pause source/data bundle",
+      "passed": true
+    },
+    {
+      "name": "exact full teacher checkpoint backup",
+      "passed": true
+    },
+    {
+      "name": "teacher 800 actual steps",
+      "passed": true
+    },
+    {
+      "name": "teacher restored VI weights parity",
+      "passed": true
+    },
+    {
+      "name": "student vocabulary train-only segmentation",
+      "passed": true
+    },
+    {
+      "name": "QAT five matrix gradients",
+      "passed": true
+    },
+    {
+      "name": "QAT frozen scales exact decode",
+      "passed": true
+    },
+    {
+      "name": "actual packed INT4 matrices",
+      "passed": true
+    },
+    {
+      "name": "all seven deployment files, no cache",
+      "passed": true
+    },
+    {
+      "name": "deployment bytes",
+      "passed": true
+    },
+    {
+      "name": "strict GPU CPU reference parity",
+      "passed": true
+    },
+    {
+      "name": "portable native imports only",
+      "passed": true
+    },
+    {
+      "name": "dev metric recomputation vi",
+      "passed": true
+    },
+    {
+      "name": "dev metric recomputation en",
+      "passed": true
+    },
+    {
+      "name": "dev metric recomputation zh",
+      "passed": true
+    },
+    {
+      "name": "negative result labelled as pilot",
+      "passed": true
+    },
+    {
+      "name": "final test frozen contract",
+      "passed": true
+    },
+    {
+      "name": "no old holdout/test retune",
+      "passed": true
+    },
+    {
+      "name": "student final metric en",
+      "passed": true
+    },
+    {
+      "name": "student final metric zh",
+      "passed": true
+    },
+    {
+      "name": "teacher final metric en",
+      "passed": true
+    },
+    {
+      "name": "teacher final metric zh",
+      "passed": true
+    },
+    {
+      "name": "real-pause metadata 744 turns 2057 spans",
+      "passed": true
+    },
+    {
+      "name": "real-pause inputs causal",
+      "passed": true
+    },
+    {
+      "name": "real-pause labels true final-span",
+      "passed": true
+    },
+    {
+      "name": "real benchmark evaluation only",
+      "passed": true
+    },
+    {
+      "name": "student_INT4 real-pause metric en",
+      "passed": true
+    },
+    {
+      "name": "student_INT4 real-pause metric zh",
+      "passed": true
+    },
+    {
+      "name": "vi_QAT_control real-pause metric en",
+      "passed": true
+    },
+    {
+      "name": "vi_QAT_control real-pause metric zh",
+      "passed": true
+    },
+    {
+      "name": "teacher real-pause metric en",
+      "passed": true
+    },
+    {
+      "name": "teacher real-pause metric zh",
+      "passed": true
+    },
+    {
+      "name": "Windows Colab full dev parity",
+      "passed": true
+    },
+    {
+      "name": "vi_qat_baseline real prefix replay",
+      "passed": true
+    },
+    {
+      "name": "trilingual_student real prefix replay",
+      "passed": true
+    },
+    {
+      "name": "Vietnamese default retained",
+      "passed": true
+    },
+    {
+      "name": "notebook Colab run passed",
+      "passed": true
+    },
+    {
+      "name": "all notebook cells compile",
+      "passed": true
+    },
+    {
+      "name": "42 unit tests passed",
+      "passed": true
+    },
+    {
+      "name": "delivery ZIP hash",
+      "passed": true
+    },
+    {
+      "name": "delivery ZIP no bytecode",
+      "passed": true
+    },
+    {
+      "name": "ZIP config.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP model.onnx",
+      "passed": true
+    },
+    {
+      "name": "ZIP requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "ZIP run_model.py",
+      "passed": true
+    },
+    {
+      "name": "ZIP tokenizer.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP tokenizer_config.json",
+      "passed": true
+    },
+    {
+      "name": "ZIP turn_detector_config.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../trilingual_stream_20261024/review.html",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../models/turn_v3_trilingual_pilot_20261024.zip",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../models/turn_v3_trilingual_pilot_20261024/README.md",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../data_v3/pilot_trilingual_20261024/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../data_v3/sources_20261024/sources.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../data_v3/livekit_eot_20261024/sources.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link runs/tri_real_pause_20261024/report.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link ../../EXPERIMENT_TRILINGUAL_20261024.md",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_20261024\\review.html link completion_validation.json",
+      "passed": true
+    },
+    {
+      "name": "outputs\\trilingual_stream_20261024\\review.html link ../trilingual_20261024/review.html",
+      "passed": true
+    },
+    {
+      "name": "player JS static syntax",
+      "passed": true
+    }
+  ],
+  "quality_target_met": false,
+  "pilot_not_promoted": true,
+  "old_holdout_evaluated": false,
+  "model_sha256": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+  "zip_sha256": "cd9d6e7a972dbde38ed9ae61d74938f0894fae59ecb81e5444db9cbe00ebb4e3",
+  "teacher_backup_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "ui_verification": {
+    "ui_automation": "BLOCKED",
+    "reason": "Computer Use could not determine current browser URL on Windows; UI automation stopped",
+    "visual_or_interactive_browser_verification_claimed": false,
+    "html_files_present": true,
+    "javascript_syntax_check": true
+  }
+}

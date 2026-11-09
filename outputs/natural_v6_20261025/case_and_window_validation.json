@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "split": "train",
+      "unchanged_case_labels_and_calls": 1433,
+      "temporal_windows_checked": 1433
+    },
+    {
+      "split": "dev",
+      "unchanged_case_labels_and_calls": 293,
+      "temporal_windows_checked": 293
+    },
+    {
+      "split": "sealed",
+      "unchanged_case_labels_and_calls": 384,
+      "temporal_windows_checked": 384
+    }
+  ],
+  "manifest_sha256": "26f97f54f544084f466fc325b9cfc09b8f1634ebe3fb0eb15eaf17f0aaa7a735",
+  "held_classifier_scored": false
+}

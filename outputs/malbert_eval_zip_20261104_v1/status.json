@@ -1,0 +1,10 @@
+{
+  "stage": "COMPLETE",
+  "pid": 2126586,
+  "start_ticks": "63680368",
+  "at_utc": "2026-11-03T19:47:41.293701+00:00",
+  "training_interrupted": false,
+  "checkpoint_step": 827000,
+  "inferences": 1141517,
+  "report_sha256": "373d42667cf5de2857bbeace708a201a8dd87c729733244812c24a6d996d4b10"
+}

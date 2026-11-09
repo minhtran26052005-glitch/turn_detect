@@ -1,0 +1,51 @@
+{
+  "verified_at_utc": "2026-10-26T17:46:45.305787+00:00",
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+  "manifest_captured_at_utc": "2026-10-26T17:25:11.316844+00:00",
+  "data_cycle": 50,
+  "data_zip_sha256": "9f3a0f13964fb9bd8a436850d180ef3e0c4c2a27237a7a9a56b0c85f004e3e8c",
+  "database_integrity": "ok",
+  "checkpoint_checks": {
+    "vi": {
+      "sha256": "4d5f53fa8c7e5a0df7856c7dc04bc53d02e89f0faebb07bac186240e34a276ae",
+      "cycle": 48,
+      "cycle_step": 100,
+      "total_steps": 200,
+      "optimizer_parameter_groups": 2,
+      "optimizer_states": 202,
+      "rng_state_present": true,
+      "training_rows_at_checkpoint_cycle": 456804,
+      "training_fingerprint": "b9a3d3fc1bd03dd74bddfb417876f1849a7683b4b9df9b490799f239593bb8b8",
+      "reconstructed_fingerprint": "b9a3d3fc1bd03dd74bddfb417876f1849a7683b4b9df9b490799f239593bb8b8",
+      "training_fingerprint_matches": true
+    },
+    "en": {
+      "sha256": "b824375d48deeee584e742cdb3c5ab7acf64cec1a7ef48eafc0bdc8ff00fbb4a",
+      "cycle": 48,
+      "cycle_step": 100,
+      "total_steps": 200,
+      "optimizer_parameter_groups": 2,
+      "optimizer_states": 202,
+      "rng_state_present": true,
+      "training_rows_at_checkpoint_cycle": 253589,
+      "training_fingerprint": "b314ed8349c5179acc3f72af53929711ba40223acc808e5f4229bb2c659c8e9d",
+      "reconstructed_fingerprint": "b314ed8349c5179acc3f72af53929711ba40223acc808e5f4229bb2c659c8e9d",
+      "training_fingerprint_matches": true
+    },
+    "zh": {
+      "sha256": "4231facb6f0c37dc423f6be22344dcf9e8b9b13745030f7200ffd2141f24caed",
+      "cycle": 48,
+      "cycle_step": 100,
+      "total_steps": 200,
+      "optimizer_parameter_groups": 2,
+      "optimizer_states": 202,
+      "rng_state_present": true,
+      "training_rows_at_checkpoint_cycle": 593903,
+      "training_fingerprint": "35586d483c5acd2bf402f224255406b55056132e807630bf2b576677736920b1",
+      "reconstructed_fingerprint": "35586d483c5acd2bf402f224255406b55056132e807630bf2b576677736920b1",
+      "training_fingerprint_matches": true
+    }
+  },
+  "scope": "backup deserialization/provenance; no training or model-quality inference",
+  "all_training_fingerprints_match": true
+}

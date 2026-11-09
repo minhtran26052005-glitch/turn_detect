@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Streaming crawl — model đã khóa</title>
+<style>
+body{margin:0;background:#f3f7fb;color:#18313e;font:17px system-ui}
+main{max-width:1000px;margin:auto;padding:24px}section{background:white;border:1px solid #d2e1e9;border-radius:12px;margin:18px 0;padding:24px}
+p{line-height:1.7}select,button{font:inherit;padding:9px;margin:4px;border:1px solid #b7c9d7;border-radius:6px;background:white}
+#text{font-size:23px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere}
+#decision{font-size:21px;font-weight:700}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#126b92}
+</style>
+<main>
+<h1>204 prefix crawl: dự đoán tại dấu ngắt</h1>
+<p>Phát lại các prefix đã crawl theo thứ tự dấu ngắt. Model chỉ thấy văn bản đến điểm đang hiển thị.
+Đây là phát lại dự đoán đã lưu, chưa đo độ trễ streaming trực tiếp.
+Dấu chấm/phẩy không phải nhãn EOT; chưa có nhãn độc lập để tính accuracy hoặc F1.</p>
+<section>
+<label>Tiếng <select id="lang"><option value="vi">Việt</option><option value="en">English</option><option value="zh">中文</option></select></label>
+<label>Bài <select id="article"></select></label>
+<p><button id="prev">← Trước</button><button id="play">Phát</button><button id="next">Sau →</button> <span id="count"></span></p>
+<p id="source"></p>
+<div id="text"></div>
+<p id="decision"></p>
+<p id="score"></p>
+</section>
+<section><h2>Model và phạm vi</h2><pre id="model"></pre>
+<p><a href="review.html">Bảng kết quả ba tiếng</a> · <a href="final_eval/crawl_predictions.jsonl">Dự đoán JSONL</a> ·
+<a href="../stream_v4_20261025/fresh_crawl_review.html">Chấm độ đầy đủ ý mà không xem dự đoán model</a></p></section>
+</main>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const R=JSON.parse(document.getElementById('data').textContent);
+const $=id=>document.getElementById(id);
+let rows=[],index=0,timer=null;
+function stop(){if(timer!==null)clearInterval(timer);timer=null;$('play').textContent='Phát'}
+function show(){
+  const row=rows[index];if(!row)return;
+  $('text').textContent=row.text;
+  $('source').textContent=row.language+' · '+row.source_title+' · dấu cuối: '+row.punctuation;
+  $('count').textContent=(index+1)+'/'+rows.length;
+  $('decision').textContent=row.prediction==='EOT'?'EOT — có thể nhường lượt':'NEOT — tiếp tục chờ';
+  $('score').textContent='P(EOT) = '+row.prob_EOT.toFixed(5)+' · ngưỡng dev cố định = '+row.threshold.toFixed(5)+' · nhãn tham chiếu: chưa có';
+}
+function selectArticle(){stop();rows=R.rows.filter(row=>row.language===$('lang').value&&row.source_id===$('article').value);index=0;show()}
+function selectLanguage(){
+  stop();$('article').replaceChildren();
+  const articles=new Map(R.rows.filter(row=>row.language===$('lang').value).map(row=>[row.source_id,row.source_title]));
+  articles.forEach((title,id)=>{const option=document.createElement('option');option.value=id;option.textContent=title;$('article').append(option)});
+  $('article').value=articles.keys().next().value||'';selectArticle();
+}
+$('lang').onchange=selectLanguage;$('article').onchange=selectArticle;
+$('prev').onclick=()=>{stop();index=Math.max(0,index-1);show()};
+$('next').onclick=()=>{stop();index=Math.min(rows.length-1,index+1);show()};
+$('play').onclick=()=>{
+  if(timer!==null){stop();return}
+  if(index===rows.length-1)index=0;show();$('play').textContent='Dừng';
+  timer=setInterval(()=>{if(index>=rows.length-1){stop();return}index++;show()},1200);
+};
+$('model').textContent=JSON.stringify(R.model,null,2);selectLanguage();
+</script>
+</html>

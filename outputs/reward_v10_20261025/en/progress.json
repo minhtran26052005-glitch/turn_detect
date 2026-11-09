@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "phase": "reinforce",
+  "step": 225,
+  "steps_max": 225,
+  "batch_size": 256,
+  "loss": 0.2071283459663391,
+  "reward": {
+    "sampled_reward": 0.4831933081150055,
+    "expected_reward": 0.5065253973007202,
+    "kl": 0.1737719029188156
+  },
+  "CUDA_peak_bytes": 610764800,
+  "elapsed_seconds": 33.697488025999974
+}

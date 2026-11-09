@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "remote_files_sha_verified": [
+    "README.md",
+    "outputs/experiment_overview_20261109/latest_training_devs.json",
+    "outputs/experiment_overview_20261109/source_manifest.json",
+    "outputs/experiment_overview_20261109/source_snapshot.json",
+    "outputs/experiment_overview_20261109/verification.json"
+  ],
+  "boot_id": "bd7525e3-4324-4733-94cb-b0dc4861abc1",
+  "hdd_mount": "",
+  "at_utc": "2026-11-09T03:43:19.953579+00:00",
+  "storage_observation_at_first_publication": {
+    "checked_utc": "2026-11-09T03:43:19.953579+00:00",
+    "windows_free_gib": 27.00347900390625,
+    "ssd_free_gib": 40.53095245361328,
+    "hdd_free_gib": null,
+    "hdd_rw_verified": false
+  },
+  "readme_sha256": "27993fe9c1048a39cc476348ebb14d830d2eff4c0544d52296fd5903813b97f3",
+  "readme_lines": 661
+}

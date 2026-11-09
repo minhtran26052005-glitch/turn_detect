@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "parameters": {
+    "deployment": 18668738,
+    "training_total": 18964418,
+    "limit_exclusive": 20000000,
+    "embedding_included": true,
+    "classifier_included": true
+  },
+  "actual_qat_step": 1,
+  "quantized_matrices": 41,
+  "all_matrix_gradients_nonzero": true,
+  "qat_vs_packed_onnx_logits_delta": 1.2842938303947449e-05,
+  "technical_fixture_only": true,
+  "quality_evaluated": false
+}

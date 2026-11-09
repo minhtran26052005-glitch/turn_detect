@@ -1,0 +1,50 @@
+{
+  "status": "AWAITING_USER_APPROVAL_FOR_VERIFIED_DUPLICATE_PARTS",
+  "deletion_attempt": "AUTOMATIC_APPROVAL_REJECTED",
+  "reported_reason": "blocked by policy",
+  "files_deleted": 0,
+  "free_bytes_now": 2605268992,
+  "recoverable_duplicate_bytes": 4461072800,
+  "verified_duplicate_files": 268,
+  "preserved_full_checkpoints": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "c702764201835484762fd8004d1afa4e0a4d1060ac17fa30d32c69c147ab771d"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "4c5bac37dc95496b430b223a101861c6c9a1468358c8574d80bf396e24c1ae13"
+    }
+  ],
+  "protection": {
+    "reserve_GiB": 10,
+    "reuse_existing_verified_checkpoint": true,
+    "new_monolingual_backups": "single contiguous resumable file; no duplicated chunk set",
+    "tests": "4 passed",
+    "actual_reuse_checks": [
+      "monolingual_en",
+      "stream_v4"
+    ]
+  },
+  "changed_sources": {
+    "tools/storage_guard.py": "caa04eaf866cf9fb7af34687be6e1deafc06be8d33ca7a54f4f86eddf61ab08b",
+    "tools/backup_monolingual_teacher.py": "760f7b71502925821d53a1daa45a7a8a770c864ccfeca22b8df97e02adb7b7fe",
+    "tools/backup_stream_v4.py": "3f591fadbce98dd5878edb9b5d5744b302fc06223d4190129e471fa0427ccad3",
+    "tools/backup_natural_v5.py": "47cf5b59e876e129a7248877f5c30226fd1c00633dab16cda54dd19022f22b8c",
+    "tools/backup_trilingual_teacher.py": "54cf28ed01aeff05f9a28ea5776925baf7bae621abf5544802e409b9e9b6bc82",
+    "tests/test_storage_guard.py": "bf104f141e717aa4611d78c3a487e81b9506cc16caba23ceeb4472424500c6d9"
+  },
+  "history": "Storage helper changes follow earlier model validation; earlier source snapshots and model weights retained untouched. No destructive retry after approval rejection."
+}

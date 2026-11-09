@@ -1,0 +1,66 @@
+{
+  "recorded_at_utc": "2026-10-27T02:48:51.203417+00:00",
+  "restored_proof": {
+    "restored_at_utc": "2026-10-27T02:36:09.931196+00:00",
+    "manifest_at_utc": "2026-10-27T01:45:02.245221+00:00",
+    "data_cycle": 75,
+    "next_crawl_cycle": 76,
+    "database_integrity": "ok",
+    "checkpoints": {
+      "vi": {
+        "cycle": 75,
+        "cycle_step": 75,
+        "total_steps": 1075,
+        "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+        "training_rows": 865075,
+        "optimizer_states": 202,
+        "rng_present": true,
+        "weights_sha256": "c43be63b20967ebf645a05cf126ad11c2ffd4c433e6d2e3f57978c2260917c2f"
+      },
+      "en": {
+        "cycle": 72,
+        "cycle_step": 100,
+        "total_steps": 1000,
+        "training_fingerprint": "d6a009106787d5370e86a241d6b9f7c270c8867c00d62a2973ee5745338c8a89",
+        "training_rows": 429659,
+        "optimizer_states": 202,
+        "rng_present": true,
+        "weights_sha256": "021b91bd7d69e67190464bf9140f21acea9576539f255bbf1c8b420241268658"
+      },
+      "zh": {
+        "cycle": 72,
+        "cycle_step": 100,
+        "total_steps": 1000,
+        "training_fingerprint": "f566ae4ae37f9a1ea6cd12a7cb7010f56efede11e61dccf9efb8919ff0639811",
+        "training_rows": 1071304,
+        "optimizer_states": 202,
+        "rng_present": true,
+        "weights_sha256": "2d78263f7264f06b2cd4d46155cacffba94011a24b547133b0808390a74b221d"
+      }
+    },
+    "pending_training_languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "weights_optimizer_rng_restored": true,
+    "training_fingerprints_match": true,
+    "local_Windows_large_downloads": false,
+    "recorded_torch_version": "2.11.0+cu130",
+    "restored_torch_version": "2.11.0+cu130"
+  },
+  "resumed_vi_checkpoint_receipt": {
+    "cycle": 75,
+    "cycle_step": 100,
+    "total_steps": 1100,
+    "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+    "bytes": 3345996683,
+    "weights_and_optimizer_remote_only": true,
+    "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt"
+  },
+  "parent_verified": true,
+  "child_verified": true,
+  "gpu_sample": "NVIDIA L4, 12 %, 5804 MiB, 23034 MiB",
+  "large_local_downloads_performed": false,
+  "recovery_reported_in_current_human_turn": true
+}

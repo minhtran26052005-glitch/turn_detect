@@ -1,0 +1,1 @@
+const k=document.querySelector("#k"),w=document.querySelector("#which");function show(){document.querySelectorAll(".mode").forEach(e=>e.hidden=e.dataset.k!==k.value);document.querySelectorAll("article").forEach(e=>e.hidden=!!w.value&&e.dataset.number!==w.value)}k.onchange=w.onchange=show;show();

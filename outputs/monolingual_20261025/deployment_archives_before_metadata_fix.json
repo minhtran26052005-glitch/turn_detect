@@ -1,0 +1,36 @@
+[
+  {
+    "language": "en",
+    "zip": "models\\turn_monolingual_en_20261025.zip",
+    "zip_bytes": 848822,
+    "zip_sha256": "8d1fa9ec1c3622988266a5d63375098497024d6dcb35d211368c45e98d970054",
+    "model_bytes": 712969,
+    "package_bytes": 1857488,
+    "standalone_CLI": "PASS",
+    "prediction": {
+      "prediction": "EOT",
+      "prob_EOT": 0.8504909500533238,
+      "threshold": 0.5149999999999999,
+      "language": "en",
+      "quality_status": "PACKED_QAT_EXPORT_PENDING_FULL_DEV_EVALUATION",
+      "smoke_only": false
+    }
+  },
+  {
+    "language": "zh",
+    "zip": "models\\turn_monolingual_zh_20261025.zip",
+    "zip_bytes": 634214,
+    "zip_sha256": "b647e4ae1bfd9978135101ad2279c9ccab5d9fffe1d21943a85fdb36788f13cb",
+    "model_bytes": 548781,
+    "package_bytes": 1383808,
+    "standalone_CLI": "PASS",
+    "prediction": {
+      "prediction": "NEOT",
+      "prob_EOT": 0.4055718959888929,
+      "threshold": 0.49499999999999994,
+      "language": "zh",
+      "quality_status": "PACKED_QAT_EXPORT_PENDING_FULL_DEV_EVALUATION",
+      "smoke_only": false
+    }
+  }
+]

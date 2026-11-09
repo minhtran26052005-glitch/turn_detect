@@ -1,0 +1,7 @@
+{
+  "zip": "models\\turn_v2_distilled_int4_20261024.zip",
+  "bytes": 204705,
+  "sha256": "a6046ec6d65e7349442d8dfb1eb199391eff1907b04661f8b1b44e97870063f8",
+  "manifest_sha256": "3b6ff45e1b0ff88afee2b860573f5bea24059c94cd01d49372d64afe61bb5885",
+  "deployment_bytes": 412682
+}

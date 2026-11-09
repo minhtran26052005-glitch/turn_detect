@@ -1,0 +1,35 @@
+{
+  "initial_student_sha256": "7ba8b8cab0ca4da9a787edcd4d78177d7928310d8a436c3287f2459ae5563754",
+  "train_sha256": "74c1ec511e9a90f138ea1be7503f65627c622133809f284f01084e404f55384b",
+  "dev_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+  "holdout_marker_sha256": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba",
+  "teacher_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "quant_params_sha256": "7614d933dbabba853b16ed38d85cf758bd1f1feb3e3b970ea48cfb5408e278b1",
+  "seed": 43,
+  "group_size": 64,
+  "epochs_max": 8,
+  "lr": 0.0001,
+  "batch_size": 256,
+  "loss": "0.5 CE(smoothed0.02) + 0.5 T2-KL(T=2) + 0.05 normalized teacher-feature MSE",
+  "source_sha256": {
+    "qat_student.py": "9d28772b62b501ccb29392dcabda2408cc8642416acd9dcdaf242c38a0adc457",
+    "tiny_student.py": "a7e48ed160e1b704a252aaa6ff9c05adbaaf6ade5a974d262b829dbf90adb606",
+    "distill.py": "829479e8c193659269d93de6a126145f57bfa90635006dea3fde50d18f86f1e2",
+    "quantize_student4.py": "83bd89b876cf683fb3592619121ad04a202694a7f9f9020bb493a483205c73db"
+  },
+  "train_samples": 315174,
+  "dev_samples": 17833,
+  "architecture": {
+    "model_type": "deberta-v2",
+    "architecture": "tiny_turn_gru",
+    "vocab_size": 3313,
+    "embedding_size": 64,
+    "hidden_size": 96,
+    "layers": 1,
+    "teacher_size": 768,
+    "pad_token_id": 0
+  },
+  "activation_precision": "FP32",
+  "weight_precision": "INT4 fake-quantized every forward",
+  "device": "cuda"
+}

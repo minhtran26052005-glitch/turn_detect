@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "initial_sha256": "4c7bbaf98457a1643f36fa71f6fc42686a83a52e6d30f25c204f33fcc7c4c91a",
+  "control_initial_sha256": "8bb344b1b0fe81a1574713ab78325c5f98e2d4a5f3ced705a527900dbb02b222",
+  "same_model_optimizer_rng_order": true,
+  "parent_step": 3731173,
+  "pretraining_float_tolerance_repair": true
+}

@@ -1,0 +1,8 @@
+{
+  "pid": 399406,
+  "start_ticks": "58647694",
+  "module": "turn_v2.factory_stream_test_v2",
+  "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_stream_test_20261103_v1",
+  "source_sha256": "1f1729f1f79e43ad7b1d03533e0e086d2b04ae2b968d17dde45a0ba472122c17",
+  "launched_unix": 1793679310.935826
+}

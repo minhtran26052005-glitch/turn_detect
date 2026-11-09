@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "accepted": true,
+  "all_manifest_files_and_zip_hashes_match": true,
+  "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+  "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+  "archive_bytes": 132170620,
+  "manifest_sha256": "b22ac82f48bf7765573298ea8676980128310820bd26094de527b966547f009b",
+  "model_bytes": 139823559,
+  "deployment_bytes": 142753473,
+  "initializer_types": {
+    "INT8": 40,
+    "FLOAT16": 40,
+    "FLOAT": 64
+  },
+  "float_matrix_initializers": [],
+  "portable_runtime_imported_torch": false,
+  "portable_dev_smoke": {
+    "vi": {
+      "prediction": "NEOT",
+      "prob_EOT": 9.292994257029164e-05,
+      "threshold": 0.26,
+      "smoke_only": false
+    },
+    "en": {
+      "prediction": "NEOT",
+      "prob_EOT": 1.8432482240534505e-05,
+      "threshold": 0.26,
+      "smoke_only": false
+    },
+    "zh": {
+      "prediction": "NEOT",
+      "prob_EOT": 0.005270271933563177,
+      "threshold": 0.26,
+      "smoke_only": false
+    }
+  },
+  "main_training_interrupted": false,
+  "model_and_checkpoint_downloaded_to_windows": false,
+  "backed_up_to_drive": false
+}

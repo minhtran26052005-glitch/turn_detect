@@ -1,0 +1,11 @@
+{
+  "connect_student4.py": "b33bf13c70d66b123895e7cda947bcd49a91e39c82947ed41c351abd670c74e2",
+  "package_student4.py": "53e506656c433a383b916d4251817d020acca7c17654ab88fad12539b8cce6d3",
+  "pytest.ini": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+  "quantize_student4.py": "83bd89b876cf683fb3592619121ad04a202694a7f9f9020bb493a483205c73db",
+  "test_quantize_student4.py": "3bf68149bda916ebd443105e5f2381dbe33d1ff536ad654563ee3e9167300e76",
+  "test_student4.py": "89caf500ffe5405c5c0f8270cf6d870461fed308e631b1a35ea28f2c95b8cae0",
+  "update_student4_notebook.py": "4245d85f9135ab5eb3a93a4c25b179a187573b915e271c5d36d1e51a7bda5076",
+  "validate_student4.py": "9a293e8ad681152bc341837b7624573b0adb7e349b703e669c3e9092bdd1f2e9",
+  "verify_student4.py": "7eed7a0a972c8b7f34b84de6517b87961aaf707ff802b96dda70fac4180f4a28"
+}

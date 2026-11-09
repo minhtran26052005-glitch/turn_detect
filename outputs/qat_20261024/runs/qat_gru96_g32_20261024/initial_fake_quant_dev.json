@@ -1,0 +1,22 @@
+{
+  "samples": 17833,
+  "threshold": 0.42999999999999994,
+  "accuracy": 0.9343352212190882,
+  "eot_precision": 0.859967585089141,
+  "eot_recall": 0.9453055407090682,
+  "eot_f1": 0.900619536620555,
+  "joint_score": 0.900619536620555,
+  "false_eot": 864,
+  "missed_eot": 307,
+  "false_eot_rate": 0.0707037643207856,
+  "confusion_matrix_NEOT_EOT": [
+    [
+      11356,
+      864
+    ],
+    [
+      307,
+      5306
+    ]
+  ]
+}

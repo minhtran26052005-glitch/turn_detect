@@ -1,0 +1,140 @@
+{
+  "status": "AUTO_CRAWL_JUDGE_RL_ROUND_COMPLETE",
+  "language": "vi",
+  "steps": 75,
+  "judge_counts": {
+    "EOT": 7,
+    "NEOT": 10
+  },
+  "dev_before": {
+    "threshold": 0.09999999999999999,
+    "slices": {
+      "legacy_vi": {
+        "samples": 3600,
+        "threshold": 0.09999999999999999,
+        "accuracy": 0.7630555555555556,
+        "eot_precision": 0.5688025210084033,
+        "eot_recall": 0.9713004484304932,
+        "eot_f1": 0.7174561112951309,
+        "joint_score": 0.7174561112951309,
+        "false_eot": 821,
+        "missed_eot": 32,
+        "false_eot_rate": 0.33038229376257544,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1664,
+            821
+          ],
+          [
+            32,
+            1083
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 145,
+        "threshold": 0.09999999999999999,
+        "accuracy": 0.45517241379310347,
+        "eot_precision": 0.35,
+        "eot_recall": 0.7142857142857143,
+        "eot_f1": 0.4697986577181208,
+        "joint_score": 0.45517241379310347,
+        "false_eot": 65,
+        "missed_eot": 14,
+        "false_eot_rate": 0.6770833333333334,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            31,
+            65
+          ],
+          [
+            14,
+            35
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.45517241379310347,
+    "natural_target_met": false
+  },
+  "dev_after": {
+    "threshold": 0.105,
+    "slices": {
+      "legacy_vi": {
+        "samples": 3600,
+        "threshold": 0.105,
+        "accuracy": 0.8358333333333333,
+        "eot_precision": 0.6611316113161132,
+        "eot_recall": 0.9641255605381166,
+        "eot_f1": 0.7843852608537031,
+        "joint_score": 0.7843852608537031,
+        "false_eot": 551,
+        "missed_eot": 40,
+        "false_eot_rate": 0.22173038229376257,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1934,
+            551
+          ],
+          [
+            40,
+            1075
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 145,
+        "threshold": 0.105,
+        "accuracy": 0.503448275862069,
+        "eot_precision": 0.37362637362637363,
+        "eot_recall": 0.6938775510204082,
+        "eot_f1": 0.4857142857142857,
+        "joint_score": 0.4857142857142857,
+        "false_eot": 57,
+        "missed_eot": 15,
+        "false_eot_rate": 0.59375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            39,
+            57
+          ],
+          [
+            15,
+            34
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.4857142857142857,
+    "natural_target_met": false
+  },
+  "candidate_retained": true,
+  "reward_history": [
+    {
+      "language": "vi",
+      "round": 1,
+      "step": 25,
+      "sampled_judge_reward": 0.671875,
+      "reference_KL": 0.643752932548523,
+      "loss": 0.08526967465877533
+    },
+    {
+      "language": "vi",
+      "round": 1,
+      "step": 50,
+      "sampled_judge_reward": 0.765625,
+      "reference_KL": 0.8428390026092529,
+      "loss": 0.10900214314460754
+    },
+    {
+      "language": "vi",
+      "round": 1,
+      "step": 75,
+      "sampled_judge_reward": 0.8359375,
+      "reference_KL": 0.9137036204338074,
+      "loss": 0.052491143345832825
+    }
+  ],
+  "quality_target_certified": false,
+  "old_regressions_used_for_gate": false
+}

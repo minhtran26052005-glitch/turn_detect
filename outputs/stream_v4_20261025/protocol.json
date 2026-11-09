@@ -1,0 +1,28 @@
+{
+  "user_target": {
+    "accuracy_strictly_greater_than": 0.9,
+    "eot_f1_strictly_greater_than": 0.9,
+    "each_language": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "evaluation": "independent real streaming/crawl with reliable labels"
+  },
+  "iteration": "Three-round initial campaign, 600steps/round; lower learning rate and increased real-pause training weight; persist every eval and best checkpoint. Resume further work based on verified evidence. No false completion at budget boundary.",
+  "train_rows": 104143,
+  "dev_rows": 5992,
+  "input_change": "Keep latest current tokens rather than earliest tokens; exclude full read speech sentence from context",
+  "old_livekit": "Previously exposed; repartition by conversation into training/development explicitly. NOT independent test.",
+  "sealed": "1855 EN/ZH read-speech cases kept sealed; no VI real-pause acceptance set",
+  "fresh_crawl": "204 unlabeled independent review cases frozen before scoring; no punctuation-derived gold labels",
+  "initial_controls": {
+    "data_v2\\frozen\\manifest.json": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+    "data_v2\\frozen\\holdout_consumed.json": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba",
+    "models\\turn_v2_distilled_qat4_20261024\\model_manifest.json": "97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60",
+    "models\\turn_v3_trilingual_pilot_20261024\\model_manifest.json": "1fa697c9f9e67ddce4c33b80ce2f4ee8c86ccbd25f1d3be27edfabdce1bee6e3"
+  },
+  "target_certifiable_now": false,
+  "reason": "Independent real VI EOT labels unavailable",
+  "data_manifest_sha256": "18a91982ead46f5fc977441e309584dfe3444512c1102d84c2cfc23d12164776"
+}

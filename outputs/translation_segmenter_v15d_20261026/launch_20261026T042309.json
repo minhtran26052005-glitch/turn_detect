@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"launcher\": {\"pid\": 344068, \"start_ticks\": \"8334213\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.translation_segmenter_v15d\", \"--phase\", \"run\", \"--docs-per-source\", \"100\", \"--steps\", \"100\", \"--microbatch\", \"32\"], \"log\": \"outputs/translation_segmenter_v15d_20261026/worker_1.log\", \"source_sha256\": \"bb4eee9f58a3eb843953a2a0fcc3236a2af137840b17d144f2bf8cf37ada7c02\", \"campaign\": \"translation_segmenter_v15d\", \"max_cycles\": 0}, \"carryover\": {\"copied_from\": \"outputs/translation_segmenter_v15c_20261026/corpus.sqlite\", \"sqlite_backup_api\": \"Connection.backup\", \"copied_new_database\": true, \"source_cycle\": 17, \"source_database_sha256\": \"9a29049cbe99785ef75e032a3b1f478545759fae087d2997438ee4533403d217\", \"counts\": {\"pages\": 110, \"examples\": 4477}, \"next_cycle\": 18, \"teacher_weights_copied\": false, \"qwen_downloaded\": false}}\n"
+    }
+  ],
+  "elapsed_seconds": 0.375
+}

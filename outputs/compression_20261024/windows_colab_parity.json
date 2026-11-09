@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "max_probability_delta": 0.0,
+  "cases": [
+    {
+      "text": "tôi muốn đặt vé đi hà nội",
+      "windows": {
+        "prediction": "NEOT",
+        "prob_EOT": 0.02714952690240912,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "colab": {
+        "text": "tôi muốn đặt vé đi hà nội",
+        "prediction": "NEOT",
+        "prob_EOT": 0.02714952690240912,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "probability_delta": 0.0
+    },
+    {
+      "text": "tôi muốn đặt vé đi",
+      "windows": {
+        "prediction": "NEOT",
+        "prob_EOT": 0.010120458779843675,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "colab": {
+        "text": "tôi muốn đặt vé đi",
+        "prediction": "NEOT",
+        "prob_EOT": 0.010120458779843675,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "probability_delta": 0.0
+    },
+    {
+      "text": "cảm ơn bạn",
+      "windows": {
+        "prediction": "NEOT",
+        "prob_EOT": 0.024582329926938026,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "colab": {
+        "text": "cảm ơn bạn",
+        "prediction": "NEOT",
+        "prob_EOT": 0.024582329926938026,
+        "threshold": 0.5449999999999999,
+        "smoke_only": false
+      },
+      "probability_delta": 0.0
+    }
+  ],
+  "scope": "runtime parity demos; no accuracy claim"
+}

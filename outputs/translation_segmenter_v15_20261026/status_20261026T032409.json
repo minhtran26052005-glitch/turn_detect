@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"launcher.json_process_verified\": false, \"child.json_process_verified\": false, \"GPU\": \"NVIDIA L4, 0 %, 3 MiB, 23034 MiB\", \"remote_disk_free_bytes\": 165296209920}\n"
+    }
+  ],
+  "elapsed_seconds": 0.21900000000005093
+}

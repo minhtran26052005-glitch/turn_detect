@@ -1,0 +1,52 @@
+{
+  "step": 2585080,
+  "branch_step": 230000,
+  "full_resume_sha256": "ad205f495a12b78f7f999d792d5eb644fdbce9a71118df74308f7e0237efa022",
+  "optimizer_entries": 27,
+  "fingerprint": {
+    "dataset_manifest_sha256": "b13b27a95e96f69c9b15f9c80a5d64d810f284db89acdb6e5a2821c27bd2b842",
+    "train_streams_sha256": "ae5c0d9cb05725f99fc6d0c1a115a5915fcecad4ea00a80c0b3b6f4443a010f9",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "parameters": 11941122,
+    "drive_replay_rows": 0,
+    "code_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+      "uploaded_vi_en_evaluation_v5.py": "f0dc7e9a0b81f0f8e5df131c2f195e584e5f6f7ce8fe3cb6d912f2ae654d4579",
+      "multilingual_malbert_vi_en_conflict_weighted_train_v5.py": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "preserved_source_order_cursor_lanes_and_all_rng": true,
+  "parameter_count": 11941122,
+  "main_identity": {
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5",
+    "source_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+      "uploaded_vi_en_evaluation_v5.py": "f0dc7e9a0b81f0f8e5df131c2f195e584e5f6f7ce8fe3cb6d912f2ae654d4579",
+      "multilingual_malbert_vi_en_conflict_weighted_train_v5.py": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "loss_weights": [
+    1.0,
+    2.0
+  ],
+  "paired_arm_steps": 3000,
+  "paired_rates": [
+    4e-06,
+    1e-05
+  ],
+  "sanity_rate": 3e-05,
+  "sanity_max_steps": 2000,
+  "sanity_fresh_optimizer": true,
+  "precision_target_calibration": 0.5,
+  "selection_scope": "Calibration DEV only. Monitoring families reported separately. TEST unused."
+}

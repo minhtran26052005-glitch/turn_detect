@@ -1,0 +1,11 @@
+{
+  "opened_at": "2026-10-24T02:54:22.671766+00:00",
+  "model_identity": {
+    "weight_sha256": {
+      "model.safetensors": "9f7111d36c07e64c24755a1abddb130efd4b75180964fe93c4c55d3d771a15d8"
+    },
+    "contract_sha256": "33da8efd0b71d94b75be02d4eb2ef0feeeb54b400d074d671d2494f55c82683a"
+  },
+  "report": "/content/turn_detect_v2/runs/trial_gold_20261024_093324/final_holdout/holdout_report.json",
+  "threshold_selected_on": "dev"
+}

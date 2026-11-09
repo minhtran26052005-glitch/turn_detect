@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "source_rows": 20195,
+  "source_words": 321819,
+  "streams": 6036,
+  "every_nonempty_original_test_source_accounted_once": true,
+  "source_structures_match_previous_verified_test": true,
+  "raw_words_and_punctuation_labels_verified": true,
+  "prepared_streams_sha256": "93ca84293d066ed2a6f656cfd5d5ec80789cd52df903c39e81177deb9f451a58"
+}

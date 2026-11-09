@@ -1,0 +1,62 @@
+{
+  "requested_utc": "2026-11-03T06:59:41.473482+00:00",
+  "user_instruction": "giờ là chỉ có train cho cái bản 18.67M ấy",
+  "action": "Graceful SIGTERM only to verified large-model trainer; preserve checkpoint; leave compact worker and Colab generation unchanged",
+  "expected_pid": 2827094,
+  "expected_start_ticks": "50410807",
+  "main_status_before": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T06:59:39.833131+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 763905,
+    "base_step": 486235,
+    "branch_step": 277670,
+    "current_language": "zh",
+    "counts": {
+      "vi": 7075707,
+      "en": 7140997,
+      "zh": 3554171
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.06247945847032194,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "compact_status_before": {
+    "stage": "EXPORTING_EVALUATING_UNDER20M_CPU",
+    "pid": 427431,
+    "at_utc": "2026-11-03T06:59:15.460296+00:00",
+    "hard_parameter_limit_exclusive": 20000000,
+    "main_training_interrupted": false,
+    "run": "qat_g32",
+    "bits": 4
+  },
+  "actual_start_ticks": "50410807",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "identity_verified_before_signal": true,
+  "graceful_signal_sent": true,
+  "main_status_after_request": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T06:59:39.833131+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 763905,
+    "base_step": 486235,
+    "branch_step": 277670,
+    "current_language": "zh",
+    "counts": {
+      "vi": 7075707,
+      "en": 7140997,
+      "zh": 3554171
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.06247945847032194,
+    "cuda_peak_reserved_gib": 3.26
+  }
+}

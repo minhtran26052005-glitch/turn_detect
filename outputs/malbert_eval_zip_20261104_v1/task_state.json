@@ -1,0 +1,98 @@
+{
+  "phase": "COMPLETE",
+  "user_requested": true,
+  "reported": true,
+  "complete": true,
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "all_punctuated_eval_sources_requested": true,
+  "known_train_overlap_included": true,
+  "main_training_must_continue": true,
+  "launcher": {
+    "pid": 2126586,
+    "start_ticks": "63680368",
+    "module": "turn_v2.malbert_eval_zip_v1",
+    "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+    "source_sha256": "3bafd0d87d43938c41fcb6f8d8f4f1704d53aabe5353f756a1808a792a988272"
+  },
+  "process": {
+    "present": false
+  },
+  "checked_utc": "2026-11-03T19:55:50.743958+00:00",
+  "source_order_audit": {
+    "complete": true,
+    "source_rows_included_once": 40146,
+    "keep_false_source_rows_included": 2907,
+    "source_words": 634903,
+    "segments": 34344,
+    "streams": 11977,
+    "all_nonempty_vi_en_rows_accounted_for": true,
+    "raw_source_text_word_identity_verified": true,
+    "source_chronological_order_and_chunk_continuity_verified": true,
+    "cross_speaker_chunk_stitching": false,
+    "prepared_streams_sha256": "9df2e94fbc7f596b229f5b8a6e864f9da29269985d4e351d6ca6b650e9003a51"
+  },
+  "expected_inferences_by_lookahead": {
+    "1": 586048,
+    "2": 555469
+  },
+  "reported_utc": "2026-11-03T19:56:25.472332+00:00",
+  "report_sha256": "373d42667cf5de2857bbeace708a201a8dd87c729733244812c24a6d996d4b10",
+  "checkpoint_step": 827000,
+  "threshold": 0.75,
+  "independent_completion_verified": true,
+  "canonical_predictor_max_probability_delta": 6.854534149169922e-06,
+  "all_requested_test_k2": [
+    {
+      "domain": "ALL",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "label_policy": "fullstop_matches_training",
+      "cohort": "all_requested",
+      "samples": 124649,
+      "tp": 1026,
+      "tn": 117296,
+      "fp": 2857,
+      "fn": 3470,
+      "accuracy": 0.9492414700478945,
+      "eot_f1": 0.24489795918367346,
+      "eot_precision": 0.2642286891578676,
+      "eot_recall": 0.22820284697508897,
+      "false_share_of_cuts": 0.7357713108421323,
+      "false_positive_rate": 0.023778016362471184,
+      "actual_eot": 4496
+    },
+    {
+      "domain": "ALL",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "label_policy": "fullstop_matches_training",
+      "cohort": "all_requested",
+      "samples": 155352,
+      "tp": 590,
+      "tn": 148629,
+      "fp": 2651,
+      "fn": 3482,
+      "accuracy": 0.9605219115299449,
+      "eot_f1": 0.1613564884452345,
+      "eot_precision": 0.1820425794507868,
+      "eot_recall": 0.14489194499017682,
+      "false_share_of_cuts": 0.8179574205492132,
+      "false_positive_rate": 0.01752379693283977,
+      "actual_eot": 4072
+    }
+  ],
+  "no_selection_or_training_changes": true,
+  "failure_diagnosis": {
+    "status": "COMPLETE",
+    "reported": true,
+    "at_utc": "2026-11-04T01:58:04.793455+00:00",
+    "artifact": "failure_diagnosis.json",
+    "new_inference": false,
+    "runtime_changed": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 82255,
+  "start_ticks": "2003205",
+  "synced_files": [
+    "turn_detection/data.py",
+    "turn_detection/cache.py",
+    "turn_detection/train.py",
+    "turn_detection/distill.py",
+    "tests/test_storage.py"
+  ]
+}

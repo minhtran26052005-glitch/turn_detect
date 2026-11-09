@@ -1,0 +1,28 @@
+{
+  "dataset": "tuanduy1612/ViYT-Diar",
+  "revision": "c66b118709d68c7538408d086232d850356db374",
+  "source_url": "https://huggingface.co/datasets/tuanduy1612/ViYT-Diar/tree/c66b118709d68c7538408d086232d850356db374",
+  "readme_sha256": "f0efad726d5f05c131f36b115ba188212cd072e1a70b2d59e8e04270b6c42860",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 2504,
+      "lfs_sha256": null
+    },
+    {
+      "path": "README.md",
+      "size": 3718,
+      "lfs_sha256": null
+    },
+    {
+      "path": "data/test-00000-of-00001.parquet",
+      "size": 307689902,
+      "lfs_sha256": "08d1667162b775d837ea49c4080d9ff470abeeaa7abcbe0cd92b012152c4fbbf"
+    }
+  ],
+  "purpose": "FUTURE_INDEPENDENT_EVALUATION_CANDIDATE_ONLY",
+  "split_policy": "Official test only; do not train or tune on it",
+  "classifier_scores_produced": false,
+  "timeline_is_semantic_EOT_gold": false,
+  "note": "Dataset author reports manual diarization timestamps; need map handoffs/pauses and causal ASR, validate protocol before any turn-quality claim"
+}

@@ -1,0 +1,41 @@
+{
+  "completed_utc": "2026-10-30T12:00:30.403651+00:00",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "gpu": "NVIDIA L4",
+  "source_type": "QWEN_SYNTHETIC_NOT_REAL_CONVERSATION_OR_HUMAN_GOLD",
+  "examples_used_for_training": false,
+  "sources_for_scenario_inspiration": [
+    {
+      "url": "https://huggingface.co/datasets/UKPLab/TexPrax",
+      "kind": "german_worker_dialogues",
+      "license": "CC BY-NC 4.0; no source text copied"
+    },
+    {
+      "url": "https://zenodo.org/records/8268928",
+      "kind": "industrial_scripts_and_professionally_generated_english_audio",
+      "license": "See source record; no source text copied"
+    },
+    {
+      "url": "https://englishladder.com/efsp-manufacturing.html",
+      "kind": "fictional_language_training_dialogues",
+      "license": "No source text copied"
+    }
+  ],
+  "requested_dialogues": 32,
+  "accepted_dialogues": 3,
+  "rejected_dialogues": 29,
+  "batch_sizes": [
+    32
+  ],
+  "gpu_total_gib": 22.03,
+  "gpu_peak_reserved_gib": 21.75,
+  "counts": {
+    "NEOT_k1": 204,
+    "NEOT_k2": 201,
+    "EOT_k1": 18,
+    "EOT_k2": 18
+  },
+  "test_or_dev_selected": false,
+  "caveat": "Sentence ends use generated sentence structure; cross-speaker lookahead assumes a continuous word stream. No human/audio gold."
+}

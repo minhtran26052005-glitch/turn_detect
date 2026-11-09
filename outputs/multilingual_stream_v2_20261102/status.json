@@ -1,0 +1,13 @@
+{
+  "stage": "STOPPED_BY_REQUEST",
+  "pid": 2827094,
+  "at_utc": "2026-11-03T07:00:09.771809+00:00",
+  "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+  "step": 763915,
+  "branch_step": 277680,
+  "counts": {
+    "vi": 7075972,
+    "en": 7141244,
+    "zh": 3554299
+  }
+}

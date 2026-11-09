@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"reason\": \"USER_REQUEST_TEACHER_FIRST_HANDOFF\", \"old_pid\": 179115, \"start_ticks\": \"4385510\", \"signal\": \"SIGTERM\", \"preserve_all_files\": true, \"old_worker_exited\": true, \"old_status\": {\"status\": \"STOPPED_BY_REQUEST\", \"pid\": 179115, \"cycle\": 9, \"quality_target_certified\": false}, \"last_snapshot\": {\"cycle\": 8, \"path\": \"outputs/continuous_v13_20261026/recovery/latest_snapshot.zip\", \"sha256\": \"fb3dd15d239adab86568773d2c2a55bb16f7b789e9ca97903d3cd8750858fac4\", \"bytes\": 56450206, \"created_at_utc\": \"2026-10-25T18:03:28.641447+00:00\"}}\n"
+    }
+  ],
+  "elapsed_seconds": 10.10899999999674
+}

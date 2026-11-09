@@ -1,0 +1,73 @@
+{
+  "model_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+  "hashes_verified": true,
+  "samples": 17833,
+  "max_probability_delta_vs_reference": 0.0,
+  "dev_metrics": {
+    "accuracy": 0.9354567375091123,
+    "eot_f1": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320
+  },
+  "torch_imported": false,
+  "transformers_imported": false,
+  "demos": [
+    {
+      "text": "hà nội là thủ đô và là một trong những trung tâm văn hóa lớn của việt nam",
+      "prediction": "NEOT",
+      "prob_EOT": 0.34706145740863453,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "tôi muốn đặt vé đi",
+      "prediction": "NEOT",
+      "prob_EOT": 0.007180582076335827,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "cảm ơn bạn",
+      "prediction": "NEOT",
+      "prob_EOT": 0.007199121380780944,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    }
+  ],
+  "edge_cases": [
+    {
+      "text": "",
+      "context": "",
+      "prediction": "NEOT",
+      "prob_EOT": 0.010097470406984629,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "XIN CHÀO!!! ＡＢＣ１２３",
+      "context": "Xin chào? Tôi muốn hỏi:",
+      "prediction": "NEOT",
+      "prob_EOT": 0.010517796628727547,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "cảm ơn bạn đã giúp đỡ ❤",
+      "context": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ",
+      "prediction": "NEOT",
+      "prob_EOT": 0.09735701677458278,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    },
+    {
+      "text": "xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào xin chào ",
+      "context": "ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ngữ cảnh ",
+      "prediction": "EOT",
+      "prob_EOT": 0.9256888596502216,
+      "threshold": 0.4699999999999999,
+      "smoke_only": false
+    }
+  ],
+  "holdout_evaluated": false,
+  "passed": true
+}

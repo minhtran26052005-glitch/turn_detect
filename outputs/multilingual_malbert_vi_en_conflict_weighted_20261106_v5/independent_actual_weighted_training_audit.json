@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "actual_training_trace_rows": 1583,
+  "masked_or_ambiguous_trace_rows": 27,
+  "every_actual_label_mask_encoded_input_and_predicted_only_reset_verified": true,
+  "initial_model_optimizer_all_rng_order_cursor_lanes_exactly_equal_to_parent": true,
+  "step": 2356580,
+  "branch_step": 1500,
+  "new_filtered_exposures": 23552,
+  "optimizer_entries": 27,
+  "loss": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "parameters": 11941122,
+  "process": {
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "module": "turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5",
+    "source_sha256": {
+      "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+      "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+      "uploaded_vi_en_evaluation_v5.py": "f0dc7e9a0b81f0f8e5df131c2f195e584e5f6f7ce8fe3cb6d912f2ae654d4579",
+      "multilingual_malbert_vi_en_conflict_weighted_train_v5.py": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+      "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+    }
+  },
+  "parent_full_sha256": "f020f5b0cecf5576ca594a92e300a4ea94b2810ec7973c463cf625d09e5d8b8c",
+  "initial_child_full_sha256": "19ed9f7c3a638a9e10bdc79f7b1f1d0c272719bd9ec0d5a4e9b8e00210660c71",
+  "manifest_sha256": "b13b27a95e96f69c9b15f9c80a5d64d810f284db89acdb6e5a2821c27bd2b842"
+}

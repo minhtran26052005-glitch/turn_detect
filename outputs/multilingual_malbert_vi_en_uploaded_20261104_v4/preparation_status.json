@@ -1,0 +1,45 @@
+{
+  "stage": "UPLOADED_DATA_AND_NEW_DEV_PREPARED",
+  "pid": 2828870,
+  "start_ticks": "67238089",
+  "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+  "at_utc": "2026-11-04T04:07:17.924504+00:00",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "train": {
+    "streams": 17301,
+    "source_rows": 198509,
+    "words": 3373257,
+    "origin:daily:streams": 12504,
+    "en:k1:NEOT": 1432483,
+    "en:k2:NEOT": 1348585,
+    "en:k1:EOT": 68301,
+    "en:k2:EOT": 67359,
+    "vi:k1:NEOT": 1610582,
+    "vi:k2:NEOT": 1528066,
+    "vi:k1:EOT": 57316,
+    "vi:k2:EOT": 57181,
+    "origin:factory/gen500:streams": 510,
+    "origin:asr/run2b:streams": 210,
+    "origin:factory/gen4000:streams": 4077
+  },
+  "dev_monitor": {
+    "streams": 394,
+    "source_rows": 2387,
+    "words": 38838,
+    "origin:asr:streams": 14,
+    "vi:k1:NEOT": 18916,
+    "vi:k1:EOT": 586,
+    "vi:k2:NEOT": 18041,
+    "vi:k2:EOT": 586,
+    "en:k1:NEOT": 16553,
+    "en:k1:EOT": 701,
+    "en:k2:NEOT": 15664,
+    "en:k2:EOT": 696,
+    "origin:daily:streams": 40,
+    "origin:factory:streams": 28,
+    "origin:numeric/dialogue:streams": 312
+  }
+}

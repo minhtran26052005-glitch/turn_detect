@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "passed": 45,
+  "warnings": 3,
+  "observed_stdout": "45 passed, 3 warnings in 17.02s",
+  "command": "python -m pytest -q",
+  "evidence": "Captured exec tool output after training follow-up/evaluation code changes"
+}

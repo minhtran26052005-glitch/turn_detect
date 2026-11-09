@@ -1,0 +1,8 @@
+{
+  "automation_id": "theo-d-i-v-ti-p-t-c-turn-detector-tr-n-colab",
+  "status": "ACTIVE",
+  "prompt_sha256": "eb685c81e101299d03e48926948c26da30d0dc9f327744c01b19143302107f27",
+  "rrule": "RRULE:FREQ=MINUTELY;INTERVAL=60",
+  "current_owner_guard": "2432dc61/PID7510/ticks164260",
+  "recovery_reported_once": true
+}

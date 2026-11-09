@@ -1,0 +1,600 @@
+{
+  "candidate": "outputs\\compression_20261024\\work\\weight_only_int8",
+  "model_bytes": 108201936,
+  "deployment_bytes": 109608775,
+  "onnx_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "recipe": {
+    "method": "Unigram vocabulary compaction; all encoder weights and 12 layers preserved",
+    "source_onnx_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+    "original_vocab": 251000,
+    "retained_vocab": 23078,
+    "original_onnx_bytes": 1116285156,
+    "fp32_onnx_bytes": 416108770,
+    "fp32_onnx_sha256": "47636d204e479790f04033ea147c5da0c2ea156c395a0b32a6f3a68cff43a6d8",
+    "quantization": {
+      "dense_weights": "symmetric per-channel INT8 with DequantizeLinear",
+      "activations": "FP32",
+      "relative_embeddings_and_head": "FP32",
+      "embedding": "symmetric INT8 per token row",
+      "quantized_linear_tensors": 72
+    }
+  },
+  "quantized_tensors": [
+    {
+      "name": "onnx::MatMul_6471",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6475",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6479",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6525",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6526",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6527",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6528",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6532",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6536",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6580",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6581",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6582",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6583",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6587",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6591",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6635",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6636",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6637",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6638",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6642",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6646",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6690",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6691",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6692",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6693",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6697",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6701",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6745",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6746",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6747",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6748",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6752",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6756",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6800",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6801",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6802",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6803",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6807",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6811",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6855",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6856",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6857",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6858",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6862",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6866",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6910",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6911",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6912",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6913",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6917",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6921",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6965",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6966",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6967",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6968",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6972",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_6976",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7020",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7021",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7022",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7023",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7027",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7031",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7075",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7076",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7077",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7078",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7082",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7086",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7130",
+      "shape": [
+        768,
+        768
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7131",
+      "shape": [
+        768,
+        3072
+      ],
+      "axis": 1
+    },
+    {
+      "name": "onnx::MatMul_7132",
+      "shape": [
+        3072,
+        768
+      ],
+      "axis": 1
+    }
+  ]
+}

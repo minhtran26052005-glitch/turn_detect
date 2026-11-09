@@ -1,0 +1,25 @@
+{
+  "launcher": {
+    "pid": 399406,
+    "start_ticks": "58647694",
+    "module": "turn_v2.factory_stream_test_v2",
+    "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_stream_test_20261103_v1",
+    "source_sha256": "1f1729f1f79e43ad7b1d03533e0e086d2b04ae2b968d17dde45a0ba472122c17",
+    "launched_unix": 1793679310.935826
+  },
+  "preparation_receipt": {
+    "preparation_unix": 1793679309.9332888,
+    "pin_inode": 27545708,
+    "pin_bytes": 1624061459,
+    "source_sha256": "1f1729f1f79e43ad7b1d03533e0e086d2b04ae2b968d17dde45a0ba472122c17",
+    "core_source_sha256": "f25264636520a8ca28e11793e759ba8cd73e0048a0c2c2bb21f675da7ab29354",
+    "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "main_trainer_pid": 2827094,
+    "main_trainer_start_ticks": "50410807",
+    "training_interrupted": false,
+    "pin_policy": "Atomic-checkpoint hardlink; no repin; optimizer/RNG/sampler retained; calibrate on same frozen checkpoint DEV before any test inference",
+    "source_spoken_v9_used": false
+  },
+  "checked_utc": "2026-11-03T04:15:10.695026+00:00"
+}

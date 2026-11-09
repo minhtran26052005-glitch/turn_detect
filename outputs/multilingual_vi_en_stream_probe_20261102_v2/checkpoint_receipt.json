@@ -1,0 +1,11 @@
+{
+  "step": 473700,
+  "source_checkpoint_sha256": "6fe719b59c0b376c01593b32d1dcddab8c5c6073f291f4b770c743239ba175a8",
+  "weights_sha256": "1e8418591241d4284849fbdeb595a76a7a950de175af3a3610dcf466c7e2d9c7",
+  "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+  "optimizer_rng_cursors_preserved": true,
+  "student_base": "distilbert/distilbert-base-multilingual-cased",
+  "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+  "one_model_no_language_selector": true,
+  "train_continues": true
+}

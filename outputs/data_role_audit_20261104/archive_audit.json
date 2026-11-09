@@ -1,0 +1,587 @@
+{
+  "archives": {
+    "asr_crawl": "asr_crawl-20261103T173849Z-1-001.zip",
+    "eval": "eval-20261103T173842Z-1-001.zip",
+    "factory": "factory-20261103T173856Z-1-001.zip",
+    "daily_conversation": "daily_conversation-20261103T173852Z-1-001.zip"
+  },
+  "entries": {
+    "asr_crawl/run2b/labels_checked.jsonl": {
+      "archive": "asr_crawl-20261103T173849Z-1-001.zip",
+      "sha256": "f9ac875fc68917e90655383becb824e9053405ac7058097a9667dee076dd7c20",
+      "bytes": 12967517,
+      "rows": 12415,
+      "dialogues": 314,
+      "split_rows": {
+        "train": 12415
+      },
+      "language_rows": {
+        "vi": 6208,
+        "en": 6207
+      },
+      "keep_rows": {
+        "True": 12240,
+        "False": 175
+      },
+      "run_rows": {
+        "unspecified": 12415
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/onevoice/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "7e8cdc724b781b2cd5bf4a694a44028fb6acdce89c25058fb0c64da626e2666a",
+      "bytes": 46719,
+      "rows": 100,
+      "dialogues": 10,
+      "split_rows": {
+        "test": 100
+      },
+      "language_rows": {
+        "vi": 100
+      },
+      "keep_rows": {
+        "True": 100
+      },
+      "run_rows": {
+        "onevoice": 100
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/numeric/sentence/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "69256c75bd47d778e377c7b37633cae5381e33df31d6e4f59c16994b6d069d6e",
+      "bytes": 3891340,
+      "rows": 3330,
+      "dialogues": 338,
+      "split_rows": {
+        "dev": 1666,
+        "test": 1664
+      },
+      "language_rows": {
+        "en": 1665,
+        "vi": 1665
+      },
+      "keep_rows": {
+        "True": 3125,
+        "False": 205
+      },
+      "run_rows": {
+        "numeric": 3330
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/factory/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "e0d5357cf4e635ad52ec54c318760b84c56d2ba68ace76523028329f33fd7f62",
+      "bytes": 3191641,
+      "rows": 4350,
+      "dialogues": 265,
+      "split_rows": {
+        "test": 2117,
+        "dev": 2233
+      },
+      "language_rows": {
+        "en": 2290,
+        "vi": 2060
+      },
+      "keep_rows": {
+        "True": 4305,
+        "False": 45
+      },
+      "run_rows": {
+        "r5": 109,
+        "gen500": 905,
+        "gen2000": 3336
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/daily/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "4ef69549edfac82fa166053d30b6e774650adaf9a22b592b07598723859fcef4",
+      "bytes": 10925297,
+      "rows": 15990,
+      "dialogues": 990,
+      "split_rows": {
+        "test": 7742,
+        "dev": 8248
+      },
+      "language_rows": {
+        "en": 7995,
+        "vi": 7995
+      },
+      "keep_rows": {
+        "True": 15548,
+        "False": 442
+      },
+      "run_rows": {
+        "run1_eval": 15990
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/numeric/code/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "6a5f15ad6044281387f774fac37d67fbedd7fbb9142c49313b57bb460477cbfb",
+      "bytes": 2464408,
+      "rows": 3600,
+      "dialogues": 364,
+      "split_rows": {
+        "dev": 1800,
+        "test": 1800
+      },
+      "language_rows": {
+        "en": 1800,
+        "vi": 1800
+      },
+      "keep_rows": {
+        "True": 3547,
+        "False": 53
+      },
+      "run_rows": {
+        "numeric": 3600
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/asr/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "7727a852a0ed985a034234dde3b4598e33b1df044295d982dffc9e0aec38d8c2",
+      "bytes": 3218628,
+      "rows": 3844,
+      "dialogues": 108,
+      "split_rows": {
+        "dev": 1552,
+        "test": 2292
+      },
+      "language_rows": {
+        "vi": 1922,
+        "en": 1922
+      },
+      "keep_rows": {
+        "True": 3547,
+        "False": 297
+      },
+      "run_rows": {
+        "run1": 3268,
+        "run2a": 576
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "eval/numeric/dialogue/labels_checked.jsonl": {
+      "archive": "eval-20261103T173842Z-1-001.zip",
+      "sha256": "43a03c3bbee4128e4aca18ce205416e14aaa39d2b6e7c5d72650d0630859b103",
+      "bytes": 6909468,
+      "rows": 8932,
+      "dialogues": 3584,
+      "split_rows": {
+        "dev": 4452,
+        "test": 4480
+      },
+      "language_rows": {
+        "en": 4466,
+        "vi": 4466
+      },
+      "keep_rows": {
+        "False": 1865,
+        "True": 7067
+      },
+      "run_rows": {
+        "numeric": 8932
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "factory/gen500/labels_checked.jsonl": {
+      "archive": "factory-20261103T173856Z-1-001.zip",
+      "sha256": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+      "bytes": 8740600,
+      "rows": 8198,
+      "dialogues": 497,
+      "split_rows": {
+        "unspecified": 8198
+      },
+      "language_rows": {
+        "vi": 3987,
+        "en": 4211
+      },
+      "keep_rows": {
+        "True": 8095,
+        "False": 103
+      },
+      "run_rows": {
+        "unspecified": 8198
+      },
+      "identical_to_already_imported_raw": "factory_checked.jsonl"
+    },
+    "factory/gen4000/labels_checked.jsonl": {
+      "archive": "factory-20261103T173856Z-1-001.zip",
+      "sha256": "9bff1cd3a319ba82f111c2507d3a05bd4f6a4a64b43d432a36e0ae01226f6017",
+      "bytes": 69045304,
+      "rows": 64947,
+      "dialogues": 3946,
+      "split_rows": {
+        "unspecified": 64947
+      },
+      "language_rows": {
+        "en": 33847,
+        "vi": 31100
+      },
+      "keep_rows": {
+        "True": 64799,
+        "False": 148
+      },
+      "run_rows": {
+        "unspecified": 64947
+      },
+      "identical_to_already_imported_raw": null
+    },
+    "daily_conversation/full/labels_checked.jsonl": {
+      "archive": "daily_conversation-20261103T173852Z-1-001.zip",
+      "sha256": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4",
+      "bytes": 159285099,
+      "rows": 189122,
+      "dialogues": 11968,
+      "split_rows": {
+        "test": 9514,
+        "dev": 9678,
+        "train": 169930
+      },
+      "language_rows": {
+        "en": 94561,
+        "vi": 94561
+      },
+      "keep_rows": {
+        "True": 187809,
+        "False": 1313
+      },
+      "run_rows": {
+        "unspecified": 189122
+      },
+      "identical_to_already_imported_raw": "public_checked.jsonl"
+    }
+  },
+  "eval_manifests": {
+    "eval/asr/eval_set.json": {
+      "name": "asr",
+      "kind": "talk",
+      "context": true,
+      "sources": [
+        "data/asr_crawl/run1",
+        "data/asr_crawl/run2a"
+      ],
+      "split": "by video group, recorded in the run (scripts/asr_crawl/select_spans.py)",
+      "reference": "the teacher's label after label control, without \"...\" and dashes",
+      "built": "2026-11-02",
+      "splits": {
+        "dev": {
+          "dialogues": 46,
+          "messages": 1552,
+          "scored": 1441,
+          "scored_by_direction": {
+            "vi>en": 715,
+            "en>vi": 726
+          }
+        },
+        "test": {
+          "dialogues": 62,
+          "messages": 2292,
+          "scored": 2106,
+          "scored_by_direction": {
+            "vi>en": 1025,
+            "en>vi": 1081
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py"
+    },
+    "eval/numeric/sentence/eval_set.json": {
+      "name": "numeric/sentence",
+      "kind": "numeric",
+      "context": false,
+      "sources": [
+        "data/numeric/run1",
+        "data/numeric/run2"
+      ],
+      "split": "by source document of IndustryCorpus2 (dev and test: the same number of items)",
+      "reference": "English: the original sentence of IndustryCorpus2; Vietnamese: the teacher's translation; numbers, codes and units are read by fixed rules (mt.numeric_entities), checked three ways and judged twice",
+      "built": "2026-11-02",
+      "splits": {
+        "dev": {
+          "dialogues": 168,
+          "messages": 1666,
+          "scored": 1571,
+          "scored_by_direction": {
+            "en>vi": 799,
+            "vi>en": 772
+          },
+          "scored_by_type": {
+            "money": 263,
+            "percent": 287,
+            "code": 480,
+            "measure": 526,
+            "standard": 20,
+            "number": 532,
+            "range": 67,
+            "time": 8
+          }
+        },
+        "test": {
+          "dialogues": 170,
+          "messages": 1664,
+          "scored": 1554,
+          "scored_by_direction": {
+            "en>vi": 788,
+            "vi>en": 766
+          },
+          "scored_by_type": {
+            "number": 529,
+            "money": 278,
+            "percent": 259,
+            "measure": 487,
+            "standard": 26,
+            "code": 496,
+            "range": 75,
+            "time": 6
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py; each message holds its entities"
+    },
+    "eval/numeric/dialogue/eval_set.json": {
+      "name": "numeric/dialogue",
+      "kind": "numeric",
+      "context": true,
+      "sources": [
+        "data/numeric/run1",
+        "data/numeric/run2"
+      ],
+      "split": "by source document of IndustryCorpus2 (dev and test: the same number of items)",
+      "reference": "English: the original sentence of IndustryCorpus2; Vietnamese: the teacher's translation; numbers, codes and units are read by fixed rules (mt.numeric_entities), checked three ways and judged twice",
+      "built": "2026-11-02",
+      "splits": {
+        "dev": {
+          "dialogues": 1788,
+          "messages": 4452,
+          "scored": 3564,
+          "scored_by_direction": {
+            "vi>en": 1734,
+            "en>vi": 1830
+          },
+          "scored_by_type": {
+            "money": 194,
+            "range": 47,
+            "code": 417,
+            "percent": 157,
+            "measure": 418,
+            "standard": 21,
+            "number": 371,
+            "time": 13
+          }
+        },
+        "test": {
+          "dialogues": 1796,
+          "messages": 4480,
+          "scored": 3503,
+          "scored_by_direction": {
+            "vi>en": 1712,
+            "en>vi": 1791
+          },
+          "scored_by_type": {
+            "code": 476,
+            "number": 430,
+            "measure": 361,
+            "percent": 115,
+            "standard": 26,
+            "money": 211,
+            "range": 56,
+            "time": 9
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py; each message holds its entities"
+    },
+    "eval/daily/eval_set.json": {
+      "name": "daily",
+      "kind": "daily",
+      "context": true,
+      "sources": [
+        "data/daily_conversation/run1_eval"
+      ],
+      "split": "sha1 of the original dialogue, dev 0.05, test 0.05 (scripts/daily_conversation/prepare.py)",
+      "reference": "en->vi: the teacher's label after the label control of the dev and test segments (bin/label_control.sh PART=eval); vi->en: the English original, copy-edited",
+      "built": "2026-10-29",
+      "splits": {
+        "dev": {
+          "dialogues": 506,
+          "messages": 8248,
+          "scored": 8023,
+          "scored_by_direction": {
+            "en>vi": 4112,
+            "vi>en": 3911
+          }
+        },
+        "test": {
+          "dialogues": 484,
+          "messages": 7742,
+          "scored": 7525,
+          "scored_by_direction": {
+            "en>vi": 3858,
+            "vi>en": 3667
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py"
+    },
+    "eval/onevoice/eval_set.json": {
+      "name": "onevoice",
+      "kind": "single",
+      "context": false,
+      "sources": [
+        "data/benchmark/OneVoice_V_to_E_samples_100.xlsx"
+      ],
+      "split": "test only: the competition's sample; never train or choose a method on it",
+      "reference": "the organisers' English (column Tiếng Anh - Final)",
+      "built": "2026-10-28",
+      "splits": {
+        "test": {
+          "dialogues": 10,
+          "messages": 100,
+          "scored": 100,
+          "scored_by_direction": {
+            "vi>en": 100
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py"
+    },
+    "eval/numeric/code/eval_set.json": {
+      "name": "numeric/code",
+      "kind": "numeric",
+      "context": false,
+      "sources": [
+        "data/numeric/run1",
+        "data/numeric/run2"
+      ],
+      "split": "by source document of IndustryCorpus2 (dev and test: the same number of items)",
+      "reference": "English: the original sentence of IndustryCorpus2; Vietnamese: the teacher's translation; numbers, codes and units are read by fixed rules (mt.numeric_entities), checked three ways and judged twice",
+      "built": "2026-11-02",
+      "splits": {
+        "dev": {
+          "dialogues": 182,
+          "messages": 1800,
+          "scored": 1780,
+          "scored_by_direction": {
+            "en>vi": 889,
+            "vi>en": 891
+          },
+          "scored_by_type": {
+            "code": 425,
+            "measure": 423,
+            "percent": 284,
+            "standard": 32,
+            "number": 284,
+            "range": 102,
+            "money": 212,
+            "time": 18
+          }
+        },
+        "test": {
+          "dialogues": 182,
+          "messages": 1800,
+          "scored": 1767,
+          "scored_by_direction": {
+            "en>vi": 886,
+            "vi>en": 881
+          },
+          "scored_by_type": {
+            "number": 284,
+            "percent": 268,
+            "time": 11,
+            "code": 424,
+            "measure": 430,
+            "range": 102,
+            "money": 214,
+            "standard": 34
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py; each message holds its entities"
+    },
+    "eval/factory/eval_set.json": {
+      "name": "factory",
+      "kind": "meeting",
+      "context": true,
+      "sources": [
+        "data/factory/r5",
+        "data/factory/gen500",
+        "data/factory/gen2000"
+      ],
+      "split": "sha1 of <run>/<dialogue>, dev 0.05, test 0.05 (as build_sft.py)",
+      "reference": "the teacher's label after label control, without \"...\" and dashes",
+      "built": "2026-10-28",
+      "splits": {
+        "dev": {
+          "dialogues": 135,
+          "messages": 2233,
+          "scored": 2202,
+          "scored_by_direction": {
+            "en>vi": 1159,
+            "vi>en": 1043
+          }
+        },
+        "test": {
+          "dialogues": 130,
+          "messages": 2117,
+          "scored": 2103,
+          "scored_by_direction": {
+            "en>vi": 1106,
+            "vi>en": 997
+          }
+        }
+      },
+      "note": "no prompt is stored: the template, the style and the context are chosen by evaluate.py"
+    }
+  },
+  "cross_archive_source_overlap": [
+    {
+      "eval_entry": "eval/factory/labels_checked.jsonl",
+      "source_entry": "factory/gen500/labels_checked.jsonl",
+      "exact_full_dialogue_matches": 54,
+      "shared_normalized_source_chunks_at_least_8words": 774,
+      "matched_dialogue_examples": [
+        "gen500__r00023",
+        "gen500__r00054",
+        "gen500__r00007",
+        "gen500__r00004",
+        "gen500__r00028"
+      ]
+    },
+    {
+      "eval_entry": "eval/factory/labels_checked.jsonl",
+      "source_entry": "factory/gen4000/labels_checked.jsonl",
+      "exact_full_dialogue_matches": 0,
+      "shared_normalized_source_chunks_at_least_8words": 1,
+      "matched_dialogue_examples": []
+    },
+    {
+      "eval_entry": "eval/daily/labels_checked.jsonl",
+      "source_entry": "daily_conversation/full/labels_checked.jsonl",
+      "exact_full_dialogue_matches": 945,
+      "shared_normalized_source_chunks_at_least_8words": 11861,
+      "matched_dialogue_examples": [
+        "taskmaster3-dlg-1deee9ee-53bc-4222-b951-0f96c4e972ca.s0.en",
+        "taskmaster3-dlg-1deee9ee-53bc-4222-b951-0f96c4e972ca.s0.vi",
+        "taskmaster3-dlg-040c26e5-db3f-464a-b12f-7e12b7eb3709.s4.en",
+        "taskmaster3-dlg-040c26e5-db3f-464a-b12f-7e12b7eb3709.s4.vi",
+        "topical_chat-t_b7cc6aa2-6172-48ee-a010-0a9003947ff3.s13.en"
+      ]
+    }
+  ],
+  "daily_eval_family_split_comparison": {
+    "('test', ('test',))": 484,
+    "('dev', ('dev',))": 506
+  },
+  "daily_eval_families_in_public_raw_train": [],
+  "scope": "Archive provenance and proposed data roles only; no training or model evaluation performed",
+  "labels": "Translation references/checked teacher outputs are not direct human/audio EOT labels",
+  "member_instructions_treated_as_data": true,
+  "files_extracted_to_windows": false
+}

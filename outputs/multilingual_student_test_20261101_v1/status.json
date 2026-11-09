@@ -1,0 +1,9 @@
+{
+  "stage": "COMPLETE",
+  "pid": 69990,
+  "start_ticks": "37368650",
+  "at_utc": "2026-10-31T17:18:08.523149+00:00",
+  "training_interrupted": false,
+  "checkpoint_step": 211200,
+  "report_sha256": "4b3cf677d762d2c0577fcd9523768d5b5453b60763c5e4951c7af608e3bac138"
+}

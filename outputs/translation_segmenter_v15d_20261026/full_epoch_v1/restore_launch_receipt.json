@@ -1,0 +1,19 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4 (1)",
+    "notebook": "a-jvsc-0f27b76a-1330-42af-a3af-b64204a54252119a7af6-40db-4833-ae55-e9e40152096b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "pid": 3206,
+    "start_ticks": "73064",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.restore_full_epoch_campaign_v7"
+    ],
+    "log": "/content/turn_detect_v2/restore_full_epoch_control_v7/worker.log"
+  }
+}

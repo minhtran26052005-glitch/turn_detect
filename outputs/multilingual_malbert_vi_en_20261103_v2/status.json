@@ -1,0 +1,15 @@
+{
+  "stage": "EVALUATING_MALBERT_DEV",
+  "pid": 914852,
+  "at_utc": "2026-11-03T08:36:03.130837+00:00",
+  "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+  "parameters": 11941122,
+  "large_teacher_must_remain_stopped": true,
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "run": "finetune",
+  "step": 59000,
+  "epoch": 5
+}

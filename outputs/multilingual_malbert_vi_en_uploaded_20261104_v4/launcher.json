@@ -1,0 +1,8 @@
+{
+  "pid": 205061,
+  "start_ticks": "547555",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "module": "turn_v2.multilingual_malbert_vi_en_uploaded_train_v4",
+  "resumed_from_checkpoint_step": 1505080,
+  "recovery_folder": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834"
+}

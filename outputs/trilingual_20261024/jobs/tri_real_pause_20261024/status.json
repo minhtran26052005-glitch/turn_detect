@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T16:29:04.759405+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.trilingual_real_pause",
+    "--output",
+    "runs/tri_real_pause_20261024"
+  ],
+  "timeout_seconds": 1800,
+  "pid": 107406,
+  "elapsed_seconds": 35.005298137664795,
+  "heartbeat_unix": 1792859374.7639525,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T16:29:39.764706+00:00"
+}

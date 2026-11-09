@@ -1,0 +1,317 @@
+{
+  "at_utc": "2026-10-27T09:02:41.089537+00:00",
+  "user_request": "Audit all data, full-coverage epochs and loss/DEV convergence for vi/en/zh",
+  "status": "DATA_AUDIT_COMPLETE_CPU_PREFETCH_GPU_READY_LANGUAGE_TRAINING",
+  "data_build_generation": "cycle000084_full_epoch_contiguous_v1",
+  "train_dev_source_pages_to_examine": 40647,
+  "epochs_cover_all_accepted_rows_once": true,
+  "microbatch": 32,
+  "gradient_accumulation": 2,
+  "language_rotation_optimizer_steps": 500,
+  "test_used_for_selection": false,
+  "new_quality_score_available": false,
+  "full_data_audit_complete": true,
+  "first_full_epoch_complete": false,
+  "source_module_sha256": {
+    "turn_v2/translation_segmenter_full_data_v1.py": "512b120f2fbf1fce21906322b6535263854ea6a0f705d7747e329af54f1cbd6a",
+    "turn_v2/translation_segmenter_full_data_v2.py": "2e1d4ee524c0b9de1b41b93a6d02373e13c6eda4ed6f62935b8e2d47c670930a",
+    "turn_v2/translation_segmenter_epoch_sampling_v1.py": "56692b08a178317a9aed311928a8bbb9009353f03f12ea38614a8af70df68028",
+    "turn_v2/translation_segmenter_full_train_v1.py": "953012cc7dc1a96b20940fb5df40db2f9c61200d5819eaaf5ee2e7c00d803ccd",
+    "turn_v2/translation_segmenter_full_campaign_v1.py": "781303a9c90a09cfe241c7f6bf9c13ad0b4758045eb1983c9e1b23de2c7f2752",
+    "turn_v2/translation_segmenter_full_transition_v1.py": "65ddb59246e264c7ed7745ebc48f8240ecc7d22052350461d3657b6e46b31030",
+    "turn_v2/translation_segmenter_full_transition_v2.py": "bb72c2ae74fb7d9f859f710900691669d738a896b0c7e2b53997ef45876e3c7d",
+    "turn_v2/translation_segmenter_drive_backup_v2.py": "4a39100a11c9c2c405c72df016356e69a2d95fe01d1af2f5176a319bf4136e01",
+    "turn_v2/restore_full_epoch_campaign_v1.py": "4319c0fe76e563911da51d848f8add1e65fa597bdd2b434aab9711f736961886",
+    "turn_v2/translation_segmenter_full_train_v2.py": "f641ecd7fa651ee2f68deb805788cfbda219c773c120f7cb4279a8d0117a0628",
+    "turn_v2/translation_segmenter_full_campaign_v2.py": "fe51e1456c943aed0280bbf6fabd823b3035d98f1cebe0ee459a494c84791747",
+    "turn_v2/translation_segmenter_drive_backup_v3.py": "e41c148e7cde61315a0e31f3dc30d924459e49aabfd449b5481583dbc61d1a57",
+    "turn_v2/restore_full_epoch_campaign_v2.py": "132222cf5f0325392c62f7e35c1191612f844464baf04a9dd4c285649283a85f",
+    "turn_v2/translation_segmenter_exact_encoding_v1.py": "47559c85aecd8eb91314619cb6707c32b515bdd82ab9af53f83af5f3f7b33fc1",
+    "turn_v2/translation_segmenter_causal_extraction_v2.py": "03e079663f7ea12955b60b30f3cad4aa6090c6b2b6d104029b6c21b90538857c",
+    "turn_v2/translation_segmenter_full_data_v3.py": "d1b008c858a8a31da8af382c2b886107dfcca60e00ddbe5d93638691097bd498",
+    "turn_v2/translation_segmenter_full_data_v4.py": "00522633b267879ec7bf49bfefcdd8313733f14e069a3b186b0803b940d47a2c",
+    "turn_v2/translation_segmenter_full_verify_v1.py": "f2f9aa7de2ff7923e8793bf5d9056a2040449856a0b7de8a04fa0504f8f73732",
+    "turn_v2/translation_segmenter_full_train_v4.py": "12340b84a74bee89340056b6c39aa11a27cde35dfbb759fd7257e49791e1f3f7",
+    "turn_v2/translation_segmenter_full_campaign_v6.py": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614",
+    "turn_v2/translation_segmenter_drive_backup_v5.py": "1b59bde02c2e718dcea0cda1687172b411ac3c1ac7f74249fd42a53ea40f2f8d",
+    "turn_v2/translation_segmenter_drive_backup_v6.py": "d3dfc71c0d884e08a11960e5b3914238d5996c63b63a56abc347b6ee1ced2efc",
+    "turn_v2/restore_full_epoch_campaign_v6.py": "16f8534da78f94dfe0efa9a0d669d0df3b8edebb6442254ebd497d4d70adbbc7",
+    "turn_v2/translation_segmenter_full_data_v5.py": "2e489d3b504c5ffd9da2c40a82b7041cb6a3c959079f8635188df147b231d81c",
+    "turn_v2/translation_segmenter_full_verify_v2.py": "337ed6835c489acaa4ee8d24f170b7f39eab1ba4d4c132e2a8a6f09ab5376e3d",
+    "turn_v2/translation_segmenter_full_campaign_v7.py": "f8ed20b27f815c9ff254e1968a516e4baca3174c833df2ba0dc6ba46d63cd287",
+    "turn_v2/translation_segmenter_drive_backup_v7.py": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+    "turn_v2/restore_full_epoch_campaign_v7.py": "0e0447f9d1882a9e7f10f54716ccb345ff479d00bd59b1fd68059dc33bb49563",
+    "turn_v2/translation_segmenter_cache_v1.py": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+    "turn_v2/translation_segmenter_full_train_v5.py": "6fd13e325cfad823423923b7a65483235d2575cad27b4db8489da03fb254badc",
+    "turn_v2/translation_segmenter_full_campaign_v8.py": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+    "turn_v2/translation_segmenter_cache_handoff_v1.py": "ff7d93965e56df36f208fd5ae9ca7e54ea31f170f0b08b94d60ec40fd7bc441b"
+  },
+  "local_large_transfers": false,
+  "local_free_gib": 34.86,
+  "control": "tools/translation_segmenter_full_epoch_colab.py status",
+  "empty_VM_recovery": "tools/restore_full_epoch_colab_v7.py launch",
+  "recovery_prepared_not_executed": false,
+  "pending_kernel_control": {
+    "user_authorized_owned_cell_interrupt": true,
+    "interrupt_api_http": 204,
+    "notebook_kernel_reset": false,
+    "kernel_observed_idle": true,
+    "ephemeral_terminal_control_available": true
+  },
+  "local_checks": {
+    "passed": 41,
+    "scope": "Exact full-epoch coverage/resume, immutable corpus and checkpoints, unique input constraints, all-row verifier, causal extraction, partial CPU-cache adoption/resume and ready-language scheduling",
+    "new_model_training_or_inference_local": false
+  },
+  "updated_at_utc": "2026-10-27T17:11:22.790073+00:00",
+  "active_modules": {
+    "data": "turn_v2.translation_segmenter_full_data_v5",
+    "verifier": "turn_v2.translation_segmenter_full_verify_v2",
+    "campaign": "turn_v2.translation_segmenter_full_campaign_v8",
+    "trainer": "turn_v2.translation_segmenter_full_train_v5",
+    "cache": "turn_v2.translation_segmenter_cache_v1",
+    "backup": "turn_v2.translation_segmenter_drive_backup_v7"
+  },
+  "base_model_reinitialized": false,
+  "restored_optimizer_steps": {
+    "vi": 1400,
+    "en": 1400,
+    "zh": 1400
+  },
+  "new_VM_boot_id": "324821b8-56cd-4e3f-88bb-8ac4f5dbfd3a",
+  "restore_proof": {
+    "at_utc": "2026-10-27T12:18:34.965090+00:00",
+    "manifest_sha256": "29069a85edde65a342b13def7d6fbdfd2ff25eb3b64cc7da2aff26436440b651",
+    "checkpoints": {
+      "vi": {
+        "legacy_checkpoint_adopted": true,
+        "optimizer_steps": 1400,
+        "historical_train_rows": 983370
+      },
+      "en": {
+        "legacy_checkpoint_adopted": true,
+        "optimizer_steps": 1400,
+        "historical_train_rows": 513524
+      },
+      "zh": {
+        "legacy_checkpoint_adopted": true,
+        "optimizer_steps": 1400,
+        "historical_train_rows": 1284384
+      }
+    },
+    "data_integrity_and_fingerprints_verified": true,
+    "optimizer_rng_and_exact_epoch_cursor_restored": true,
+    "raw_crawl_next_cycle": 85,
+    "base_model_reinitialization": false,
+    "Windows_large_downloads": false,
+    "restore_module": "restore_full_epoch_campaign_v5",
+    "cleaned_dataset_rebuild_required": true
+  },
+  "runtime_workers": {
+    "coordinator": {
+      "pid": 83531,
+      "start_ticks": "2031550",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_campaign_v8"
+      ],
+      "module": "turn_v2.translation_segmenter_full_campaign_v8",
+      "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v8.log",
+      "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca"
+    },
+    "prefetch": {
+      "pid": 83530,
+      "start_ticks": "2031550",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_cache_v1",
+        "--generation",
+        "cycle000084_full_epoch_contiguous_v1",
+        "--language",
+        "zh",
+        "--split",
+        "train"
+      ],
+      "module": "turn_v2.translation_segmenter_cache_v1",
+      "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+      "source_sha256": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "zh",
+      "split": "train",
+      "CPU_only": true
+    },
+    "backup": {
+      "pid": 83532,
+      "start_ticks": "2031551",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_drive_backup_v7"
+      ],
+      "module": "turn_v2.translation_segmenter_drive_backup_v7",
+      "log": "outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_cache_handoff_v1.log",
+      "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+    }
+  },
+  "current_data_audit": {
+    "at_utc": "2026-10-27T12:29:35.807222+00:00",
+    "stage": "REEXTRACTING_ALL_TRAIN_DEV_SOURCES",
+    "generation": "cycle000084_full_epoch_contiguous_v1",
+    "source_cycle": 84,
+    "language": "en",
+    "processed_pages": 9788,
+    "total_pages": 40647,
+    "generated_rows": 954616
+  },
+  "worker_identities_verified": {
+    "audit_process_verified": true,
+    "campaign_process_verified": true,
+    "backup_process_verified": true
+  },
+  "encoding_cache_parity": {
+    "complete": true,
+    "examples_checked": 3000,
+    "all3_languages": true,
+    "model_inference": false,
+    "encoder_mathematically_identical": true
+  },
+  "remote_free_gib": 142.57,
+  "train_dev_sources_extracted": 40647,
+  "generated_candidates": 8982604,
+  "technical_overlap_fix": {
+    "reason": "Final overlap self-join chooses inner records_split(language,split,disposition), causing quadratic TRAIN x DEV comparisons",
+    "faulty_query_plan": [
+      [
+        5,
+        0,
+        0,
+        "SCAN a"
+      ],
+      [
+        11,
+        0,
+        0,
+        "SEARCH b USING INDEX records_split (language=? AND split=? AND disposition=?)"
+      ]
+    ],
+    "all_source_pages_processed": 40647,
+    "candidate_rows": 8982604,
+    "committed_dispositions_have_no_pending_rows_in_all_six_partitions": true,
+    "original_modules_preserved": true,
+    "kernel_reset_or_interrupt": false,
+    "test_scoring": false,
+    "prior_workers": {
+      "audit": {
+        "pid": 13943,
+        "start_ticks": "332181",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_data_v4"
+        ],
+        "module": "turn_v2.translation_segmenter_full_data_v4",
+        "source_sha256": "00522633b267879ec7bf49bfefcdd8313733f14e069a3b186b0803b940d47a2c",
+        "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/data_worker_v4.log"
+      },
+      "campaign": {
+        "pid": 13944,
+        "start_ticks": "332181",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v6"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v6",
+        "source_sha256": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614",
+        "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v6.log"
+      }
+    },
+    "owned_audit_and_waiting_coordinator_stopped": true
+  },
+  "source_pages_processed": 40647,
+  "accepted_rows_verified": 8339693,
+  "eligible_train_rows": {
+    "vi": 1618675,
+    "en": 876968,
+    "zh": 4868059
+  },
+  "cache_handoff": {
+    "complete": true,
+    "preserved_zh_cache_rows": 3060000,
+    "remaining_zh_cache_rows": 1808059,
+    "all_three_checkpoint_files_and_receipts_unchanged": true,
+    "VI_EN_resume_cursors": {
+      "vi": 32000,
+      "en": 32000
+    },
+    "optimizer_or_sampler_reinitialization": false,
+    "kernel_reset_or_interrupt": false,
+    "prefetch": {
+      "pid": 83530,
+      "start_ticks": "2031550",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_cache_v1",
+        "--generation",
+        "cycle000084_full_epoch_contiguous_v1",
+        "--language",
+        "zh",
+        "--split",
+        "train"
+      ],
+      "module": "turn_v2.translation_segmenter_cache_v1",
+      "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+      "source_sha256": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "zh",
+      "split": "train",
+      "CPU_only": true
+    },
+    "coordinator": {
+      "pid": 83531,
+      "start_ticks": "2031550",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_campaign_v8"
+      ],
+      "module": "turn_v2.translation_segmenter_full_campaign_v8",
+      "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v8.log",
+      "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca"
+    },
+    "backup": {
+      "pid": 83532,
+      "start_ticks": "2031551",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_drive_backup_v7"
+      ],
+      "module": "turn_v2.translation_segmenter_drive_backup_v7",
+      "log": "outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_cache_handoff_v1.log",
+      "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+    },
+    "effective_batch_unchanged": 64,
+    "source_sha256": {
+      "turn_v2/translation_segmenter_cache_v1.py": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+      "turn_v2/translation_segmenter_full_train_v5.py": "6fd13e325cfad823423923b7a65483235d2575cad27b4db8489da03fb254badc",
+      "turn_v2/translation_segmenter_full_campaign_v8.py": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+      "turn_v2/translation_segmenter_cache_handoff_v1.py": "ff7d93965e56df36f208fd5ae9ca7e54ea31f170f0b08b94d60ec40fd7bc441b"
+    },
+    "data_generation": "cycle000084_full_epoch_contiguous_v1"
+  },
+  "model_optimizer_reinitialization": false
+}

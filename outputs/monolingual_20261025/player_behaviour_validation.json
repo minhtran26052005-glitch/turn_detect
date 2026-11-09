@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "JavaScript behavior with DOM stub; no browser visual QA claim",
+  "languages": 3,
+  "rows": 204,
+  "private_model_paths": 3,
+  "filter_next_prev_play": true
+}

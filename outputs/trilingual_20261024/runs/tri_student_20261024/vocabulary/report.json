@@ -1,0 +1,5 @@
+{
+  "vocab_size": 18711,
+  "source": "TRAIN observed pieces plus ASCII/Latin/all available single CJK/bytes/specials",
+  "dev_or_test_vocab_fit": false
+}

@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-23T21:24:46+0700",
+  "command": [
+    ".\\run_turn_detector.py",
+    "--text",
+    "tôi muốn đặt vé đi Hà Nội",
+    "--output-dir",
+    ".\\outputs\\demo"
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "1.26.4",
+    "onnxruntime": "1.23.2",
+    "onnxruntime-gpu": "1.23.2",
+    "transformers": "5.8.0.dev0",
+    "tokenizers": "0.22.2",
+    "tqdm": "4.67.1"
+  },
+  "available_providers": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "session_providers": [
+    "CPUExecutionProvider"
+  ],
+  "settings": {
+    "max_length": 256,
+    "batch_size": 1,
+    "decision": "argmax of two logits; class 1 is EOT per supplied inference code",
+    "context_truncation": "left",
+    "text_truncation": "right only beyond max_length - 3",
+    "lowercase": true
+  },
+  "samples": 1,
+  "nonempty_context_samples": 0,
+  "load_seconds": 2.4571988999960013,
+  "inference_seconds": 0.10820760000206064,
+  "samples_per_second": 9.24149505192756,
+  "sha256": {
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\text_based.py": "263b2bd762100cbec052ab17acd50ee94a13f01467e01b483b79ddabf8ff754d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\run_turn_detector.py": "492f6e5c03a0d33221480ebc6a48e893a16de44ac6f45315d3241e6c1f42ae1d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\config.json": "b9a3ff7a36395c6bdcc4496fba90a8b8570926a3127be2202b322d2214af918b",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\model_quantized.onnx": "06eca8cb4b449039a3b72ce51a93e7a528ea9a92cb7aea1d80f244f078469daf",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\ort_config.json": "2012e7b3f7d4d5d9a8b18682b3e5ec647fe60f15e0ccd1ed62eb247f3b8b8cf7",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\special_tokens_map.json": "63cd5b53789b3b5ae2c3d7aa377bcba1557ff0b41dc69ce07b94350ea32291c2",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer.json": "1b7b5426f019fe68073c1b8a3e384f7c2986659ee26401b29694524e4ac62f4e",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer_config.json": "003a9e8a39f5367191d3464ab9510a0e1dd7d3a5cc8ddf62e78bfc247a2a619f"
+  },
+  "metrics": null,
+  "latency_ms_including_tokenization_after_warmup": {
+    "mean": 103.58510000514798,
+    "p50": 103.58510000514798,
+    "p95": 103.58510000514798,
+    "max": 103.58510000514798
+  }
+}

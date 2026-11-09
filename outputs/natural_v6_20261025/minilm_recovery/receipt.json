@@ -1,0 +1,11 @@
+{
+  "status": "EXACT_NON_EMBEDDING_DELTA_READY",
+  "requires_pinned_base_encoder": true,
+  "base_receipt": "outputs/natural_v6_20261025/encoder_download.json",
+  "source_full_weights_sha256": "c6c4ce9434c5624444c0456ef6ae365c1fa3fbbd277afd50d0dce24b0d396d49",
+  "source_full_weights_bytes": 470641664,
+  "delta_bytes": 85791240,
+  "delta_sha256": "23214ac376c7d551ee124243aa0edeeba7aa9261b27e7e8f7356e512c9088765",
+  "delta_tensors": 196,
+  "not_standalone_deployment_size": true
+}

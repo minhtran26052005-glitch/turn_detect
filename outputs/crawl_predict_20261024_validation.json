@@ -1,0 +1,27 @@
+{
+  "client_date": "2026-10-24",
+  "checks": {
+    "originals_unchanged": true,
+    "colab_selected_cells_passed": true,
+    "legacy_predictions_12": true,
+    "colab_predictions_12": true,
+    "predictions_are_not_training_labels": true,
+    "no_rl_or_training_claim": true,
+    "no_accuracy_claim": true,
+    "holdout_not_evaluated": true,
+    "notebook_new_stage_present": true,
+    "bundle_contains_tested_module": true
+  },
+  "all_passed": true,
+  "legacy_prediction_counts": {
+    "EOT": 7,
+    "NEOT": 5
+  },
+  "teacher": {
+    "reviewed": 4,
+    "accepted": 0,
+    "rejected": 4
+  },
+  "notebook_sha256": "c6e5b23158653ffbf4b5ab2a2ff2268692df8685e4c53b8c7006c79d6e8bd128",
+  "module_sha256": "cf76c17152750eb0e2b48a8ac110b56579f34cbb726104024811c0fcefb714ac"
+}

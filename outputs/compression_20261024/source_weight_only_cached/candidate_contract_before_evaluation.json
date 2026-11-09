@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "max_length": 256,
+  "threshold": 0.49999999999999994,
+  "normalization": "NFKC lowercase punctuation-to-space collapse-whitespace",
+  "input_format": "[CLS] context [SEP] text [SEP]; context left-truncated; pad right",
+  "label2id": {
+    "NEOT": 0,
+    "EOT": 1
+  },
+  "smoke_only": false,
+  "manifest_sha256": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+  "seed": 42,
+  "model": "microsoft/mdeberta-v3-base",
+  "base_model_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "silver_sha256": null,
+  "training_settings": {
+    "lr": 2e-05,
+    "epochs": 3.0,
+    "max_steps": 2000,
+    "batch_size": 16,
+    "accumulation": 2,
+    "precision": "fp32"
+  },
+  "code_sha256": {
+    "train.py": "966f8919661a34a8f0361e6a11ab7cb786eed56786eca6f4ec7a2fcf17750e38",
+    "common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+    "metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+    "prepare.py": "6d20bf618d28ade8c0a9cb02986d9b21004d22f3f88d103d2bc2a5e3cc8e438d"
+  },
+  "compression": {
+    "method": "Unigram vocabulary compaction; all encoder weights and 12 layers preserved",
+    "source_onnx_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+    "original_vocab": 251000,
+    "retained_vocab": 23078,
+    "original_onnx_bytes": 1116285156,
+    "fp32_onnx_bytes": 416108770,
+    "fp32_onnx_sha256": "47636d204e479790f04033ea147c5da0c2ea156c395a0b32a6f3a68cff43a6d8",
+    "quantization": {
+      "dense_weights": "symmetric per-channel INT8 with DequantizeLinear",
+      "activations": "FP32",
+      "relative_embeddings_and_head": "FP32",
+      "embedding": "symmetric INT8 per token row",
+      "quantized_linear_tensors": 72
+    }
+  },
+  "quality_status": "DEV_NOT_EVALUATED",
+  "padding_to_multiple_of": 8,
+  "quantized": true,
+  "onnx_session_options": {
+    "session.disable_quant_qdq": "1"
+  }
+}

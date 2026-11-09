@@ -1,0 +1,515 @@
+{
+  "schema": 1,
+  "complete": true,
+  "at_utc": "2026-10-27T16:07:02.585089+00:00",
+  "generation": "cycle000084_full_epoch_contiguous_v1",
+  "source_cycle": 84,
+  "recipe": "FULL_EPOCH_CONTIGUOUS_V1",
+  "extraction_recipe": "CAUSAL_CONTIGUOUS_SENTENCE_EXTRACTION_V2_LANG_ABBREVIATIONS",
+  "database_integrity": "ok",
+  "database_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+  "archive_sha256": "53be0724ab1fdbe951123834625cb971b1bc27cc6e587a38f6a2aa08453d47bb",
+  "archive_bytes": 4471162822,
+  "fingerprints": {
+    "vi": {
+      "train": {
+        "rows": 1618675,
+        "sha256": "f2cfc55e4493fead0f5257e11a82c60bc3013dc44d14d6b82fc0049e5f8a952a",
+        "strata": {
+          "NEOT:2": 572076,
+          "EOT:1": 239269,
+          "NEOT:1": 566595,
+          "EOT:2": 240735
+        }
+      },
+      "dev": {
+        "rows": 182622,
+        "sha256": "3120fe8ed4a98ef12cf84668c184c083123a9fe43a3228e44a6409849fe7bb24",
+        "strata": {
+          "NEOT:1": 65220,
+          "EOT:1": 25969,
+          "NEOT:2": 65414,
+          "EOT:2": 26019
+        }
+      }
+    },
+    "en": {
+      "train": {
+        "rows": 876968,
+        "sha256": "e0c5fc5a18a01d95655116a80377c15435b3c8f54014c8b260f7dc28f5b3dfd4",
+        "strata": {
+          "EOT:1": 159070,
+          "NEOT:2": 277755,
+          "NEOT:1": 281712,
+          "EOT:2": 158431
+        }
+      },
+      "dev": {
+        "rows": 109888,
+        "sha256": "c769f3d5028d1c0a64bb6d43a27f33f902809ed714c74f69131557b308e64356",
+        "strata": {
+          "NEOT:1": 35896,
+          "EOT:2": 19449,
+          "NEOT:2": 34938,
+          "EOT:1": 19605
+        }
+      }
+    },
+    "zh": {
+      "train": {
+        "rows": 4868059,
+        "sha256": "f1a7be2ebcb8bdd9204ca127ee7b64821892f880b7bd84326ec1e3435fdc5541",
+        "strata": {
+          "EOT:1": 459298,
+          "NEOT:1": 1965875,
+          "NEOT:2": 1982004,
+          "EOT:2": 460882
+        }
+      },
+      "dev": {
+        "rows": 683481,
+        "sha256": "c5de862f37b8a314bcd1e1d6d1eaf47a57dbcf2d3fca5db8c03edca533fc9789",
+        "strata": {
+          "NEOT:1": 280445,
+          "EOT:2": 61331,
+          "EOT:1": 61177,
+          "NEOT:2": 280528
+        }
+      }
+    }
+  },
+  "counts": [
+    {
+      "language": "en",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 19605
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 19449
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 35896
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 34938
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 159070
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 158431
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 281712
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 277755
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 25969
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 26019
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 65220
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 65414
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 239269
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 240735
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 566595
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 572076
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 61177
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 61331
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 280445
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 280528
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "rows": 459298
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "EOT",
+      "lookahead_words": 2,
+      "rows": 460882
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "rows": 1965875
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "label": "NEOT",
+      "lookahead_words": 2,
+      "rows": 1982004
+    }
+  ],
+  "dispositions": [
+    {
+      "language": "en",
+      "split": "dev",
+      "reason": "accepted",
+      "rows": 109888
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "reason": "conflicting_targets",
+      "rows": 236
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "reason": "duplicate_input",
+      "rows": 1302
+    },
+    {
+      "language": "en",
+      "split": "dev",
+      "reason": "protected_test_input",
+      "rows": 119
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "reason": "accepted",
+      "rows": 876968
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "reason": "conflicting_targets",
+      "rows": 1852
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "reason": "duplicate_input",
+      "rows": 14095
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "reason": "protected_test_input",
+      "rows": 1155
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "reason": "train_dev_overlap",
+      "rows": 5343
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "reason": "accepted",
+      "rows": 182622
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "reason": "conflicting_targets",
+      "rows": 132
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "reason": "duplicate_input",
+      "rows": 2293
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "reason": "protected_test_input",
+      "rows": 1093
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "reason": "accepted",
+      "rows": 1618675
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "reason": "conflicting_targets",
+      "rows": 1388
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "reason": "duplicate_input",
+      "rows": 35303
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "reason": "protected_test_input",
+      "rows": 9629
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "reason": "train_dev_overlap",
+      "rows": 17537
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "reason": "accepted",
+      "rows": 683481
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "reason": "conflicting_targets",
+      "rows": 1027
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "reason": "duplicate_input",
+      "rows": 20382
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "reason": "protected_test_input",
+      "rows": 926
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "reason": "accepted",
+      "rows": 4868059
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "reason": "conflicting_targets",
+      "rows": 7801
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "reason": "duplicate_input",
+      "rows": 335300
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "reason": "protected_test_input",
+      "rows": 10309
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "reason": "train_dev_overlap",
+      "rows": 174553
+    }
+  ],
+  "source_quarantine": [
+    {
+      "language": "en",
+      "source_key": "hf:fineweb:en",
+      "reason": "obvious_wrong_script",
+      "pages": 1
+    },
+    {
+      "language": "vi",
+      "source_key": "hf:fineweb2:vie_Latn",
+      "reason": "obvious_wrong_script",
+      "pages": 3
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:fineweb2:cmn_Hani",
+      "reason": "obvious_wrong_script",
+      "pages": 1
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:industrycorpus2_news_media:zh",
+      "reason": "obvious_wrong_script",
+      "pages": 5
+    }
+  ],
+  "processed_train_dev_pages": 40647,
+  "original_example_counts": [
+    {
+      "language": "en",
+      "split": "dev",
+      "rows": 57825
+    },
+    {
+      "language": "en",
+      "split": "test",
+      "rows": 74079
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "rows": 513524
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "rows": 105798
+    },
+    {
+      "language": "vi",
+      "split": "test",
+      "rows": 109668
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "rows": 983370
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "rows": 158566
+    },
+    {
+      "language": "zh",
+      "split": "test",
+      "rows": 160669
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "rows": 1284384
+    }
+  ],
+  "accepted_exact_encoded_train_dev_overlap": 0,
+  "accepted_input_uniqueness_proof": {
+    "unique_partial_index": "accepted_encoded_input_unique",
+    "columns": [
+      "language",
+      "input_hash"
+    ],
+    "predicate": "disposition='accepted'",
+    "zero_train_dev_overlap_implied": true,
+    "resumed_committed_dispositions": true
+  },
+  "max_encoded_tokens": 256,
+  "all_train_dev_sources_examined": true,
+  "protected_test_inputs_hash_only": true,
+  "test_labels_used": false,
+  "test_or_reserve_reextracted_or_scored": false,
+  "lowercase_punctuation_free": true,
+  "lookahead": [
+    1,
+    2
+  ],
+  "language_check_scope": "source provenance and conservative script screening, not human language verification",
+  "human_gold": false,
+  "extractor_source_sha256": "03e079663f7ea12955b60b30f3cad4aa6090c6b2b6d104029b6c21b90538857c",
+  "builder_source_sha256": "2e489d3b504c5ffd9da2c40a82b7041cb6a3c959079f8635188df147b231d81c",
+  "script_screen": "Latin-script majority for vi/en; Han with low Kana/Hangul for zh; conservative quarantine, not human language certification"
+}

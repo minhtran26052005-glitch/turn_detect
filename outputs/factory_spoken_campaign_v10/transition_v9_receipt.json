@@ -1,0 +1,160 @@
+{
+  "action": "transition-v9",
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "drive_mounted": true,
+  "processes": [],
+  "colab_free_gib": 220.20842742919922,
+  "gpu": "23034, 22564, 0, NVIDIA L4",
+  "identity_verified": true,
+  "drive_owner.json": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 10402,
+    "start_ticks": "245097",
+    "stopped": true
+  },
+  "drive_state.json": {
+    "attempts": {
+      "en": 0,
+      "vi": 29828,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1478,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6815,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 173659,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "8b60a6da3bfcb220b4db4c643364ed2c5e7da4ddf547d670dfeb308aef1369d7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 23013,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 6815,
+      "zh": 0
+    }
+  },
+  "drive_status.json": {
+    "at_unix": 1793692490.3498785,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 19.25,
+    "pid": 10402,
+    "stage": "STOPPED_BY_REQUEST",
+    "start_ticks": "245097",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 29828,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1478,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 6815,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 173659,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "8b60a6da3bfcb220b4db4c643364ed2c5e7da4ddf547d670dfeb308aef1369d7",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 23013,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 6815,
+        "zh": 0
+      }
+    }
+  },
+  "transition": {
+    "receipt": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9/handover/engine_v9_to_v10_vi_en_eb59f31a.json",
+    "sha256": "aeb4d5dc59df19f2cfa0b6ddebc1aaf17e7d7b4efaecd491a3b3a0407add6abb",
+    "baseline": {
+      "attempts": {
+        "en": 0,
+        "vi": 29828,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1478,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 6815,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 173659,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "8b60a6da3bfcb220b4db4c643364ed2c5e7da4ddf547d670dfeb308aef1369d7",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 23013,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 6815,
+        "zh": 0
+      }
+    },
+    "source_sha256": {
+      "factory_spoken_campaign_v10.py": "3565e04b1b1cb77fbcb949b2d6631ccace704b741925559fc8af9599900d54ce",
+      "factory_spoken_spec_v2.py": "8ddf6485e1875a2a45e45df1334685282892870f9ca5282f76d646ff3743bbd1",
+      "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+      "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+      "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+    },
+    "policy_sha256": "a7ce7e1b6531c864017fd34a68e52beb9b0514ee333f13d9a9d43e05a4cadeb9"
+  },
+  "launched": {
+    "pid": 113294,
+    "start_ticks": "2625926",
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v10",
+    "output": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9",
+    "active_languages": [
+      "vi",
+      "en"
+    ]
+  },
+  "session_selection": {
+    "selection": "explicit_known_owner_boot_with_verified_drive_and_all_runtime_process_probes",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "assigned_runtime_count": 2,
+    "selected_matching_sessions": 2,
+    "selected_views_verified": true,
+    "other_runtimes_have_no_generation_worker": true,
+    "other_runtime_boots": [
+      "e024f0d6-1375-4f0c-9d60-250856f083b5"
+    ]
+  }
+}

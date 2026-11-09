@@ -1,0 +1,18 @@
+{
+  "models": {
+    "student_INT4": {
+      "weights": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+      "contract": "ce548e467fef6674d285ad305af93573bb14e390ace5d578faa78574fa5541b1"
+    },
+    "vi_QAT_control": {
+      "weights": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+      "contract": "cdf0901e2154855628ff6c86a43eb796d41ff9170634b4f23a3e40d42e2834c3"
+    },
+    "teacher": {
+      "weights": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+      "contract": "8e6840f7a474b3c608aafcc06be45a45cd8a8c9b628cb37a31c34cbfb77856c3"
+    }
+  },
+  "cases_sha256": "2303cdf8ce132a53585dbee96a00ff66165899ecc81ba2255e7e3483fb5ed723",
+  "thresholds_or_weights_retuned": false
+}

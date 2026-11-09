@@ -1,0 +1,74 @@
+{
+  "checked_utc": "2026-10-31T03:54:19.565055+00:00",
+  "recovery": {
+    "old_boot_id": "ae0f9c31-1951-43c3-b1b1-5ee647c10c14",
+    "new_boot_id": "224e79fd-bab8-4fd8-8d43-24bbe32269c3",
+    "previous_runtime_ended_confirmed_by_user": true,
+    "confirmed_utc": "2026-10-31T03:47:07.727689+00:00",
+    "verified_drive_nonce": "9e618b0f2db442a6a9ee3ee18f1d7143",
+    "drive_state_seen": {
+      "cycle": 1,
+      "vi_accepted": 10000,
+      "en_accepted": 1836,
+      "commit_index": 572
+    },
+    "new_worker_launched": true,
+    "notebook_kernel_busy_with_read_only_chain_audit": false,
+    "verified_commit_chain_entries": 572,
+    "verified_last_commit_sha256": "1dc4e18b55def12625cf8bf2772158dcc5ccfdcfa26c4b812f7240b572d4d64d",
+    "handover_receipt": "handover/owner_ae0f9c31_to_224e79fd.json",
+    "handover_receipt_sha256": "c6ac7a033b7c5e238f6c765023cfddaa79803dd200e6c37231ed2f80832fef93",
+    "new_pid": 5723,
+    "new_start_ticks": "132478",
+    "runtime_versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.21.0",
+      "safetensors": "0.8.0",
+      "accelerate": "1.15.0",
+      "sentencepiece": "0.2.2"
+    }
+  },
+  "state": {
+    "attempts": {
+      "en": 1904,
+      "vi": 13936
+    },
+    "batch_size": 28,
+    "commit_index": 572,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 1836,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 49343,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "1dc4e18b55def12625cf8bf2772158dcc5ccfdcfa26c4b812f7240b572d4d64d",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 68,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 1836,
+      "vi": 10000
+    }
+  },
+  "verified_objects": [
+    {
+      "index": 504,
+      "language": "vi",
+      "object_sha256": "683c7fc2b9b28a2ba77cab10416b8ec5d307ff9d311a496b4fd89f6ddb672ea1",
+      "readback_verified": true
+    },
+    {
+      "index": 572,
+      "language": "en",
+      "object_sha256": "3b05d3074fcd22fafeb0a5ea35965a56853c3248c241fb265f5f78257d428167",
+      "readback_verified": true
+    }
+  ]
+}

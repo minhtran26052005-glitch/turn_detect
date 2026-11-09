@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T18:42:23.641823+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.natural_v5_train",
+    "--output",
+    "runs/natural_v5_train_20261025",
+    "--rounds",
+    "4",
+    "--steps",
+    "600"
+  ],
+  "timeout_seconds": 3600,
+  "pid": 140649,
+  "elapsed_seconds": 1490.3140978813171,
+  "heartbeat_unix": 1792868828.955213,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T19:07:13.955924+00:00"
+}

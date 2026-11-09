@@ -1,0 +1,164 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "campaign": {
+      "campaign": "translation_segmenter_full_epoch_v8",
+      "status": "RUNNING",
+      "stage": "TRAINING_READY_LANGUAGE_WITH_CPU_PREFETCH",
+      "heartbeat_utc": "2026-10-28T05:27:37.328176+00:00",
+      "pid": 3071,
+      "qwen_judge_enabled": false,
+      "quality_target_certified": false,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "language": "vi",
+      "epoch": 1
+    },
+    "training": {
+      "campaign": "translation_segmenter_full_epoch_v1",
+      "status": "RUNNING",
+      "stage": "TRAINING_FULL_EPOCH",
+      "heartbeat_utc": "2026-10-28T05:25:58.322953+00:00",
+      "pid": 27827,
+      "quality_target_certified": false,
+      "qwen_judge_enabled": false,
+      "language": "en",
+      "cycle": 84,
+      "epoch": 1,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "step": 13000,
+      "steps": 13703,
+      "total_steps": 14400,
+      "unique_rows_seen": 832000,
+      "eligible_rows": 876968,
+      "coverage": 0.9487233285593089,
+      "loss": 0.3149709510060194,
+      "epoch_weighted_loss": 0.34369974286117877,
+      "lr_scale": 1.0,
+      "seconds_per_optimizer_step": 2.649711475435999,
+      "remaining_epoch_seconds": 1862.7471672315073,
+      "peak_allocated_VRAM_GiB": 5.292204856872559,
+      "peak_reserved_VRAM_GiB": 6.435546875,
+      "microbatch": 32,
+      "accumulation": 2,
+      "effective_batch": 64
+    },
+    "child": {
+      "pid": 33798,
+      "start_ticks": "821673",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_train_v5",
+        "--language",
+        "vi",
+        "--generation",
+        "cycle000084_full_epoch_contiguous_v1",
+        "--epoch",
+        "1",
+        "--budget",
+        "500"
+      ],
+      "module": "turn_v2.translation_segmenter_full_train_v5",
+      "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/runs/cycle000084_full_epoch_contiguous_v1/vi/epoch_0001.log"
+    },
+    "backup": {
+      "stage": "SYNCED",
+      "at_utc": "2026-10-28T05:24:00.411253+00:00",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+      "verified_files": 66,
+      "full_recovery_available": true,
+      "files": 66,
+      "data_cycle": 84,
+      "logical_bytes": 35880286355,
+      "object_bytes": 35761433994,
+      "pruned_objects": 1,
+      "next_check_seconds": 900
+    },
+    "active_child_verified": true,
+    "child_status": "Name:\tpython3\nUmask:\t0022\nState:\tR (running)\nTgid:\t33798\nNgid:\t0\nPid:\t33798\nPPid:\t3071\nTracerPid:\t0\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t0 \nNStgid:\t33798\nNSpid:\t33798\nNSpgid:\t3071\nNSsid:\t3071\nKthread:\t0\nVmPeak:\t 9648204 kB\nVmSize:\t 9648204 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t 1334592 kB\nVmRSS:\t 1334592 kB\nRssAnon:\t  918736 kB\nRssFile:\t  405616 kB\nRssShmem:\t   10240 kB\nVmData:\t 1866580 kB\nVmStk:\t     136 kB\nVmExe:\t    3052 kB\nVmLib:\t 2173044 kB\nVmPTE:\t    3992 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t9\nSigQ:\t2/51741\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000001001000\nSigCgt:\t0000000100004002\nCapInh:\t0000000000000000\nCapPrm:\t00000000a82c25fb\nCapEff:\t00000000a82c25fb\nCapBnd:\t00000000a82c25fb\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t2\nSeccomp_filters:\t1\nSpeculation_Store_Bypass:\tvulnerable\nSpeculationIndirectBranch:\talways enabled\nCpus_allowed:\t3\nCpus_allowed_list:\t0-1\nMems_allowed:\t00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t11225\nnonvoluntary_ctxt_switches:\t2234\n",
+    "child_io": "rchar: 183439176\nwchar: 161\nsyscr: 18460\nsyscw: 16\nread_bytes: 900190208\nwrite_bytes: 4096\ncancelled_write_bytes: 4096\n",
+    "child_wchan": "0",
+    "child_log_tail": "798720, \"eligible_rows\": 1618675, \"coverage\": 0.49344062273155515, \"loss\": 0.3215287513431951, \"epoch_weighted_loss\": 0.4285979066590333, \"lr_scale\": 1.0, \"seconds_per_optimizer_step\": 0.9144222971812572, \"remaining_epoch_seconds\": 11715.578471486266, \"peak_allocated_VRAM_GiB\": 5.281967639923096, \"peak_reserved_VRAM_GiB\": 6.365234375, \"microbatch\": 32, \"accumulation\": 2, \"effective_batch\": 64}\n{\"campaign\": \"translation_segmenter_full_epoch_v1\", \"status\": \"RUNNING\", \"stage\": \"TRAINING_FULL_EPOCH\", \"heartbeat_utc\": \"2026-10-28T02:16:52.901195+00:00\", \"pid\": 218343, \"quality_target_certified\": false, \"qwen_judge_enabled\": false, \"language\": \"vi\", \"cycle\": 84, \"epoch\": 1, \"generation\": \"cycle000084_full_epoch_contiguous_v1\", \"step\": 12490, \"steps\": 25292, \"total_steps\": 13890, \"unique_rows_seen\": 799360, \"eligible_rows\": 1618675, \"coverage\": 0.49383600784592335, \"loss\": 0.3134400882762333, \"epoch_weighted_loss\": 0.4285672127248782, \"lr_scale\": 1.0, \"seconds_per_optimizer_step\": 0.9109668103428629, \"remaining_epoch_seconds\": 11662.197106009331, \"peak_allocated_VRAM_GiB\": 5.281967639923096, \"peak_reserved_VRAM_GiB\": 6.365234375, \"microbatch\": 32, \"accumulation\": 2, \"effective_batch\": 64}\n{\"campaign\": \"translation_segmenter_full_epoch_v1\", \"status\": \"RUNNING\", \"stage\": \"TRAINING_FULL_EPOCH\", \"heartbeat_utc\": \"2026-10-28T02:17:01.832357+00:00\", \"pid\": 218343, \"quality_target_certified\": false, \"qwen_judge_enabled\": false, \"language\": \"vi\", \"cycle\": 84, \"epoch\": 1, \"generation\": \"cycle000084_full_epoch_contiguous_v1\", \"step\": 12500, \"steps\": 25292, \"total_steps\": 13900, \"unique_rows_seen\": 800000, \"eligible_rows\": 1618675, \"coverage\": 0.4942313929602916, \"loss\": 0.46719785040877, \"epoch_weighted_loss\": 0.428556707320636, \"lr_scale\": 1.0, \"seconds_per_optimizer_step\": 0.910609807765999, \"remaining_epoch_seconds\": 11648.520660942659, \"peak_allocated_VRAM_GiB\": 5.281967639923096, \"peak_reserved_VRAM_GiB\": 6.365234375, \"microbatch\": 32, \"accumulation\": 2, \"effective_batch\": 64}\n",
+    "gpu": "Tesla T4, 0 %, 263 MiB",
+    "prefetch": {
+      "en_train.json": {
+        "process_verified": false,
+        "record": {
+          "pid": 27003,
+          "start_ticks": "655554",
+          "command": [
+            "/usr/bin/python3",
+            "-u",
+            "-m",
+            "turn_v2.translation_segmenter_cache_v1",
+            "--generation",
+            "cycle000084_full_epoch_contiguous_v1",
+            "--language",
+            "en",
+            "--split",
+            "train"
+          ],
+          "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/en_train.log",
+          "generation": "cycle000084_full_epoch_contiguous_v1",
+          "language": "en",
+          "split": "train",
+          "CPU_only": true
+        }
+      },
+      "zh_train.json": {
+        "process_verified": true,
+        "record": {
+          "pid": 33797,
+          "start_ticks": "821672",
+          "command": [
+            "/usr/bin/python3",
+            "-u",
+            "-m",
+            "turn_v2.translation_segmenter_cache_v1",
+            "--generation",
+            "cycle000084_full_epoch_contiguous_v1",
+            "--language",
+            "zh",
+            "--split",
+            "train"
+          ],
+          "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+          "generation": "cycle000084_full_epoch_contiguous_v1",
+          "language": "zh",
+          "split": "train",
+          "CPU_only": true
+        }
+      },
+      "vi_train.json": {
+        "process_verified": false,
+        "record": {
+          "pid": 27826,
+          "start_ticks": "675561",
+          "command": [
+            "/usr/bin/python3",
+            "-u",
+            "-m",
+            "turn_v2.translation_segmenter_cache_v1",
+            "--generation",
+            "cycle000084_full_epoch_contiguous_v1",
+            "--language",
+            "vi",
+            "--split",
+            "train"
+          ],
+          "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/vi_train.log",
+          "generation": "cycle000084_full_epoch_contiguous_v1",
+          "language": "vi",
+          "split": "train",
+          "CPU_only": true
+        }
+      }
+    }
+  }
+}

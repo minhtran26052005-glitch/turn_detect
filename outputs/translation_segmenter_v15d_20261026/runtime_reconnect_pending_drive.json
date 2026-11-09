@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-27T02:12:03.067797+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-51246f56-9b61-4405-b91e-ac2afe78a51e3188af95-83c1-4d9a-b1ea-39a2d54a8b08.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "drive_mounted": false,
+  "project_state_present": false,
+  "campaign_parent_verified": false,
+  "training_running_verified": false,
+  "required_action": "Run the Drive mount cell in a.ipynb and complete Google authorization in the new runtime",
+  "next_action": "Read and verify the current Drive latest_manifest, restore data plus all model/optimizer/RNG states, then resume; do not initialize from base or use legacy cycle42 data-only restore helper",
+  "local_large_downloads_allowed": false
+}

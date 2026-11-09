@@ -1,0 +1,50 @@
+{
+  "created_at_utc": "2026-10-23T18:38:05.644454+00:00",
+  "status": "SMOKE_INFERENCE_ONLY",
+  "model": {
+    "format": "v2",
+    "smoke_only": true,
+    "threshold": 0.37499999999999994,
+    "path": "/content/turn_detect_v2/runs/smoke_20261023_220613/onnx",
+    "sha256": {
+      "model.onnx": "22d93b60e4b0edcc8d311dd7e45167d03ada301d699eec960d68387b8ac8e094",
+      "config.json": "9109a6b252d32419b0550135493f1f2f5b48abb06923c0e383e42a847ca8dc44",
+      "turn_detector_config.json": "cf1c6d67aca976ab5999e5fb7d92db30bb19497e20ef867d58911cdac982646d"
+    }
+  },
+  "predictions": 12,
+  "prediction_counts": {
+    "EOT": 12
+  },
+  "skipped": {},
+  "review_queue_size": 4,
+  "teacher": {
+    "teacher": "Qwen/Qwen3-4B-Instruct-2507",
+    "teacher_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "prompt_version": "vi-eot-two-views-v1",
+    "prompt_sha256": "6a842b835353a95953ff622564cbba0bc3e290f1b7e7e73a3185218ff5038b20",
+    "input_sha256": "1211f14337d0be636af042428660da966581c3056fd740f40b2f143913802177",
+    "candidates": 4,
+    "accepted": 0,
+    "rejected": 4,
+    "min_self_reported_confidence": 0.9,
+    "gold": false,
+    "holdout_labels_modified": false,
+    "limits": "Two prompts on the same teacher are correlated; confidence is uncalibrated. Human review remains necessary for gold claims."
+  },
+  "accepted_teacher_disagreements": 0,
+  "sources": [
+    {
+      "title": "Hà Nội",
+      "page_id": 80,
+      "extract_sha256": "73f4ba89da21250e18c661d2faf998dbe84d1aecee7d3db931e38a5f95481c6a",
+      "candidates": 2079
+    }
+  ],
+  "training_performed": false,
+  "rl_performed": false,
+  "holdout_evaluated": false,
+  "accuracy": null,
+  "review_selection": "half near the decision threshold, one high-probability EOT prefix, remaining deterministic coverage; probabilities uncalibrated",
+  "limits": "Crawled prose and silver labels do not establish dialogue accuracy or a 90% result."
+}

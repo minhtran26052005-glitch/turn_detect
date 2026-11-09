@@ -1,0 +1,58 @@
+{
+  "phase": "COMPLETE",
+  "reported": true,
+  "request": "Test the current uploaded-only v4 model",
+  "main_training_continues": true,
+  "process": {
+    "present": false
+  },
+  "checked_utc": "2026-11-05T02:07:09.657083+00:00",
+  "complete": true,
+  "reported_utc": "2026-11-05T02:08:04.097804+00:00",
+  "checkpoint_step": 1945080,
+  "branch_step": 480000,
+  "report_sha256": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96",
+  "all_inferences_audited": 579685,
+  "test_k2_metrics": [
+    {
+      "domain": "ALL",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "label_policy": "fullstop_matches_training",
+      "cohort": "all_requested",
+      "samples": 124649,
+      "tp": 1571,
+      "tn": 118583,
+      "fp": 1570,
+      "fn": 2925,
+      "accuracy": 0.9639387399818691,
+      "eot_f1": 0.41141809611103836,
+      "eot_precision": 0.5001591849729385,
+      "eot_recall": 0.34942170818505336,
+      "false_share_of_cuts": 0.49984081502706146,
+      "false_positive_rate": 0.013066673324844158,
+      "actual_eot": 4496
+    },
+    {
+      "domain": "ALL",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "label_policy": "fullstop_matches_training",
+      "cohort": "all_requested",
+      "samples": 155352,
+      "tp": 705,
+      "tn": 150633,
+      "fp": 647,
+      "fn": 3367,
+      "accuracy": 0.9741619032905917,
+      "eot_f1": 0.25995575221238937,
+      "eot_precision": 0.5214497041420119,
+      "eot_recall": 0.1731335952848723,
+      "false_share_of_cuts": 0.47855029585798814,
+      "false_positive_rate": 0.004276837652035959,
+      "actual_eot": 4072
+    }
+  ]
+}

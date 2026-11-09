@@ -1,0 +1,242 @@
+{
+  "complete": true,
+  "rule": "Exact normalized eight-word left suffix (shorter at stream start) plus one/two same-turn future words; opposing TRAIN labels exclude BOTH classes at every matching source gap",
+  "train_only": true,
+  "test_or_dev_labels_used": false,
+  "source_words_and_punctuation_unchanged": true,
+  "conflicting_keys": 697,
+  "excluded_scored_gaps": 6618,
+  "before_by_language_label": {
+    "en:0": 2781068,
+    "en:1": 135660,
+    "vi:0": 3138648,
+    "vi:1": 114497
+  },
+  "removed_by_language_label": {
+    "en:0": 2253,
+    "vi:0": 2544,
+    "en:1": 1043,
+    "vi:1": 778
+  },
+  "surviving_keys_checked": 6085051,
+  "examples": [
+    {
+      "0": {
+        "stream": 0,
+        "boundary": 1,
+        "k": 1,
+        "language": "en",
+        "context": "hi",
+        "future": "i"
+      },
+      "1": {
+        "stream": 20,
+        "boundary": 1,
+        "k": 1,
+        "language": "en",
+        "context": "hi",
+        "future": "i"
+      }
+    },
+    {
+      "0": {
+        "stream": 0,
+        "boundary": 1,
+        "k": 2,
+        "language": "en",
+        "context": "hi",
+        "future": "i wanted"
+      },
+      "1": {
+        "stream": 8579,
+        "boundary": 1,
+        "k": 2,
+        "language": "en",
+        "context": "hi",
+        "future": "i wanted"
+      }
+    },
+    {
+      "0": {
+        "stream": 1,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "chào",
+        "future": "anh"
+      },
+      "1": {
+        "stream": 11457,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "chào",
+        "future": "anh"
+      }
+    },
+    {
+      "0": {
+        "stream": 1,
+        "boundary": 2,
+        "k": 1,
+        "language": "vi",
+        "context": "chào anh",
+        "future": "em"
+      },
+      "1": {
+        "stream": 100,
+        "boundary": 2,
+        "k": 1,
+        "language": "vi",
+        "context": "chào anh",
+        "future": "em"
+      }
+    },
+    {
+      "0": {
+        "stream": 1,
+        "boundary": 2,
+        "k": 2,
+        "language": "vi",
+        "context": "chào anh",
+        "future": "em muốn"
+      },
+      "1": {
+        "stream": 8581,
+        "boundary": 2,
+        "k": 2,
+        "language": "vi",
+        "context": "chào anh",
+        "future": "em muốn"
+      }
+    },
+    {
+      "1": {
+        "stream": 4,
+        "boundary": 2,
+        "k": 1,
+        "language": "en",
+        "context": "hello there",
+        "future": "how"
+      },
+      "0": {
+        "stream": 211,
+        "boundary": 2,
+        "k": 1,
+        "language": "en",
+        "context": "hello there",
+        "future": "how"
+      }
+    },
+    {
+      "1": {
+        "stream": 4,
+        "boundary": 2,
+        "k": 2,
+        "language": "en",
+        "context": "hello there",
+        "future": "how are"
+      },
+      "0": {
+        "stream": 211,
+        "boundary": 2,
+        "k": 2,
+        "language": "en",
+        "context": "hello there",
+        "future": "how are"
+      }
+    },
+    {
+      "0": {
+        "stream": 5,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "chào",
+        "future": "bạn"
+      },
+      "1": {
+        "stream": 28,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "chào",
+        "future": "bạn"
+      }
+    },
+    {
+      "1": {
+        "stream": 5,
+        "boundary": 2,
+        "k": 1,
+        "language": "vi",
+        "context": "chào bạn",
+        "future": "chiều"
+      },
+      "0": {
+        "stream": 10315,
+        "boundary": 2,
+        "k": 1,
+        "language": "vi",
+        "context": "chào bạn",
+        "future": "chiều"
+      }
+    },
+    {
+      "1": {
+        "stream": 5,
+        "boundary": 2,
+        "k": 2,
+        "language": "vi",
+        "context": "chào bạn",
+        "future": "chiều nay"
+      },
+      "0": {
+        "stream": 10315,
+        "boundary": 2,
+        "k": 2,
+        "language": "vi",
+        "context": "chào bạn",
+        "future": "chiều nay"
+      }
+    },
+    {
+      "0": {
+        "stream": 6,
+        "boundary": 2,
+        "k": 1,
+        "language": "en",
+        "context": "hi assistant",
+        "future": "i"
+      },
+      "1": {
+        "stream": 1655,
+        "boundary": 2,
+        "k": 1,
+        "language": "en",
+        "context": "hi assistant",
+        "future": "i"
+      }
+    },
+    {
+      "0": {
+        "stream": 8,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "alô",
+        "future": "em"
+      },
+      "1": {
+        "stream": 451,
+        "boundary": 1,
+        "k": 1,
+        "language": "vi",
+        "context": "alô",
+        "future": "em"
+      }
+    }
+  ],
+  "all_surviving_rule_keys_label_consistent": true,
+  "limitations": "Conservative local-context exclusion can remove positions resolvable with longer histories. Does not exhaust all dynamic reset contexts, WordPiece-only collisions or paraphrases; historical exposure is preserved, not unlearned."
+}

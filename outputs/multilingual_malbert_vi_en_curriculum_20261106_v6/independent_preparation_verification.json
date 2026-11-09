@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "families": 8681,
+  "streams": 17301,
+  "stages": [
+    {
+      "index": 0,
+      "family_count": 874,
+      "eligible_points_per_pass": 463539,
+      "update_budget": 10000
+    },
+    {
+      "index": 1,
+      "family_count": 2174,
+      "eligible_points_per_pass": 1624700,
+      "update_budget": 20000
+    },
+    {
+      "index": 2,
+      "family_count": 4343,
+      "eligible_points_per_pass": 3302616,
+      "update_budget": 30000
+    },
+    {
+      "index": 3,
+      "family_count": 8681,
+      "eligible_points_per_pass": 6163255,
+      "update_budget": null
+    }
+  ],
+  "all_nested_family_memberships_and_unique_task_orders_verified": true,
+  "full_stage_exact_parent_counts_and_all_indices_verified": true,
+  "source_dev_and_masks_byte_identical": true,
+  "train_only_ranking": true,
+  "no_new_samples_or_labels": true,
+  "manifest_sha256": "1df05f4c3f2e88cea19cdd8c79fa0cf3af5a09ec6a03f8c1b6b555103159c51f",
+  "curriculum_plan_sha256": "2014b6233eb4ca74467314f66bbb495d7f405342fe48228be7bd8c0ec5af90ee"
+}

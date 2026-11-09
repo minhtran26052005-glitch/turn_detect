@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "lr": 1e-05,
+  "updates": 3000,
+  "scored_seen": 47122,
+  "parent_step": 2585080,
+  "global_optimizer_step": 2588080,
+  "optimizer_entries": 27,
+  "mean_training_CE": 0.21468183659925125,
+  "weights_sha256": "fe2641893d04c6e6862d397a25dcce00a73938762bf6ab7d107641a1794267d0",
+  "inherited_model_optimizer_order_cursor_lanes_all_rng": true,
+  "comparison_scope": "Same initial checkpoint, optimizer, RNG and source order. LR changes predictions, so later predicted-reset contexts may diverge.",
+  "source_threshold_during_training": 0.1
+}

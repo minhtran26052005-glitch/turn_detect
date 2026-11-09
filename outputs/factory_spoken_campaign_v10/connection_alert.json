@@ -1,0 +1,76 @@
+{
+  "checked_utc": "2026-11-04T03:43:35.408000+00:00",
+  "status": "CONNECTION_LOST",
+  "last_notified_issue_key": "spoken_v10_api_sessions_http404_after_eb59f31a_113294",
+  "required_user_action": "Reconnect existing a.ipynb without resetting or creating a kernel. If a new VM is assigned, verify prior owner ended before handover.",
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "pid": 113294,
+  "start_ticks": "2625926",
+  "verified_commit": 1488,
+  "worker_liveness": "UNKNOWN",
+  "current_counters": null,
+  "reported_language_handover": true,
+  "issue_key": "spoken_v10_api_sessions_http404_after_eb59f31a_113294",
+  "discovery": {
+    "checked_utc": "2026-11-04T03:42:21.341731+00:00",
+    "assigned_runtime_count": 0,
+    "runtime_checks": []
+  },
+  "last_known_owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "pid": 113294,
+    "start_ticks": "2625926"
+  },
+  "historical_observation": {
+    "at_unix": 1793696632.8125136,
+    "batch": 20,
+    "batch_started_unix": 1793696632.8125043,
+    "engine_version": 10,
+    "gpu_peak_reserved_gib": 19.62,
+    "language": "vi",
+    "pid": 113294,
+    "stage": "GENERATING",
+    "start_ticks": "2625926",
+    "state": {
+      "active_languages": [
+        "vi",
+        "en"
+      ],
+      "attempts": {
+        "en": 0,
+        "vi": 31008,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1537,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 7091,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 180688,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "3b21c64edd8fadae2cf966bef7206883a56cdaf158e2bc480987c8473e3cde19",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 23917,
+        "zh": 0
+      },
+      "schema": 10,
+      "total_counts": {
+        "en": 0,
+        "vi": 7091,
+        "zh": 0
+      }
+    }
+  },
+  "notified_utc": "2026-11-03T17:36:27.145080+00:00",
+  "observation_reason": "NO_ASSIGNED_RUNTIME_SAME_UNRESOLVED_CONNECTION_LOSS",
+  "notification_repeated": false
+}

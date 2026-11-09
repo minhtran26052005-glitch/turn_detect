@@ -1,0 +1,27 @@
+{
+  "notebook_original_cells_unchanged": 47,
+  "notebook_cells_after": 49,
+  "status_cell_executed_on_Colab": true,
+  "serving_weights": [
+    {
+      "language": "vi",
+      "weights_unchanged": true,
+      "sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412"
+    },
+    {
+      "language": "en",
+      "weights_unchanged": true,
+      "sha256": "b702da5bf187c40881a1c6a6d139c0230ce8945bd9f28e9ca1d250ee525af88d"
+    },
+    {
+      "language": "zh",
+      "weights_unchanged": true,
+      "sha256": "4e744f29f761797005fe69111b28052cef57370bc5080d0b48f21bbc3f131df1"
+    }
+  ],
+  "test_command": "python -m pytest tests -q",
+  "unit_tests_passed": 76,
+  "deprecation_warnings": 3,
+  "test_seconds": 17.68,
+  "quality_target_certified": false
+}

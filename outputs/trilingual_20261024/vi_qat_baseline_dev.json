@@ -1,0 +1,71 @@
+{
+  "scope": "STRUCTURAL_PROXY_DEV; existing VI threshold fixed for every language; no EN/ZH training or test evaluation",
+  "dev": {
+    "vi": {
+      "samples": 2400,
+      "threshold": 0.4699999999999999,
+      "accuracy": 0.94125,
+      "eot_precision": 0.8853801169590644,
+      "eot_recall": 0.94625,
+      "eot_f1": 0.9148036253776435,
+      "joint_score": 0.9148036253776435,
+      "false_eot": 98,
+      "missed_eot": 43,
+      "false_eot_rate": 0.06125,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1502,
+          98
+        ],
+        [
+          43,
+          757
+        ]
+      ]
+    },
+    "en": {
+      "samples": 2387,
+      "threshold": 0.4699999999999999,
+      "accuracy": 0.5567658148303309,
+      "eot_precision": 0.3857016769638129,
+      "eot_recall": 0.5469336670838548,
+      "eot_f1": 0.4523809523809524,
+      "joint_score": 0.4523809523809524,
+      "false_eot": 696,
+      "missed_eot": 362,
+      "false_eot_rate": 0.43828715365239296,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          892,
+          696
+        ],
+        [
+          362,
+          437
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 2403,
+      "threshold": 0.4699999999999999,
+      "accuracy": 0.6658343736995422,
+      "eot_precision": 0.0,
+      "eot_recall": 0.0,
+      "eot_f1": 0.0,
+      "joint_score": 0.0,
+      "false_eot": 0,
+      "missed_eot": 803,
+      "false_eot_rate": 0.0,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1600,
+          0
+        ],
+        [
+          803,
+          0
+        ]
+      ]
+    }
+  }
+}

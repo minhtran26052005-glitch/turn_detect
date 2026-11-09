@@ -1,0 +1,201 @@
+{
+  "complete": true,
+  "checkpoint": {
+    "step": 473700,
+    "source_checkpoint_sha256": "6fe719b59c0b376c01593b32d1dcddab8c5c6073f291f4b770c743239ba175a8",
+    "weights_sha256": "1e8418591241d4284849fbdeb595a76a7a950de175af3a3610dcf466c7e2d9c7",
+    "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+    "optimizer_rng_cursors_preserved": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+    "one_model_no_language_selector": true,
+    "train_continues": true
+  },
+  "threshold_from_same_checkpoint_dev": 0.38,
+  "pairs": 20,
+  "source_paragraphs_transferred": 200,
+  "evaluated_paragraphs": 40,
+  "metrics_on_matched_fullstop_comma_anchors": {
+    "monolingual": {
+      "1": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7796610169491526,
+          "eot_f1": 0.7936507936507936,
+          "tp": 25,
+          "tn": 21,
+          "fp": 6,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.890625,
+          "eot_f1": 0.9333333333333333,
+          "tp": 49,
+          "tn": 8,
+          "fp": 6,
+          "fn": 1
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.7627118644067796,
+          "eot_f1": 0.78125,
+          "tp": 25,
+          "tn": 20,
+          "fp": 7,
+          "fn": 7
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.890625,
+          "eot_f1": 0.9333333333333333,
+          "tp": 49,
+          "tn": 8,
+          "fp": 6,
+          "fn": 1
+        }
+      }
+    },
+    "mixed_matched": {
+      "1": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.4915254237288136,
+          "eot_f1": 0.2857142857142857,
+          "tp": 6,
+          "tn": 23,
+          "fp": 4,
+          "fn": 26
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.421875,
+          "eot_f1": 0.44776119402985076,
+          "tp": 15,
+          "tn": 12,
+          "fp": 2,
+          "fn": 35
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 59,
+          "accuracy": 0.5084745762711864,
+          "eot_f1": 0.2926829268292683,
+          "tp": 6,
+          "tn": 24,
+          "fp": 3,
+          "fn": 26
+        },
+        "en": {
+          "samples": 64,
+          "accuracy": 0.375,
+          "eot_f1": 0.375,
+          "tp": 12,
+          "tn": 12,
+          "fp": 2,
+          "fn": 38
+        }
+      }
+    }
+  },
+  "language_splice_observations": {
+    "1": {
+      "total": 20,
+      "predicted_eot": 4,
+      "full_stop_reference_total": 15,
+      "full_stop_predicted_eot": 2
+    },
+    "2": {
+      "total": 20,
+      "predicted_eot": 3,
+      "full_stop_reference_total": 15,
+      "full_stop_predicted_eot": 1
+    }
+  },
+  "inferences": 3574,
+  "predictions_sha256": "03380756734641372132ecce878e8e81164a12e0344b2814b7d265f12946d7e6",
+  "cases_sha256": "72312caeede3bdc318a5c93c7670ae9e2025fffbbcffcd59a4d85f6e806e319f",
+  "scope": "Synthetic punctuation diagnostic on artificial VI->EN splices; not a language-ID test, translations, or independent conversational gold.",
+  "language_selector_supplied_to_model": false,
+  "gold_resets_supplied_to_model": false,
+  "threshold_selected_on_probe": false,
+  "probe_data_used_for_training": false,
+  "training_interrupted": false,
+  "final_flush_is_model_prediction": false,
+  "completed_utc": "2026-11-02T03:35:25.233538+00:00",
+  "predicted_eot_buffer_reset": true,
+  "comparison_to_rolling_prefix": {
+    "1": {
+      "rolling_prefix_source_anchors": {
+        "samples": 138,
+        "accuracy": 0.7753623188405797,
+        "eot_f1": 0.8342245989304813,
+        "tp": 78,
+        "tn": 29,
+        "fp": 12,
+        "fn": 19
+      },
+      "predicted_reset_source_anchors": {
+        "samples": 138,
+        "accuracy": 0.42028985507246375,
+        "eot_f1": 0.36507936507936506,
+        "tp": 23,
+        "tn": 35,
+        "fp": 6,
+        "fn": 74
+      },
+      "rolling_prefix_cuts_outside_fullstop": 522,
+      "predicted_reset_cuts_outside_fullstop": 205,
+      "rolling_prefix_splice": {
+        "total": 20,
+        "predicted_eot": 16,
+        "full_stop_reference_total": 15,
+        "full_stop_predicted_eot": 12
+      },
+      "predicted_reset_splice": {
+        "total": 20,
+        "predicted_eot": 4,
+        "full_stop_reference_total": 15,
+        "full_stop_predicted_eot": 2
+      }
+    },
+    "2": {
+      "rolling_prefix_source_anchors": {
+        "samples": 138,
+        "accuracy": 0.7898550724637681,
+        "eot_f1": 0.8481675392670157,
+        "tp": 81,
+        "tn": 28,
+        "fp": 13,
+        "fn": 16
+      },
+      "predicted_reset_source_anchors": {
+        "samples": 138,
+        "accuracy": 0.39855072463768115,
+        "eot_f1": 0.3140495867768595,
+        "tp": 19,
+        "tn": 36,
+        "fp": 5,
+        "fn": 78
+      },
+      "rolling_prefix_cuts_outside_fullstop": 460,
+      "predicted_reset_cuts_outside_fullstop": 202,
+      "rolling_prefix_splice": {
+        "total": 20,
+        "predicted_eot": 19,
+        "full_stop_reference_total": 15,
+        "full_stop_predicted_eot": 14
+      },
+      "predicted_reset_splice": {
+        "total": 20,
+        "predicted_eot": 3,
+        "full_stop_reference_total": 15,
+        "full_stop_predicted_eot": 1
+      }
+    }
+  },
+  "original_report_sha256": "0bda1ef1ccfbbce15ba8910ebd2dd389475e2073f3bf9025bf78af4e6783f36e"
+}

@@ -1,0 +1,73 @@
+{
+  "status": {
+    "at_unix": 1793366847.234463,
+    "batch": 24,
+    "batch_started_unix": 1793366816.889473,
+    "engine_version": 8,
+    "gpu_peak_reserved_gib": 17.96,
+    "language": "vi",
+    "pid": 26675,
+    "stage": "GENERATING",
+    "start_ticks": "619783",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 92
+      },
+      "batch_size": 20,
+      "commit_index": 7,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 31
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 940
+      },
+      "language": "vi",
+      "last_commit_sha256": "59757205764dcc087cea6289645586ea7ea35860a96c232f5465ebb5b85f31a4",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 61
+      },
+      "schema": 6,
+      "total_counts": {
+        "en": 0,
+        "vi": 31
+      }
+    }
+  },
+  "commits_v8": [
+    {
+      "index": 7,
+      "accepted": 15,
+      "rejected": 5,
+      "examples": 363,
+      "readback_sha_verified": true,
+      "object_sha256": "d39dd106145752a974c0654027cca93ddee70cdb5593c725d30b3cbf4763d395",
+      "reasons": {
+        "ValueError('expected_multiple_sentences_per_turn')": 5
+      },
+      "sample": {
+        "language": "vi",
+        "paragraphs": [
+          "Báo cáo ghi nhận 14 trường hợp sờn vải tại khu vực phủ hóa chất, cần kiểm tra lại quy trình tẩy rửa. Vị trí xảy ra tập trung ở khâu 3, đoạn 2, gần máy phun hóa chất. Có thể do nhiệt độ nước không đạt tiêu chuẩn?",
+          "Đã quan sát thấy hiện tượng sờn vải ở khâu 3, đoạn 2, nhưng nhiệt độ nước đang ổn định trong khoảng 75–80°C. Cần kiểm tra lại độ pH của dung dịch xử lý, có thể bị lệch do máy đo hỏng?",
+          "pH dung dịch được ghi nhận là 4.5–5.0, nằm trong phạm vi cho phép. Tuy nhiên, sờn vải vẫn xảy ra, nên cần kiểm tra độ nhớt của dung dịch. Có thể do chất lượng hóa chất nhập khẩu không đảm bảo?",
+          "Độ nhớt dung dịch đang trong giới hạn cho phép, 150–160 cps. Đã kiểm tra mẫu hóa chất, kết quả không phát hiện tạp chất. Cần tiếp tục theo dõi và ghi nhận thêm mẫu để xác minh nguyên nhân?"
+        ]
+      }
+    }
+  ],
+  "gpu": "19256, 23034, 100",
+  "identity": {
+    "present": true,
+    "ticks": "619783",
+    "command": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py "
+  },
+  "colab_free_gib": 177.77,
+  "checked_utc": "2026-10-30T13:27:33.825083+00:00",
+  "windows_free_gib": 22.23
+}

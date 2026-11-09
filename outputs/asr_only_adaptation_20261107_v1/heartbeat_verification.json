@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-07T15:33:48.763916+00:00",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "process": {
+    "present": false
+  },
+  "trainer_present": false,
+  "trainer_stop_marker": true,
+  "trainer_status": {
+    "stage": "STOPPED_WITH_CHECKPOINT",
+    "pid": 1121366,
+    "start_ticks": "24252420",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T14:01:54.260244+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+  },
+  "gpu": "",
+  "ssd_free_gib": 39.32048797607422,
+  "hdd_mount": [
+    [
+      "/dev/sda1",
+      "/mnt/hdd500",
+      "fuseblk",
+      "rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+      "0",
+      "0"
+    ]
+  ],
+  "hdd_free_gib": 23.014732360839844,
+  "trace_bytes": null,
+  "windows_free_gib": 16.475982666015625
+}

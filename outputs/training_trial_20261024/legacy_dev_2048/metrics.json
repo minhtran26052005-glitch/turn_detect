@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-24T09:36:29+0700",
+  "command": [
+    "run_turn_detector.py",
+    "--input",
+    "outputs/training_trial_20261024/comparison_dev_2048.jsonl",
+    "--batch-size",
+    "1",
+    "--output-dir",
+    "outputs/training_trial_20261024/legacy_dev_2048"
+  ],
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "1.26.4",
+    "onnxruntime": "1.23.2",
+    "onnxruntime-gpu": "1.23.2",
+    "transformers": "5.8.0.dev0",
+    "tokenizers": "0.22.2",
+    "tqdm": "4.67.1"
+  },
+  "available_providers": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "session_providers": [
+    "CPUExecutionProvider"
+  ],
+  "settings": {
+    "max_length": 256,
+    "batch_size": 1,
+    "decision": "argmax of two logits; class 1 is EOT per supplied inference code",
+    "context_truncation": "left",
+    "text_truncation": "right only beyond max_length - 3",
+    "lowercase": true
+  },
+  "samples": 2048,
+  "nonempty_context_samples": 0,
+  "load_seconds": 3.2623997000046074,
+  "inference_seconds": 116.6380993000057,
+  "samples_per_second": 17.558585164632394,
+  "sha256": {
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\text_based.py": "263b2bd762100cbec052ab17acd50ee94a13f01467e01b483b79ddabf8ff754d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\run_turn_detector.py": "492f6e5c03a0d33221480ebc6a48e893a16de44ac6f45315d3241e6c1f42ae1d",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\config.json": "b9a3ff7a36395c6bdcc4496fba90a8b8570926a3127be2202b322d2214af918b",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\model_quantized.onnx": "06eca8cb4b449039a3b72ce51a93e7a528ea9a92cb7aea1d80f244f078469daf",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\ort_config.json": "2012e7b3f7d4d5d9a8b18682b3e5ec647fe60f15e0ccd1ed62eb247f3b8b8cf7",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\special_tokens_map.json": "63cd5b53789b3b5ae2c3d7aa377bcba1557ff0b41dc69ce07b94350ea32291c2",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer.json": "1b7b5426f019fe68073c1b8a3e384f7c2986659ee26401b29694524e4ac62f4e",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\checkpoint-23000\\tokenizer_config.json": "003a9e8a39f5367191d3464ab9510a0e1dd7d3a5cc8ddf62e78bfc247a2a619f",
+    "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\training_trial_20261024\\comparison_dev_2048.jsonl": "c500867130a2560e8b4a0ca207d7a7b2c0999f1307dc9aa98b657773f6bf4140"
+  },
+  "metrics": {
+    "samples": 2048,
+    "label_counts": {
+      "NEOT": 1424,
+      "EOT": 624
+    },
+    "accuracy": 0.55859375,
+    "eot_precision": 0.39457831325301207,
+    "eot_recall": 0.8397435897435898,
+    "eot_f1": 0.5368852459016393,
+    "macro_f1": 0.5576217274284316,
+    "confusion_matrix": {
+      "rows_actual": [
+        "NEOT",
+        "EOT"
+      ],
+      "columns_predicted": [
+        "NEOT",
+        "EOT"
+      ],
+      "values": [
+        [
+          620,
+          804
+        ],
+        [
+          100,
+          524
+        ]
+      ]
+    },
+    "false_eot": 804,
+    "missed_eot": 100
+  },
+  "latency_ms_including_tokenization_after_warmup": {
+    "mean": 56.866701318526225,
+    "p50": 53.189250007562805,
+    "p95": 62.11894499429035,
+    "max": 1434.692199996789
+  }
+}

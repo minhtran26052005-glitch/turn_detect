@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "reported": true,
+  "phase": "COMPLETE",
+  "parent_paused": true,
+  "adopted": false,
+  "auto_extend_authorized": false,
+  "reported_utc": "2026-11-08T16:52:32.439214+00:00",
+  "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+  "last_notified_dev_branch_step": 20833,
+  "last_notified_dev_global_step": 3752006
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "COMPLETE",
+  "desired_state": "BOUNDED_TRIAL_COMPLETE",
+  "reported": true,
+  "parent_paused": true,
+  "budget_full_epochs": 1,
+  "reported_start": false,
+  "complete": true,
+  "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+  "full_epochs_complete": 1,
+  "final_step": 3753320,
+  "final_branch_step": 22147,
+  "last_notified_dev_branch_step": 22147,
+  "last_notified_dev_global_step": 3753320,
+  "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+  "no_default_replacement": true,
+  "adopted": false,
+  "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+  "auto_extend_authorized": false,
+  "completion_verification_passed": true
+}

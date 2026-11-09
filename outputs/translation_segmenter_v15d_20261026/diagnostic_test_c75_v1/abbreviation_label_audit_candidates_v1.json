@@ -1,0 +1,53 @@
+{
+  "scope": "VI_KNOWN_ABBREVIATION_DOT_CANDIDATES_REQUIRE_SOURCE_REVIEW",
+  "counts": {
+    "tp": 48,
+    "model_errors": 47,
+    "ts": 2,
+    "gs": 2
+  },
+  "examples": [
+    {
+      "context": "và điều đáng nói là má tôi nay 64 tuổi bị tai biến mạch máu não năm 62 tuổi được đưa vào tp",
+      "future": "hồ",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "Theo sự giới thiệu của ông Tháng, chúng tôi tiếp tục tìm đến nhà ông Huỳnh Sang, 72 tuổi, ở số nhà 33 Trần Cao Vân - Quy Nhơn, đúng lúc vợ ông - bà Nguyễn Thị Bảy đang được người nhà tập đi lại. Anh Huỳnh Sinh, con trai ông bà kể lại: \"Cha tôi bị nhồi máu cơ tim hồi 69 tuổi, nằm viện hoài mà không hết. Nghe tin ông Tháng dùng bài thuốc con rùa chữa bệnh tim của mình dứt hẳn, chúng tôi tìm đến hỏi thăm cách thức về thực hiện. Cha tôi uống vào thì thấy bệnh có thuyên giảm. Để chắc ăn, chúng tôi cho ông dùng tiếp 4 con nữa và từ đó, bệnh chấm dứt luôn. Giờ đây chẳng những ông khỏe mạnh mà còn là một kỳ thủ của đường Trần Cao Vân này đấy. Và điều đáng nói là má tôi - nay 64 tuổi - bị tai biến mạch máu não năm 62 tuổi, được đưa vào TP. Hồ Chí Minh chữa nhưng không hết. Một lần bà trong cơn nguy kịch, phải thở bằng oxy trong bệnh viện, tôi chợt nghĩ liều, ba tôi nhồi máu cơ tim uống tiết rùa đỡ bệnh, thì cũng cho bà uống thử toa thuốc rùa này, biết đâu may mắn thì qua khỏi... Thế là tôi cũng áp dụng luôn bài thuốc con rùa cho bà, không ngờ bà lại qua được cơn nguy kịch. Sau khi ăn uống thêm mấy con rùa nữa thì má tôi đỡ hoàn toàn. Giờ bà đang điều trị thêm bằng vật lý trị liệu, minh mẫn lắm...\"."
+    },
+    {
+      "context": "bài giảng định mức lao động do pgs ts",
+      "future": "ngô",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "Bài giảng Định mức lao động do PGS.TS. Ngô Thế Bính biên soạn nhằm cung cấp cho các bạn những kiến thức về các khái niệm cơ bản của Định mức lao động, các phương pháp của định mức lao động, cách thu thập và xử lý thông tin để định mức lao động, quản lý chất lượng định mức lao động. Tài liệu này phục vụ cho các bạn chuyên ngành Kinh tế."
+    },
+    {
+      "context": "không hài lòng với mức bồi thường thanh tra thành phố và các sở ngành đưa ra ông vũ anh hài tiếp tục có đơn khiếu nại tố cáo gửi chủ tịch ubnd tp",
+      "future": "hải phòng",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "Không hài lòng với mức bồi thường Thanh tra Thành phố và các Sở, Ngành đưa ra, ông Vũ Anh Hài tiếp tục có đơn khiếu nại tố cáo gửi Chủ tịch UBND TP. Hải Phòng đề nghị xem xét việc lập hồ sơ giả sai sự thật của UBND huyện Cát Hải, áp dụng phương án đền bù không tuân thủ nội dung biên bản số 56/BB-UBND của Thanh tra Chính phủ và UBND TP. Hải Phòng."
+    },
+    {
+      "context": "mức đền bù 506 105 326đ ubnd tp",
+      "future": "hải phòng",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "Nhận được thông báo số 195/TB-UBND của Chủ tịch UBND TP. Hải Phòng, ông Vũ Anh Hài tỏ ra rất bức xúc. Theo lời ông Hài, nội dung thông báo trên đi ngược lại biên bản thống nhất phương án giải quyết vụ việc giữa Thanh tra Chính phủ và UBND TP. Hải Phòng. Mức đền bù 506.105.326đ UBND TP. Hải Phòng đưa ra xâm hại nghiêm trọng quyền và lợi ích hợp pháp của doanh nghiệp."
+    },
+    {
+      "context": "khu đầm sép rộng 70ha thuộc xã đồng bài được ubnd huyện cát hải tp",
+      "future": "hải phòng",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "Khu đầm Sép rộng 70ha thuộc xã Đồng Bài được UBND huyện Cát Hải, TP. Hải Phòng cấp cho ông Trần Văn Phưởng và Mai Văn Hậu theo Quyết định số 173/QĐ-UB ngày 29/4/1994. Theo Quyết định số 173, UBND huyện Cát Hải cho phép khoanh vùng sử dụng 70ha đất mặn nước, bãi triều đã được điều tra vào mục đích nuôi trồng thủy sản đứng tên ông Trần Văn Phưởng và ông Mai Văn Hậu với thời hạn 9 năm. Sau khi tiếp nhận, hai ông Phưởng và Hậu đã đắp 2km bờ đê ngăn nước mặn, xây dựng 5 cống, xây 3 gian nhà ở, bếp nước, nhà chòi, sắm sửa các ngư cụ để đánh bắt và nuôi trồng thủy sản."
+    },
+    {
+      "context": "dân trí chưa thực hiện đầy đủ nội dung thống nhất với thanh tra chính phủ về phương án giải quyết vụ cưỡng chế đầm sép có dấu hiệu bất thường ngày 28 6 2013 chủ tịch ubnd tp",
+      "future": "hải phòng",
+      "correct": false,
+      "predicted": "NEOT",
+      "source_paragraph": "(Dân trí) - Chưa thực hiện đầy đủ nội dung thống nhất với Thanh tra Chính phủ về phương án giải quyết vụ cưỡng chế đầm Sép có dấu hiệu bất thường, ngày 28/6/2013, Chủ tịch UBND TP. Hải Phòng đã ký thông báo dừng xem xét, thụ lý đơn tố cáo liên quan đến vụ việc này."
+    }
+  ]
+}

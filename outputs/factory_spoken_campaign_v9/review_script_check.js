@@ -1,0 +1,1 @@
+const l=document.querySelector('#language');l.onchange=()=>document.querySelectorAll('article').forEach(e=>e.hidden=!!l.value&&e.dataset.lang!==l.value);

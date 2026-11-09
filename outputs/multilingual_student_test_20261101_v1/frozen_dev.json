@@ -1,0 +1,42 @@
+{
+  "checkpoint_step": 211200,
+  "shared_threshold": 0.56,
+  "by_language": {
+    "vi": {
+      "samples": 1000,
+      "accuracy": 0.827,
+      "eot_precision": 0.6894409937888198,
+      "eot_recall": 0.752542372881356,
+      "eot_f1": 0.7196110210696921,
+      "tp": 222,
+      "tn": 605,
+      "fp": 100,
+      "fn": 73
+    },
+    "en": {
+      "samples": 1000,
+      "accuracy": 0.844,
+      "eot_precision": 0.7412790697674418,
+      "eot_recall": 0.7919254658385093,
+      "eot_f1": 0.7657657657657657,
+      "tp": 255,
+      "tn": 589,
+      "fp": 89,
+      "fn": 67
+    },
+    "zh": {
+      "samples": 1000,
+      "accuracy": 0.866,
+      "eot_precision": 0.6120218579234973,
+      "eot_recall": 0.64,
+      "eot_f1": 0.6256983240223464,
+      "tp": 112,
+      "tn": 754,
+      "fp": 71,
+      "fn": 63
+    }
+  },
+  "threshold_locked_before_test": true,
+  "sample_policy": "Same first 1000 hashed IDs per language as campaign DEV",
+  "test_used_for_selection": false
+}

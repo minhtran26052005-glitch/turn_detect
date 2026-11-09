@@ -1,0 +1,173 @@
+{
+  "round": 1,
+  "step": 100,
+  "thresholds": {
+    "vi": 0.5549999999999999,
+    "en": 0.42999999999999994,
+    "zh": 0.41999999999999993
+  },
+  "slices": {
+    "vi:legacy_vi": {
+      "samples": 3600,
+      "threshold": 0.5549999999999999,
+      "accuracy": 0.6252777777777778,
+      "eot_precision": 0.46406174626145685,
+      "eot_recall": 0.8016666666666666,
+      "eot_f1": 0.5878399022303696,
+      "joint_score": 0.5878399022303696,
+      "false_eot": 1111,
+      "missed_eot": 238,
+      "false_eot_rate": 0.46291666666666664,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1289,
+          1111
+        ],
+        [
+          238,
+          962
+        ]
+      ]
+    },
+    "vi:natural": {
+      "samples": 145,
+      "threshold": 0.5549999999999999,
+      "accuracy": 0.5379310344827586,
+      "eot_precision": 0.3875,
+      "eot_recall": 0.6326530612244898,
+      "eot_f1": 0.4806201550387597,
+      "joint_score": 0.4806201550387597,
+      "false_eot": 49,
+      "missed_eot": 18,
+      "false_eot_rate": 0.5104166666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          47,
+          49
+        ],
+        [
+          18,
+          31
+        ]
+      ]
+    },
+    "en:natural": {
+      "samples": 79,
+      "threshold": 0.42999999999999994,
+      "accuracy": 0.6835443037974683,
+      "eot_precision": 0.6842105263157895,
+      "eot_recall": 0.9811320754716981,
+      "eot_f1": 0.8062015503875969,
+      "joint_score": 0.6835443037974683,
+      "false_eot": 24,
+      "missed_eot": 1,
+      "false_eot_rate": 0.9230769230769231,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          24
+        ],
+        [
+          1,
+          52
+        ]
+      ]
+    },
+    "zh:natural": {
+      "samples": 69,
+      "threshold": 0.41999999999999993,
+      "accuracy": 0.7681159420289855,
+      "eot_precision": 0.7681159420289855,
+      "eot_recall": 1.0,
+      "eot_f1": 0.8688524590163934,
+      "joint_score": 0.7681159420289855,
+      "false_eot": 16,
+      "missed_eot": 0,
+      "false_eot_rate": 1.0,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          53
+        ]
+      ]
+    }
+  },
+  "natural_languages": {
+    "vi": {
+      "samples": 145,
+      "threshold": 0.5549999999999999,
+      "accuracy": 0.5379310344827586,
+      "eot_precision": 0.3875,
+      "eot_recall": 0.6326530612244898,
+      "eot_f1": 0.4806201550387597,
+      "joint_score": 0.4806201550387597,
+      "false_eot": 49,
+      "missed_eot": 18,
+      "false_eot_rate": 0.5104166666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          47,
+          49
+        ],
+        [
+          18,
+          31
+        ]
+      ]
+    },
+    "en": {
+      "samples": 79,
+      "threshold": 0.42999999999999994,
+      "accuracy": 0.6835443037974683,
+      "eot_precision": 0.6842105263157895,
+      "eot_recall": 0.9811320754716981,
+      "eot_f1": 0.8062015503875969,
+      "joint_score": 0.6835443037974683,
+      "false_eot": 24,
+      "missed_eot": 1,
+      "false_eot_rate": 0.9230769230769231,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          24
+        ],
+        [
+          1,
+          52
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 69,
+      "threshold": 0.41999999999999993,
+      "accuracy": 0.7681159420289855,
+      "eot_precision": 0.7681159420289855,
+      "eot_recall": 1.0,
+      "eot_f1": 0.8688524590163934,
+      "joint_score": 0.7681159420289855,
+      "false_eot": 16,
+      "missed_eot": 0,
+      "false_eot_rate": 1.0,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          53
+        ]
+      ]
+    }
+  },
+  "minimum_dev_slice_joint_score": 0.4806201550387597,
+  "development_target_met": false,
+  "development_all_slices_over_90": false,
+  "natural_hold_false_eot_below_10_percent": false,
+  "independent_real_target_achieved": false,
+  "scope": "Development automatic floor labels; not independent human gold"
+}

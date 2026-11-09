@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "all_probabilities_finite_and_in_range": true,
+  "probability_min_max": [
+    0.00036180971073918045,
+    0.975335955619812
+  ],
+  "inferences_by_lookahead": {
+    "1": 297397,
+    "2": 282288
+  },
+  "known_legacy_overlap_streams_scored": 24,
+  "canonical_v4_predictor_parity_cases": 62,
+  "max_probability_delta": 8.940696716308594e-08,
+  "all_canonical_decisions_identical": true,
+  "verification_only_no_selection": true,
+  "report_sha256": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96"
+}

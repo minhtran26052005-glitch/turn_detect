@@ -1,0 +1,9 @@
+{
+  "size": 8192,
+  "train_only": true,
+  "train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+  "algorithm": "byte-level BPE with256byte fallback alphabet",
+  "teacher_tokenization_is_different": true,
+  "no_teacher_embedding_pca_mapping_claim": true,
+  "tokenizer_sha256": "98b7d881b9ffc85085880d211f8cb643b87e76ce7b626f9ba2879b52f7ebceee"
+}

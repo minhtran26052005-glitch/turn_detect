@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"natural_campaign_recovery_20261025\", \"launcher_pid\": 176319, \"source_sha256\": \"425d2fd11f42075d0bb80c4379277cfacd26288d35bcaa836a82c8ec9af831da\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

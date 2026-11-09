@@ -1,0 +1,541 @@
+{
+  "files": {
+    "launcher.json": {
+      "pid": 740150,
+      "start_ticks": "12384185",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "module": "turn_v2.translation_turn_test_20261105_v1"
+    },
+    "status.json": {
+      "stage": "COMPLETE",
+      "at_utc": "2026-11-05T16:28:28.041045+00:00",
+      "pid": 740150,
+      "metrics": {
+        "whole_written": {
+          "all": {
+            "n": 310,
+            "chrF": 41.05562651855241,
+            "BLEU": 17.524643003835706
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.94955841995433,
+            "BLEU": 13.855762847742914
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 41.15466550432582,
+            "BLEU": 20.73003033379706
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 43.009435458596165,
+            "BLEU": 21.105068482849397
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 40.6734031413225,
+            "BLEU": 16.736520932356306
+          }
+        },
+        "whole_asr": {
+          "all": {
+            "n": 310,
+            "chrF": 39.619918584492716,
+            "BLEU": 14.252935517828416
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.23275944913668,
+            "BLEU": 11.847681299643359
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 39.05541272532405,
+            "BLEU": 16.289998827593468
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 42.1253097982769,
+            "BLEU": 16.411523130681033
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 39.123100712271494,
+            "BLEU": 13.677321738608368
+          }
+        },
+        "detector_asr": {
+          "all": {
+            "n": 310,
+            "chrF": 39.31722271776538,
+            "BLEU": 13.913011954854412
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.103985090087775,
+            "BLEU": 11.73601810757018
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 38.59318996133518,
+            "BLEU": 15.746387047778097
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 41.80065164623093,
+            "BLEU": 15.97245688245727
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 38.82394129925097,
+            "BLEU": 13.360284641798273
+          }
+        }
+      }
+    },
+    "report.json": {
+      "complete": true,
+      "metrics": {
+        "whole_written": {
+          "all": {
+            "n": 310,
+            "chrF": 41.05562651855241,
+            "BLEU": 17.524643003835706
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.94955841995433,
+            "BLEU": 13.855762847742914
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 41.15466550432582,
+            "BLEU": 20.73003033379706
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 43.009435458596165,
+            "BLEU": 21.105068482849397
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 40.6734031413225,
+            "BLEU": 16.736520932356306
+          }
+        },
+        "whole_asr": {
+          "all": {
+            "n": 310,
+            "chrF": 39.619918584492716,
+            "BLEU": 14.252935517828416
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.23275944913668,
+            "BLEU": 11.847681299643359
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 39.05541272532405,
+            "BLEU": 16.289998827593468
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 42.1253097982769,
+            "BLEU": 16.411523130681033
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 39.123100712271494,
+            "BLEU": 13.677321738608368
+          }
+        },
+        "detector_asr": {
+          "all": {
+            "n": 310,
+            "chrF": 39.31722271776538,
+            "BLEU": 13.913011954854412
+          },
+          "vi2en": {
+            "n": 160,
+            "chrF": 40.103985090087775,
+            "BLEU": 11.73601810757018
+          },
+          "en2vi": {
+            "n": 150,
+            "chrF": 38.59318996133518,
+            "BLEU": 15.746387047778097
+          },
+          "tele": {
+            "n": 70,
+            "chrF": 41.80065164623093,
+            "BLEU": 15.97245688245727
+          },
+          "mt": {
+            "n": 240,
+            "chrF": 38.82394129925097,
+            "BLEU": 13.360284641798273
+          }
+        }
+      },
+      "model_parameters": 596049920,
+      "translation_model_sha256": "c32df2ca279d43140551bdf44d026722887780ece9cc33a465b36afe778330ac",
+      "eval_sha256": "37ec2f88414da996d2b29792d5f88116b77f42f3879b22ae25ee7fefa0973250",
+      "records_sha256": "fa821bd9da731373b85f486ee84a7b7504593ce6036e3e491d3dd4d7ad549a24",
+      "segmentation_sha256": "5af0a95c37ea45b97737d272da6d8d46f24717a146b8e98fac7306532a60f273",
+      "turn_detector_checkpoint": 1945080,
+      "turn_detector_threshold": 0.1,
+      "translation_template": "B",
+      "compute": "FP32 GPU, greedy, KV cache enabled; CPU exact CLI demo separate",
+      "reference_never_in_prompt": true,
+      "test_used_for_training_or_threshold_selection": false,
+      "forced_flush_at_each_original_message": true,
+      "scope": "Measures within-message segmentation impact, not real-time end-of-turn delay across messages",
+      "segmentation_chunks": 343,
+      "baseline_messages": 310,
+      "source_word_conservation_all_passed": true,
+      "sacrebleu_version": "2.6.0",
+      "main_training_unchanged": true
+    },
+    "cpu_demo.json": {
+      "args": [
+        "/home/edabk/hoangbpm/turn_detect/data/translation_qwen3_06b_15640_user_20261105/translator_source/scripts/demo/translate_cli.py",
+        "--model",
+        "/home/edabk/hoangbpm/turn_detect/data/translation_qwen3_06b_15640_user_20261105/saves/qwen3_0.6b_mix4r2_1ep/checkpoint-15640",
+        "--template",
+        "B",
+        "--device",
+        "cpu",
+        "--cpu-threads",
+        "2",
+        "--show-prompt",
+        "--style",
+        "written",
+        "--context",
+        "en: hi there, how do you do",
+        "--lang",
+        "en",
+        "vi: mình ổn nhé, còn bạn?"
+      ],
+      "stdout": "--- prompt\nConversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:\n---\nI'm doing well, and you?\n",
+      "wall_s": 4.2903642654418945
+    },
+    "gpu_cache_demo_parity.json": {
+      "complete": true,
+      "uncached": {
+        "source": "mình ổn nhé, còn bạn?",
+        "ms": 438,
+        "out_tokens": 8,
+        "context_pieces": 1,
+        "device": "cuda",
+        "translations": {
+          "en": {
+            "text": "I'm doing well, and you?",
+            "prompt": "Conversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:"
+          }
+        }
+      },
+      "cached": {
+        "source": "mình ổn nhé, còn bạn?",
+        "ms": 134,
+        "out_tokens": 8,
+        "context_pieces": 1,
+        "device": "cuda",
+        "translations": {
+          "en": {
+            "text": "I'm doing well, and you?",
+            "prompt": "Conversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:"
+          }
+        }
+      },
+      "model_parameters": 596049920
+    },
+    "review_cases.json": [
+      {
+        "id": "mt_en_052",
+        "src_lang": "en",
+        "source": "that's the way we talk right guys",
+        "reference": "Đó là cách chúng ta nói, phải không các chàng trai?",
+        "whole": "Đó là cách chúng ta nói, đúng không anh em?",
+        "segmented": "Đó là cách. Mình nói chuyện với nhau, đúng không?",
+        "chunks": [
+          "that's the way",
+          "we talk right guys"
+        ],
+        "chunk_outputs": [
+          "Đó là cách.",
+          "Mình nói chuyện với nhau, đúng không?"
+        ],
+        "delta_chrf": -23.82264980280731
+      },
+      {
+        "id": "mt_vi_001",
+        "src_lang": "vi",
+        "source": "1440 x 2880 dpi đã mô phỏng",
+        "reference": "1440 x 2880 DPI Emulated",
+        "whole": "The 1440 x 2880 D P I simulation was done.",
+        "segmented": "The 1440 by 2880 D P I simulation was done.",
+        "chunks": [
+          "1440 x 2880 dpi đã mô phỏng"
+        ],
+        "chunk_outputs": [
+          "The 1440 by 2880 D P I simulation was done."
+        ],
+        "delta_chrf": -17.739162254385768
+      },
+      {
+        "id": "vi2en_33",
+        "src_lang": "vi",
+        "source": "rồi em cảm ơn rồi em cố gắng lần này rồi cuối cùng em cảm ơn chị ạ",
+        "reference": "Okay, thank you, I'll try this time, and finally, thank you.",
+        "whole": "And thank you, I'll try this time, and in the end, I'd like to thank you.",
+        "segmented": "And then, I'm done. I'll try this time, and in the end, I'd like to thank you.",
+        "chunks": [
+          "rồi em cảm ơn rồi",
+          "em cố gắng lần này rồi cuối cùng em cảm ơn chị ạ"
+        ],
+        "chunk_outputs": [
+          "And then, I'm done.",
+          "I'll try this time, and in the end, I'd like to thank you."
+        ],
+        "delta_chrf": -16.558207820249102
+      },
+      {
+        "id": "mt_en_074",
+        "src_lang": "en",
+        "source": "this cascade of self perpetuating pernicious negative effects could seem like something that s spun out of control and there s nothing we can do about it certainly nothing we as individuals could do",
+        "reference": "Dòng thác của những ảnh hưởng tiêu cực, nguy hiểm này có vẻ giống như điều gì đó đã vượt khỏi tầm kiểm soát và không có gì chúng ta có thể làm. Không gì chúng ta, với vai trò là những cá nhân, có thể làm.",
+        "whole": "Sự lặp lại của những tác động tiêu cực tự duy trì này có vẻ như là thứ mà ét đã phát sinh ra ngoài kiểm soát, và không có gì chúng ta có thể làm được cả. Chắc chắn là không có gì mà chúng ta, một cá nhân, có thể làm được.",
+        "segmented": "Tầng tuột những tác động tiêu cực lặp lại tự duy trì này. Có vẻ như là một thứ gì đó. mà nó đã quay ra ngoài kiểm soát, và không có gì cả. Mình có thể xử lý được, chắc chắn là không có gì mà mình, cá nhân, có thể làm được.",
+        "chunks": [
+          "this cascade of self perpetuating pernicious negative effects",
+          "could seem like something",
+          "that s spun out of control and there s nothing",
+          "we can do about it certainly nothing we as individuals could do"
+        ],
+        "chunk_outputs": [
+          "Tầng tuột những tác động tiêu cực lặp lại tự duy trì này.",
+          "Có vẻ như là một thứ gì đó.",
+          "mà nó đã quay ra ngoài kiểm soát, và không có gì cả.",
+          "Mình có thể xử lý được, chắc chắn là không có gì mà mình, cá nhân, có thể làm được."
+        ],
+        "delta_chrf": -10.465397768099741
+      },
+      {
+        "id": "en2vi_21",
+        "src_lang": "en",
+        "source": "yes yes i'm capable i'm not due yet i've already closed it",
+        "reference": "Vâng vâng, tôi có khả năng. Tôi chưa đến hạn. Tôi đã tất toán rồi.",
+        "whole": "Đúng rồi, đúng rồi, em đủ năng lực. Em chưa đến giờ, em đã đóng rồi.",
+        "segmented": "Đúng rồi, đúng rồi, em làm được. Chưa kịp. Em đã đóng rồi.",
+        "chunks": [
+          "yes yes i'm capable",
+          "i'm not due yet",
+          "i've already closed it"
+        ],
+        "chunk_outputs": [
+          "Đúng rồi, đúng rồi, em làm được.",
+          "Chưa kịp.",
+          "Em đã đóng rồi."
+        ],
+        "delta_chrf": -8.64686348621775
+      },
+      {
+        "id": "vi2en_30",
+        "src_lang": "vi",
+        "source": "không nhà nhà nhà em có nhưng mà không không lắp ý",
+        "reference": "No, my house has one but it isn't installed.",
+        "whole": "No, I do have one, but it's not installed.",
+        "segmented": "No, no, no. I have it, but I don't install it.",
+        "chunks": [
+          "không nhà nhà nhà",
+          "em có nhưng mà không không lắp ý"
+        ],
+        "chunk_outputs": [
+          "No, no, no.",
+          "I have it, but I don't install it."
+        ],
+        "delta_chrf": -8.38551847941519
+      },
+      {
+        "id": "en2vi_05",
+        "src_lang": "en",
+        "source": "yeah but the other one's at home i'm holding the phone",
+        "reference": "Ừ, nhưng người kia đang ở nhà. Tôi đang cầm điện thoại.",
+        "whole": "Ừ, nhưng cái kia thì ở nhà. Em đang cầm điện thoại.",
+        "segmented": "Ừ. Nhưng cái kia thì ở nhà, em đang cầm điện thoại.",
+        "chunks": [
+          "yeah",
+          "but the other one's at home i'm holding the phone"
+        ],
+        "chunk_outputs": [
+          "Ừ.",
+          "Nhưng cái kia thì ở nhà, em đang cầm điện thoại."
+        ],
+        "delta_chrf": -7.8153787786095705
+      },
+      {
+        "id": "mt_en_040",
+        "src_lang": "en",
+        "source": "for the first breach once",
+        "reference": "- Vi phạm lần thứ nhất: Phạt một lần;",
+        "whole": "Với lần vi phạm đầu tiên. Một lần.",
+        "segmented": "Với lần vi phạm đầu tiên.",
+        "chunks": [
+          "for the first breach once"
+        ],
+        "chunk_outputs": [
+          "Với lần vi phạm đầu tiên."
+        ],
+        "delta_chrf": -7.7959301092232245
+      },
+      {
+        "id": "vi2en_23",
+        "src_lang": "vi",
+        "source": "anh tinh cũng cũng là gọi là anh họ anh ạ cũng là ừ cao văn minh cao văn minh là anh ruột anh",
+        "reference": "Tinh is my cousin, and Cao Van Minh is my brother.",
+        "whole": "Mr. Tin, also called Mr. Tin, is also, yeah, Mr. Tin is the younger brother.",
+        "segmented": "Mr. Tinh, also called Mr. Tinh, is also, yeah, Mr. Tinh is Mr. Tinh.",
+        "chunks": [
+          "anh tinh cũng cũng là gọi là anh họ anh ạ cũng là ừ cao văn minh cao văn minh là anh ruột anh"
+        ],
+        "chunk_outputs": [
+          "Mr. Tinh, also called Mr. Tinh, is also, yeah, Mr. Tinh is Mr. Tinh."
+        ],
+        "delta_chrf": -7.586924526858784
+      },
+      {
+        "id": "mt_en_027",
+        "src_lang": "en",
+        "source": "the names of every person in america who will lose home care when the freeze sets in who will lose half their welfare benefits who will go on furlough who will lose their student loans transportation services post combat counseling",
+        "reference": "Tên của những người Mỹ sẽ không được hưởng dịch vụ chăm sóc y tế tại gia khi tình trạng vỡ nợ xảy ra. Những người sẽ mất một nửa mức trợ cấp. Những người sẽ bị cho nghỉ tạm thời.",
+        "whole": "Tên của tất cả những người ở Mỹ mà sẽ mất bảo dưỡng nhà khi băng giá bắt đầu, tất cả những người sẽ mất một nửa trợ cấp, tất cả những người sẽ ra đình công, tất cả những người sẽ mất khoản vay học phí, dịch vụ vận chuyển, hậu chiến, tư vấn tâm lý.",
+        "segmented": "Tên của tất cả những người ở Mỹ mà sẽ mất bảo dưỡng nhà khi băng giá bắt đầu, sẽ mất một nửa trợ cấp. Hợp đồng trợ cấp, ai sẽ đi nghỉ hưu, ai sẽ mất khoản vay học phí, dịch vụ vận chuyển, hậu chiến, tư vấn tâm lý.",
+        "chunks": [
+          "the names of every person in america who will lose home care when the freeze sets in who will lose half their welfare",
+          "benefits who will go on furlough who will lose their student loans transportation services post combat counseling"
+        ],
+        "chunk_outputs": [
+          "Tên của tất cả những người ở Mỹ mà sẽ mất bảo dưỡng nhà khi băng giá bắt đầu, sẽ mất một nửa trợ cấp.",
+          "Hợp đồng trợ cấp, ai sẽ đi nghỉ hưu, ai sẽ mất khoản vay học phí, dịch vụ vận chuyển, hậu chiến, tư vấn tâm lý."
+        ],
+        "delta_chrf": -7.455047119095262
+      },
+      {
+        "id": "vi2en_31",
+        "src_lang": "vi",
+        "source": "nhé mình không có nhu cầu đâu nhé",
+        "reference": "We don't need it, okay.",
+        "whole": "Oh, I don't have any need for it.",
+        "segmented": "Okay. We don't have the need, okay.",
+        "chunks": [
+          "nhé",
+          "mình không có nhu cầu đâu nhé"
+        ],
+        "chunk_outputs": [
+          "Okay.",
+          "We don't have the need, okay."
+        ],
+        "delta_chrf": 21.865590712762952
+      },
+      {
+        "id": "en2vi_04",
+        "src_lang": "en",
+        "source": "yeah well that means you're calling me it's not even family is it",
+        "reference": "Ừ, nghĩa là anh đang gọi cho tôi. Cũng chẳng phải người nhà, đúng không?",
+        "whole": "Ừ, thì ra là em gọi anh à? Không phải người thân sao?",
+        "segmented": "Ừ, thì ra là em gọi anh à? Không phải người thân đâu. Đúng không?",
+        "chunks": [
+          "yeah well that means you're calling me it's not even family",
+          "is it"
+        ],
+        "chunk_outputs": [
+          "Ừ, thì ra là em gọi anh à? Không phải người thân đâu.",
+          "Đúng không?"
+        ],
+        "delta_chrf": 9.09383420180292
+      },
+      {
+        "id": "mt_en_098",
+        "src_lang": "en",
+        "source": "we have to remix it he's got a great voice",
+        "reference": "Chúng ta cần hoà âm lại. Giọng anh chàng hay cực.",
+        "whole": "Mình phải remix nó. Anh ấy có giọng hay lắm.",
+        "segmented": "Chúng ta phải remix nó. Anh ấy có giọng hát hay lắm.",
+        "chunks": [
+          "we have to remix it",
+          "he's got a great voice"
+        ],
+        "chunk_outputs": [
+          "Chúng ta phải remix nó.",
+          "Anh ấy có giọng hát hay lắm."
+        ],
+        "delta_chrf": 8.788104194920624
+      },
+      {
+        "id": "vi2en_32",
+        "src_lang": "vi",
+        "source": "làm cho cô ấy cô ấy nhờ người làm luôn",
+        "reference": "Do it for her, she asked someone to do it for her.",
+        "whole": "I'll have her do it, she's asking me to.",
+        "segmented": "I'll have her do it, she's asking me to do it.",
+        "chunks": [
+          "làm cho cô ấy cô ấy nhờ người làm luôn"
+        ],
+        "chunk_outputs": [
+          "I'll have her do it, she's asking me to do it."
+        ],
+        "delta_chrf": 7.434437305555829
+      },
+      {
+        "id": "mt_en_113",
+        "src_lang": "en",
+        "source": "for once you're right",
+        "reference": "Lần này thì đúng.",
+        "whole": "Lần này bạn nói đúng đấy.",
+        "segmented": "Lần này bạn nói đúng.",
+        "chunks": [
+          "for once you're right"
+        ],
+        "chunk_outputs": [
+          "Lần này bạn nói đúng."
+        ],
+        "delta_chrf": 7.373192971951319
+      }
+    ]
+  },
+  "process": {
+    "present": false
+  },
+  "main_status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T16:28:48.342424+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2326980,
+    "branch_step": 861900,
+    "epoch": 3,
+    "uploaded_rows_seen": 13542952,
+    "uploaded_origin_exposures": {
+      "daily": 7155694,
+      "factory/gen4000": 5103344,
+      "factory/gen500": 560112,
+      "asr/run2b": 723802
+    },
+    "loss": 0.012115697376430035,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "tasks_assigned": 6811,
+    "total_tasks": 34602
+  },
+  "gpu": "205061, 11198 MiB"
+}

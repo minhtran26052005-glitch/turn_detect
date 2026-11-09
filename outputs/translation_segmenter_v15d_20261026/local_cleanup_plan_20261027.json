@@ -1,0 +1,124 @@
+{
+  "workspace": "C:\\Users\\ASUS\\Documents\\turn_detect",
+  "scope": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026",
+  "authorization": "User explicitly requested removing local copies now that current full data/models are backed up on Drive",
+  "artifact_scope": "Generated obsolete v15d SQLite/data ZIP snapshots superseded by the complete current Drive corpus; not a claim that every historical SQLite byte image is archived",
+  "drive_manifest_at_utc": "2026-10-27T00:57:45.877827+00:00",
+  "drive_data_cycle": 72,
+  "drive_data_sha256": "745710692e118d925f73bbae098fed2a21ced02e00ca1b1e202a79d5e2dcd392",
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+  "full_recovery_verified": true,
+  "files": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot.sqlite",
+      "bytes": 2492076032,
+      "mtime_ns": 1793032991378100000
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle21.sqlite",
+      "bytes": 218157056,
+      "mtime_ns": 1792990060582339300
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle22.sqlite",
+      "bytes": 399650816,
+      "mtime_ns": 1792991152731932900
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle25.sqlite",
+      "bytes": 627822592,
+      "mtime_ns": 1792999863765338900
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle26.sqlite",
+      "bytes": 713338880,
+      "mtime_ns": 1793000249354322900
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle27.sqlite",
+      "bytes": 809496576,
+      "mtime_ns": 1793001168097716400
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle42.sqlite",
+      "bytes": 2046668800,
+      "mtime_ns": 1793008808404134200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle43.sqlite",
+      "bytes": 2128449536,
+      "mtime_ns": 1793029596739994800
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle45.sqlite",
+      "bytes": 2270851072,
+      "mtime_ns": 1793029847572106900
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\state_snapshot_cycle46.sqlite",
+      "bytes": 2345041920,
+      "mtime_ns": 1793032139596304400
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot.zip",
+      "bytes": 313296072,
+      "mtime_ns": 1793032967693846800
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle20.zip",
+      "bytes": 25485339,
+      "mtime_ns": 1792990059744094000
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle21.zip",
+      "bytes": 25485339,
+      "mtime_ns": 1792990059744094000
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle22.zip",
+      "bytes": 47441831,
+      "mtime_ns": 1792991151335117700
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle25.zip",
+      "bytes": 77856822,
+      "mtime_ns": 1792999861986041600
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle26.zip",
+      "bytes": 88885945,
+      "mtime_ns": 1793000247214448200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle27.zip",
+      "bytes": 100959224,
+      "mtime_ns": 1793001164090211200
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle42.zip",
+      "bytes": 255481878,
+      "mtime_ns": 1793008799439484800
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle43.zip",
+      "bytes": 266028732,
+      "mtime_ns": 1793029585997204900
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle45.zip",
+      "bytes": 284881996,
+      "mtime_ns": 1793029834014590400
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\data_snapshot_cycle46.zip",
+      "bytes": 294217413,
+      "mtime_ns": 1793032123057279000
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\translation_segmenter_v15d_20261026\\recovery\\audit_cycle22\\state_snapshot.sqlite",
+      "bytes": 399650816,
+      "mtime_ns": 1792998545399254000
+    }
+  ],
+  "total_bytes": 16231224687
+}

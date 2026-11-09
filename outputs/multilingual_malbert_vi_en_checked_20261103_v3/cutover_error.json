@@ -1,0 +1,5 @@
+{
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/edabk/hoangbpm/turn_detect/turn_v2/checked_dialogues_cutover_v1.py\", line 150, in <module>\n    try:run()\n  File \"/home/edabk/hoangbpm/turn_detect/turn_v2/checked_dialogues_cutover_v1.py\", line 113, in run\n    receipt=prepare();migration=preserve_and_migrate(receipt)\n  File \"/home/edabk/hoangbpm/turn_detect/turn_v2/checked_dialogues_cutover_v1.py\", line 67, in preserve_and_migrate\n    link_same(PARENT/name,OUT/name)\n  File \"/home/edabk/hoangbpm/turn_detect/turn_v2/checked_dialogues_cutover_v1.py\", line 33, in link_same\n    else:os.link(source,target)\nFileNotFoundError: [Errno 2] No such file or directory: '/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_20261103_v2/initialization_receipt.json' -> '/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_checked_20261103_v3/initialization_receipt.json'\n",
+  "at_utc": "2026-11-03T08:55:15.212512+00:00"
+}

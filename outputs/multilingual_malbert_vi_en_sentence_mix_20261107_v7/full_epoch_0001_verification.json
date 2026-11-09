@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "coverage": {
+    "complete": true,
+    "curriculum_stage": 3,
+    "subset_pass": 1,
+    "scored_points": 5040023,
+    "expected_eligible_points": 5040023,
+    "all_active_subset_eligible_gaps_visited": true,
+    "full_uploaded_epoch": true,
+    "drive_replay_rows": 0,
+    "all_filtered_eligible_gaps_visited": true
+  },
+  "coverage_sha256": "72123a7e381098a32c33da39c6aae28260a136b0d3fb6c9e24981b94695ae6eb",
+  "checkpoint_step": 3621046,
+  "checkpoint_branch_step": 390000,
+  "full_epochs": 1,
+  "current_epoch_scored_points": 1022173,
+  "optimizer_entries": 27,
+  "full_rng_order_lanes_present": true,
+  "finite_weights": true
+}

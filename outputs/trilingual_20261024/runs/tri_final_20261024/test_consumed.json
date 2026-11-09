@@ -1,0 +1,20 @@
+{
+  "student_model_sha256": "99dce571fbf801e9f86547c52247ae4f4c8bf8bbde6716e81236671630727483",
+  "student_contract_sha256": "ce548e467fef6674d285ad305af93573bb14e390ace5d578faa78574fa5541b1",
+  "student_thresholds": {
+    "vi": 0.235,
+    "en": 0.36499999999999994,
+    "zh": 0.42999999999999994
+  },
+  "teacher_thresholds": {
+    "en": 0.5049999999999999,
+    "vi": 0.3,
+    "zh": 0.37499999999999994
+  },
+  "teacher_checkpoint_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "test_sha256": "e3388a74e89984eba20d8df0297bba8e5283ca3de9cb4dbacc65afa22ff594a8",
+  "status": "FINAL_TEST_COMPLETED",
+  "started_unix": 1792859041.9896533,
+  "scope": "EN/ZH official-test dialogue-derived structural proxy, not human semantic gold",
+  "finished_unix": 1792859090.999559
+}

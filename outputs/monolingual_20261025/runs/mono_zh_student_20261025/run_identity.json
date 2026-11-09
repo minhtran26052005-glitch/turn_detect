@@ -1,0 +1,18 @@
+{
+  "config": {
+    "model_type": "deberta-v2",
+    "architecture": "tiny_turn_gru",
+    "vocab_size": 13419,
+    "embedding_size": 64,
+    "hidden_size": 128,
+    "layers": 1,
+    "teacher_size": 768,
+    "pad_token_id": 0
+  },
+  "deployment_parameters": 991426,
+  "data_manifest_sha256": "5b5e5482290cefc8a6c4affa1e5f82be267e854541726163f4fa3dbdde6ef002",
+  "teacher_checkpoint_sha256": "4c5bac37dc95496b430b223a101861c6c9a1468358c8574d80bf396e24c1ae13",
+  "train_samples": 4380,
+  "dev_samples": 855,
+  "test_evaluated": false
+}

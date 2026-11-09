@@ -1,0 +1,4416 @@
+[
+  {
+    "conv": "tele_00",
+    "id": "vi2en_00",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Làm theo ca đấy tám tiếng.",
+    "asr_source": "làm theo ca đấy tám tiếng",
+    "chunks": [
+      "làm theo ca đấy",
+      "tám tiếng"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "en2vi_00",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Yes yes yes thank you yes",
+    "asr_source": "yes yes yes thank you yes",
+    "chunks": [
+      "yes yes yes thank you yes"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "vi2en_01",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Hai cả hai cái đều là hai mươi lăm triệu.",
+    "asr_source": "hai cả hai cái đều là hai mươi lăm triệu",
+    "chunks": [
+      "hai cả hai cái đều là hai mươi lăm triệu"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "en2vi_01",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "I'm not even registered. I'm not even registered.",
+    "asr_source": "i'm not even registered i'm not even registered",
+    "chunks": [
+      "i'm not even registered",
+      "i'm not even registered"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "vi2en_02",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Một chín chín bảy ạ một chín chín bảy ạ.",
+    "asr_source": "một chín chín bảy ạ một chín chín bảy ạ",
+    "chunks": [
+      "một chín chín bảy ạ một chín chín bảy ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "en2vi_02",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I am the fourteenth of October.",
+    "asr_source": "i am the fourteenth of october",
+    "chunks": [
+      "i am the fourteenth of october"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "vi2en_03",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "À dạ share tiền nhanh đúng không anh.",
+    "asr_source": "à dạ share tiền nhanh đúng không anh",
+    "chunks": [
+      "à dạ share tiền nhanh đúng không anh"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "en2vi_03",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "The last three are six. Eight six.",
+    "asr_source": "the last three are six eight six",
+    "chunks": [
+      "the last three are six eight six"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "vi2en_04",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ờ một linh tư trên bốn mười tám đường điện biên.",
+    "asr_source": "ờ một linh tư trên bốn mười tám đường điện biên",
+    "chunks": [
+      "ờ một linh tư trên bốn mười tám đường điện biên"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_00",
+    "id": "en2vi_04",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 1,
+    "original_written": "Yeah, well, that means you're calling me. It's not even family, is it?",
+    "asr_source": "yeah well that means you're calling me it's not even family is it",
+    "chunks": [
+      "yeah well that means you're calling me it's not even family is it"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "vi2en_05",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và hoàng hai bốn phường cổ nhuế một khu đô thị mới bắc từ liêm thành phố hà nội.",
+    "asr_source": "và hoàng hai bốn phường cổ nhuế một khu đô thị mới bắc từ liêm thành phố hà nội",
+    "chunks": [
+      "và hoàng hai bốn phường cổ nhuế một khu đô thị mới bắc từ liêm thành phố hà nội"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "en2vi_05",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Yeah, but the other one's at home. I'm holding the phone.",
+    "asr_source": "yeah but the other one's at home i'm holding the phone",
+    "chunks": [
+      "yeah but the other one's at home",
+      "i'm holding the phone"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "vi2en_06",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tại vì cũng nhiều anh chị nói lại là cái sổ tổng nó chưa có ra á thì cũng ngại chưa có mua.",
+    "asr_source": "tại vì cũng nhiều anh chị nói lại là cái sổ tổng nó chưa có ra á thì cũng ngại chưa có mua",
+    "chunks": [
+      "tại vì cũng nhiều anh",
+      "chị nói lại là cái sổ tổng nó chưa có ra á thì cũng ngại chưa có mua"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "en2vi_06",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I mean, I'm just... I mean, I'm just... I'm just saying, ask for a photo of my ID.",
+    "asr_source": "i mean i'm just i mean i'm just i'm just saying ask for a photo of my id",
+    "chunks": [
+      "i mean i'm just i mean i'm just",
+      "i'm just saying ask for a photo of my id"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "vi2en_07",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Em sinh ngày mười tám tháng bảy một chín chín sáu ạ.",
+    "asr_source": "em sinh ngày mười tám tháng bảy một chín chín sáu ạ",
+    "chunks": [
+      "em sinh ngày mười tám tháng bảy một chín chín sáu ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "en2vi_07",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Yeah, well, it's just me and my mom.",
+    "asr_source": "yeah well it's just me and my mom",
+    "chunks": [
+      "yeah well it's just me and my mom"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "vi2en_08",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Thế ai cho số của mình cho ấy.",
+    "asr_source": "thế ai cho số của mình cho ấy",
+    "chunks": [
+      "thế ai cho số của mình cho ấy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "en2vi_08",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I got a loan from mc credit.",
+    "asr_source": "i got a loan from mc credit",
+    "chunks": [
+      "i got a loan from mc credit"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "vi2en_09",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ý là cái đó là chung cư mà nó kiểu như là ở dưới ở trên đó là là chung cư còn ở dưới á là buôn bán á chị.",
+    "asr_source": "ý là cái đó là chung cư mà nó kiểu như là ở dưới ở trên đó là là chung cư còn ở dưới á là buôn bán á chị",
+    "chunks": [
+      "ý là cái đó là chung cư mà nó kiểu như là ở dưới ở trên đó là là chung cư còn ở dưới á là buôn bán á chị"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_01",
+    "id": "en2vi_09",
+    "language": "en",
+    "sentence_spans": 3,
+    "completed_fullstops": 3,
+    "original_written": "I'm here. I'm in Hanoi. It's on 184 Thanh Luong street.",
+    "asr_source": "i'm here i'm in hanoi it's on 184 thanh luong street",
+    "chunks": [
+      "i'm here",
+      "i'm in hanoi",
+      "it's on 184 thanh luong street"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "vi2en_10",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Có ạ sẽ có chị ạ.",
+    "asr_source": "có ạ sẽ có chị ạ",
+    "chunks": [
+      "có ạ sẽ có chị ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "en2vi_10",
+    "language": "en",
+    "sentence_spans": 3,
+    "completed_fullstops": 3,
+    "original_written": "Yeah, yeah, yeah. Yeah, yeah, yeah. So now that you're working here, it's hard to take pictures.",
+    "asr_source": "yeah yeah yeah yeah yeah yeah so now that you're working here it's hard to take pictures",
+    "chunks": [
+      "yeah yeah yeah yeah",
+      "yeah yeah so now that you're working here it's hard to take pictures"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "vi2en_11",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Ờ mười trên sáu hai trần quý cáp đống đa hà nội ạ.",
+    "asr_source": "ờ mười trên sáu hai trần quý cáp đống đa hà nội ạ",
+    "chunks": [
+      "ờ mười trên sáu hai trần quý cáp đống đa hà nội ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "en2vi_11",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Your income is between twelve and fifteen million.",
+    "asr_source": "your income is between twelve and fifteen million",
+    "chunks": [
+      "your income is between twelve and fifteen million"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "vi2en_12",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Dạ vâng em là bên xe tổng đài khánh an limousine mình có nhu cầu gì vậy ạ.",
+    "asr_source": "dạ vâng em là bên xe tổng đài khánh an limousine mình có nhu cầu gì vậy ạ",
+    "chunks": [
+      "dạ vâng em là bên xe tổng đài khánh an limousine",
+      "mình có nhu cầu gì vậy ạ"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "en2vi_12",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I've done it before, but I have n't asked for your permission.",
+    "asr_source": "i've done it before but i have n't asked for your permission",
+    "chunks": [
+      "i've done it before but i have n't asked for your permission"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "vi2en_13",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Mã là hai không sáu sáu hai hai một ba.",
+    "asr_source": "mã là hai không sáu sáu hai hai một ba",
+    "chunks": [
+      "mã là hai không sáu sáu hai hai một ba"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "en2vi_13",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Yes, I am. But this three million loan is mine.",
+    "asr_source": "yes i am but this three million loan is mine",
+    "chunks": [
+      "yes i am but this three million loan is mine"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "vi2en_14",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Không ba tám không tám chín không không một tám sáu không.",
+    "asr_source": "không ba tám không tám chín không không một tám sáu không",
+    "chunks": [
+      "không ba tám không tám chín không không một tám sáu không"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_02",
+    "id": "en2vi_14",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Yên Phong Yên Trung Bắc Ninh industrial park",
+    "asr_source": "yên phong yên trung bắc ninh industrial park",
+    "chunks": [
+      "yên phong yên trung bắc ninh industrial park"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "vi2en_15",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Vâng chào anh anh anh làm ơn cho em hỏi là thế app của cái ứng dụng bạn vay tôi là đã bảo trì xong ạ.",
+    "asr_source": "vâng chào anh anh anh làm ơn cho em hỏi là thế app của cái ứng dụng bạn vay tôi là đã bảo trì xong ạ",
+    "chunks": [
+      "vâng chào anh anh",
+      "anh làm ơn cho em hỏi là thế app của cái ứng dụng",
+      "bạn vay tôi là đã bảo trì xong ạ"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "en2vi_15",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "I'm in reng yen village of dawn town of Wenjang district reng yen province",
+    "asr_source": "i'm in reng yen village of dawn town of wenjang district reng yen province",
+    "chunks": [
+      "i'm in reng yen village of dawn town of wenjang district reng yen province"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "vi2en_16",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Thì là cái lương cứng của em thì chắc được tầm mười đến mười hai triệu kiểu đấy.",
+    "asr_source": "thì là cái lương cứng của em thì chắc được tầm mười đến mười hai triệu kiểu đấy",
+    "chunks": [
+      "thì là cái lương cứng của em thì chắc được tầm mười đến mười hai triệu kiểu đấy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "en2vi_16",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "57th district of tam eastern commune of tam rural district of hocmon city of ho chi minh city",
+    "asr_source": "57th district of tam eastern commune of tam rural district of hocmon city of ho chi minh city",
+    "chunks": [
+      "57th district of tam eastern commune of tam",
+      "rural district of hocmon city of ho chi minh city"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "vi2en_17",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Em gái em vay chị ạ chứ không phải em mà nó kiểu lấy số điện thoại của em ấy.",
+    "asr_source": "em gái em vay chị ạ chứ không phải em mà nó kiểu lấy số điện thoại của em ấy",
+    "chunks": [
+      "em gái em vay chị ạ chứ không phải em mà nó kiểu lấy số điện thoại của em ấy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "en2vi_17",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Well, I buy. Well, they buy a million and a half.",
+    "asr_source": "well i buy well they buy a million and a half",
+    "chunks": [
+      "well i buy well",
+      "they buy a million and a half"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "vi2en_18",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Từ tháng sáu từ tháng năm sáu hai không hai mươi.",
+    "asr_source": "từ tháng sáu từ tháng năm sáu hai không hai mươi",
+    "chunks": [
+      "từ tháng sáu từ tháng năm sáu hai không hai mươi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "en2vi_18",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Oh, yes, I'll pay you back, but I'll pay you back every month if I use anything.",
+    "asr_source": "oh yes i'll pay you back but i'll pay you back every month if i use anything",
+    "chunks": [
+      "oh yes i'll pay you back but i'll pay you back every month",
+      "if i use anything"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "vi2en_19",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "À không ạ em không có anh tư vấn ạ.",
+    "asr_source": "à không ạ em không có anh tư vấn ạ",
+    "chunks": [
+      "à không ạ em không có anh tư vấn ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_03",
+    "id": "en2vi_19",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Yeah, I sent you a reapplication link from somewhere that supports you.",
+    "asr_source": "yeah i sent you a reapplication link from somewhere that supports you",
+    "chunks": [
+      "yeah i sent you a reapplication link from somewhere that supports you"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "vi2en_20",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Chị thùy trâm thế là chị thùy trâm theo số điện thoại này đúng không ạ.",
+    "asr_source": "chị thùy trâm thế là chị thùy trâm theo số điện thoại này đúng không ạ",
+    "chunks": [
+      "chị thùy trâm thế là chị thùy trâm theo số điện thoại này đúng không ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "en2vi_20",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "A lot of halo, halo, halo.",
+    "asr_source": "a lot of halo halo halo",
+    "chunks": [
+      "a lot of halo halo halo"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "vi2en_21",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ở cao sơn một xã thân cẩm.",
+    "asr_source": "ở cao sơn một xã thân cẩm",
+    "chunks": [
+      "ở cao sơn một xã thân cẩm"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "en2vi_21",
+    "language": "en",
+    "sentence_spans": 3,
+    "completed_fullstops": 3,
+    "original_written": "Yes, yes, I'm capable. I'm not due yet. I've already closed it.",
+    "asr_source": "yes yes i'm capable i'm not due yet i've already closed it",
+    "chunks": [
+      "yes yes i'm capable",
+      "i'm not due yet",
+      "i've already closed it"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "vi2en_22",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Trước đây thì có trả góp nhưng mà trả xong rồi ạ.",
+    "asr_source": "trước đây thì có trả góp nhưng mà trả xong rồi ạ",
+    "chunks": [
+      "trước đây thì có trả góp nhưng mà trả xong rồi ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "en2vi_22",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "M credit M credit Yes, borrowing sixty million",
+    "asr_source": "m credit m credit yes borrowing sixty million",
+    "chunks": [
+      "m credit m credit",
+      "yes borrowing sixty million"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "vi2en_23",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Anh tinh cũng cũng là gọi là anh họ anh ạ cũng là ừ cao văn minh cao văn minh là anh ruột anh.",
+    "asr_source": "anh tinh cũng cũng là gọi là anh họ anh ạ cũng là ừ cao văn minh cao văn minh là anh ruột anh",
+    "chunks": [
+      "anh tinh cũng cũng là gọi là anh họ anh ạ cũng là ừ cao văn minh cao văn minh là anh ruột anh"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "en2vi_23",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Uh, my parents are staying together.",
+    "asr_source": "uh my parents are staying together",
+    "chunks": [
+      "uh my parents are staying together"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "vi2en_24",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Là có quê quê em ở đấy nhà em ở đấy mà anh.",
+    "asr_source": "là có quê quê em ở đấy nhà em ở đấy mà anh",
+    "chunks": [
+      "là có quê quê em ở đấy",
+      "nhà em ở đấy mà anh"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_04",
+    "id": "en2vi_24",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "\" the house of mortemart, snow nhung \" \" yes \" \" on february 9th, 1,09,96 \"",
+    "asr_source": "the house of mortemart snow nhung yes on february 9th 1 09 96",
+    "chunks": [
+      "the house of mortemart snow nhung yes on february 9th 1 09 96"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "vi2en_25",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Đấy thôn bốn một ba đó nếu mà hỏi số nhà thì là số nhà hai năm ngõ trại đấy.",
+    "asr_source": "đấy thôn bốn một ba đó nếu mà hỏi số nhà thì là số nhà hai năm ngõ trại đấy",
+    "chunks": [
+      "đấy thôn bốn một ba đó",
+      "nếu mà hỏi số nhà thì là số nhà hai năm ngõ trại đấy"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "en2vi_25",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ah, Gujing ward, Ba Gia district.",
+    "asr_source": "ah gujing ward ba gia district",
+    "chunks": [
+      "ah gujing ward ba gia district"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "vi2en_26",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Mình ở số không sáu ngách không bốn ngõ bốn đường long châu sa thọ sơn việt trì phú thọ.",
+    "asr_source": "mình ở số không sáu ngách không bốn ngõ bốn đường long châu sa thọ sơn việt trì phú thọ",
+    "chunks": [
+      "mình ở số không sáu ngách không bốn ngõ bốn đường long châu sa thọ sơn việt trì phú thọ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "en2vi_26",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "\" twelve o 'clock, five o 'clock, two o 'clock, twenty.",
+    "asr_source": "twelve o clock five o clock two o clock twenty",
+    "chunks": [
+      "twelve o clock five o clock two o clock twenty"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "vi2en_27",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ờ không không một một tám bốn không ba một tám năm chín.",
+    "asr_source": "ờ không không một một tám bốn không ba một tám năm chín",
+    "chunks": [
+      "ờ không không một một tám bốn không ba một tám năm chín"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "en2vi_27",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I know the company's different because the bosses are different but they're connected.",
+    "asr_source": "i know the company's different because the bosses are different but they're connected",
+    "chunks": [
+      "i know the company's different because the bosses are different but they're connected"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "vi2en_28",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Rồi để chị báo lại có gì chị gọi sau nha chị gọi chị lưu số em đi cần hỗ trợ gì em tư vấn luôn rồi em nói chuyện cho nó dễ ấy à.",
+    "asr_source": "rồi để chị báo lại có gì chị gọi sau nha chị gọi chị lưu số em đi cần hỗ trợ gì em tư vấn luôn rồi em nói chuyện cho nó dễ ấy à",
+    "chunks": [
+      "rồi để chị báo lại có gì chị gọi sau nha",
+      "chị gọi chị lưu số em đi cần hỗ trợ gì em tư vấn luôn rồi em nói chuyện cho nó dễ ấy à"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "en2vi_28",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Yes pass three hundred three hundred",
+    "asr_source": "yes pass three hundred three hundred",
+    "chunks": [
+      "yes pass three hundred three hundred"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "vi2en_29",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Lương cơ bản là bốn triệu ba trợ cấp chín trăm nghìn.",
+    "asr_source": "lương cơ bản là bốn triệu ba trợ cấp chín trăm nghìn",
+    "chunks": [
+      "lương cơ bản là bốn triệu ba trợ cấp chín trăm nghìn"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_05",
+    "id": "en2vi_29",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- The district capital of Ho Chi Minh city.",
+    "asr_source": "the district capital of ho chi minh city",
+    "chunks": [
+      "the district capital of ho chi minh city"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_30",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Không nhà nhà nhà em có nhưng mà không không lắp ý.",
+    "asr_source": "không nhà nhà nhà em có nhưng mà không không lắp ý",
+    "chunks": [
+      "không nhà nhà nhà em có nhưng mà không không lắp ý"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_31",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nhé mình không có nhu cầu đâu nhé.",
+    "asr_source": "nhé mình không có nhu cầu đâu nhé",
+    "chunks": [
+      "nhé",
+      "mình không có nhu cầu đâu nhé"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_32",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Làm cho cô ấy cô ấy nhờ người làm luôn.",
+    "asr_source": "làm cho cô ấy cô ấy nhờ người làm luôn",
+    "chunks": [
+      "làm cho cô ấy cô ấy nhờ người làm luôn"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_33",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Rồi em cảm ơn rồi em cố gắng lần này rồi cuối cùng em cảm ơn chị ạ.",
+    "asr_source": "rồi em cảm ơn rồi em cố gắng lần này rồi cuối cùng em cảm ơn chị ạ",
+    "chunks": [
+      "rồi em cảm ơn rồi",
+      "em cố gắng lần này rồi cuối cùng em cảm ơn chị ạ"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_34",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Hai người là nguyễn chị phạm thị khen và cô nguyễn thị ngọc lương đi à.",
+    "asr_source": "hai người là nguyễn chị phạm thị khen và cô nguyễn thị ngọc lương đi à",
+    "chunks": [
+      "hai người là nguyễn chị phạm thị khen và cô nguyễn thị ngọc lương đi à"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_35",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "À có đúng rồi em mới chỉnh sửa lại hình ảnh sáng nay mà có chị ạ.",
+    "asr_source": "à có đúng rồi em mới chỉnh sửa lại hình ảnh sáng nay mà có chị ạ",
+    "chunks": [
+      "à có đúng rồi em mới chỉnh sửa lại hình ảnh sáng nay mà có chị ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_36",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ừ thanh trì hà nội tân triều thanh trì hà nội.",
+    "asr_source": "ừ thanh trì hà nội tân triều thanh trì hà nội",
+    "chunks": [
+      "ừ thanh trì hà nội tân triều thanh trì hà nội"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_37",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Dạ dạ cứ khoảng mười lăm phút đi.",
+    "asr_source": "dạ dạ cứ khoảng mười lăm phút đi",
+    "chunks": [
+      "dạ dạ cứ khoảng mười lăm phút đi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_38",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Photoshop thì kiểu chỉnh sửa ảnh ấy ạ.",
+    "asr_source": "photoshop thì kiểu chỉnh sửa ảnh ấy ạ",
+    "chunks": [
+      "photoshop thì kiểu chỉnh sửa ảnh ấy ạ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "tele_06",
+    "id": "vi2en_39",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "À vâng em chỉ em chỉ hay gọi bằng facebook các thứ bố em không ở đấy đấy kiểu đấy thì là em đọc số bố em cho anh thì như nào ạ.",
+    "asr_source": "à vâng em chỉ em chỉ hay gọi bằng facebook các thứ bố em không ở đấy đấy kiểu đấy thì là em đọc số bố em cho anh thì như nào ạ",
+    "chunks": [
+      "à vâng em chỉ em chỉ hay gọi bằng facebook các thứ bố em không ở đấy đấy",
+      "kiểu đấy thì là em đọc số bố em cho anh thì như nào ạ"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_en_091",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "so what i m asking today is that you envision a world where men and women aren t held hostage to their pasts where misdeeds and mistakes don t define you for the rest of your life",
+    "asr_source": "so what i m asking today is that you envision a world where men and women aren t held hostage to their pasts where misdeeds and mistakes don t define you for the rest of your life",
+    "chunks": [
+      "so what i m asking today is that you envision a world",
+      "where men and women aren t held hostage to their pasts where misdeeds and mistakes don t define",
+      "you for the rest of your life"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_en_038",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "but anyway the ideal version of that type of state is what isis and some other islamists mean when they talk about reconstructing a caliphate although what the boundaries of a modern day caliphate might be are far from clear",
+    "asr_source": "but anyway the ideal version of that type of state is what isis and some other islamists mean when they talk about reconstructing a caliphate although what the boundaries of a modern day caliphate might be are far from clear",
+    "chunks": [
+      "but anyway the ideal version of that type of state is what isis and some other islamists mean when they talk about reconstructing a caliphate although what the boundaries of a modern day caliphate might be are far from clear"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_vi_005",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "đi nào đồ ngái ngủ",
+    "asr_source": "đi nào đồ ngái ngủ",
+    "chunks": [
+      "đi nào đồ ngái ngủ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_en_068",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "The dock, it's the only way on or off.",
+    "asr_source": "the dock it's the only way on or off",
+    "chunks": [
+      "the dock it's the only way on or off"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_vi_059",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "d) Góp vốn, mua cổ phần không đúng quy định của pháp luật;",
+    "asr_source": "d góp vốn mua cổ phần không đúng quy định của pháp luật",
+    "chunks": [
+      "d góp vốn mua cổ phần không đúng quy định của pháp luật"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_en_026",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "the gamescom in cologne is the world s leading gaming convention",
+    "asr_source": "the gamescom in cologne is the world s leading gaming convention",
+    "chunks": [
+      "the gamescom in cologne is the world s leading gaming convention"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_vi_100",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Anh yêu, đó là Annie và Jay đấy.",
+    "asr_source": "anh yêu đó là annie và jay đấy",
+    "chunks": [
+      "anh yêu đó là annie và jay đấy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_00",
+    "id": "mt_en_111",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Group Captain Ramsey, in the past four years the Reich has been forced to spend an enormous amount of time, energy, manpower and equipment hunting down escaping prisoner-of-war officers.",
+    "asr_source": "group captain ramsey in the past four years the reich has been forced to spend an enormous amount of time energy manpower and equipment hunting down escaping prisoner of war officers",
+    "chunks": [
+      "group captain ramsey in the past four years",
+      "the reich has been forced to spend an enormous amount of time energy manpower and equipment hunting down escaping prisoner of war officers"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_en_075",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "i need you to say the words jimmy",
+    "asr_source": "i need you to say the words jimmy",
+    "chunks": [
+      "i need you to say the words jimmy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_vi_030",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Anh ta lại nhấc đôi tay lên, như muốn đặt lên vai tôi, nhưng lại buông xuống như lúc trước và thở dài. '",
+    "asr_source": "anh ta lại nhấc đôi tay lên như muốn đặt lên vai tôi nhưng lại buông xuống như lúc trước và thở dài",
+    "chunks": [
+      "anh ta lại nhấc đôi tay lên như muốn đặt lên vai tôi nhưng lại buông xuống như lúc trước và thở dài"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_en_013",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "\" They must be darn good ones if you can see in here, \" said the same Dwarf whose name was Diggle. '",
+    "asr_source": "they must be darn good ones if you can see in here said the same dwarf whose name was diggle",
+    "chunks": [
+      "they must be darn good ones if you can see in here said the same dwarf whose name was diggle"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_en_018",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "We can break things down into highly calibrated small tasks.",
+    "asr_source": "we can break things down into highly calibrated small tasks",
+    "chunks": [
+      "we can break things down into highly calibrated small tasks"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_en_080",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Because the scenario of this civilization -- about love, progress, and things like that -- it's OK, but there is so many different, other scenarios of other civilizations.",
+    "asr_source": "because the scenario of this civilization about love progress and things like that it's ok but there is so many different other scenarios of other civilizations",
+    "chunks": [
+      "because the scenario of this civilization about love progress and things like that",
+      "it's ok but there is so many different other scenarios of other civilizations"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_vi_021",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Các tế bào lưới có thể dịch chuyển điểm quan sát này qua không gian đằng kia.",
+    "asr_source": "các tế bào lưới có thể dịch chuyển điểm quan sát này qua không gian đằng kia",
+    "chunks": [
+      "các tế bào lưới có thể dịch chuyển điểm quan sát này qua không gian đằng kia"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_en_023",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Unable to start command '% 1 '.",
+    "asr_source": "unable to start command % 1",
+    "chunks": [
+      "unable to start command % 1"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_01",
+    "id": "mt_vi_029",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và rồi cứ làm lại, làm lại, và làm lại.",
+    "asr_source": "và rồi cứ làm lại làm lại và làm lại",
+    "chunks": [
+      "và rồi cứ làm lại làm lại và làm lại"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_vi_019",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "trẻ 1 5 tuổi có thể uống 1 2 1 thìa cà phê sirô mỗi 2 tiếng",
+    "asr_source": "trẻ 1 5 tuổi có thể uống 1 2 1 thìa cà phê sirô mỗi 2 tiếng",
+    "chunks": [
+      "trẻ 1 5 tuổi có thể uống 1 2 1 thìa cà phê sirô mỗi 2 tiếng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_vi_098",
+    "language": "vi",
+    "sentence_spans": 2,
+    "completed_fullstops": 1,
+    "original_written": "Vì nó mà mọi tội lỗi sẽ đổ lên đầu chúng ta. Các anh không nhận ra sao?",
+    "asr_source": "vì nó mà mọi tội lỗi sẽ đổ lên đầu chúng ta các anh không nhận ra sao",
+    "chunks": [
+      "vì nó mà mọi tội lỗi sẽ đổ lên đầu chúng ta các anh không nhận ra sao"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_en_031",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "you may yet have the opportunity",
+    "asr_source": "you may yet have the opportunity",
+    "chunks": [
+      "you may yet have the opportunity"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_vi_003",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Người đàn ông của chúng ta thưa các quý ông và quý bà.",
+    "asr_source": "người đàn ông của chúng ta thưa các quý ông và quý bà",
+    "chunks": [
+      "người đàn ông của chúng ta thưa các quý ông và quý bà"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_vi_070",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- Không phải đó là việc của CIA sao? - Thôi nào, họ có đủ việc rồi.",
+    "asr_source": "không phải đó là việc của cia sao thôi nào họ có đủ việc rồi",
+    "chunks": [
+      "không phải đó là việc của cia sao thôi",
+      "nào họ có đủ việc rồi"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_vi_075",
+    "language": "vi",
+    "sentence_spans": 3,
+    "completed_fullstops": 3,
+    "original_written": "Những chú robot nhảy tại Pháp. Màn trình diễn độc đáo và đáng yêu của một đội người máy Nao tí hon của hãng Aldebaran Robotics, do Bruno Maisonnier biên đạo. Tiết mục được quay ở TEDxConcorde, tại Paris.",
+    "asr_source": "những chú robot nhảy tại pháp màn trình diễn độc đáo và đáng yêu của một đội người máy nao tí hon của hãng aldebaran robotics do bruno maisonnier biên đạo tiết mục được quay ở tedxconcorde tại paris",
+    "chunks": [
+      "những chú robot nhảy tại pháp màn trình diễn độc đáo và đáng yêu của một đội người",
+      "máy nao tí hon của hãng aldebaran robotics do bruno maisonnier",
+      "biên đạo tiết mục được quay ở tedxconcorde tại paris"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_en_102",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "So we're going to take it one step further; we've brought my friend Allan back.",
+    "asr_source": "so we're going to take it one step further we've brought my friend allan back",
+    "chunks": [
+      "so we're going to take it",
+      "one step further we've brought my friend allan back"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_02",
+    "id": "mt_en_103",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "rural areas 90 and 100 of population will be provided with clean water by 2015 and 2025 respectively",
+    "asr_source": "rural areas 90 and 100 of population will be provided with clean water by 2015 and 2025 respectively",
+    "chunks": [
+      "rural areas 90 and 100 of population will be provided with clean water by 2015 and 2025 respectively"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_114",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "nào các anh không về hả",
+    "asr_source": "nào các anh không về hả",
+    "chunks": [
+      "nào các anh không về hả"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_111",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Mẹ kể ra rồi và họ không tha cho mẹ.",
+    "asr_source": "mẹ kể ra rồi và họ không tha cho mẹ",
+    "chunks": [
+      "mẹ kể ra rồi và họ không tha cho mẹ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_035",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Vậy em sẽ bắt đầu với...",
+    "asr_source": "vậy em sẽ bắt đầu với",
+    "chunks": [
+      "vậy em sẽ bắt đầu với"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_093",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "tôi đã điều tra xung quanh những người đó không có hành động khả nghi nào cả",
+    "asr_source": "tôi đã điều tra xung quanh những người đó không có hành động khả nghi nào cả",
+    "chunks": [
+      "tôi đã điều tra xung quanh những người đó không có hành động khả nghi nào cả"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_010",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Cô có thể để cho nó ướt cũng không hư hại gì.",
+    "asr_source": "cô có thể để cho nó ướt cũng không hư hại gì",
+    "chunks": [
+      "cô có thể để cho nó ướt cũng không hư hại gì"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_031",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- Chị nói cụ thể hơn chút nữa được không?",
+    "asr_source": "chị nói cụ thể hơn chút nữa được không",
+    "chunks": [
+      "chị nói cụ thể hơn chút nữa được không"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_vi_082",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "bạn sẽ phải dùng những biện pháp khác được đưa ra trong bài viết này để xác định xem là phương án nào",
+    "asr_source": "bạn sẽ phải dùng những biện pháp khác được đưa ra trong bài viết này để xác định xem là phương án nào",
+    "chunks": [
+      "bạn sẽ phải dùng những biện pháp khác được đưa ra trong bài viết này để xác định xem là phương án nào"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_03",
+    "id": "mt_en_005",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "now another way you could have done it is you could say ok they re telling us that these are designed to fit",
+    "asr_source": "now another way you could have done it is you could say ok they re telling us that these are designed to fit",
+    "chunks": [
+      "now another way you could have done it is you could say ok they re telling us that these are designed to fit"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_en_022",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "article 30 use of works belonging to the public",
+    "asr_source": "article 30 use of works belonging to the public",
+    "chunks": [
+      "article 30 use of works belonging to the public"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_vi_041",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- Không có ai trong xe cả.",
+    "asr_source": "không có ai trong xe cả",
+    "chunks": [
+      "không có ai trong xe cả"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_vi_091",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- Anh phải để cho tôi làm.",
+    "asr_source": "anh phải để cho tôi làm",
+    "chunks": [
+      "anh phải để cho tôi làm"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_en_024",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "The payoffs to innovation are greatest where the uncertainty is highest.",
+    "asr_source": "the payoffs to innovation are greatest where the uncertainty is highest",
+    "chunks": [
+      "the payoffs to innovation are greatest where the uncertainty is highest"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_vi_052",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và điều đó cực kỳ quan trọng, vì những năm 90 là một thập kỷ tồi tệ cho Châu Phi, không chỉ ở Kenya, mà toàn Châu Phi.",
+    "asr_source": "và điều đó cực kỳ quan trọng vì những năm 90 là một thập kỷ tồi tệ cho châu phi không chỉ ở kenya mà toàn châu phi",
+    "chunks": [
+      "và điều đó cực kỳ quan trọng vì những năm 90 là một thập kỷ tồi tệ cho châu phi không chỉ ở kenya mà toàn châu phi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_en_094",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "So we decided to go out onto the streets of Chicago and ask a few people on the streets what they thought you could do with this.",
+    "asr_source": "so we decided to go out onto the streets of chicago and ask a few people on the streets what they thought you could do with this",
+    "chunks": [
+      "so we decided to go out onto the streets of chicago and ask a few people on the streets what they thought you could do with this"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_en_109",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "h/Having a written commitment to being liable for all obligations and commitments of its branch in Vietnam and a written authorization of the branch director to take responsibility before the law of Vietnam for all operations of the branch;",
+    "asr_source": "h/having a written commitment to being liable for all obligations and commitments of its branch in vietnam and a written authorization of the branch director to take responsibility before the law of vietnam for all operations of the branch",
+    "chunks": [
+      "h/having a written commitment to being liable for all obligations and commitments of its branch in vietnam and a written authorization of the branch director to take responsibility before the law of vietnam for all operations of the branch"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_04",
+    "id": "mt_en_020",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Right now there's nothing.",
+    "asr_source": "right now there's nothing",
+    "chunks": [
+      "right now there's nothing"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_en_045",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "And each country has a cabinet.",
+    "asr_source": "and each country has a cabinet",
+    "chunks": [
+      "and each country has a cabinet"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_vi_078",
+    "language": "vi",
+    "sentence_spans": 2,
+    "completed_fullstops": 1,
+    "original_written": "Điều 84. Sửa chữa sổ kế toán",
+    "asr_source": "điều 84 sửa chữa sổ kế toán",
+    "chunks": [
+      "điều 84 sửa chữa sổ kế toán"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_vi_086",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Không, ông ấy chưa bao giờ đưa mật mã cho cháu.",
+    "asr_source": "không ông ấy chưa bao giờ đưa mật mã cho cháu",
+    "chunks": [
+      "không ông ấy chưa bao giờ đưa mật mã cho cháu"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_en_033",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "and so we stand at a crossroads",
+    "asr_source": "and so we stand at a crossroads",
+    "chunks": [
+      "and so we stand at a crossroads"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_en_036",
+    "language": "en",
+    "sentence_spans": 3,
+    "completed_fullstops": 3,
+    "original_written": "And it's getting harder to hide assets, tax avoidance, pay inequality. So that's great. We're starting to find out more and more about these systems.",
+    "asr_source": "and it's getting harder to hide assets tax avoidance pay inequality so that's great we're starting to find out more and more about these systems",
+    "chunks": [
+      "and it's getting harder to hide assets tax avoidance pay inequality so that's great",
+      "we're starting to find out more and more about these systems"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_vi_090",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Thưa ngài, tôi biết ngài có cả tỷ việc phải suy nghĩ nhưng tôi rất muốn bàn với ngài về việc làm thế nào để đổi mới công nghiệp chế biến thực phẩm ở Iowa.",
+    "asr_source": "thưa ngài tôi biết ngài có cả tỷ việc phải suy nghĩ nhưng tôi rất muốn bàn với ngài về việc làm thế nào để đổi mới công nghiệp chế biến thực phẩm ở iowa",
+    "chunks": [
+      "thưa ngài tôi biết ngài có cả tỷ việc phải suy nghĩ nhưng tôi rất muốn bàn với ngài về việc làm thế nào để đổi mới công nghiệp chế biến thực phẩm ở iowa"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_en_061",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "the other big dynamic of change is the sheer performance of underperforming asphalt",
+    "asr_source": "the other big dynamic of change is the sheer performance of underperforming asphalt",
+    "chunks": [
+      "the other big dynamic of change is the sheer performance of underperforming asphalt"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_05",
+    "id": "mt_vi_076",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "a) Không lưu giữ đủ hồ sơ tín dụng theo quy định tại Điều 55 của Luật Các tổ chức tín dụng;",
+    "asr_source": "a không lưu giữ đủ hồ sơ tín dụng theo quy định tại điều 55 của luật các tổ chức tín dụng",
+    "chunks": [
+      "a không lưu giữ đủ hồ sơ tín dụng theo quy định tại điều 55 của luật các tổ chức tín dụng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_en_008",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "article 23 service fee",
+    "asr_source": "article 23 service fee",
+    "chunks": [
+      "article 23 service fee"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_vi_109",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "thay vào đó bạn nên nhìn nhận rằng bạn không thể kiểm soát mọi thứ",
+    "asr_source": "thay vào đó bạn nên nhìn nhận rằng bạn không thể kiểm soát mọi thứ",
+    "chunks": [
+      "thay vào đó",
+      "bạn nên nhìn nhận rằng bạn không thể kiểm soát mọi thứ"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_vi_083",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Là hạt cây rum.",
+    "asr_source": "là hạt cây rum",
+    "chunks": [
+      "là hạt cây rum"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_en_017",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "In 2009, Exile's song \" The Next Door \" was featured as the theme of the Japanese edition of Street Fighter IV.",
+    "asr_source": "in 2009 exile's song the next door was featured as the theme of the japanese edition of street fighter iv",
+    "chunks": [
+      "in 2009 exile's song",
+      "the next door was featured as the theme of the japanese edition of street fighter iv"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_en_089",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "yoon ji min at cyworld yoon ji min at s u entertainment yoon ji min at hancinema",
+    "asr_source": "yoon ji min at cyworld yoon ji min at s u entertainment yoon ji min at hancinema",
+    "chunks": [
+      "yoon ji min at cyworld",
+      "yoon ji min at s u entertainment yoon ji min at hancinema"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_vi_107",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "tình hình có vẻ mất kiểm soát",
+    "asr_source": "tình hình có vẻ mất kiểm soát",
+    "chunks": [
+      "tình hình có vẻ mất kiểm soát"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_en_057",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "2 2 the office of the general department of taxation",
+    "asr_source": "2 2 the office of the general department of taxation",
+    "chunks": [
+      "2 2 the office of the general department of taxation"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_06",
+    "id": "mt_en_099",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Knowles stated during the \" 8 Days of Christmas \" video premiere at 106 & Park in Fall 2001: \" Actually we wrote the song two years ago, when we went in the studio to do some Christmas something.",
+    "asr_source": "knowles stated during the 8 days of christmas video premiere at 106 & park in fall 2001 actually we wrote the song two years ago when we went in the studio to do some christmas something",
+    "chunks": [
+      "knowles stated during the 8 days of christmas video premiere at 106 & park in fall 2001",
+      "actually we wrote the song",
+      "two years ago when we went in the studio to do some christmas something"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_vi_023",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Họ không thể hiểu nổi.",
+    "asr_source": "họ không thể hiểu nổi",
+    "chunks": [
+      "họ không thể hiểu nổi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_vi_037",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tôi tới ngay đây, Bernice.",
+    "asr_source": "tôi tới ngay đây bernice",
+    "chunks": [
+      "tôi tới ngay đây bernice"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_en_052",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "That's the way we talk, right guys?",
+    "asr_source": "that's the way we talk right guys",
+    "chunks": [
+      "that's the way we talk right guys"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_en_004",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "a) Within 01 hour at a time for the parameters under automatic and online supervision;",
+    "asr_source": "a within 01 hour at a time for the parameters under automatic and online supervision",
+    "chunks": [
+      "a within 01 hour at a time for the parameters under automatic and online supervision"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_vi_055",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "nếu tôi nhớ chính xác mẹ cô sẽ đón cô",
+    "asr_source": "nếu tôi nhớ chính xác mẹ cô sẽ đón cô",
+    "chunks": [
+      "nếu tôi nhớ chính xác mẹ cô sẽ đón cô"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_en_078",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "That, much as the gravitational pull of the Earth slows the ascent of an apple tossed upward, the gravitational pull of each galaxy on every other must be slowing the expansion of space.",
+    "asr_source": "that much as the gravitational pull of the earth slows the ascent of an apple tossed upward the gravitational pull of each galaxy on every other must be slowing the expansion of space",
+    "chunks": [
+      "that much as the gravitational pull of the earth slows the ascent of an apple tossed upward the gravitational pull of each galaxy on every other must be slowing the expansion of space"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_en_105",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "By acting as a fleet in being, Goeben effectively blocked a Russian advance into the Bosporus, and defended against a similar incursion of British and French pre-dreadnoughts.",
+    "asr_source": "by acting as a fleet in being goeben effectively blocked a russian advance into the bosporus and defended against a similar incursion of british and french pre dreadnoughts",
+    "chunks": [
+      "by acting as a fleet in being goeben effectively blocked a russian advance into the bosporus and defended against a similar incursion of british and french pre dreadnoughts"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_07",
+    "id": "mt_en_073",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Speaking of which, you guys are going to the reunion tonight, right?",
+    "asr_source": "speaking of which you guys are going to the reunion tonight right",
+    "chunks": [
+      "speaking of which you guys are going to the reunion tonight right"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_081",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "1 the fund shall set aside loan loss provisions for indirect lending risks which may be charged into the fund s operating expenses as follows",
+    "asr_source": "1 the fund shall set aside loan loss provisions for indirect lending risks which may be charged into the fund s operating expenses as follows",
+    "chunks": [
+      "1 the fund shall set aside loan loss provisions for indirect",
+      "lending risks which may be charged into the fund s operating expenses as follows"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_011",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "But they'd be reading it.",
+    "asr_source": "but they'd be reading it",
+    "chunks": [
+      "but they'd be reading it"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_014",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Make sure you stick around for awhile afterward to say hi so that he knows you were there.",
+    "asr_source": "make sure you stick around for awhile afterward to say hi so that he knows you were there",
+    "chunks": [
+      "make sure you stick around for awhile afterward to say hi so that he knows you were there"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_098",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "We have to remix it. He's got a great voice.",
+    "asr_source": "we have to remix it he's got a great voice",
+    "chunks": [
+      "we have to remix it",
+      "he's got a great voice"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_070",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "i m going to try to square some three digit numbers this time",
+    "asr_source": "i m going to try to square some three digit numbers this time",
+    "chunks": [
+      "i m going to try to square some three digit numbers this time"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_054",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "And we were actually worried it could have been a lot worse than that.",
+    "asr_source": "and we were actually worried it could have been a lot worse than that",
+    "chunks": [
+      "and we were actually worried",
+      "it could have been a lot worse than that"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_vi_097",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ta cũng đang gây tiếng động mà.",
+    "asr_source": "ta cũng đang gây tiếng động mà",
+    "chunks": [
+      "ta cũng đang gây tiếng động mà"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_08",
+    "id": "mt_en_064",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "If you're coming, I'll hang around.",
+    "asr_source": "if you're coming i'll hang around",
+    "chunks": [
+      "if you're coming i'll hang around"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_en_060",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I mean, this is life.",
+    "asr_source": "i mean this is life",
+    "chunks": [
+      "i mean this is life"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_en_058",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "This is enough to make your savings grow fairly quickly while not so much that it will crimp other areas of your life.",
+    "asr_source": "this is enough to make your savings grow fairly quickly while not so much that it will crimp other areas of your life",
+    "chunks": [
+      "this is enough to make your savings grow",
+      "fairly quickly while not so much that it will crimp other areas of your life"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_vi_054",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Tại sao chúng ta ở đây?",
+    "asr_source": "tại sao chúng ta ở đây",
+    "chunks": [
+      "tại sao chúng ta ở đây"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_vi_009",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Rẽ đi, rẽ đi!",
+    "asr_source": "rẽ đi rẽ đi",
+    "chunks": [
+      "rẽ đi rẽ đi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_vi_065",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ta thích thỏa hiệp với ngươi.",
+    "asr_source": "ta thích thỏa hiệp với ngươi",
+    "chunks": [
+      "ta thích thỏa hiệp với ngươi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_vi_061",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Khi số thức ăn đó không được xử lý, chúng dần phân hủy và thải ra khí metan độc hại, một trong những nhân tố dẫn đến sự biến đổi khí hậu toàn cầu.",
+    "asr_source": "khi số thức ăn đó không được xử lý chúng dần phân hủy và thải ra khí metan độc hại một trong những nhân tố dẫn đến sự biến đổi khí hậu toàn cầu",
+    "chunks": [
+      "khi số thức ăn đó không được xử lý",
+      "chúng dần phân hủy và thải ra khí metan độc hại một trong những nhân tố dẫn đến sự biến đổi khí hậu toàn cầu"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_en_088",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Types and price of tickets are decided by People's Committees of provinces and central-affiliated cities where urban railways are located.",
+    "asr_source": "types and price of tickets are decided by people's committees of provinces and central affiliated cities where urban railways are located",
+    "chunks": [
+      "types and price of tickets are decided by people's committees of provinces and central affiliated cities where urban railways are located"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_09",
+    "id": "mt_en_119",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- Our boy looks good on the tube.",
+    "asr_source": "our boy looks good on the tube",
+    "chunks": [
+      "our boy looks good on the tube"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_en_095",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "1. Maritime fees or charges and collection, payment, management and utilization of maritime fees or charges shall be consistent with laws and regulations on fees and charges.",
+    "asr_source": "1 maritime fees or charges and collection payment management and utilization of maritime fees or charges shall be consistent with laws and regulations on fees and charges",
+    "chunks": [
+      "1 maritime fees or charges and collection payment management and utilization of maritime fees or charges shall be consistent with laws and regulations on fees and charges"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_vi_058",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "anh nói đệch tôi nói đệt",
+    "asr_source": "anh nói đệch tôi nói đệt",
+    "chunks": [
+      "anh nói đệch tôi nói đệt"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_en_030",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "it s got a little bit of basic common sense goes and picks the objects",
+    "asr_source": "it s got a little bit of basic common sense goes and picks the objects",
+    "chunks": [
+      "it s got a little bit of basic common sense goes and picks the objects"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_vi_085",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Cậu may mắn lắm đó, có biết không?",
+    "asr_source": "cậu may mắn lắm đó có biết không",
+    "chunks": [
+      "cậu may mắn lắm",
+      "đó có biết không"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_vi_027",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "trong giấy nhám hồ làm từ xương thật ra là hồ dùng để dính cát và tờ giấy",
+    "asr_source": "trong giấy nhám hồ làm từ xương thật ra là hồ dùng để dính cát và tờ giấy",
+    "chunks": [
+      "trong giấy nhám hồ làm từ xương thật ra là hồ dùng để dính cát và tờ giấy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_vi_040",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và mặc dù khổ sở vì việc mù thể thao của bà mẹ như tôi nó chơi bóng đá.",
+    "asr_source": "và mặc dù khổ sở vì việc mù thể thao của bà mẹ như tôi nó chơi bóng đá",
+    "chunks": [
+      "và mặc dù khổ sở vì việc mù thể thao của bà mẹ như tôi nó chơi bóng đá"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_en_034",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "An even longer trench runs alongside the coast of Peru and Chile, reaching a depth of 8,065 metres (26,460 ft) and extending for approximately 5,900 kilometres (3,700 mi).",
+    "asr_source": "an even longer trench runs alongside the coast of peru and chile reaching a depth of 8 065 metres 26 460 ft and extending for approximately 5 900 kilometres 3 700 mi",
+    "chunks": [
+      "an even longer trench runs alongside the coast of peru and chile reaching a depth of 8 065 metres",
+      "26 460 ft and extending for approximately 5 900 kilometres",
+      "3 700 mi"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_10",
+    "id": "mt_en_012",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "The resident must take up the intruder's challenge.",
+    "asr_source": "the resident must take up the intruder's challenge",
+    "chunks": [
+      "the resident must take up the intruder's challenge"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_en_085",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "as of july 9 there have been 97 other vietnamese workers who tested positive for covid 19 they have been hospitalized for quarantine and treatment",
+    "asr_source": "as of july 9 there have been 97 other vietnamese workers who tested positive for covid 19 they have been hospitalized for quarantine and treatment",
+    "chunks": [
+      "as of july 9 there have been 97 other vietnamese workers who tested positive for covid 19 they have been hospitalized for quarantine and treatment"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_vi_033",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "anh hay cơ trưởng có mở cửa ra ngoài không",
+    "asr_source": "anh hay cơ trưởng có mở cửa ra ngoài không",
+    "chunks": [
+      "anh hay cơ trưởng có mở cửa ra ngoài không"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_en_001",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "This shows that the expected return is independent of the choice of bet.",
+    "asr_source": "this shows that the expected return is independent of the choice of bet",
+    "chunks": [
+      "this shows that the expected return is independent of the choice of bet"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_en_116",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "This was a work made by Mike Tyka in our group, which he calls \" Animal Parade. \"",
+    "asr_source": "this was a work made by mike tyka in our group which he calls animal parade",
+    "chunks": [
+      "this was a work made by mike tyka in our group which he calls animal parade"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_en_015",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "You don't seriously believe this guy, do you?",
+    "asr_source": "you don't seriously believe this guy do you",
+    "chunks": [
+      "you don't seriously believe this guy",
+      "do you"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_vi_073",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "b) Báo cáo kết quả khảo nghiệm được Bộ Nông nghiệp và Phát triển nông thôn công nhận đạt yêu cầu;",
+    "asr_source": "b báo cáo kết quả khảo nghiệm được bộ nông nghiệp và phát triển nông thôn công nhận đạt yêu cầu",
+    "chunks": [
+      "b báo cáo kết quả khảo nghiệm được bộ nông nghiệp và phát triển nông thôn công nhận đạt yêu cầu"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_vi_106",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "-Tôi rất hài lòng.",
+    "asr_source": "tôi rất hài lòng",
+    "chunks": [
+      "tôi rất hài lòng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_11",
+    "id": "mt_vi_104",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nó chỉ chưa hiểu rõ thôi.",
+    "asr_source": "nó chỉ chưa hiểu rõ thôi",
+    "chunks": [
+      "nó chỉ chưa hiểu rõ thôi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_en_110",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- How do they feel?",
+    "asr_source": "how do they feel",
+    "chunks": [
+      "how do they feel"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_vi_048",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- Nói chuyện với ai?",
+    "asr_source": "nói chuyện với ai",
+    "chunks": [
+      "nói chuyện với ai"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_vi_102",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "dự luật đã thông qua lần đọc thứ hai vào ngày 26 tháng 10 giai đoạn mệnh đề vào ngày 9 tháng 11 và vào ngày 23 tháng 11 dự luật đã thông qua lần đọc thứ ba",
+    "asr_source": "dự luật đã thông qua lần đọc thứ hai vào ngày 26 tháng 10 giai đoạn mệnh đề vào ngày 9 tháng 11 và vào ngày 23 tháng 11 dự luật đã thông qua lần đọc thứ ba",
+    "chunks": [
+      "dự luật đã thông qua lần đọc thứ hai vào ngày 26 tháng 10 giai đoạn mệnh đề vào ngày 9 tháng 11 và vào ngày 23",
+      "tháng 11 dự luật đã thông qua lần đọc thứ ba"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_en_093",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Don't call me. I won't call you.",
+    "asr_source": "don't call me i won't call you",
+    "chunks": [
+      "don't call me",
+      "i won't call you"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_vi_072",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- Thử nghiệm xâm nhập hệ thống dựa trên các hướng dẫn của các tổ chức uy tín về hoạt động thử nghiệm xâm nhập và an toàn bảo mật;",
+    "asr_source": "thử nghiệm xâm nhập hệ thống dựa trên các hướng dẫn của các tổ chức uy tín về hoạt động thử nghiệm xâm nhập và an toàn bảo mật",
+    "chunks": [
+      "thử nghiệm xâm nhập hệ thống dựa trên các hướng dẫn của các tổ chức uy tín về hoạt động thử nghiệm xâm nhập và an toàn bảo mật"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_en_079",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "5 Glyn Davies, A History of Money: From Ancient Times to the Present Day (Cardiff: University of Wales Press, 1994 ), 15.",
+    "asr_source": "5 glyn davies a history of money from ancient times to the present day cardiff university of wales press 1994 15",
+    "chunks": [
+      "5 glyn davies a history of money from ancient times to the present day cardiff university of wales press 1994 15"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_vi_077",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Gần đó, lại có 1 chuồng gà bỏ lơ",
+    "asr_source": "gần đó lại có 1 chuồng gà bỏ lơ",
+    "chunks": [
+      "gần đó lại có 1 chuồng gà bỏ lơ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_12",
+    "id": "mt_en_063",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- But it's a...",
+    "asr_source": "but it's a",
+    "chunks": [
+      "but it's a"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_vi_084",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nó chưa bao giờ học chung với nam sinh cả.",
+    "asr_source": "nó chưa bao giờ học chung với nam sinh cả",
+    "chunks": [
+      "nó chưa bao giờ học chung với nam sinh cả"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_vi_116",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Cô bé ơi, với năm triệu đô-la, tốt hơn cô phải chắc chắn!",
+    "asr_source": "cô bé ơi với năm triệu đô la tốt hơn cô phải chắc chắn",
+    "chunks": [
+      "cô bé ơi với năm triệu đô la tốt hơn cô phải chắc chắn"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_vi_034",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "nghe đây hình như tôi đã nói sai tên",
+    "asr_source": "nghe đây hình như tôi đã nói sai tên",
+    "chunks": [
+      "nghe đây hình như tôi đã nói sai tên"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_en_006",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Romeo said jokingly, \" At least you could say something tender before you leave. \"",
+    "asr_source": "romeo said jokingly at least you could say something tender before you leave",
+    "chunks": [
+      "romeo said jokingly at least you could say something tender before you leave"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_vi_016",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Lúc nào chả có lựa chọn!",
+    "asr_source": "lúc nào chả có lựa chọn",
+    "chunks": [
+      "lúc nào chả có lựa chọn"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_en_059",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "we know he blames them for what happened to his mother",
+    "asr_source": "we know he blames them for what happened to his mother",
+    "chunks": [
+      "we know he blames them for what happened to his mother"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_en_092",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "3. The party in breach of the contract shall pay liquidated damages.",
+    "asr_source": "3 the party in breach of the contract shall pay liquidated damages",
+    "chunks": [
+      "3 the party in breach of the contract shall pay liquidated damages"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_13",
+    "id": "mt_vi_069",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Vậy, điều tôi muốn nói với mọi người là...",
+    "asr_source": "vậy điều tôi muốn nói với mọi người là",
+    "chunks": [
+      "vậy điều tôi muốn nói với mọi người là"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_vi_103",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nhưng chúng ta thực sự không biết làm thế nào và tại sao điều đó xảy ra.",
+    "asr_source": "nhưng chúng ta thực sự không biết làm thế nào và tại sao điều đó xảy ra",
+    "chunks": [
+      "nhưng chúng ta thực sự không biết làm thế nào và tại sao điều đó xảy ra"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_en_118",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "I see you've put your name down for the tournament.",
+    "asr_source": "i see you've put your name down for the tournament",
+    "chunks": [
+      "i see you've put your name down for the tournament"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_en_101",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "On January 1,1895, Aguinaldo became a Freemason, joining Pilar Lodge No. 203, Imus, Cavite by the codename \" Colon \".",
+    "asr_source": "on january 1 1895 aguinaldo became a freemason joining pilar lodge no 203 imus cavite by the codename colon",
+    "chunks": [
+      "on january 1 1895 aguinaldo became a freemason joining pilar lodge no 203 imus cavite by the codename colon"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_vi_020",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "\" Đẫm máu BATTLE TRONG AFFGHANISTAN \".",
+    "asr_source": "đẫm máu battle trong affghanistan",
+    "chunks": [
+      "đẫm máu battle trong affghanistan"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_vi_080",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Biết được đâu là giới hạn của bản thân.",
+    "asr_source": "biết được đâu là giới hạn của bản thân",
+    "chunks": [
+      "biết được đâu là giới hạn của bản thân"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_vi_050",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "các ông là tuần phủ ngoại quốc",
+    "asr_source": "các ông là tuần phủ ngoại quốc",
+    "chunks": [
+      "các ông là tuần phủ ngoại quốc"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_vi_036",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và nên làm vậy.",
+    "asr_source": "và nên làm vậy",
+    "chunks": [
+      "và nên làm vậy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_14",
+    "id": "mt_en_055",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "And I had to say that I wished that various New York Yankees players would break arms, legs and ankles-- (Laughter )",
+    "asr_source": "and i had to say that i wished that various new york yankees players would break arms legs and ankles laughter",
+    "chunks": [
+      "and i had to say that i wished that various new york yankees players would break arms legs and ankles laughter"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_vi_046",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Còn nơi cần chúng ta thì họ lại không cử.",
+    "asr_source": "còn nơi cần chúng ta thì họ lại không cử",
+    "chunks": [
+      "còn nơi cần chúng ta thì họ lại không cử"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_en_035",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Yeah. I remember other things, too.",
+    "asr_source": "yeah i remember other things too",
+    "chunks": [
+      "yeah i remember other things too"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_en_028",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "There's a name For that kind of prophecy-- Self-fulfilling.",
+    "asr_source": "there's a name for that kind of prophecy self fulfilling",
+    "chunks": [
+      "there's a name for that kind of prophecy self fulfilling"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_vi_096",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "ngày 27 tháng 1 năm 2015 việc doyle ký hợp đồng với xl recordings và album thứ hai của anh có tên culture of volume được công bố",
+    "asr_source": "ngày 27 tháng 1 năm 2015 việc doyle ký hợp đồng với xl recordings và album thứ hai của anh có tên culture of volume được công bố",
+    "chunks": [
+      "ngày 27 tháng 1 năm 2015",
+      "việc doyle ký hợp đồng với xl recordings và album thứ hai của anh có tên culture of volume được công bố"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_vi_092",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "cô ấy ngỏ ý muốn nghe những gì mà cô ấy gọi là âm nhạc bộ lạc và sau đó thì rất thất vọng khi tôi mở nhạc mariah carey",
+    "asr_source": "cô ấy ngỏ ý muốn nghe những gì mà cô ấy gọi là âm nhạc bộ lạc và sau đó thì rất thất vọng khi tôi mở nhạc mariah carey",
+    "chunks": [
+      "cô ấy ngỏ ý muốn nghe những gì mà cô ấy gọi là âm nhạc bộ lạc và sau đó thì rất thất vọng khi tôi mở nhạc",
+      "mariah carey"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_en_050",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "b specifying rights and responsibilities of functional departments for consulting the board of director of the pmb and cooperating with project executive departments",
+    "asr_source": "b specifying rights and responsibilities of functional departments for consulting the board of director of the pmb and cooperating with project executive departments",
+    "chunks": [
+      "b specifying rights and responsibilities of functional departments for consulting the board of director of the pmb and cooperating with project executive departments"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_vi_113",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nước này hơi nhỏ hơn Tây Ban Nha, và hơi lớn hơn bang California của Hoa Kỳ.",
+    "asr_source": "nước này hơi nhỏ hơn tây ban nha và hơi lớn hơn bang california của hoa kỳ",
+    "chunks": [
+      "nước này hơi nhỏ hơn tây ban nha và hơi lớn hơn bang california của hoa kỳ"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_15",
+    "id": "mt_en_016",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "b the original or certified copy and the vietnamese translation with notary s certification of the certificate or equivalent documents of the competent authorities permiting for use as food and feed in other countries if any",
+    "asr_source": "b the original or certified copy and the vietnamese translation with notary s certification of the certificate or equivalent documents of the competent authorities permiting for use as food and feed in other countries if any",
+    "chunks": [
+      "b the original or certified copy and the vietnamese translation with notary s certification of the certificate or equivalent documents of the competent authorities permiting for use as food and feed in other countries",
+      "if any"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_en_053",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Although his authoritarian father had forbidden him to write any further stories, Mishima continued to write every night in secret, supported and protected by his mother, who was always the first to read a new story.",
+    "asr_source": "although his authoritarian father had forbidden him to write any further stories mishima continued to write every night in secret supported and protected by his mother who was always the first to read a new story",
+    "chunks": [
+      "although his authoritarian father had forbidden him to write any further stories mishima",
+      "continued to write every night in secret supported and protected by his mother who was always the first to read a new story"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_vi_108",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Truyền thống lâu đời này kết hợp từ nguồn gốc thần thoại và cả sinh học xoay quanh loài cây đáng tò mò này.",
+    "asr_source": "truyền thống lâu đời này kết hợp từ nguồn gốc thần thoại và cả sinh học xoay quanh loài cây đáng tò mò này",
+    "chunks": [
+      "truyền thống lâu đời này kết hợp từ nguồn gốc thần thoại và cả sinh học xoay quanh loài cây đáng tò mò này"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_en_114",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "Like I say, it's a cross between Natural History Museum and a NASA laboratory. It's full of prototypes and objects.",
+    "asr_source": "like i say it's a cross between natural history museum and a nasa laboratory it's full of prototypes and objects",
+    "chunks": [
+      "like i say it's a cross between natural history museum and a nasa laboratory",
+      "it's full of prototypes and objects"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_en_065",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Go to San Francisco, get a job on the first vessel I see.",
+    "asr_source": "go to san francisco get a job on the first vessel i see",
+    "chunks": [
+      "go to san francisco get a job on the first vessel",
+      "i see"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_vi_022",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nó có thể sử dụng cả vũ khí của phương Tây và Nga như tên lửa R-60M, R-73, Magic 2, hay Python III.",
+    "asr_source": "nó có thể sử dụng cả vũ khí của phương tây và nga như tên lửa r 60m r 73 magic 2 hay python iii",
+    "chunks": [
+      "nó có thể sử dụng cả vũ khí của phương tây và nga như tên lửa r 60m r 73 magic 2 hay python iii"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_vi_025",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Cuối cùng tôi mới hỏi \" Tại sao ta cũng vỗ tay? \"",
+    "asr_source": "cuối cùng tôi mới hỏi tại sao ta cũng vỗ tay",
+    "chunks": [
+      "cuối cùng tôi mới hỏi tại sao ta cũng vỗ tay"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_vi_056",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tớ biết lý do cậu gọi mà.",
+    "asr_source": "tớ biết lý do cậu gọi mà",
+    "chunks": [
+      "tớ biết lý do cậu gọi mà"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_16",
+    "id": "mt_en_040",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "for the first breach once",
+    "asr_source": "for the first breach once",
+    "chunks": [
+      "for the first breach once"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_en_071",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Well, ever since Francis publicly claimed your baby, you've been mooning about, saying how no man will come near you because they think you're the king's mistress.",
+    "asr_source": "well ever since francis publicly claimed your baby you've been mooning about saying how no man will come near you because they think you're the king's mistress",
+    "chunks": [
+      "well ever since francis publicly claimed your baby you've been mooning about saying how no man will come near you because they think you're the king's mistress"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_en_044",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "None that are listed.",
+    "asr_source": "none that are listed",
+    "chunks": [
+      "none that are listed"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_en_010",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "It's not a -- it's only a partial look, but it's a -- I think it's going to be very, very useful.",
+    "asr_source": "it's not a it's only a partial look but it's a i think it's going to be very very useful",
+    "chunks": [
+      "it's not a it's only a partial",
+      "look but it's a i think it's going to be very very useful"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_vi_118",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- Anh mang thử nhé?",
+    "asr_source": "anh mang thử nhé",
+    "chunks": [
+      "anh mang thử nhé"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_vi_071",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "loài động vật này thật lớn Thật khó để tưởng tượng tất cả các cá thể này làm việc cùng nhau trong một tổ hợp",
+    "asr_source": "loài động vật này thật lớn thật khó để tưởng tượng tất cả các cá thể này làm việc cùng nhau trong một tổ hợp",
+    "chunks": [
+      "loài động vật này thật lớn thật khó để tưởng tượng tất cả các cá thể này làm việc cùng nhau trong một tổ hợp"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_vi_032",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "sau đó tôi mắc chứng ung thu hoặc là tôi đã phát hiện tôi bị ung thư",
+    "asr_source": "sau đó tôi mắc chứng ung thu hoặc là tôi đã phát hiện tôi bị ung thư",
+    "chunks": [
+      "sau đó tôi mắc chứng ung thu hoặc là tôi đã phát hiện tôi bị ung thư"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_vi_117",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Đoán là tôi thực hiện công việc quá tốt.",
+    "asr_source": "đoán là tôi thực hiện công việc quá tốt",
+    "chunks": [
+      "đoán là tôi thực hiện công việc quá tốt"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_17",
+    "id": "mt_vi_089",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "b) Làm rõ sự việc lãng phí theo thông tin phát hiện;",
+    "asr_source": "b làm rõ sự việc lãng phí theo thông tin phát hiện",
+    "chunks": [
+      "b làm rõ sự việc lãng phí theo thông tin phát hiện"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_vi_049",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Dù được mở ở độ cao 60 km và các thử nghiệm khí quyển bắt đầu với kết quả cho thấy khí quyển là 97% carbon dioxit.",
+    "asr_source": "dù được mở ở độ cao 60 km và các thử nghiệm khí quyển bắt đầu với kết quả cho thấy khí quyển là 97% carbon dioxit",
+    "chunks": [
+      "dù được mở ở độ cao 60 km và các thử nghiệm khí quyển bắt đầu với kết quả cho thấy khí quyển là 97% carbon dioxit"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_en_047",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "- Hey, little guy.",
+    "asr_source": "hey little guy",
+    "chunks": [
+      "hey little guy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_en_115",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Distribute the 2 and you get 2x + 2.",
+    "asr_source": "distribute the 2 and you get 2x + 2",
+    "chunks": [
+      "distribute the 2 and you get 2x + 2"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_vi_024",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Ngoài ra, nó cũng tốt cho cả câu chuyện nữa.",
+    "asr_source": "ngoài ra nó cũng tốt cho cả câu chuyện nữa",
+    "chunks": [
+      "ngoài ra nó cũng tốt cho cả câu chuyện nữa"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_vi_068",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "sau khi thịt chín bạn có thể rút xiên que ra và cắt thịt như bình thường",
+    "asr_source": "sau khi thịt chín bạn có thể rút xiên que ra và cắt thịt như bình thường",
+    "chunks": [
+      "sau khi thịt chín",
+      "bạn có thể rút xiên que ra và cắt thịt như bình thường"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_en_113",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "For once, you're right.",
+    "asr_source": "for once you're right",
+    "chunks": [
+      "for once you're right"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_en_066",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Would the ignored condition be more like the acknowledged or more like the shredder, or somewhere in the middle?",
+    "asr_source": "would the ignored condition be more like the acknowledged or more like the shredder or somewhere in the middle",
+    "chunks": [
+      "would the ignored condition be more like the acknowledged or more like the shredder or somewhere in the middle"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_18",
+    "id": "mt_vi_062",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nói cho tôi biết phải thương lượng bao nhiêu.",
+    "asr_source": "nói cho tôi biết phải thương lượng bao nhiêu",
+    "chunks": [
+      "nói cho tôi biết phải thương lượng bao nhiêu"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_en_019",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "what s he doing our man got a problem here",
+    "asr_source": "what s he doing our man got a problem here",
+    "chunks": [
+      "what s he doing our man got a problem here"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_en_039",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Or, when you're designing a piece, make sure you either can't put it in the wrong way round, or, if you do, it doesn't matter, because it's symmetrical.",
+    "asr_source": "or when you're designing a piece make sure you either can't put it in the wrong way round or if you do it doesn't matter because it's symmetrical",
+    "chunks": [
+      "or when you're designing a piece make sure you either can't put it in the wrong way round or if you do it doesn't matter because it's symmetrical"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_vi_110",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Cô vẫn chưa hiểu sao?",
+    "asr_source": "cô vẫn chưa hiểu sao",
+    "chunks": [
+      "cô vẫn chưa hiểu sao"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_vi_105",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Và chúng tôi chỉ cố gắng để tiến tới những quyền lợi vốn đã có sẵn, mà chúng tôi đã đồng thuận với chúng.",
+    "asr_source": "và chúng tôi chỉ cố gắng để tiến tới những quyền lợi vốn đã có sẵn mà chúng tôi đã đồng thuận với chúng",
+    "chunks": [
+      "và chúng tôi chỉ cố gắng để tiến tới những quyền lợi vốn đã có sẵn mà chúng tôi đã đồng thuận với chúng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_vi_028",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Sao ông không mở cửa sổ ra?",
+    "asr_source": "sao ông không mở cửa sổ ra",
+    "chunks": [
+      "sao ông không mở cửa sổ ra"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_vi_043",
+    "language": "vi",
+    "sentence_spans": 2,
+    "completed_fullstops": 1,
+    "original_written": "185. Dự án tăng cường năng lực quản lý bảo vệ môi trường",
+    "asr_source": "185 dự án tăng cường năng lực quản lý bảo vệ môi trường",
+    "chunks": [
+      "185 dự án tăng cường năng lực quản lý bảo vệ môi trường"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_vi_026",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Sau khi để ngấm khoảng 1-2 phút, bạn sẽ lấy bánh tráng ra, đắp lên mặt và thư giãn khoảng 10-15 phút trước khi bỏ mặt nạ đi.",
+    "asr_source": "sau khi để ngấm khoảng 1 2 phút bạn sẽ lấy bánh tráng ra đắp lên mặt và thư giãn khoảng 10 15 phút trước khi bỏ mặt nạ đi",
+    "chunks": [
+      "sau khi để ngấm khoảng 1 2 phút bạn sẽ lấy bánh tráng ra đắp lên mặt và thư giãn khoảng 10 15 phút trước khi bỏ mặt nạ đi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_19",
+    "id": "mt_en_076",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "you fought this thing before",
+    "asr_source": "you fought this thing before",
+    "chunks": [
+      "you fought this thing before"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_en_117",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "A subject which bores me to tears except for this particular picture.",
+    "asr_source": "a subject which bores me to tears except for this particular picture",
+    "chunks": [
+      "a subject which bores me to tears except for this particular picture"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_vi_013",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Nó bị bỏ đói?",
+    "asr_source": "nó bị bỏ đói",
+    "chunks": [
+      "nó bị bỏ đói"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_en_041",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "And you can make a very thick, sticky porridge out of it, which you can use to bind together the charcoal briquettes.",
+    "asr_source": "and you can make a very thick sticky porridge out of it which you can use to bind together the charcoal briquettes",
+    "chunks": [
+      "and you can make a very thick sticky porridge out of it which you can use to bind together the charcoal briquettes"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_en_107",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "what are my liabilities",
+    "asr_source": "what are my liabilities",
+    "chunks": [
+      "what are my liabilities"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_vi_060",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Sau đây là một số giống hoa tulip mọc lại hàng năm không đòi hỏi nhiều công sức: Tulip \" Olympic Flame \" Tulip \" Peppermint Stick \" Tulip Crocus Tulip \" Negrita \" Tulip \" Spring Green \"",
+    "asr_source": "sau đây là một số giống hoa tulip mọc lại hàng năm không đòi hỏi nhiều công sức tulip olympic flame tulip peppermint stick tulip crocus tulip negrita tulip spring green",
+    "chunks": [
+      "sau đây là một số giống hoa tulip mọc lại hàng năm không đòi hỏi nhiều công sức tulip olympic flame tulip peppermint stick tulip crocus tulip negrita tulip spring green"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_vi_053",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "- Lopez...chú có báo ngày hôm nay không?",
+    "asr_source": "lopez chú có báo ngày hôm nay không",
+    "chunks": [
+      "lopez",
+      "chú có báo ngày hôm nay không"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_vi_066",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Bạn đang xây dựng trên tư tưởng và giá trị của mọi người-- rằng có lẽ họ là những ngọn nến thắp sáng lờ mờ trong các dịp nhất định.",
+    "asr_source": "bạn đang xây dựng trên tư tưởng và giá trị của mọi người rằng có lẽ họ là những ngọn nến thắp sáng lờ mờ trong các dịp nhất định",
+    "chunks": [
+      "bạn đang xây dựng trên tư tưởng và giá trị của mọi người rằng có lẽ họ là những ngọn nến thắp sáng lờ mờ trong các dịp nhất định"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_20",
+    "id": "mt_vi_008",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Tiếp theo là ai đây?",
+    "asr_source": "tiếp theo là ai đây",
+    "chunks": [
+      "tiếp theo là ai đây"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_en_000",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "section 3 price appraising enterprises",
+    "asr_source": "section 3 price appraising enterprises",
+    "chunks": [
+      "section 3 price",
+      "appraising enterprises"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_en_067",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "But we're not content to stop there.",
+    "asr_source": "but we're not content to stop there",
+    "chunks": [
+      "but we're not content to stop there"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_vi_112",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "gã này có cuộc sống nhạt lắm",
+    "asr_source": "gã này có cuộc sống nhạt lắm",
+    "chunks": [
+      "gã này có cuộc sống nhạt lắm"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_vi_094",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "TARS, làm gì mà lâu thế?",
+    "asr_source": "tars làm gì mà lâu thế",
+    "chunks": [
+      "tars làm gì mà lâu thế"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_en_032",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "or you could say 1 1",
+    "asr_source": "or you could say 1 1",
+    "chunks": [
+      "or you could say 1 1"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_en_062",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "\" You know what she's hiding from me, \" he accused. '",
+    "asr_source": "you know what she's hiding from me he accused",
+    "chunks": [
+      "you know what she's hiding from me",
+      "he accused"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_en_082",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "So that's why we're seeing increasingly this demand for access to information.",
+    "asr_source": "so that's why we're seeing increasingly this demand for access to information",
+    "chunks": [
+      "so that's why we're seeing increasingly this demand for access to information"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_21",
+    "id": "mt_vi_079",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Ông đòi tôi cướp một câu lạc bộ thoát y?",
+    "asr_source": "ông đòi tôi cướp một câu lạc bộ thoát y",
+    "chunks": [
+      "ông đòi tôi cướp một câu lạc bộ thoát y"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_003",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Do you hear me?",
+    "asr_source": "do you hear me",
+    "chunks": [
+      "do you hear me"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_042",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "anything that allows you to let out the feelings you are holding on to from the past is fine",
+    "asr_source": "anything that allows you to let out the feelings you are holding on to from the past is fine",
+    "chunks": [
+      "anything that allows you to let out the feelings you are holding on to from the past is fine"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_vi_011",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Đảm bảo đánh răng đúng cách và thường xuyên để có kết quả tốt nhất.",
+    "asr_source": "đảm bảo đánh răng đúng cách và thường xuyên để có kết quả tốt nhất",
+    "chunks": [
+      "đảm bảo đánh răng",
+      "đúng cách và thường xuyên để có kết quả tốt nhất"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_072",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "And so it turns out we're so stereotypical, our brains have got dedicated neural circuitry to decode this stereotyping.",
+    "asr_source": "and so it turns out we're so stereotypical our brains have got dedicated neural circuitry to decode this stereotyping",
+    "chunks": [
+      "and so it turns out we're so stereotypical our brains have got dedicated neural circuitry to decode this stereotyping"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_051",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "i told you what you need to do",
+    "asr_source": "i told you what you need to do",
+    "chunks": [
+      "i told you what you need to do"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_100",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "He and his son are both attending Cal State, Long Beach right now taking classes.",
+    "asr_source": "he and his son are both attending cal state long beach right now taking classes",
+    "chunks": [
+      "he and his son are both attending cal state long beach right now taking classes"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_074",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "this cascade of self perpetuating pernicious negative effects could seem like something that s spun out of control and there s nothing we can do about it certainly nothing we as individuals could do",
+    "asr_source": "this cascade of self perpetuating pernicious negative effects could seem like something that s spun out of control and there s nothing we can do about it certainly nothing we as individuals could do",
+    "chunks": [
+      "this cascade of self perpetuating pernicious negative effects could seem like something",
+      "that s spun out of control and there s nothing we can do about it",
+      "certainly nothing we as individuals",
+      "could do"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_22",
+    "id": "mt_en_002",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "The other lady tells me to wear \" Adorable. \"",
+    "asr_source": "the other lady tells me to wear adorable",
+    "chunks": [
+      "the other lady tells me to wear adorable"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_057",
+    "language": "vi",
+    "sentence_spans": 2,
+    "completed_fullstops": 1,
+    "original_written": "Đây là những con xúc xắc cổ, làm từ đốt xương cừu. Phải không?",
+    "asr_source": "đây là những con xúc xắc cổ làm từ đốt xương cừu phải không",
+    "chunks": [
+      "đây là những con xúc xắc cổ làm từ đốt xương cừu phải không"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_018",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Tôi nói anh là một tên hèn nhát và dối trá!",
+    "asr_source": "tôi nói anh là một tên hèn nhát và dối trá",
+    "chunks": [
+      "tôi nói anh là một tên hèn nhát và dối trá"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_000",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tôi ước gì chúng ta có thêm thời gian.",
+    "asr_source": "tôi ước gì chúng ta có thêm thời gian",
+    "chunks": [
+      "tôi ước gì chúng ta có thêm thời gian"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_101",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tùy chọn này nằm ở phía bên trái màn hình.",
+    "asr_source": "tùy chọn này nằm ở phía bên trái màn hình",
+    "chunks": [
+      "tùy chọn này nằm ở phía bên trái màn hình"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_087",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Đó là dấu hiệu của một người đàn ông hạnh phúc.",
+    "asr_source": "đó là dấu hiệu của một người đàn ông hạnh phúc",
+    "chunks": [
+      "đó là dấu hiệu của một người đàn ông hạnh phúc"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_en_037",
+    "language": "en",
+    "sentence_spans": 2,
+    "completed_fullstops": 2,
+    "original_written": "A matter of temperament. That's how we are.",
+    "asr_source": "a matter of temperament that's how we are",
+    "chunks": [
+      "a matter of temperament",
+      "that's how we are"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_vi_012",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "mặc dù đi ăn tối và xem phim là việc khá thú vị nhưng bạn nên tránh sự nhàm chán bằng cách thay đổi thói quen này",
+    "asr_source": "mặc dù đi ăn tối và xem phim là việc khá thú vị nhưng bạn nên tránh sự nhàm chán bằng cách thay đổi thói quen này",
+    "chunks": [
+      "mặc dù đi ăn tối và xem phim là việc khá thú vị nhưng bạn nên tránh sự nhàm chán bằng cách thay đổi thói quen này"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_23",
+    "id": "mt_en_086",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Is it true he saw the white walkers?",
+    "asr_source": "is it true he saw the white walkers",
+    "chunks": [
+      "is it true he saw the white walkers"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_vi_119",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "vậy chúng ta muốn gì có ai ở đây nghĩ là ai đó sẽ ngủ ngon nếu họ bị đánh thức cả đêm",
+    "asr_source": "vậy chúng ta muốn gì có ai ở đây nghĩ là ai đó sẽ ngủ ngon nếu họ bị đánh thức cả đêm",
+    "chunks": [
+      "vậy chúng ta muốn gì có ai ở đây nghĩ là ai đó sẽ ngủ ngon nếu họ bị đánh thức cả đêm"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_en_090",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "support for acquiring images from a scanner or a digital camera was also added to paint",
+    "asr_source": "support for acquiring images from a scanner or a digital camera was also added to paint",
+    "chunks": [
+      "support for acquiring images from a scanner or a digital camera was also added to paint"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_en_112",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "It is an intestinal infection.",
+    "asr_source": "it is an intestinal infection",
+    "chunks": [
+      "it is an intestinal infection"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_vi_042",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Phong cách của ông đã ảnh hưởng đến lối chơi của các nhà vô địch thế giới sau này là Bobby Fischer và Anatoly Karpov.",
+    "asr_source": "phong cách của ông đã ảnh hưởng đến lối chơi của các nhà vô địch thế giới sau này là bobby fischer và anatoly karpov",
+    "chunks": [
+      "phong cách của ông đã ảnh hưởng đến lối chơi của các nhà vô địch thế giới sau này là bobby fischer và anatoly karpov"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_en_108",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "MAKE magazine classified the Ultimaker 2 as the \" best open-architecture 3D printer of 2014 \" and named it runner-up in the category \" Prosumer FFF \".",
+    "asr_source": "make magazine classified the ultimaker 2 as the best open architecture 3d printer of 2014 and named it runner up in the category prosumer fff",
+    "chunks": [
+      "make magazine classified the ultimaker 2 as the best open architecture 3d printer of 2014 and named it runner up in the category prosumer fff"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_vi_014",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Tất cả điều mà quý vị phải làm là hoàn thành thành công bốn cuộc truy lùng đầu tiên của trò chơi \" Siêu hồi phục \".",
+    "asr_source": "tất cả điều mà quý vị phải làm là hoàn thành thành công bốn cuộc truy lùng đầu tiên của trò chơi siêu hồi phục",
+    "chunks": [
+      "tất cả điều mà quý vị phải làm là hoàn thành thành công bốn cuộc truy lùng đầu tiên của trò chơi siêu hồi phục"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_en_049",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "so actually now on this website we have 18 000 people",
+    "asr_source": "so actually now on this website we have 18 000 people",
+    "chunks": [
+      "so actually now on this website we have 18 000 people"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_24",
+    "id": "mt_vi_115",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Cháu đang nói gì vậy? \"",
+    "asr_source": "cháu đang nói gì vậy",
+    "chunks": [
+      "cháu đang nói gì vậy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_vi_067",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Mấy nhà khoa học có thể điều khiển nó đi sang trái, sang phải.",
+    "asr_source": "mấy nhà khoa học có thể điều khiển nó đi sang trái sang phải",
+    "chunks": [
+      "mấy nhà khoa học có thể điều khiển nó đi sang trái sang phải"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_en_027",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "The names of every person in America who will lose home care when the freeze sets in, who will lose half their welfare benefits, who will go on furlough, who will lose their student loans, transportation services, post-combat counseling.",
+    "asr_source": "the names of every person in america who will lose home care when the freeze sets in who will lose half their welfare benefits who will go on furlough who will lose their student loans transportation services post combat counseling",
+    "chunks": [
+      "the names of every person in america who will lose home care when the freeze sets in who will lose half their welfare",
+      "benefits who will go on furlough",
+      "who will lose their student loans transportation services post combat counseling"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_vi_095",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "b) Tăng cường quản lý tài chính để nâng cao hiệu quả sử dụng vốn :",
+    "asr_source": "b tăng cường quản lý tài chính để nâng cao hiệu quả sử dụng vốn",
+    "chunks": [
+      "b tăng cường quản lý tài chính để nâng cao hiệu quả sử dụng vốn"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_en_097",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "\" She's downstairs and) \"",
+    "asr_source": "she's downstairs and",
+    "chunks": [
+      "she's downstairs and"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_en_106",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "would you tell me please which way i ought to go from here",
+    "asr_source": "would you tell me please which way i ought to go from here",
+    "chunks": [
+      "would you tell me please which way i ought to go from here"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_vi_004",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Các loại vitamin này có trong ớt chuông, cải xoăn, súp lơ, bông cải xoăn, dâu, cam, bí, cải bắp, cà chua, phúc bồn tử, cần tây, rau chân vịt (bina).",
+    "asr_source": "các loại vitamin này có trong ớt chuông cải xoăn súp lơ bông cải xoăn dâu cam bí cải bắp cà chua phúc bồn tử cần tây rau chân vịt bina",
+    "chunks": [
+      "các loại vitamin này có trong ớt chuông cải xoăn súp lơ bông cải xoăn dâu cam bí cải bắp cà chua phúc bồn tử cần tây rau chân vịt bina"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_en_046",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "david hinckley of new york daily news echoed similar sentiments avouching that she proved she can act every bit as well as she can sing",
+    "asr_source": "david hinckley of new york daily news echoed similar sentiments avouching that she proved she can act every bit as well as she can sing",
+    "chunks": [
+      "david hinckley of new york daily news echoed similar",
+      "sentiments avouching that she proved she can act every bit as well as she can sing"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_25",
+    "id": "mt_vi_045",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "a) Không còn làm việc tại doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam ghi trên Giấy chứng nhận đăng ký hành nghề kiểm toán;",
+    "asr_source": "a không còn làm việc tại doanh nghiệp kiểm toán chi nhánh doanh nghiệp kiểm toán nước ngoài tại việt nam ghi trên giấy chứng nhận đăng ký hành nghề kiểm toán",
+    "chunks": [
+      "a không còn làm việc tại doanh nghiệp kiểm toán chi nhánh doanh nghiệp kiểm toán nước ngoài tại việt nam ghi trên giấy chứng nhận đăng ký hành nghề kiểm toán"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_en_009",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "You've no intention of behaving like a good wife.",
+    "asr_source": "you've no intention of behaving like a good wife",
+    "chunks": [
+      "you've no intention of behaving like a good wife"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_vi_006",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "vấn đề là ở quan niệm thời ấy khi mà công nghệ mới luôn được ưa chuộng kể cả máy chụp x quang",
+    "asr_source": "vấn đề là ở quan niệm thời ấy khi mà công nghệ mới luôn được ưa chuộng kể cả máy chụp x quang",
+    "chunks": [
+      "vấn đề là ở quan niệm thời ấy khi mà công nghệ mới luôn được ưa chuộng kể cả",
+      "máy chụp x quang"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_en_087",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Choose leggings in bright colors like pink, yellow, and purple.",
+    "asr_source": "choose leggings in bright colors like pink yellow and purple",
+    "chunks": [
+      "choose leggings in bright colors like pink yellow and purple"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_vi_044",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Nó sẽ báo cảnh sát.",
+    "asr_source": "nó sẽ báo cảnh sát",
+    "chunks": [
+      "nó sẽ báo cảnh sát"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_vi_088",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "các nhà học giả hiện đại tin rằng có một lỗi sao chép trong bản thảo vẫn còn tồn tại và chaucer thực sự viết syn march was gon",
+    "asr_source": "các nhà học giả hiện đại tin rằng có một lỗi sao chép trong bản thảo vẫn còn tồn tại và chaucer thực sự viết syn march was gon",
+    "chunks": [
+      "các nhà học giả hiện đại tin rằng có một lỗi sao chép trong bản thảo vẫn còn tồn tại và chaucer thực sự viết syn march was gon"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_vi_002",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Sưng mặt, cổ họng, môi, mắt, lưỡi, tay, chân, cổ chân hoặc bắp chân.",
+    "asr_source": "sưng mặt cổ họng môi mắt lưỡi tay chân cổ chân hoặc bắp chân",
+    "chunks": [
+      "sưng mặt cổ họng môi mắt lưỡi tay chân cổ chân hoặc bắp chân"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_en_084",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "the north polar ice cap is the same size geographically doesn t look quite the same size but it is exactly the same size as the united states minus an area roughly equal to the state of arizona",
+    "asr_source": "the north polar ice cap is the same size geographically doesn t look quite the same size but it is exactly the same size as the united states minus an area roughly equal to the state of arizona",
+    "chunks": [
+      "the north polar ice cap is the same size geographically doesn t look quite the same size but it is exactly the same size as the united states minus an area roughly equal to the state of arizona"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_26",
+    "id": "mt_vi_099",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Tại sao những lỗ hổng lãnh đạo đang ngày càng lớn dần trong khi có quá nhiều đầu tư vào sự phát triển khả năng lãnh đạo?",
+    "asr_source": "tại sao những lỗ hổng lãnh đạo đang ngày càng lớn dần trong khi có quá nhiều đầu tư vào sự phát triển khả năng lãnh đạo",
+    "chunks": [
+      "tại sao những lỗ hổng lãnh đạo đang ngày càng lớn dần trong khi có quá nhiều đầu tư vào sự phát triển khả năng lãnh đạo"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_vi_074",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Hãy chọn một ít sách để trưng bày trên đỉnh của các giá sách hoặc trong một ngăn sách đặc biệt.",
+    "asr_source": "hãy chọn một ít sách để trưng bày trên đỉnh của các giá sách hoặc trong một ngăn sách đặc biệt",
+    "chunks": [
+      "hãy chọn một ít sách để trưng bày trên đỉnh của các giá sách hoặc trong một ngăn sách đặc biệt"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_en_083",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Having obtained assurance of pardon, he presented a confession of his sins first to the archbishop of Pisa, and then at Avignon on 25 August 1330 to John XXII, who absolved him.",
+    "asr_source": "having obtained assurance of pardon he presented a confession of his sins first to the archbishop of pisa and then at avignon on 25 august 1330 to john xxii who absolved him",
+    "chunks": [
+      "having obtained assurance of pardon he presented a confession of his sins first to the archbishop of pisa and then at avignon on 25 august 1330 to john xxii who absolved him"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_en_043",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "excuse me i ll be right back",
+    "asr_source": "excuse me i ll be right back",
+    "chunks": [
+      "excuse me",
+      "i ll be right back"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_vi_081",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Trong trường hợp đó, tôi phải đuổi Thomas, bảo vệ đã làm việc cho ta trong thời gian dài.",
+    "asr_source": "trong trường hợp đó tôi phải đuổi thomas bảo vệ đã làm việc cho ta trong thời gian dài",
+    "chunks": [
+      "trong trường hợp đó tôi phải đuổi thomas bảo vệ đã làm việc cho ta trong thời gian dài"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_en_096",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "and perhaps unsurprisingly if grace thinks the powder is sugar and puts it in her friend s coffee people say she deserves no blame at all",
+    "asr_source": "and perhaps unsurprisingly if grace thinks the powder is sugar and puts it in her friend s coffee people say she deserves no blame at all",
+    "chunks": [
+      "and perhaps unsurprisingly if grace thinks the powder is sugar and puts it in her friend s coffee people say she deserves no blame at all"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_vi_064",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "anh không thể làm khác được",
+    "asr_source": "anh không thể làm khác được",
+    "chunks": [
+      "anh không thể làm khác được"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_vi_047",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Cắm cọc xuống đất gần cây đậu lăng.",
+    "asr_source": "cắm cọc xuống đất gần cây đậu lăng",
+    "chunks": [
+      "cắm cọc xuống đất gần cây đậu lăng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_27",
+    "id": "mt_vi_007",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Bạn có thể tạo ra sản phẩm vệ sinh đế giày dép Birkenstock bằng cách dùng muối nở và nước.",
+    "asr_source": "bạn có thể tạo ra sản phẩm vệ sinh đế giày dép birkenstock bằng cách dùng muối nở và nước",
+    "chunks": [
+      "bạn có thể tạo ra sản phẩm vệ sinh đế giày dép birkenstock bằng cách dùng muối nở và nước"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_en_077",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "He resolved to whet it in the galleys and to bear it away with him when he departed.",
+    "asr_source": "he resolved to whet it in the galleys and to bear it away with him when he departed",
+    "chunks": [
+      "he resolved to whet it in the galleys and to bear it away with him when he departed"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_en_069",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "you ve been gone a month and you never e mailed me your phone number",
+    "asr_source": "you ve been gone a month and you never e mailed me your phone number",
+    "chunks": [
+      "you ve been gone a month and you never e mailed me your phone number"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_vi_038",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Xịt thật nhiều nước thơm xịt phòng để khử \" mùi \", và hôm sau tiếp tục chạy vào nhà vệ sinh thường xuyên.",
+    "asr_source": "xịt thật nhiều nước thơm xịt phòng để khử mùi và hôm sau tiếp tục chạy vào nhà vệ sinh thường xuyên",
+    "chunks": [
+      "xịt thật nhiều nước thơm xịt phòng để khử mùi và hôm sau tiếp tục chạy vào nhà vệ sinh thường xuyên"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_vi_001",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "1440 x 2880 DPI đã mô phỏng",
+    "asr_source": "1440 x 2880 dpi đã mô phỏng",
+    "chunks": [
+      "1440 x 2880 dpi đã mô phỏng"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_en_104",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Climate is extremely arid albeit somewhat milder near the coast.",
+    "asr_source": "climate is extremely arid albeit somewhat milder near the coast",
+    "chunks": [
+      "climate is extremely arid",
+      "albeit somewhat milder near the coast"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_en_007",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "No, controlling it is.",
+    "asr_source": "no controlling it is",
+    "chunks": [
+      "no controlling it is"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_vi_015",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "Vậy mọi chuyện giữa 2 người thế nào?",
+    "asr_source": "vậy mọi chuyện giữa 2 người thế nào",
+    "chunks": [
+      "vậy mọi chuyện giữa 2 người thế nào"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_28",
+    "id": "mt_en_048",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Goliad County was the site of two battles in the Texas Revolution.",
+    "asr_source": "goliad county was the site of two battles in the texas revolution",
+    "chunks": [
+      "goliad county was the site of two battles in the texas revolution"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_vi_063",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "khi quay lại nhìn tôi gordon hiểu rằng tôi đã biết điều gì sắp xảy ra với mình",
+    "asr_source": "khi quay lại nhìn tôi gordon hiểu rằng tôi đã biết điều gì sắp xảy ra với mình",
+    "chunks": [
+      "khi quay lại nhìn tôi gordon hiểu rằng tôi đã biết điều gì sắp xảy ra với mình"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_en_056",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Enterprises may choose to apply a tax period according to a calendar year or fiscal year and must register it with tax agencies before application.",
+    "asr_source": "enterprises may choose to apply a tax period according to a calendar year or fiscal year and must register it with tax agencies before application",
+    "chunks": [
+      "enterprises may choose to apply a tax period",
+      "according to a calendar year or fiscal year and must register it with tax agencies",
+      "before application"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_en_029",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "I haven't seen her laugh once with this guy!",
+    "asr_source": "i haven't seen her laugh once with this guy",
+    "chunks": [
+      "i haven't seen her laugh once with this guy"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_vi_039",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Công tước Ercole chết vào năm 1803 và con gái ông và chồng bà được thừa hưởng Breisgau, nhưng họ lại mất đi (1805 ), khi Breisgau trở thành một phần của đại công quốc Baden.",
+    "asr_source": "công tước ercole chết vào năm 1803 và con gái ông và chồng bà được thừa hưởng breisgau nhưng họ lại mất đi 1805 khi breisgau trở thành một phần của đại công quốc baden",
+    "chunks": [
+      "công tước ercole chết vào năm 1803 và con gái ông và chồng bà được thừa hưởng breisgau",
+      "nhưng họ lại mất đi 1805 khi breisgau trở thành một phần của đại công quốc baden"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_en_021",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Days that are sunstroke-hot and nights that are snow-cold.",
+    "asr_source": "days that are sunstroke hot and nights that are snow cold",
+    "chunks": [
+      "days that are sunstroke hot and nights that are snow cold"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_vi_051",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 0,
+    "original_written": "ôi cái mông tôi",
+    "asr_source": "ôi cái mông tôi",
+    "chunks": [
+      "ôi cái mông tôi"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_vi_017",
+    "language": "vi",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Bạn có thể nghĩ chúng như những phân tử protein nhỏ bé giống như pin mặt trời.",
+    "asr_source": "bạn có thể nghĩ chúng như những phân tử protein nhỏ bé giống như pin mặt trời",
+    "chunks": [
+      "bạn có thể nghĩ chúng như những phân tử protein nhỏ bé giống như pin mặt trời"
+    ],
+    "end_only": true,
+    "final_flush_forced": true
+  },
+  {
+    "conv": "mt_29",
+    "id": "mt_en_025",
+    "language": "en",
+    "sentence_spans": 1,
+    "completed_fullstops": 1,
+    "original_written": "Look -- These genomes, these 23 chromosomes, they don't in any way represent the quality of our relationships or the nature of our society -- at least not yet.",
+    "asr_source": "look these genomes these 23 chromosomes they don't in any way represent the quality of our relationships or the nature of our society at least not yet",
+    "chunks": [
+      "look these genomes these 23 chromosomes",
+      "they don't in any way represent the quality of our relationships or the nature of our society at least not yet"
+    ],
+    "end_only": false,
+    "final_flush_forced": true
+  }
+]

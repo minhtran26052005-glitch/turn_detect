@@ -1,0 +1,1288 @@
+{
+  "created_utc": "2026-11-02T03:05:16.167843+00:00",
+  "seed": "975658149845995250",
+  "per_language": 100,
+  "population_dialogues": {
+    "vi": 10000,
+    "en": 3314
+  },
+  "frozen_commit_index": 620,
+  "frozen_commit_sha256": "c7b90f432af6328a964ee3b1a888018b9a7cad45d50e4d567b6d8bb23e2eb1c0",
+  "method": "Uniform without replacement over accepted dialogues per language, then one random turn per dialogue; complete dialogue retained for context.",
+  "source": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_dialogue_campaign_v6",
+  "source_objects": [
+    {
+      "index": 13,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000013_cb7645172cf84903bea615e3155f4b42.json.gz",
+      "commit_sha256": "620929dcc3e3717fdd6255a9016dbf721aa97fe3d67c824b583e023e87b7364b",
+      "object_sha256": "86e4559db85079561819adb43af373e1b326a22631d9d12d61c179aeb23e7688",
+      "readback_verified": true
+    },
+    {
+      "index": 17,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000017_cfd13c248d094777b50fe98b8fedc364.json.gz",
+      "commit_sha256": "1820fa43756e5be5eb4c31937dc3fb32aaec8d5369559abcf83abb142e8a6284",
+      "object_sha256": "c8a4920dd807cf34987c8d4800bacdc3db34bc198aafd1aa346bfb2183073c72",
+      "readback_verified": true
+    },
+    {
+      "index": 19,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000019_a3e7c93b8c09494897d71eb4c2f910f7.json.gz",
+      "commit_sha256": "be6146abfbb3dc3f106330a31b1d6152510ac2e61aab70059c685c383e5bd2c4",
+      "object_sha256": "d16d0f563d34a69b3828b86d214c1c0dda2f9ae4e62ab6ef86d58ce950f9854d",
+      "readback_verified": true
+    },
+    {
+      "index": 27,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000027_1a765615c3e341b3b7f11e81ef80809b.json.gz",
+      "commit_sha256": "34cc55de99f5a9e205662cdb2a99ec7e437775aebf5344da96036df21a6730d4",
+      "object_sha256": "4cabd05ccb06895eb30b73c8f7982002c1acdfc1f6fda5423ff5083b2c1c1916",
+      "readback_verified": true
+    },
+    {
+      "index": 39,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000039_7e922e39a07547dca1e3b64452ddd210.json.gz",
+      "commit_sha256": "6f4895f47a52bccd0e88b703785fbcd617d2fb8244ec7062c9a89f03d271e40b",
+      "object_sha256": "2d0fb0fa1a73eceead97a2aa82cb6df0f7aa1bd22786d74aa86750f1109dea53",
+      "readback_verified": true
+    },
+    {
+      "index": 40,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000040_b3c878599f644474824273070e2e9d72.json.gz",
+      "commit_sha256": "76faca1688e5dc38db49444660717ecaf88ec7d91881b294c5e52e3325b415c8",
+      "object_sha256": "68a6476ef2187aa067d084b47d0f068021e5cbbcb3040e7c9d37c70408400ed9",
+      "readback_verified": true
+    },
+    {
+      "index": 42,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000042_09d861aa28f041198722a84490cb82c9.json.gz",
+      "commit_sha256": "b5b17b2737b82fea027c339b9b56c4602bdedf93c35a59e80f545db7592015b7",
+      "object_sha256": "02a8e47d8b9c19de1840546dba06abd80846e2cdd80229b1580236f93f1caec0",
+      "readback_verified": true
+    },
+    {
+      "index": 59,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000059_abcebf2508244c64a72beafc628c998a.json.gz",
+      "commit_sha256": "733bebe32638b84dc356cbd1651ae95126957aa98f480a8ba6ba00138b6ee8ea",
+      "object_sha256": "2c26fd983c4658ec4e00b820e6fea5a45148555bf5030de7b2177f06f901424d",
+      "readback_verified": true
+    },
+    {
+      "index": 80,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000080_5ab610fa2ca54fbeb7af6e200acbc8a0.json.gz",
+      "commit_sha256": "10553758400592ed08f01917ca3d21883a7d96c3815f0280de317aee127c2abf",
+      "object_sha256": "9a4bbedbb3b0aba0d12d3d777285c3de05dae8c64074349922d777e6a7591741",
+      "readback_verified": true
+    },
+    {
+      "index": 82,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000082_c7a042bd77d64f4eac97da1aaf241b02.json.gz",
+      "commit_sha256": "345ea0ddb06cdddd9462c0af09c652db708475d46fabdf94dfe1ad3ea6b6b6a4",
+      "object_sha256": "d026f75a5605db33662fe1c2a8a176037b7ddae1e4df43af7fdbe465ad2e5ff3",
+      "readback_verified": true
+    },
+    {
+      "index": 83,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000083_a9a98edbca04452d8a3ab694b91e139b.json.gz",
+      "commit_sha256": "171ad0094e182ebf82afce18d5d9e4d068ed64030fcfcadc1b0f8fc56e95e662",
+      "object_sha256": "77e82001e2f95be6851b1a9309edce77fbb53f4854888d40e3d8f57b1cc4f891",
+      "readback_verified": true
+    },
+    {
+      "index": 84,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000084_74e1ae036dfb4a8a92df24b1b2761305.json.gz",
+      "commit_sha256": "4d4fce095480cbb01d551d311d8bd9bed29855be02c0e74d2c8d44356d05f5b9",
+      "object_sha256": "55f9865390883155d7d987aef74ebaf4eee45ad0fa093503dc342c87de5bedfe",
+      "readback_verified": true
+    },
+    {
+      "index": 94,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000094_2d2402ff9c7c46b9b935259933f53859.json.gz",
+      "commit_sha256": "2b5945a82c54eb17e68994468fe9c8d4786d8525647942ad79cd4b94485c8e62",
+      "object_sha256": "1e95bbdd0daba1db3dbafafb871db2a4003a13cd7fa1df2cfe15f37fb47778a0",
+      "readback_verified": true
+    },
+    {
+      "index": 106,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000106_6b97b52cea544c38b56b3ea0b6f93c80.json.gz",
+      "commit_sha256": "1a00352d95f0eabb686b6f0e2f4be70b8c7b666022cc847ba1cb3781bd84afa6",
+      "object_sha256": "a411338b99a95e664a5c6c636bc86d9083045257ed5064ef6f36f2d784fdef01",
+      "readback_verified": true
+    },
+    {
+      "index": 107,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000107_f0f167d66a0547d4add9c390b7f5c038.json.gz",
+      "commit_sha256": "3b6933943f64fb68df6162500c03fdcc0b518908fe1f42559d1d9a5adc44fb74",
+      "object_sha256": "229317210f479496f57db7eb6bc2495fc9edaf7e381cc3ba9a510cf5100a0847",
+      "readback_verified": true
+    },
+    {
+      "index": 111,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000111_cc12d43b639740a2bd6ae164fe8b49c6.json.gz",
+      "commit_sha256": "3f7c3e02888fb9e410625c4365ab815a913b45b4c9a9e8bbe88828c65810c094",
+      "object_sha256": "bb21ea0e962713e0368cbc72aa4d9d5176820bac00db99eef2e953d0417852bf",
+      "readback_verified": true
+    },
+    {
+      "index": 113,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000113_fd05e3e6f3de4138bd7b4a7a9392e6c9.json.gz",
+      "commit_sha256": "82e3059cb1929d60984ebecb4dd40a4f24c29c5080d76b6b96bb340f82b826ae",
+      "object_sha256": "f2f771d686871567178c8b686f55b2952c2fa08d1681e2e3dce27a2e2dc8766f",
+      "readback_verified": true
+    },
+    {
+      "index": 119,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000119_3c451c5cfafc442b96e430b08a9ce1a6.json.gz",
+      "commit_sha256": "b56b2bc6e792a8c86b8e5f6d3fa1d6a3166223d8fec5303ef857d8cd781f213d",
+      "object_sha256": "ca05f26156d897bf5ff311411e93d951765ad035df348f27df67a6cc17682251",
+      "readback_verified": true
+    },
+    {
+      "index": 122,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000122_687b39e8bd4a4ccfb8b6ffef2cebb1de.json.gz",
+      "commit_sha256": "6f14d1a61cbeca10650f5a457cb7dc86c54ac2a85516797700f21a9caaf2bc95",
+      "object_sha256": "c4e713672bbcdf560eb83c4c428c3690441f596eca8b35701bbf8b0f1873c7ef",
+      "readback_verified": true
+    },
+    {
+      "index": 127,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000127_b81fa03dcf0949ca9c615d3e3d9d36a3.json.gz",
+      "commit_sha256": "a35af36b048b7a1e0c103fef58b84453c9d7a112db3a6fd7bc8dd31b5ef82281",
+      "object_sha256": "0a69cd9cc271e605031004ee41b43c217f8d9cba91f4dc29fa329a6ee8548012",
+      "readback_verified": true
+    },
+    {
+      "index": 133,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000133_e1a4a0d1bd31409daae55f23810d301e.json.gz",
+      "commit_sha256": "537d124527607d26d3ea9992a97a20509b28e562031166653f9f39b3de060ff0",
+      "object_sha256": "00f304f6477d6f7c76e6e197a4c22e56819c5e2d98ef9df7deddd87a31398e55",
+      "readback_verified": true
+    },
+    {
+      "index": 142,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000142_592ccc1afde8410f940a4310b058689e.json.gz",
+      "commit_sha256": "a24a5b3d49354e5d25b19b3ceae97a055d26be66ef225d97fe03a349c406fe2c",
+      "object_sha256": "96b644f3971c5642a31ec8f97bd760ebc525420619e8d0cec6f82a187ecb6f11",
+      "readback_verified": true
+    },
+    {
+      "index": 147,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000147_32d02162a0fa4a279d5ed1fc926a8136.json.gz",
+      "commit_sha256": "16ec954011d999aab27bed6dbd2f3367e27441ae1ecf52926183b6a2514c7c9a",
+      "object_sha256": "ead87c267df5b25fb9c178043d4869b04f2db607e8790f4c1f3efac6121171f5",
+      "readback_verified": true
+    },
+    {
+      "index": 150,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000150_5e7a64e26dc945f3b486b6630be988dc.json.gz",
+      "commit_sha256": "689052259010b30b9f3b52006a4bc44d84c8c2877aec6d2704e06292d9581470",
+      "object_sha256": "b57aefb71baa0b6c5860e4e54f93137aa78cdfa391e8b49533ec154e29949b03",
+      "readback_verified": true
+    },
+    {
+      "index": 153,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000153_8afaa31baf654faca2c9cc998fa7386d.json.gz",
+      "commit_sha256": "727dcbdb9194d55a7015e8124fa3a5b8b00a5cf0d343ab96b973efd463b078de",
+      "object_sha256": "b3191368408ae051f27c8d52e3b10cc86c3064470d6ea9bef9d3b3de1c24185d",
+      "readback_verified": true
+    },
+    {
+      "index": 154,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000154_a0748c1221b34a7c980cea8348c215f9.json.gz",
+      "commit_sha256": "e5738c6874338e6166811ab33c8a4e17b18e575ddecf619004ae68a8dc4b0ca2",
+      "object_sha256": "42223df5dcea4d6e92b8e344a0144894bd46507d07cac04512a1531179ae1a9a",
+      "readback_verified": true
+    },
+    {
+      "index": 158,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000158_a00e9bc88f7a43b89e6ee6b20ccb46b8.json.gz",
+      "commit_sha256": "803a9191b3b8239ef691ed8601d44e786f6af19309a44bd8830d36a5c2a831c8",
+      "object_sha256": "5c4d89f1245298ad99781a2f048d846fbf8a4993c483c547fcd7c3706c9d815b",
+      "readback_verified": true
+    },
+    {
+      "index": 164,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000164_82dd777e117b4a5b898fd87b8db5c09e.json.gz",
+      "commit_sha256": "d1cbba064691b6a3f2c125ebc8c8b076686f152ee49aa7e40dc205707441c9ab",
+      "object_sha256": "11cdd51f444afda938a73ac68837e09c9882963cde2ede23476648b877b529d3",
+      "readback_verified": true
+    },
+    {
+      "index": 170,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000170_25473fd4c0ba455aa88c83cd5419fed8.json.gz",
+      "commit_sha256": "8601ca2acf992818a4086bdcb1360788cf01d9b293eed269d39cc46207c40f91",
+      "object_sha256": "30904735c6fc8d9cf6e465c16d8829dd082ea17679f784b42bbc805ea8e7b2a5",
+      "readback_verified": true
+    },
+    {
+      "index": 171,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000171_cee52ac280114d1e966dfe136e8b79e6.json.gz",
+      "commit_sha256": "ddfae056d97c04d0bd38292679378d9980d8f9c9313cca1f7c9a143429eefa15",
+      "object_sha256": "d82dd6eef7ab9311cda013a6e3f3f7e6ec7f79e0f175e5c5673c58f13480fa16",
+      "readback_verified": true
+    },
+    {
+      "index": 174,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000174_0e907f00c7e14174a5cbb03c043a56be.json.gz",
+      "commit_sha256": "61d9fe67215876892c7fcd4bbd06305f89eb3ab6c5ef6d4a1b31657f32661f5d",
+      "object_sha256": "bbccc2ea2f7832311d2f4971ad0e23df920e2f4ff569732666ff67a56e6afcf6",
+      "readback_verified": true
+    },
+    {
+      "index": 182,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000182_2ddf400bab574b3cb353b2cca1a928c1.json.gz",
+      "commit_sha256": "6ef77a9e1712905fd69e8ce6031730ecdf375ffbd4e60b626b0c1f89de993fc0",
+      "object_sha256": "834be1732ae4a37218826e6cfe47e45ec78f7b204b2ad965b995209c1a5d3d1a",
+      "readback_verified": true
+    },
+    {
+      "index": 185,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000185_528ec4043013413d9a03ac6ffe00df08.json.gz",
+      "commit_sha256": "00da342631963e6c3d9c344204a5cafa538efe9e95e0a58d63d37de5a0945a1d",
+      "object_sha256": "a949f2b2531aff0863599882c728ce426e45e971b53c0d7cd1cb3c2868147ec9",
+      "readback_verified": true
+    },
+    {
+      "index": 189,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000189_296a04265da14684972fdf1ca634ae76.json.gz",
+      "commit_sha256": "946d1de5bba20f4ba602c3a872abde80bf6fa33d955a62938c919aa94f035afc",
+      "object_sha256": "180d67d02ed004541ebc10a8370a39d534b0a6146d2437c941aff93ea45770ca",
+      "readback_verified": true
+    },
+    {
+      "index": 190,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000190_75309f430acc47ee8e7265d6c22ad322.json.gz",
+      "commit_sha256": "893ae2ccf6025879a90ea869d21ddd13291ffa1b592aa711e4d2518b05dc20a6",
+      "object_sha256": "484408505640b0753e4e3a32a29623510fad848feaacf8304ea5899e5ae344fc",
+      "readback_verified": true
+    },
+    {
+      "index": 192,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000192_3f2b6117535743259c6b82a5bd9d543b.json.gz",
+      "commit_sha256": "ef6079a3c57fddfa3275b17670e3f8906e6bb691927d314f739925efd5539c6b",
+      "object_sha256": "606b073e41b8d268b5bc256c19a58b7f438c788bbaf871cc611515daf2d36cc7",
+      "readback_verified": true
+    },
+    {
+      "index": 193,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000193_84ec48ac5bf94e159c798c343b1b241a.json.gz",
+      "commit_sha256": "447775066c0dd4cbe4e0a8bcd7ee3245814dde150a1877cbc6cd0cfc0401fcaa",
+      "object_sha256": "7ca7fb2e94e0127d737bd615c1ec691120328f6c4a5df2ce91d81dbf32b3f6a1",
+      "readback_verified": true
+    },
+    {
+      "index": 211,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000211_651ae86799334b3ea5ed6bf95cba2696.json.gz",
+      "commit_sha256": "70c39c449e6659ddccfe54b9fd1fb8c40601e5e6e33404db8d4922c142f31d1e",
+      "object_sha256": "d9fee68b809ca37ae70cfc666d512723cb95cb71ea1e6f0a9dd9e98831dac41c",
+      "readback_verified": true
+    },
+    {
+      "index": 214,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000214_fc569bb947294497b36165de1f26b2f9.json.gz",
+      "commit_sha256": "c66a0ccfffeee80585e6d1a570e851d4415840095c5644dde340e59ad76e71d3",
+      "object_sha256": "1f4fe2d11da1fd4cf4d8ab7249742e9e2df8c080fff0f7f668ebd625578eb2a3",
+      "readback_verified": true
+    },
+    {
+      "index": 215,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000215_e923317c9d8944088cf2cd0557c4e2b6.json.gz",
+      "commit_sha256": "894cff054c5375b951c08d7ae6e2544e7d7eb22051c158c8bc8909377756125d",
+      "object_sha256": "21e11a2ad0aca85f60113e4097bd6b98cfcc28106944f143504d04f72823d9b1",
+      "readback_verified": true
+    },
+    {
+      "index": 225,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000225_92acc65d072d4aa3b352907bd8f7ab2b.json.gz",
+      "commit_sha256": "88dbd8adb434c7270f8089c62933de1ab84c0b52140e6e8e1dad97f10686461c",
+      "object_sha256": "98d4b59f71cf3bd9f46466e51b849c56345133d61c87ec199e6a334d86eb804e",
+      "readback_verified": true
+    },
+    {
+      "index": 244,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000244_6bd0436bf9f548bc9b36cf00550cd9b5.json.gz",
+      "commit_sha256": "eb543fe22acbdea558c4e945ebe9f874e71efd576502e4932f814c351297cbf1",
+      "object_sha256": "55480f0dae5a43964a6804de6d338cfb35a82af5f9156c90479a1812a151e1c9",
+      "readback_verified": true
+    },
+    {
+      "index": 248,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000248_4dc192f86c2f4cc1b4f45e19c28e9478.json.gz",
+      "commit_sha256": "36ea53d0f7cce8c6e8e27f676ba824a74073fd517dc3a0b15b17ba5c0be9555b",
+      "object_sha256": "7cf75fd65cd1cc79dd03f558ab53ba8730f441eee13e449e4645dec3b66e449d",
+      "readback_verified": true
+    },
+    {
+      "index": 254,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000254_a4df7db1bfa64b2e9875e0832222d3b4.json.gz",
+      "commit_sha256": "7092711c07f2de144e1b866e628fb2f73438527c06ba4d5ecbc3d3ceb705b85f",
+      "object_sha256": "e3586052d43c029659ebc8561cac8c790945a6c290a096c1a7c4719b417a8b8f",
+      "readback_verified": true
+    },
+    {
+      "index": 257,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000257_f98d35e820734cf2987c00831ed849f0.json.gz",
+      "commit_sha256": "09f2d36a7529643b37ecee40b15952667024f9f7f8e9b708c45116a3abfce041",
+      "object_sha256": "63e1d32f0f97d121fa5c3260ce13c857f59a80f8a9fc6bcfbba2b15702c6daaa",
+      "readback_verified": true
+    },
+    {
+      "index": 263,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000263_5c0d01d802c0498fa3c09aed32310017.json.gz",
+      "commit_sha256": "1b107e82ff943008811f8fea5d5a6e41ed9bb49761d84b460feb592054669e53",
+      "object_sha256": "33fe177880b8310b5d3d62e187b0f9d202157077db313379710923a095177265",
+      "readback_verified": true
+    },
+    {
+      "index": 264,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000264_7f89a3fe88ee4c0f9abd2fe1b1c96fcf.json.gz",
+      "commit_sha256": "0664dff143001f2d6f057bf64fdbc07c03a114614582240c9e11c86f694bc4f0",
+      "object_sha256": "56ade867877f65e458945e1549380fde54df39f5a1623368ea4352a6b1cdd6dc",
+      "readback_verified": true
+    },
+    {
+      "index": 271,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000271_7fdf462fc8fa43e0bafe69eb85fe61d7.json.gz",
+      "commit_sha256": "fde686190437ab4f6bc8c05661063afaecf69691160910456d1cd49740a1b39b",
+      "object_sha256": "57e0be1bfd87088a5c8c7ff433cdf0a3a9edb86a12c9c397d473c42200f1b244",
+      "readback_verified": true
+    },
+    {
+      "index": 272,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000272_496d8c7879854c319873dc63bcdb21a9.json.gz",
+      "commit_sha256": "ece950bc30cf2835129138fe88e8e5d1fe6dbf1269ebc77589909d1409d5050b",
+      "object_sha256": "fcf9712c57edd4113cffd2b2462a74873da1a9df80030744c3ca5a3bbe4786b2",
+      "readback_verified": true
+    },
+    {
+      "index": 277,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000277_5e963204b21b4e3296dea42f6b6c485e.json.gz",
+      "commit_sha256": "1c821c4a9680c345b94bf8e12b01069a4b4fe3a905dd50c071cec887a3784461",
+      "object_sha256": "b2c3a95a4db9bf11a088bc2c7f7fbb08a80277bfb5100bbc3aa8e2126ebd463e",
+      "readback_verified": true
+    },
+    {
+      "index": 283,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000283_d5438ce44da34d01903bf7f9b4f21191.json.gz",
+      "commit_sha256": "7a7fdbb2c45c4b03152957a3dfdf3e09efc67aaba2ce75e03838dc3f6193615a",
+      "object_sha256": "ffe010b33cf042f8ee6702ab7dc0f991b8c85816bfba8178ae44cf6dcf2544ad",
+      "readback_verified": true
+    },
+    {
+      "index": 284,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000284_bba22c4554944dbe8ba0f46681834a54.json.gz",
+      "commit_sha256": "2d4560b21cc99d1e19be0661b8c528466db9f3fbb3a1d23cdf718da95d696820",
+      "object_sha256": "73bb11f350b240c6bcfc01f1f2044775e1602462443249c53659ea74d80cf8a7",
+      "readback_verified": true
+    },
+    {
+      "index": 289,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000289_151de361b2344e9fbd3db2d1f2e60eba.json.gz",
+      "commit_sha256": "062142aab4df280b390e3fabb20cee7c279ccb540b4f63f8a614c66bc500f1d2",
+      "object_sha256": "128766da97d207c9717229f402d6169f4a2c798dcd6f461b6de343e586a08b4d",
+      "readback_verified": true
+    },
+    {
+      "index": 291,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000291_7c3947a162c94008ad9c1b24a4343de7.json.gz",
+      "commit_sha256": "4406affa8f08183b236b1888e019ca3ff4918637d641b2e6bd3c286b53170474",
+      "object_sha256": "3f17a49e38a46a3e1f02a630421732d28340c7674be5d1df0b43644b83af5536",
+      "readback_verified": true
+    },
+    {
+      "index": 303,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000303_a00b714d21e444fc91e943b8e141733d.json.gz",
+      "commit_sha256": "f51a781aea85f14618b545ecad4ad4c3e195d8a312790e6daae706ed67426791",
+      "object_sha256": "682676eebc09070c4256f7d79c4ae1b2e2cec66b9e21cb55216fbde0f6ed4cd2",
+      "readback_verified": true
+    },
+    {
+      "index": 308,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000308_1fe214c590524d14a077afacfd478c8d.json.gz",
+      "commit_sha256": "e35c99be69644888566fdfc75e9424a6fd0eba98e884112f288be25240321c0c",
+      "object_sha256": "eedc66fc2896314fa6b08651b6b83071f8b610441c5ce6751073c0aa2f703ca7",
+      "readback_verified": true
+    },
+    {
+      "index": 312,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000312_83bb0f3257bb4575b8a73e31f98b46b4.json.gz",
+      "commit_sha256": "aa812d64b1e9b4dcbcea6b83eea568680103acdb62764e499a1d881d7cebc841",
+      "object_sha256": "a17ec625776f9284391c277b239167002a79d2a03f3f8f7014aaa352360eef68",
+      "readback_verified": true
+    },
+    {
+      "index": 313,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000313_7a4c5a3553f949e8b559e785a0652469.json.gz",
+      "commit_sha256": "11d9bd7f31c7f5bd80ed51aa6976f6a4a08153c9aa8d59c23901dcfc40a32c81",
+      "object_sha256": "4903dcec2e658f373c208366143e15556920ffe1e64dff9f85825997b5ee5ac5",
+      "readback_verified": true
+    },
+    {
+      "index": 327,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000327_c81db5031a4d4fe292bf74ad79c9590c.json.gz",
+      "commit_sha256": "3d9b1d08ba5846b6ae14315897f76c55ddabdaeaf1b04a1549706eb2431c1c14",
+      "object_sha256": "080071c7230230a8854c75751a7add1622d7bfd9096624bea15b532e77126169",
+      "readback_verified": true
+    },
+    {
+      "index": 332,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000332_f717f65f8c7a482086ee3d231b94f464.json.gz",
+      "commit_sha256": "e3a83ac8c49ee0d883eec06ecff9978e063357098eebc5d38e3e00a85552f608",
+      "object_sha256": "0718aac08faad84cd753e171c9e1af5a6f38167cec4b403d769e6f223790e51f",
+      "readback_verified": true
+    },
+    {
+      "index": 333,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000333_67d516fc13bc4db5b60bf261fddef2d9.json.gz",
+      "commit_sha256": "0c0274dacc9a46a9eccc91eb9ea0cabb9fc509d2d78323015aa9b4cdb0e2b8ef",
+      "object_sha256": "7d695425245affc4be53c41182e8896483fb6a096c328c37d8f71b6b7acc4185",
+      "readback_verified": true
+    },
+    {
+      "index": 336,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000336_8c196f5b0d40477c9bf4ee94abcfb99f.json.gz",
+      "commit_sha256": "ee8a794db2b98853526efd92e7df852f796daf66921ba081e145466ce014bd19",
+      "object_sha256": "a5f4be1fe21d92ecce6b4b2406674f0771338bf41dd61f9591895b4f7227c45e",
+      "readback_verified": true
+    },
+    {
+      "index": 345,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000345_96b82d3d66e54cde810f90856729f0cd.json.gz",
+      "commit_sha256": "5e31e946aea0636c90754e2acbeebb4e99a60b7f6e28de2993ebf4d81b0ea694",
+      "object_sha256": "01d2c97b91c0a6490a6876a695053462ef4ef27c9d4c0a9484526e68918ab1c8",
+      "readback_verified": true
+    },
+    {
+      "index": 346,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000346_2f89580019f84ec9953c5464cdbe4881.json.gz",
+      "commit_sha256": "abdaa3e87906302141c5d36e300bc055c8352ecc8f36076b4ced8210ae435805",
+      "object_sha256": "30341ea0fb24dd0adf1ad09a91edc3091d577b8ec775116dd894656f0deb0a7d",
+      "readback_verified": true
+    },
+    {
+      "index": 360,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000360_45b533be4db1437d9a59f4e3de58bb32.json.gz",
+      "commit_sha256": "4dc42931758f0482df970ac706e4c9eb66a2323ff026ec008969479077f8dc2e",
+      "object_sha256": "53ee5fc46c695477be3fcdc18eb2c81be6e35fc1f3988dfceb79a7080e119104",
+      "readback_verified": true
+    },
+    {
+      "index": 370,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000370_d70353cb13874e03a524b1408b0a72fb.json.gz",
+      "commit_sha256": "77c196b7b52bbdd6db29bc6e88dcac36ac8a7b4adbfcb18b54b066db6e492a1b",
+      "object_sha256": "5409f482af7537225bdb47a8e52cc901fb08937a340c34143caefaac609d9f06",
+      "readback_verified": true
+    },
+    {
+      "index": 373,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000373_32e30d81e43e4c15ac64763bfd740847.json.gz",
+      "commit_sha256": "776ffcbf355a53e4817dbbfe0fcf3e23e1f05ad72d4c86622349a39bce910eb8",
+      "object_sha256": "5187ecad5c4ea56197b79ffbf6dd951974bdb27efe88da447a28e583063af172",
+      "readback_verified": true
+    },
+    {
+      "index": 385,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000385_e021f5184e8c4bb6bdfb8dccd771b7a5.json.gz",
+      "commit_sha256": "a560c501bfa72a503f9e4d4143381f9a45d8342f92fb032451d041cf59b17ffb",
+      "object_sha256": "5c9517535d4008fc8f04c41aa1d8f99a1d4184783a985391a4a8acb6704c6def",
+      "readback_verified": true
+    },
+    {
+      "index": 389,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000389_b0bbadb6d60b4ba2a7c30c7dd704db0a.json.gz",
+      "commit_sha256": "ea8b816eb611e5719cf01c2068d0ecea1d25e15295d25269916828f4188fd748",
+      "object_sha256": "508d4585e03ac942e50d9741814970680bb7856048b09afa146ef66225e9b168",
+      "readback_verified": true
+    },
+    {
+      "index": 397,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000397_f6a78e88edea476aaf32a5b31b2a46e4.json.gz",
+      "commit_sha256": "78f16555579d73dbce08d720ecf244aa8c26a5c64237d7e86dee6659e69c53c0",
+      "object_sha256": "244d58d8b912250d280752147eb6ce4fcc88b115c555864dbac96892ffb8f7a2",
+      "readback_verified": true
+    },
+    {
+      "index": 400,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000400_76ffb969b5bc4014947af59166135f8f.json.gz",
+      "commit_sha256": "2abb3da7165700601fb98006a2a9d36a45a8f45b06a6a0dbd99a4c0718868bad",
+      "object_sha256": "24a54ec033ebdf674aae04ed3ad2c7e5ced1ac06228e90c604833b76d4f8cbbe",
+      "readback_verified": true
+    },
+    {
+      "index": 406,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000406_645b16aa55004644ab8636947031f58e.json.gz",
+      "commit_sha256": "c69912409d40cdc54947616b3b015fbe6dea27fadf353daa8f58fc8b178a4be6",
+      "object_sha256": "9e2a6aededd5cf7cf58784a679d9c70a5eeaf485b86821d0a1c8f9cc48fbfb09",
+      "readback_verified": true
+    },
+    {
+      "index": 419,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000419_64fd309f1bae4cf08ac100b60dc6e16f.json.gz",
+      "commit_sha256": "1ed6ad774dcf141877c900f8d504c71f545c28f014985fde9e711ba9c763b3f5",
+      "object_sha256": "2a76e032db6da2c88eef4b246105ad1a028e2068e6d99b2e6ea764fa4f60aeaf",
+      "readback_verified": true
+    },
+    {
+      "index": 429,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000429_4d03e1dc83cb4b1bbb286856e8debdd1.json.gz",
+      "commit_sha256": "876da2c3e9ab4b29986891275252f9dfaaa5a083212044da76efb45554db1781",
+      "object_sha256": "ca1a78759a0198f88b92be37a9fde8584dc28fa4a17cfa75db68babc4237ed1c",
+      "readback_verified": true
+    },
+    {
+      "index": 430,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000430_fcb07436094f4c90bc60a074efe542a4.json.gz",
+      "commit_sha256": "92a3c5e4d0665f8cf6a6c9dbcf9512bca8171d19e530734e785d9286e868cad8",
+      "object_sha256": "a7fc3f00682209bbf9fbf515930bd449d992303635bb27b1c146ee75dba1aaa0",
+      "readback_verified": true
+    },
+    {
+      "index": 434,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000434_d4bccba1874c49c18f9c1aec355fca9e.json.gz",
+      "commit_sha256": "c29297c81076e47193f8f1f42d11308c69bd08af5e392f8d183ff664a33dd5a4",
+      "object_sha256": "1728a21d7d3ee4c5541407a4b8bce6c921fd724391a5d3120179005024772d55",
+      "readback_verified": true
+    },
+    {
+      "index": 438,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000438_3ff0cf82478944ea9aed539fbfac3531.json.gz",
+      "commit_sha256": "18ca1f110bae80071da603b49708d712ae1fb230fa4101a7bb89b2f3b296b3a3",
+      "object_sha256": "253ae88c7b26bbf3b22f4a7704251a923fa1fd7e3bfe9b06f350f701a127c6bb",
+      "readback_verified": true
+    },
+    {
+      "index": 449,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000449_14c0bb904c3d4541a1c582f1653e0b68.json.gz",
+      "commit_sha256": "9d82c47fba89efd3fd5c65c9701a4781ea3461bd19a255539b55ef9ba616a7da",
+      "object_sha256": "64c5db9b2c3a8e72542bb95ed8ed9d01d813e7d08c147ef0f4494e3b76a21534",
+      "readback_verified": true
+    },
+    {
+      "index": 452,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000452_31f9f55f39834224aadf40d65c82c576.json.gz",
+      "commit_sha256": "0c61618a7e781631a3fb162a71f678f3d943f249662b329f244c63a1e40dd944",
+      "object_sha256": "36bfa8c6bb62c7247d82a12d33d4e38642788182358773ad4db6e7ab692e8384",
+      "readback_verified": true
+    },
+    {
+      "index": 456,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000456_a64f814843e349739056cccbcd10cc68.json.gz",
+      "commit_sha256": "4ddb4d8a36a0dc6787cdc6b1a5eebb90ed858d5291c1d36be55dcdaa62577b04",
+      "object_sha256": "7be1e7d697c60f8cc21068b27293288915460ae5fc7d4054f55430af637d5b4c",
+      "readback_verified": true
+    },
+    {
+      "index": 460,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000460_beb2624a0ec24ad09a2373b6929bd4ef.json.gz",
+      "commit_sha256": "ddb3ff8653cef61c5d1b82cec8f39e0cba1d4163c49afb6a2fd589c6d4c585f3",
+      "object_sha256": "45dbf92009fa5024b4328816dcae4575ac89dec1874880cae41ba7dbef16e702",
+      "readback_verified": true
+    },
+    {
+      "index": 468,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000468_64c08cb0341842b1bb6851950289b5fa.json.gz",
+      "commit_sha256": "db852e7e756e8644143537deb95d27c57e02ba593162e6707e1fa4689192575e",
+      "object_sha256": "ad2efe48f16c97ed60046cf438a4d747c31aaff0a1aba9edc6c828ced699578f",
+      "readback_verified": true
+    },
+    {
+      "index": 475,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000475_eb78f1e5e28a4e34a1b383e35c5b166d.json.gz",
+      "commit_sha256": "74a08dbc75682e21727f9ae1f12349926bd60119a1288760b1d039574bf0f5b9",
+      "object_sha256": "c7e7930c198a70a815ae54a221cd2c94c90481d4b109003070b0d4a6e7ef62fc",
+      "readback_verified": true
+    },
+    {
+      "index": 479,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000479_3d045190e6814bb3b793bfebeb424f24.json.gz",
+      "commit_sha256": "caec92c8e7caee92cf1ab3e7dad3e836ceb6ba4b71887b6bbbc6352e1b7b0ffa",
+      "object_sha256": "0097ecccc4274cc1b2b8858a2ff76dfa810bac3943f41406f1c84e5fc838ef04",
+      "readback_verified": true
+    },
+    {
+      "index": 483,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000483_a26c0a75ecd7435db840a8f3eab3feb3.json.gz",
+      "commit_sha256": "b658458bf36ae849a4b86f9a700a0fee5674575183737f5dbfa0f94d3974a4eb",
+      "object_sha256": "940f153a12016adf039dbe3806f67e5c88ecd4aa2a6ac158233a2d2b3c1f67ac",
+      "readback_verified": true
+    },
+    {
+      "index": 488,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000488_388695326f8044aa9719f533d8256bec.json.gz",
+      "commit_sha256": "7f724b8c0a2d38445c7bb80b7b436216dceef804af21281dc57cd2d9b9cb2a7e",
+      "object_sha256": "cb23b502f79a42b3b132827a5a0dce98067e17667c679572b5d5b756ee721d83",
+      "readback_verified": true
+    },
+    {
+      "index": 490,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000490_71323eb85db440e493e73cbea0384401.json.gz",
+      "commit_sha256": "5c44b8cd89f80016773a083334c076f64b236f664f9d4cccc7e24eaaf0d23a3a",
+      "object_sha256": "678d1e052e539bab454ec1e0e314f48285aa75c8c33cb83953f78135a2355f95",
+      "readback_verified": true
+    },
+    {
+      "index": 496,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000496_db4c2c9912ef4d5a95f643f405a54dcf.json.gz",
+      "commit_sha256": "6947ad16272c63a34981daa028c26c8c29f21a7f760cb5eda4ef792d57bb2feb",
+      "object_sha256": "cd92e3f25e625d75072ca68661d65e7f04c0a6180931e08c725432ece591afe5",
+      "readback_verified": true
+    },
+    {
+      "index": 500,
+      "language": "vi",
+      "object": "vi/round_00001/shards/000000500_cef24989dfc940aab4f2e32403ad68cd.json.gz",
+      "commit_sha256": "4dd614dd4f150ebd8041b50d2495c723e3959650d6d818837bb411918a55d723",
+      "object_sha256": "e5196f8ddfafbe14cb4b38d9bd7fb62ace38050a96fb8bbdf4d3be5892459a99",
+      "readback_verified": true
+    },
+    {
+      "index": 506,
+      "language": "en",
+      "object": "en/round_00001/shards/000000506_2cdccc6c66034175b1359ddbae0a5a51.json.gz",
+      "commit_sha256": "4d85fccb52691b5f9d4ee48109bbde18b7435ecc9cac0d05b3e60fa8f9bdc92c",
+      "object_sha256": "063f3173c623bf638be4c8ce87165e656f6a22e88e2d924e01455c223a4eb3ae",
+      "readback_verified": true
+    },
+    {
+      "index": 507,
+      "language": "en",
+      "object": "en/round_00001/shards/000000507_8bda790356d147ddac81f0281e40d53c.json.gz",
+      "commit_sha256": "874de98cfe1fdd314ef56c04f9ac63cb54171d00da095d40ff3cb6007b5ab083",
+      "object_sha256": "77db9dae7849a88293cab42d17b87a4385ec171eeb85d0efe92dce5963013057",
+      "readback_verified": true
+    },
+    {
+      "index": 508,
+      "language": "en",
+      "object": "en/round_00001/shards/000000508_8b3dbf976f734ee4ad459ba0a3a46276.json.gz",
+      "commit_sha256": "48d674cad38266e3ea9cbb101a4298a747bb8519b744db0e5e18b9fc4dc06213",
+      "object_sha256": "284b2e44c311036e621b2e562a53f01862e8a469f749465c60c05562a15cebc7",
+      "readback_verified": true
+    },
+    {
+      "index": 512,
+      "language": "en",
+      "object": "en/round_00001/shards/000000512_5af4dbbd70044667860bf0e8e18054dc.json.gz",
+      "commit_sha256": "ba34fedcc9d79c5e346d48723b81b7fb09e5fcae39a9fccfec337cd68a91cbb2",
+      "object_sha256": "58a847967ed9cbe318b888500df76fcdbcb141514200365cb006ffa70191397b",
+      "readback_verified": true
+    },
+    {
+      "index": 514,
+      "language": "en",
+      "object": "en/round_00001/shards/000000514_32a4c314e7464aa18f124f0175241f1b.json.gz",
+      "commit_sha256": "b6a71d77cb040f1be18035089ed58e29b4a991ff27225169c54e0f5405dc1564",
+      "object_sha256": "c57395eb652a468a8498e92c97df9f859b52d679176f6834e60a265092d64b8c",
+      "readback_verified": true
+    },
+    {
+      "index": 515,
+      "language": "en",
+      "object": "en/round_00001/shards/000000515_21ac13c77bd94b24902012e18a810e3f.json.gz",
+      "commit_sha256": "9611afea1276972c77d00f6a99d6d768a9a7f92da2f9f958b0bf355ef4461b58",
+      "object_sha256": "6ec8b3724ae2945dd1ab79a0b614fe7c5506977bf9a97a45e0e04819aecde0a7",
+      "readback_verified": true
+    },
+    {
+      "index": 516,
+      "language": "en",
+      "object": "en/round_00001/shards/000000516_3db2951ac6b142059917af0572c3e003.json.gz",
+      "commit_sha256": "77b209fc7c47ffcfb6fecb11c280db72ce106dada677a88d2cb4b203607c2b03",
+      "object_sha256": "6e82c6b5712f732a3dd4a5865d414de09bee7407fe4de802a7b391a4ea78a558",
+      "readback_verified": true
+    },
+    {
+      "index": 517,
+      "language": "en",
+      "object": "en/round_00001/shards/000000517_3d719748d9584570b205e57f2c6e977b.json.gz",
+      "commit_sha256": "d02355168c74b3e2e20ba4ba5b50d8f0f0c3377b9b930075578996bf8831cd35",
+      "object_sha256": "78f2aca06e3fc53f5147f6d45552efc10d86d0d1f9ee8c587db3741da2740dd9",
+      "readback_verified": true
+    },
+    {
+      "index": 518,
+      "language": "en",
+      "object": "en/round_00001/shards/000000518_32b433b71f83459cb4f2e5241fb8ff43.json.gz",
+      "commit_sha256": "ea3f101d54f686963efbe3ccb70ae92d2af9db8218cf49512838c86b985183e8",
+      "object_sha256": "81b0e1d078f346a2401aeca661482dd0e9ca7d4cf02fa0e697116b56548a95ed",
+      "readback_verified": true
+    },
+    {
+      "index": 519,
+      "language": "en",
+      "object": "en/round_00001/shards/000000519_bd0368b7d6ad4a398fa9206b6c7dfb48.json.gz",
+      "commit_sha256": "1329a9df2805a7ffec3e9524a94b0242a25598f6e41c26661e83453b1548bc57",
+      "object_sha256": "15c9e17e7b66b7cced56c9364593b8250f0ca9be19e1791b09525380172872f5",
+      "readback_verified": true
+    },
+    {
+      "index": 520,
+      "language": "en",
+      "object": "en/round_00001/shards/000000520_c2722a3401ad4a5aadf2d86f3df2cf52.json.gz",
+      "commit_sha256": "04b4b8c9dfc7bcb3e0928571896413ccf56fa17997012a41760f32f7dfb0db2e",
+      "object_sha256": "df85fe9a28116c52ceccbdcac7e2e699afa79dd414e313a00a7f9c7a4528b9be",
+      "readback_verified": true
+    },
+    {
+      "index": 521,
+      "language": "en",
+      "object": "en/round_00001/shards/000000521_52f7e92924204137985457bcb7c22a8e.json.gz",
+      "commit_sha256": "724e3be3caa01421c48feba4f44234326c77509e13bf82f934920af4d850faf8",
+      "object_sha256": "da5c785a936f7dfb28c82eae8d95a243dd3afc957dfcba7232df589d54fab0c7",
+      "readback_verified": true
+    },
+    {
+      "index": 523,
+      "language": "en",
+      "object": "en/round_00001/shards/000000523_e8cb28d0fb6f4cfeabc3c03e4c3e5e43.json.gz",
+      "commit_sha256": "6189235215648aad458a4a68121d6c36d57810345766855d7d802a2f76e4040c",
+      "object_sha256": "5f7a3448984e48d7b2db381022ad7d31847386fc6b905777d374d99c82dadf84",
+      "readback_verified": true
+    },
+    {
+      "index": 524,
+      "language": "en",
+      "object": "en/round_00001/shards/000000524_b45a27353f1a492ba06ebd7bae456bc7.json.gz",
+      "commit_sha256": "9685cfcb6e83a2bd978c93df6fd53c9874d42704252e9517d207d827f1a27717",
+      "object_sha256": "0702dca71f6aa7208e2dadf58a0ace90a6f5394f22a05a3cb779a696539b0ea3",
+      "readback_verified": true
+    },
+    {
+      "index": 526,
+      "language": "en",
+      "object": "en/round_00001/shards/000000526_52369c9e7d82469b94d33f003350933b.json.gz",
+      "commit_sha256": "261202cff9395708fe8ac1af76050e3b0e881b903d03454ddf326667c98a2bc3",
+      "object_sha256": "bfa0db0631559b530ed9939f9febf15d3a2aead628ef1b0f031b61a4de9d3fe3",
+      "readback_verified": true
+    },
+    {
+      "index": 528,
+      "language": "en",
+      "object": "en/round_00001/shards/000000528_55eb161451434336a9e9521a105b24c1.json.gz",
+      "commit_sha256": "577389a012c6a4baf5d8a759a637380496e01f739e6dcc3c11cdd7e789cd210f",
+      "object_sha256": "34cbb3825eeb2a4f9384e18ae1cc292614d79e94114a50c42724d1c105d8a87f",
+      "readback_verified": true
+    },
+    {
+      "index": 530,
+      "language": "en",
+      "object": "en/round_00001/shards/000000530_85f70e4138f041e78ea4bee0c4c4e460.json.gz",
+      "commit_sha256": "4c28fc58f8b6b8a21702a25ef1d8d0cb9dfb99423e2262b62407e945fd5f895f",
+      "object_sha256": "db2247223bacb1b28c83ba47e25b01b93cf1f18aeb0710b53deca44b1360f856",
+      "readback_verified": true
+    },
+    {
+      "index": 531,
+      "language": "en",
+      "object": "en/round_00001/shards/000000531_473c2bf142c14ce48ba2a926694f2772.json.gz",
+      "commit_sha256": "91992ab3c77eedfc49b0fffc16bcafcd7e05d2712c84536dccdc7ed4881b5d71",
+      "object_sha256": "fd4a4f8fd725ee0b8f7d01eaae078763319902e183a2ed7b8e24723158496b6c",
+      "readback_verified": true
+    },
+    {
+      "index": 533,
+      "language": "en",
+      "object": "en/round_00001/shards/000000533_41f733a20b88400f995dea3a5ac154bf.json.gz",
+      "commit_sha256": "fbdd10f8f32d03a8d61cbf204eb00f878423ba831041d784f637232cbe068323",
+      "object_sha256": "6dadf4b0e30ee2cf7e479106b6856352428f752c90f28b621f1c92d71ab740ba",
+      "readback_verified": true
+    },
+    {
+      "index": 535,
+      "language": "en",
+      "object": "en/round_00001/shards/000000535_d4ea5cf06cab47bf977cda6f448c0d1a.json.gz",
+      "commit_sha256": "55dbf7688c5266eb7d58ab736c5a534ecf8e6a510abd337427dc9a0a9f512a35",
+      "object_sha256": "7f447fc8eba87ea27001558746fe598e915070a0772c4ad0b24d6db8d8f292db",
+      "readback_verified": true
+    },
+    {
+      "index": 536,
+      "language": "en",
+      "object": "en/round_00001/shards/000000536_cac0dbee10bf48d5847aebf5cb543282.json.gz",
+      "commit_sha256": "5cee31b81a7cc3b13ab5de57bb7c0fac7ec174ac3ee8dc06c85045c2f763b971",
+      "object_sha256": "ce63dbfc70f2b0427a7d9fefb7640b0a6ce38b2857307d899d9fb98364d5a164",
+      "readback_verified": true
+    },
+    {
+      "index": 537,
+      "language": "en",
+      "object": "en/round_00001/shards/000000537_4c0c428998e645d5b224849432ec417c.json.gz",
+      "commit_sha256": "395e9462ca394584f45706796ee828bdc3a8cff8196de3bc6bdb0e52d26364b8",
+      "object_sha256": "e068592e44f8e30165e22b0ab7404a3e404cedd6ce60dcd7d84f9c539f44e0b7",
+      "readback_verified": true
+    },
+    {
+      "index": 538,
+      "language": "en",
+      "object": "en/round_00001/shards/000000538_647630208b6e4654961eddb1f09e628b.json.gz",
+      "commit_sha256": "4cf74543ef5d8586f063ecc180a8951013c9c9bbc139ca3f02e7061dc6a7b8d5",
+      "object_sha256": "1e12e26c6cf818b4e95dc7f03ae6ba037f9e36fa1d5b03501dcacd8f83be0fcc",
+      "readback_verified": true
+    },
+    {
+      "index": 540,
+      "language": "en",
+      "object": "en/round_00001/shards/000000540_3b6bac7204d14cf58224deb6246daf69.json.gz",
+      "commit_sha256": "ca09a6cdd1110f75b1a907ab198dcdb62fbfcc45c0d14edff7b43e783b1dfc27",
+      "object_sha256": "2e57e4542f5b5cc9a494cb03417217c9648760a607a1ec69134fb7c3785155e9",
+      "readback_verified": true
+    },
+    {
+      "index": 541,
+      "language": "en",
+      "object": "en/round_00001/shards/000000541_0a3ff19581584d23b3870e8ea8d96d2b.json.gz",
+      "commit_sha256": "3d255b63584c620177e08f0c0b7a2ea124be6ab7d7c6df90ac2f8c021c6cb105",
+      "object_sha256": "f97a21fcea6ed41b0ad6f5507ed323953309dd9a49bf4da74aab1eff71b097a1",
+      "readback_verified": true
+    },
+    {
+      "index": 542,
+      "language": "en",
+      "object": "en/round_00001/shards/000000542_22cf2c2dfc074918b8f01e4356b52e8b.json.gz",
+      "commit_sha256": "d3050063414b612c7de21cf2b51b513da79a4f4e3c151e5922b3641b132f2cd3",
+      "object_sha256": "e67d12b6aaa118401abd3c50867d1276d4502b1da07b5881f649383ba2551bab",
+      "readback_verified": true
+    },
+    {
+      "index": 543,
+      "language": "en",
+      "object": "en/round_00001/shards/000000543_56d6be4c3cdd4d709499eb7bd7df3961.json.gz",
+      "commit_sha256": "625c507f22f3c90f81caba0256bd0ce9340a791fd478aed33abd3bdc5008b806",
+      "object_sha256": "930ca60b773059846b1c73207cce039fb737b9674c12336d19523e215eee07ad",
+      "readback_verified": true
+    },
+    {
+      "index": 547,
+      "language": "en",
+      "object": "en/round_00001/shards/000000547_8f1c9fa3191b4e19ae5a407dea45dbdc.json.gz",
+      "commit_sha256": "19dd57765cc6384c167b914fd79a5c2790b170a5b6660e9fcdb9d53071a0d3ff",
+      "object_sha256": "c60ad71d26b39919762341263b8b6c8f45bec60453e28219ed38acd1e6df72d9",
+      "readback_verified": true
+    },
+    {
+      "index": 548,
+      "language": "en",
+      "object": "en/round_00001/shards/000000548_766b2f6839d042f686d813c5e254ddeb.json.gz",
+      "commit_sha256": "1d548f298b9b2b3b0f9ac3a722a243f37bf90746767112346dfaad0e96f9c9b3",
+      "object_sha256": "57becd00ed8ac4679f762b4798c2cbe86cb3d2c4cd5d2463fabd10aa4789e59a",
+      "readback_verified": true
+    },
+    {
+      "index": 549,
+      "language": "en",
+      "object": "en/round_00001/shards/000000549_1d868190482f46e6b1da09ae4cb4a25b.json.gz",
+      "commit_sha256": "956ba53b439c4a1d1b9e8bec0d9114f642cc3ecd051d29d45fdcd33e15c89d82",
+      "object_sha256": "27ffeffb3c7e7857da69f75f4f2148e800a87163add0d02d8ee3a4412f68c78a",
+      "readback_verified": true
+    },
+    {
+      "index": 550,
+      "language": "en",
+      "object": "en/round_00001/shards/000000550_55d214fec4cc463e981539e82f2128ae.json.gz",
+      "commit_sha256": "399363d24b911ba862c3ff585e2f4858a859f1051d954b0825ac947839aed47d",
+      "object_sha256": "227762af86efc18ab223b3992657f329acbb262849c9566e51b9fc23b1516cc2",
+      "readback_verified": true
+    },
+    {
+      "index": 551,
+      "language": "en",
+      "object": "en/round_00001/shards/000000551_8ed3c5ce816945a18b0f29560827cac6.json.gz",
+      "commit_sha256": "02aec48abe36002efa6e92ab673ffffe0d9bc78f6abad2229681ffebe01ed336",
+      "object_sha256": "ab2bb3762189827a55942b58025a37207d1ea804131b9dafc2b9b7b71f1854e0",
+      "readback_verified": true
+    },
+    {
+      "index": 552,
+      "language": "en",
+      "object": "en/round_00001/shards/000000552_99d9945b34c24c96bf79b296d012975a.json.gz",
+      "commit_sha256": "20f0000195ee0364352a4291ebaf979c2ab8a45f5c7dd63db9e7601cf4472d49",
+      "object_sha256": "681cf099330fafdf2eb93559b046b755e35b347a05463d4afc8f3c03a354e921",
+      "readback_verified": true
+    },
+    {
+      "index": 558,
+      "language": "en",
+      "object": "en/round_00001/shards/000000558_ba8e6e951e4041d8b45b252baea01679.json.gz",
+      "commit_sha256": "0dc96a414fb5f90a46a2a148f6eab8a7d96635bbd9c7494d68366677f7588ae4",
+      "object_sha256": "b3b65ce67f8db6c8a3501ef788d3c23b6ae7ceb2d45034a662d5fc35101148cd",
+      "readback_verified": true
+    },
+    {
+      "index": 559,
+      "language": "en",
+      "object": "en/round_00001/shards/000000559_ed6fe7b838ac4c43b86856346bb216e7.json.gz",
+      "commit_sha256": "9a5720268461eea3981e78dc02c6982e6aff5f67e610b68ee9c72d79b10a4183",
+      "object_sha256": "dcd5a601ca0d2f678bf58f4c73aaf2b34ed2a18755286c31f9804613454b37fd",
+      "readback_verified": true
+    },
+    {
+      "index": 562,
+      "language": "en",
+      "object": "en/round_00001/shards/000000562_9b8db5725acc4180b9ab476a40b31ed7.json.gz",
+      "commit_sha256": "dedc172825d4fd0cf4245ec0041c0a78b14c149c08480b32dc32673bdc2b1ac5",
+      "object_sha256": "a88d70c5be884469767144ea267d6b476b3a0cd7f5d907ce0f0fe6ad48ef5784",
+      "readback_verified": true
+    },
+    {
+      "index": 563,
+      "language": "en",
+      "object": "en/round_00001/shards/000000563_65cae62c36394ed28efe4016b1c5b2a3.json.gz",
+      "commit_sha256": "bb5f47f35bdf41090f6c6199af52486d354cfe284730569bc0b89a0a8178c2d8",
+      "object_sha256": "6bc5631156e2f6c912cc19e850f9e6bd670385980ee4d7088d6f4992fd96aadc",
+      "readback_verified": true
+    },
+    {
+      "index": 566,
+      "language": "en",
+      "object": "en/round_00001/shards/000000566_3ce7372ef5544c5983bc4d1fba3cf965.json.gz",
+      "commit_sha256": "268ab4894a267797dd1e8ba86dad4b1bf1532bd24cddfcb2140a6eae0b070898",
+      "object_sha256": "56660905cc39a3d4abba963083c0f5460fd55b93d600eacf81188938656f9025",
+      "readback_verified": true
+    },
+    {
+      "index": 567,
+      "language": "en",
+      "object": "en/round_00001/shards/000000567_8a794a988f43473c8d5b98aecb99b907.json.gz",
+      "commit_sha256": "3ed174fdfad9d9bc14af1a4e58e7732ff5a7e21f3fa7b2a763dae12d2bc7a4b8",
+      "object_sha256": "453c79e3a4c7a09e72a7ef6bffebc425d33d12cc30c8019d9c4570a7a8e24e65",
+      "readback_verified": true
+    },
+    {
+      "index": 568,
+      "language": "en",
+      "object": "en/round_00001/shards/000000568_9c67355136a04daab3e37771f5b2e3b7.json.gz",
+      "commit_sha256": "550139dc62d93f47b82a1ffaae59720a8bc7cde4d39b25391fa4f633f4fba07a",
+      "object_sha256": "29b64b959172ad326e3f71980273c94a95981da8e12c582174b35a18538d774d",
+      "readback_verified": true
+    },
+    {
+      "index": 569,
+      "language": "en",
+      "object": "en/round_00001/shards/000000569_ff129eeaf31744e294ceb1f631310890.json.gz",
+      "commit_sha256": "331e7b1a315f7082bcef3e6cb9c0fef44f2cde1ebb121886b1e006302514c8c4",
+      "object_sha256": "20aa07b83094adab617dc59b2dd03060adced84c5f10b7163f266ae824641cc4",
+      "readback_verified": true
+    },
+    {
+      "index": 572,
+      "language": "en",
+      "object": "en/round_00001/shards/000000572_bc8cfa95e0c54c8eb374d67d5463f4cf.json.gz",
+      "commit_sha256": "1dc4e18b55def12625cf8bf2772158dcc5ccfdcfa26c4b812f7240b572d4d64d",
+      "object_sha256": "3b05d3074fcd22fafeb0a5ea35965a56853c3248c241fb265f5f78257d428167",
+      "readback_verified": true
+    },
+    {
+      "index": 574,
+      "language": "en",
+      "object": "en/round_00001/shards/000000574_0e52bf4fa28040daaa14afbfd5783deb.json.gz",
+      "commit_sha256": "984ad7b29fda00d22888fe8b45f5fdb23fe078fd18b2570da8e66bad5edc9f40",
+      "object_sha256": "59b6857fa12605edf8a51efa391e4a0f466a86f9195a161a6d2feb005d3628a5",
+      "readback_verified": true
+    },
+    {
+      "index": 577,
+      "language": "en",
+      "object": "en/round_00001/shards/000000577_1844563e307d429d9f7195702a16d896.json.gz",
+      "commit_sha256": "6c061f9e74eaba63f5e3ac54f4470097b80415cb2bbb7e757cc0b0daeacb695c",
+      "object_sha256": "2ce430d8772654f5eb2f515beddcacd8a7c11f3cac8e535205b2e451935d8770",
+      "readback_verified": true
+    },
+    {
+      "index": 578,
+      "language": "en",
+      "object": "en/round_00001/shards/000000578_7fe67ae2da6b422a857ffd013270270b.json.gz",
+      "commit_sha256": "3d8cf1684daaeef0b261d355b35713b515d0a04500178dc32bb9204ddddfd705",
+      "object_sha256": "0bbb173ee1fa00dcfc7000850f8710168585b099f82535296fbb6a4db7e7e209",
+      "readback_verified": true
+    },
+    {
+      "index": 579,
+      "language": "en",
+      "object": "en/round_00001/shards/000000579_1e6f81b4784747338b50d56c45bc563f.json.gz",
+      "commit_sha256": "4ebffb6caa3bbf2513029fd62ff0b0addf6d02a0795369cbe1221e465b8995cf",
+      "object_sha256": "c19e02bbee033f5b9f5f2025be385ecdd48c09276156a0e6a069f0544cb834a2",
+      "readback_verified": true
+    },
+    {
+      "index": 580,
+      "language": "en",
+      "object": "en/round_00001/shards/000000580_d88ca0a685894eed9af900a385d82774.json.gz",
+      "commit_sha256": "63fc6c63565d52886652a57d744472549b430e94e4bfda7889305b2c306746d3",
+      "object_sha256": "c870db1fbda43e90b9f237feeaf18a8fa7fd7f98ca0537bfd0aa4be5c9ef1f28",
+      "readback_verified": true
+    },
+    {
+      "index": 583,
+      "language": "en",
+      "object": "en/round_00001/shards/000000583_20800a049d8d478ba1e5e935778c91b0.json.gz",
+      "commit_sha256": "34c857277d29ac68379bb94158b85871275992b5504bf666689079dcac1b7274",
+      "object_sha256": "a7e2f9f506dd17645b38cd3383524b912a0e613b3973106f2ebfbc8729f63110",
+      "readback_verified": true
+    },
+    {
+      "index": 586,
+      "language": "en",
+      "object": "en/round_00001/shards/000000586_a95d8bf0209e414eb4ac73d2970068da.json.gz",
+      "commit_sha256": "6ec51f9519190cc65b6f7c9aa755496c95bb2cd3380376b2d1a3380afa400e89",
+      "object_sha256": "ddda2296174e439235a308aa9e18ba2b1ac5d63fc19593162bf514cf63008195",
+      "readback_verified": true
+    },
+    {
+      "index": 590,
+      "language": "en",
+      "object": "en/round_00001/shards/000000590_8683c29a71514f9e82abf702f5ff7f26.json.gz",
+      "commit_sha256": "507b80dfae8643c88dad26e70bbc3c89f5b7c2724bb92e15f0c983a668027b9a",
+      "object_sha256": "b52fd74a940279a353cbbaa64fd436ae9bac2d3c088e734901667ca51414762e",
+      "readback_verified": true
+    },
+    {
+      "index": 591,
+      "language": "en",
+      "object": "en/round_00001/shards/000000591_32984e26568d43a9b850102568e1aef7.json.gz",
+      "commit_sha256": "fbcfcc88fd877fb3ebb1978e7e295d3fc0909d037e189c5f1f1995727bcd7148",
+      "object_sha256": "1852fb0e11c4490941db1c4f8790b8a18d1a3be0ca199917bb55f84fb7a4f3cf",
+      "readback_verified": true
+    },
+    {
+      "index": 592,
+      "language": "en",
+      "object": "en/round_00001/shards/000000592_b6852af19b514c84b590872e2ba9f2a0.json.gz",
+      "commit_sha256": "4000a6ab3cd596c70a881179b07537e961345452b3cae940e54b356031ffe10e",
+      "object_sha256": "0fa92ab1d866afc2746d6fdd9a949c1688c831a9b24371d925ace86ef1a17e19",
+      "readback_verified": true
+    },
+    {
+      "index": 593,
+      "language": "en",
+      "object": "en/round_00001/shards/000000593_0655ec932e044c3b9086beac20b8f71f.json.gz",
+      "commit_sha256": "9419a9941a1f0cd57b1e162c4195c6bcd33fcd99a55d27716b64b2de8c687ead",
+      "object_sha256": "e412c17b2890c023826d56d48e5b56b2eb62b9079aca1ee9c7702a75b67e782e",
+      "readback_verified": true
+    },
+    {
+      "index": 594,
+      "language": "en",
+      "object": "en/round_00001/shards/000000594_864ef2dc1a8945f9ad8e697929f9a233.json.gz",
+      "commit_sha256": "913e9325e66ea8c8e5e53292beef2cc01b811dc2929b4e6c8ce37e5d8c935538",
+      "object_sha256": "40a5522fec9bb1cf63cbbb681173f29ee7455df24c6dd4588122a7eb1d77c20b",
+      "readback_verified": true
+    },
+    {
+      "index": 595,
+      "language": "en",
+      "object": "en/round_00001/shards/000000595_1e29ca9250074d7ba382089f066b73a2.json.gz",
+      "commit_sha256": "d911cba5164cf24c24aaa834af6f60673e0e02ae992b264106c7bc320f28b925",
+      "object_sha256": "041915bebb8fe1288e659ae2a55889cc29c44b5b554f75412262f1bbcec474fe",
+      "readback_verified": true
+    },
+    {
+      "index": 596,
+      "language": "en",
+      "object": "en/round_00001/shards/000000596_d41a40ecbab94d49a50188a3f695c20f.json.gz",
+      "commit_sha256": "1432412b6f0f745c4f67548550e614eaceaeb555f82bb8b1f020df0bbf9828e3",
+      "object_sha256": "82a7b339afb20425e1aa2ed920c7591ed073847499f1d6b729cdff5ff2072fef",
+      "readback_verified": true
+    },
+    {
+      "index": 597,
+      "language": "en",
+      "object": "en/round_00001/shards/000000597_b5a12cb6033a4f02b7e8145d6de44763.json.gz",
+      "commit_sha256": "76954d4afec056b0a414afa068be158c27110988dcbc0234431c53845c3f2d56",
+      "object_sha256": "b42497e2e18d179566fc0440451697ac7a415a699ee6704e150e5cc356ded69e",
+      "readback_verified": true
+    },
+    {
+      "index": 598,
+      "language": "en",
+      "object": "en/round_00001/shards/000000598_242a00b790404dfe94d9511f7dc8b31e.json.gz",
+      "commit_sha256": "7ac38380a165e61d412593b66bdeb517bb7c0fb6e23f184f50d1cb3439c1109f",
+      "object_sha256": "5176697c4fd892e742cd48c2854650d8552f940242f49f119bc792923cd592cc",
+      "readback_verified": true
+    },
+    {
+      "index": 602,
+      "language": "en",
+      "object": "en/round_00001/shards/000000602_e054275f0438427fbc368a144b6435a9.json.gz",
+      "commit_sha256": "9eb54b288edf5d650e471ca39da4c239e1894ccab21790fe98ae05126af072cd",
+      "object_sha256": "d06679e7884a9b76a763925fe333b71ed1ef4703c021c188f57d38e0acd6a05d",
+      "readback_verified": true
+    },
+    {
+      "index": 603,
+      "language": "en",
+      "object": "en/round_00001/shards/000000603_07a0f485ac1b46c7b6e43877c4628972.json.gz",
+      "commit_sha256": "d9fff9aff462baff1ce2a88b8a8eab42fc60dac9f9b062bc366e1b81d0ff551a",
+      "object_sha256": "7b51a4abb36a3445d4f3ed0686a3959d59d2f30a1f0a737741e0271211ab1fef",
+      "readback_verified": true
+    },
+    {
+      "index": 606,
+      "language": "en",
+      "object": "en/round_00001/shards/000000606_7b67bc03b57e4534a154c04b1340e394.json.gz",
+      "commit_sha256": "298ae7b1e83e98d3f678c6517441952bb9471cd55db88d382376d43f8f0d7ba5",
+      "object_sha256": "47274443ca73d3caab4b83ccf2b963e5289af9f97b255dff7a090559bdbd6ab8",
+      "readback_verified": true
+    },
+    {
+      "index": 607,
+      "language": "en",
+      "object": "en/round_00001/shards/000000607_f7dec82723674c30ab684ff1d895af34.json.gz",
+      "commit_sha256": "8a1116c941dd99c9f78f4eb8bb6dc80b6d6a279e641542ecdce3564e618f68fe",
+      "object_sha256": "59e19fb8e4f4d7d430fd081f1b593822f643782d6d6ef5c9bc3274d11f5739d1",
+      "readback_verified": true
+    },
+    {
+      "index": 610,
+      "language": "en",
+      "object": "en/round_00001/shards/000000610_d53fc484bb1d4040942fb68147f42b48.json.gz",
+      "commit_sha256": "4a4657978245b1eeebfe79f727e25aa6f7a02d1729aa1a7087b0f14cb822b195",
+      "object_sha256": "3588a70a0c1a3397bf092bc7c5a382ddde468a418da705646f03aa32089f2d3a",
+      "readback_verified": true
+    },
+    {
+      "index": 611,
+      "language": "en",
+      "object": "en/round_00001/shards/000000611_ed13dc32203c49e3909ed8b1c2c72e03.json.gz",
+      "commit_sha256": "5c555a7905df10fc9e4d101893484a49d4a7a2f896a9d3eb3a1fd1f276165cf3",
+      "object_sha256": "d1f9f212ddd06ba19041a11ba1902ecfc0984f8d759c462795fa7b796e3ca025",
+      "readback_verified": true
+    },
+    {
+      "index": 614,
+      "language": "en",
+      "object": "en/round_00001/shards/000000614_623638144d0940c9a78d07ea5d78553d.json.gz",
+      "commit_sha256": "96611cde8bb064c7b6520bf842efb3b319abc2e98728cf6b1d07ee8939f541f6",
+      "object_sha256": "c25ebaa1e2101be68bfd4e2f6b1ec0fc67de5fa192cfee9cf5cd71965368297b",
+      "readback_verified": true
+    },
+    {
+      "index": 615,
+      "language": "en",
+      "object": "en/round_00001/shards/000000615_30cafc3446034629a4f0830e63b1377a.json.gz",
+      "commit_sha256": "780b0bf550fefe7cc4db56359bc5a92692d4ec941b111fa7d8815adfc211236f",
+      "object_sha256": "3c9c4f68f31ca1d46af7a828ee30229218cc1a5aa48aae763ee90797a49030b2",
+      "readback_verified": true
+    },
+    {
+      "index": 616,
+      "language": "en",
+      "object": "en/round_00001/shards/000000616_c795d8f76adf4fe09f4780f62d5aec98.json.gz",
+      "commit_sha256": "c90a7bd09fcee3461e79caea3ab661f639960b7453b0ee74d7e9519d47ffbb82",
+      "object_sha256": "6bc43129c9c9b374d931384f5f250fdc1f29ea7b7158eed5f4764016136d5a8a",
+      "readback_verified": true
+    },
+    {
+      "index": 617,
+      "language": "en",
+      "object": "en/round_00001/shards/000000617_502cb21e328b42adb497639783c10bcb.json.gz",
+      "commit_sha256": "d71806d771d821d2c112d6341c5c258e6b26f4ced40c4a424abf09d1fc639bdd",
+      "object_sha256": "5ec7413e82d94bcd4696b5e1f0f3ef80410eac8ba0f31b581ff2f1c7ffb032a4",
+      "readback_verified": true
+    },
+    {
+      "index": 618,
+      "language": "en",
+      "object": "en/round_00001/shards/000000618_b107c40b61df4205993f118790c42e6f.json.gz",
+      "commit_sha256": "ebc436241959add4b1eb5d4ad50398064248e4345c3809f2dae9af1c25df2ba1",
+      "object_sha256": "2067260ff33e5b81b3c13e481caa89d5ddb4df89d4b58a67d949f82311fb7a79",
+      "readback_verified": true
+    }
+  ],
+  "commit_chain_verified": true,
+  "sampled_objects_sha_readback_verified": true,
+  "synthetic": true,
+  "review_state": "UNREVIEWED",
+  "training_eligible": false,
+  "source_data_modified": false,
+  "generation_interrupted": false,
+  "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+  "samples_bytes": 955338
+}

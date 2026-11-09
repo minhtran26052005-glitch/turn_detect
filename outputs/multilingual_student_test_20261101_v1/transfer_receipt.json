@@ -1,0 +1,48 @@
+{
+  "remote": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261101_v1",
+  "report_sha256_remote": "4b3cf677d762d2c0577fcd9523768d5b5453b60763c5e4951c7af608e3bac138",
+  "transfer_bytes": 51929,
+  "local_files": {
+    "checkpoint_receipt.json": {
+      "bytes": 1010,
+      "sha256": "25a79d452ed9c6da628836f88cba584a46737b010c2d9e2832350f9200596010"
+    },
+    "frozen_dev.json": {
+      "bytes": 1018,
+      "sha256": "23758a110b3eb7d93b37d5c8ff6cbb70d81f419b274d7990d02743ca44bc2baa"
+    },
+    "input_manifest.json": {
+      "bytes": 2493,
+      "sha256": "9ec46f64f4dd425bd13c1c7e33699e1ce827e9c8e73ba20fbbbbfb5dd84a0b42"
+    },
+    "launcher.json": {
+      "bytes": 286,
+      "sha256": "425744c8f0fa665afd22c1ca7d72bb5138918bcea260232cb535464b42698945"
+    },
+    "report.json": {
+      "bytes": 10931,
+      "sha256": "4b3cf677d762d2c0577fcd9523768d5b5453b60763c5e4951c7af608e3bac138"
+    },
+    "review.html": {
+      "bytes": 16080,
+      "sha256": "0e40c04c51c8b1769d1b249203a0caf1820ab89652b46de8cc086497716845cd"
+    },
+    "review_en.json": {
+      "bytes": 8986,
+      "sha256": "487b6ec955f4600213d7441a42b5e8e2c1be2cd6d3967c0bd27258c6e44b7091"
+    },
+    "review_vi.json": {
+      "bytes": 8431,
+      "sha256": "f29ff8028c28f5b2aafbd36f41231e0c385970d0b58d3523349f3a21330c9b5b"
+    },
+    "review_zh.json": {
+      "bytes": 10037,
+      "sha256": "756c9fc0981e585387878e392a1271538f3850dc0910af75e64515e8cede38d7"
+    },
+    "status.json": {
+      "bytes": 277,
+      "sha256": "ec69ae84f80707560032c0fb246c2ca8ad38bd3eb8a3806753c7fd12cb8acbcb"
+    }
+  },
+  "models_or_full_traces_downloaded": false
+}

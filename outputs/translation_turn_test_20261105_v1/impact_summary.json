@@ -1,0 +1,1 @@
+{"messages": 310, "messages_with_internal_model_cuts": 29, "predicted_internal_cuts": 33, "translation_chunks": 343, "forced_final_flushes": 310, "messages_with_different_translations": 48, "empty_hypotheses": 0, "single_message_generations_at_512_token_cap": 5}

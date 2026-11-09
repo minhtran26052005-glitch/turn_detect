@@ -1,0 +1,56 @@
+{
+  "scope": "Historical compact VI model from 2026-10-24; not a compressed cycle75 checkpoint",
+  "parameters": 293090,
+  "onnx_bytes": 177124,
+  "deployment_bytes_without_dependencies": 403973,
+  "storage_precision": "INT4 matrices, frozen FP16 group scales; FP32 biases/norm",
+  "execution_precision": "FP32; weight dequantization at session load",
+  "historical_model_sha256": "9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412",
+  "historical_dev": {
+    "samples": 17833,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.9354567375091123,
+    "eot_precision": 0.8643043762246897,
+    "eot_recall": 0.9429894886869766,
+    "eot_f1": 0.9019340546988157,
+    "joint_score": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320,
+    "false_eot_rate": 0.06800327332242226,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11389,
+        831
+      ],
+      [
+        320,
+        5293
+      ]
+    ]
+  },
+  "old_dev_used_for_selection": true,
+  "current_c75_teacher_student_test_scored": false,
+  "seen_automatic_floor_regression": {
+    "samples": 210,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.32857142857142857,
+    "eot_precision": 0.1342281879194631,
+    "eot_recall": 0.625,
+    "eot_f1": 0.22099447513812154,
+    "joint_score": 0.22099447513812154,
+    "false_eot": 129,
+    "missed_eot": 12,
+    "false_eot_rate": 0.7247191011235955,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        49,
+        129
+      ],
+      [
+        12,
+        20
+      ]
+    ]
+  },
+  "seen_regression_fresh_test": false
+}

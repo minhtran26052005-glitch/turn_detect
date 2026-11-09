@@ -1,0 +1,34 @@
+{
+  "scope": "Trilingual feasibility pilot, structural observed-turn/continuation labels; prose streaming is diagnostic only",
+  "languages": [
+    "vi",
+    "en",
+    "zh"
+  ],
+  "data": "data_v3/pilot_trilingual_20261024",
+  "data_manifest_sha256": "be546fbbb8bb3b7bf1bc1651405a0a5ccce8152f91f3d30f76051953790444d2",
+  "teacher": {
+    "architecture": "mDeBERTa12L768",
+    "initialization": "Restore VI12layercontrol, expand pretrained full multilingual vocabulary",
+    "steps": 800,
+    "batch16_accumulation": 2,
+    "lr": 1e-05,
+    "language_balanced_microbatches": true
+  },
+  "student": {
+    "architecture": "GRU128 embedding64 one layer",
+    "distillation_epochs_max": 16,
+    "qat_epochs_max": 6,
+    "quant_group_size": 64,
+    "selection": "maximize minimum language dev joint score; per-language thresholds"
+  },
+  "test": "EN/ZH official-test derived cases sealed until teacher/student selected, freeze dev thresholds, one final matched evaluation",
+  "old_holdout_evaluated": false,
+  "controls": {
+    "data_v2\\frozen\\manifest.json": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+    "data_v2\\frozen\\holdout_consumed.json": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba",
+    "models\\turn_v2_distilled_qat4_20261024\\model_manifest.json": "97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60",
+    "models\\turn_v2_compact_20261024\\model_manifest.json": "67347e761db99dec91d7d0cf9146f57b24bd0c002b1f0e58e215048214d32c83"
+  },
+  "preparation_correction": "Initial data_v3/pilot_20261024 missing ZH because upstream role usr; invalid, never used for training. Corrected parser and asserted language coverage."
+}

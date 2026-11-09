@@ -1,0 +1,137 @@
+{
+  "checked_unix": 1793591047.6542647,
+  "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+  "owner": {
+    "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "module": "factory_dialogue_campaign_v8",
+    "pid": 5543,
+    "start_ticks": "119138"
+  },
+  "process": {
+    "pid": 5543,
+    "start_ticks": "119138",
+    "cmdline": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py ",
+    "state": "R"
+  },
+  "state": {
+    "attempts": {
+      "en": 4844,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 664,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 4654,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 125242,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "d8a9b7af3a19bf9103a5a3ed592fd8fb389c39c45fb57ad1274d76a91aaa64b9",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 190,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 4654,
+      "vi": 10000
+    }
+  },
+  "verified_commits": [
+    {
+      "index": 662,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 834,
+      "object_sha256": "49357a33ff0bbfaca9f7ff5faff1d042c4cd215eacab602f9f304f70652d2a4e",
+      "commit_sha256": "3c3eb20c04de2b120f0b246f3dd3bfed3ea73c01bbbdfc53f7d95bb73a4d77ec",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    },
+    {
+      "index": 663,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 818,
+      "object_sha256": "5d93eed9685e8ef95d4835df64ada349bb528c869de521d6d84b66b6fae343d4",
+      "commit_sha256": "e3c858cf6583856241295172b16abbbd19670e296393df929868331745a45dfc",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    },
+    {
+      "index": 664,
+      "language": "en",
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 814,
+      "object_sha256": "9632b9bfda49d34ea21a7b2adc60c08f4e2127b23c3a166bddae75d9cfceec89",
+      "commit_sha256": "d8a9b7af3a19bf9103a5a3ed592fd8fb389c39c45fb57ad1274d76a91aaa64b9",
+      "readback_verified": true,
+      "rejection_reasons": {
+        "ValueError('missing_EOT_or_NEOT')": 1
+      }
+    }
+  ],
+  "status": {
+    "at_unix": 1793591036.898665,
+    "batch": 32,
+    "batch_started_unix": 1793591014.9497135,
+    "engine_version": 8,
+    "gpu_peak_reserved_gib": 19.54,
+    "language": "en",
+    "pid": 5543,
+    "stage": "GENERATING",
+    "start_ticks": "119138",
+    "state": {
+      "attempts": {
+        "en": 4844,
+        "vi": 13936
+      },
+      "batch_size": 32,
+      "commit_index": 664,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 4654,
+        "vi": 10000
+      },
+      "example_counts": {
+        "en": 125242,
+        "vi": 245080
+      },
+      "language": "en",
+      "last_commit_sha256": "d8a9b7af3a19bf9103a5a3ed592fd8fb389c39c45fb57ad1274d76a91aaa64b9",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 190,
+        "vi": 3936
+      },
+      "schema": 6,
+      "total_counts": {
+        "en": 4654,
+        "vi": 10000
+      }
+    }
+  },
+  "error": null,
+  "drive_nonce_verified": true,
+  "source_sha256": {
+    "factory_dialogue_campaign_v8.py": "2b1018f52bc8d06cd052a4057fff3282f3039c96cbe925eccbd2aec1a843fead",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "colab_free_gib": 177.738,
+  "gpu": "97 %, 20256 MiB, 23034 MiB",
+  "checked_utc": "2026-11-02T03:45:04.670110+00:00",
+  "heartbeat_trigger_utc": "2026-11-02T03:42:59.704Z",
+  "windows_free_gib": 22.275
+}

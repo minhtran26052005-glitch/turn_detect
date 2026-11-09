@@ -1,0 +1,62 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "restore/launcher.json": {
+      "pid": 4753,
+      "start_ticks": "107599",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v2"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v2",
+      "source_sha256": "0049b2addc34f8cf0da75c8a25c475c9e1c977f2cbbba47ed0ac7da3038d25bb",
+      "log": "restore_control_v2/worker.log"
+    },
+    "restore/status.json": {
+      "at_utc": "2026-10-27T07:26:21.939571+00:00",
+      "stage": "RESTORE_FAILED_PRESERVED",
+      "error": "NameError(\"name 'time' is not defined\")"
+    },
+    "restore/error.json": {
+      "at_utc": "2026-10-27T07:26:21.938124+00:00",
+      "error": "NameError(\"name 'time' is not defined\")",
+      "traceback": "Traceback (most recent call last):\n  File \"/content/turn_detect_v2/turn_v2/restore_drive_campaign_v2.py\", line 343, in <module>\n    main()\n    ~~~~^^\n  File \"/content/turn_detect_v2/turn_v2/restore_drive_campaign_v2.py\", line 233, in main\n    wait_started = time.monotonic()\n                   ^^^^\nNameError: name 'time' is not defined. Did you forget to import 'time'?\n"
+    },
+    "run/launcher.json": {
+      "pid": 4753,
+      "start_ticks": "107599",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v2"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v2",
+      "source_sha256": "0049b2addc34f8cf0da75c8a25c475c9e1c977f2cbbba47ed0ac7da3038d25bb",
+      "log": "restore_control_v2/worker.log"
+    },
+    "run/status.json": {
+      "campaign": "translation_segmenter_v15d",
+      "status": "RECOVERING",
+      "heartbeat_utc": "2026-10-27T07:26:21.939571+00:00",
+      "pid": 4753,
+      "quality_target_certified": false,
+      "qwen_judge_enabled": false,
+      "at_utc": "2026-10-27T07:26:21.939571+00:00",
+      "stage": "RESTORE_FAILED_PRESERVED",
+      "error": "NameError(\"name 'time' is not defined\")"
+    },
+    "restore_process_verified": false,
+    "campaign_parent_verified": false,
+    "child_verified": false,
+    "free_bytes": 161413459968,
+    "log_tail": "n\", \"bytes\": 2928}\n{\"at_utc\": \"2026-10-27T07:25:26.191166+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/en/config.json\", \"bytes\": 1027}\n{\"at_utc\": \"2026-10-27T07:25:26.196503+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/en/model.safetensors\", \"bytes\": 1115268200}\n{\"at_utc\": \"2026-10-27T07:25:44.828905+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/en/tokenizer.json\", \"bytes\": 16034016}\n{\"at_utc\": \"2026-10-27T07:25:44.966077+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/en/tokenizer_config.json\", \"bytes\": 2928}\n{\"at_utc\": \"2026-10-27T07:25:44.972631+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/config.json\", \"bytes\": 1027}\n{\"at_utc\": \"2026-10-27T07:25:44.979275+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/model.safetensors\", \"bytes\": 1115268200}\n{\"at_utc\": \"2026-10-27T07:26:04.635168+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/tokenizer.json\", \"bytes\": 16034016}\n{\"at_utc\": \"2026-10-27T07:26:04.781630+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/tokenizer_config.json\", \"bytes\": 2928}\n{\"at_utc\": \"2026-10-27T07:26:04.800062+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_vi.jsonl.gz\", \"bytes\": 11580167}\n{\"at_utc\": \"2026-10-27T07:26:05.633465+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_en.jsonl.gz\", \"bytes\": 6621084}\n{\"at_utc\": \"2026-10-27T07:26:06.436674+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_zh.jsonl.gz\", \"bytes\": 27399668}\n{\"at_utc\": \"2026-10-27T07:26:21.939571+00:00\", \"stage\": \"RESTORE_FAILED_PRESERVED\", \"error\": \"NameError(\\\"name 'time' is not defined\\\")\"}\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 203, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/content/turn_detect_v2/turn_v2/restore_drive_campaign_v2.py\", line 343, in <module>\n    main()\n    ~~~~^^\n  File \"/content/turn_detect_v2/turn_v2/restore_drive_campaign_v2.py\", line 233, in main\n    wait_started = time.monotonic()\n                   ^^^^\nNameError: name 'time' is not defined. Did you forget to import 'time'?\n"
+  }
+}

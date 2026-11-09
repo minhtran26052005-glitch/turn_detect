@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-10-27T03:55:45.707446+00:00",
+  "complete": true,
+  "languages": {
+    "vi": {
+      "raw_inferred_rows": 40234,
+      "inferred_rows_excluded_from_clean_metrics": 1067,
+      "initial_reserve_pages": 107,
+      "initial_reserve_rows": 9717,
+      "entire_reserve_pages_removed_for_actual_input_exposure": 19,
+      "reserve_rows_removed_with_those_pages": 3063,
+      "remaining_unscored_pages": 88,
+      "remaining_unscored_rows": 6654,
+      "remaining_source_ids_sha256": "5f7e0a3f4d4fcbd2c1d73313a312cbef87c5a8c7dac6340bfbc32806fce38f25"
+    },
+    "en": {
+      "raw_inferred_rows": 28313,
+      "inferred_rows_excluded_from_clean_metrics": 158,
+      "initial_reserve_pages": 126,
+      "initial_reserve_rows": 6159,
+      "entire_reserve_pages_removed_for_actual_input_exposure": 1,
+      "reserve_rows_removed_with_those_pages": 392,
+      "remaining_unscored_pages": 125,
+      "remaining_unscored_rows": 5767,
+      "remaining_source_ids_sha256": "a772a5f909d7b8f39a038bb20238908a85e6246bc1048105a101b325b6cbcd19"
+    },
+    "zh": {
+      "raw_inferred_rows": 52528,
+      "inferred_rows_excluded_from_clean_metrics": 657,
+      "initial_reserve_pages": 205,
+      "initial_reserve_rows": 23279,
+      "entire_reserve_pages_removed_for_actual_input_exposure": 2,
+      "reserve_rows_removed_with_those_pages": 811,
+      "remaining_unscored_pages": 203,
+      "remaining_unscored_rows": 22468,
+      "remaining_source_ids_sha256": "b77a9517734481ff2465f89ece8e4c592a3b43cb2441ac525fc94fe6d14eb267"
+    }
+  },
+  "policy": "Drop an entire reserved source page if any actual256-token input appears in any inferred diagnostic trace, including rows removed from clean metrics.",
+  "reserve_model_inference_performed": false,
+  "reserve_labels_used_for_tuning": false,
+  "new_future_train_dev_overlap_audit_still_required": true,
+  "completed_at_utc": "2026-10-27T04:35:29.076028+00:00",
+  "audit_source_sha256": "d5702cfa8cb98507d8dc03947ee3687ff51b99028aecb7bc831ee63f70ab796b"
+}

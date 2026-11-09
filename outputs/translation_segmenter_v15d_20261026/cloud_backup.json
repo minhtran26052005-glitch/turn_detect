@@ -1,0 +1,90 @@
+{
+  "updated_at_utc": "2026-10-26T17:52:49.972529+00:00",
+  "destination_kind": "user_mounted_google_drive",
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+  "local_large_downloads_enabled": false,
+  "backup_worker_verified_at_check": true,
+  "pass_complete": true,
+  "full_recovery_available": true,
+  "file_count": 39,
+  "logical_bytes": 17855285453,
+  "stored_object_bytes_current_and_previous": 21211724483,
+  "data_cycle": 69,
+  "checkpoint_cycles": {
+    "vi": 69,
+    "en": 69,
+    "zh": 69
+  },
+  "drive_manifest": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/latest_manifest.json",
+  "verification_scope": "source SHA-256, Drive fsync, Drive-mounted-file readback SHA-256",
+  "checkpoint_deserialization_proof": {
+    "verified_at_utc": "2026-10-26T17:46:45.305787+00:00",
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+    "manifest_captured_at_utc": "2026-10-26T17:25:11.316844+00:00",
+    "data_cycle": 50,
+    "data_zip_sha256": "9f3a0f13964fb9bd8a436850d180ef3e0c4c2a27237a7a9a56b0c85f004e3e8c",
+    "database_integrity": "ok",
+    "checkpoint_checks": {
+      "vi": {
+        "sha256": "4d5f53fa8c7e5a0df7856c7dc04bc53d02e89f0faebb07bac186240e34a276ae",
+        "cycle": 48,
+        "cycle_step": 100,
+        "total_steps": 200,
+        "optimizer_parameter_groups": 2,
+        "optimizer_states": 202,
+        "rng_state_present": true,
+        "training_rows_at_checkpoint_cycle": 456804,
+        "training_fingerprint": "b9a3d3fc1bd03dd74bddfb417876f1849a7683b4b9df9b490799f239593bb8b8",
+        "reconstructed_fingerprint": "b9a3d3fc1bd03dd74bddfb417876f1849a7683b4b9df9b490799f239593bb8b8",
+        "training_fingerprint_matches": true
+      },
+      "en": {
+        "sha256": "b824375d48deeee584e742cdb3c5ab7acf64cec1a7ef48eafc0bdc8ff00fbb4a",
+        "cycle": 48,
+        "cycle_step": 100,
+        "total_steps": 200,
+        "optimizer_parameter_groups": 2,
+        "optimizer_states": 202,
+        "rng_state_present": true,
+        "training_rows_at_checkpoint_cycle": 253589,
+        "training_fingerprint": "b314ed8349c5179acc3f72af53929711ba40223acc808e5f4229bb2c659c8e9d",
+        "reconstructed_fingerprint": "b314ed8349c5179acc3f72af53929711ba40223acc808e5f4229bb2c659c8e9d",
+        "training_fingerprint_matches": true
+      },
+      "zh": {
+        "sha256": "4231facb6f0c37dc423f6be22344dcf9e8b9b13745030f7200ffd2141f24caed",
+        "cycle": 48,
+        "cycle_step": 100,
+        "total_steps": 200,
+        "optimizer_parameter_groups": 2,
+        "optimizer_states": 202,
+        "rng_state_present": true,
+        "training_rows_at_checkpoint_cycle": 593903,
+        "training_fingerprint": "35586d483c5acd2bf402f224255406b55056132e807630bf2b576677736920b1",
+        "reconstructed_fingerprint": "35586d483c5acd2bf402f224255406b55056132e807630bf2b576677736920b1",
+        "training_fingerprint_matches": true
+      }
+    },
+    "scope": "backup deserialization/provenance; no training or model-quality inference",
+    "all_training_fingerprints_match": true
+  },
+  "proof_scope_note": "CPU deserialization and exact training fingerprint checked for generation data cycle 50 / all checkpoints cycle 48. Latest generation has separate per-object SHA/readback verification; it is not the same generation as this additional proof.",
+  "two_generations_kept": true,
+  "existing_local_files_deleted": false,
+  "manifest_captured_at_utc": "2026-10-27T00:09:50.016648+00:00",
+  "complete_heldout_report_and_full_traces_verified": true,
+  "last_checked_at_utc": "2026-10-27T00:16:52.627355+00:00",
+  "current_transfer_state": {
+    "stage": "SYNCED",
+    "at_utc": "2026-10-27T00:09:50.258488+00:00",
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+    "verified_files": 39,
+    "full_recovery_available": true,
+    "files": 39,
+    "data_cycle": 69,
+    "logical_bytes": 17855285453,
+    "object_bytes": 21211724483,
+    "pruned_objects": 5,
+    "next_check_seconds": 900
+  }
+}

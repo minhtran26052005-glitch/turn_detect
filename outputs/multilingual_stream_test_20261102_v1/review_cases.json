@@ -1,0 +1,4437 @@
+[
+  {
+    "number": 1,
+    "vi_source": "vi_r00001_a000009528",
+    "en_source": "en_r00001_a000001267",
+    "vi_original": "Bao bì 13 trường hợp có mã lô bị thiếu, cần kiểm tra lại quy trình dán nhãn trước khi đóng gói. Tờ phiếu R982 cho thấy 3 lô trong số 200 sản phẩm không đồng bộ với dữ liệu hệ thống. Có thể do thiết bị dán nhãn bị lệch vị trí?",
+    "en_original": "The sample size was 10% of the batch, so 80 units. The four issues were flagged during the final audit. I’ve cross-referenced the serial numbers with the production run. The discrepancy is possible if some units were missed during the initial pass. Let me check the scanner logs for that batch.",
+    "stream_input": "bao bì 13 trường hợp có mã lô bị thiếu cần kiểm tra lại quy trình dán nhãn trước khi đóng gói tờ phiếu r982 cho thấy 3 lô trong số 200 sản phẩm không đồng bộ với dữ liệu hệ thống có thể do thiết bị dán nhãn bị lệch vị trí the sample size was 10 of the batch so 80 units the four issues were flagged during the final audit i ve cross referenced the serial numbers with the production run the discrepancy is possible if some units were missed during the initial pass let me check the scanner logs for that batch",
+    "switch_word_index": 53,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_001",
+          "case": 1,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 53,
+          "buffer_start_word_index": 42,
+          "context": "có thể do thiết bị dán nhãn bị lệch vị trí",
+          "text": "the",
+          "p_eot": 0.9999756813049316,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "bao bì 13 trường hợp có mã lô bị thiếu cần kiểm tra lại quy trình dán nhãn trước khi đóng gói",
+            "start": 0,
+            "end": 22,
+            "p_eot": 0.9559813141822815,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tờ phiếu r982 cho thấy 3 lô trong số 200 sản phẩm không đồng bộ với dữ liệu hệ thống",
+            "start": 22,
+            "end": 42,
+            "p_eot": 0.6645402908325195,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "có thể do thiết bị dán nhãn bị lệch vị trí",
+            "start": 42,
+            "end": 53,
+            "p_eot": 0.9999756813049316,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the sample size was 10 of the batch so 80 units",
+            "start": 53,
+            "end": 64,
+            "p_eot": 0.9839708209037781,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the four issues were flagged during the final audit",
+            "start": 64,
+            "end": 73,
+            "p_eot": 0.9948603510856628,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve cross referenced the serial numbers with the production run",
+            "start": 73,
+            "end": 84,
+            "p_eot": 0.9916841983795166,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the discrepancy is possible",
+            "start": 84,
+            "end": 88,
+            "p_eot": 0.8558511734008789,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if some units were missed during the initial pass",
+            "start": 88,
+            "end": 97,
+            "p_eot": 0.9924227595329285,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me check the scanner logs for that batch",
+            "start": 97,
+            "end": 106,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_001",
+            "case": 1,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 53,
+            "buffer_start_word_index": 42,
+            "context": "có thể do thiết bị dán nhãn bị lệch vị trí",
+            "text": "the",
+            "p_eot": 0.9999756813049316,
+            "predicted": "EOT",
+            "reference": null
+          },
+          {
+            "stream_key": "mixed_001",
+            "case": 1,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 88,
+            "buffer_start_word_index": 84,
+            "context": "the discrepancy is possible",
+            "text": "if",
+            "p_eot": 0.8558511734008789,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 104,
+          "tp": 6,
+          "tn": 97,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9903846153846154,
+          "eot_f1": 0.9230769230769231,
+          "eot_precision": 0.8571428571428571,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.14285714285714285,
+          "false_positive_rate": 0.01020408163265306
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_001",
+          "case": 1,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 53,
+          "buffer_start_word_index": 42,
+          "context": "có thể do thiết bị dán nhãn bị lệch vị trí",
+          "text": "the sample",
+          "p_eot": 0.9999732971191406,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "bao bì 13 trường hợp có mã lô bị thiếu cần kiểm tra lại quy trình dán nhãn trước khi đóng gói",
+            "start": 0,
+            "end": 22,
+            "p_eot": 0.9656413197517395,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tờ phiếu r982 cho thấy 3 lô trong số 200 sản phẩm không đồng bộ với dữ liệu hệ thống",
+            "start": 22,
+            "end": 42,
+            "p_eot": 0.6540113687515259,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "có thể do thiết bị dán nhãn bị lệch vị trí",
+            "start": 42,
+            "end": 53,
+            "p_eot": 0.9999732971191406,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the sample size was 10 of the batch so 80 units",
+            "start": 53,
+            "end": 64,
+            "p_eot": 0.9871788024902344,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the four issues were flagged during the final audit",
+            "start": 64,
+            "end": 73,
+            "p_eot": 0.9959298968315125,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve cross referenced the serial numbers with the production run",
+            "start": 73,
+            "end": 84,
+            "p_eot": 0.9948603510856628,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the discrepancy is possible",
+            "start": 84,
+            "end": 88,
+            "p_eot": 0.8134608268737793,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if some units were missed during the initial pass",
+            "start": 88,
+            "end": 97,
+            "p_eot": 0.9895108342170715,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me check the scanner logs for that batch",
+            "start": 97,
+            "end": 106,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_001",
+            "case": 1,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 53,
+            "buffer_start_word_index": 42,
+            "context": "có thể do thiết bị dán nhãn bị lệch vị trí",
+            "text": "the sample",
+            "p_eot": 0.9999732971191406,
+            "predicted": "EOT",
+            "reference": null
+          },
+          {
+            "stream_key": "mixed_001",
+            "case": 1,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 88,
+            "buffer_start_word_index": 84,
+            "context": "the discrepancy is possible",
+            "text": "if some",
+            "p_eot": 0.8134608268737793,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 103,
+          "tp": 6,
+          "tn": 96,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9902912621359223,
+          "eot_f1": 0.9230769230769231,
+          "eot_precision": 0.8571428571428571,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.14285714285714285,
+          "false_positive_rate": 0.010309278350515464
+        }
+      }
+    }
+  },
+  {
+    "number": 2,
+    "vi_source": "vi_r00001_a000010760",
+    "en_source": "en_r00001_a000002039",
+    "vi_original": "Đã đồng ý bổ sung cột thời gian bắt đầu và kết thúc cho từng công đoạn. Tuy nhiên, nhân viên vẫn chưa được hướng dẫn rõ cách ghi, cần đào tạo thêm.",
+    "en_original": "Agreed. I’ll prepare the replacement parts and adjust the maintenance schedule to include a full tooling inspection. Let’s track the next batch’s output and compare it against the baseline to validate the fix.",
+    "stream_input": "đã đồng ý bổ sung cột thời gian bắt đầu và kết thúc cho từng công đoạn tuy nhiên nhân viên vẫn chưa được hướng dẫn rõ cách ghi cần đào tạo thêm agreed i ll prepare the replacement parts and adjust the maintenance schedule to include a full tooling inspection let s track the next batch s output and compare it against the baseline to validate the fix",
+    "switch_word_index": 33,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_002",
+          "case": 2,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 33,
+          "buffer_start_word_index": 29,
+          "context": "cần đào tạo thêm",
+          "text": "agreed",
+          "p_eot": 0.9999697208404541,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã đồng ý bổ sung cột thời gian bắt đầu và kết thúc cho từng công đoạn",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.9976403713226318,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tuy nhiên nhân viên vẫn chưa được hướng dẫn rõ cách ghi",
+            "start": 17,
+            "end": 29,
+            "p_eot": 0.8524448275566101,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần đào tạo thêm",
+            "start": 29,
+            "end": 33,
+            "p_eot": 0.9999697208404541,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "agreed",
+            "start": 33,
+            "end": 34,
+            "p_eot": 0.9974491000175476,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll prepare the replacement parts and adjust the maintenance schedule to include a full tooling inspection",
+            "start": 34,
+            "end": 51,
+            "p_eot": 0.9985674619674683,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let s track the next batch s output and compare it against the baseline to validate the fix",
+            "start": 51,
+            "end": 69,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_002",
+            "case": 2,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 29,
+            "buffer_start_word_index": 17,
+            "context": "tuy nhiên nhân viên vẫn chưa được hướng dẫn rõ cách ghi",
+            "text": "cần",
+            "p_eot": 0.8524448275566101,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_002",
+            "case": 2,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 33,
+            "buffer_start_word_index": 29,
+            "context": "cần đào tạo thêm",
+            "text": "agreed",
+            "p_eot": 0.9999697208404541,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 68,
+          "tp": 4,
+          "tn": 63,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9852941176470589,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.015625
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_002",
+          "case": 2,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 33,
+          "buffer_start_word_index": 29,
+          "context": "cần đào tạo thêm",
+          "text": "agreed i",
+          "p_eot": 0.9999741315841675,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã đồng ý bổ sung cột thời gian bắt đầu và kết thúc cho từng công đoạn",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.9964619278907776,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tuy nhiên nhân viên vẫn chưa được hướng dẫn rõ cách ghi",
+            "start": 17,
+            "end": 29,
+            "p_eot": 0.8305941224098206,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần đào tạo thêm",
+            "start": 29,
+            "end": 33,
+            "p_eot": 0.9999741315841675,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "agreed",
+            "start": 33,
+            "end": 34,
+            "p_eot": 0.9980732202529907,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll prepare the replacement parts and adjust the maintenance schedule to include a full tooling inspection",
+            "start": 34,
+            "end": 51,
+            "p_eot": 0.9981030225753784,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let s track the next batch s output and compare it against the baseline to validate the fix",
+            "start": 51,
+            "end": 69,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_002",
+            "case": 2,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 29,
+            "buffer_start_word_index": 17,
+            "context": "tuy nhiên nhân viên vẫn chưa được hướng dẫn rõ cách ghi",
+            "text": "cần đào",
+            "p_eot": 0.8305941224098206,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_002",
+            "case": 2,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 33,
+            "buffer_start_word_index": 29,
+            "context": "cần đào tạo thêm",
+            "text": "agreed i",
+            "p_eot": 0.9999741315841675,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 67,
+          "tp": 4,
+          "tn": 62,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9850746268656716,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.015873015873015872
+        }
+      }
+    }
+  },
+  {
+    "number": 3,
+    "vi_source": "vi_r00001_a000002118",
+    "en_source": "en_r00001_a000002648",
+    "vi_original": "Đã kiểm tra lại phiếu R528, ca C, lô 240, thấy phần ghi nhận nếp gấp chỉ có 5 cuộn, không phải 12. Có thể do nhân viên nhập liệu nhầm lẫn. Cần xác nhận lại với bộ phận vận chuyển.",
+    "en_original": "I agree the distance is an issue. But we need to check if the current setup aligns with the shift B workflow. Let me pull up the shift log for batch 320. If the bin is moved, we'll have to adjust the tote rack locations too. Can you confirm the exact time lost during those 8 observations?",
+    "stream_input": "đã kiểm tra lại phiếu r528 ca c lô 240 thấy phần ghi nhận nếp gấp chỉ có 5 cuộn không phải 12 có thể do nhân viên nhập liệu nhầm lẫn cần xác nhận lại với bộ phận vận chuyển i agree the distance is an issue but we need to check if the current setup aligns with the shift b workflow let me pull up the shift log for batch 320 if the bin is moved we ll have to adjust the tote rack locations too can you confirm the exact time lost during those 8 observations",
+    "switch_word_index": 41,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_003",
+          "case": 3,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 41,
+          "buffer_start_word_index": 32,
+          "context": "cần xác nhận lại với bộ phận vận chuyển",
+          "text": "i",
+          "p_eot": 0.9999469518661499,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã kiểm tra lại phiếu r528 ca c lô 240 thấy phần ghi nhận nếp gấp chỉ có 5 cuộn không",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.7711548805236816,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "phải 12 có thể do nhân viên nhập liệu nhầm lẫn",
+            "start": 21,
+            "end": 32,
+            "p_eot": 0.6343168616294861,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần xác nhận lại với bộ phận vận chuyển",
+            "start": 32,
+            "end": 41,
+            "p_eot": 0.9999469518661499,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i agree the distance is an issue but we need to check if the current setup aligns with the shift b workflow",
+            "start": 41,
+            "end": 63,
+            "p_eot": 0.9982725381851196,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me pull up the shift log for batch 320",
+            "start": 63,
+            "end": 73,
+            "p_eot": 0.9851576089859009,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the bin is moved we ll have to adjust the tote rack locations too",
+            "start": 73,
+            "end": 88,
+            "p_eot": 0.9830850958824158,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "can you confirm the exact time lost during those 8 observations",
+            "start": 88,
+            "end": 99,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 21,
+            "buffer_start_word_index": 0,
+            "context": "đã kiểm tra lại phiếu r528 ca c lô 240 thấy phần ghi nhận nếp gấp chỉ có 5 cuộn không",
+            "text": "phải",
+            "p_eot": 0.7711548805236816,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 23,
+            "buffer_start_word_index": 21,
+            "context": "phải 12",
+            "text": "có",
+            "p_eot": 0.07477004081010818,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 41,
+            "buffer_start_word_index": 32,
+            "context": "cần xác nhận lại với bộ phận vận chuyển",
+            "text": "i",
+            "p_eot": 0.9999469518661499,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 48,
+            "buffer_start_word_index": 41,
+            "context": "i agree the distance is an issue",
+            "text": "but",
+            "p_eot": 0.025371313095092773,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 98,
+          "tp": 5,
+          "tn": 90,
+          "fp": 1,
+          "fn": 2,
+          "accuracy": 0.9693877551020408,
+          "eot_f1": 0.7692307692307693,
+          "eot_precision": 0.8333333333333334,
+          "eot_recall": 0.7142857142857143,
+          "false_share_of_cuts": 0.16666666666666666,
+          "false_positive_rate": 0.01098901098901099
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_003",
+          "case": 3,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 41,
+          "buffer_start_word_index": 32,
+          "context": "cần xác nhận lại với bộ phận vận chuyển",
+          "text": "i agree",
+          "p_eot": 0.9999469518661499,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã kiểm tra lại phiếu r528 ca c lô 240 thấy phần ghi nhận nếp gấp chỉ có 5 cuộn không phải 12",
+            "start": 0,
+            "end": 23,
+            "p_eot": 0.791176438331604,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "có thể do nhân viên nhập liệu nhầm lẫn",
+            "start": 23,
+            "end": 32,
+            "p_eot": 0.543832540512085,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần xác nhận lại với bộ phận vận chuyển",
+            "start": 32,
+            "end": 41,
+            "p_eot": 0.9999469518661499,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i agree the distance is an issue but we need to check if the current setup aligns with the shift b workflow",
+            "start": 41,
+            "end": 63,
+            "p_eot": 0.9979493021965027,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me pull up the shift log for batch 320",
+            "start": 63,
+            "end": 73,
+            "p_eot": 0.9898303151130676,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the bin is moved we ll have to adjust the tote rack locations too",
+            "start": 73,
+            "end": 88,
+            "p_eot": 0.9928786158561707,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "can you confirm the exact time lost during those 8 observations",
+            "start": 88,
+            "end": 99,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 41,
+            "buffer_start_word_index": 32,
+            "context": "cần xác nhận lại với bộ phận vận chuyển",
+            "text": "i agree",
+            "p_eot": 0.9999469518661499,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_003",
+            "case": 3,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 48,
+            "buffer_start_word_index": 41,
+            "context": "i agree the distance is an issue",
+            "text": "but we",
+            "p_eot": 0.029986508190631866,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 97,
+          "tp": 6,
+          "tn": 90,
+          "fp": 0,
+          "fn": 1,
+          "accuracy": 0.9896907216494846,
+          "eot_f1": 0.9230769230769231,
+          "eot_precision": 1.0,
+          "eot_recall": 0.8571428571428571,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 4,
+    "vi_source": "vi_r00001_a000008357",
+    "en_source": "en_r00001_a000000381",
+    "vi_original": "Thiết lập máy được cập nhật đúng, nhưng bảo trì cuối tuần trước chưa hoàn tất. Dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền.",
+    "en_original": "The timestamp shows the log was entered after the batch was released. That means the verification wasn’t done in real time. We need to determine who was on duty during that window and whether they were aware of the flag. It’s possible the system didn’t prompt for confirmation.",
+    "stream_input": "thiết lập máy được cập nhật đúng nhưng bảo trì cuối tuần trước chưa hoàn tất dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền the timestamp shows the log was entered after the batch was released that means the verification wasn t done in real time we need to determine who was on duty during that window and whether they were aware of the flag it s possible the system didn t prompt for confirmation",
+    "switch_word_index": 28,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_004",
+          "case": 4,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 28,
+          "buffer_start_word_index": 16,
+          "context": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+          "text": "the",
+          "p_eot": 0.9999756813049316,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "thiết lập máy được cập nhật đúng nhưng bảo trì cuối tuần trước chưa hoàn tất",
+            "start": 0,
+            "end": 16,
+            "p_eot": 0.8906751871109009,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+            "start": 16,
+            "end": 28,
+            "p_eot": 0.9999756813049316,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the timestamp shows the log was entered after the batch was released",
+            "start": 28,
+            "end": 40,
+            "p_eot": 0.9782188534736633,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "that means the verification wasn t done in real time",
+            "start": 40,
+            "end": 50,
+            "p_eot": 0.9891815781593323,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we need to determine who was on duty during that window and whether they were aware of the flag",
+            "start": 50,
+            "end": 69,
+            "p_eot": 0.9837225079536438,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it s possible the system didn t prompt for confirmation",
+            "start": 69,
+            "end": 79,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_004",
+            "case": 4,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 28,
+            "buffer_start_word_index": 16,
+            "context": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+            "text": "the",
+            "p_eot": 0.9999756813049316,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 78,
+          "tp": 5,
+          "tn": 73,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_004",
+          "case": 4,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 28,
+          "buffer_start_word_index": 16,
+          "context": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+          "text": "the timestamp",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "thiết lập máy được cập nhật đúng nhưng bảo trì cuối tuần trước chưa hoàn tất",
+            "start": 0,
+            "end": 16,
+            "p_eot": 0.9828232526779175,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+            "start": 16,
+            "end": 28,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the timestamp shows the log was entered after the batch was released",
+            "start": 28,
+            "end": 40,
+            "p_eot": 0.9869794845581055,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "that means the verification wasn t done in real time",
+            "start": 40,
+            "end": 50,
+            "p_eot": 0.9881309270858765,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we need to determine who was on duty during that window and whether they were aware of the flag",
+            "start": 50,
+            "end": 69,
+            "p_eot": 0.9852713346481323,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it s possible the system didn t prompt for confirmation",
+            "start": 69,
+            "end": 79,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_004",
+            "case": 4,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 28,
+            "buffer_start_word_index": 16,
+            "context": "dấu hiệu sờn có xu hướng tập trung ở cuối dây chuyền",
+            "text": "the timestamp",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 77,
+          "tp": 5,
+          "tn": 72,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 5,
+    "vi_source": "vi_r00001_a000013165",
+    "en_source": "en_r00001_a000001522",
+    "vi_original": "Đề nghị cung cấp ảnh chụp hiện trường và dữ liệu đo nhiệt độ trong thời gian xảy ra sự cố. Nếu không có, cần xác định lại các điểm kiểm soát để tránh lỗ hổng. Hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó.",
+    "en_original": "I've reviewed record R549 from shift B and noticed six units flagged for inspection. The batch size was 240 so the rate is low but the notes mention 'spare parts'—are those units separate from the main batch or part of it? If they're separate, we need to confirm if they follow the same schedule. I'll need a breakdown of which units were identified.",
+    "stream_input": "đề nghị cung cấp ảnh chụp hiện trường và dữ liệu đo nhiệt độ trong thời gian xảy ra sự cố nếu không có cần xác định lại các điểm kiểm soát để tránh lỗ hổng hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó i ve reviewed record r549 from shift b and noticed six units flagged for inspection the batch size was 240 so the rate is low but the notes mention spare parts are those units separate from the main batch or part of it if they re separate we need to confirm if they follow the same schedule i ll need a breakdown of which units were identified",
+    "switch_word_index": 49,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_005",
+          "case": 5,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 49,
+          "buffer_start_word_index": 36,
+          "context": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+          "text": "i",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đề nghị cung cấp ảnh chụp hiện trường và dữ liệu đo nhiệt độ trong thời gian xảy ra sự cố",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.8852352499961853,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "nếu không có cần xác định lại các điểm kiểm soát để tránh lỗ hổng",
+            "start": 21,
+            "end": 36,
+            "p_eot": 0.7070003151893616,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+            "start": 36,
+            "end": 49,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve reviewed record r549 from shift b and noticed six units flagged for inspection",
+            "start": 49,
+            "end": 64,
+            "p_eot": 0.9959927201271057,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the batch size was 240 so the rate is low",
+            "start": 64,
+            "end": 74,
+            "p_eot": 0.6926419734954834,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "but the notes mention spare parts are those units separate from the main batch or part of it",
+            "start": 74,
+            "end": 92,
+            "p_eot": 0.9895108342170715,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if they re separate we need to confirm if they follow the same schedule",
+            "start": 92,
+            "end": 106,
+            "p_eot": 0.9984752535820007,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll need a breakdown of which units were identified",
+            "start": 106,
+            "end": 116,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_005",
+            "case": 5,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 49,
+            "buffer_start_word_index": 36,
+            "context": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+            "text": "i",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_005",
+            "case": 5,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 74,
+            "buffer_start_word_index": 64,
+            "context": "the batch size was 240 so the rate is low",
+            "text": "but",
+            "p_eot": 0.6926419734954834,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 114,
+          "tp": 5,
+          "tn": 108,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9912280701754386,
+          "eot_f1": 0.9090909090909091,
+          "eot_precision": 0.8333333333333334,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.16666666666666666,
+          "false_positive_rate": 0.009174311926605505
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_005",
+          "case": 5,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 49,
+          "buffer_start_word_index": 36,
+          "context": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+          "text": "i ve",
+          "p_eot": 0.9999724626541138,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đề nghị cung cấp ảnh chụp hiện trường và dữ liệu đo nhiệt độ trong thời gian xảy ra sự cố",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.9268352389335632,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "nếu không có cần xác định lại các điểm kiểm soát để tránh lỗ hổng",
+            "start": 21,
+            "end": 36,
+            "p_eot": 0.8494724035263062,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+            "start": 36,
+            "end": 49,
+            "p_eot": 0.9999724626541138,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve reviewed record r549 from shift b and noticed six units flagged for inspection",
+            "start": 49,
+            "end": 64,
+            "p_eot": 0.997065007686615,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the batch size was 240 so the rate is low",
+            "start": 64,
+            "end": 74,
+            "p_eot": 0.6544531583786011,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "but the notes mention spare parts are those units separate from the main batch or part of it",
+            "start": 74,
+            "end": 92,
+            "p_eot": 0.985496461391449,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if they re separate we need to confirm if they follow the same schedule",
+            "start": 92,
+            "end": 106,
+            "p_eot": 0.9982725381851196,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll need a breakdown of which units were identified",
+            "start": 106,
+            "end": 116,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_005",
+            "case": 5,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 49,
+            "buffer_start_word_index": 36,
+            "context": "hiện tại chưa có bằng chứng thuyết phục cho các trường hợp đó",
+            "text": "i ve",
+            "p_eot": 0.9999724626541138,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_005",
+            "case": 5,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 74,
+            "buffer_start_word_index": 64,
+            "context": "the batch size was 240 so the rate is low",
+            "text": "but the",
+            "p_eot": 0.6544531583786011,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 113,
+          "tp": 5,
+          "tn": 107,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9911504424778761,
+          "eot_f1": 0.9090909090909091,
+          "eot_precision": 0.8333333333333334,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.16666666666666666,
+          "false_positive_rate": 0.009259259259259259
+        }
+      }
+    }
+  },
+  {
+    "number": 6,
+    "vi_source": "vi_r00001_a000013764",
+    "en_source": "en_r00001_a000001254",
+    "vi_original": "Dữ liệu từ ca A đã gửi, nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước kiểm tra. Việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất.",
+    "en_original": "I’ve reviewed the R496 records from shift B and noticed 13 observations flagged for verification. The batch of 200 units shows some variation in the insulation layer thickness—maybe around 0.8mm instead of the target 1.2mm. We should check if the recent calibration of the extrusion machine was done properly.",
+    "stream_input": "dữ liệu từ ca a đã gửi nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất i ve reviewed the r496 records from shift b and noticed 13 observations flagged for verification the batch of 200 units shows some variation in the insulation layer thickness maybe around 0 8mm instead of the target 1 2mm we should check if the recent calibration of the extrusion machine was done properly",
+    "switch_word_index": 39,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_006",
+          "case": 6,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 39,
+          "buffer_start_word_index": 21,
+          "context": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+          "text": "i",
+          "p_eot": 0.9999716281890869,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "dữ liệu từ ca a đã gửi nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.5536259412765503,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+            "start": 21,
+            "end": 39,
+            "p_eot": 0.9999716281890869,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve reviewed the r496 records from shift b and noticed 13 observations flagged for verification",
+            "start": 39,
+            "end": 55,
+            "p_eot": 0.9969722032546997,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the batch of 200 units shows some variation in the insulation layer thickness maybe around 0 8mm instead of the target 1 2mm",
+            "start": 55,
+            "end": 78,
+            "p_eot": 0.9904406070709229,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we should check if the recent calibration of the extrusion machine was done properly",
+            "start": 78,
+            "end": 92,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 21,
+            "buffer_start_word_index": 0,
+            "context": "dữ liệu từ ca a đã gửi nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước",
+            "text": "kiểm",
+            "p_eot": 0.5536259412765503,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 23,
+            "buffer_start_word_index": 21,
+            "context": "kiểm tra",
+            "text": "việc",
+            "p_eot": 0.007815889082849026,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 39,
+            "buffer_start_word_index": 21,
+            "context": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+            "text": "i",
+            "p_eot": 0.9999716281890869,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 91,
+          "tp": 3,
+          "tn": 86,
+          "fp": 1,
+          "fn": 1,
+          "accuracy": 0.978021978021978,
+          "eot_f1": 0.75,
+          "eot_precision": 0.75,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.25,
+          "false_positive_rate": 0.011494252873563218
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_006",
+          "case": 6,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 39,
+          "buffer_start_word_index": 21,
+          "context": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+          "text": "i ve",
+          "p_eot": 0.9999697208404541,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "dữ liệu từ ca a đã gửi nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.7853085398674011,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+            "start": 21,
+            "end": 39,
+            "p_eot": 0.9999697208404541,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve reviewed the r496 records from shift b and noticed 13 observations flagged for verification",
+            "start": 39,
+            "end": 55,
+            "p_eot": 0.9977830052375793,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the batch of 200 units shows some variation in the insulation layer thickness maybe around 0 8mm instead of the target 1 2mm",
+            "start": 55,
+            "end": 78,
+            "p_eot": 0.9946980476379395,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we should check if the recent calibration of the extrusion machine was done properly",
+            "start": 78,
+            "end": 92,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 21,
+            "buffer_start_word_index": 0,
+            "context": "dữ liệu từ ca a đã gửi nhưng cần xác minh lại số lượng sản phẩm bị lỗi trong từng bước",
+            "text": "kiểm tra",
+            "p_eot": 0.7853085398674011,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 23,
+            "buffer_start_word_index": 21,
+            "context": "kiểm tra",
+            "text": "việc phân",
+            "p_eot": 0.008577484637498856,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_006",
+            "case": 6,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 39,
+            "buffer_start_word_index": 21,
+            "context": "kiểm tra việc phân công trách nhiệm chưa rõ giữa phòng kỹ thuật và bộ phận sản xuất",
+            "text": "i ve",
+            "p_eot": 0.9999697208404541,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 90,
+          "tp": 3,
+          "tn": 85,
+          "fp": 1,
+          "fn": 1,
+          "accuracy": 0.9777777777777777,
+          "eot_f1": 0.75,
+          "eot_precision": 0.75,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.25,
+          "false_positive_rate": 0.011627906976744186
+        }
+      }
+    }
+  },
+  {
+    "number": 7,
+    "vi_source": "vi_r00001_a000013297",
+    "en_source": "en_r00001_a000000872",
+    "vi_original": "Đã kiểm tra cảm biến, tín hiệu ổn định. Có thể do thiết bị chiếu sáng ở khu vực này bị mờ, ảnh hưởng đến nhận diện. Đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn.",
+    "en_original": "Yes, the names would help. Also, can you verify if the authorized personnel had the required training? I'll check the training records against the sign-off.",
+    "stream_input": "đã kiểm tra cảm biến tín hiệu ổn định có thể do thiết bị chiếu sáng ở khu vực này bị mờ ảnh hưởng đến nhận diện đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn yes the names would help also can you verify if the authorized personnel had the required training i ll check the training records against the sign off",
+    "switch_word_index": 40,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_007",
+          "case": 7,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 40,
+          "buffer_start_word_index": 27,
+          "context": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+          "text": "yes",
+          "p_eot": 0.9999635219573975,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã kiểm tra cảm biến tín hiệu ổn định có thể do thiết bị chiếu sáng ở khu vực này bị mờ ảnh hưởng đến nhận diện",
+            "start": 0,
+            "end": 27,
+            "p_eot": 0.9866748452186584,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+            "start": 27,
+            "end": 40,
+            "p_eot": 0.9999635219573975,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "yes the names would help",
+            "start": 40,
+            "end": 45,
+            "p_eot": 0.9921841025352478,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also can you verify if the authorized personnel had the required training",
+            "start": 45,
+            "end": 57,
+            "p_eot": 0.8479677438735962,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll check the training records against the sign off",
+            "start": 57,
+            "end": 67,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_007",
+            "case": 7,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 9,
+            "buffer_start_word_index": 0,
+            "context": "đã kiểm tra cảm biến tín hiệu ổn định",
+            "text": "có",
+            "p_eot": 0.22884513437747955,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_007",
+            "case": 7,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 40,
+            "buffer_start_word_index": 27,
+            "context": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+            "text": "yes",
+            "p_eot": 0.9999635219573975,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 65,
+          "tp": 3,
+          "tn": 61,
+          "fp": 0,
+          "fn": 1,
+          "accuracy": 0.9846153846153847,
+          "eot_f1": 0.8571428571428571,
+          "eot_precision": 1.0,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_007",
+          "case": 7,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 40,
+          "buffer_start_word_index": 27,
+          "context": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+          "text": "yes the",
+          "p_eot": 0.9999724626541138,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã kiểm tra cảm biến tín hiệu ổn định có thể do thiết bị chiếu sáng ở khu vực này bị mờ ảnh hưởng đến nhận diện",
+            "start": 0,
+            "end": 27,
+            "p_eot": 0.9856076240539551,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+            "start": 27,
+            "end": 40,
+            "p_eot": 0.9999724626541138,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "yes the names would help",
+            "start": 40,
+            "end": 45,
+            "p_eot": 0.9951702952384949,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also can you verify if the authorized personnel had the required training",
+            "start": 45,
+            "end": 57,
+            "p_eot": 0.9202179908752441,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll check the training records against the sign off",
+            "start": 57,
+            "end": 67,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_007",
+            "case": 7,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 9,
+            "buffer_start_word_index": 0,
+            "context": "đã kiểm tra cảm biến tín hiệu ổn định",
+            "text": "có thể",
+            "p_eot": 0.25349125266075134,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_007",
+            "case": 7,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 40,
+            "buffer_start_word_index": 27,
+            "context": "đề nghị xác minh cường độ ánh sáng tại vị trí gắn nhãn",
+            "text": "yes the",
+            "p_eot": 0.9999724626541138,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 64,
+          "tp": 3,
+          "tn": 60,
+          "fp": 0,
+          "fn": 1,
+          "accuracy": 0.984375,
+          "eot_f1": 0.8571428571428571,
+          "eot_precision": 1.0,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 8,
+    "vi_source": "vi_r00001_a000003601",
+    "en_source": "en_r00001_a000002977",
+    "vi_original": "Tôi đã kiểm tra 2 trường hợp còn lại, cả hai đều đạt yêu cầu, khả năng sai sót ở lần kiểm tra trước. Tuy nhiên cần kiểm tra lại thiết bị chiếu sáng tại khu kiểm tra chất lượng để đảm bảo quy trình hoạt động chuẩn. Bạn có thể kiểm tra lại thiết bị tại vị trí đó không?",
+    "en_original": "Also, the surface treatment parameters haven't been adjusted to match the new material. I'll need to see the current process settings and compare them with the revised specifications. It might explain the inconsistency in the finish.",
+    "stream_input": "tôi đã kiểm tra 2 trường hợp còn lại cả hai đều đạt yêu cầu khả năng sai sót ở lần kiểm tra trước tuy nhiên cần kiểm tra lại thiết bị chiếu sáng tại khu kiểm tra chất lượng để đảm bảo quy trình hoạt động chuẩn bạn có thể kiểm tra lại thiết bị tại vị trí đó không also the surface treatment parameters haven t been adjusted to match the new material i ll need to see the current process settings and compare them with the revised specifications it might explain the inconsistency in the finish",
+    "switch_word_index": 61,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_008",
+          "case": 8,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 61,
+          "buffer_start_word_index": 48,
+          "context": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+          "text": "also",
+          "p_eot": 0.9998205304145813,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "tôi đã kiểm tra 2 trường hợp còn lại cả hai đều đạt yêu cầu",
+            "start": 0,
+            "end": 15,
+            "p_eot": 0.8836382031440735,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "khả năng sai sót ở lần kiểm tra trước",
+            "start": 15,
+            "end": 24,
+            "p_eot": 0.9853842854499817,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tuy nhiên cần kiểm tra lại thiết bị chiếu sáng tại khu kiểm tra chất lượng để đảm bảo quy trình hoạt động chuẩn",
+            "start": 24,
+            "end": 48,
+            "p_eot": 0.9948603510856628,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+            "start": 48,
+            "end": 61,
+            "p_eot": 0.9998205304145813,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also the surface treatment parameters haven t been adjusted to match the new material",
+            "start": 61,
+            "end": 75,
+            "p_eot": 0.9981613755226135,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll need to see the current process settings and compare them with the revised specifications",
+            "start": 75,
+            "end": 91,
+            "p_eot": 0.9881309270858765,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it might explain the inconsistency in the finish",
+            "start": 91,
+            "end": 99,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_008",
+            "case": 8,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 15,
+            "buffer_start_word_index": 0,
+            "context": "tôi đã kiểm tra 2 trường hợp còn lại cả hai đều đạt yêu cầu",
+            "text": "khả",
+            "p_eot": 0.8836382031440735,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_008",
+            "case": 8,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 61,
+            "buffer_start_word_index": 48,
+            "context": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+            "text": "also",
+            "p_eot": 0.9998205304145813,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 97,
+          "tp": 4,
+          "tn": 92,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9896907216494846,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.010752688172043012
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_008",
+          "case": 8,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 61,
+          "buffer_start_word_index": 48,
+          "context": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+          "text": "also the",
+          "p_eot": 0.9999531507492065,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "tôi đã kiểm tra 2 trường hợp còn lại cả hai đều đạt yêu cầu",
+            "start": 0,
+            "end": 15,
+            "p_eot": 0.9066531658172607,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "khả năng sai sót ở lần kiểm tra trước",
+            "start": 15,
+            "end": 24,
+            "p_eot": 0.9658995866775513,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tuy nhiên cần kiểm tra lại thiết bị chiếu sáng tại khu kiểm tra chất lượng để đảm bảo quy trình hoạt động chuẩn",
+            "start": 24,
+            "end": 48,
+            "p_eot": 0.9964619278907776,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+            "start": 48,
+            "end": 61,
+            "p_eot": 0.9999531507492065,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also the surface treatment parameters haven t been adjusted to match the new material",
+            "start": 61,
+            "end": 75,
+            "p_eot": 0.9980121850967407,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll need to see the current process settings and compare them with the revised specifications",
+            "start": 75,
+            "end": 91,
+            "p_eot": 0.9930961728096008,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it might explain the inconsistency in the finish",
+            "start": 91,
+            "end": 99,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_008",
+            "case": 8,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 15,
+            "buffer_start_word_index": 0,
+            "context": "tôi đã kiểm tra 2 trường hợp còn lại cả hai đều đạt yêu cầu",
+            "text": "khả năng",
+            "p_eot": 0.9066531658172607,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_008",
+            "case": 8,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 61,
+            "buffer_start_word_index": 48,
+            "context": "bạn có thể kiểm tra lại thiết bị tại vị trí đó không",
+            "text": "also the",
+            "p_eot": 0.9999531507492065,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 96,
+          "tp": 4,
+          "tn": 91,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9895833333333334,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.010869565217391304
+        }
+      }
+    }
+  },
+  {
+    "number": 9,
+    "vi_source": "vi_r00001_a000009200",
+    "en_source": "en_r00001_a000002727",
+    "vi_original": "Quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°C so với quy định, cần xác minh lại thiết bị đo. Đề nghị kiểm tra lại cảm biến và ghi nhận kết quả.",
+    "en_original": "The record shows 9 units had to be scrapped during shift C but I'm checking if that's linked to the robot's handling arm. We've got 160 units in the batch and the maintenance log says the arm was down for 2.5 hours. Did you see the actual downtime report or are we just going off the summary?",
+    "stream_input": "quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°c so với quy định cần xác minh lại thiết bị đo đề nghị kiểm tra lại cảm biến và ghi nhận kết quả the record shows 9 units had to be scrapped during shift c but i m checking if that s linked to the robot s handling arm we ve got 160 units in the batch and the maintenance log says the arm was down for 2 5 hours did you see the actual downtime report or are we just going off the summary",
+    "switch_word_index": 36,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_009",
+          "case": 9,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 36,
+          "buffer_start_word_index": 24,
+          "context": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+          "text": "the",
+          "p_eot": 0.9999756813049316,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°c so với quy định",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.557002067565918,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần xác minh lại thiết bị đo",
+            "start": 17,
+            "end": 24,
+            "p_eot": 0.7405498623847961,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+            "start": 24,
+            "end": 36,
+            "p_eot": 0.9999756813049316,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the record shows 9 units had to be scrapped during shift c but i m checking if that s linked to the robot s handling arm",
+            "start": 36,
+            "end": 62,
+            "p_eot": 0.8365545868873596,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we ve got 160 units in the batch and the maintenance log says the arm was down for 2 5 hours",
+            "start": 62,
+            "end": 83,
+            "p_eot": 0.7752646803855896,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "did you see the actual downtime report or are we just going off the summary",
+            "start": 83,
+            "end": 98,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_009",
+            "case": 9,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 17,
+            "buffer_start_word_index": 0,
+            "context": "quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°c so với quy định",
+            "text": "cần",
+            "p_eot": 0.557002067565918,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_009",
+            "case": 9,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 36,
+            "buffer_start_word_index": 24,
+            "context": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+            "text": "the",
+            "p_eot": 0.9999756813049316,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 97,
+          "tp": 4,
+          "tn": 92,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9896907216494846,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.010752688172043012
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_009",
+          "case": 9,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 36,
+          "buffer_start_word_index": 24,
+          "context": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+          "text": "the record",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°c so với quy định",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.5758265852928162,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần xác minh lại thiết bị đo",
+            "start": 17,
+            "end": 24,
+            "p_eot": 0.5959629416465759,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+            "start": 24,
+            "end": 36,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the record shows 9 units had to be scrapped during shift c but i m checking if that s linked to the robot s handling arm",
+            "start": 36,
+            "end": 62,
+            "p_eot": 0.8489722013473511,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we ve got 160 units in the batch and the maintenance log says the arm was down for 2 5 hours",
+            "start": 62,
+            "end": 83,
+            "p_eot": 0.7676898241043091,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "did you see the actual downtime report or are we just going off the summary",
+            "start": 83,
+            "end": 98,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_009",
+            "case": 9,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 17,
+            "buffer_start_word_index": 0,
+            "context": "quan sát thấy nhiệt độ tại trạm kiểm tra điện cao hơn 3°c so với quy định",
+            "text": "cần xác",
+            "p_eot": 0.5758265852928162,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_009",
+            "case": 9,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 36,
+            "buffer_start_word_index": 24,
+            "context": "đề nghị kiểm tra lại cảm biến và ghi nhận kết quả",
+            "text": "the record",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 96,
+          "tp": 4,
+          "tn": 91,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9895833333333334,
+          "eot_f1": 0.8888888888888888,
+          "eot_precision": 0.8,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.010869565217391304
+        }
+      }
+    }
+  },
+  {
+    "number": 10,
+    "vi_source": "vi_r00001_a000000406",
+    "en_source": "en_r00001_a000000656",
+    "vi_original": "Những trường hợp đó liên quan đến sai quy cách vải, nhưng chưa có báo cáo phân tích nguyên nhân. Đề nghị cung cấp lại báo cáo kiểm tra chi tiết từ ca B. Tôi đã gửi báo cáo phân tích kèm theo, trong đó nêu rõ 5 lỗi chính.",
+    "en_original": "We didn’t change anything in the tooling setup. The four observations you mentioned are consistent across the sample set. Let me pull the dimensional inspection report for batch 800 to confirm the tolerance range.",
+    "stream_input": "những trường hợp đó liên quan đến sai quy cách vải nhưng chưa có báo cáo phân tích nguyên nhân đề nghị cung cấp lại báo cáo kiểm tra chi tiết từ ca b tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính we didn t change anything in the tooling setup the four observations you mentioned are consistent across the sample set let me pull the dimensional inspection report for batch 800 to confirm the tolerance range",
+    "switch_word_index": 50,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_010",
+          "case": 10,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 50,
+          "buffer_start_word_index": 34,
+          "context": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+          "text": "we",
+          "p_eot": 0.9999706745147705,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "những trường hợp đó liên quan đến sai quy cách vải nhưng chưa có báo cáo phân tích nguyên nhân",
+            "start": 0,
+            "end": 20,
+            "p_eot": 0.9926542043685913,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị cung cấp lại báo cáo kiểm tra chi tiết từ ca b",
+            "start": 20,
+            "end": 34,
+            "p_eot": 0.9842154383659363,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+            "start": 34,
+            "end": 50,
+            "p_eot": 0.9999706745147705,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we didn t change anything in the tooling setup",
+            "start": 50,
+            "end": 59,
+            "p_eot": 0.980728805065155,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the four observations you mentioned are consistent across the sample set",
+            "start": 59,
+            "end": 70,
+            "p_eot": 0.985496461391449,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me pull the dimensional inspection report for batch 800 to confirm the tolerance range",
+            "start": 70,
+            "end": 85,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_010",
+            "case": 10,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 50,
+            "buffer_start_word_index": 34,
+            "context": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+            "text": "we",
+            "p_eot": 0.9999706745147705,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 84,
+          "tp": 5,
+          "tn": 79,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_010",
+          "case": 10,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 50,
+          "buffer_start_word_index": 34,
+          "context": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+          "text": "we didn",
+          "p_eot": 0.9999635219573975,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "những trường hợp đó liên quan đến sai quy cách vải nhưng chưa có báo cáo phân tích nguyên nhân",
+            "start": 0,
+            "end": 20,
+            "p_eot": 0.9896718263626099,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị cung cấp lại báo cáo kiểm tra chi tiết từ ca b",
+            "start": 20,
+            "end": 34,
+            "p_eot": 0.9818752408027649,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+            "start": 34,
+            "end": 50,
+            "p_eot": 0.9999635219573975,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we didn t change anything in the tooling setup",
+            "start": 50,
+            "end": 59,
+            "p_eot": 0.9877586960792542,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the four observations you mentioned are consistent across the sample set",
+            "start": 59,
+            "end": 70,
+            "p_eot": 0.9775429368019104,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me pull the dimensional inspection report for batch 800 to confirm the tolerance range",
+            "start": 70,
+            "end": 85,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_010",
+            "case": 10,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 50,
+            "buffer_start_word_index": 34,
+            "context": "tôi đã gửi báo cáo phân tích kèm theo trong đó nêu rõ 5 lỗi chính",
+            "text": "we didn",
+            "p_eot": 0.9999635219573975,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 83,
+          "tp": 5,
+          "tn": 78,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 11,
+    "vi_source": "vi_r00001_a000005258",
+    "en_source": "en_r00001_a000000271",
+    "vi_original": "Dây chuyền 3 có 8 trường hợp lệch kích thước, cần kiểm tra lại máy cắt 5 và 7. Dữ liệu R523 cho thấy 3 sản phẩm bị lỗi ở bước định hình. Tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy.",
+    "en_original": "The readings from sensor three on shift B show a 0.12% drift over the last batch of 160 units. I checked the calibration logs and they’re within range but the trend suggests a possible offset. You mentioned the issue was resolved during the last maintenance—can we cross-reference the calibration dates with the batch records?",
+    "stream_input": "dây chuyền 3 có 8 trường hợp lệch kích thước cần kiểm tra lại máy cắt 5 và 7 dữ liệu r523 cho thấy 3 sản phẩm bị lỗi ở bước định hình tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy the readings from sensor three on shift b show a 0 12 drift over the last batch of 160 units i checked the calibration logs and they re within range but the trend suggests a possible offset you mentioned the issue was resolved during the last maintenance can we cross reference the calibration dates with the batch records",
+    "switch_word_index": 47,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_011",
+          "case": 11,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 47,
+          "buffer_start_word_index": 33,
+          "context": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+          "text": "the",
+          "p_eot": 0.999976396560669,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "dây chuyền 3 có 8 trường hợp lệch kích thước cần kiểm tra lại máy cắt 5 và 7",
+            "start": 0,
+            "end": 19,
+            "p_eot": 0.9908744096755981,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "dữ liệu r523 cho thấy 3 sản phẩm bị lỗi ở bước định hình",
+            "start": 19,
+            "end": 33,
+            "p_eot": 0.9853842854499817,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+            "start": 33,
+            "end": 47,
+            "p_eot": 0.999976396560669,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the readings from sensor three on shift b show a 0 12 drift over the last batch of 160 units",
+            "start": 47,
+            "end": 67,
+            "p_eot": 0.9979493021965027,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i checked the calibration logs and they re within range",
+            "start": 67,
+            "end": 77,
+            "p_eot": 0.5579657554626465,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "but the trend suggests a possible offset",
+            "start": 77,
+            "end": 84,
+            "p_eot": 0.9588471055030823,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "you mentioned the issue was resolved during the last maintenance can we cross reference the calibration dates with the batch records",
+            "start": 84,
+            "end": 105,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_011",
+            "case": 11,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 47,
+            "buffer_start_word_index": 33,
+            "context": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+            "text": "the",
+            "p_eot": 0.999976396560669,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_011",
+            "case": 11,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 77,
+            "buffer_start_word_index": 67,
+            "context": "i checked the calibration logs and they re within range",
+            "text": "but",
+            "p_eot": 0.5579657554626465,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 104,
+          "tp": 5,
+          "tn": 98,
+          "fp": 1,
+          "fn": 0,
+          "accuracy": 0.9903846153846154,
+          "eot_f1": 0.9090909090909091,
+          "eot_precision": 0.8333333333333334,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.16666666666666666,
+          "false_positive_rate": 0.010101010101010102
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_011",
+          "case": 11,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 47,
+          "buffer_start_word_index": 33,
+          "context": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+          "text": "the readings",
+          "p_eot": 0.9999732971191406,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "dây chuyền 3 có 8 trường hợp lệch kích thước cần kiểm tra lại máy cắt 5 và 7",
+            "start": 0,
+            "end": 19,
+            "p_eot": 0.9838472008705139,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "dữ liệu r523 cho thấy 3 sản phẩm bị lỗi ở bước định hình",
+            "start": 19,
+            "end": 33,
+            "p_eot": 0.9815951585769653,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+            "start": 33,
+            "end": 47,
+            "p_eot": 0.9999732971191406,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the readings from sensor three on shift b show a 0 12 drift over the last batch of 160 units",
+            "start": 47,
+            "end": 67,
+            "p_eot": 0.9973269701004028,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i checked the calibration logs and they re within range but the trend suggests a possible offset",
+            "start": 67,
+            "end": 84,
+            "p_eot": 0.9946980476379395,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "you mentioned the issue was resolved during the last maintenance can we cross reference the calibration dates with the batch records",
+            "start": 84,
+            "end": 105,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_011",
+            "case": 11,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 47,
+            "buffer_start_word_index": 33,
+            "context": "tôi đề nghị xác minh lại quy trình điều chỉnh góc nghiêng của máy",
+            "text": "the readings",
+            "p_eot": 0.9999732971191406,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 103,
+          "tp": 5,
+          "tn": 98,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 12,
+    "vi_source": "vi_r00001_a000010310",
+    "en_source": "en_r00001_a000002130",
+    "vi_original": "Mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0,2mm so với thiết kế. Có thể do máy cắt chưa đồng bộ với bộ cảm biến?",
+    "en_original": "The observations were logged under record R547, but it doesn’t show up in the current inventory list. I’ll verify the physical stock now to see if there’s a mismatch. Also, did you note any timestamps or operators involved in the batch handling?",
+    "stream_input": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến the observations were logged under record r547 but it doesn t show up in the current inventory list i ll verify the physical stock now to see if there s a mismatch also did you note any timestamps or operators involved in the batch handling",
+    "switch_word_index": 28,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_012",
+          "case": 12,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 28,
+          "buffer_start_word_index": 0,
+          "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+          "text": "the",
+          "p_eot": 0.9999657869338989,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+            "start": 0,
+            "end": 28,
+            "p_eot": 0.9999657869338989,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the observations were logged under record r547 but it doesn t show up in the current inventory list",
+            "start": 28,
+            "end": 46,
+            "p_eot": 0.9994471669197083,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll verify the physical stock now to see if there s a mismatch",
+            "start": 46,
+            "end": 60,
+            "p_eot": 0.9979169964790344,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also did you note any timestamps or operators involved in the batch handling",
+            "start": 60,
+            "end": 73,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_012",
+            "case": 12,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 16,
+            "buffer_start_word_index": 0,
+            "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế",
+            "text": "có",
+            "p_eot": 0.47566622495651245,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_012",
+            "case": 12,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 28,
+            "buffer_start_word_index": 0,
+            "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+            "text": "the",
+            "p_eot": 0.9999657869338989,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 71,
+          "tp": 2,
+          "tn": 68,
+          "fp": 0,
+          "fn": 1,
+          "accuracy": 0.9859154929577465,
+          "eot_f1": 0.8,
+          "eot_precision": 1.0,
+          "eot_recall": 0.6666666666666666,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_012",
+          "case": 12,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 28,
+          "buffer_start_word_index": 0,
+          "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+          "text": "the observations",
+          "p_eot": 0.9999635219573975,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+            "start": 0,
+            "end": 28,
+            "p_eot": 0.9999635219573975,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the observations were logged under record r547 but it doesn t show up in the current inventory list",
+            "start": 28,
+            "end": 46,
+            "p_eot": 0.9993013143539429,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll verify the physical stock now to see if there s a mismatch",
+            "start": 46,
+            "end": 60,
+            "p_eot": 0.9985674619674683,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "also did you note any timestamps or operators involved in the batch handling",
+            "start": 60,
+            "end": 73,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_012",
+            "case": 12,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 16,
+            "buffer_start_word_index": 0,
+            "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế",
+            "text": "có thể",
+            "p_eot": 0.48505082726478577,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_012",
+            "case": 12,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 28,
+            "buffer_start_word_index": 0,
+            "context": "mẫu đầu cho thấy chiều dài dây dẫn sai lệch 0 2mm so với thiết kế có thể do máy cắt chưa đồng bộ với bộ cảm biến",
+            "text": "the observations",
+            "p_eot": 0.9999635219573975,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 70,
+          "tp": 2,
+          "tn": 67,
+          "fp": 0,
+          "fn": 1,
+          "accuracy": 0.9857142857142858,
+          "eot_f1": 0.8,
+          "eot_precision": 1.0,
+          "eot_recall": 0.6666666666666666,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 13,
+    "vi_source": "vi_r00001_a000011599",
+    "en_source": "en_r00001_a000001338",
+    "vi_original": "Danh sách nhân viên đã được ghi trong báo cáo, nhưng cần xác minh lại thời gian thay thế cụ thể. 3 trường hợp đó có thể ảnh hưởng đến hiệu suất máy trong 2 ca gần nhất. Đề nghị kiểm tra lại nhật ký vận hành để đối chiếu.",
+    "en_original": "The six observations are from the batch of 80 units and match the recorded pauses. However, one entry mentions a tool change that wasn’t noted in the log. I’ll recheck the machine’s maintenance schedule to see if that’s documented. Let me get back to you with the updated timeline.",
+    "stream_input": "danh sách nhân viên đã được ghi trong báo cáo nhưng cần xác minh lại thời gian thay thế cụ thể 3 trường hợp đó có thể ảnh hưởng đến hiệu suất máy trong 2 ca gần nhất đề nghị kiểm tra lại nhật ký vận hành để đối chiếu the six observations are from the batch of 80 units and match the recorded pauses however one entry mentions a tool change that wasn t noted in the log i ll recheck the machine s maintenance schedule to see if that s documented let me get back to you with the updated timeline",
+    "switch_word_index": 50,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_013",
+          "case": 13,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 50,
+          "buffer_start_word_index": 38,
+          "context": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+          "text": "the",
+          "p_eot": 0.999976396560669,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "danh sách nhân viên đã được ghi trong báo cáo nhưng cần xác minh lại thời gian thay thế cụ thể",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.8418256044387817,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "3 trường hợp đó có thể ảnh hưởng đến hiệu suất máy trong 2 ca gần nhất",
+            "start": 21,
+            "end": 38,
+            "p_eot": 0.9935117363929749,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+            "start": 38,
+            "end": 50,
+            "p_eot": 0.999976396560669,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the six observations are from the batch of 80 units and match the recorded pauses",
+            "start": 50,
+            "end": 65,
+            "p_eot": 0.9877586960792542,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "however one entry mentions a tool change that wasn t noted in the log",
+            "start": 65,
+            "end": 79,
+            "p_eot": 0.9981030225753784,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll recheck the machine s maintenance schedule to see if that s documented",
+            "start": 79,
+            "end": 93,
+            "p_eot": 0.999312162399292,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me get back to you with the updated timeline",
+            "start": 93,
+            "end": 103,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_013",
+            "case": 13,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 50,
+            "buffer_start_word_index": 38,
+            "context": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+            "text": "the",
+            "p_eot": 0.999976396560669,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 102,
+          "tp": 6,
+          "tn": 96,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_013",
+          "case": 13,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 50,
+          "buffer_start_word_index": 38,
+          "context": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+          "text": "the six",
+          "p_eot": 0.9999756813049316,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "danh sách nhân viên đã được ghi trong báo cáo nhưng cần xác minh lại thời gian thay thế cụ thể",
+            "start": 0,
+            "end": 21,
+            "p_eot": 0.9539660811424255,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "3 trường hợp đó có thể ảnh hưởng đến hiệu suất máy trong 2 ca gần nhất",
+            "start": 21,
+            "end": 38,
+            "p_eot": 0.9881309270858765,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+            "start": 38,
+            "end": 50,
+            "p_eot": 0.9999756813049316,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the six observations are from the batch of 80 units and match the recorded pauses",
+            "start": 50,
+            "end": 65,
+            "p_eot": 0.9863631129264832,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "however one entry mentions a tool change that wasn t noted in the log",
+            "start": 65,
+            "end": 79,
+            "p_eot": 0.9976403713226318,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll recheck the machine s maintenance schedule to see if that s documented",
+            "start": 79,
+            "end": 93,
+            "p_eot": 0.9991306662559509,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me get back to you with the updated timeline",
+            "start": 93,
+            "end": 103,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_013",
+            "case": 13,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 50,
+            "buffer_start_word_index": 38,
+            "context": "đề nghị kiểm tra lại nhật ký vận hành để đối chiếu",
+            "text": "the six",
+            "p_eot": 0.9999756813049316,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 101,
+          "tp": 6,
+          "tn": 95,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 14,
+    "vi_source": "vi_r00001_a000000244",
+    "en_source": "en_r00001_a000001063",
+    "vi_original": "Phiếu xuất kho số 12913 đã được kiểm tra, nhưng không thấy ghi nhận 13 trường hợp sai số. Cần xác minh thêm phiếu kiểm tra chất lượng hoặc bảng kê hàng tồn kho để đối chiếu. Bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không?",
+    "en_original": "The temperature deviation was noted but not flagged as critical. I’ll review the SOP and check if there’s a tolerance for such fluctuations. If it’s outside the acceptable range, we should update the guidelines. Let me compile the data and we can discuss next steps by noon.",
+    "stream_input": "phiếu xuất kho số 12913 đã được kiểm tra nhưng không thấy ghi nhận 13 trường hợp sai số cần xác minh thêm phiếu kiểm tra chất lượng hoặc bảng kê hàng tồn kho để đối chiếu bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không the temperature deviation was noted but not flagged as critical i ll review the sop and check if there s a tolerance for such fluctuations if it s outside the acceptable range we should update the guidelines let me compile the data and we can discuss next steps by noon",
+    "switch_word_index": 51,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_014",
+          "case": 14,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 51,
+          "buffer_start_word_index": 37,
+          "context": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+          "text": "the",
+          "p_eot": 0.9999732971191406,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "phiếu xuất kho số 12913 đã được kiểm tra nhưng không thấy ghi nhận 13 trường hợp sai số",
+            "start": 0,
+            "end": 19,
+            "p_eot": 0.9669140577316284,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần xác minh thêm phiếu kiểm tra chất lượng hoặc bảng kê hàng tồn kho để đối chiếu",
+            "start": 19,
+            "end": 37,
+            "p_eot": 0.9896718263626099,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+            "start": 37,
+            "end": 51,
+            "p_eot": 0.9999732971191406,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the temperature deviation was noted but not flagged as critical",
+            "start": 51,
+            "end": 61,
+            "p_eot": 0.9995344877243042,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll review the sop and check if there s a tolerance for such fluctuations",
+            "start": 61,
+            "end": 76,
+            "p_eot": 0.9966756105422974,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if it s outside the acceptable range we should update the guidelines",
+            "start": 76,
+            "end": 88,
+            "p_eot": 0.998498797416687,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me compile the data and we can discuss next steps by noon",
+            "start": 88,
+            "end": 101,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_014",
+            "case": 14,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 51,
+            "buffer_start_word_index": 37,
+            "context": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+            "text": "the",
+            "p_eot": 0.9999732971191406,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 99,
+          "tp": 5,
+          "tn": 94,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_014",
+          "case": 14,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 51,
+          "buffer_start_word_index": 37,
+          "context": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+          "text": "the temperature",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "phiếu xuất kho số 12913 đã được kiểm tra nhưng không thấy ghi nhận",
+            "start": 0,
+            "end": 14,
+            "p_eot": 0.6076632142066956,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "13 trường hợp sai số cần xác minh thêm phiếu kiểm tra chất lượng hoặc bảng kê hàng tồn kho để đối chiếu",
+            "start": 14,
+            "end": 37,
+            "p_eot": 0.9907320141792297,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+            "start": 37,
+            "end": 51,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the temperature deviation was noted but not flagged as critical",
+            "start": 51,
+            "end": 61,
+            "p_eot": 0.9994115829467773,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll review the sop and check if there s a tolerance for such fluctuations",
+            "start": 61,
+            "end": 76,
+            "p_eot": 0.9958011507987976,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if it s outside the acceptable range we should update the guidelines",
+            "start": 76,
+            "end": 88,
+            "p_eot": 0.9984021782875061,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let me compile the data and we can discuss next steps by noon",
+            "start": 88,
+            "end": 101,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_014",
+            "case": 14,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 14,
+            "buffer_start_word_index": 0,
+            "context": "phiếu xuất kho số 12913 đã được kiểm tra nhưng không thấy ghi nhận",
+            "text": "13 trường",
+            "p_eot": 0.6076632142066956,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_014",
+            "case": 14,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 19,
+            "buffer_start_word_index": 14,
+            "context": "13 trường hợp sai số",
+            "text": "cần xác",
+            "p_eot": 0.36342093348503113,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_014",
+            "case": 14,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 51,
+            "buffer_start_word_index": 37,
+            "context": "bạn có thể cung cấp thêm thông tin từ bộ phận kiểm tra không",
+            "text": "the temperature",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 98,
+          "tp": 4,
+          "tn": 92,
+          "fp": 1,
+          "fn": 1,
+          "accuracy": 0.9795918367346939,
+          "eot_f1": 0.8,
+          "eot_precision": 0.8,
+          "eot_recall": 0.8,
+          "false_share_of_cuts": 0.2,
+          "false_positive_rate": 0.010752688172043012
+        }
+      }
+    }
+  },
+  {
+    "number": 15,
+    "vi_source": "vi_r00001_a000012024",
+    "en_source": "en_r00001_a000003220",
+    "vi_original": "Số liệu phản ánh trong phiếu R753 ca C lô 80 có 12 trường hợp kích thước vượt quá giới hạn cho phép. Tôi cần xem dữ liệu đo lường cụ thể để xác định nguyên nhân. Đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch.",
+    "en_original": "I'll get the maintenance logs and the shift report for you. We should also check the load distribution on the conveyor belt during that batch. It might be causing uneven stress. I'll flag the technician to review the observations again.",
+    "stream_input": "số liệu phản ánh trong phiếu r753 ca c lô 80 có 12 trường hợp kích thước vượt quá giới hạn cho phép tôi cần xem dữ liệu đo lường cụ thể để xác định nguyên nhân đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch i ll get the maintenance logs and the shift report for you we should also check the load distribution on the conveyor belt during that batch it might be causing uneven stress i ll flag the technician to review the observations again",
+    "switch_word_index": 52,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_015",
+          "case": 15,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 52,
+          "buffer_start_word_index": 37,
+          "context": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+          "text": "i",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "số liệu phản ánh trong phiếu r753 ca c lô 80 có 12 trường hợp kích thước vượt quá giới hạn cho phép",
+            "start": 0,
+            "end": 23,
+            "p_eot": 0.9891815781593323,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi cần xem dữ liệu đo lường cụ thể để xác định nguyên nhân",
+            "start": 23,
+            "end": 37,
+            "p_eot": 0.9830850958824158,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+            "start": 37,
+            "end": 52,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll get the maintenance logs and the shift report for you",
+            "start": 52,
+            "end": 64,
+            "p_eot": 0.997285008430481,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we should also check the load distribution on the conveyor belt during that batch",
+            "start": 64,
+            "end": 78,
+            "p_eot": 0.9899863600730896,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it might be causing uneven stress",
+            "start": 78,
+            "end": 84,
+            "p_eot": 0.9988304972648621,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll flag the technician to review the observations again",
+            "start": 84,
+            "end": 94,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_015",
+            "case": 15,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 52,
+            "buffer_start_word_index": 37,
+            "context": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+            "text": "i",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 93,
+          "tp": 6,
+          "tn": 87,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_015",
+          "case": 15,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 52,
+          "buffer_start_word_index": 37,
+          "context": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+          "text": "i ll",
+          "p_eot": 0.9999697208404541,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "số liệu phản ánh trong phiếu r753 ca c lô 80 có 12 trường hợp kích thước vượt quá giới hạn cho phép",
+            "start": 0,
+            "end": 23,
+            "p_eot": 0.9844563603401184,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "tôi cần xem dữ liệu đo lường cụ thể để xác định nguyên nhân",
+            "start": 23,
+            "end": 37,
+            "p_eot": 0.9881309270858765,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+            "start": 37,
+            "end": 52,
+            "p_eot": 0.9999697208404541,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll get the maintenance logs and the shift report for you",
+            "start": 52,
+            "end": 64,
+            "p_eot": 0.9977481961250305,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "we should also check the load distribution on the conveyor belt during that batch",
+            "start": 64,
+            "end": 78,
+            "p_eot": 0.9890130758285522,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "it might be causing uneven stress",
+            "start": 78,
+            "end": 84,
+            "p_eot": 0.9983769655227661,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll flag the technician to review the observations again",
+            "start": 84,
+            "end": 94,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_015",
+            "case": 15,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 52,
+            "buffer_start_word_index": 37,
+            "context": "đã kiểm tra lại phần mềm theo dõi nhưng không thấy ghi nhận sai lệch",
+            "text": "i ll",
+            "p_eot": 0.9999697208404541,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 92,
+          "tp": 6,
+          "tn": 86,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 16,
+    "vi_source": "vi_r00001_a000004661",
+    "en_source": "en_r00001_a000000301",
+    "vi_original": "Tôi sẽ yêu cầu bộ phận kỹ thuật kiểm tra lại thiết bị và cung cấp báo cáo chi tiết trong vòng 2 giờ. Đồng thời, kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện.",
+    "en_original": "The logs don’t show those units flagged. That suggests either a measurement error or a setup drift. I’ll take a sample from the batch and run a CMM test. If the deviation is consistent, we may need to adjust the fixture or revalidate the drawing.",
+    "stream_input": "tôi sẽ yêu cầu bộ phận kỹ thuật kiểm tra lại thiết bị và cung cấp báo cáo chi tiết trong vòng 2 giờ đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện the logs don t show those units flagged that suggests either a measurement error or a setup drift i ll take a sample from the batch and run a cmm test if the deviation is consistent we may need to adjust the fixture or revalidate the drawing",
+    "switch_word_index": 42,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_016",
+          "case": 16,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 42,
+          "buffer_start_word_index": 24,
+          "context": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+          "text": "the",
+          "p_eot": 0.999976396560669,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "tôi sẽ yêu cầu bộ phận kỹ thuật kiểm tra lại thiết bị và cung cấp báo cáo chi tiết trong vòng 2 giờ",
+            "start": 0,
+            "end": 24,
+            "p_eot": 0.9362850189208984,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+            "start": 24,
+            "end": 42,
+            "p_eot": 0.999976396560669,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the logs don t show those units flagged",
+            "start": 42,
+            "end": 50,
+            "p_eot": 0.6118459105491638,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "that suggests either a measurement error or a setup drift",
+            "start": 50,
+            "end": 60,
+            "p_eot": 0.9997175335884094,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll take a sample from the batch and run a cmm test",
+            "start": 60,
+            "end": 73,
+            "p_eot": 0.9951702952384949,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the deviation is consistent we may need to adjust the fixture or revalidate the drawing",
+            "start": 73,
+            "end": 89,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_016",
+            "case": 16,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 42,
+            "buffer_start_word_index": 24,
+            "context": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+            "text": "the",
+            "p_eot": 0.999976396560669,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 88,
+          "tp": 5,
+          "tn": 83,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_016",
+          "case": 16,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 42,
+          "buffer_start_word_index": 24,
+          "context": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+          "text": "the logs",
+          "p_eot": 0.9999749660491943,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "tôi sẽ yêu cầu bộ phận kỹ thuật kiểm tra lại thiết bị và cung cấp báo cáo chi tiết trong vòng 2 giờ",
+            "start": 0,
+            "end": 24,
+            "p_eot": 0.954308032989502,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+            "start": 24,
+            "end": 42,
+            "p_eot": 0.9999749660491943,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the logs don t show those units flagged",
+            "start": 42,
+            "end": 50,
+            "p_eot": 0.9688562154769897,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "that suggests either a measurement error or a setup drift",
+            "start": 50,
+            "end": 60,
+            "p_eot": 0.9993928670883179,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll take a sample from the batch and run a cmm test",
+            "start": 60,
+            "end": 73,
+            "p_eot": 0.9971550703048706,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the deviation is consistent we may need to adjust the fixture or revalidate the drawing",
+            "start": 73,
+            "end": 89,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_016",
+            "case": 16,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 42,
+            "buffer_start_word_index": 24,
+            "context": "đồng thời kiểm tra lại các phiếu kiểm tra của lô 80 để đảm bảo tính toàn diện",
+            "text": "the logs",
+            "p_eot": 0.9999749660491943,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 87,
+          "tp": 5,
+          "tn": 82,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 17,
+    "vi_source": "vi_r00001_a000001060",
+    "en_source": "en_r00001_a000002587",
+    "vi_original": "Cảm biến ở vị trí 3A đang báo lỗi ngẫu nhiên, có 14 trường hợp trong ca C, lô 320 cần kiểm tra lại. Dữ liệu từ phiếu R539 cho thấy độ lệch trung bình là 0,15mm. Bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không?",
+    "en_original": "The shift log shows C was on duty during that run. I'll check the calibration records for the testing equipment used. If the meters were off, that could explain the discrepancy.",
+    "stream_input": "cảm biến ở vị trí 3a đang báo lỗi ngẫu nhiên có 14 trường hợp trong ca c lô 320 cần kiểm tra lại dữ liệu từ phiếu r539 cho thấy độ lệch trung bình là 0 15mm bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không the shift log shows c was on duty during that run i ll check the calibration records for the testing equipment used if the meters were off that could explain the discrepancy",
+    "switch_word_index": 53,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_017",
+          "case": 17,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 53,
+          "buffer_start_word_index": 38,
+          "context": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+          "text": "the",
+          "p_eot": 0.9999716281890869,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "cảm biến ở vị trí 3a đang báo lỗi ngẫu nhiên có 14 trường hợp trong ca c lô 320",
+            "start": 0,
+            "end": 20,
+            "p_eot": 0.8484706878662109,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần kiểm tra lại dữ liệu từ phiếu r539 cho thấy độ lệch trung bình là 0 15mm",
+            "start": 20,
+            "end": 38,
+            "p_eot": 0.9875683188438416,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+            "start": 38,
+            "end": 53,
+            "p_eot": 0.9999716281890869,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the shift log shows c was on duty during that run",
+            "start": 53,
+            "end": 64,
+            "p_eot": 0.9977830052375793,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll check the calibration records for the testing equipment used",
+            "start": 64,
+            "end": 75,
+            "p_eot": 0.9926542043685913,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the meters were off that could explain the discrepancy",
+            "start": 75,
+            "end": 85,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 20,
+            "buffer_start_word_index": 0,
+            "context": "cảm biến ở vị trí 3a đang báo lỗi ngẫu nhiên có 14 trường hợp trong ca c lô 320",
+            "text": "cần",
+            "p_eot": 0.8484706878662109,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 24,
+            "buffer_start_word_index": 20,
+            "context": "cần kiểm tra lại",
+            "text": "dữ",
+            "p_eot": 4.133539550821297e-05,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 53,
+            "buffer_start_word_index": 38,
+            "context": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+            "text": "the",
+            "p_eot": 0.9999716281890869,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 83,
+          "tp": 3,
+          "tn": 78,
+          "fp": 1,
+          "fn": 1,
+          "accuracy": 0.9759036144578314,
+          "eot_f1": 0.75,
+          "eot_precision": 0.75,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.25,
+          "false_positive_rate": 0.012658227848101266
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_017",
+          "case": 17,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 53,
+          "buffer_start_word_index": 38,
+          "context": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+          "text": "the shift",
+          "p_eot": 0.9999678134918213,
+          "predicted": "EOT",
+          "reference": null
+        },
+        "segments": [
+          {
+            "text": "cảm biến ở vị trí 3a đang báo lỗi ngẫu nhiên có 14 trường hợp trong ca c lô 320",
+            "start": 0,
+            "end": 20,
+            "p_eot": 0.8572908639907837,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần kiểm tra lại dữ liệu từ phiếu r539 cho thấy độ lệch trung bình là 0 15mm",
+            "start": 20,
+            "end": 38,
+            "p_eot": 0.9881309270858765,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+            "start": 38,
+            "end": 53,
+            "p_eot": 0.9999678134918213,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the shift log shows c was on duty during that run",
+            "start": 53,
+            "end": 64,
+            "p_eot": 0.9976032376289368,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll check the calibration records for the testing equipment used",
+            "start": 64,
+            "end": 75,
+            "p_eot": 0.9945307374000549,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "if the meters were off that could explain the discrepancy",
+            "start": 75,
+            "end": 85,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 20,
+            "buffer_start_word_index": 0,
+            "context": "cảm biến ở vị trí 3a đang báo lỗi ngẫu nhiên có 14 trường hợp trong ca c lô 320",
+            "text": "cần kiểm",
+            "p_eot": 0.8572908639907837,
+            "predicted": "EOT",
+            "reference": {
+              "label": "NEOT",
+              "kind": "word_gap"
+            }
+          },
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 24,
+            "buffer_start_word_index": 20,
+            "context": "cần kiểm tra lại",
+            "text": "dữ liệu",
+            "p_eot": 3.76364441763144e-05,
+            "predicted": "NEOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          },
+          {
+            "stream_key": "mixed_017",
+            "case": 17,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 53,
+            "buffer_start_word_index": 38,
+            "context": "bạn có thể xác minh lại hoạt động của cảm biến trong 5 phút không",
+            "text": "the shift",
+            "p_eot": 0.9999678134918213,
+            "predicted": "EOT",
+            "reference": null
+          }
+        ],
+        "metrics": {
+          "samples": 82,
+          "tp": 3,
+          "tn": 77,
+          "fp": 1,
+          "fn": 1,
+          "accuracy": 0.975609756097561,
+          "eot_f1": 0.75,
+          "eot_precision": 0.75,
+          "eot_recall": 0.75,
+          "false_share_of_cuts": 0.25,
+          "false_positive_rate": 0.01282051282051282
+        }
+      }
+    }
+  },
+  {
+    "number": 18,
+    "vi_source": "vi_r00001_a000002205",
+    "en_source": "en_r00001_a000000539",
+    "vi_original": "Máy ép nhựa số 5 đang hoạt động ở 200°C, nhưng báo cáo cho nhiệt độ 180°C. Hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên.",
+    "en_original": "I’ve cross-referenced the revised report with our shift B records. The material change from alloy 6061 to 6082 was noted in R308 but not reflected in the inspection logs for the 200-unit batch. I found 12 units flagged for rework that don’t match the updated spec. Could you confirm if the material switch was fully communicated to the floor before production?",
+    "stream_input": "máy ép nhựa số 5 đang hoạt động ở 200°c nhưng báo cáo cho nhiệt độ 180°c hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên i ve cross referenced the revised report with our shift b records the material change from alloy 6061 to 6082 was noted in r308 but not reflected in the inspection logs for the 200 unit batch i found 12 units flagged for rework that don t match the updated spec could you confirm if the material switch was fully communicated to the floor before production",
+    "switch_word_index": 30,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_018",
+          "case": 18,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 30,
+          "buffer_start_word_index": 17,
+          "context": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+          "text": "i",
+          "p_eot": 0.9999697208404541,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "máy ép nhựa số 5 đang hoạt động ở 200°c nhưng báo cáo cho nhiệt độ 180°c",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.9683812260627747,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+            "start": 17,
+            "end": 30,
+            "p_eot": 0.9999697208404541,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve cross referenced the revised report with our shift b records",
+            "start": 30,
+            "end": 42,
+            "p_eot": 0.9914224743843079,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the material change from alloy 6061 to 6082 was noted in r308 but not reflected in the inspection logs for the 200 unit batch",
+            "start": 42,
+            "end": 66,
+            "p_eot": 0.9973269701004028,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i found 12 units flagged for rework that don t match the updated spec",
+            "start": 66,
+            "end": 80,
+            "p_eot": 0.9353464841842651,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "could you confirm if the material switch was fully communicated to the floor before production",
+            "start": 80,
+            "end": 95,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_018",
+            "case": 18,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 30,
+            "buffer_start_word_index": 17,
+            "context": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+            "text": "i",
+            "p_eot": 0.9999697208404541,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 94,
+          "tp": 5,
+          "tn": 89,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_018",
+          "case": 18,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 30,
+          "buffer_start_word_index": 17,
+          "context": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+          "text": "i ve",
+          "p_eot": 0.9999678134918213,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "máy ép nhựa số 5 đang hoạt động ở 200°c nhưng báo cáo cho nhiệt độ 180°c",
+            "start": 0,
+            "end": 17,
+            "p_eot": 0.9778834581375122,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+            "start": 17,
+            "end": 30,
+            "p_eot": 0.9999678134918213,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ve cross referenced the revised report with our shift b records",
+            "start": 30,
+            "end": 42,
+            "p_eot": 0.9926542043685913,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the material change from alloy 6061 to 6082 was noted in r308 but not reflected in the inspection logs for the 200 unit batch",
+            "start": 42,
+            "end": 66,
+            "p_eot": 0.9908744096755981,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i found 12 units flagged for rework that don t match the updated spec",
+            "start": 66,
+            "end": 80,
+            "p_eot": 0.9465966820716858,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "could you confirm if the material switch was fully communicated to the floor before production",
+            "start": 80,
+            "end": 95,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_018",
+            "case": 18,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 30,
+            "buffer_start_word_index": 17,
+            "context": "hãy kiểm tra lại thiết lập và ghi chép của kỹ thuật viên",
+            "text": "i ve",
+            "p_eot": 0.9999678134918213,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 93,
+          "tp": 5,
+          "tn": 88,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 19,
+    "vi_source": "vi_r00001_a000003425",
+    "en_source": "en_r00001_a000000915",
+    "vi_original": "Đã yêu cầu nhân viên kiểm tra lại, kết quả cho thấy có 3 sản phẩm bị bỏ sót trong bước kiểm tra. Đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra.",
+    "en_original": "The timestamps align with the planned shift start, so capacity wasn’t the issue. The eight observations are spread across the batch—three from the first hour, five from the second. I’ll send the data sheet for your review and suggest recalibrating the coating unit.",
+    "stream_input": "đã yêu cầu nhân viên kiểm tra lại kết quả cho thấy có 3 sản phẩm bị bỏ sót trong bước kiểm tra đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra the timestamps align with the planned shift start so capacity wasn t the issue the eight observations are spread across the batch three from the first hour five from the second i ll send the data sheet for your review and suggest recalibrating the coating unit",
+    "switch_word_index": 37,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_019",
+          "case": 19,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 37,
+          "buffer_start_word_index": 23,
+          "context": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+          "text": "the",
+          "p_eot": 0.999976396560669,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã yêu cầu nhân viên kiểm tra lại kết quả cho thấy có 3 sản phẩm bị bỏ sót trong bước kiểm tra",
+            "start": 0,
+            "end": 23,
+            "p_eot": 0.9888418912887573,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+            "start": 23,
+            "end": 37,
+            "p_eot": 0.999976396560669,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the timestamps align with the planned shift start so capacity wasn t the issue",
+            "start": 37,
+            "end": 51,
+            "p_eot": 0.9019206762313843,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the eight observations are spread across the batch three from the first hour five from the second",
+            "start": 51,
+            "end": 68,
+            "p_eot": 0.9961155652999878,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll send the data sheet for your review and suggest recalibrating the coating unit",
+            "start": 68,
+            "end": 83,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_019",
+            "case": 19,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 37,
+            "buffer_start_word_index": 23,
+            "context": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+            "text": "the",
+            "p_eot": 0.999976396560669,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 82,
+          "tp": 4,
+          "tn": 78,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_019",
+          "case": 19,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 37,
+          "buffer_start_word_index": 23,
+          "context": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+          "text": "the timestamps",
+          "p_eot": 0.999976396560669,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "đã yêu cầu nhân viên kiểm tra lại kết quả cho thấy có 3 sản phẩm bị bỏ sót trong bước kiểm tra",
+            "start": 0,
+            "end": 23,
+            "p_eot": 0.9856076240539551,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+            "start": 23,
+            "end": 37,
+            "p_eot": 0.999976396560669,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the timestamps align with the planned shift start so capacity wasn t the issue",
+            "start": 37,
+            "end": 51,
+            "p_eot": 0.949669361114502,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "the eight observations are spread across the batch three from the first hour five from the second",
+            "start": 51,
+            "end": 68,
+            "p_eot": 0.9965165853500366,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll send the data sheet for your review and suggest recalibrating the coating unit",
+            "start": 68,
+            "end": 83,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_019",
+            "case": 19,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 37,
+            "buffer_start_word_index": 23,
+            "context": "đề nghị điều chỉnh quy trình để tránh tình trạng tương tự xảy ra",
+            "text": "the timestamps",
+            "p_eot": 0.999976396560669,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 81,
+          "tp": 4,
+          "tn": 77,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "number": 20,
+    "vi_source": "vi_r00001_a000005777",
+    "en_source": "en_r00001_a000001343",
+    "vi_original": "Nếu quy trình kiểm tra không thay đổi thì vấn đề nằm ở nhân viên. Cần kiểm tra lại dữ liệu từ máy đo tự động trong ca A. Mẫu R818 có thể dùng để đối chiếu.",
+    "en_original": "Agreed. I’ll also prepare a list of the affected units and schedule a root cause analysis. Let’s make sure the calibration procedures are clear for the next shift. I’ll send you the details once I’ve compiled the data.",
+    "stream_input": "nếu quy trình kiểm tra không thay đổi thì vấn đề nằm ở nhân viên cần kiểm tra lại dữ liệu từ máy đo tự động trong ca a mẫu r818 có thể dùng để đối chiếu agreed i ll also prepare a list of the affected units and schedule a root cause analysis let s make sure the calibration procedures are clear for the next shift i ll send you the details once i ve compiled the data",
+    "switch_word_index": 37,
+    "lookahead": {
+      "1": {
+        "switch": {
+          "stream_key": "mixed_020",
+          "case": 20,
+          "mode": "mixed",
+          "lookahead_words": 1,
+          "boundary_word_index": 37,
+          "buffer_start_word_index": 29,
+          "context": "mẫu r818 có thể dùng để đối chiếu",
+          "text": "agreed",
+          "p_eot": 0.9999611377716064,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "nếu quy trình kiểm tra không thay đổi thì vấn đề nằm ở nhân viên",
+            "start": 0,
+            "end": 15,
+            "p_eot": 0.87103670835495,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần kiểm tra lại dữ liệu từ máy đo tự động trong ca a",
+            "start": 15,
+            "end": 29,
+            "p_eot": 0.9817357659339905,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "mẫu r818 có thể dùng để đối chiếu",
+            "start": 29,
+            "end": 37,
+            "p_eot": 0.9999611377716064,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "agreed",
+            "start": 37,
+            "end": 38,
+            "p_eot": 0.9974491000175476,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll also prepare a list of the affected units and schedule a root cause analysis",
+            "start": 38,
+            "end": 54,
+            "p_eot": 0.9998089671134949,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let s make sure the calibration procedures are clear for the next shift",
+            "start": 54,
+            "end": 67,
+            "p_eot": 0.9974090456962585,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll send you the details once i ve compiled the data",
+            "start": 67,
+            "end": 79,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_020",
+            "case": 20,
+            "mode": "mixed",
+            "lookahead_words": 1,
+            "boundary_word_index": 37,
+            "buffer_start_word_index": 29,
+            "context": "mẫu r818 có thể dùng để đối chiếu",
+            "text": "agreed",
+            "p_eot": 0.9999611377716064,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 78,
+          "tp": 6,
+          "tn": 72,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      },
+      "2": {
+        "switch": {
+          "stream_key": "mixed_020",
+          "case": 20,
+          "mode": "mixed",
+          "lookahead_words": 2,
+          "boundary_word_index": 37,
+          "buffer_start_word_index": 29,
+          "context": "mẫu r818 có thể dùng để đối chiếu",
+          "text": "agreed i",
+          "p_eot": 0.9999697208404541,
+          "predicted": "EOT",
+          "reference": {
+            "label": "EOT",
+            "kind": "full_stop"
+          }
+        },
+        "segments": [
+          {
+            "text": "nếu quy trình kiểm tra không thay đổi thì vấn đề nằm ở nhân viên",
+            "start": 0,
+            "end": 15,
+            "p_eot": 0.8665847778320312,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "cần kiểm tra lại dữ liệu từ máy đo tự động trong ca a",
+            "start": 15,
+            "end": 29,
+            "p_eot": 0.9704646468162537,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "mẫu r818 có thể dùng để đối chiếu",
+            "start": 29,
+            "end": 37,
+            "p_eot": 0.9999697208404541,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "agreed",
+            "start": 37,
+            "end": 38,
+            "p_eot": 0.9980732202529907,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll also prepare a list of the affected units and schedule a root cause analysis",
+            "start": 38,
+            "end": 54,
+            "p_eot": 0.999562680721283,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "let s make sure the calibration procedures are clear for the next shift",
+            "start": 54,
+            "end": 67,
+            "p_eot": 0.9971550703048706,
+            "reason": "MODEL_EOT"
+          },
+          {
+            "text": "i ll send you the details once i ve compiled the data",
+            "start": 67,
+            "end": 79,
+            "p_eot": null,
+            "reason": "EXPLICIT_END_OF_STREAM_FLUSH_NOT_MODEL_PREDICTION"
+          }
+        ],
+        "problem_points": [
+          {
+            "stream_key": "mixed_020",
+            "case": 20,
+            "mode": "mixed",
+            "lookahead_words": 2,
+            "boundary_word_index": 37,
+            "buffer_start_word_index": 29,
+            "context": "mẫu r818 có thể dùng để đối chiếu",
+            "text": "agreed i",
+            "p_eot": 0.9999697208404541,
+            "predicted": "EOT",
+            "reference": {
+              "label": "EOT",
+              "kind": "full_stop"
+            }
+          }
+        ],
+        "metrics": {
+          "samples": 77,
+          "tp": 6,
+          "tn": 71,
+          "fp": 0,
+          "fn": 0,
+          "accuracy": 1.0,
+          "eot_f1": 1.0,
+          "eot_precision": 1.0,
+          "eot_recall": 1.0,
+          "false_share_of_cuts": 0.0,
+          "false_positive_rate": 0.0
+        }
+      }
+    }
+  }
+]

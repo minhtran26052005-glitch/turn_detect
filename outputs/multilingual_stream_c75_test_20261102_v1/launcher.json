@@ -1,0 +1,10 @@
+{
+  "pid": 3594412,
+  "start_ticks": "52510884",
+  "module": "turn_v2.factory_stream_c75_test_v1",
+  "source_sha256": "6f2e4b166c77d9bc24b3b69c7cf5a48c4674092fd6bf56620f15c305a6c449a5",
+  "training_interrupted": false,
+  "user_requested": true,
+  "main_pid": 2827094,
+  "main_start_ticks": "50410807"
+}

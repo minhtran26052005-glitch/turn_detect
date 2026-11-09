@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"jobs/auto_rl_v11_20261025/status.json\": {\"status\": \"COMPLETED\", \"started_at_utc\": \"2026-10-25T05:33:19.078714+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.auto_rl_v11\"], \"timeout_seconds\": 1800, \"pid\": 4962, \"elapsed_seconds\": 15.002380609512329, \"heartbeat_unix\": 1792906409.0803635, \"exit_code\": 0, \"finished_at_utc\": \"2026-10-25T05:33:34.081099+00:00\"}, \"outputs/auto_rl_v11_20261025/report.json\": {\"status\": \"JUDGE_PROBE_FAILED_NO_POLICY_UPDATES\", \"probe_passed\": false, \"updates\": 0, \"quality_target_certified\": false, \"note\": \"Do not learn reward from a judge that fails obvious incomplete/complete probe\"}, \"judge_probe\": [{\"language\": \"vi\", \"expected\": \"NEOT\", \"judge_label\": null, \"judge_accepted\": false}, {\"language\": \"vi\", \"expected\": \"EOT\", \"judge_label\": \"EOT\", \"judge_accepted\": true}, {\"language\": \"en\", \"expected\": \"NEOT\", \"judge_label\": null, \"judge_accepted\": false}, {\"language\": \"en\", \"expected\": \"EOT\", \"judge_label\": \"EOT\", \"judge_accepted\": true}, {\"language\": \"zh\", \"expected\": \"NEOT\", \"judge_label\": null, \"judge_accepted\": false}, {\"language\": \"zh\", \"expected\": \"EOT\", \"judge_label\": \"EOT\", \"judge_accepted\": true}], \"GPU\": \"0 %, 0 MiB\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.10899999999674037
+}

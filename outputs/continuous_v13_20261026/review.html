@@ -1,0 +1,104 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="60"><title>Colab continuous turn detection</title><style>body{font:18px system-ui;max-width:1200px;margin:32px auto;padding:24px;color:#18313e;background:#f3f7fb}section{background:white;padding:24px;border-radius:12px;margin:18px 0}p{line-height:1.7}td,th{padding:12px;border-bottom:1px solid #ccc;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}.scroll{overflow:auto}</style><h1>Crawl và train liên tục trên Colab</h1><!-- TEACHER_FIRST_SUCCESSOR --><section style="border:3px solid #c38814"><h2>Đã chuyển sang teacher lớn trước</h2><p>V13 dừng sau vòng8 để nhường GPU theo yêu cầu. Chiến dịch đang tiếp tục bằng ba teacher pretrained lớn riêng. <a href="../teacher_first_v14_20261026/review.html">Mở trạng thái teacher v14</a>.</p></section><p>Không giới hạn số vòng, không dừng vì plateau hoặc silver90%. Ba model riêng. Dữ liệu và training nằm trên Colab; bản sao khôi phục nhỏ được theo dõi đưa lên Drive.</p><section><h2>Trạng thái lần kiểm tra gần nhất</h2><pre>{
+  &quot;queried_at_utc&quot;: &quot;2026-10-25T18:06:57.533129+00:00&quot;,
+  &quot;status&quot;: &quot;STOPPED_BY_REQUEST&quot;,
+  &quot;stage&quot;: null,
+  &quot;cycle&quot;: &quot;9&quot;,
+  &quot;process_verified&quot;: false,
+  &quot;GPU&quot;: &quot;NVIDIA L4, 98 %, 17226 MiB, 23034 MiB&quot;,
+  &quot;worker_heartbeat_utc&quot;: null
+}</pre><p>Đây là snapshot lần kiểm tra, lịch theo dõi15phút sẽ cập nhật khi app có thể chạy. Ô cuối notebook đọc trạng thái kernel hiện tại. Trang tự tải lại không phải keepalive Colab.</p></section><section><h2>Hai mục tiêu được báo riêng</h2><div class="scroll"><table><tr><th>Tiếng</th><th>Mẫu semantic silver dev</th><th>Accuracy/F1 semantic</th><th>Mẫu natural floor dev</th><th>Accuracy/F1 floor</th></tr><tr><td>vi</td><td>31</td><td>90.32% / 72.73%</td><td>145</td><td>52.41% / 36.70%</td></tr><tr><td>en</td><td>52</td><td>73.08% / 66.67%</td><td>79</td><td>59.49% / 68.00%</td></tr><tr><td>zh</td><td>22</td><td>86.36% / 85.71%</td><td>69</td><td>50.72% / 63.04%</td></tr></table></div><p>Semantic là đủ ý để dừng, nhãn Qwen tự động. Floor là người nói thực sự nhường lượt theo VAD. Không lấy điểm semantic thay cho chứng nhận hội thoại thật; chưa có human gold. Candidate học FP32 latent, chưa là packedINT4 được nghiệm thu.</p></section><section><h2>Data tích lũy</h2><pre>[
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 17
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 35
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 85
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 220
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 7
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 24
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 47
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 74
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 10
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;semantic_dev&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 12
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;EOT&quot;,
+    &quot;samples&quot;: 49
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;split&quot;: &quot;train&quot;,
+    &quot;label&quot;: &quot;NEOT&quot;,
+    &quot;samples&quot;: 66
+  }
+]</pre><h2>Khác biệt hai nhãn trên cùng text</h2><pre>[
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;paired_natural_dev_cases&quot;: 0,
+    &quot;semantic_vs_floor_disagree&quot;: 0
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;paired_natural_dev_cases&quot;: 21,
+    &quot;semantic_vs_floor_disagree&quot;: 10
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;paired_natural_dev_cases&quot;: 1,
+    &quot;semantic_vs_floor_disagree&quot;: 1
+  }
+]</pre></section><section><h2>Checkpoint</h2><pre>{
+  &quot;cycle&quot;: 8,
+  &quot;path&quot;: &quot;outputs/continuous_v13_20261026/recovery/latest_snapshot.zip&quot;,
+  &quot;sha256&quot;: &quot;fb3dd15d239adab86568773d2c2a55bb16f7b789e9ca97903d3cd8750858fac4&quot;,
+  &quot;bytes&quot;: 56450206,
+  &quot;created_at_utc&quot;: &quot;2026-10-25T18:03:28.641447+00:00&quot;
+}</pre><p><a href="summary.json">JSON trạng thái</a> · <a href="../../README_CONTINUOUS.md">Cách chạy và khôi phục</a> · <a href="../auto_rl_v12_20261025/review.html">Vòng thử cũ</a></p></section></html>

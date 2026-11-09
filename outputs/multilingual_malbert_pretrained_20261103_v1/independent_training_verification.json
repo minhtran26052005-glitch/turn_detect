@@ -1,0 +1,149 @@
+{
+  "checked_utc": "2026-11-03T07:43:49.799394+00:00",
+  "pid": 889316,
+  "start_ticks": "59865865",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_train_v1 ",
+  "checkpoint_step": 5000,
+  "checkpoint_sha256": "73475dd1728cdcef4f4d4eb51fa6bfc67511cb91a974d1d437f7802d7563cd61",
+  "parameters": 11941122,
+  "optimizer_entries": 27,
+  "full_rng_sampler_order_cache_source_verified": true,
+  "order_complete_permutation": true,
+  "old_135m_absent": true,
+  "status": {
+    "stage": "EVALUATING_MALBERT_DEV",
+    "pid": 889316,
+    "at_utc": "2026-11-03T07:43:37.345171+00:00",
+    "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+    "parameters": 11941122,
+    "large_teacher_must_remain_stopped": true,
+    "run": "finetune",
+    "step": 5000,
+    "epoch": 1
+  },
+  "cache": {
+    "complete": true,
+    "rows": 300000,
+    "counts": {
+      "vi": 100000,
+      "en": 100000,
+      "zh": 100000
+    },
+    "unknown_fraction": {
+      "vi": 0.0,
+      "en": 0.0,
+      "zh": 0.0010820630351349855
+    },
+    "train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+    "teacher_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+    "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+    "teacher_cache_receipt_sha256": "89eb9d55ba4e8b341499091aacb3e38f9ad298b3382abfd519c4c3d412806410",
+    "all_labels_and_row_indices_verified": true,
+    "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+    "ids_sha256": "3cb758d6113477f0947fe80c006173fdc4744d8089fe7172e69c813c862fda3b",
+    "lengths_sha256": "b6d4cd27edc22536ba6f37949a806606e9d7a504378198cf78ea16086425d8a2"
+  },
+  "latest_dev": {
+    "run": "finetune",
+    "step": 4000,
+    "epoch": 1,
+    "dev": {
+      "threshold": 0.32,
+      "by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 58,
+          "tn": 1928,
+          "fp": 40,
+          "fn": 32,
+          "accuracy": 0.9650145772594753,
+          "eot_f1": 0.6170212765957447,
+          "eot_precision": 0.5918367346938775,
+          "eot_recall": 0.6444444444444445,
+          "false_share_of_cuts": 0.40816326530612246,
+          "false_positive_rate": 0.02032520325203252
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 68,
+          "tn": 2144,
+          "fp": 39,
+          "fn": 53,
+          "accuracy": 0.9600694444444444,
+          "eot_f1": 0.5964912280701754,
+          "eot_precision": 0.6355140186915887,
+          "eot_recall": 0.5619834710743802,
+          "false_share_of_cuts": 0.3644859813084112,
+          "false_positive_rate": 0.017865322950068714
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 31,
+          "tn": 784,
+          "fp": 41,
+          "fn": 144,
+          "accuracy": 0.815,
+          "eot_f1": 0.25101214574898784,
+          "eot_precision": 0.4305555555555556,
+          "eot_recall": 0.17714285714285713,
+          "false_share_of_cuts": 0.5694444444444444,
+          "false_positive_rate": 0.0496969696969697
+        }
+      },
+      "static_by_language": {
+        "vi": {
+          "samples": 2058,
+          "tp": 58,
+          "tn": 1878,
+          "fp": 90,
+          "fn": 32,
+          "accuracy": 0.9407191448007775,
+          "eot_f1": 0.48739495798319327,
+          "eot_precision": 0.3918918918918919,
+          "eot_recall": 0.6444444444444445,
+          "false_share_of_cuts": 0.6081081081081081,
+          "false_positive_rate": 0.04573170731707317
+        },
+        "en": {
+          "samples": 2304,
+          "tp": 65,
+          "tn": 2126,
+          "fp": 57,
+          "fn": 56,
+          "accuracy": 0.9509548611111112,
+          "eot_f1": 0.5349794238683128,
+          "eot_precision": 0.5327868852459017,
+          "eot_recall": 0.5371900826446281,
+          "false_share_of_cuts": 0.4672131147540984,
+          "false_positive_rate": 0.026110856619331196
+        },
+        "zh": {
+          "samples": 1000,
+          "tp": 31,
+          "tn": 784,
+          "fp": 41,
+          "fn": 144,
+          "accuracy": 0.815,
+          "eot_f1": 0.25101214574898784,
+          "eot_precision": 0.4305555555555556,
+          "eot_recall": 0.17714285714285713,
+          "false_share_of_cuts": 0.5694444444444444,
+          "false_positive_rate": 0.0496969696969697
+        }
+      },
+      "score": 0.25101214574898784,
+      "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+      "gold_reset_in_inference": false,
+      "language_id_supplied": false,
+      "max_future_words": 2
+    },
+    "retention_passed": false,
+    "retention_by_language": {
+      "vi": false,
+      "en": false,
+      "zh": false
+    },
+    "scope": "Synthetic punctuation DEV only; no test/human/audio gold",
+    "test_used": false
+  }
+}

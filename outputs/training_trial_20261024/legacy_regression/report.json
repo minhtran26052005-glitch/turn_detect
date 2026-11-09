@@ -1,0 +1,30 @@
+{
+  "status": "DESCRIPTIVE_LEGACY_REGRESSION",
+  "model_selected_on": "frozen dev",
+  "threshold_frozen": 0.49999999999999994,
+  "test_sha256": "ecc01c6c7198f9543102bf1082fdacee8676f079c0ce20db0f4efb2f5f192aa0",
+  "metrics": {
+    "samples": 4183,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.934735835524743,
+    "eot_precision": 0.8998316498316499,
+    "eot_recall": 0.8740801308258381,
+    "eot_f1": 0.8867689755288262,
+    "joint_score": 0.8867689755288262,
+    "false_eot": 119,
+    "missed_eot": 154,
+    "false_eot_rate": 0.0402027027027027,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        2841,
+        119
+      ],
+      [
+        154,
+        1069
+      ]
+    ]
+  },
+  "elapsed_seconds": 8.132491821997974,
+  "limits": "Legacy test was viewed previously. Results are regression diagnostics; no model or threshold changes are made from it."
+}

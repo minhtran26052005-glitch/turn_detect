@@ -1,0 +1,19 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-595d62b4-0421-4af5-885c-0d72e4aa1d1002f68001-a8cf-4ec7-9f7b-a3b56cdd3208.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "status": "ok",
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": "{\"mounted\": true, \"drive_path\": \"/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026\", \"marker_sha256\": \"06b710fa6a0143f3ba79d7d0ac62cc8c7d0bb12d9b4a5048d6a65befcc96f9f3\", \"disk_usage\": {\"total\": 253055008768, \"used\": 82528419840, \"free\": 170526588928}}\n"
+      }
+    ],
+    "elapsed_seconds": 0.11000000000058208
+  }
+}

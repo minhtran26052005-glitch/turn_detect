@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "report_sha256": "373d42667cf5de2857bbeace708a201a8dd87c729733244812c24a6d996d4b10",
+  "all_inferences_audited": 1141517,
+  "every_encoded_input_and_causal_future_verified": true,
+  "predicted_only_resets_verified": true,
+  "all_eligible_points_accounted_for": true,
+  "all_confusion_counts_verified": true,
+  "source_words_conserved_and_final_flush_not_eot": true,
+  "checkpoint_weights_and_trace_sha_verified": true
+}

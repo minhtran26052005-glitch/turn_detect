@@ -1,0 +1,12 @@
+{
+  "evaluate_qat_student.py": "2b228dc447b3c087156d6de1d128625f4ca41de6e16b27cbec99493bbb8efa8b",
+  "export_qat_student.py": "b59d8cc461a3e49bf5602870c243fb428107502f07b133a3cc70f81c01ed1998",
+  "package_qat_student.py": "d270bc04d759c5bb3897ed2cb8699907a80ce07302b4a5ba6ae5d5a4abae67a6",
+  "qat_colab.py": "b2a5f0e7941dd8a0cf6daf1cc1b9611ae83ce8d52685ebac10464928bfe5ae4d",
+  "qat_student.py": "9d28772b62b501ccb29392dcabda2408cc8642416acd9dcdaf242c38a0adc457",
+  "sync_qat_package.py": "23be2082abe719eb011add678b27ed9489e27d2e0bf659ad84869d55a4058b2e",
+  "test_qat_student.py": "ab9b21e1927a684171d63a8911cfb25c70392b9ff07aa46a5f82102c80658ab1",
+  "update_qat_notebook.py": "924b2cfd72b727f6a81a2da08fd3735efeb66769d064550cd7201806aaa34a41",
+  "validate_qat_student.py": "1eaf321ddab25818fc4fd70229c96602c4a142fd074db2657861b6ece48aaea4",
+  "verify_tiny_package.py": "14197615c9144413287c0af485623c4d1307f42b8da13015556c6c8c62a190fc"
+}

@@ -1,0 +1,176 @@
+{
+  "checked_unix": 1793634806.705548,
+  "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+  "owner": {
+    "boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 7510,
+    "start_ticks": "164260"
+  },
+  "processes": [
+    {
+      "pid": 7510,
+      "start_ticks": "164260",
+      "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v9/factory_spoken_campaign_v9.py "
+    }
+  ],
+  "identity_verified": true,
+  "baseline_commit": 330,
+  "baseline_counts": {
+    "vi": 1632,
+    "en": 0,
+    "zh": 0
+  },
+  "verified_new_shards": [
+    {
+      "index": 331,
+      "accepted": 0,
+      "examples": 0,
+      "rejected": 20,
+      "object_sha256": "a1804a8759a662176f304cfe22a1d37dc138f26e7a817fc2783ffc8555f91a72",
+      "commit_sha256": "7bbc08b5a9637a0672039851734db1b26eaddf9407bdd7f99b7d969de4c7079c",
+      "previous_commit_sha256": "ce2f9806824a542c918bfd53be12b07db01262e094853d4a7711ced0b10c3f58",
+      "readback_verified": true,
+      "chain_link_verified": true
+    },
+    {
+      "index": 332,
+      "accepted": 6,
+      "examples": 130,
+      "rejected": 14,
+      "object_sha256": "325108ef7074e0e39269c24626ddb67b0def8a006eb21d7993b812d1ebafb852",
+      "commit_sha256": "5dee920d8885b7532e6fb27457d3b0ed287eca626a891d60c4cf464d90bd5622",
+      "previous_commit_sha256": "7bbc08b5a9637a0672039851734db1b26eaddf9407bdd7f99b7d969de4c7079c",
+      "readback_verified": true,
+      "chain_link_verified": true
+    }
+  ],
+  "verified_new_commit": 332,
+  "verified_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 6908,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 332,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 1638,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 42000,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "5dee920d8885b7532e6fb27457d3b0ed287eca626a891d60c4cf464d90bd5622",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 5270,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 1638,
+      "zh": 0
+    }
+  },
+  "new_accepted": 6,
+  "new_examples": 130,
+  "status": {
+    "at_unix": 1793634792.5669563,
+    "batch": 20,
+    "batch_started_unix": 1793634783.870537,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 18.8,
+    "language": "vi",
+    "pid": 7510,
+    "stage": "GENERATING",
+    "start_ticks": "164260",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 6928,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 333,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 1644,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 42148,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "5d475f4f0845e76de5bc87c3c35e570c7f445e136f2ce2f0d52b41ed128470d7",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 5284,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 1644,
+        "zh": 0
+      }
+    }
+  },
+  "fresh_drive_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 6928,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 333,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 1644,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 42148,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "5d475f4f0845e76de5bc87c3c35e570c7f445e136f2ce2f0d52b41ed128470d7",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 5284,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 1644,
+      "zh": 0
+    }
+  },
+  "colab_free_gib": 220.25479125976562,
+  "error_file_present": false,
+  "gpu": "97 %, 19496 MiB, 23034 MiB",
+  "checked_utc": "2026-11-02T15:53:27.245119+00:00",
+  "session_selection": {
+    "matching_sessions": 2,
+    "distinct_kernels": 2,
+    "selection": "same_runtime_same_process_and_filesystem_view",
+    "verified_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+    "views_verified": true
+  },
+  "state_reconstructed_from_verified_commits": true
+}

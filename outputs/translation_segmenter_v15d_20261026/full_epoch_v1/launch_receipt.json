@@ -1,0 +1,45 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "audit": {
+      "pid": 24185,
+      "start_ticks": "578276",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_data_v2"
+      ],
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/data_worker_v2.log"
+    },
+    "transition": {
+      "pid": 24186,
+      "start_ticks": "578276",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_transition_v1"
+      ],
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/transition_v1/worker.log"
+    },
+    "watchdog": {
+      "pid": 24187,
+      "start_ticks": "578276",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_transition_v1",
+        "--watchdog"
+      ],
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/transition_v1/watchdog.log"
+    },
+    "generation": "cycle000084_full_epoch_contiguous_v1"
+  }
+}

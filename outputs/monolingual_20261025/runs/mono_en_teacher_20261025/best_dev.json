@@ -1,0 +1,93 @@
+{
+  "overall": {
+    "samples": 1682,
+    "threshold": 0.4749999999999999,
+    "accuracy": 0.6938168846611177,
+    "eot_precision": 0.7125748502994012,
+    "eot_recall": 0.8231225296442688,
+    "eot_f1": 0.7638697845025217,
+    "joint_score": 0.6938168846611177,
+    "false_eot": 336,
+    "missed_eot": 179,
+    "false_eot_rate": 0.5014925373134328,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        334,
+        336
+      ],
+      [
+        179,
+        833
+      ]
+    ]
+  },
+  "slices": {
+    "livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 403,
+      "threshold": 0.4749999999999999,
+      "accuracy": 0.6029776674937966,
+      "eot_precision": 0.5057034220532319,
+      "eot_recall": 0.8159509202453987,
+      "eot_f1": 0.6244131455399061,
+      "joint_score": 0.6029776674937966,
+      "false_eot": 130,
+      "missed_eot": 30,
+      "false_eot_rate": 0.5416666666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          110,
+          130
+        ],
+        [
+          30,
+          133
+        ]
+      ]
+    },
+    "natural": {
+      "samples": 77,
+      "threshold": 0.4749999999999999,
+      "accuracy": 0.6233766233766234,
+      "eot_precision": 0.671875,
+      "eot_recall": 0.8431372549019608,
+      "eot_f1": 0.7478260869565218,
+      "joint_score": 0.6233766233766234,
+      "false_eot": 21,
+      "missed_eot": 8,
+      "false_eot_rate": 0.8076923076923077,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          21
+        ],
+        [
+          8,
+          43
+        ]
+      ]
+    },
+    "scicom_read_speech": {
+      "samples": 1202,
+      "threshold": 0.4749999999999999,
+      "accuracy": 0.7287853577371048,
+      "eot_precision": 0.7802850356294537,
+      "eot_recall": 0.8233082706766918,
+      "eot_f1": 0.801219512195122,
+      "joint_score": 0.7287853577371048,
+      "false_eot": 185,
+      "missed_eot": 141,
+      "false_eot_rate": 0.45792079207920794,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          219,
+          185
+        ],
+        [
+          141,
+          657
+        ]
+      ]
+    }
+  },
+  "natural_target_met": false
+}

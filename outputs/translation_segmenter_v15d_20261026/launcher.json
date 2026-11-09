@@ -1,0 +1,39 @@
+{
+  "launcher": {
+    "pid": 352898,
+    "start_ticks": "8548241",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_v15d3",
+      "--phase",
+      "run",
+      "--docs-per-source",
+      "200",
+      "--steps",
+      "100",
+      "--microbatch",
+      "32"
+    ],
+    "module": "turn_v2.translation_segmenter_v15d3",
+    "log": "outputs/translation_segmenter_v15d_20261026/worker_3.log",
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+    "campaign": "translation_segmenter_v15d",
+    "max_cycles": 0
+  },
+  "carryover": {
+    "copied_from": "outputs/translation_segmenter_v15c_20261026/corpus.sqlite",
+    "sqlite_backup_api": "Connection.backup",
+    "copied_new_database": false,
+    "source_cycle": 17,
+    "source_database_sha256": "0aa97f06bd0547b52683fbd82d43389b4c3e01b9ab7188e9e955a91f8f16351d",
+    "counts": {
+      "pages": 1894,
+      "examples": 125617
+    },
+    "next_cycle": 22,
+    "teacher_weights_copied": false,
+    "qwen_downloaded": false
+  }
+}

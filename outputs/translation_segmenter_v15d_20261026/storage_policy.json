@@ -1,0 +1,19 @@
+{
+  "updated_at_utc": "2026-10-26T17:12:29.071110+00:00",
+  "large_artifacts_destination": "google_drive",
+  "local_large_snapshot_downloads_enabled": false,
+  "local_artifacts": "bounded reports and review samples only",
+  "drive_parent_folder_id": "1zJqmc6q38WkmxvLWgcSedNYKb3bbUAgg",
+  "drive_folder_id": null,
+  "drive_folder_url": null,
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+  "delete_existing_local_data_authorized": true,
+  "connector_folder_id_unused": "1dVookEMrQ0ZZftRZW-ASMnz3Fd3PuOEo",
+  "destination_kind": "user_mounted_google_drive",
+  "local_review_reserve_guard_enabled": true,
+  "local_reserve_bytes": 10737418240,
+  "local_review_transfer_cap_bytes": 5242880,
+  "authorized_deletion_plan": "outputs\\translation_segmenter_v15d_20261026\\local_cleanup_plan_20261027.json",
+  "cleanup_execution_blocked_by_tool_policy": true,
+  "must_not_bypass_deletion_policy_rejection": true
+}

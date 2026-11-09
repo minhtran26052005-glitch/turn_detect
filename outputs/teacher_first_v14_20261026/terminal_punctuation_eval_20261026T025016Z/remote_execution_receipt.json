@@ -1,0 +1,92 @@
+{
+  "status": "error",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"loading_cpu_model\", \"language\": \"vi\", \"cases\": 1007, \"checkpoint_sha256\": \"c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6\"}\n"
+    },
+    {
+      "output_type": "stream",
+      "name": "stderr",
+      "text": "[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"
+    },
+    {
+      "output_type": "display_data",
+      "data": {
+        "text/plain": "Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]",
+        "application/vnd.jupyter.widget-view+json": {
+          "version_major": 2,
+          "version_minor": 0,
+          "model_id": "0697b918dc9948f89832fd0665fa8e67"
+        }
+      },
+      "metadata": {},
+      "transient": {}
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"language_done\", \"language\": \"vi\", \"metrics\": {\"checkpoint_sha256\": \"c7f869c069754e1387cb5df7089e6bd97c985c48219f342e52c15223ff8a1cf6\", \"threshold_from_frozen_semantic_silver_dev\": 0.09, \"sentences\": 25, \"prefix_events\": 1007, \"accuracy\": 0.5461767626613704, \"eot_precision\": 0.05186721991701245, \"eot_recall\": 1.0, \"eot_f1\": 0.09861932938856016, \"confusion_NEOT_EOT\": [[525, 457], [0, 25]], \"premature_eot_rate_before_terminal_period\": 0.4653767820773931, \"terminal_period_end_rate\": 1.0, \"strict_sentence_passes\": 0, \"strict_sentence_rate\": 0.0, \"period_vs_no_period_token_ids_identical\": true, \"period_codec\": {\"terminal_pairs\": 25, \"identical_token_ids_after_normalize\": 25, \"punctuation_survives_input_codec\": false}, \"training_stage_when_evaluated\": \"TRAINING_LARGE_TEACHER\", \"training_language_when_evaluated\": \"zh\"}}\n"
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"loading_cpu_model\", \"language\": \"en\", \"cases\": 1957, \"checkpoint_sha256\": \"67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7\"}\n"
+    },
+    {
+      "output_type": "display_data",
+      "data": {
+        "text/plain": "Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]",
+        "application/vnd.jupyter.widget-view+json": {
+          "version_major": 2,
+          "version_minor": 0,
+          "model_id": "06c1a9a0c825493aa321f4a428b9a784"
+        }
+      },
+      "metadata": {},
+      "transient": {}
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"language_done\", \"language\": \"en\", \"metrics\": {\"checkpoint_sha256\": \"67be7aaab6705975f477fe602a7362d7a99cb9c2925c9ca53c4a7cad45903dc7\", \"threshold_from_frozen_semantic_silver_dev\": 0.4099999999999999, \"sentences\": 71, \"prefix_events\": 1957, \"accuracy\": 0.8063362289218191, \"eot_precision\": 0.13157894736842105, \"eot_recall\": 0.7746478873239436, \"eot_f1\": 0.2249488752556237, \"confusion_NEOT_EOT\": [[1523, 363], [16, 55]], \"premature_eot_rate_before_terminal_period\": 0.19247083775185578, \"terminal_period_end_rate\": 0.7746478873239436, \"strict_sentence_passes\": 0, \"strict_sentence_rate\": 0.0, \"period_vs_no_period_token_ids_identical\": true, \"period_codec\": {\"terminal_pairs\": 71, \"identical_token_ids_after_normalize\": 71, \"punctuation_survives_input_codec\": false}, \"training_stage_when_evaluated\": \"TRAINING_LARGE_TEACHER\", \"training_language_when_evaluated\": \"zh\"}}\n"
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"loading_cpu_model\", \"language\": \"zh\", \"cases\": 3172, \"checkpoint_sha256\": \"9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83\"}\n"
+    },
+    {
+      "output_type": "display_data",
+      "data": {
+        "text/plain": "Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]",
+        "application/vnd.jupyter.widget-view+json": {
+          "version_major": 2,
+          "version_minor": 0,
+          "model_id": "4f384d9f86f64847b326f4ae0c061472"
+        }
+      },
+      "metadata": {},
+      "transient": {}
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"event\": \"language_done\", \"language\": \"zh\", \"metrics\": {\"checkpoint_sha256\": \"9838042384eb68f3a6ebec70e38e1bc2fd4ed2b7529d46291893381e09b5ee83\", \"threshold_from_frozen_semantic_silver_dev\": 0.49999999999999994, \"sentences\": 61, \"prefix_events\": 3172, \"accuracy\": 0.7134300126103404, \"eot_precision\": 0.058333333333333334, \"eot_recall\": 0.9180327868852459, \"eot_f1\": 0.10969637610186092, \"confusion_NEOT_EOT\": [[2207, 904], [5, 56]], \"premature_eot_rate_before_terminal_period\": 0.290581806493089, \"terminal_period_end_rate\": 0.9180327868852459, \"strict_sentence_passes\": 0, \"strict_sentence_rate\": 0.0, \"period_vs_no_period_token_ids_identical\": true, \"period_codec\": {\"terminal_pairs\": 61, \"identical_token_ids_after_normalize\": 61, \"punctuation_survives_input_codec\": false}, \"training_stage_when_evaluated\": \"TRAINING_LARGE_TEACHER\", \"training_language_when_evaluated\": \"zh\"}}\n"
+    },
+    {
+      "output_type": "error",
+      "traceback": [
+        "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+        "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+        "\u001b[0;32m/tmp/ipykernel_1461/353268310.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m    131\u001b[0m     \u001b[0;32mfor\u001b[0m \u001b[0mrow\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mtrace\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mjson\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdumps\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mrow\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mensure_ascii\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mFalse\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0;34m\"\\n\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    132\u001b[0m \u001b[0msource_path\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mROOT\u001b[0m \u001b[0;34m/\u001b[0m \u001b[0;34m\"outputs/trilingual_stream_20261024/crawl/paragraphs.jsonl\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 133\u001b[0;31m \u001b[0msource_hash\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mhashlib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfile_digest\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msource_path\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"rb\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"sha256\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mhexdigest\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    134\u001b[0m report = {\n\u001b[1;32m    135\u001b[0m   \u001b[0;34m\"protocol\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\"terminal_period_streaming_v1\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+        "\u001b[0;32m/usr/lib/python3.13/pathlib/_local.py\u001b[0m in \u001b[0;36mopen\u001b[0;34m(self, mode, buffering, encoding, errors, newline)\u001b[0m\n\u001b[1;32m    535\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0;34m\"b\"\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mmode\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    536\u001b[0m             \u001b[0mencoding\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mio\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtext_encoding\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mencoding\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 537\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mio\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmode\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mbuffering\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mencoding\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0merrors\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnewline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    538\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    539\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mread_text\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mencoding\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mNone\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0merrors\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mNone\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnewline\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mNone\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+        "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: '/content/turn_detect_v2/outputs/trilingual_stream_20261024/crawl/paragraphs.jsonl'"
+      ],
+      "ename": "FileNotFoundError",
+      "evalue": "[Errno 2] No such file or directory: '/content/turn_detect_v2/outputs/trilingual_stream_20261024/crawl/paragraphs.jsonl'"
+    }
+  ],
+  "elapsed_seconds": 433.125
+}

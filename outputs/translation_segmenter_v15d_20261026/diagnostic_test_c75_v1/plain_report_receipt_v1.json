@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-10-27T05:16:41.962189+00:00",
+  "audience": "Vietnamese nontechnical reader",
+  "raw_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "model_inference_executed": false,
+  "fixed_test_examples": [
+    "0033aa01f4dc0806ee221c8525cda5f8b446ae845d41fb989d51815f9c0a5f36",
+    "00707eeaf09ca6dc65122518c3df467ddc673986ee37047f2a7d30d2517b33a3",
+    "00bdf2031720ec3b0df65451c6f84a895d7e098aec468986ca139ffac2ca7c52",
+    "00848502da7ae35197e08ad9c603b71ec9d4f95e9447fb5d0ffaab3509bd2037",
+    "001612f527551e2fc69c6f0adcb5ebaf4ee1568aa954eb1691ab1774353afb1e",
+    "001fc2e14f16eec4ac2bbb082f7be907887930270543afd352e1cef72e9707de",
+    "01768d1f9a8f076a3215bfb6c6f408ca9e2462654d3835a208ab8c9dea0b9cbf"
+  ],
+  "training_examples_are_actual_optimizer_drawn": true,
+  "technical_original_preserved": "review_technical_v3.html",
+  "technical_original_sha256": "a78352c6365c2dd056df86e62611e6e98dc1f938f114b7f23faa72a09d263393",
+  "files_sha256": {
+    "bao_cao_ket_qua.html": "5753c8c52631b20051effe5808870006df95eddb048f71bb903b41f53967c8c1",
+    "review_complete_v3.html": "5753c8c52631b20051effe5808870006df95eddb048f71bb903b41f53967c8c1",
+    "train_examples_for_report_v1.json": "eff1f0b390c4a43943345680b53211773586b09a8208d711a7f46aeac6a24609",
+    "train_examples_for_report_v2.json": "ffe094f7cc4174f0279748a5298f739861d3f87ce7775b3bb83688fcce7a3d16"
+  }
+}

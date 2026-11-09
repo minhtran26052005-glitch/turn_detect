@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"natural_campaign_pipeline_20261025\", \"launcher_pid\": 173788, \"bundle_sha256\": \"04ec624c53666695d2495166156adee21d67ef99b16a211c3ad532dcb845afb1\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.10999999998603016
+}

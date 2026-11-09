@@ -1,0 +1,9 @@
+{
+  "method": "Unigram vocabulary compaction; all encoder weights and 12 layers preserved",
+  "source_onnx_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+  "original_vocab": 251000,
+  "retained_vocab": 23078,
+  "original_onnx_bytes": 1116285156,
+  "fp32_onnx_bytes": 416108770,
+  "fp32_onnx_sha256": "47636d204e479790f04033ea147c5da0c2ea156c395a0b32a6f3a68cff43a6d8"
+}

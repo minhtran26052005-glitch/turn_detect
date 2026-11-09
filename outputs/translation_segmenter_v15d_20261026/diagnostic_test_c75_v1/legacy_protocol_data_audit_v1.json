@@ -1,0 +1,677 @@
+{
+  "created_at_utc": "2026-10-27T07:56:45.834123+00:00",
+  "scope": "READ_ONLY_LEGACY_DEV_STRUCTURE_AND_SOURCE_AUDIT_NO_MODEL_NO_RELABEL",
+  "dev_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+  "raw_source_sha256": "e6f588c086adad037bb0d59eb86b6602e18220163d62f4087ae11a67e947c5a0",
+  "samples": 17833,
+  "labels": {
+    "EOT": 5613,
+    "NEOT": 12220
+  },
+  "all_origin_rows_match_original_source": true,
+  "origin_mismatch_count": 0,
+  "nonempty_context_rows": 0,
+  "rows_with_explicit_lookahead_metadata": 0,
+  "rows_with_source_id": 0,
+  "rows_with_audio_or_conversation_provenance": 0,
+  "right_slot_word_count_gt2": 17385,
+  "within_dev_duplicate_input_keys": 0,
+  "within_dev_conflicting_input_labels": 0,
+  "exact_input_overlap_with_old_train_keys": 0,
+  "group_overlap_with_old_train": 0,
+  "old_train_rows_scanned": 315174,
+  "groups": 5318,
+  "group_ids_are_heuristic_not_verified_dialogue": true,
+  "neot_matching_strict_prefix_of_same_group_eot": 12011,
+  "neot_without_same_group_prefix_parent": 209,
+  "eot_suspicious_ending_candidates_not_adjudicated": 25,
+  "eot_suspicious_ending_examples": [
+    {
+      "text": "xi va được miêu tả như thế nào khi nhân từ",
+      "label": "EOT",
+      "origin_row": 16308,
+      "group_id": "anchor:18b85bb6b339c65ace43bb88a96c94c7bc8c0423bd6bc8f26faf25bf4b16a542"
+    },
+    {
+      "text": "gia lon gặp khó khăn gì trong thời gian trị vì",
+      "label": "EOT",
+      "origin_row": 267233,
+      "group_id": "anchor:caee9a1f9f9404ccf1ce42c56a57360a8567dea0da1b53b5770bfbf8d2519148"
+    },
+    {
+      "text": "vùng đó nằm ở đâu vào đầu thế kỷ thứ mười một",
+      "label": "EOT",
+      "origin_row": 76794,
+      "group_id": "anchor:d7bc3a1771b8602fbf8bd1a62a6ae78667b9bcb8099566a3e799b4d324a5767a"
+    },
+    {
+      "text": "những người sống sót đã làm gì sau đó để tồn tại",
+      "label": "EOT",
+      "origin_row": 79894,
+      "group_id": "anchor:504b754d69e3594fc1a7e8b83ddc07c7b6ae62c6bfc63cdb20b26132dbfec15c"
+    },
+    {
+      "text": "sau các cuộc tấn công đó vương quốc nào còn tồn tại",
+      "label": "EOT",
+      "origin_row": 223941,
+      "group_id": "anchor:b02a08d7569e312344211633037b86bb948fc3ccec651e9ec1b36daeaa4f613d"
+    },
+    {
+      "text": "xi va được miêu tả như thế nào ở khía cạnh nhân từ",
+      "label": "EOT",
+      "origin_row": 181700,
+      "group_id": "anchor:18b85bb6b339c65ace43bb88a96c94c7bc8c0423bd6bc8f26faf25bf4b16a542"
+    },
+    {
+      "text": "xen exupéry đón bao nhiêu lượt khách năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 161052,
+      "group_id": "anchor:b94e9df4060f9afe16b65dedf9fa4f6bc18076b77718f822b3df8dc0e20c7b3a"
+    },
+    {
+      "text": "năm nào ri ần ma đrít lần đầu bị loại khỏi cúp xê một",
+      "label": "EOT",
+      "origin_row": 183862,
+      "group_id": "anchor:9e95bb07fcc8c4f0089fe11128286a229eb3ab200ec91f912c3163a1106e3262"
+    },
+    {
+      "text": "quảng ngãi cách thành phố hồ chí minh bao xa theo quốc lộ một",
+      "label": "EOT",
+      "origin_row": 232791,
+      "group_id": "anchor:cd971135e7a3a1865ddb174cdb7093f7fe7fdbe697669b7f911afe8d664dde88"
+    },
+    {
+      "text": "ông ấy được phong tặng danh hiệu gì năm hai nghìn không trăm lẻ một",
+      "label": "EOT",
+      "origin_row": 205460,
+      "group_id": "anchor:de8c39589450aa49bc014e82ecccbb3253d571a7525f9fda117fa5852010ca56"
+    },
+    {
+      "text": "sau đó đáp hoe tham gia phim nào khác năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 181888,
+      "group_id": "anchor:269e732b06e41c743506441bc8216c79b42a0f0eade5b9af9af5adee29bcf5c4"
+    },
+    {
+      "text": "nguyên nhân nào dẫn đến tỷ lệ tử vong cao trong thời gian bà trị vì",
+      "label": "EOT",
+      "origin_row": 242073,
+      "group_id": "anchor:1c339df37c5d5156b61ce717415cb00953faf34802a15c9fb537a09ad8977062"
+    },
+    {
+      "text": "bao nhiêu thành viên của ri tin tham gia prô đi út một trăm lẻ một",
+      "label": "EOT",
+      "origin_row": 251657,
+      "group_id": "anchor:c8f86b8cbcf1ebba8d4efebf67a5ad4667fc20704ff746e02cb8c73f8a992cf8"
+    },
+    {
+      "text": "phân loại của chi này có thay đổi gì năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 298865,
+      "group_id": "anchor:e5b64e9129102c2f2155289611878b737d6d593827a971c14ee5a39ba46b8846"
+    },
+    {
+      "text": "t a ra ra mắt bài hát nào ở nhật năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 78651,
+      "group_id": "anchor:54c40eb6d30b201a1afb16df11b8895dfb3eb0682c09a05bec8371be46d27d92"
+    },
+    {
+      "text": "ngoài các thành phố địa hình đài loan còn có đặc điểm gì nổi bật ví dụ vùng đồng bằng",
+      "label": "EOT",
+      "origin_row": 44935,
+      "group_id": "anchor:48daaeb3ad8c09681f849a7304b9fa9e38c8c86953c87e2dab1c08cea8d6b46d"
+    },
+    {
+      "text": "an bum nào của họ phát hành ngày ngày hai mươi tư tháng mười năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 62498,
+      "group_id": "anchor:26bf2069f81ef9592a3372849d341209e61a3976b32f8abebd3db7d3470d73d1"
+    },
+    {
+      "text": "ai được nhắm vào vai nữ chính trong phiên bản làm lại a ta ít bo năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 224393,
+      "group_id": "anchor:7f6e7a7a7b65a550ac4cb297bad313d9a9dffdbb8661e2bc2029d946a6eaec12"
+    },
+    {
+      "text": "chuyển sang câu chuyện khác đám tang của ni ki lau da có sự tham dự của những ai trong làng công thức một",
+      "label": "EOT",
+      "origin_row": 56136,
+      "group_id": "anchor:4d1dd1279673a6fe4b73ea069fa3456625a447611bea8f05b068dbe44bbaaa1d"
+    },
+    {
+      "text": "dân số của nó chiếm bao nhiêu phần trăm dân số toàn đảo và của nước anh năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 320777,
+      "group_id": "anchor:5f378316f619c09f9ac06e406766309c20d79c69d2a3359f7f155b20372d1222"
+    },
+    {
+      "text": "nghị viện xcót lần tái triệu tập năm nào và đảng dân tộc xcót lần đạt được gì năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 76315,
+      "group_id": "anchor:bab313976219f7e6f00699e2ea3c463d5c1131a084f31bb8afa0631243f657a6"
+    },
+    {
+      "text": "tỷ trọng thu nhập của nhóm này thay đổi thế nào từ một nghìn chín trăm bảy mươi sáu đến hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 117894,
+      "group_id": "anchor:e4b93808e2750f2f25c059311c36a61747f13160f9b90f5924eb72ff384fd26b"
+    },
+    {
+      "text": "nho quan có bao nhiêu lượt khách du lịch năm hai nghìn không trăm mười và ba tháng đầu năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 148873,
+      "group_id": "anchor:20b61a2ddc08cf5b3c16673e44e84fab70d135aae6e152fb20bbdd7dd16cf4e7"
+    },
+    {
+      "text": "sự kiện nào khiến tài sản của ông tăng hơn hai phẩy bảy tỉ đô la mỹ vào tháng ba năm hai nghìn không trăm mười một",
+      "label": "EOT",
+      "origin_row": 300960,
+      "group_id": "anchor:3dedc66f432acd8b8a168b9cc903c2ac94bb8933c0addf12c37028b99bbf48ef"
+    }
+  ],
+  "short_neot_prefix_examples_not_adjudicated": [
+    {
+      "prefix": "đô",
+      "label": "NEOT",
+      "parent_eot_text": "đô thị nào đông dân nhất năm hai nghìn không trăm lẻ năm",
+      "origin_row": 2221
+    },
+    {
+      "prefix": "lâm",
+      "label": "NEOT",
+      "parent_eot_text": "lâm đồng nằm ở vùng nào và xếp hạng bao nhiêu về diện tích",
+      "origin_row": 2227
+    },
+    {
+      "prefix": "quả",
+      "label": "NEOT",
+      "parent_eot_text": "quả bom được thả xuống có tên gì và gây ra hậu quả như thế nào",
+      "origin_row": 2759
+    },
+    {
+      "prefix": "tiệp",
+      "label": "NEOT",
+      "parent_eot_text": "tiệp khắc được thành lập khi nào và trong bối cảnh nào",
+      "origin_row": 7200
+    },
+    {
+      "prefix": "nhóm",
+      "label": "NEOT",
+      "parent_eot_text": "nhóm du khách nào đến nhiều nhất",
+      "origin_row": 7251
+    },
+    {
+      "prefix": "đĩa",
+      "label": "NEOT",
+      "parent_eot_text": "đĩa đơn yo xông đạt tốp mười ở mỹ và anh năm nào",
+      "origin_row": 8776
+    },
+    {
+      "prefix": "siêu",
+      "label": "NEOT",
+      "parent_eot_text": "siêu cúp đó diễn ra khi nào và giữa hai đội nào",
+      "origin_row": 10695
+    },
+    {
+      "prefix": "sản",
+      "label": "NEOT",
+      "parent_eot_text": "sản phẩm đặc trưng của nó là gì",
+      "origin_row": 11587
+    },
+    {
+      "prefix": "cát",
+      "label": "NEOT",
+      "parent_eot_text": "cát lâm giáp những tỉnh quốc gia nào",
+      "origin_row": 12193
+    },
+    {
+      "prefix": "chúa",
+      "label": "NEOT",
+      "parent_eot_text": "chúa nguyễn phúc thái dời phủ đến thụy lôi đổi tên thành phú xuân năm nào",
+      "origin_row": 15203
+    },
+    {
+      "prefix": "tổng",
+      "label": "NEOT",
+      "parent_eot_text": "tổng thống đầu tiên của co mo rọt sau độc lập là ai và ông ta bị lật đổ thế nào",
+      "origin_row": 15780
+    },
+    {
+      "prefix": "vợ",
+      "label": "NEOT",
+      "parent_eot_text": "vợ ông là ai và đại diện cho điều gì",
+      "origin_row": 16364
+    },
+    {
+      "prefix": "bằng",
+      "label": "NEOT",
+      "parent_eot_text": "bằng chứng nào cho thấy sự giao thương đường thủy và đường bộ từ óc eo",
+      "origin_row": 16434
+    },
+    {
+      "prefix": "mặc",
+      "label": "NEOT",
+      "parent_eot_text": "mặc dù mạnh mẽ và trung thành ông thường gặp khó khăn gì trên chiến trường",
+      "origin_row": 18367
+    },
+    {
+      "prefix": "quỹ",
+      "label": "NEOT",
+      "parent_eot_text": "quỹ nô ben thành lập khi nào và nhiệm vụ chính là gì",
+      "origin_row": 20602
+    },
+    {
+      "prefix": "nông",
+      "label": "NEOT",
+      "parent_eot_text": "nông nô được trả tự do khi nào",
+      "origin_row": 20747
+    },
+    {
+      "prefix": "hòa",
+      "label": "NEOT",
+      "parent_eot_text": "hòa ước vơ xai giải quyết vấn đề chủ quyền của thanh đảo thế nào và điều này dẫn đến gì ở trung quốc",
+      "origin_row": 25023
+    },
+    {
+      "prefix": "món",
+      "label": "NEOT",
+      "parent_eot_text": "món ăn nào hiếm gặp trong thực đơn của tầng lớp thượng lưu nhà tống",
+      "origin_row": 25554
+    },
+    {
+      "prefix": "cädin",
+      "label": "NEOT",
+      "parent_eot_text": "cädin là gì",
+      "origin_row": 29881
+    },
+    {
+      "prefix": "như",
+      "label": "NEOT",
+      "parent_eot_text": "như vậy bi ha đóng vai trò gì trong lịch sử ấn độ cổ đại và cổ điển",
+      "origin_row": 32074
+    },
+    {
+      "prefix": "đóng",
+      "label": "NEOT",
+      "parent_eot_text": "đóng góp của pelé trong trận tứ kết uơ nồ cắp một nghìn chín trăm năm mươi tám là gì",
+      "origin_row": 38493
+    },
+    {
+      "prefix": "bê",
+      "label": "NEOT",
+      "parent_eot_text": "bê xu di sinh năm nào",
+      "origin_row": 41172
+    },
+    {
+      "prefix": "oăn",
+      "label": "NEOT",
+      "parent_eot_text": "oăn cô a uây là đĩa đơn thứ mấy trong an bum và phát hành ngày nào",
+      "origin_row": 41912
+    },
+    {
+      "prefix": "màu",
+      "label": "NEOT",
+      "parent_eot_text": "màu áo chính của đội tuyển nhật bản là gì",
+      "origin_row": 42493
+    },
+    {
+      "prefix": "cống",
+      "label": "NEOT",
+      "parent_eot_text": "cống cái lớn cái bé tác động thế nào đến huyện",
+      "origin_row": 43381
+    },
+    {
+      "prefix": "hoàn",
+      "label": "NEOT",
+      "parent_eot_text": "hoàn cảnh ra đời của ông như thế nào",
+      "origin_row": 46390
+    },
+    {
+      "prefix": "maút",
+      "label": "NEOT",
+      "parent_eot_text": "maút an ge li ca be sinh ngày nào và ở đâu",
+      "origin_row": 48012
+    },
+    {
+      "prefix": "ốt",
+      "label": "NEOT",
+      "parent_eot_text": "ốt cu tua ở pháp có nghĩa là gì",
+      "origin_row": 56637
+    },
+    {
+      "prefix": "crít",
+      "label": "NEOT",
+      "parent_eot_text": "crít mác tin sinh năm nào và học trường nào",
+      "origin_row": 62494
+    },
+    {
+      "prefix": "tôm",
+      "label": "NEOT",
+      "parent_eot_text": "tôm là viết tắt của gì",
+      "origin_row": 68205
+    },
+    {
+      "prefix": "cửa",
+      "label": "NEOT",
+      "parent_eot_text": "cửa vịnh rộng bao nhiêu km",
+      "origin_row": 70160
+    },
+    {
+      "prefix": "lào",
+      "label": "NEOT",
+      "parent_eot_text": "lào độc lập năm nào",
+      "origin_row": 75683
+    }
+  ],
+  "neot_prefix_before_conjunction_candidates": 329,
+  "ambiguous_continuation_examples_not_adjudicated": [
+    {
+      "prefix": "ngoài ranh giới ê mi li blănt còn nổi tiếng với vai diễn nào",
+      "label": "NEOT",
+      "parent_eot_text": "ngoài ranh giới ê mi li blănt còn nổi tiếng với vai diễn nào và vai nào giúp cô đoạt giải ét a giê",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "vai"
+      ],
+      "origin_row": 1384,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "vị trí địa lý của quảng ngãi so với đà nẵng",
+      "label": "NEOT",
+      "parent_eot_text": "vị trí địa lý của quảng ngãi so với đà nẵng và thành phố hồ chí minh như thế nào",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "thành"
+      ],
+      "origin_row": 3932,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "liên hợp quốc được thành lập ở đâu",
+      "label": "NEOT",
+      "parent_eot_text": "liên hợp quốc được thành lập ở đâu và khi nào",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "khi"
+      ],
+      "origin_row": 5151,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "nhà thờ chính tòa được xây dựng vào thế kỷ nào",
+      "label": "NEOT",
+      "parent_eot_text": "nhà thờ chính tòa được xây dựng vào thế kỷ nào và có được trùng tu không",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "có"
+      ],
+      "origin_row": 5865,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "tiệp khắc được thành lập khi nào",
+      "label": "NEOT",
+      "parent_eot_text": "tiệp khắc được thành lập khi nào và trong bối cảnh nào",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "trong"
+      ],
+      "origin_row": 7198,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "sông sài gòn chảy qua dầu tiếng thế nào",
+      "label": "NEOT",
+      "parent_eot_text": "sông sài gòn chảy qua dầu tiếng thế nào và đổ vào đâu",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "đổ"
+      ],
+      "origin_row": 7604,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "việc bán ê em i cho u em giê được chấp thuận ở ê u",
+      "label": "NEOT",
+      "parent_eot_text": "việc bán ê em i cho u em giê được chấp thuận ở ê u và mỹ vào năm nào",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "mỹ"
+      ],
+      "origin_row": 7874,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "bô ing bảy trăm ba mươi bảy ra mắt năm nào",
+      "label": "NEOT",
+      "parent_eot_text": "bô ing bảy trăm ba mươi bảy ra mắt năm nào và nổi bật ở điểm gì",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "nổi"
+      ],
+      "origin_row": 9160,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "viên thuật được lý thôi phong chức gì",
+      "label": "NEOT",
+      "parent_eot_text": "viên thuật được lý thôi phong chức gì và làm gì với ngọc tỷ",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "làm"
+      ],
+      "origin_row": 9563,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "ai là hán canh thủy đế",
+      "label": "NEOT",
+      "parent_eot_text": "ai là hán canh thủy đế và vai trò của ông ta trong lịch sử là gì",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "vai"
+      ],
+      "origin_row": 9807,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "con trai ông ấy là ai",
+      "label": "NEOT",
+      "parent_eot_text": "con trai ông ấy là ai và thời trị vì của người này ra sao",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "thời"
+      ],
+      "origin_row": 10378,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    },
+    {
+      "prefix": "an bum trở lại năm hai nghìn không trăm lẻ năm của nhóm tên gì",
+      "label": "NEOT",
+      "parent_eot_text": "an bum trở lại năm hai nghìn không trăm lẻ năm của nhóm tên gì và đạt hạng mấy ở mỹ",
+      "inferred_omitted_next_words_from_same_group": [
+        "và",
+        "đạt"
+      ],
+      "origin_row": 11279,
+      "interpretation": "Potentially complete shorter utterance; not adjudicated wrong. These are not independently recorded future words."
+    }
+  ],
+  "eot_contains_question_phrase_heuristic": 5202,
+  "label_word_length_histograms": {
+    "EOT": {
+      "3": 3,
+      "4": 11,
+      "5": 46,
+      "6": 135,
+      "7": 204,
+      "8": 306,
+      "9": 381,
+      "10": 406,
+      "11": 437,
+      "12": 457,
+      "13": 438,
+      "14": 425,
+      "15": 413,
+      "16": 342,
+      "17": 276,
+      "18": 267,
+      "19": 237,
+      "20": 167,
+      "21": 136,
+      "22": 116,
+      "23": 94,
+      "24": 75,
+      "25": 47,
+      "26": 37,
+      "27": 48,
+      "28": 31,
+      "29": 18,
+      "30": 16,
+      "31": 12,
+      "32": 8,
+      "33": 3,
+      "34": 5,
+      "35": 3,
+      "36": 5,
+      "37": 1,
+      "38": 2,
+      "39": 1,
+      "40": 1,
+      "42": 1,
+      "43": 1,
+      "46": 1
+    },
+    "NEOT": {
+      "1": 69,
+      "2": 379,
+      "3": 811,
+      "4": 1125,
+      "5": 1240,
+      "6": 1225,
+      "7": 1228,
+      "8": 1019,
+      "9": 1006,
+      "10": 827,
+      "11": 695,
+      "12": 569,
+      "13": 448,
+      "14": 335,
+      "15": 299,
+      "16": 237,
+      "17": 204,
+      "18": 126,
+      "19": 110,
+      "20": 67,
+      "21": 48,
+      "22": 30,
+      "23": 26,
+      "24": 25,
+      "25": 19,
+      "26": 15,
+      "27": 11,
+      "28": 5,
+      "29": 6,
+      "30": 10,
+      "32": 2,
+      "33": 1,
+      "35": 2,
+      "38": 1
+    }
+  },
+  "eot_final_words_most_common": [
+    [
+      "nào",
+      1319
+    ],
+    [
+      "gì",
+      739
+    ],
+    [
+      "sao",
+      289
+    ],
+    [
+      "đâu",
+      219
+    ],
+    [
+      "nhiêu",
+      195
+    ],
+    [
+      "khác",
+      178
+    ],
+    [
+      "đó",
+      145
+    ],
+    [
+      "không",
+      127
+    ],
+    [
+      "ai",
+      117
+    ],
+    [
+      "xa",
+      48
+    ],
+    [
+      "nữa",
+      47
+    ],
+    [
+      "nó",
+      41
+    ],
+    [
+      "lâu",
+      40
+    ],
+    [
+      "này",
+      40
+    ],
+    [
+      "hai",
+      34
+    ],
+    [
+      "mươi",
+      34
+    ],
+    [
+      "chín",
+      30
+    ],
+    [
+      "ý",
+      30
+    ],
+    [
+      "bảy",
+      25
+    ],
+    [
+      "tám",
+      25
+    ]
+  ],
+  "no_estimated_true_label_noise_rate": true,
+  "labels_not_changed": true,
+  "holdout_not_opened_or_scored": true,
+  "conclusions": {
+    "verified_protocol_mismatch": true,
+    "verified_data_corruption": false,
+    "missing_future_cannot_be_reconstructed_for_eot_from_this_file": true,
+    "prefix_membership_does_not_prove_semantic_incompleteness": true,
+    "provided_gold_is_a_copied_tag_not_human_annotation_proof": true
+  }
+}

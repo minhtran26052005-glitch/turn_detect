@@ -1,0 +1,4960 @@
+{
+  "at_utc": "2026-11-08T14:56:51.564426+00:00",
+  "root": "/home/edabk/hoangbpm/turn_detect",
+  "files": [
+    {
+      "path": "outputs/malbert_eval_zip_20261104_v1/frozen/student_resume_pin.pt",
+      "size": 146937975,
+      "allocated": 146944000,
+      "dev": 66306,
+      "ino": 27550070,
+      "nlink": 1,
+      "mtime_ns": 1793729640594737857
+    },
+    {
+      "path": "outputs/malbert_eval_zip_20261104_v1/frozen/weights.pt",
+      "size": 47773586,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27550071,
+      "nlink": 1,
+      "mtime_ns": 1793729640727740718
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/initial_student.pt",
+      "size": 75901901,
+      "allocated": 75907072,
+      "dev": 66306,
+      "ino": 27545765,
+      "nlink": 1,
+      "mtime_ns": 1793680968456637323
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/distill/latest_resume.pt",
+      "size": 230404755,
+      "allocated": 230412288,
+      "dev": 66306,
+      "ino": 27545816,
+      "nlink": 1,
+      "mtime_ns": 1793682899136346638
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/distill/student.pt",
+      "size": 75894077,
+      "allocated": 75898880,
+      "dev": 66306,
+      "ino": 27545782,
+      "nlink": 1,
+      "mtime_ns": 1793681230183970026
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g64/quant_params.pt",
+      "size": 596896,
+      "allocated": 598016,
+      "dev": 66306,
+      "ino": 27546268,
+      "nlink": 1,
+      "mtime_ns": 1793685179976705472
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g64/latest_resume.pt",
+      "size": 230998834,
+      "allocated": 231006208,
+      "dev": 66306,
+      "ino": 27546271,
+      "nlink": 1,
+      "mtime_ns": 1793687121255066433
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g64/student.pt",
+      "size": 75894077,
+      "allocated": 75898880,
+      "dev": 66306,
+      "ino": 27546088,
+      "nlink": 1,
+      "mtime_ns": 1793685178903695891
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g32/quant_params.pt",
+      "size": 1179296,
+      "allocated": 1179648,
+      "dev": 66306,
+      "ino": 27546300,
+      "nlink": 1,
+      "mtime_ns": 1793687739177858195
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g32/latest_resume.pt",
+      "size": 231581170,
+      "allocated": 231587840,
+      "dev": 66306,
+      "ino": 27546272,
+      "nlink": 1,
+      "mtime_ns": 1793689155058971341
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/qat_g32/student.pt",
+      "size": 75894077,
+      "allocated": 75898880,
+      "dev": 66306,
+      "ino": 27546260,
+      "nlink": 1,
+      "mtime_ns": 1793687739137857404
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/fp32_control/latest_resume.pt",
+      "size": 230404755,
+      "allocated": 230412288,
+      "dev": 66306,
+      "ino": 27545930,
+      "nlink": 1,
+      "mtime_ns": 1793684105156718369
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/runs/fp32_control/student.pt",
+      "size": 75894077,
+      "allocated": 75898880,
+      "dev": 66306,
+      "ino": 27546003,
+      "nlink": 1,
+      "mtime_ns": 1793684104923721836
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/technical_fixture/candidates/technical_int4_g64/unpacked_control.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27545748,
+      "nlink": 1,
+      "mtime_ns": 1793680856843069490
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/technical_fixture/candidates/technical_int4_g64/model.onnx",
+      "size": 10126900,
+      "allocated": 10129408,
+      "dev": 66306,
+      "ino": 27545750,
+      "nlink": 1,
+      "mtime_ns": 1793680857516956067
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/technical_fixture/trained_fixture/quant_params.pt",
+      "size": 596755,
+      "allocated": 598016,
+      "dev": 66306,
+      "ino": 27545744,
+      "nlink": 1,
+      "mtime_ns": 1793680856096843945
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/technical_fixture/trained_fixture/student.pt",
+      "size": 75893159,
+      "allocated": 75898880,
+      "dev": 66306,
+      "ino": 27545736,
+      "nlink": 1,
+      "mtime_ns": 1793680856095843920
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g64/unpacked_control.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27546279,
+      "nlink": 1,
+      "mtime_ns": 1793687122414013077
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g64/model.onnx",
+      "size": 10126900,
+      "allocated": 10129408,
+      "dev": 66306,
+      "ino": 27546282,
+      "nlink": 1,
+      "mtime_ns": 1793687123247471218
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int8/unpacked_control.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27546203,
+      "nlink": 1,
+      "mtime_ns": 1793684303981561651
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int8/model.onnx",
+      "size": 19445526,
+      "allocated": 19451904,
+      "dev": 66306,
+      "ino": 27546211,
+      "nlink": 1,
+      "mtime_ns": 1793684304675094111
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g32/unpacked_control.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27546307,
+      "nlink": 1,
+      "mtime_ns": 1793689156078248244
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g32/model.onnx",
+      "size": 10709314,
+      "allocated": 10711040,
+      "dev": 66306,
+      "ino": 27546276,
+      "nlink": 1,
+      "mtime_ns": 1793689156701501488
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_fp32/unpacked_control.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27546174,
+      "nlink": 1,
+      "mtime_ns": 1793684106893588108
+    },
+    {
+      "path": "outputs/multilingual_under20m_20261103_v1/candidates/compact_fp32/model.onnx",
+      "size": 74734935,
+      "allocated": 74739712,
+      "dev": 66306,
+      "ino": 27546175,
+      "nlink": 1,
+      "mtime_ns": 1793684107343136409
+    },
+    {
+      "path": "outputs/multilingual_stream_test_20261102_v1/frozen/model.safetensors",
+      "size": 541317336,
+      "allocated": 541323264,
+      "dev": 66306,
+      "ino": 27530643,
+      "nlink": 1,
+      "mtime_ns": 1793607786870200640
+    },
+    {
+      "path": "outputs/multilingual_stream_test_20261102_v1/frozen/student_resume_pin.pt",
+      "size": 1624061459,
+      "allocated": 1624068096,
+      "dev": 66306,
+      "ino": 27530618,
+      "nlink": 1,
+      "mtime_ns": 1793607516774700445
+    },
+    {
+      "path": "outputs/malbert_eval_zip_20261104_v2/frozen/student_resume_pin.pt",
+      "size": 146937975,
+      "allocated": 146944000,
+      "dev": 66306,
+      "ino": 27547209,
+      "nlink": 1,
+      "mtime_ns": 1793757979130829469
+    },
+    {
+      "path": "outputs/malbert_eval_zip_20261104_v2/frozen/weights.pt",
+      "size": 47773586,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27547211,
+      "nlink": 1,
+      "mtime_ns": 1793757979198830840
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/vi_diagnostic_epoch2_20261030_v1/model.safetensors",
+      "size": 1115268200,
+      "allocated": 1115279360,
+      "dev": 66306,
+      "ino": 27035075,
+      "nlink": 3,
+      "mtime_ns": 1793322259873564218
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt",
+      "size": 3394672203,
+      "allocated": 3394699264,
+      "dev": 66306,
+      "ino": 27034384,
+      "nlink": 3,
+      "mtime_ns": 1793268052378783739
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/zh/frozen_multilingual_distill_v1/latest_resume.pt",
+      "size": 3394672203,
+      "allocated": 3394699264,
+      "dev": 66306,
+      "ino": 27034384,
+      "nlink": 3,
+      "mtime_ns": 1793268052378783739
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+      "size": 3362177675,
+      "allocated": 3362222080,
+      "dev": 66306,
+      "ino": 27034963,
+      "nlink": 1,
+      "mtime_ns": 1793363844109503606
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/best/model.safetensors",
+      "size": 1115268200,
+      "allocated": 1115279360,
+      "dev": 66306,
+      "ino": 27035075,
+      "nlink": 3,
+      "mtime_ns": 1793322259873564218
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/frozen_multilingual_distill_v1/model.safetensors",
+      "size": 1115268200,
+      "allocated": 1115279360,
+      "dev": 66306,
+      "ino": 27035075,
+      "nlink": 3,
+      "mtime_ns": 1793322259873564218
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/previous_recipe_v15d/latest_resume.pt",
+      "size": 3362177675,
+      "allocated": 3362205696,
+      "dev": 66306,
+      "ino": 27034511,
+      "nlink": 2,
+      "mtime_ns": 1793267476760231106
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/vi/previous_recipe_v15d/best/model.safetensors",
+      "size": 1115268200,
+      "allocated": 1115295744,
+      "dev": 66306,
+      "ino": 27034974,
+      "nlink": 1,
+      "mtime_ns": 1793239410129862389
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt",
+      "size": 3354757963,
+      "allocated": 3354783744,
+      "dev": 66306,
+      "ino": 27034386,
+      "nlink": 3,
+      "mtime_ns": 1793266022155860380
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/teachers/en/frozen_multilingual_distill_v1/latest_resume.pt",
+      "size": 3354757963,
+      "allocated": 3354783744,
+      "dev": 66306,
+      "ino": 27034386,
+      "nlink": 3,
+      "mtime_ns": 1793266022155860380
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/vi_diagnostic_current_20261030_v2/frozen_resume.pt",
+      "size": 3362177675,
+      "allocated": 3362217984,
+      "dev": 66306,
+      "ino": 27035102,
+      "nlink": 1,
+      "mtime_ns": 1793344661938235579
+    },
+    {
+      "path": "outputs/translation_segmenter_v15d_20261026/vi_diagnostic_current_20261030_v1/frozen_resume.pt",
+      "size": 3362177675,
+      "allocated": 3362209792,
+      "dev": 66306,
+      "ino": 27035092,
+      "nlink": 1,
+      "mtime_ns": 1793344608659212886
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/frozen/parent_full_resume.pt",
+      "size": 146937975,
+      "allocated": 146944000,
+      "dev": 66306,
+      "ino": 27547555,
+      "nlink": 2,
+      "mtime_ns": 1793764658156877717
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/runs/finetune/previous_resume.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27548749,
+      "nlink": 1,
+      "mtime_ns": 1793900156339501689
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/runs/finetune/latest_resume.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27548648,
+      "nlink": 2,
+      "mtime_ns": 1793900156476504409
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27548541,
+      "nlink": 1,
+      "mtime_ns": 1793874686388344642
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/history/token_digest_uint32_repair01/inherited_full_resume_before_repair.pt",
+      "size": 143637111,
+      "allocated": 143642624,
+      "dev": 66306,
+      "ino": 27547592,
+      "nlink": 1,
+      "mtime_ns": 1793765238295542332
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834/first_resumed_full_checkpoint.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27547973,
+      "nlink": 1,
+      "mtime_ns": 1793777354554042483
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/recovery_65117834/full_resume_pin.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27547670,
+      "nlink": 1,
+      "mtime_ns": 1793771537133075326
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_uploaded_20261104_v4/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/multilingual_stream_v2_20261102/warm_start.pt",
+      "size": 1624061459,
+      "allocated": 1624068096,
+      "dev": 66306,
+      "ino": 27530502,
+      "nlink": 1,
+      "mtime_ns": 1793596938660822877
+    },
+    {
+      "path": "outputs/multilingual_stream_v2_20261102/latest_student.pt",
+      "size": 1624061459,
+      "allocated": 1624072192,
+      "dev": 66306,
+      "ino": 27546251,
+      "nlink": 1,
+      "mtime_ns": 1793689183673342070
+    },
+    {
+      "path": "outputs/multilingual_stream_v2_20261102/previous_resume.pt",
+      "size": 1624061459,
+      "allocated": 1624076288,
+      "dev": 66306,
+      "ino": 27546308,
+      "nlink": 1,
+      "mtime_ns": 1793689160230038165
+    },
+    {
+      "path": "outputs/multilingual_stream_v2_20261102/best/model.safetensors",
+      "size": 541317336,
+      "allocated": 541323264,
+      "dev": 66306,
+      "ino": 27545646,
+      "nlink": 1,
+      "mtime_ns": 1793660933602730960
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/initial_student.pt",
+      "size": 47776509,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27545861,
+      "nlink": 1,
+      "mtime_ns": 1793691494547911269
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/runs/finetune/previous_resume.pt",
+      "size": 146027511,
+      "allocated": 146034688,
+      "dev": 66306,
+      "ino": 27545899,
+      "nlink": 1,
+      "mtime_ns": 1793692393749582014
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/runs/finetune/latest_resume.pt",
+      "size": 146027511,
+      "allocated": 146034688,
+      "dev": 66306,
+      "ino": 27545901,
+      "nlink": 2,
+      "mtime_ns": 1793692397496590815
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27545900,
+      "nlink": 1,
+      "mtime_ns": 1793692393646581778
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/technical_fixture/fp32/unpacked_control.onnx",
+      "size": 48083734,
+      "allocated": 48091136,
+      "dev": 66306,
+      "ino": 27545836,
+      "nlink": 1,
+      "mtime_ns": 1793691040775522753
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/technical_fixture/fp32/model.onnx",
+      "size": 48083734,
+      "allocated": 48091136,
+      "dev": 66306,
+      "ino": 27545837,
+      "nlink": 1,
+      "mtime_ns": 1793691040973368971
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/technical_fixture/int4_g64/unpacked_control.onnx",
+      "size": 48083734,
+      "allocated": 48091136,
+      "dev": 66306,
+      "ino": 27545846,
+      "nlink": 1,
+      "mtime_ns": 1793691363558293234
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/technical_fixture/int4_g64/model.onnx",
+      "size": 6826827,
+      "allocated": 6828032,
+      "dev": 66306,
+      "ino": 27545849,
+      "nlink": 1,
+      "mtime_ns": 1793691363973301604
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/train_probe/fixture_resume.pt",
+      "size": 143379860,
+      "allocated": 143384576,
+      "dev": 66306,
+      "ino": 27545829,
+      "nlink": 1,
+      "mtime_ns": 1793690837190063869
+    },
+    {
+      "path": "outputs/multilingual_malbert_pretrained_20261103_v1/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/sentence_mix_end_only_test_20261107_v1/frozen/student_resume_pin.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549953,
+      "nlink": 4,
+      "mtime_ns": 1794060114190836000
+    },
+    {
+      "path": "outputs/sentence_mix_end_only_test_20261107_v1/frozen/weights.pt",
+      "size": 47773586,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549988,
+      "nlink": 2,
+      "mtime_ns": 1794060431035037434
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/frozen/initial_resume.pt",
+      "size": 143347703,
+      "allocated": 143351808,
+      "dev": 66306,
+      "ino": 27550360,
+      "nlink": 1,
+      "mtime_ns": 1794070812762519457
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/frozen/first100_resume.pt",
+      "size": 143589175,
+      "allocated": 143593472,
+      "dev": 66306,
+      "ino": 27550331,
+      "nlink": 1,
+      "mtime_ns": 1794070822936757177
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/runs/finetune/weights.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27550308,
+      "nlink": 1,
+      "mtime_ns": 1794072546919790200
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/runs/finetune/previous_resume.pt",
+      "size": 143588919,
+      "allocated": 143593472,
+      "dev": 66306,
+      "ino": 27550379,
+      "nlink": 1,
+      "mtime_ns": 1794072513053159279
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/runs/finetune/latest_resume.pt",
+      "size": 143588471,
+      "allocated": 143593472,
+      "dev": 66306,
+      "ino": 27550384,
+      "nlink": 1,
+      "mtime_ns": 1794072546751787065
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/history/pretraining_float_tolerance/initial_resume.pt",
+      "size": 143347703,
+      "allocated": 143351808,
+      "dev": 66306,
+      "ino": 27550339,
+      "nlink": 2,
+      "mtime_ns": 1794070758439247077
+    },
+    {
+      "path": "outputs/asr_effective_batch16_20261107_v1/history/pretraining_float_tolerance/latest_resume.pt",
+      "size": 143347703,
+      "allocated": 143351808,
+      "dev": 66306,
+      "ino": 27550339,
+      "nlink": 2,
+      "mtime_ns": 1794070758439247077
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/frozen/parent_full_resume.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27134019,
+      "nlink": 2,
+      "mtime_ns": 1793937520877157871
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/frozen/initial_child_resume.pt",
+      "size": 143371447,
+      "allocated": 143376384,
+      "dev": 66306,
+      "ino": 27548978,
+      "nlink": 1,
+      "mtime_ns": 1793937526946259684
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/frozen/verified_curriculum_resume.pt",
+      "size": 143372919,
+      "allocated": 143380480,
+      "dev": 66306,
+      "ino": 27548986,
+      "nlink": 1,
+      "mtime_ns": 1793937561478840305
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/curriculum_stage_02_best.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549059,
+      "nlink": 1,
+      "mtime_ns": 1793945208824861857
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/curriculum_stage_01_best.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549036,
+      "nlink": 1,
+      "mtime_ns": 1793941388603155843
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/previous_resume.pt",
+      "size": 143639351,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27549416,
+      "nlink": 1,
+      "mtime_ns": 1794014308588407142
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/curriculum_stage_00_best.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549011,
+      "nlink": 1,
+      "mtime_ns": 1793938845781557320
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/latest_resume.pt",
+      "size": 143639351,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27549577,
+      "nlink": 2,
+      "mtime_ns": 1794014343405757854
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549092,
+      "nlink": 1,
+      "mtime_ns": 1793950353114633549
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/technical_fixture/warm_parent.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27548776,
+      "nlink": 1,
+      "mtime_ns": 1793937289011330405
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/technical_fixture/uninterrupted/runs/technical_fixture/previous_resume.pt",
+      "size": 143342007,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27548824,
+      "nlink": 1,
+      "mtime_ns": 1793937292394385235
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/technical_fixture/uninterrupted/runs/technical_fixture/latest_resume.pt",
+      "size": 143342007,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27548829,
+      "nlink": 1,
+      "mtime_ns": 1793937293866409103
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/technical_fixture/resumed/runs/technical_fixture/previous_resume.pt",
+      "size": 143342007,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27548944,
+      "nlink": 1,
+      "mtime_ns": 1793937296486451602
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/technical_fixture/resumed/runs/technical_fixture/latest_resume.pt",
+      "size": 143342007,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27548946,
+      "nlink": 1,
+      "mtime_ns": 1793937297931475049
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_curriculum_20261106_v6/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/multilingual_stream_test_20261103_v1/frozen/model.safetensors",
+      "size": 541317336,
+      "allocated": 541323264,
+      "dev": 66306,
+      "ino": 27545726,
+      "nlink": 1,
+      "mtime_ns": 1793679315579340229
+    },
+    {
+      "path": "outputs/multilingual_stream_test_20261103_v1/frozen/student_resume_pin.pt",
+      "size": 1624061459,
+      "allocated": 1624068096,
+      "dev": 66306,
+      "ino": 27545708,
+      "nlink": 1,
+      "mtime_ns": 1793679281924777341
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/teacher/model.safetensors",
+      "size": 541317336,
+      "allocated": 541323264,
+      "dev": 66306,
+      "ino": 27530614,
+      "nlink": 1,
+      "mtime_ns": 1793607102030970423
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_distill/latest_resume.pt",
+      "size": 14747433,
+      "allocated": 14749696,
+      "dev": 66306,
+      "ino": 27548396,
+      "nlink": 1,
+      "mtime_ns": 1793614757295030254
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_distill/student.pt",
+      "size": 4017276,
+      "allocated": 4018176,
+      "dev": 66306,
+      "ino": 27548413,
+      "nlink": 1,
+      "mtime_ns": 1793614719996492329
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g64/qat_reference_fp32.onnx",
+      "size": 3199594,
+      "allocated": 3203072,
+      "dev": 66306,
+      "ino": 27552892,
+      "nlink": 1,
+      "mtime_ns": 1793615758361803583
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g64/quant_params.pt",
+      "size": 27984,
+      "allocated": 28672,
+      "dev": 66306,
+      "ino": 27549183,
+      "nlink": 1,
+      "mtime_ns": 1793615712412418308
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g64/latest_resume.pt",
+      "size": 18223160,
+      "allocated": 18227200,
+      "dev": 66306,
+      "ino": 27549182,
+      "nlink": 1,
+      "mtime_ns": 1793615758107121962
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g64/student.pt",
+      "size": 5167036,
+      "allocated": 5169152,
+      "dev": 66306,
+      "ino": 27549189,
+      "nlink": 1,
+      "mtime_ns": 1793615711503404318
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_distill/latest_resume.pt",
+      "size": 18196521,
+      "allocated": 18198528,
+      "dev": 66306,
+      "ino": 27548518,
+      "nlink": 1,
+      "mtime_ns": 1793615321997442337
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_distill/student.pt",
+      "size": 5166972,
+      "allocated": 5169152,
+      "dev": 66306,
+      "ino": 27548497,
+      "nlink": 1,
+      "mtime_ns": 1793615181556315715
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g64/qat_reference_fp32.onnx",
+      "size": 2639722,
+      "allocated": 2641920,
+      "dev": 66306,
+      "ino": 27548474,
+      "nlink": 1,
+      "mtime_ns": 1793614867825750408
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g64/quant_params.pt",
+      "size": 23504,
+      "allocated": 24576,
+      "dev": 66306,
+      "ino": 27548456,
+      "nlink": 1,
+      "mtime_ns": 1793614855637090595
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g64/latest_resume.pt",
+      "size": 14769592,
+      "allocated": 14770176,
+      "dev": 66306,
+      "ino": 27548455,
+      "nlink": 1,
+      "mtime_ns": 1793614867632638273
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g64/student.pt",
+      "size": 4017340,
+      "allocated": 4018176,
+      "dev": 66306,
+      "ino": 27548454,
+      "nlink": 1,
+      "mtime_ns": 1793614855632462280
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g32/qat_reference_fp32.onnx",
+      "size": 2639722,
+      "allocated": 2641920,
+      "dev": 66306,
+      "ino": 27548498,
+      "nlink": 1,
+      "mtime_ns": 1793614921362631761
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g32/quant_params.pt",
+      "size": 43984,
+      "allocated": 45056,
+      "dev": 66306,
+      "ino": 27548481,
+      "nlink": 1,
+      "mtime_ns": 1793614921070424928
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g32/latest_resume.pt",
+      "size": 14790072,
+      "allocated": 14790656,
+      "dev": 66306,
+      "ino": 27548492,
+      "nlink": 1,
+      "mtime_ns": 1793614921133425859
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_qat_g32/student.pt",
+      "size": 4017340,
+      "allocated": 4018176,
+      "dev": 66306,
+      "ino": 27548493,
+      "nlink": 1,
+      "mtime_ns": 1793614921067424884
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_fp32_control/latest_resume.pt",
+      "size": 18196521,
+      "allocated": 18198528,
+      "dev": 66306,
+      "ino": 27548325,
+      "nlink": 1,
+      "mtime_ns": 1793615529262605627
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_fp32_control/student.pt",
+      "size": 5166972,
+      "allocated": 5169152,
+      "dev": 66306,
+      "ino": 27548525,
+      "nlink": 1,
+      "mtime_ns": 1793615369836170150
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_fp32_control/latest_resume.pt",
+      "size": 14747433,
+      "allocated": 14749696,
+      "dev": 66306,
+      "ino": 27548388,
+      "nlink": 1,
+      "mtime_ns": 1793614810917808797
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru128_fp32_control/student.pt",
+      "size": 4017276,
+      "allocated": 4018176,
+      "dev": 66306,
+      "ino": 27548425,
+      "nlink": 1,
+      "mtime_ns": 1793614773565265857
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g32/qat_reference_fp32.onnx",
+      "size": 3199594,
+      "allocated": 3203072,
+      "dev": 66306,
+      "ino": 27552916,
+      "nlink": 1,
+      "mtime_ns": 1793615969425499136
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g32/quant_params.pt",
+      "size": 52816,
+      "allocated": 53248,
+      "dev": 66306,
+      "ino": 27552909,
+      "nlink": 1,
+      "mtime_ns": 1793615919738913976
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g32/latest_resume.pt",
+      "size": 18247992,
+      "allocated": 18251776,
+      "dev": 66306,
+      "ino": 27552911,
+      "nlink": 1,
+      "mtime_ns": 1793615969171614197
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/runs/gru192_qat_g32/student.pt",
+      "size": 5167036,
+      "allocated": 5169152,
+      "dev": 66306,
+      "ino": 27552912,
+      "nlink": 1,
+      "mtime_ns": 1793615918430595459
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v3/int8/model.onnx",
+      "size": 23257,
+      "allocated": 24576,
+      "dev": 66306,
+      "ino": 27530789,
+      "nlink": 1,
+      "mtime_ns": 1793613420587985945
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v2/packed/model.onnx",
+      "size": 21462,
+      "allocated": 24576,
+      "dev": 66306,
+      "ino": 27530773,
+      "nlink": 1,
+      "mtime_ns": 1793613291139796258
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v2/student/qat_reference_fp32.onnx",
+      "size": 28350,
+      "allocated": 28672,
+      "dev": 66306,
+      "ino": 27530772,
+      "nlink": 1,
+      "mtime_ns": 1793613291121787433
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v2/student/quant_params.pt",
+      "size": 3536,
+      "allocated": 4096,
+      "dev": 66306,
+      "ino": 27530770,
+      "nlink": 1,
+      "mtime_ns": 1793613290994738528
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v2/student/student.pt",
+      "size": 164988,
+      "allocated": 167936,
+      "dev": 66306,
+      "ino": 27530765,
+      "nlink": 1,
+      "mtime_ns": 1793613290994199825
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke_v2/fp32/model.onnx",
+      "size": 28350,
+      "allocated": 28672,
+      "dev": 66306,
+      "ino": 27530780,
+      "nlink": 1,
+      "mtime_ns": 1793613343398846828
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g32/model.onnx",
+      "size": 471945,
+      "allocated": 475136,
+      "dev": 66306,
+      "ino": 27552917,
+      "nlink": 1,
+      "mtime_ns": 1793615969437291611
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g64/model.onnx",
+      "size": 447101,
+      "allocated": 450560,
+      "dev": 66306,
+      "ino": 27552893,
+      "nlink": 1,
+      "mtime_ns": 1793615758373465805
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g32/model.onnx",
+      "size": 391551,
+      "allocated": 393216,
+      "dev": 66306,
+      "ino": 27548499,
+      "nlink": 1,
+      "mtime_ns": 1793614921373817739
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_fp32/model.onnx",
+      "size": 3199594,
+      "allocated": 3203072,
+      "dev": 66306,
+      "ino": 27549161,
+      "nlink": 1,
+      "mtime_ns": 1793615535737697154
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_fp32/model.onnx",
+      "size": 2639722,
+      "allocated": 2641920,
+      "dev": 66306,
+      "ino": 27548431,
+      "nlink": 1,
+      "mtime_ns": 1793614811234982114
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int8/model.onnx",
+      "size": 844612,
+      "allocated": 847872,
+      "dev": 66306,
+      "ino": 27549169,
+      "nlink": 1,
+      "mtime_ns": 1793615538432763338
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g64/model.onnx",
+      "size": 371063,
+      "allocated": 372736,
+      "dev": 66306,
+      "ino": 27548475,
+      "nlink": 1,
+      "mtime_ns": 1793614867838725896
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int8/model.onnx",
+      "size": 698816,
+      "allocated": 700416,
+      "dev": 66306,
+      "ino": 27548440,
+      "nlink": 1,
+      "mtime_ns": 1793614813320340837
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke/packed/model.onnx",
+      "size": 21462,
+      "allocated": 24576,
+      "dev": 66306,
+      "ino": 27530756,
+      "nlink": 1,
+      "mtime_ns": 1793613114929172377
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke/student/qat_reference_fp32.onnx",
+      "size": 28350,
+      "allocated": 28672,
+      "dev": 66306,
+      "ino": 27530755,
+      "nlink": 1,
+      "mtime_ns": 1793613114911370202
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke/student/quant_params.pt",
+      "size": 3536,
+      "allocated": 4096,
+      "dev": 66306,
+      "ino": 27530751,
+      "nlink": 1,
+      "mtime_ns": 1793613114792707731
+    },
+    {
+      "path": "outputs/multilingual_tiny_compression_20261102_v1/technical_export_smoke/student/student.pt",
+      "size": 164988,
+      "allocated": 167936,
+      "dev": 66306,
+      "ino": 27530750,
+      "nlink": 1,
+      "mtime_ns": 1793613114792707731
+    },
+    {
+      "path": "outputs/malbert_calibration_audit_20261107_v1/frozen/student_resume_pin.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549953,
+      "nlink": 4,
+      "mtime_ns": 1794060114190836000
+    },
+    {
+      "path": "outputs/malbert_calibration_audit_20261107_v1/frozen/weights.pt",
+      "size": 47773586,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549988,
+      "nlink": 2,
+      "mtime_ns": 1794060431035037434
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/frozen/parent_full_resume.pt",
+      "size": 143639351,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27549577,
+      "nlink": 2,
+      "mtime_ns": 1794014343405757854
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/frozen/initial_child_resume.pt",
+      "size": 144212407,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549596,
+      "nlink": 1,
+      "mtime_ns": 1794014349478820397
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/frozen/verified_curriculum_resume.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549604,
+      "nlink": 1,
+      "mtime_ns": 1794014378081120177
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/runs/finetune/previous_resume.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549941,
+      "nlink": 1,
+      "mtime_ns": 1794060110442749424
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/runs/finetune/latest_resume.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549953,
+      "nlink": 4,
+      "mtime_ns": 1794060114190836000
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27549678,
+      "nlink": 1,
+      "mtime_ns": 1794020458584876887
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/technical_fixture/warm_parent.pt",
+      "size": 143639351,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27549467,
+      "nlink": 1,
+      "mtime_ns": 1794014112224722729
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/technical_fixture/uninterrupted/runs/technical_fixture/previous_resume.pt",
+      "size": 143342135,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27549510,
+      "nlink": 1,
+      "mtime_ns": 1794014115575746628
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/technical_fixture/uninterrupted/runs/technical_fixture/latest_resume.pt",
+      "size": 143342135,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27549514,
+      "nlink": 1,
+      "mtime_ns": 1794014117071757357
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/technical_fixture/resumed/runs/technical_fixture/previous_resume.pt",
+      "size": 143342135,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27549557,
+      "nlink": 1,
+      "mtime_ns": 1794014119587775490
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/technical_fixture/resumed/runs/technical_fixture/latest_resume.pt",
+      "size": 143342135,
+      "allocated": 143347712,
+      "dev": 66306,
+      "ino": 27549561,
+      "nlink": 1,
+      "mtime_ns": 1794014121092786386
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_sentence_mix_20261107_v7/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/frozen/parent_full_resume.pt",
+      "size": 144213879,
+      "allocated": 144220160,
+      "dev": 66306,
+      "ino": 27549953,
+      "nlink": 4,
+      "mtime_ns": 1794060114190836000
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/frozen/first_100_resume.pt",
+      "size": 143573623,
+      "allocated": 143581184,
+      "dev": 66306,
+      "ino": 27550110,
+      "nlink": 1,
+      "mtime_ns": 1794063003409800024
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/frozen/initial_child_resume.pt",
+      "size": 143346679,
+      "allocated": 143351808,
+      "dev": 66306,
+      "ino": 27550103,
+      "nlink": 1,
+      "mtime_ns": 1794062998461812255
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/runs/finetune/weights.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27550112,
+      "nlink": 1,
+      "mtime_ns": 1794064824570177806
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/runs/finetune/previous_resume.pt",
+      "size": 143573047,
+      "allocated": 143581184,
+      "dev": 66306,
+      "ino": 27550127,
+      "nlink": 1,
+      "mtime_ns": 1794064821987052498
+    },
+    {
+      "path": "outputs/asr_only_adaptation_20261107_v1/runs/finetune/latest_resume.pt",
+      "size": 143572983,
+      "allocated": 143577088,
+      "dev": 66306,
+      "ino": 27550117,
+      "nlink": 1,
+      "mtime_ns": 1794064824397169425
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/parent_full_resume.pt",
+      "size": 146027511,
+      "allocated": 146034688,
+      "dev": 66306,
+      "ino": 27545901,
+      "nlink": 2,
+      "mtime_ns": 1793692397496590815
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/initial_student.pt",
+      "size": 47774426,
+      "allocated": 47775744,
+      "dev": 66306,
+      "ino": 27545922,
+      "nlink": 2,
+      "mtime_ns": 1793692906808017346
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/runs/finetune/previous_resume.pt",
+      "size": 145139831,
+      "allocated": 145145856,
+      "dev": 66306,
+      "ino": 27546031,
+      "nlink": 1,
+      "mtime_ns": 1793696097494608614
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/runs/finetune/latest_resume.pt",
+      "size": 145139831,
+      "allocated": 145145856,
+      "dev": 66306,
+      "ino": 27546043,
+      "nlink": 2,
+      "mtime_ns": 1793696113287245973
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27545994,
+      "nlink": 1,
+      "mtime_ns": 1793695229010483915
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_20261103_v2/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/frozen/full_resume.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27133935,
+      "nlink": 1,
+      "mtime_ns": 1793930354028417758
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/sanity/latest_resume.pt",
+      "size": 143352823,
+      "allocated": 143360000,
+      "dev": 66306,
+      "ino": 27133950,
+      "nlink": 1,
+      "mtime_ns": 1793930507821979036
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/lr1e5/weights.pt",
+      "size": 47776629,
+      "allocated": 47783936,
+      "dev": 66306,
+      "ino": 27133916,
+      "nlink": 1,
+      "mtime_ns": 1793931464740120545
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/lr1e5/latest_resume.pt",
+      "size": 143641143,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27133961,
+      "nlink": 1,
+      "mtime_ns": 1793931464660119189
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/lr4e6/weights.pt",
+      "size": 47776629,
+      "allocated": 47783936,
+      "dev": 66306,
+      "ino": 27133922,
+      "nlink": 1,
+      "mtime_ns": 1793930984558992402
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/lr4e6/latest_resume.pt",
+      "size": 143641143,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27133852,
+      "nlink": 1,
+      "mtime_ns": 1793930984417990021
+    },
+    {
+      "path": "outputs/malbert_learning_diagnostic_20261106_v1/baseline/weights.pt",
+      "size": 47774261,
+      "allocated": 47775744,
+      "dev": 66306,
+      "ino": 27133954,
+      "nlink": 1,
+      "mtime_ns": 1793930508072983228
+    },
+    {
+      "path": "outputs/multilingual_transformer_compression_20261102_v1/int4_g32/model.onnx",
+      "size": 76418538,
+      "allocated": 76423168,
+      "dev": 66306,
+      "ino": 27549152,
+      "nlink": 1,
+      "mtime_ns": 1793616010266730114
+    },
+    {
+      "path": "outputs/multilingual_transformer_compression_20261102_v1/int8_g64/model.onnx",
+      "size": 139823559,
+      "allocated": 139829248,
+      "dev": 66306,
+      "ino": 27530797,
+      "nlink": 1,
+      "mtime_ns": 1793616604070845499
+    },
+    {
+      "path": "outputs/multilingual_transformer_compression_20261102_v1/mixed_int4_int8_embedding_g32/model.onnx",
+      "size": 122521194,
+      "allocated": 122527744,
+      "dev": 66306,
+      "ino": 27553753,
+      "nlink": 1,
+      "mtime_ns": 1793616307654549120
+    },
+    {
+      "path": "outputs/multilingual_transformer_compression_20261102_v1/fp32/model.onnx",
+      "size": 541355427,
+      "allocated": 541360128,
+      "dev": 66306,
+      "ino": 27552928,
+      "nlink": 1,
+      "mtime_ns": 1793615999718910192
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/frozen/verified_weighted_resume.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27133841,
+      "nlink": 1,
+      "mtime_ns": 1793900203340435743
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/frozen/parent_full_resume.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27548648,
+      "nlink": 2,
+      "mtime_ns": 1793900156476504409
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/frozen/initial_child_resume.pt",
+      "size": 143638199,
+      "allocated": 143642624,
+      "dev": 66306,
+      "ino": 27133838,
+      "nlink": 1,
+      "mtime_ns": 1793900162716628314
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/runs/finetune/previous_resume.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27134009,
+      "nlink": 1,
+      "mtime_ns": 1793937484243544865
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/runs/finetune/latest_resume.pt",
+      "size": 143638903,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27134019,
+      "nlink": 2,
+      "mtime_ns": 1793937520877157871
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27133901,
+      "nlink": 1,
+      "mtime_ns": 1793919969209098673
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/train_fit_probe_20261106_v1/frozen_weights.pt",
+      "size": 47774261,
+      "allocated": 47775744,
+      "dev": 66306,
+      "ino": 27133925,
+      "nlink": 1,
+      "mtime_ns": 1793929895077914857
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_conflict_weighted_20261106_v5/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/malbert_uploaded_test_20261105_v1/frozen/student_resume_pin.pt",
+      "size": 143638583,
+      "allocated": 143646720,
+      "dev": 66306,
+      "ino": 27133353,
+      "nlink": 1,
+      "mtime_ns": 1793841355373699546
+    },
+    {
+      "path": "outputs/malbert_uploaded_test_20261105_v1/frozen/weights.pt",
+      "size": 47773586,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27133354,
+      "nlink": 1,
+      "mtime_ns": 1793841355439701075
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/parent_full_resume.pt",
+      "size": 145139831,
+      "allocated": 145145856,
+      "dev": 66306,
+      "ino": 27546043,
+      "nlink": 2,
+      "mtime_ns": 1793696113287245973
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/initial_student.pt",
+      "size": 47774426,
+      "allocated": 47775744,
+      "dev": 66306,
+      "ino": 27545922,
+      "nlink": 2,
+      "mtime_ns": 1793692906808017346
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/runs/finetune/previous_resume.pt",
+      "size": 146937975,
+      "allocated": 146944000,
+      "dev": 66306,
+      "ino": 27547546,
+      "nlink": 1,
+      "mtime_ns": 1793764655515829170
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/runs/finetune/latest_resume.pt",
+      "size": 146937975,
+      "allocated": 146944000,
+      "dev": 66306,
+      "ino": 27547555,
+      "nlink": 2,
+      "mtime_ns": 1793764658156877717
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/runs/finetune/student.pt",
+      "size": 47774261,
+      "allocated": 47779840,
+      "dev": 66306,
+      "ino": 27546625,
+      "nlink": 1,
+      "mtime_ns": 1793721590527531418
+    },
+    {
+      "path": "outputs/multilingual_malbert_vi_en_checked_20261103_v3/pretrained/model.safetensors",
+      "size": 32339628,
+      "allocated": 32342016,
+      "dev": 66306,
+      "ino": 27545792,
+      "nlink": 7,
+      "mtime_ns": 1793690392560701518
+    },
+    {
+      "path": "outputs/multilingual_stream_c75_test_20261102_v1/frozen/model.safetensors",
+      "size": 541317336,
+      "allocated": 541323264,
+      "dev": 66306,
+      "ino": 27530873,
+      "nlink": 1,
+      "mtime_ns": 1793617946007458630
+    },
+    {
+      "path": "outputs/multilingual_stream_c75_test_20261102_v1/frozen/student_resume_pin.pt",
+      "size": 1624061459,
+      "allocated": 1624068096,
+      "dev": 66306,
+      "ino": 27530831,
+      "nlink": 1,
+      "mtime_ns": 1793617910695729718
+    },
+    {
+      "path": "models/turn_multilingual_transformer_compressed_20261102_v1/onnx/model.onnx",
+      "size": 139823559,
+      "allocated": 139829248,
+      "dev": 66306,
+      "ino": 27530845,
+      "nlink": 1,
+      "mtime_ns": 1793616941677285802
+    }
+  ],
+  "metadata": {
+    "multilingual_stream_precision_dev_20261102_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 3053342,
+        "at_utc": "2026-11-02T08:44:14.379562+00:00",
+        "target_met_on_verification": true,
+        "threshold": 0.75,
+        "report_sha256": "39c2ece4be19dade3f21013b12ad9940a4267c76c2d05349f7cb4c49d03cc167"
+      }
+    },
+    "malbert_eval_zip_20261104_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 2126586,
+        "start_ticks": "63680368",
+        "at_utc": "2026-11-03T19:47:41.293701+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 827000,
+        "inferences": 1141517,
+        "report_sha256": "373d42667cf5de2857bbeace708a201a8dd87c729733244812c24a6d996d4b10"
+      }
+    },
+    "multilingual_under20m_20261103_v1": {
+      "status.json": {
+        "stage": "COMPLETE_NO_ACCEPTED_UNDER20M_MODEL",
+        "pid": 427431,
+        "at_utc": "2026-11-03T07:00:50.790500+00:00",
+        "hard_parameter_limit_exclusive": 20000000,
+        "main_training_interrupted": false
+      },
+      "final_report.json": {
+        "complete": true,
+        "accepted": false,
+        "candidates": [
+          {
+            "candidate": "compact_fp32",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_fp32",
+            "parameters": 18668738,
+            "parameter_limit_passed": true,
+            "storage_bits": 32,
+            "model_bytes": 74734935,
+            "model_sha256": "ae4e2c8b07172d61919037ac22ad671a1fc3a191c642c12c8229d0f02f970346",
+            "dev": {
+              "threshold": 0.11,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 1,
+                  "tn": 1954,
+                  "fp": 14,
+                  "fn": 89,
+                  "accuracy": 0.9499514091350826,
+                  "eot_f1": 0.01904761904761905,
+                  "eot_precision": 0.06666666666666667,
+                  "eot_recall": 0.011111111111111112,
+                  "false_share_of_cuts": 0.9333333333333333,
+                  "false_positive_rate": 0.007113821138211382
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 1,
+                  "tn": 2170,
+                  "fp": 13,
+                  "fn": 120,
+                  "accuracy": 0.9422743055555556,
+                  "eot_f1": 0.014814814814814815,
+                  "eot_precision": 0.07142857142857142,
+                  "eot_recall": 0.008264462809917356,
+                  "false_share_of_cuts": 0.9285714285714286,
+                  "false_positive_rate": 0.005955107650022904
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 92,
+                  "tn": 604,
+                  "fp": 221,
+                  "fn": 83,
+                  "accuracy": 0.696,
+                  "eot_f1": 0.3770491803278688,
+                  "eot_precision": 0.2939297124600639,
+                  "eot_recall": 0.5257142857142857,
+                  "false_share_of_cuts": 0.7060702875399361,
+                  "false_positive_rate": 0.2678787878787879
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 28,
+                  "tn": 1451,
+                  "fp": 517,
+                  "fn": 62,
+                  "accuracy": 0.7186588921282799,
+                  "eot_f1": 0.08818897637795275,
+                  "eot_precision": 0.05137614678899083,
+                  "eot_recall": 0.3111111111111111,
+                  "false_share_of_cuts": 0.9486238532110092,
+                  "false_positive_rate": 0.2627032520325203
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 35,
+                  "tn": 1636,
+                  "fp": 547,
+                  "fn": 86,
+                  "accuracy": 0.7252604166666666,
+                  "eot_f1": 0.09957325746799431,
+                  "eot_precision": 0.06013745704467354,
+                  "eot_recall": 0.2892561983471074,
+                  "false_share_of_cuts": 0.9398625429553265,
+                  "false_positive_rate": 0.2505726065048099
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 92,
+                  "tn": 604,
+                  "fp": 221,
+                  "fn": 83,
+                  "accuracy": 0.696,
+                  "eot_f1": 0.3770491803278688,
+                  "eot_precision": 0.2939297124600639,
+                  "eot_recall": 0.5257142857142857,
+                  "false_share_of_cuts": 0.7060702875399361,
+                  "false_positive_rate": 0.2678787878787879
+                }
+              },
+              "score": 0.014814814814814815,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            },
+            "test_used": false
+          },
+          {
+            "candidate": "compact_int8",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int8",
+            "parameters": 18668738,
+            "parameter_limit_passed": true,
+            "storage_bits": 8,
+            "model_bytes": 19445526,
+            "model_sha256": "0cc4d8e6de0964bf49fe587b337468159c4126fe73991e6e5fad75399361dd72",
+            "dev": {
+              "threshold": 0.11,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 1,
+                  "tn": 1954,
+                  "fp": 14,
+                  "fn": 89,
+                  "accuracy": 0.9499514091350826,
+                  "eot_f1": 0.01904761904761905,
+                  "eot_precision": 0.06666666666666667,
+                  "eot_recall": 0.011111111111111112,
+                  "false_share_of_cuts": 0.9333333333333333,
+                  "false_positive_rate": 0.007113821138211382
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 1,
+                  "tn": 2170,
+                  "fp": 13,
+                  "fn": 120,
+                  "accuracy": 0.9422743055555556,
+                  "eot_f1": 0.014814814814814815,
+                  "eot_precision": 0.07142857142857142,
+                  "eot_recall": 0.008264462809917356,
+                  "false_share_of_cuts": 0.9285714285714286,
+                  "false_positive_rate": 0.005955107650022904
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 90,
+                  "tn": 605,
+                  "fp": 220,
+                  "fn": 85,
+                  "accuracy": 0.695,
+                  "eot_f1": 0.3711340206185567,
+                  "eot_precision": 0.2903225806451613,
+                  "eot_recall": 0.5142857142857142,
+                  "false_share_of_cuts": 0.7096774193548387,
+                  "false_positive_rate": 0.26666666666666666
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 28,
+                  "tn": 1451,
+                  "fp": 517,
+                  "fn": 62,
+                  "accuracy": 0.7186588921282799,
+                  "eot_f1": 0.08818897637795275,
+                  "eot_precision": 0.05137614678899083,
+                  "eot_recall": 0.3111111111111111,
+                  "false_share_of_cuts": 0.9486238532110092,
+                  "false_positive_rate": 0.2627032520325203
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 35,
+                  "tn": 1635,
+                  "fp": 548,
+                  "fn": 86,
+                  "accuracy": 0.7248263888888888,
+                  "eot_f1": 0.09943181818181818,
+                  "eot_precision": 0.060034305317324184,
+                  "eot_recall": 0.2892561983471074,
+                  "false_share_of_cuts": 0.9399656946826758,
+                  "false_positive_rate": 0.2510306917086578
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 90,
+                  "tn": 605,
+                  "fp": 220,
+                  "fn": 85,
+                  "accuracy": 0.695,
+                  "eot_f1": 0.3711340206185567,
+                  "eot_precision": 0.2903225806451613,
+                  "eot_recall": 0.5142857142857142,
+                  "false_share_of_cuts": 0.7096774193548387,
+                  "false_positive_rate": 0.26666666666666666
+                }
+              },
+              "score": 0.014814814814814815,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            },
+            "test_used": false
+          },
+          {
+            "candidate": "compact_int4_g64",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g64",
+            "parameters": 18668738,
+            "parameter_limit_passed": true,
+            "storage_bits": 4,
+            "model_bytes": 10126900,
+            "model_sha256": "5bdaad5858e6fc0096616f76ed3027095b086c428f26a7dd08cfecddec65e8a9",
+            "dev": {
+              "threshold": 0.1,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 5,
+                  "tn": 1817,
+                  "fp": 151,
+                  "fn": 85,
+                  "accuracy": 0.8853255587949466,
+                  "eot_f1": 0.04065040650406504,
+                  "eot_precision": 0.03205128205128205,
+                  "eot_recall": 0.05555555555555555,
+                  "false_share_of_cuts": 0.967948717948718,
+                  "false_positive_rate": 0.07672764227642276
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 1,
+                  "tn": 2175,
+                  "fp": 8,
+                  "fn": 120,
+                  "accuracy": 0.9444444444444444,
+                  "eot_f1": 0.015384615384615385,
+                  "eot_precision": 0.1111111111111111,
+                  "eot_recall": 0.008264462809917356,
+                  "false_share_of_cuts": 0.8888888888888888,
+                  "false_positive_rate": 0.0036646816307833257
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 11,
+                  "tn": 789,
+                  "fp": 36,
+                  "fn": 164,
+                  "accuracy": 0.8,
+                  "eot_f1": 0.0990990990990991,
+                  "eot_precision": 0.23404255319148937,
+                  "eot_recall": 0.06285714285714286,
+                  "false_share_of_cuts": 0.7659574468085106,
+                  "false_positive_rate": 0.04363636363636364
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 84,
+                  "tn": 470,
+                  "fp": 1498,
+                  "fn": 6,
+                  "accuracy": 0.2691933916423712,
+                  "eot_f1": 0.10047846889952153,
+                  "eot_precision": 0.05309734513274336,
+                  "eot_recall": 0.9333333333333333,
+                  "false_share_of_cuts": 0.9469026548672567,
+                  "false_positive_rate": 0.7611788617886179
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 32,
+                  "tn": 1637,
+                  "fp": 546,
+                  "fn": 89,
+                  "accuracy": 0.7243923611111112,
+                  "eot_f1": 0.09155937052932761,
+                  "eot_precision": 0.05536332179930796,
+                  "eot_recall": 0.2644628099173554,
+                  "false_share_of_cuts": 0.9446366782006921,
+                  "false_positive_rate": 0.25011452130096196
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 11,
+                  "tn": 789,
+                  "fp": 36,
+                  "fn": 164,
+                  "accuracy": 0.8,
+                  "eot_f1": 0.0990990990990991,
+                  "eot_precision": 0.23404255319148937,
+                  "eot_recall": 0.06285714285714286,
+                  "false_share_of_cuts": 0.7659574468085106,
+                  "false_positive_rate": 0.04363636363636364
+                }
+              },
+              "score": 0.015384615384615385,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            },
+            "test_used": false
+          },
+          {
+            "candidate": "compact_int4_g32",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1/candidates/compact_int4_g32",
+            "parameters": 18668738,
+            "parameter_limit_passed": true,
+            "storage_bits": 4,
+            "model_bytes": 10709314,
+            "model_sha256": "83a278a4f07b3fb88fab173c5cb593b9d8747fbf55d7759d7a157d30cc9ebcb8",
+            "dev": {
+              "threshold": 0.22,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 0,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 90,
+                  "accuracy": 0.9533527696793003,
+                  "eot_f1": 0.0,
+                  "eot_precision": 0.0,
+                  "eot_recall": 0.0,
+                  "false_share_of_cuts": 1.0,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 0,
+                  "tn": 2179,
+                  "fp": 4,
+                  "fn": 121,
+                  "accuracy": 0.9457465277777778,
+                  "eot_f1": 0.0,
+                  "eot_precision": 0.0,
+                  "eot_recall": 0.0,
+                  "false_share_of_cuts": 1.0,
+                  "false_positive_rate": 0.0018323408153916628
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 8,
+                  "tn": 806,
+                  "fp": 19,
+                  "fn": 167,
+                  "accuracy": 0.814,
+                  "eot_f1": 0.07920792079207921,
+                  "eot_precision": 0.2962962962962963,
+                  "eot_recall": 0.045714285714285714,
+                  "false_share_of_cuts": 0.7037037037037037,
+                  "false_positive_rate": 0.02303030303030303
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 4,
+                  "tn": 1893,
+                  "fp": 75,
+                  "fn": 86,
+                  "accuracy": 0.9217687074829932,
+                  "eot_f1": 0.047337278106508875,
+                  "eot_precision": 0.05063291139240506,
+                  "eot_recall": 0.044444444444444446,
+                  "false_share_of_cuts": 0.9493670886075949,
+                  "false_positive_rate": 0.038109756097560975
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 3,
+                  "tn": 2179,
+                  "fp": 4,
+                  "fn": 118,
+                  "accuracy": 0.9470486111111112,
+                  "eot_f1": 0.046875,
+                  "eot_precision": 0.42857142857142855,
+                  "eot_recall": 0.024793388429752067,
+                  "false_share_of_cuts": 0.5714285714285714,
+                  "false_positive_rate": 0.0018323408153916628
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 8,
+                  "tn": 806,
+                  "fp": 19,
+                  "fn": 167,
+                  "accuracy": 0.814,
+                  "eot_f1": 0.07920792079207921,
+                  "eot_precision": 0.2962962962962963,
+                  "eot_recall": 0.045714285714285714,
+                  "false_share_of_cuts": 0.7037037037037037,
+                  "false_positive_rate": 0.02303030303030303
+                }
+              },
+              "score": 0.0,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            },
+            "test_used": false
+          }
+        ],
+        "reason": "All candidates meet parameter budget, but none retain all three language quality gates",
+        "parameter_limit_exclusive": 20000000,
+        "test_used": false
+      }
+    },
+    "multilingual_stream_test_20261102_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 3031896,
+        "at_utc": "2026-11-02T08:23:23.747821+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 515435,
+        "branch_step": 29200,
+        "report_sha256": "61655f640a634115247af5dcb0a520a2a9dea77d2d3382530e8a9320305da424"
+      }
+    },
+    "malbert_eval_zip_20261104_v2": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 2689605,
+        "start_ticks": "66513280",
+        "at_utc": "2026-11-04T03:04:32.445747+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 1340000,
+        "inferences": 1141517,
+        "report_sha256": "fe5aabfe389af9c9e5f9c7709b941d3d3f45677112f7b66f81428867f4fcdad0"
+      }
+    },
+    "translation_segmenter_v15d_20261026": {
+      "status.json": {
+        "campaign": "translation_segmenter_full_epoch_v1",
+        "status": "RUNNING",
+        "stage": "TRAINING_FULL_EPOCH",
+        "heartbeat_utc": "2026-10-30T12:37:19.494342+00:00",
+        "pid": 2605821,
+        "quality_target_certified": false,
+        "qwen_judge_enabled": false,
+        "language": "vi",
+        "cycle": 84,
+        "epoch": 4,
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "step": 21572,
+        "steps": 25292,
+        "total_steps": 98848,
+        "unique_rows_seen": 1380608,
+        "eligible_rows": 1618675,
+        "coverage": 0.8529247687151528,
+        "loss": 0.35533884284715567,
+        "epoch_weighted_loss": 0.3292255111839932,
+        "lr_scale": 1.0,
+        "seconds_per_optimizer_step": 1.2047058380238014,
+        "remaining_epoch_seconds": 4481.505717448541,
+        "peak_allocated_VRAM_GiB": 5.281806468963623,
+        "peak_reserved_VRAM_GiB": 5.74609375,
+        "microbatch": 32,
+        "accumulation": 2,
+        "effective_batch": 64
+      }
+    },
+    "multilingual_malbert_vi_en_uploaded_20261104_v4": {
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 205061,
+        "start_ticks": "547555",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-05T17:35:56.533206+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/conversation lanes checkpoint"
+      }
+    },
+    "multilingual_stream_v2_20261102": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 2827094,
+        "at_utc": "2026-11-03T07:00:09.771809+00:00",
+        "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+        "step": 763915,
+        "branch_step": 277680,
+        "counts": {
+          "vi": 7075972,
+          "en": 7141244,
+          "zh": 3554299
+        }
+      }
+    },
+    "translation_turn_test_20261105_v1": {
+      "task_state.json": {
+        "reported": true,
+        "phase": "COMPLETE",
+        "process": {
+          "present": false
+        },
+        "complete": true,
+        "reported_utc": "2026-11-05T16:31:35.686735+00:00",
+        "report_sha256": "e05c84065922f312ee85b221d64c3e1b8ea4cc5bb0b1d2e95160c50fe07b47af",
+        "translation_checkpoint": 15640,
+        "turn_detector_checkpoint": 1945080,
+        "metrics": {
+          "whole_written": {
+            "all": {
+              "n": 310,
+              "chrF": 41.05562651855241,
+              "BLEU": 17.524643003835706
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.94955841995433,
+              "BLEU": 13.855762847742914
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 41.15466550432582,
+              "BLEU": 20.73003033379706
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 43.009435458596165,
+              "BLEU": 21.105068482849397
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 40.6734031413225,
+              "BLEU": 16.736520932356306
+            }
+          },
+          "whole_asr": {
+            "all": {
+              "n": 310,
+              "chrF": 39.619918584492716,
+              "BLEU": 14.252935517828416
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.23275944913668,
+              "BLEU": 11.847681299643359
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 39.05541272532405,
+              "BLEU": 16.289998827593468
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 42.1253097982769,
+              "BLEU": 16.411523130681033
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 39.123100712271494,
+              "BLEU": 13.677321738608368
+            }
+          },
+          "detector_asr": {
+            "all": {
+              "n": 310,
+              "chrF": 39.31722271776538,
+              "BLEU": 13.913011954854412
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.103985090087775,
+              "BLEU": 11.73601810757018
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 38.59318996133518,
+              "BLEU": 15.746387047778097
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 41.80065164623093,
+              "BLEU": 15.97245688245727
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 38.82394129925097,
+              "BLEU": 13.360284641798273
+            }
+          }
+        }
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "at_utc": "2026-11-05T16:28:28.041045+00:00",
+        "pid": 740150,
+        "metrics": {
+          "whole_written": {
+            "all": {
+              "n": 310,
+              "chrF": 41.05562651855241,
+              "BLEU": 17.524643003835706
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.94955841995433,
+              "BLEU": 13.855762847742914
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 41.15466550432582,
+              "BLEU": 20.73003033379706
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 43.009435458596165,
+              "BLEU": 21.105068482849397
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 40.6734031413225,
+              "BLEU": 16.736520932356306
+            }
+          },
+          "whole_asr": {
+            "all": {
+              "n": 310,
+              "chrF": 39.619918584492716,
+              "BLEU": 14.252935517828416
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.23275944913668,
+              "BLEU": 11.847681299643359
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 39.05541272532405,
+              "BLEU": 16.289998827593468
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 42.1253097982769,
+              "BLEU": 16.411523130681033
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 39.123100712271494,
+              "BLEU": 13.677321738608368
+            }
+          },
+          "detector_asr": {
+            "all": {
+              "n": 310,
+              "chrF": 39.31722271776538,
+              "BLEU": 13.913011954854412
+            },
+            "vi2en": {
+              "n": 160,
+              "chrF": 40.103985090087775,
+              "BLEU": 11.73601810757018
+            },
+            "en2vi": {
+              "n": 150,
+              "chrF": 38.59318996133518,
+              "BLEU": 15.746387047778097
+            },
+            "tele": {
+              "n": 70,
+              "chrF": 41.80065164623093,
+              "BLEU": 15.97245688245727
+            },
+            "mt": {
+              "n": 240,
+              "chrF": 38.82394129925097,
+              "BLEU": 13.360284641798273
+            }
+          }
+        }
+      }
+    },
+    "multilingual_malbert_pretrained_20261103_v1": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 889316,
+        "at_utc": "2026-11-03T07:53:17.558984+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "sentence_mix_end_only_test_20261107_v1": {
+      "task_state.json": {
+        "phase": "COMPLETE",
+        "reported": true,
+        "trainer_paused": true,
+        "request": "Exclude one-sentence turns and measure end-only delivery on new paused model TEST",
+        "complete": true,
+        "reported_utc": "2026-11-07T14:35:39.755124+00:00",
+        "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+        "checkpoint_step": 3731173,
+        "branch_step": 500127,
+        "single_sentence_excluded": true,
+        "refined_translation_multi": 18,
+        "refined_translation_end_only": 6,
+        "big_test_multi": 4446,
+        "big_test_no_internal_cut": 1190,
+        "independent_end_only_verification_complete": true,
+        "refined_cohort_verification_complete": true
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1306850,
+        "start_ticks": "28860575",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T14:33:14.831916+00:00",
+        "training_paused": true,
+        "checkpoint_step": 3731173,
+        "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482"
+      }
+    },
+    "asr_effective_batch16_20261107_v1": {
+      "task_state.json": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_extend_authorized": false,
+        "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+        "completion_verification_passed": true,
+        "final_identity_verified": true,
+        "last_notified_dev_branch_step": 20833,
+        "last_notified_dev_global_step": 3752006
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1356032,
+        "start_ticks": "29899130",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T18:01:27.907624+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+      },
+      "training_report.json": {
+        "complete": true,
+        "step": 3752006,
+        "updates": 20833,
+        "seen": 333315,
+        "weights_sha256": "57cc1308ec9c3baadddbd3d0cb969dc0faea77b887326fada6f9ff0e3d4bb10b",
+        "resume_sha256": "10a2afb1819b76be7830e9eaedc5f53264705e11087d68c679e037bb9b51ad76"
+      }
+    },
+    "multilingual_malbert_vi_en_curriculum_20261106_v6": {
+      "task_state.json": {
+        "last_notified_dev_branch_step": 590000,
+        "reported_cutover": true,
+        "phase": "STOPPED_WITH_CHECKPOINT",
+        "desired_state": "STOPPED_BY_REQUEST_FOR_SENTENCE_MIX_V7",
+        "checked_utc": "2026-11-06T03:59:46.946743+00:00",
+        "process": {
+          "present": true,
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_curriculum_train_v6 ",
+          "cpu_ticks": 5671,
+          "identity_match": true
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "current_training_version": 6,
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "drive_data_excluded": true,
+        "latest_status": {
+          "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-07T01:00:19.352915+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "run": "finetune",
+          "step": 3222508,
+          "branch_step": 598450,
+          "epoch": 2,
+          "uploaded_rows_seen": 27615616,
+          "uploaded_origin_exposures": {
+            "daily": 14612978,
+            "factory/gen4000": 10384477,
+            "factory/gen500": 1130370,
+            "asr/run2b": 1487791
+          },
+          "loss": 0.5578680634498596,
+          "learning_rate": 4.000000000000001e-06,
+          "parameters": 11941122,
+          "group_size": null,
+          "drive_replay_rows": 0,
+          "loss_policy": {
+            "NEOT": 1.0,
+            "EOT": 2.0
+          },
+          "curriculum_stage": 3,
+          "curriculum_family_fraction": 1.0,
+          "curriculum_stage_step": 538450,
+          "curriculum_stage_budget": null,
+          "curriculum_stage_seen": 8454811,
+          "full_filtered_epochs_complete": 1,
+          "tasks_assigned": 12922,
+          "total_tasks": 34602
+        },
+        "reported_cutover_utc": "2026-11-06T04:01:40.005260+00:00",
+        "last_reported_curriculum_cutover": "multilingual_malbert_vi_en_curriculum_20261106_v6@2624558",
+        "curriculum_preparation_verified": true,
+        "curriculum_resume_fixture_verified": true,
+        "actual_curriculum_training_verified": true,
+        "curriculum_plan_sha256": "2014b6233eb4ca74467314f66bbb495d7f405342fe48228be7bd8c0ec5af90ee",
+        "parent_step": 2624058,
+        "parent_worker_stopped_with_checkpoint": true,
+        "new_stage_order_and_lanes_explicitly_versioned": true,
+        "full_filtered_epochs_complete": 1,
+        "stage_update_budgets": [
+          10000,
+          20000,
+          30000,
+          null
+        ],
+        "last_notified_dev_run": "finetune",
+        "last_notified_dev_global_step": 3214058,
+        "last_notified_dev_report_sha256": "2e874de849f20e309dd9db78de7710cd768822f559fb54c790b3f6886f366d9f",
+        "last_notified_dev_metrics": {
+          "vi": {
+            "samples": 18627,
+            "tp": 128,
+            "tn": 17885,
+            "fp": 156,
+            "fn": 458,
+            "accuracy": 0.9670370966876041,
+            "eot_f1": 0.2942528735632184,
+            "eot_precision": 0.4507042253521127,
+            "eot_recall": 0.21843003412969283,
+            "false_share_of_cuts": 0.5492957746478874,
+            "false_positive_rate": 0.008646970788758939,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 316,
+            "tn": 15431,
+            "fp": 233,
+            "fn": 380,
+            "accuracy": 0.9625305623471883,
+            "eot_f1": 0.5076305220883535,
+            "eot_precision": 0.575591985428051,
+            "eot_recall": 0.4540229885057471,
+            "false_share_of_cuts": 0.424408014571949,
+            "false_positive_rate": 0.014874872318692544,
+            "actual_eot": 696
+          }
+        },
+        "last_notified_dev_utc": "2026-11-07T01:01:02.180516+00:00",
+        "curriculum_stage": 3,
+        "curriculum_stage_seen": 8454811,
+        "last_storage_observation": {
+          "checked_utc": "2026-11-07T01:02:11.118716+00:00",
+          "windows_free_gib": 15.106407165527344,
+          "ssd_free_gib": 41.33921813964844,
+          "hdd_free_gib": 23.014732360839844,
+          "hdd_rw_verified": true,
+          "temporary_low_windows_free_gib": 12.627864837646484
+        },
+        "last_reported_direct_progress_comparison": "direct_progress_comparison.json",
+        "last_reported_full_filtered_epochs": 1,
+        "full_epoch_0001_independently_verified": true,
+        "input_sentence_structure_audit": {
+          "complete": true,
+          "reported": true,
+          "report": "input_sentence_structure_audit_20261107.json",
+          "turns": 167888,
+          "single_unit_turns": 82021,
+          "multi_unit_turns": 85867,
+          "terminal_eot_anchors": 106442,
+          "total_eot_anchors": 232059,
+          "training_changed": false
+        },
+        "active_successor": {
+          "output": "multilingual_malbert_vi_en_sentence_mix_20261107_v7",
+          "launcher": {
+            "pid": 1121366,
+            "start_ticks": "24252420",
+            "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+            "module": "turn_v2.multilingual_malbert_vi_en_sentence_mix_train_v7",
+            "source_sha256": {
+              "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+              "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+              "uploaded_vi_en_curriculum_data_v6.py": "842d989887094805a39784c65d8f17b08267904c7d0d0b85fbcc0de54a9bcb73",
+              "uploaded_vi_en_sentence_mix_data_v7.py": "53f047a33e561201f16d32f444780fb0d108d6fd520cfcd607185a82fca582c5",
+              "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+              "multilingual_malbert_vi_en_sentence_mix_train_v7.py": "e6938081429701dd553c159e48939b0348201b60d367faf50965976b6febb319",
+              "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+              "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+            }
+          },
+          "verified": true
+        },
+        "reported_sentence_mix_handover": true
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 873860,
+        "start_ticks": "16570173",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T01:19:03.494187+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+      }
+    },
+    "multilingual_stream_test_20261103_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 399406,
+        "start_ticks": "58647694",
+        "at_utc": "2026-11-03T04:15:30.504288+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 741935,
+        "branch_step": 255700,
+        "report_sha256": "211ff9272be93f72b2baec194b033063749bfe32593b9c1a39cd11dcd7c80ce8"
+      }
+    },
+    "multilingual_tiny_compression_20261102_v1": {
+      "status.json": {
+        "stage": "COMPLETE_NO_ACCEPTED_COMPRESSED_MODEL",
+        "pid": 3217492,
+        "at_utc": "2026-11-02T10:39:32.029035+00:00",
+        "main_training_interrupted": false
+      },
+      "final_report.json": {
+        "complete": true,
+        "accepted": false,
+        "reason": "No compressed candidate retained all three languages within declared DEV margins",
+        "candidates": [
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_fp32",
+            "storage_precision": "FP32",
+            "compute_precision": "FP32",
+            "model_bytes": 2639722,
+            "deployment_bytes": 3223743,
+            "model_sha256": "2aea5010e0a49abdda54071ea8f52eb67ffbe5422f238b4adc65341071f2bab5",
+            "dev": {
+              "threshold": 0.49,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 77,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 13,
+                  "accuracy": 0.9907677356656949,
+                  "eot_f1": 0.8901734104046243,
+                  "eot_precision": 0.927710843373494,
+                  "eot_recall": 0.8555555555555555,
+                  "false_share_of_cuts": 0.07228915662650602,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2172,
+                  "fp": 11,
+                  "fn": 10,
+                  "accuracy": 0.9908854166666666,
+                  "eot_f1": 0.9135802469135802,
+                  "eot_precision": 0.9098360655737705,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.09016393442622951,
+                  "false_positive_rate": 0.005038937242327073
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 64,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 111,
+                  "accuracy": 0.827,
+                  "eot_f1": 0.42524916943521596,
+                  "eot_precision": 0.5079365079365079,
+                  "eot_recall": 0.3657142857142857,
+                  "false_share_of_cuts": 0.49206349206349204,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 77,
+                  "tn": 1955,
+                  "fp": 13,
+                  "fn": 13,
+                  "accuracy": 0.9873663751214772,
+                  "eot_f1": 0.8555555555555555,
+                  "eot_precision": 0.8555555555555555,
+                  "eot_recall": 0.8555555555555555,
+                  "false_share_of_cuts": 0.14444444444444443,
+                  "false_positive_rate": 0.0066056910569105695
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2165,
+                  "fp": 18,
+                  "fn": 10,
+                  "accuracy": 0.9878472222222222,
+                  "eot_f1": 0.888,
+                  "eot_precision": 0.8604651162790697,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.13953488372093023,
+                  "false_positive_rate": 0.008245533669262483
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 64,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 111,
+                  "accuracy": 0.827,
+                  "eot_f1": 0.42524916943521596,
+                  "eot_precision": 0.5079365079365079,
+                  "eot_recall": 0.3657142857142857,
+                  "false_share_of_cuts": 0.49206349206349204,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "score": 0.42524916943521596,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int8",
+            "storage_precision": "INT8",
+            "compute_precision": "FP32",
+            "model_bytes": 698816,
+            "deployment_bytes": 1282837,
+            "model_sha256": "22eef8b44fd5fa44917e34e5848a0e09a680e701bd09008e52116ecc70b003d7",
+            "dev": {
+              "threshold": 0.49,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 77,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 13,
+                  "accuracy": 0.9907677356656949,
+                  "eot_f1": 0.8901734104046243,
+                  "eot_precision": 0.927710843373494,
+                  "eot_recall": 0.8555555555555555,
+                  "false_share_of_cuts": 0.07228915662650602,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2171,
+                  "fp": 12,
+                  "fn": 10,
+                  "accuracy": 0.9904513888888888,
+                  "eot_f1": 0.9098360655737705,
+                  "eot_precision": 0.9024390243902439,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.0975609756097561,
+                  "false_positive_rate": 0.005497022446174988
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 64,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 111,
+                  "accuracy": 0.827,
+                  "eot_f1": 0.42524916943521596,
+                  "eot_precision": 0.5079365079365079,
+                  "eot_recall": 0.3657142857142857,
+                  "false_share_of_cuts": 0.49206349206349204,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 77,
+                  "tn": 1955,
+                  "fp": 13,
+                  "fn": 13,
+                  "accuracy": 0.9873663751214772,
+                  "eot_f1": 0.8555555555555555,
+                  "eot_precision": 0.8555555555555555,
+                  "eot_recall": 0.8555555555555555,
+                  "false_share_of_cuts": 0.14444444444444443,
+                  "false_positive_rate": 0.0066056910569105695
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2165,
+                  "fp": 18,
+                  "fn": 10,
+                  "accuracy": 0.9878472222222222,
+                  "eot_f1": 0.888,
+                  "eot_precision": 0.8604651162790697,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.13953488372093023,
+                  "false_positive_rate": 0.008245533669262483
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 64,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 111,
+                  "accuracy": 0.827,
+                  "eot_f1": 0.42524916943521596,
+                  "eot_precision": 0.5079365079365079,
+                  "eot_recall": 0.3657142857142857,
+                  "false_share_of_cuts": 0.49206349206349204,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "score": 0.42524916943521596,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g64",
+            "storage_precision": "INT4",
+            "compute_precision": "FP32",
+            "model_bytes": 371063,
+            "deployment_bytes": 955267,
+            "model_sha256": "9b694424bff54d5b88899c857079099797c07abd2abfb3eb23d1210d6d711089",
+            "dev": {
+              "threshold": 0.49,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 76,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 14,
+                  "accuracy": 0.9902818270165209,
+                  "eot_f1": 0.8837209302325582,
+                  "eot_precision": 0.926829268292683,
+                  "eot_recall": 0.8444444444444444,
+                  "false_share_of_cuts": 0.07317073170731707,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2168,
+                  "fp": 15,
+                  "fn": 10,
+                  "accuracy": 0.9891493055555556,
+                  "eot_f1": 0.8987854251012146,
+                  "eot_precision": 0.8809523809523809,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.11904761904761904,
+                  "false_positive_rate": 0.006871278057718736
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 73,
+                  "tn": 753,
+                  "fp": 72,
+                  "fn": 102,
+                  "accuracy": 0.826,
+                  "eot_f1": 0.45625,
+                  "eot_precision": 0.503448275862069,
+                  "eot_recall": 0.41714285714285715,
+                  "false_share_of_cuts": 0.496551724137931,
+                  "false_positive_rate": 0.08727272727272728
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 75,
+                  "tn": 1955,
+                  "fp": 13,
+                  "fn": 15,
+                  "accuracy": 0.9863945578231292,
+                  "eot_f1": 0.8426966292134831,
+                  "eot_precision": 0.8522727272727273,
+                  "eot_recall": 0.8333333333333334,
+                  "false_share_of_cuts": 0.14772727272727273,
+                  "false_positive_rate": 0.0066056910569105695
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2162,
+                  "fp": 21,
+                  "fn": 10,
+                  "accuracy": 0.9865451388888888,
+                  "eot_f1": 0.8774703557312253,
+                  "eot_precision": 0.8409090909090909,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.1590909090909091,
+                  "false_positive_rate": 0.00961978928080623
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 73,
+                  "tn": 753,
+                  "fp": 72,
+                  "fn": 102,
+                  "accuracy": 0.826,
+                  "eot_f1": 0.45625,
+                  "eot_precision": 0.503448275862069,
+                  "eot_recall": 0.41714285714285715,
+                  "false_share_of_cuts": 0.496551724137931,
+                  "false_positive_rate": 0.08727272727272728
+                }
+              },
+              "score": 0.45625,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru128_int4_g32",
+            "storage_precision": "INT4",
+            "compute_precision": "FP32",
+            "model_bytes": 391551,
+            "deployment_bytes": 975755,
+            "model_sha256": "4c7c6034545ce41bc7c715c6d6d7eef7f7fdee86bec428fe060a05f3d27f3b9e",
+            "dev": {
+              "threshold": 0.39,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 78,
+                  "tn": 1963,
+                  "fp": 5,
+                  "fn": 12,
+                  "accuracy": 0.9917395529640428,
+                  "eot_f1": 0.9017341040462428,
+                  "eot_precision": 0.9397590361445783,
+                  "eot_recall": 0.8666666666666667,
+                  "false_share_of_cuts": 0.060240963855421686,
+                  "false_positive_rate": 0.002540650406504065
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2168,
+                  "fp": 15,
+                  "fn": 10,
+                  "accuracy": 0.9891493055555556,
+                  "eot_f1": 0.8987854251012146,
+                  "eot_precision": 0.8809523809523809,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.11904761904761904,
+                  "false_positive_rate": 0.006871278057718736
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 85,
+                  "tn": 730,
+                  "fp": 95,
+                  "fn": 90,
+                  "accuracy": 0.815,
+                  "eot_f1": 0.4788732394366197,
+                  "eot_precision": 0.4722222222222222,
+                  "eot_recall": 0.4857142857142857,
+                  "false_share_of_cuts": 0.5277777777777778,
+                  "false_positive_rate": 0.11515151515151516
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 76,
+                  "tn": 1952,
+                  "fp": 16,
+                  "fn": 14,
+                  "accuracy": 0.9854227405247813,
+                  "eot_f1": 0.8351648351648352,
+                  "eot_precision": 0.8260869565217391,
+                  "eot_recall": 0.8444444444444444,
+                  "false_share_of_cuts": 0.17391304347826086,
+                  "false_positive_rate": 0.008130081300813009
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 111,
+                  "tn": 2160,
+                  "fp": 23,
+                  "fn": 10,
+                  "accuracy": 0.9856770833333334,
+                  "eot_f1": 0.8705882352941177,
+                  "eot_precision": 0.8283582089552238,
+                  "eot_recall": 0.9173553719008265,
+                  "false_share_of_cuts": 0.17164179104477612,
+                  "false_positive_rate": 0.010535959688502062
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 85,
+                  "tn": 730,
+                  "fp": 95,
+                  "fn": 90,
+                  "accuracy": 0.815,
+                  "eot_f1": 0.4788732394366197,
+                  "eot_precision": 0.4722222222222222,
+                  "eot_recall": 0.4857142857142857,
+                  "false_share_of_cuts": 0.5277777777777778,
+                  "false_positive_rate": 0.11515151515151516
+                }
+              },
+              "score": 0.4788732394366197,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_fp32",
+            "storage_precision": "FP32",
+            "compute_precision": "FP32",
+            "model_bytes": 3199594,
+            "deployment_bytes": 3783615,
+            "model_sha256": "bb9ffb7cb0ed9adfbe93f02482c577460bacb6e9fd211486944ba5100d65b2e0",
+            "dev": {
+              "threshold": 0.17,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 81,
+                  "tn": 1956,
+                  "fp": 12,
+                  "fn": 9,
+                  "accuracy": 0.9897959183673469,
+                  "eot_f1": 0.8852459016393442,
+                  "eot_precision": 0.8709677419354839,
+                  "eot_recall": 0.9,
+                  "false_share_of_cuts": 0.12903225806451613,
+                  "false_positive_rate": 0.006097560975609756
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 118,
+                  "tn": 2171,
+                  "fp": 12,
+                  "fn": 3,
+                  "accuracy": 0.9934895833333334,
+                  "eot_f1": 0.9402390438247012,
+                  "eot_precision": 0.9076923076923077,
+                  "eot_recall": 0.9752066115702479,
+                  "false_share_of_cuts": 0.09230769230769231,
+                  "false_positive_rate": 0.005497022446174988
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 127,
+                  "tn": 622,
+                  "fp": 203,
+                  "fn": 48,
+                  "accuracy": 0.749,
+                  "eot_f1": 0.502970297029703,
+                  "eot_precision": 0.38484848484848483,
+                  "eot_recall": 0.7257142857142858,
+                  "false_share_of_cuts": 0.6151515151515151,
+                  "false_positive_rate": 0.24606060606060606
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 80,
+                  "tn": 1950,
+                  "fp": 18,
+                  "fn": 10,
+                  "accuracy": 0.9863945578231292,
+                  "eot_f1": 0.851063829787234,
+                  "eot_precision": 0.8163265306122449,
+                  "eot_recall": 0.8888888888888888,
+                  "false_share_of_cuts": 0.1836734693877551,
+                  "false_positive_rate": 0.009146341463414634
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 117,
+                  "tn": 2162,
+                  "fp": 21,
+                  "fn": 4,
+                  "accuracy": 0.9891493055555556,
+                  "eot_f1": 0.9034749034749034,
+                  "eot_precision": 0.8478260869565217,
+                  "eot_recall": 0.9669421487603306,
+                  "false_share_of_cuts": 0.15217391304347827,
+                  "false_positive_rate": 0.00961978928080623
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 127,
+                  "tn": 622,
+                  "fp": 203,
+                  "fn": 48,
+                  "accuracy": 0.749,
+                  "eot_f1": 0.502970297029703,
+                  "eot_precision": 0.38484848484848483,
+                  "eot_recall": 0.7257142857142858,
+                  "false_share_of_cuts": 0.6151515151515151,
+                  "false_positive_rate": 0.24606060606060606
+                }
+              },
+              "score": 0.502970297029703,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int8",
+            "storage_precision": "INT8",
+            "compute_precision": "FP32",
+            "model_bytes": 844612,
+            "deployment_bytes": 1428633,
+            "model_sha256": "b5735db42c7e63211418cd527f86a17301cb08c9ada58c1f0ded7466fd2f330f",
+            "dev": {
+              "threshold": 0.16,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 81,
+                  "tn": 1956,
+                  "fp": 12,
+                  "fn": 9,
+                  "accuracy": 0.9897959183673469,
+                  "eot_f1": 0.8852459016393442,
+                  "eot_precision": 0.8709677419354839,
+                  "eot_recall": 0.9,
+                  "false_share_of_cuts": 0.12903225806451613,
+                  "false_positive_rate": 0.006097560975609756
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 118,
+                  "tn": 2171,
+                  "fp": 12,
+                  "fn": 3,
+                  "accuracy": 0.9934895833333334,
+                  "eot_f1": 0.9402390438247012,
+                  "eot_precision": 0.9076923076923077,
+                  "eot_recall": 0.9752066115702479,
+                  "false_share_of_cuts": 0.09230769230769231,
+                  "false_positive_rate": 0.005497022446174988
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 130,
+                  "tn": 617,
+                  "fp": 208,
+                  "fn": 45,
+                  "accuracy": 0.747,
+                  "eot_f1": 0.50682261208577,
+                  "eot_precision": 0.38461538461538464,
+                  "eot_recall": 0.7428571428571429,
+                  "false_share_of_cuts": 0.6153846153846154,
+                  "false_positive_rate": 0.25212121212121213
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 80,
+                  "tn": 1950,
+                  "fp": 18,
+                  "fn": 10,
+                  "accuracy": 0.9863945578231292,
+                  "eot_f1": 0.851063829787234,
+                  "eot_precision": 0.8163265306122449,
+                  "eot_recall": 0.8888888888888888,
+                  "false_share_of_cuts": 0.1836734693877551,
+                  "false_positive_rate": 0.009146341463414634
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 117,
+                  "tn": 2162,
+                  "fp": 21,
+                  "fn": 4,
+                  "accuracy": 0.9891493055555556,
+                  "eot_f1": 0.9034749034749034,
+                  "eot_precision": 0.8478260869565217,
+                  "eot_recall": 0.9669421487603306,
+                  "false_share_of_cuts": 0.15217391304347827,
+                  "false_positive_rate": 0.00961978928080623
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 130,
+                  "tn": 617,
+                  "fp": 208,
+                  "fn": 45,
+                  "accuracy": 0.747,
+                  "eot_f1": 0.50682261208577,
+                  "eot_precision": 0.38461538461538464,
+                  "eot_recall": 0.7428571428571429,
+                  "false_share_of_cuts": 0.6153846153846154,
+                  "false_positive_rate": 0.25212121212121213
+                }
+              },
+              "score": 0.50682261208577,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g64",
+            "storage_precision": "INT4",
+            "compute_precision": "FP32",
+            "model_bytes": 447101,
+            "deployment_bytes": 1031305,
+            "model_sha256": "9a5eb7eb1d32fc6bc8e2f688983df28bd33a9ba552811f279b66df2120649f5d",
+            "dev": {
+              "threshold": 0.26,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 78,
+                  "tn": 1959,
+                  "fp": 9,
+                  "fn": 12,
+                  "accuracy": 0.9897959183673469,
+                  "eot_f1": 0.8813559322033898,
+                  "eot_precision": 0.896551724137931,
+                  "eot_recall": 0.8666666666666667,
+                  "false_share_of_cuts": 0.10344827586206896,
+                  "false_positive_rate": 0.004573170731707317
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 117,
+                  "tn": 2174,
+                  "fp": 9,
+                  "fn": 4,
+                  "accuracy": 0.9943576388888888,
+                  "eot_f1": 0.9473684210526315,
+                  "eot_precision": 0.9285714285714286,
+                  "eot_recall": 0.9669421487603306,
+                  "false_share_of_cuts": 0.07142857142857142,
+                  "false_positive_rate": 0.004122766834631242
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 108,
+                  "tn": 674,
+                  "fp": 151,
+                  "fn": 67,
+                  "accuracy": 0.782,
+                  "eot_f1": 0.4976958525345622,
+                  "eot_precision": 0.416988416988417,
+                  "eot_recall": 0.6171428571428571,
+                  "false_share_of_cuts": 0.583011583011583,
+                  "false_positive_rate": 0.18303030303030304
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 78,
+                  "tn": 1953,
+                  "fp": 15,
+                  "fn": 12,
+                  "accuracy": 0.9868804664723032,
+                  "eot_f1": 0.8524590163934426,
+                  "eot_precision": 0.8387096774193549,
+                  "eot_recall": 0.8666666666666667,
+                  "false_share_of_cuts": 0.16129032258064516,
+                  "false_positive_rate": 0.007621951219512195
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 117,
+                  "tn": 2166,
+                  "fp": 17,
+                  "fn": 4,
+                  "accuracy": 0.9908854166666666,
+                  "eot_f1": 0.9176470588235294,
+                  "eot_precision": 0.8731343283582089,
+                  "eot_recall": 0.9669421487603306,
+                  "false_share_of_cuts": 0.12686567164179105,
+                  "false_positive_rate": 0.007787448465414567
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 108,
+                  "tn": 674,
+                  "fp": 151,
+                  "fn": 67,
+                  "accuracy": 0.782,
+                  "eot_f1": 0.4976958525345622,
+                  "eot_precision": 0.416988416988417,
+                  "eot_recall": 0.6171428571428571,
+                  "false_share_of_cuts": 0.583011583011583,
+                  "false_positive_rate": 0.18303030303030304
+                }
+              },
+              "score": 0.4976958525345622,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": true,
+              "zh": false
+            }
+          },
+          {
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/candidates/gru192_int4_g32",
+            "storage_precision": "INT4",
+            "compute_precision": "FP32",
+            "model_bytes": 471945,
+            "deployment_bytes": 1056149,
+            "model_sha256": "d95f919d1043684df4dc10e6432291363416c4bed5fd19df755677c39038f779",
+            "dev": {
+              "threshold": 0.18,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 81,
+                  "tn": 1958,
+                  "fp": 10,
+                  "fn": 9,
+                  "accuracy": 0.9907677356656949,
+                  "eot_f1": 0.8950276243093923,
+                  "eot_precision": 0.8901098901098901,
+                  "eot_recall": 0.9,
+                  "false_share_of_cuts": 0.10989010989010989,
+                  "false_positive_rate": 0.00508130081300813
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 118,
+                  "tn": 2171,
+                  "fp": 12,
+                  "fn": 3,
+                  "accuracy": 0.9934895833333334,
+                  "eot_f1": 0.9402390438247012,
+                  "eot_precision": 0.9076923076923077,
+                  "eot_recall": 0.9752066115702479,
+                  "false_share_of_cuts": 0.09230769230769231,
+                  "false_positive_rate": 0.005497022446174988
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 123,
+                  "tn": 630,
+                  "fp": 195,
+                  "fn": 52,
+                  "accuracy": 0.753,
+                  "eot_f1": 0.49898580121703856,
+                  "eot_precision": 0.3867924528301887,
+                  "eot_recall": 0.7028571428571428,
+                  "false_share_of_cuts": 0.6132075471698113,
+                  "false_positive_rate": 0.23636363636363636
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 81,
+                  "tn": 1952,
+                  "fp": 16,
+                  "fn": 9,
+                  "accuracy": 0.9878522837706512,
+                  "eot_f1": 0.8663101604278075,
+                  "eot_precision": 0.8350515463917526,
+                  "eot_recall": 0.9,
+                  "false_share_of_cuts": 0.16494845360824742,
+                  "false_positive_rate": 0.008130081300813009
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 115,
+                  "tn": 2161,
+                  "fp": 22,
+                  "fn": 6,
+                  "accuracy": 0.9878472222222222,
+                  "eot_f1": 0.8914728682170543,
+                  "eot_precision": 0.8394160583941606,
+                  "eot_recall": 0.9504132231404959,
+                  "false_share_of_cuts": 0.16058394160583941,
+                  "false_positive_rate": 0.010077874484654145
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 123,
+                  "tn": 630,
+                  "fp": 195,
+                  "fn": 52,
+                  "accuracy": 0.753,
+                  "eot_f1": 0.49898580121703856,
+                  "eot_precision": 0.3867924528301887,
+                  "eot_recall": 0.7028571428571428,
+                  "false_share_of_cuts": 0.6132075471698113,
+                  "false_positive_rate": 0.23636363636363636
+                }
+              },
+              "score": 0.49898580121703856,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": false,
+              "zh": false
+            }
+          }
+        ],
+        "teacher": {
+          "threshold": 0.26,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1961,
+              "fp": 7,
+              "fn": 8,
+              "accuracy": 0.9927113702623906,
+              "eot_f1": 0.9162011173184358,
+              "eot_precision": 0.9213483146067416,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.07865168539325842,
+              "false_positive_rate": 0.003556910569105691
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2174,
+              "fp": 9,
+              "fn": 2,
+              "accuracy": 0.9952256944444444,
+              "eot_f1": 0.9558232931726908,
+              "eot_precision": 0.9296875,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.0703125,
+              "false_positive_rate": 0.004122766834631242
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 719,
+              "fp": 106,
+              "fn": 38,
+              "accuracy": 0.856,
+              "eot_f1": 0.6555023923444976,
+              "eot_precision": 0.5637860082304527,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.43621399176954734,
+              "false_positive_rate": 0.12848484848484848
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 84,
+              "tn": 1958,
+              "fp": 10,
+              "fn": 6,
+              "accuracy": 0.9922254616132167,
+              "eot_f1": 0.9130434782608695,
+              "eot_precision": 0.8936170212765957,
+              "eot_recall": 0.9333333333333333,
+              "false_share_of_cuts": 0.10638297872340426,
+              "false_positive_rate": 0.00508130081300813
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 6,
+              "accuracy": 0.9921875,
+              "eot_f1": 0.9274193548387096,
+              "eot_precision": 0.905511811023622,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.09448818897637795,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 719,
+              "fp": 106,
+              "fn": 38,
+              "accuracy": 0.856,
+              "eot_f1": 0.6555023923444976,
+              "eot_precision": 0.5637860082304527,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.43621399176954734,
+              "false_positive_rate": 0.12848484848484848
+            }
+          },
+          "score": 0.6555023923444976,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "test_used": false
+      }
+    },
+    "malbert_calibration_audit_20261107_v1": {
+      "task_state.json": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_resume_authorized": false,
+        "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+        "checkpoint_step": 3731173,
+        "selected_threshold": 0.03,
+        "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+        "completion_verification_passed": true,
+        "no_training": true,
+        "no_test": true
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1342708,
+        "start_ticks": "29614860",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T16:20:05.715377+00:00",
+        "threshold": 0.03,
+        "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca"
+      }
+    },
+    "multilingual_malbert_vi_en_sentence_mix_20261107_v7": {
+      "task_state.json": {
+        "last_notified_dev_branch_step": 480000,
+        "reported_cutover": true,
+        "phase": "PAUSED_WITH_FULL_CHECKPOINT",
+        "desired_state": "PAUSED_BY_USER_FOR_TEST",
+        "checked_utc": "2026-11-07T15:00:48.955842+00:00",
+        "process": {
+          "present": false
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "current_training_version": 7,
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "drive_data_excluded": true,
+        "latest_status": {
+          "stage": "STOPPED_WITH_CHECKPOINT",
+          "pid": 1121366,
+          "start_ticks": "24252420",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-07T14:01:54.260244+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+        },
+        "curriculum_stage": 3,
+        "curriculum_stage_seen": 6062196,
+        "full_filtered_epochs_complete": 1,
+        "reported_cutover_utc": "2026-11-07T01:22:53.187509+00:00",
+        "parent_step": 3231046,
+        "actual_balanced_training_verified": true,
+        "independent_pack_verification_complete": true,
+        "manifest_clarification": "manifest_clarification.json",
+        "balanced_sentence_pack_count": 49260,
+        "unique_sentence_units": 208906,
+        "eligible_points_per_full_epoch": 5040023,
+        "initial_curriculum_stage": 3,
+        "sentence_count_ratios": {
+          "1": 0.15,
+          "2": 0.15,
+          "3": 0.15,
+          "4": 0.15,
+          "5": 0.15,
+          "6": 0.05,
+          "7": 0.05,
+          "8": 0.05,
+          "9": 0.05,
+          "10": 0.05
+        },
+        "last_notified_dev_global_step": 3711046,
+        "last_notified_dev_run": "finetune",
+        "last_notified_dev_report_sha256": "b7fdb91b201810275ee5b8c6ab92bc5fc73caee32333abcc9341b7a6fc6240a4",
+        "last_notified_dev_metrics": {
+          "vi": {
+            "samples": 18627,
+            "tp": 128,
+            "tn": 17873,
+            "fp": 168,
+            "fn": 458,
+            "accuracy": 0.9663928705642347,
+            "eot_f1": 0.29024943310657597,
+            "eot_precision": 0.43243243243243246,
+            "eot_recall": 0.21843003412969283,
+            "false_share_of_cuts": 0.5675675675675675,
+            "false_positive_rate": 0.00931212238789424,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 312,
+            "tn": 15313,
+            "fp": 351,
+            "fn": 384,
+            "accuracy": 0.9550733496332519,
+            "eot_f1": 0.45916114790286977,
+            "eot_precision": 0.47058823529411764,
+            "eot_recall": 0.4482758620689655,
+            "false_share_of_cuts": 0.5294117647058824,
+            "false_positive_rate": 0.022408069458631257,
+            "actual_eot": 696
+          }
+        },
+        "last_notified_dev_utc": "2026-11-07T13:47:29.732682+00:00",
+        "last_eta_report": "direct_eta_20261107.json",
+        "last_storage_observation": {
+          "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+          "windows_free_gib": 11.265777587890625,
+          "ssd_free_gib": 38.72589874267578,
+          "hdd_free_gib": 23.014732360839844,
+          "hdd_rw_verified": true
+        },
+        "last_reported_full_filtered_epochs": 1,
+        "full_epoch_0001_independently_verified": true,
+        "latest_dev_retention_passed": false,
+        "last_direct_trend_verification": "direct_dev_trend_verification_20261107.json",
+        "semantic_boundary_review_20261107": {
+          "complete": true,
+          "reported": true,
+          "branch_step": 480000,
+          "sample_errors": 32,
+          "positive_controls": 8,
+          "files": {
+            "semantic_boundary_review_sample_20261107.json": "2ce8a9b509c5693739d4ffd5d109a79f81d97dcc87b822cefe0420eb0ca3c2b0",
+            "semantic_boundary_review_20261107.json": "e5f372fdbbe9d63882908bcf1af513cc41ace9ad120016f17484da7601016fbb",
+            "semantic_boundary_review_20261107.html": "2e28bca4b144bad9b3d6ef4cc9907d3a152e2feba7e87582fbada0cedc6cf3ad"
+          },
+          "review_counts": {
+            "fn": {
+              "missed_clear_early_boundary": 11,
+              "uncertain_source": 5
+            },
+            "fp": {
+              "plausible_translation_boundary": 10,
+              "uncertain_source": 2,
+              "premature_semantic_split": 4
+            },
+            "tp": {
+              "valid_positive_control": 8
+            }
+          },
+          "method": "Assistant qualitative review, source-stratified hash sample, not representative or human gold; saved trace only; no new inference or training changes"
+        },
+        "user_pause_request_utc": "2026-11-07T14:01:54.081492+00:00",
+        "user_pause_reason": "Pause training and test current model; count multi-sentence turns with no internal cut, excluding single-sentence turns",
+        "auto_resume_authorized": false,
+        "active_end_only_test": {
+          "phase": "COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T14:35:39.755124+00:00",
+          "trainer_paused": true,
+          "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+          "checkpoint_step": 3731173,
+          "branch_step": 500127,
+          "single_sentence_excluded": true,
+          "refined_translation_multi": 18,
+          "refined_translation_end_only": 6,
+          "big_test_multi": 4446,
+          "big_test_no_internal_cut": 1190,
+          "independent_end_only_verification_complete": true,
+          "refined_cohort_verification_complete": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/sentence_mix_end_only_test_20261107_v1"
+        },
+        "reported_pause": true,
+        "paused_checkpoint_step": 3731173,
+        "last_reported_end_only_test": "sentence_mix_end_only_test_20261107_v1@3731173",
+        "active_asr_adaptation": {
+          "phase": "COMPLETE",
+          "desired_state": "BOUNDED_TRIAL_COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+          "budget_full_epochs": 1,
+          "full_epochs_complete": 1,
+          "final_step": 3753320,
+          "final_branch_step": 22147,
+          "last_notified_dev_branch_step": 22147,
+          "last_notified_dev_global_step": 3753320,
+          "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+          "parent_paused": true,
+          "no_default_replacement": true,
+          "adopted": false,
+          "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+          "auto_extend_authorized": false,
+          "completion_verification_passed": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_only_adaptation_20261107_v1"
+        },
+        "last_reported_asr_adaptation": "asr_only_adaptation_20261107_v1@3753320",
+        "active_calibration_audit": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/malbert_calibration_audit_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_resume_authorized": false,
+          "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+          "checkpoint_step": 3731173,
+          "selected_threshold": 0.03,
+          "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+          "completion_verification_passed": true,
+          "no_training": true,
+          "no_test": true
+        },
+        "last_reported_calibration_audit": "malbert_calibration_audit_20261107_v1@3731173",
+        "active_effective16_trial": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_effective_batch16_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_extend_authorized": false,
+          "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+          "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+          "completion_verification_passed": true,
+          "final_identity_verified": true,
+          "last_notified_dev_branch_step": 20833,
+          "last_notified_dev_global_step": 3752006
+        },
+        "last_reported_effective16_trial": "asr_effective_batch16_20261107_v1@3752006",
+        "last_notified_storage_issue_key": "windows_c_near_10gib_reserve",
+        "last_notified_storage_alert": {
+          "issue_key": "windows_c_near_10gib_reserve",
+          "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+          "windows_free_gib": 11.265777587890625,
+          "reserve_gib": 10,
+          "margin_gib": 1.265777587890625,
+          "parent_process": {
+            "present": false
+          },
+          "parent_desired_state": "PAUSED_BY_USER_FOR_TEST",
+          "no_files_deleted": true
+        }
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 1121366,
+        "start_ticks": "24252420",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T14:01:54.260244+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+      }
+    },
+    "asr_only_adaptation_20261107_v1": {
+      "task_state.json": {
+        "phase": "COMPLETE",
+        "desired_state": "BOUNDED_TRIAL_COMPLETE",
+        "reported": true,
+        "parent_paused": true,
+        "budget_full_epochs": 1,
+        "reported_start": false,
+        "complete": true,
+        "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+        "full_epochs_complete": 1,
+        "final_step": 3753320,
+        "final_branch_step": 22147,
+        "last_notified_dev_branch_step": 22147,
+        "last_notified_dev_global_step": 3753320,
+        "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+        "no_default_replacement": true,
+        "adopted": false,
+        "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+        "auto_extend_authorized": false,
+        "completion_verification_passed": true
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 1319777,
+        "start_ticks": "29117021",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T15:31:07.046631+00:00",
+        "report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196"
+      },
+      "training_report.json": {
+        "complete": true,
+        "full_epochs": 1,
+        "updates": 22147,
+        "parent_step": 3731173,
+        "global_step": 3753320,
+        "scored_seen": 333315,
+        "optimizer_entries": 27,
+        "weights_sha256": "71624c0ae414e3d635d2a0cb336aaa0eda30f30f0933aaf86d6bc8a887bb5f0c",
+        "full_resume_sha256": "3433d9fa5526e471a3ccf22602546e8d2079b90e5e1ccf7f9fdde31f6046fce4",
+        "test_used": false
+      }
+    },
+    "multilingual_malbert_vi_en_20261103_v2": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 914852,
+        "at_utc": "2026-11-03T08:55:13.346698+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "malbert_learning_diagnostic_20261106_v1": {
+      "task_state.json": {
+        "status": "COMPLETE",
+        "complete": true,
+        "verified": true,
+        "reported": true,
+        "reported_utc": "2026-11-06T03:30:30.466001+00:00",
+        "output": "outputs/malbert_learning_diagnostic_20261106_v1",
+        "parent_step": 2585080,
+        "report_sha256": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28",
+        "sanity_passed": true,
+        "sanity_steps": 200,
+        "sanity_fixed_samples": 1000,
+        "paired_updates": 3000,
+        "rates": [
+          4e-06,
+          1e-05
+        ],
+        "auto_apply_to_main": false,
+        "monitor": {
+          "baseline": {
+            "vi": {
+              "samples": 18627,
+              "tp": 89,
+              "tn": 17942,
+              "fp": 99,
+              "fn": 497,
+              "accuracy": 0.968003435872658,
+              "eot_f1": 0.22997416020671835,
+              "eot_precision": 0.4734042553191489,
+              "eot_recall": 0.15187713310580206,
+              "false_share_of_cuts": 0.526595744680851,
+              "false_positive_rate": 0.005487500692866249,
+              "actual_eot": 586
+            },
+            "en": {
+              "samples": 16360,
+              "tp": 272,
+              "tn": 15466,
+              "fp": 198,
+              "fn": 424,
+              "accuracy": 0.9619804400977995,
+              "eot_f1": 0.4665523156089194,
+              "eot_precision": 0.5787234042553191,
+              "eot_recall": 0.39080459770114945,
+              "false_share_of_cuts": 0.42127659574468085,
+              "false_positive_rate": 0.012640449438202247,
+              "actual_eot": 696
+            }
+          },
+          "lr4e6": {
+            "vi": {
+              "samples": 18627,
+              "tp": 114,
+              "tn": 17918,
+              "fp": 123,
+              "fn": 472,
+              "accuracy": 0.9680571213829388,
+              "eot_f1": 0.2770352369380316,
+              "eot_precision": 0.4810126582278481,
+              "eot_recall": 0.1945392491467577,
+              "false_share_of_cuts": 0.5189873417721519,
+              "false_positive_rate": 0.006817803891136855,
+              "actual_eot": 586
+            },
+            "en": {
+              "samples": 16360,
+              "tp": 288,
+              "tn": 15424,
+              "fp": 240,
+              "fn": 408,
+              "accuracy": 0.9603911980440097,
+              "eot_f1": 0.47058823529411764,
+              "eot_precision": 0.5454545454545454,
+              "eot_recall": 0.41379310344827586,
+              "false_share_of_cuts": 0.45454545454545453,
+              "false_positive_rate": 0.015321756894790603,
+              "actual_eot": 696
+            }
+          },
+          "lr1e5": {
+            "vi": {
+              "samples": 18627,
+              "tp": 86,
+              "tn": 17974,
+              "fp": 67,
+              "fn": 500,
+              "accuracy": 0.9695603156708005,
+              "eot_f1": 0.2327469553450609,
+              "eot_precision": 0.5620915032679739,
+              "eot_recall": 0.14675767918088736,
+              "false_share_of_cuts": 0.43790849673202614,
+              "false_positive_rate": 0.003713763095172108,
+              "actual_eot": 586
+            },
+            "en": {
+              "samples": 16360,
+              "tp": 252,
+              "tn": 15432,
+              "fp": 232,
+              "fn": 444,
+              "accuracy": 0.958679706601467,
+              "eot_f1": 0.4271186440677966,
+              "eot_precision": 0.5206611570247934,
+              "eot_recall": 0.3620689655172414,
+              "false_share_of_cuts": 0.4793388429752066,
+              "false_positive_rate": 0.01481103166496425,
+              "actual_eot": 696
+            }
+          }
+        },
+        "phase": "COMPLETE"
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "checked_utc": "2026-11-06T03:15:49.810961+00:00",
+        "pid": 849725,
+        "start_ticks": "15860895"
+      }
+    },
+    "multilingual_transformer_compression_20261102_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 3391254,
+        "at_utc": "2026-11-02T10:55:45.382577+00:00",
+        "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+        "model_bytes": 139823559
+      },
+      "final_report.json": {
+        "complete": true,
+        "accepted": true,
+        "winner": {
+          "candidate": "int8_g64",
+          "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+          "retention_passed": true,
+          "retention_by_language": {
+            "vi": true,
+            "en": true,
+            "zh": true
+          },
+          "model_bytes": 139823559,
+          "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+          "dev": {
+            "threshold": 0.26,
+            "by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 82,
+                "tn": 1961,
+                "fp": 7,
+                "fn": 8,
+                "accuracy": 0.9927113702623906,
+                "eot_f1": 0.9162011173184358,
+                "eot_precision": 0.9213483146067416,
+                "eot_recall": 0.9111111111111111,
+                "false_share_of_cuts": 0.07865168539325842,
+                "false_positive_rate": 0.003556910569105691
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 119,
+                "tn": 2174,
+                "fp": 9,
+                "fn": 2,
+                "accuracy": 0.9952256944444444,
+                "eot_f1": 0.9558232931726908,
+                "eot_precision": 0.9296875,
+                "eot_recall": 0.9834710743801653,
+                "false_share_of_cuts": 0.0703125,
+                "false_positive_rate": 0.004122766834631242
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 137,
+                "tn": 718,
+                "fp": 107,
+                "fn": 38,
+                "accuracy": 0.855,
+                "eot_f1": 0.6539379474940334,
+                "eot_precision": 0.5614754098360656,
+                "eot_recall": 0.7828571428571428,
+                "false_share_of_cuts": 0.4385245901639344,
+                "false_positive_rate": 0.1296969696969697
+              }
+            },
+            "static_by_language": {
+              "vi": {
+                "samples": 2058,
+                "tp": 84,
+                "tn": 1958,
+                "fp": 10,
+                "fn": 6,
+                "accuracy": 0.9922254616132167,
+                "eot_f1": 0.9130434782608695,
+                "eot_precision": 0.8936170212765957,
+                "eot_recall": 0.9333333333333333,
+                "false_share_of_cuts": 0.10638297872340426,
+                "false_positive_rate": 0.00508130081300813
+              },
+              "en": {
+                "samples": 2304,
+                "tp": 115,
+                "tn": 2171,
+                "fp": 12,
+                "fn": 6,
+                "accuracy": 0.9921875,
+                "eot_f1": 0.9274193548387096,
+                "eot_precision": 0.905511811023622,
+                "eot_recall": 0.9504132231404959,
+                "false_share_of_cuts": 0.09448818897637795,
+                "false_positive_rate": 0.005497022446174988
+              },
+              "zh": {
+                "samples": 1000,
+                "tp": 137,
+                "tn": 718,
+                "fp": 107,
+                "fn": 38,
+                "accuracy": 0.855,
+                "eot_f1": 0.6539379474940334,
+                "eot_precision": 0.5614754098360656,
+                "eot_recall": 0.7828571428571428,
+                "false_share_of_cuts": 0.4385245901639344,
+                "false_positive_rate": 0.1296969696969697
+              }
+            },
+            "score": 0.6539379474940334,
+            "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+            "gold_reset_in_inference": false,
+            "language_id_supplied": false,
+            "max_future_words": 2
+          },
+          "storage_bits": 8,
+          "embedding_bits": 8
+        },
+        "teacher": {
+          "threshold": 0.26,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 82,
+              "tn": 1961,
+              "fp": 7,
+              "fn": 8,
+              "accuracy": 0.9927113702623906,
+              "eot_f1": 0.9162011173184358,
+              "eot_precision": 0.9213483146067416,
+              "eot_recall": 0.9111111111111111,
+              "false_share_of_cuts": 0.07865168539325842,
+              "false_positive_rate": 0.003556910569105691
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 119,
+              "tn": 2174,
+              "fp": 9,
+              "fn": 2,
+              "accuracy": 0.9952256944444444,
+              "eot_f1": 0.9558232931726908,
+              "eot_precision": 0.9296875,
+              "eot_recall": 0.9834710743801653,
+              "false_share_of_cuts": 0.0703125,
+              "false_positive_rate": 0.004122766834631242
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 719,
+              "fp": 106,
+              "fn": 38,
+              "accuracy": 0.856,
+              "eot_f1": 0.6555023923444976,
+              "eot_precision": 0.5637860082304527,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.43621399176954734,
+              "false_positive_rate": 0.12848484848484848
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 84,
+              "tn": 1958,
+              "fp": 10,
+              "fn": 6,
+              "accuracy": 0.9922254616132167,
+              "eot_f1": 0.9130434782608695,
+              "eot_precision": 0.8936170212765957,
+              "eot_recall": 0.9333333333333333,
+              "false_share_of_cuts": 0.10638297872340426,
+              "false_positive_rate": 0.00508130081300813
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 115,
+              "tn": 2171,
+              "fp": 12,
+              "fn": 6,
+              "accuracy": 0.9921875,
+              "eot_f1": 0.9274193548387096,
+              "eot_precision": 0.905511811023622,
+              "eot_recall": 0.9504132231404959,
+              "false_share_of_cuts": 0.09448818897637795,
+              "false_positive_rate": 0.005497022446174988
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 137,
+              "tn": 719,
+              "fp": 106,
+              "fn": 38,
+              "accuracy": 0.856,
+              "eot_f1": 0.6555023923444976,
+              "eot_precision": 0.5637860082304527,
+              "eot_recall": 0.7828571428571428,
+              "false_share_of_cuts": 0.43621399176954734,
+              "false_positive_rate": 0.12848484848484848
+            }
+          },
+          "score": 0.6555023923444976,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+        "archive": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1.zip",
+        "archive_sha256": "9ca5c8734725d2e2ab9227a302843d9126017418b8d7325029409c0106ea0534",
+        "manifest_sha256": "b22ac82f48bf7765573298ea8676980128310820bd26094de527b966547f009b",
+        "deployment_bytes": 142753473,
+        "candidates": [
+          {
+            "candidate": "int4_g32",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int4_g32",
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": true,
+              "zh": false
+            },
+            "model_bytes": 76418538,
+            "model_sha256": "dd48f112c8ebf0f2e230b74adfab5c537117c4214aeab46bbe1e55114cd0d04c",
+            "dev": {
+              "threshold": 0.42000000000000004,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 78,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 12,
+                  "accuracy": 0.9912536443148688,
+                  "eot_f1": 0.896551724137931,
+                  "eot_precision": 0.9285714285714286,
+                  "eot_recall": 0.8666666666666667,
+                  "false_share_of_cuts": 0.07142857142857142,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 119,
+                  "tn": 2180,
+                  "fp": 3,
+                  "fn": 2,
+                  "accuracy": 0.9978298611111112,
+                  "eot_f1": 0.9794238683127572,
+                  "eot_precision": 0.9754098360655737,
+                  "eot_recall": 0.9834710743801653,
+                  "false_share_of_cuts": 0.02459016393442623,
+                  "false_positive_rate": 0.001374255611543747
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 111,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 64,
+                  "accuracy": 0.874,
+                  "eot_f1": 0.6379310344827587,
+                  "eot_precision": 0.6416184971098265,
+                  "eot_recall": 0.6342857142857142,
+                  "false_share_of_cuts": 0.3583815028901734,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 82,
+                  "tn": 1959,
+                  "fp": 9,
+                  "fn": 8,
+                  "accuracy": 0.9917395529640428,
+                  "eot_f1": 0.9060773480662984,
+                  "eot_precision": 0.9010989010989011,
+                  "eot_recall": 0.9111111111111111,
+                  "false_share_of_cuts": 0.0989010989010989,
+                  "false_positive_rate": 0.004573170731707317
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 115,
+                  "tn": 2170,
+                  "fp": 13,
+                  "fn": 6,
+                  "accuracy": 0.9917534722222222,
+                  "eot_f1": 0.9236947791164659,
+                  "eot_precision": 0.8984375,
+                  "eot_recall": 0.9504132231404959,
+                  "false_share_of_cuts": 0.1015625,
+                  "false_positive_rate": 0.005955107650022904
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 111,
+                  "tn": 763,
+                  "fp": 62,
+                  "fn": 64,
+                  "accuracy": 0.874,
+                  "eot_f1": 0.6379310344827587,
+                  "eot_precision": 0.6416184971098265,
+                  "eot_recall": 0.6342857142857142,
+                  "false_share_of_cuts": 0.3583815028901734,
+                  "false_positive_rate": 0.07515151515151515
+                }
+              },
+              "score": 0.6379310344827587,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "storage_bits": 4,
+            "embedding_bits": 4
+          },
+          {
+            "candidate": "mixed_int4_int8_embedding_g32",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/mixed_int4_int8_embedding_g32",
+            "retention_passed": false,
+            "retention_by_language": {
+              "vi": false,
+              "en": true,
+              "zh": false
+            },
+            "model_bytes": 122521194,
+            "model_sha256": "eec7538b680b9292faf39139f25346ec40d970d881e1c32e46782d865e5d7f24",
+            "dev": {
+              "threshold": 0.42000000000000004,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 78,
+                  "tn": 1962,
+                  "fp": 6,
+                  "fn": 12,
+                  "accuracy": 0.9912536443148688,
+                  "eot_f1": 0.896551724137931,
+                  "eot_precision": 0.9285714285714286,
+                  "eot_recall": 0.8666666666666667,
+                  "false_share_of_cuts": 0.07142857142857142,
+                  "false_positive_rate": 0.003048780487804878
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 119,
+                  "tn": 2180,
+                  "fp": 3,
+                  "fn": 2,
+                  "accuracy": 0.9978298611111112,
+                  "eot_f1": 0.9794238683127572,
+                  "eot_precision": 0.9754098360655737,
+                  "eot_recall": 0.9834710743801653,
+                  "false_share_of_cuts": 0.02459016393442623,
+                  "false_positive_rate": 0.001374255611543747
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 111,
+                  "tn": 764,
+                  "fp": 61,
+                  "fn": 64,
+                  "accuracy": 0.875,
+                  "eot_f1": 0.6397694524495677,
+                  "eot_precision": 0.6453488372093024,
+                  "eot_recall": 0.6342857142857142,
+                  "false_share_of_cuts": 0.3546511627906977,
+                  "false_positive_rate": 0.07393939393939394
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 82,
+                  "tn": 1959,
+                  "fp": 9,
+                  "fn": 8,
+                  "accuracy": 0.9917395529640428,
+                  "eot_f1": 0.9060773480662984,
+                  "eot_precision": 0.9010989010989011,
+                  "eot_recall": 0.9111111111111111,
+                  "false_share_of_cuts": 0.0989010989010989,
+                  "false_positive_rate": 0.004573170731707317
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 115,
+                  "tn": 2173,
+                  "fp": 10,
+                  "fn": 6,
+                  "accuracy": 0.9930555555555556,
+                  "eot_f1": 0.9349593495934959,
+                  "eot_precision": 0.92,
+                  "eot_recall": 0.9504132231404959,
+                  "false_share_of_cuts": 0.08,
+                  "false_positive_rate": 0.004580852038479157
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 111,
+                  "tn": 764,
+                  "fp": 61,
+                  "fn": 64,
+                  "accuracy": 0.875,
+                  "eot_f1": 0.6397694524495677,
+                  "eot_precision": 0.6453488372093024,
+                  "eot_recall": 0.6342857142857142,
+                  "false_share_of_cuts": 0.3546511627906977,
+                  "false_positive_rate": 0.07393939393939394
+                }
+              },
+              "score": 0.6397694524495677,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "storage_bits": 4,
+            "embedding_bits": 8
+          },
+          {
+            "candidate": "int8_g64",
+            "path": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_transformer_compression_20261102_v1/int8_g64",
+            "retention_passed": true,
+            "retention_by_language": {
+              "vi": true,
+              "en": true,
+              "zh": true
+            },
+            "model_bytes": 139823559,
+            "model_sha256": "fd1e6c64f32f3a681752c91b4d830d3ba9d0fcc90fd3e672eb3d01b14a25f62c",
+            "dev": {
+              "threshold": 0.26,
+              "by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 82,
+                  "tn": 1961,
+                  "fp": 7,
+                  "fn": 8,
+                  "accuracy": 0.9927113702623906,
+                  "eot_f1": 0.9162011173184358,
+                  "eot_precision": 0.9213483146067416,
+                  "eot_recall": 0.9111111111111111,
+                  "false_share_of_cuts": 0.07865168539325842,
+                  "false_positive_rate": 0.003556910569105691
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 119,
+                  "tn": 2174,
+                  "fp": 9,
+                  "fn": 2,
+                  "accuracy": 0.9952256944444444,
+                  "eot_f1": 0.9558232931726908,
+                  "eot_precision": 0.9296875,
+                  "eot_recall": 0.9834710743801653,
+                  "false_share_of_cuts": 0.0703125,
+                  "false_positive_rate": 0.004122766834631242
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 137,
+                  "tn": 718,
+                  "fp": 107,
+                  "fn": 38,
+                  "accuracy": 0.855,
+                  "eot_f1": 0.6539379474940334,
+                  "eot_precision": 0.5614754098360656,
+                  "eot_recall": 0.7828571428571428,
+                  "false_share_of_cuts": 0.4385245901639344,
+                  "false_positive_rate": 0.1296969696969697
+                }
+              },
+              "static_by_language": {
+                "vi": {
+                  "samples": 2058,
+                  "tp": 84,
+                  "tn": 1958,
+                  "fp": 10,
+                  "fn": 6,
+                  "accuracy": 0.9922254616132167,
+                  "eot_f1": 0.9130434782608695,
+                  "eot_precision": 0.8936170212765957,
+                  "eot_recall": 0.9333333333333333,
+                  "false_share_of_cuts": 0.10638297872340426,
+                  "false_positive_rate": 0.00508130081300813
+                },
+                "en": {
+                  "samples": 2304,
+                  "tp": 115,
+                  "tn": 2171,
+                  "fp": 12,
+                  "fn": 6,
+                  "accuracy": 0.9921875,
+                  "eot_f1": 0.9274193548387096,
+                  "eot_precision": 0.905511811023622,
+                  "eot_recall": 0.9504132231404959,
+                  "false_share_of_cuts": 0.09448818897637795,
+                  "false_positive_rate": 0.005497022446174988
+                },
+                "zh": {
+                  "samples": 1000,
+                  "tp": 137,
+                  "tn": 718,
+                  "fp": 107,
+                  "fn": 38,
+                  "accuracy": 0.855,
+                  "eot_f1": 0.6539379474940334,
+                  "eot_precision": 0.5614754098360656,
+                  "eot_recall": 0.7828571428571428,
+                  "false_share_of_cuts": 0.4385245901639344,
+                  "false_positive_rate": 0.1296969696969697
+                }
+              },
+              "score": 0.6539379474940334,
+              "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+              "gold_reset_in_inference": false,
+              "language_id_supplied": false,
+              "max_future_words": 2
+            },
+            "storage_bits": 8,
+            "embedding_bits": 8
+          }
+        ],
+        "cpu_benchmark": {
+          "teacher": {
+            "backend": "PyTorch FP32 CPU teacher",
+            "batch_size": 1,
+            "threads": 2,
+            "timed_calls": 120,
+            "cases": 24,
+            "median_ms": 12.7113935,
+            "p95_ms": 34.076977299999996,
+            "mean_ms": 15.982426066666669,
+            "peak_process_rss_bytes": 2009550848,
+            "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+            "current_process_rss_bytes": 1486737408,
+            "legacy_ru_maxrss_not_used": 2009550848,
+            "measurement_includes_normalization_and_tokenization": true,
+            "shared_host_not_isolated": true
+          },
+          "compressed": {
+            "backend": "ONNX Runtime CPU, matrix storage precision from contract",
+            "batch_size": 1,
+            "threads": 2,
+            "timed_calls": 120,
+            "cases": 24,
+            "median_ms": 8.966085,
+            "p95_ms": 30.54159395,
+            "mean_ms": 12.610156258333332,
+            "peak_process_rss_bytes": 1700372480,
+            "peak_rss_source": "/proc/self/status VmHWM, resets at exec; inherited resource.ru_maxrss is excluded",
+            "current_process_rss_bytes": 746131456,
+            "legacy_ru_maxrss_not_used": 1700372480,
+            "measurement_includes_normalization_and_tokenization": true,
+            "shared_host_not_isolated": true
+          }
+        },
+        "test_used": false,
+        "tiny_campaign_report": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_tiny_compression_20261102_v1/final_report.json",
+        "completed_utc": "2026-11-02T10:55:45.352627+00:00",
+        "original_archive_sha256": "1b473c59694a33061028f03dd0317af26a962ee01e4bf6a03e152cb578a167b2",
+        "benchmark_measurement_revision": 2
+      }
+    },
+    "multilingual_malbert_vi_en_conflict_weighted_20261106_v5": {
+      "task_state.json": {
+        "phase": "STOPPED_WITH_CHECKPOINT",
+        "process": {
+          "present": true,
+          "pid": 754535,
+          "start_ticks": "12833606",
+          "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5 ",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "identity_match": true
+        },
+        "checked_utc": "2026-11-05T17:45:06.380488+00:00",
+        "desired_state": "STOPPED_BY_REQUEST_FOR_CURRICULUM_V6",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "drive_data_excluded": true,
+        "parameters": 11941122,
+        "latest_status": {
+          "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+          "pid": 754535,
+          "start_ticks": "12833606",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-05T17:45:56.350587+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "run": "finetune",
+          "step": 2362730,
+          "branch_step": 7650,
+          "epoch": 1,
+          "uploaded_rows_seen": 14104922,
+          "uploaded_origin_exposures": {
+            "daily": 7456746,
+            "factory/gen4000": 5303900,
+            "factory/gen500": 584305,
+            "asr/run2b": 759971
+          },
+          "loss": 1.0126503705978394,
+          "learning_rate": 4.000000000000001e-06,
+          "parameters": 11941122,
+          "group_size": null,
+          "drive_replay_rows": 0,
+          "loss_policy": {
+            "NEOT": 1.0,
+            "EOT": 2.0
+          },
+          "cutover_partial_tail": true,
+          "tasks_assigned": 9898,
+          "total_tasks": 34602
+        },
+        "host_boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "hdd_mounted": true,
+        "recovery_process": {
+          "present": false
+        },
+        "dataset_manifest_collected_from_remote_snapshot": true,
+        "compression_accepted": false,
+        "current_training_version": 5,
+        "reported_cutover": true,
+        "reported_cutover_utc": "2026-11-05T17:47:07.571862+00:00",
+        "last_notified_dev_branch_step": 0,
+        "last_notified_dev_run": "finetune",
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "filtered_train_points_per_full_epoch": 6163255,
+        "conflict_filter_verified": true,
+        "weighted_training_independently_verified": true,
+        "cutover_controller_complete": true,
+        "filter_window_left_words": 8,
+        "partial_parent_epoch_tail_active": true,
+        "parent_step": 2355080,
+        "parent_branch_step": 890000,
+        "parent_weights_optimizer_rng_preserved": true,
+        "new_filtered_full_epochs_complete": 0,
+        "reported_preparation_error": false,
+        "last_storage_observation": {
+          "checked_utc": "2026-11-05T17:45:58.748233+00:00",
+          "windows_free_gib": 19.358993530273438,
+          "reserve_gib": 10,
+          "ssh_disks_gib": {
+            "ssd": 43.53549575805664,
+            "hdd": 23.014732360839844
+          },
+          "hdd_mounted": true,
+          "mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0"
+        },
+        "active_learning_diagnostic": {
+          "status": "COMPLETE",
+          "complete": true,
+          "verified": true,
+          "reported": true,
+          "reported_utc": "2026-11-06T03:30:30.466001+00:00",
+          "output": "outputs/malbert_learning_diagnostic_20261106_v1",
+          "parent_step": 2585080,
+          "report_sha256": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28",
+          "sanity_passed": true,
+          "sanity_steps": 200,
+          "sanity_fixed_samples": 1000,
+          "paired_updates": 3000,
+          "rates": [
+            4e-06,
+            1e-05
+          ],
+          "auto_apply_to_main": false,
+          "monitor": {
+            "baseline": {
+              "vi": {
+                "samples": 18627,
+                "tp": 89,
+                "tn": 17942,
+                "fp": 99,
+                "fn": 497,
+                "accuracy": 0.968003435872658,
+                "eot_f1": 0.22997416020671835,
+                "eot_precision": 0.4734042553191489,
+                "eot_recall": 0.15187713310580206,
+                "false_share_of_cuts": 0.526595744680851,
+                "false_positive_rate": 0.005487500692866249,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 272,
+                "tn": 15466,
+                "fp": 198,
+                "fn": 424,
+                "accuracy": 0.9619804400977995,
+                "eot_f1": 0.4665523156089194,
+                "eot_precision": 0.5787234042553191,
+                "eot_recall": 0.39080459770114945,
+                "false_share_of_cuts": 0.42127659574468085,
+                "false_positive_rate": 0.012640449438202247,
+                "actual_eot": 696
+              }
+            },
+            "lr4e6": {
+              "vi": {
+                "samples": 18627,
+                "tp": 114,
+                "tn": 17918,
+                "fp": 123,
+                "fn": 472,
+                "accuracy": 0.9680571213829388,
+                "eot_f1": 0.2770352369380316,
+                "eot_precision": 0.4810126582278481,
+                "eot_recall": 0.1945392491467577,
+                "false_share_of_cuts": 0.5189873417721519,
+                "false_positive_rate": 0.006817803891136855,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 288,
+                "tn": 15424,
+                "fp": 240,
+                "fn": 408,
+                "accuracy": 0.9603911980440097,
+                "eot_f1": 0.47058823529411764,
+                "eot_precision": 0.5454545454545454,
+                "eot_recall": 0.41379310344827586,
+                "false_share_of_cuts": 0.45454545454545453,
+                "false_positive_rate": 0.015321756894790603,
+                "actual_eot": 696
+              }
+            },
+            "lr1e5": {
+              "vi": {
+                "samples": 18627,
+                "tp": 86,
+                "tn": 17974,
+                "fp": 67,
+                "fn": 500,
+                "accuracy": 0.9695603156708005,
+                "eot_f1": 0.2327469553450609,
+                "eot_precision": 0.5620915032679739,
+                "eot_recall": 0.14675767918088736,
+                "false_share_of_cuts": 0.43790849673202614,
+                "false_positive_rate": 0.003713763095172108,
+                "actual_eot": 586
+              },
+              "en": {
+                "samples": 16360,
+                "tp": 252,
+                "tn": 15432,
+                "fp": 232,
+                "fn": 444,
+                "accuracy": 0.958679706601467,
+                "eot_f1": 0.4271186440677966,
+                "eot_precision": 0.5206611570247934,
+                "eot_recall": 0.3620689655172414,
+                "false_share_of_cuts": 0.4793388429752066,
+                "false_positive_rate": 0.01481103166496425,
+                "actual_eot": 696
+              }
+            }
+          }
+        },
+        "last_reported_learning_diagnostic": "malbert_learning_diagnostic_20261106_v1@2585080",
+        "active_successor": {
+          "output": "multilingual_malbert_vi_en_curriculum_20261106_v6",
+          "module": "turn_v2.multilingual_malbert_vi_en_curriculum_train_v6",
+          "pid": 873860,
+          "start_ticks": "16570173",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "verified": true
+        },
+        "reported_curriculum_handover": true
+      },
+      "status.json": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 754535,
+        "start_ticks": "12833606",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-06T03:58:40.982534+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/conversation lanes checkpoint"
+      }
+    },
+    "malbert_uploaded_test_20261105_v1": {
+      "task_state.json": {
+        "phase": "COMPLETE",
+        "reported": true,
+        "request": "Test the current uploaded-only v4 model",
+        "main_training_continues": true,
+        "process": {
+          "present": false
+        },
+        "checked_utc": "2026-11-05T02:07:09.657083+00:00",
+        "complete": true,
+        "reported_utc": "2026-11-05T02:08:04.097804+00:00",
+        "checkpoint_step": 1945080,
+        "branch_step": 480000,
+        "report_sha256": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96",
+        "all_inferences_audited": 579685,
+        "test_k2_metrics": [
+          {
+            "domain": "ALL",
+            "split": "test",
+            "language": "en",
+            "lookahead_words": 2,
+            "label_policy": "fullstop_matches_training",
+            "cohort": "all_requested",
+            "samples": 124649,
+            "tp": 1571,
+            "tn": 118583,
+            "fp": 1570,
+            "fn": 2925,
+            "accuracy": 0.9639387399818691,
+            "eot_f1": 0.41141809611103836,
+            "eot_precision": 0.5001591849729385,
+            "eot_recall": 0.34942170818505336,
+            "false_share_of_cuts": 0.49984081502706146,
+            "false_positive_rate": 0.013066673324844158,
+            "actual_eot": 4496
+          },
+          {
+            "domain": "ALL",
+            "split": "test",
+            "language": "vi",
+            "lookahead_words": 2,
+            "label_policy": "fullstop_matches_training",
+            "cohort": "all_requested",
+            "samples": 155352,
+            "tp": 705,
+            "tn": 150633,
+            "fp": 647,
+            "fn": 3367,
+            "accuracy": 0.9741619032905917,
+            "eot_f1": 0.25995575221238937,
+            "eot_precision": 0.5214497041420119,
+            "eot_recall": 0.1731335952848723,
+            "false_share_of_cuts": 0.47855029585798814,
+            "false_positive_rate": 0.004276837652035959,
+            "actual_eot": 4072
+          }
+        ]
+      },
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 580864,
+        "start_ticks": "6931813",
+        "at_utc": "2026-11-05T02:06:13.150994+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 1945080,
+        "inferences": 579685,
+        "report_sha256": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96"
+      }
+    },
+    "multilingual_malbert_vi_en_checked_20261103_v3": {
+      "status.json": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 967949,
+        "at_utc": "2026-11-04T03:57:38.216059+00:00",
+        "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+        "parameters": 11941122,
+        "large_teacher_must_remain_stopped": true,
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "Userstop at a preserved studentcheckpoint"
+      }
+    },
+    "multilingual_stream_c75_test_20261102_v1": {
+      "status.json": {
+        "stage": "COMPLETE",
+        "pid": 3594412,
+        "start_ticks": "52510884",
+        "at_utc": "2026-11-02T11:14:30.537393+00:00",
+        "training_interrupted": false,
+        "checkpoint_step": 542135,
+        "branch_step": 55900,
+        "report_sha256": "ab2566835c25dfb6e7f73ffc36e61ec23d82d7b3deaeb9c100a79cabcd63d7c3"
+      }
+    }
+  },
+  "processes": [],
+  "ssd_free": 41579261952,
+  "hdd_free": 24711880704
+}

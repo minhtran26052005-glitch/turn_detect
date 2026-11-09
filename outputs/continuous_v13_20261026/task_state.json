@@ -1,0 +1,605 @@
+{
+  "status": "SUPERSEDED_BY_TEACHER_FIRST_USER_REQUEST",
+  "worker_module": "turn_v2.continuous_v13_r3",
+  "worker_source_sha256": "e773de3e74f036bf28f8c103039866e0ae7ccb7e68ef52d5c88d8d4c870c31fd",
+  "max_cycles": 0,
+  "global_timeout": null,
+  "cadence_seconds": 300,
+  "steps_per_candidate": 200,
+  "champion_languages": [
+    "vi",
+    "en",
+    "zh"
+  ],
+  "stop_on_dev_plateau": false,
+  "stop_on_silver90": false,
+  "automation_id": "theo-d-i-v-ti-p-t-c-turn-detector-tr-n-colab",
+  "monitor_interval_minutes": 15,
+  "cloud_backup_folder_id": "1zJqmc6q38WkmxvLWgcSedNYKb3bbUAgg",
+  "cloud_backup_file_id": "1kp56J87HZ0mOmrX3Ek9Wqhpb9Vc6iw8N",
+  "snapshot_uploaded_yet": true,
+  "quality_target_certified": false,
+  "local_policy": "No full Qwen/teacher downloads. Compact snapshot only,10GiB reserve.",
+  "next_steps": [
+    "Monitor healthy existing worker without restarting it",
+    "Update the same Drive backup after new completed cycle snapshots",
+    "Recover from verified snapshot only on a fresh VM after runtime reconnects"
+  ],
+  "recovery_history": [
+    "Original worker encountered missing source_id in legacy dev before any optimizer update; preserved source/log, graceful stop and isolated r2 fix",
+    "Insufficient dev class diversity retried with new pages; self-recovered, not user-stopped",
+    "r2 KL backward failed; source/log preserved; isolated r3 clones frozen reference tensor; two complete training cycles verified"
+  ],
+  "verified_at_utc": "2026-10-25T17:37:17.199273+00:00",
+  "pid": 179115,
+  "process_start_ticks": "4385510",
+  "process_verified": false,
+  "latest_worker_status": {
+    "status": "RUNNING",
+    "stage": "CYCLE_COMPLETE_CONTINUING",
+    "pid": 179115,
+    "heartbeat_utc": "2026-10-25T17:36:01.751307+00:00",
+    "quality_target_certified": false,
+    "continuous_until_user_stop": true,
+    "cycle": 3,
+    "pool_counts": [
+      {
+        "language": "en",
+        "split": "semantic_dev",
+        "label": "EOT",
+        "samples": 17
+      },
+      {
+        "language": "en",
+        "split": "semantic_dev",
+        "label": "NEOT",
+        "samples": 35
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "EOT",
+        "samples": 57
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "NEOT",
+        "samples": 105
+      },
+      {
+        "language": "vi",
+        "split": "semantic_dev",
+        "label": "EOT",
+        "samples": 7
+      },
+      {
+        "language": "vi",
+        "split": "semantic_dev",
+        "label": "NEOT",
+        "samples": 24
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "EOT",
+        "samples": 26
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "NEOT",
+        "samples": 30
+      },
+      {
+        "language": "zh",
+        "split": "semantic_dev",
+        "label": "EOT",
+        "samples": 10
+      },
+      {
+        "language": "zh",
+        "split": "semantic_dev",
+        "label": "NEOT",
+        "samples": 12
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "EOT",
+        "samples": 29
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "NEOT",
+        "samples": 37
+      }
+    ],
+    "champions": {
+      "vi": {
+        "status": "CANDIDATE_COMPLETE",
+        "path": "outputs/continuous_v13_20261026/cycles/000001/vi/rl",
+        "language": "vi",
+        "cycle": 1,
+        "branch": "rl",
+        "steps_completed": 200,
+        "semantic_dev": {
+          "metrics": {
+            "samples": 31,
+            "threshold": 0.49999999999999994,
+            "accuracy": 0.8064516129032258,
+            "eot_precision": 0.5714285714285714,
+            "eot_recall": 0.5714285714285714,
+            "eot_f1": 0.5714285714285714,
+            "joint_score": 0.5714285714285714,
+            "false_eot": 3,
+            "missed_eot": 3,
+            "false_eot_rate": 0.125,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                21,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          "selection_score": 0.5714285714285714,
+          "reference": "FROZEN_QWEN_SEMANTIC_SILVER_NOT_HUMAN_GOLD"
+        },
+        "natural_floor_dev": {
+          "samples": 145,
+          "threshold": 0.49999999999999994,
+          "accuracy": 0.45517241379310347,
+          "eot_precision": 0.33695652173913043,
+          "eot_recall": 0.6326530612244898,
+          "eot_f1": 0.4397163120567376,
+          "joint_score": 0.4397163120567376,
+          "false_eot": 61,
+          "missed_eot": 18,
+          "false_eot_rate": 0.6354166666666666,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              35,
+              61
+            ],
+            [
+              18,
+              31
+            ]
+          ]
+        },
+        "student_sha256": "32f339341109937fb513e6117dcfaa1ada6e51c54bea76daff19d53667ef7bec",
+        "reference": "semantic dev auto-judge silver; natural-floor dev separate diagnostic",
+        "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4",
+        "training_log": [
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 25,
+            "steps": 200,
+            "loss": 0.06592054665088654,
+            "expected_training_reward": 0.6951359510421753,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 50,
+            "steps": 200,
+            "loss": 0.039764970541000366,
+            "expected_training_reward": 0.912689208984375,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 75,
+            "steps": 200,
+            "loss": 0.08090020716190338,
+            "expected_training_reward": 0.9700730443000793,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 100,
+            "steps": 200,
+            "loss": 0.0027716606855392456,
+            "expected_training_reward": 0.9795383214950562,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 125,
+            "steps": 200,
+            "loss": 0.09319838881492615,
+            "expected_training_reward": 0.9803630113601685,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 150,
+            "steps": 200,
+            "loss": 0.028052542358636856,
+            "expected_training_reward": 0.9822313785552979,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 175,
+            "steps": 200,
+            "loss": 0.0795435905456543,
+            "expected_training_reward": 0.9849079847335815,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "vi",
+            "cycle": 1,
+            "branch": "rl",
+            "step": 200,
+            "steps": 200,
+            "loss": 0.08543665707111359,
+            "expected_training_reward": 0.9866710305213928,
+            "train_samples": 27,
+            "GPU_peak_GiB": 15.705706596374512,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          }
+        ],
+        "quality_target_certified": false
+      },
+      "en": {
+        "status": "CANDIDATE_COMPLETE",
+        "path": "outputs/continuous_v13_20261026/cycles/000002/en/sft",
+        "language": "en",
+        "cycle": 2,
+        "branch": "sft",
+        "steps_completed": 200,
+        "semantic_dev": {
+          "metrics": {
+            "samples": 52,
+            "threshold": 0.20499999999999996,
+            "accuracy": 0.7115384615384616,
+            "eot_precision": 0.5384615384615384,
+            "eot_recall": 0.8235294117647058,
+            "eot_f1": 0.6511627906976745,
+            "joint_score": 0.6511627906976745,
+            "false_eot": 12,
+            "missed_eot": 3,
+            "false_eot_rate": 0.34285714285714286,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                23,
+                12
+              ],
+              [
+                3,
+                14
+              ]
+            ]
+          },
+          "selection_score": 0.6511627906976745,
+          "reference": "FROZEN_QWEN_SEMANTIC_SILVER_NOT_HUMAN_GOLD"
+        },
+        "natural_floor_dev": {
+          "samples": 79,
+          "threshold": 0.20499999999999996,
+          "accuracy": 0.5189873417721519,
+          "eot_precision": 0.6744186046511628,
+          "eot_recall": 0.5471698113207547,
+          "eot_f1": 0.6041666666666666,
+          "joint_score": 0.5189873417721519,
+          "false_eot": 14,
+          "missed_eot": 24,
+          "false_eot_rate": 0.5384615384615384,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              12,
+              14
+            ],
+            [
+              24,
+              29
+            ]
+          ]
+        },
+        "student_sha256": "06b475e4ed19b74b0ace9f749f993dc34ef156e65bbfd1df63c2c82c91b8acf7",
+        "reference": "semantic dev auto-judge silver; natural-floor dev separate diagnostic",
+        "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4",
+        "training_log": [
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 25,
+            "steps": 200,
+            "loss": 0.11296430230140686,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 50,
+            "steps": 200,
+            "loss": 0.07109484821557999,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 75,
+            "steps": 200,
+            "loss": 0.06846398115158081,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 100,
+            "steps": 200,
+            "loss": 0.06932022422552109,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 125,
+            "steps": 200,
+            "loss": 0.07211074978113174,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 150,
+            "steps": 200,
+            "loss": 0.06721825152635574,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 175,
+            "steps": 200,
+            "loss": 0.0706619918346405,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "en",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 200,
+            "steps": 200,
+            "loss": 0.06578502058982849,
+            "expected_training_reward": 0.0,
+            "train_samples": 134,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          }
+        ],
+        "quality_target_certified": false
+      },
+      "zh": {
+        "status": "CANDIDATE_COMPLETE",
+        "path": "outputs/continuous_v13_20261026/cycles/000002/zh/sft",
+        "language": "zh",
+        "cycle": 2,
+        "branch": "sft",
+        "steps_completed": 200,
+        "semantic_dev": {
+          "metrics": {
+            "samples": 22,
+            "threshold": 0.42499999999999993,
+            "accuracy": 0.6818181818181818,
+            "eot_precision": 0.6363636363636364,
+            "eot_recall": 0.7,
+            "eot_f1": 0.6666666666666666,
+            "joint_score": 0.6666666666666666,
+            "false_eot": 4,
+            "missed_eot": 3,
+            "false_eot_rate": 0.3333333333333333,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                8,
+                4
+              ],
+              [
+                3,
+                7
+              ]
+            ]
+          },
+          "selection_score": 0.6666666666666666,
+          "reference": "FROZEN_QWEN_SEMANTIC_SILVER_NOT_HUMAN_GOLD"
+        },
+        "natural_floor_dev": {
+          "samples": 69,
+          "threshold": 0.42499999999999993,
+          "accuracy": 0.6086956521739131,
+          "eot_precision": 0.75,
+          "eot_recall": 0.7358490566037735,
+          "eot_f1": 0.7428571428571429,
+          "joint_score": 0.6086956521739131,
+          "false_eot": 13,
+          "missed_eot": 14,
+          "false_eot_rate": 0.8125,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              3,
+              13
+            ],
+            [
+              14,
+              39
+            ]
+          ]
+        },
+        "student_sha256": "fba210d97048807884c7ab10592f1dafc600df8814c7e4f8eb738f276696f30a",
+        "reference": "semantic dev auto-judge silver; natural-floor dev separate diagnostic",
+        "precision": "FP32_LATENT_RESEARCH_NOT_PACKED_INT4",
+        "training_log": [
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 25,
+            "steps": 200,
+            "loss": 0.25337719917297363,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 50,
+            "steps": 200,
+            "loss": 0.10522554814815521,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 75,
+            "steps": 200,
+            "loss": 0.09887012839317322,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 100,
+            "steps": 200,
+            "loss": 0.09612743556499481,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 125,
+            "steps": 200,
+            "loss": 0.09518005698919296,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 150,
+            "steps": 200,
+            "loss": 0.09399591386318207,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 175,
+            "steps": 200,
+            "loss": 0.09764426946640015,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          },
+          {
+            "language": "zh",
+            "cycle": 2,
+            "branch": "sft",
+            "step": 200,
+            "steps": 200,
+            "loss": 0.0963076502084732,
+            "expected_training_reward": 0.0,
+            "train_samples": 49,
+            "GPU_peak_GiB": 15.822455883026123,
+            "training_precision": "FP32_LATENT_NO_ORIGINAL_QAT_SCALE_CONSTRAINT"
+          }
+        ],
+        "quality_target_certified": false
+      }
+    },
+    "duration_seconds": 45.31072282791138,
+    "silver_dev_is_not_real_gold": true,
+    "next_cycle": 4
+  },
+  "backed_up_cycle": 3,
+  "recovery_validation": "29/29 PASS",
+  "unit_tests": "72 passed, 3 deprecation warnings",
+  "successor": "outputs/teacher_first_v14_20261026",
+  "stopped_after_cycle": 8,
+  "reason": "User requested pretrained large teachers before distillation; no training-data deletion"
+}

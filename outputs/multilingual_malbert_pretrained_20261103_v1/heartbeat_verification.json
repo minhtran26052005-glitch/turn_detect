@@ -1,0 +1,809 @@
+{
+  "files": {
+    "launcher.json": {
+      "pid": 889316,
+      "start_ticks": "59865865",
+      "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_train_v1 ",
+      "module": "turn_v2.multilingual_malbert_train_v1",
+      "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+      "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_pretrained_20261103_v1",
+      "launched_unix": 1793691491.941248,
+      "recipe_sha256": "4080fb398617725e035e2c0dd53076068ddbbf7484dd9001842d437b55525010"
+    },
+    "status.json": {
+      "stage": "FINETUNING_PRETRAINED_MALBERT",
+      "pid": 889316,
+      "at_utc": "2026-11-03T07:50:20.863061+00:00",
+      "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+      "parameters": 11941122,
+      "large_teacher_must_remain_stopped": true,
+      "run": "finetune",
+      "step": 11300,
+      "epoch": 1,
+      "rows_seen": 180800,
+      "loss": 0.04626675695180893,
+      "kd_weight": 0.0,
+      "group_size": null
+    },
+    "download_receipt.json": {
+      "model": "cservan/multilingual-albert-base-cased-32k",
+      "revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411",
+      "files": [
+        {
+          "name": "config.json",
+          "bytes": 809,
+          "sha256": "7dde1f8d83dfc5f37f5bc2fb1279bb6612848e413006ec1efad4c460784c9d86",
+          "publisher_lfs_sha256": null,
+          "publisher_git_blob_sha1": "ebd4cb8326e397f80a2325229ac135b48b7b1a76",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 32339628,
+          "sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+          "publisher_lfs_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+          "publisher_git_blob_sha1": "75bd77c2a68e293ec7ba2dfbf1c8c2e8627cb29a",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 159,
+          "sha256": "b0d454c6fdd1d00dee9d18a1a8a6d5644e6f86095452358b87c315b5415d7eae",
+          "publisher_lfs_sha256": null,
+          "publisher_git_blob_sha1": "3b2e31019e0c479bf4269ad9228e5d267c0489bc",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "spiece.model",
+          "bytes": 692977,
+          "sha256": "fe080e9db6646a7d9bfbbe09aae5c26dbd72e635b0272f6b884ce42980e5200d",
+          "publisher_lfs_sha256": "fe080e9db6646a7d9bfbbe09aae5c26dbd72e635b0272f6b884ce42980e5200d",
+          "publisher_git_blob_sha1": "0759d2d81d1b8f46818aa122efe42de23f786f5b",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "spiece.vocab",
+          "bytes": 483127,
+          "sha256": "6ba055702249e3e4c03d0cf30d22424789a4faa747134eb8491b7abdd15327b7",
+          "publisher_lfs_sha256": null,
+          "publisher_git_blob_sha1": "6eb98dadfda3cd95b50e2e2c9beae830bf03b062",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 111,
+          "sha256": "45e8a5d4b69a33396089d97f207486117c681b96ba7e1c59f4e04d9ec0ef9866",
+          "publisher_lfs_sha256": null,
+          "publisher_git_blob_sha1": "21945cfbb2fb474b0504a842dd73ec37e49b96f9",
+          "publisher_hash_verified": true
+        },
+        {
+          "name": "README.md",
+          "bytes": 6710,
+          "sha256": "d3d851daf28a7ad25da46a50143ac075b97541bfa5094d88856b90072162d06b",
+          "publisher_lfs_sha256": null,
+          "publisher_git_blob_sha1": "770bb306ab420b971e1920d196bd2255a4fed08b",
+          "publisher_hash_verified": true
+        }
+      ],
+      "download_complete": true,
+      "public_download_no_hf_token": true,
+      "weights_saved_only_on_ssh": true,
+      "sentencepiece_present": false,
+      "checked_unix": 1793690395.5817566
+    },
+    "pretrained_load_verification.json": {
+      "all_backbone_tensors_loaded_exactly": true,
+      "pretrained_backbone_tensors": 25,
+      "newly_initialized_tensors": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "discarded_pretraining_heads": [
+        "predictions.LayerNorm.bias",
+        "predictions.LayerNorm.weight",
+        "predictions.decoder.bias",
+        "predictions.decoder.weight",
+        "predictions.dense.bias",
+        "predictions.dense.weight",
+        "sop_classifier.classifier.bias",
+        "sop_classifier.classifier.weight"
+      ],
+      "deployment_parameters": 11941122,
+      "parameter_limit_exclusive": 20000000,
+      "pooler_pretrained": true,
+      "sliced_or_factorized_backbone": false,
+      "tokenizer_class": "AlbertTokenizer",
+      "vocab_size": 32000,
+      "pad_token_id": 0,
+      "sep_token_id": 3,
+      "tokenizer_examples": {
+        "vi": {
+          "pieces": [
+            "▁n",
+            "ếu",
+            "▁n",
+            "hi",
+            "ệ",
+            "t",
+            "▁độ",
+            "▁còn",
+            "▁t",
+            "ăng",
+            "▁thì",
+            "▁chú",
+            "ng",
+            "▁ta",
+            "▁phả",
+            "i",
+            "▁ki",
+            "ể",
+            "m",
+            "▁tra",
+            "▁lạ",
+            "i",
+            "▁cả",
+            "m",
+            "▁biế",
+            "n"
+          ],
+          "unknown_pieces": 0
+        },
+        "en": {
+          "pieces": [
+            "▁i",
+            "f",
+            "▁the",
+            "▁temp",
+            "er",
+            "ature",
+            "▁ke",
+            "ep",
+            "s",
+            "▁ris",
+            "ing",
+            "▁we",
+            "▁should",
+            "▁in",
+            "spect",
+            "▁the",
+            "▁sens",
+            "or"
+          ],
+          "unknown_pieces": 0
+        },
+        "zh": {
+          "pieces": [
+            "▁",
+            "如",
+            "果",
+            "温",
+            "度",
+            "继",
+            "续",
+            "上",
+            "升",
+            "我",
+            "们",
+            "就",
+            "需",
+            "要",
+            "重",
+            "新",
+            "检",
+            "查",
+            "传",
+            "感",
+            "器"
+          ],
+          "unknown_pieces": 0
+        }
+      }
+    },
+    "initialization_receipt.json": {
+      "all_backbone_tensors_loaded_exactly": true,
+      "pretrained_backbone_tensors": 25,
+      "newly_initialized_tensors": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "discarded_pretraining_heads": [
+        "predictions.LayerNorm.bias",
+        "predictions.LayerNorm.weight",
+        "predictions.decoder.bias",
+        "predictions.decoder.weight",
+        "predictions.dense.bias",
+        "predictions.dense.weight",
+        "sop_classifier.classifier.bias",
+        "sop_classifier.classifier.weight"
+      ],
+      "deployment_parameters": 11941122,
+      "parameter_limit_exclusive": 20000000,
+      "pooler_pretrained": true,
+      "sliced_or_factorized_backbone": false,
+      "pretrained_model_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "train_probe_not_used_as_initial_weights": true,
+      "source_revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411"
+    },
+    "recipe.json": {
+      "model": "cservan/multilingual-albert-base-cased-32k",
+      "revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411",
+      "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "parameters": 11941122,
+      "limit_exclusive": 20000000,
+      "initialization": "All25pretrainedbackbonetensorsincludingpooler exact; onlynewbinaryclassifier",
+      "model_135m_training_stays_stopped": true,
+      "training_rows": 300000,
+      "per_language": 100000,
+      "source": "TRAINsource722VIEN+legacyZH, notspokenv9",
+      "teacher_logits": "FrozenDEV-selected514235 fromlockedTRAINcache; no teacherGPUtraining",
+      "probe": "96TRAINonlybalanced, passed98.96percent, notDEV/testquality",
+      "fine_tune": "CEfirst2epochs then0.7CE+0.3T2KL; minimum6epochs, continuefromfulloptimizer/RNGuntilDEVretentionpassesoruserstops; no plateauearlystop",
+      "evaluation": "DEVevery1000steps andepochend, rollingVIENsharedthreshold->predictedresetVIEN+1000legacyZHanchors; no C75/protected200/newtest",
+      "selection": "passstatus,minF1,meanF1 tie-break toavoidallzero tie selectingarbitraryearlycheckpoint",
+      "qat_gate": "ActualCPUFP32retentionmustpassbeforeQAT; control2epochs/QATg64andg32each2fromsamefineinit/seed43",
+      "retention": "F1/precisiondrop<=2pp,recall<=3ppeachlanguagevsfrozenteacher; nohuman/audioacceptanceclaim",
+      "resume": "PreserveAdamW27states/RNGtorchCUDA_numpyPython/order/cursor/epoch/quant_scales/cacheSHA/sourceSHA",
+      "batch_size": 16,
+      "gpu_memory_fraction": 0.5,
+      "cpu_threads": 2,
+      "no_new_spoken_v9_import": true,
+      "tests_used": false,
+      "drive_backup_configured": false,
+      "source_sha256": {
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+        "malbert_turn_export_v1.py": "51131e12fd11b8269fff93f7e6c44f476293c746be73676443da77ede09af5b0",
+        "multilingual_malbert_train_v1.py": "f47d35ff19111b91624e1201f5ab07556e8206cce58e6fcc09d800a5ab1a9fab"
+      }
+    },
+    "train_probe/final.json": {
+      "complete": true,
+      "passed": true,
+      "train_rows": 96,
+      "balanced_labels_and_languages": true,
+      "max_length": 128,
+      "steps": 175,
+      "final_train_accuracy": 0.9895833730697632,
+      "by_language_train_only": {
+        "vi": 0.96875,
+        "en": 1.0,
+        "zh": 1.0
+      },
+      "scope": "TRAIN-only learnability probe, not DEV/test/human/audio quality",
+      "history": [
+        {
+          "step": 25,
+          "loss": 0.5491821765899658,
+          "accuracy_train_only": 0.75,
+          "by_language_train_only": {
+            "vi": 0.84375,
+            "en": 0.75,
+            "zh": 0.65625
+          }
+        },
+        {
+          "step": 50,
+          "loss": 0.6312524676322937,
+          "accuracy_train_only": 0.75,
+          "by_language_train_only": {
+            "vi": 0.84375,
+            "en": 0.78125,
+            "zh": 0.625
+          }
+        },
+        {
+          "step": 75,
+          "loss": 0.4916080832481384,
+          "accuracy_train_only": 0.8229166865348816,
+          "by_language_train_only": {
+            "vi": 0.875,
+            "en": 0.8125,
+            "zh": 0.78125
+          }
+        },
+        {
+          "step": 100,
+          "loss": 0.7334221601486206,
+          "accuracy_train_only": 0.84375,
+          "by_language_train_only": {
+            "vi": 0.8125,
+            "en": 0.9375,
+            "zh": 0.78125
+          }
+        },
+        {
+          "step": 125,
+          "loss": 0.12540680170059204,
+          "accuracy_train_only": 0.8854166865348816,
+          "by_language_train_only": {
+            "vi": 0.875,
+            "en": 1.0,
+            "zh": 0.78125
+          }
+        },
+        {
+          "step": 150,
+          "loss": 0.25075340270996094,
+          "accuracy_train_only": 0.9375,
+          "by_language_train_only": {
+            "vi": 0.96875,
+            "en": 0.96875,
+            "zh": 0.875
+          }
+        },
+        {
+          "step": 175,
+          "loss": 0.006333242170512676,
+          "accuracy_train_only": 0.9895833730697632,
+          "by_language_train_only": {
+            "vi": 0.96875,
+            "en": 1.0,
+            "zh": 1.0
+          }
+        }
+      ],
+      "pretrained_loading": {
+        "all_backbone_tensors_loaded_exactly": true,
+        "pretrained_backbone_tensors": 25,
+        "newly_initialized_tensors": [
+          "classifier.weight",
+          "classifier.bias"
+        ],
+        "discarded_pretraining_heads": [
+          "predictions.LayerNorm.bias",
+          "predictions.LayerNorm.weight",
+          "predictions.decoder.bias",
+          "predictions.decoder.weight",
+          "predictions.dense.bias",
+          "predictions.dense.weight",
+          "sop_classifier.classifier.bias",
+          "sop_classifier.classifier.weight"
+        ],
+        "deployment_parameters": 11941122,
+        "parameter_limit_exclusive": 20000000,
+        "pooler_pretrained": true,
+        "sliced_or_factorized_backbone": false
+      },
+      "elapsed_seconds": 15.272252321243286
+    },
+    "cache/progress.json": {
+      "done": 300000,
+      "total": 300000,
+      "counts": {
+        "vi": 100000,
+        "en": 100000,
+        "zh": 100000
+      },
+      "unknown": {
+        "vi": 0,
+        "en": 0,
+        "zh": 6159
+      },
+      "pieces": {
+        "vi": 2988901,
+        "en": 2911240,
+        "zh": 5691905
+      }
+    },
+    "cache/receipt.json": {
+      "complete": true,
+      "rows": 300000,
+      "counts": {
+        "vi": 100000,
+        "en": 100000,
+        "zh": 100000
+      },
+      "unknown_fraction": {
+        "vi": 0.0,
+        "en": 0.0,
+        "zh": 0.0010820630351349855
+      },
+      "train_sha256": "51cbacc8758a3f3efa5fc2cc2223747bba09cc045ccacca5668deb440b2c3c41",
+      "teacher_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+      "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "teacher_cache_receipt_sha256": "89eb9d55ba4e8b341499091aacb3e38f9ad298b3382abfd519c4c3d412806410",
+      "all_labels_and_row_indices_verified": true,
+      "tokenizer_sha256": "96593475473dae87e0e8a1b3184fe734e2a11b13330c6a737da02f71542921ca",
+      "ids_sha256": "3cb758d6113477f0947fe80c006173fdc4744d8089fe7172e69c813c862fda3b",
+      "lengths_sha256": "b6d4cd27edc22536ba6f37949a806606e9d7a504378198cf78ea16086425d8a2"
+    },
+    "technical_fixture/verification.json": {
+      "parameters": 11941122,
+      "parameter_limit_exclusive": 20000000,
+      "storage_bits": 32,
+      "compute_precision": "FP32",
+      "logits_parity_max_delta": 1.6093254089355469e-06,
+      "padding_max_delta": 0.0,
+      "matrices": [],
+      "packed_int4": false,
+      "qat_scales_preserved": false,
+      "model_sha256": "18d1c1101185ce16cd7c1d7cf05482da583ad38a03fd0dbd5d9fc04a87554558",
+      "technical_fixture_only": true,
+      "trained_quality_claim": false
+    },
+    "technical_fixture/int4_verification.json": {
+      "parameters": 11941122,
+      "parameter_limit_exclusive": 20000000,
+      "storage_bits": 4,
+      "compute_precision": "FP32",
+      "logits_parity_max_delta": 1.6391277313232422e-06,
+      "padding_max_delta": 0.0,
+      "matrices": [
+        {
+          "name": "backbone.embeddings.word_embeddings.weight",
+          "shape": [
+            32000,
+            128
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.embeddings.position_embeddings.weight",
+          "shape": [
+            512,
+            128
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.embeddings.token_type_embeddings.weight",
+          "shape": [
+            2,
+            128
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.embedding_hidden_mapping_in.weight",
+          "shape": [
+            768,
+            128
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.query.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.key.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.value.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.attention.dense.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.ffn.weight",
+          "shape": [
+            3072,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.encoder.albert_layer_groups.0.albert_layers.0.ffn_output.weight",
+          "shape": [
+            768,
+            3072
+          ],
+          "bits": 4
+        },
+        {
+          "name": "backbone.pooler.weight",
+          "shape": [
+            768,
+            768
+          ],
+          "bits": 4
+        },
+        {
+          "name": "classifier.weight",
+          "shape": [
+            2,
+            768
+          ],
+          "bits": 4
+        }
+      ],
+      "packed_int4": true,
+      "qat_scales_preserved": true,
+      "variable_length_checks": [
+        {
+          "length": 4,
+          "max_delta": 1.1920928955078125e-06
+        },
+        {
+          "length": 6,
+          "max_delta": 1.0794028639793396e-06
+        },
+        {
+          "length": 4,
+          "max_delta": 1.6689300537109375e-06
+        },
+        {
+          "length": 13,
+          "max_delta": 1.5795230865478516e-06
+        },
+        {
+          "length": 6,
+          "max_delta": 2.5033950805664062e-06
+        },
+        {
+          "length": 30,
+          "max_delta": 1.3709068298339844e-06
+        }
+      ],
+      "model_sha256": "7745fff78f930b6e673328fb62f7fd5e12ac797451b79b95e11278538c3c654e",
+      "technical_fixture_only": true,
+      "actual_qat_step": 1,
+      "all_matrix_gradients_nonzero": true,
+      "qat_vs_actual_packed_delta": 1.6391277313232422e-06,
+      "quality_evaluated": false
+    },
+    "first_checkpoint_verification.json": {
+      "run": "finetune",
+      "step": 100,
+      "optimizer_entries": 27,
+      "checkpoint_sha256": "1249d38f612d6492232f3f76da7c557bc7df6c3b112166721fe61987e79bf291",
+      "torch_load_passed": true,
+      "optimizer_rng_order_source_verified": true,
+      "parameters": 11941122
+    },
+    "latest_dev.json": {
+      "run": "finetune",
+      "step": 11000,
+      "epoch": 1,
+      "dev": {
+        "threshold": 0.1,
+        "by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 62,
+            "tn": 1948,
+            "fp": 20,
+            "fn": 28,
+            "accuracy": 0.9766763848396501,
+            "eot_f1": 0.7209302325581395,
+            "eot_precision": 0.7560975609756098,
+            "eot_recall": 0.6888888888888889,
+            "false_share_of_cuts": 0.24390243902439024,
+            "false_positive_rate": 0.01016260162601626
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 83,
+            "tn": 2138,
+            "fp": 45,
+            "fn": 38,
+            "accuracy": 0.9639756944444444,
+            "eot_f1": 0.6666666666666666,
+            "eot_precision": 0.6484375,
+            "eot_recall": 0.6859504132231405,
+            "false_share_of_cuts": 0.3515625,
+            "false_positive_rate": 0.020613834173156206
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 76,
+            "tn": 710,
+            "fp": 115,
+            "fn": 99,
+            "accuracy": 0.786,
+            "eot_f1": 0.41530054644808745,
+            "eot_precision": 0.39790575916230364,
+            "eot_recall": 0.4342857142857143,
+            "false_share_of_cuts": 0.6020942408376964,
+            "false_positive_rate": 0.1393939393939394
+          }
+        },
+        "static_by_language": {
+          "vi": {
+            "samples": 2058,
+            "tp": 60,
+            "tn": 1917,
+            "fp": 51,
+            "fn": 30,
+            "accuracy": 0.9606413994169096,
+            "eot_f1": 0.5970149253731343,
+            "eot_precision": 0.5405405405405406,
+            "eot_recall": 0.6666666666666666,
+            "false_share_of_cuts": 0.4594594594594595,
+            "false_positive_rate": 0.025914634146341462
+          },
+          "en": {
+            "samples": 2304,
+            "tp": 69,
+            "tn": 2143,
+            "fp": 40,
+            "fn": 52,
+            "accuracy": 0.9600694444444444,
+            "eot_f1": 0.6,
+            "eot_precision": 0.6330275229357798,
+            "eot_recall": 0.5702479338842975,
+            "false_share_of_cuts": 0.3669724770642202,
+            "false_positive_rate": 0.01832340815391663
+          },
+          "zh": {
+            "samples": 1000,
+            "tp": 76,
+            "tn": 710,
+            "fp": 115,
+            "fn": 99,
+            "accuracy": 0.786,
+            "eot_f1": 0.41530054644808745,
+            "eot_precision": 0.39790575916230364,
+            "eot_recall": 0.4342857142857143,
+            "false_share_of_cuts": 0.6020942408376964,
+            "false_positive_rate": 0.1393939393939394
+          }
+        },
+        "score": 0.41530054644808745,
+        "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+        "gold_reset_in_inference": false,
+        "language_id_supplied": false,
+        "max_future_words": 2
+      },
+      "retention_passed": false,
+      "retention_by_language": {
+        "vi": false,
+        "en": false,
+        "zh": false
+      },
+      "scope": "Synthetic punctuation DEV only; no test/human/audio gold",
+      "test_used": false
+    }
+  },
+  "process": {
+    "present": true,
+    "pid": 889316,
+    "start_ticks": "59865865",
+    "expected_ticks_match": true,
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_train_v1 "
+  },
+  "runs": {
+    "finetune": {
+      "resume_receipt.json": {
+        "step": 11000,
+        "epoch": 0,
+        "cursor": 176000,
+        "optimizer_entries": 27,
+        "parameters": 11941122,
+        "optimizer_rng_sampler_scales_included": true
+      },
+      "best_report.json": {
+        "run": "finetune",
+        "step": 11000,
+        "epoch": 1,
+        "dev": {
+          "threshold": 0.1,
+          "by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 62,
+              "tn": 1948,
+              "fp": 20,
+              "fn": 28,
+              "accuracy": 0.9766763848396501,
+              "eot_f1": 0.7209302325581395,
+              "eot_precision": 0.7560975609756098,
+              "eot_recall": 0.6888888888888889,
+              "false_share_of_cuts": 0.24390243902439024,
+              "false_positive_rate": 0.01016260162601626
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 83,
+              "tn": 2138,
+              "fp": 45,
+              "fn": 38,
+              "accuracy": 0.9639756944444444,
+              "eot_f1": 0.6666666666666666,
+              "eot_precision": 0.6484375,
+              "eot_recall": 0.6859504132231405,
+              "false_share_of_cuts": 0.3515625,
+              "false_positive_rate": 0.020613834173156206
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 76,
+              "tn": 710,
+              "fp": 115,
+              "fn": 99,
+              "accuracy": 0.786,
+              "eot_f1": 0.41530054644808745,
+              "eot_precision": 0.39790575916230364,
+              "eot_recall": 0.4342857142857143,
+              "false_share_of_cuts": 0.6020942408376964,
+              "false_positive_rate": 0.1393939393939394
+            }
+          },
+          "static_by_language": {
+            "vi": {
+              "samples": 2058,
+              "tp": 60,
+              "tn": 1917,
+              "fp": 51,
+              "fn": 30,
+              "accuracy": 0.9606413994169096,
+              "eot_f1": 0.5970149253731343,
+              "eot_precision": 0.5405405405405406,
+              "eot_recall": 0.6666666666666666,
+              "false_share_of_cuts": 0.4594594594594595,
+              "false_positive_rate": 0.025914634146341462
+            },
+            "en": {
+              "samples": 2304,
+              "tp": 69,
+              "tn": 2143,
+              "fp": 40,
+              "fn": 52,
+              "accuracy": 0.9600694444444444,
+              "eot_f1": 0.6,
+              "eot_precision": 0.6330275229357798,
+              "eot_recall": 0.5702479338842975,
+              "false_share_of_cuts": 0.3669724770642202,
+              "false_positive_rate": 0.01832340815391663
+            },
+            "zh": {
+              "samples": 1000,
+              "tp": 76,
+              "tn": 710,
+              "fp": 115,
+              "fn": 99,
+              "accuracy": 0.786,
+              "eot_f1": 0.41530054644808745,
+              "eot_precision": 0.39790575916230364,
+              "eot_recall": 0.4342857142857143,
+              "false_share_of_cuts": 0.6020942408376964,
+              "false_positive_rate": 0.1393939393939394
+            }
+          },
+          "score": 0.41530054644808745,
+          "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+          "gold_reset_in_inference": false,
+          "language_id_supplied": false,
+          "max_future_words": 2
+        },
+        "retention_passed": false,
+        "retention_by_language": {
+          "vi": false,
+          "en": false,
+          "zh": false
+        },
+        "scope": "Synthetic punctuation DEV only; no test/human/audio gold",
+        "test_used": false
+      }
+    }
+  },
+  "old_large_trainer_absent": true,
+  "old_compact_trainer_absent": true,
+  "gpu_processes": "889316, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 11956 MiB",
+  "disks": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_pretrained_20261103_v1": 47.68337631225586,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "checked_utc": "2026-11-03T07:50:21.704119+00:00",
+  "windows_free_gib": 14.959239959716797
+}

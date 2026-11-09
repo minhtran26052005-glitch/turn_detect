@@ -1,0 +1,80 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "audit": {
+      "pid": 13943,
+      "start_ticks": "332181",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_data_v4"
+      ],
+      "module": "turn_v2.translation_segmenter_full_data_v4",
+      "source_sha256": "00522633b267879ec7bf49bfefcdd8313733f14e069a3b186b0803b940d47a2c",
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/data_worker_v4.log"
+    },
+    "campaign": {
+      "pid": 13944,
+      "start_ticks": "332181",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_full_campaign_v6"
+      ],
+      "module": "turn_v2.translation_segmenter_full_campaign_v6",
+      "source_sha256": "32de6917499004676366e1e52ce8f81f01c45cbd406824a4c74f35e0e9759614",
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v6.log"
+    },
+    "backup": {
+      "pid": 13945,
+      "start_ticks": "332182",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_drive_backup_v6"
+      ],
+      "module": "turn_v2.translation_segmenter_drive_backup_v6",
+      "source_sha256": "d3dfc71c0d884e08a11960e5b3914238d5996c63b63a56abc347b6ee1ced2efc",
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_v6.log",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+    },
+    "restore_proof": {
+      "at_utc": "2026-10-27T12:18:34.965090+00:00",
+      "manifest_sha256": "29069a85edde65a342b13def7d6fbdfd2ff25eb3b64cc7da2aff26436440b651",
+      "checkpoints": {
+        "vi": {
+          "legacy_checkpoint_adopted": true,
+          "optimizer_steps": 1400,
+          "historical_train_rows": 983370
+        },
+        "en": {
+          "legacy_checkpoint_adopted": true,
+          "optimizer_steps": 1400,
+          "historical_train_rows": 513524
+        },
+        "zh": {
+          "legacy_checkpoint_adopted": true,
+          "optimizer_steps": 1400,
+          "historical_train_rows": 1284384
+        }
+      },
+      "data_integrity_and_fingerprints_verified": true,
+      "optimizer_rng_and_exact_epoch_cursor_restored": true,
+      "raw_crawl_next_cycle": 85,
+      "base_model_reinitialization": false,
+      "Windows_large_downloads": false,
+      "restore_module": "restore_full_epoch_campaign_v5",
+      "cleaned_dataset_rebuild_required": true
+    },
+    "data_audit_complete": false,
+    "epoch_complete": false
+  }
+}

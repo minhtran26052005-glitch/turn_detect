@@ -1,0 +1,20 @@
+{
+  "decision": "Replace failed dynamic activation quantization with weight-only INT8 storage and FP32 activations",
+  "initial_protocol": "protocol.json",
+  "negative_control": "int8_quint8_full_dev/report.json",
+  "source_snapshot": "source_weight_only_cached/source_manifest.json",
+  "model_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "runtime_options": {
+    "session.disable_quant_qdq": "1"
+  },
+  "runtime_parity": "runtime_folding_parity.json",
+  "runtime_parity_samples": 128,
+  "activation_computation": "FP32",
+  "relative_embeddings_and_head": "FP32",
+  "dense_storage": "symmetric per-output-channel INT8",
+  "embedding_storage": "symmetric per-token-row INT8",
+  "holdout_policy": "Consumed holdout not evaluated; selection on full frozen dev only",
+  "interrupted_job": "weight_only_full_dev/abandoned_reason.json",
+  "full_dev_job": "weight_only_full_dev_cached",
+  "update_weights_with_gradient": false
+}

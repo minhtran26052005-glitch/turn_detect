@@ -1,0 +1,60 @@
+{
+  "launcher": {
+    "pid": 427431,
+    "start_ticks": "58812839",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_under20m_distill_v1 ",
+    "module": "turn_v2.multilingual_under20m_distill_v1",
+    "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+    "output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_under20m_20261103_v1",
+    "launched_unix": 1793680961.6871858,
+    "recipe_sha256": "3387ac2a2856a3773580af52ea2248cf87c7cbc1e9dcf46aa099c6cbdc84b855"
+  },
+  "technical": {
+    "complete": true,
+    "parameters": {
+      "deployment": 18668738,
+      "training_total": 18964418,
+      "limit_exclusive": 20000000,
+      "embedding_included": true,
+      "classifier_included": true
+    },
+    "actual_qat_step": 1,
+    "quantized_matrices": 41,
+    "all_matrix_gradients_nonzero": true,
+    "qat_vs_packed_onnx_logits_delta": 1.2842938303947449e-05,
+    "technical_fixture_only": true,
+    "quality_evaluated": false
+  },
+  "recipe": {
+    "hard_parameter_limit_exclusive": 20000000,
+    "deployment_parameters": 18668738,
+    "training_parameters_including_kd_projection": 18964418,
+    "architecture": "6layer384dim6head1536FFN,119547vocab factor64 embeddings",
+    "languages": [
+      "vi",
+      "en",
+      "zh"
+    ],
+    "teacher": "DEV-selected frozen branch28000/global514235 reused from previous compression control",
+    "teacher_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+    "source_rows": 300000,
+    "per_language": 100000,
+    "train_source": "source722 VIEN + acceptedlegacyZH, immutable existing train rows",
+    "new_spoken_v9_used": false,
+    "tokenizer": "Original multilingual teacher tokenizer; no BPE/vocab replacement",
+    "training": "Structured sliced/SVDinit -> KD8epochs -> matchedFP32control4epochs + QATg64/g32 each4epochs from sameKDinit",
+    "loss": "0.4CE+0.6T2KL+0.05normalizedCLSfeatureMSE",
+    "batch_size": 32,
+    "gpu_memory_fraction": 0.3,
+    "resume": "Preserve fullmodel/AdamW/RNG/sampler/order/cursor/quant_scales/cacheSHA/sourceSHA; no reset aftercheckpoint",
+    "retention": "Eachlanguage F1/precision drop<=2pp andrecall<=3pp vs frozen teacher; immutable existing DEV protocol, nothuman/audio gold",
+    "selection": "Smallest under20M candidate passing allthreeDEVgates; INT4,INT8,FP32 controls; NEVER accept >=20M fallback",
+    "tests_used": false,
+    "main_model_or_training_replaced": false,
+    "drive_backup_configured": false,
+    "source_sha256": {
+      "compact_multilingual_student_v1.py": "236cf33c4ed4ebebd8106354102a62bf5a2e6518fa0cc6903c15aaf2781a01d4",
+      "multilingual_under20m_distill_v1.py": "bad3bb9e7feda29f954746ae74bb55504c5792acb905106b2701cb8b48b31a41"
+    }
+  }
+}

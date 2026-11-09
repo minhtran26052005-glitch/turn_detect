@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "actual_training": true,
+  "encoded_inputs_audited": 1622,
+  "scored_points": 1600,
+  "windows100_each16": true,
+  "source_labels_masks_future_predicted_resets_verified": true,
+  "initial_control_model_optimizer_all_rng_order_exact": true,
+  "finite_changed_weights": true,
+  "optimizer_entries": 27,
+  "checkpoint_sha256": "ab016bfb04fdd5c848f21ef28bfc9b2b8304e012ce1d6f0aba4529506b86b8c4"
+}

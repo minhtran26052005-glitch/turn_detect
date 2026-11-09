@@ -1,0 +1,9 @@
+{
+  "user_requested": true,
+  "removed": [
+    "outputs/stream_v4_20261025/local_recovery_r2/round_01/trainable_delta.safetensors",
+    "outputs/stream_v4_20261025/local_recovery_r2/round_03/trainable_delta.safetensors",
+    "outputs/stream_v4_20261025/runs/stream_v4_campaign_20261025/round_02/best/model.safetensors"
+  ],
+  "reports_data_retained": true
+}

@@ -1,0 +1,15 @@
+{
+  "status": "FAILED",
+  "started_at_utc": "2026-10-24T21:06:55.702817+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/natural_campaign_recover.py"
+  ],
+  "timeout_seconds": 5700,
+  "pid": 176320,
+  "elapsed_seconds": 5.001365900039673,
+  "heartbeat_unix": 1792876015.703699,
+  "exit_code": 1,
+  "finished_at_utc": "2026-10-24T21:07:00.704185+00:00"
+}

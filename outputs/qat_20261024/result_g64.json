@@ -1,0 +1,31 @@
+{
+  "name": "qat_gru96_g64_20261024_r2",
+  "group_size": 64,
+  "model_bytes": 177124,
+  "dev_metrics": {
+    "samples": 17833,
+    "threshold": 0.4699999999999999,
+    "accuracy": 0.9354567375091123,
+    "eot_precision": 0.8643043762246897,
+    "eot_recall": 0.9429894886869766,
+    "eot_f1": 0.9019340546988157,
+    "joint_score": 0.9019340546988157,
+    "false_eot": 831,
+    "missed_eot": 320,
+    "false_eot_rate": 0.06800327332242226,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        11389,
+        831
+      ],
+      [
+        320,
+        5293
+      ]
+    ]
+  },
+  "quality_passed": true,
+  "gpu_fake_quant_vs_cpu_packed_max_probability_delta": 1.3743180438618996e-05,
+  "report": "outputs/qat_20261024/runs/qat_gru96_g64_20261024_r2/quality_int4/report.json",
+  "holdout_evaluated": false
+}

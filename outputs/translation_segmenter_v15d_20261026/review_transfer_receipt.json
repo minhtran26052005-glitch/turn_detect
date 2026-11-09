@@ -1,0 +1,16 @@
+{
+  "exported_at_utc": "2026-10-27T02:54:27.797999+00:00",
+  "cycle": 75,
+  "remote_parent_verified": true,
+  "remote_child_verified": true,
+  "remote_counts": {
+    "en": 565890,
+    "vi": 1057075,
+    "zh": 1417652
+  },
+  "sample_rows": 360,
+  "full_database_downloaded": false,
+  "review_html": "outputs\\translation_segmenter_v15d_20261026\\review.html",
+  "skipped": false,
+  "review_updated": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T20:33:39.918478+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.natural_v6_pho"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 168089,
+  "elapsed_seconds": 1435.163949728012,
+  "heartbeat_unix": 1792875450.0818052,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T20:57:35.082433+00:00"
+}

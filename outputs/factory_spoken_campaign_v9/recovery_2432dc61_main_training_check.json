@@ -1,0 +1,33 @@
+{
+  "status": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-02T15:44:49.437984+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 589885,
+    "base_step": 486235,
+    "branch_step": 103650,
+    "current_language": "zh",
+    "counts": {
+      "vi": 2640295,
+      "en": 2666585,
+      "zh": 1326720
+    },
+    "epochs": {
+      "vi": 0,
+      "en": 0
+    },
+    "loss": 0.0725208532390146,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "start_ticks": "50410807",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "error_exists": false,
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "disk_free_gib": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_stream_v2_20261102": 62.69768142700195,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "checked_utc": "2026-11-02T15:44:51.222541+00:00",
+  "windows_free_gib": 25.18022918701172
+}

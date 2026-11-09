@@ -1,0 +1,595 @@
+{
+  "campaign": "translation_segmenter_v15d",
+  "status": "RUNNING",
+  "stage": "CRAWL_BATCH_SAVED",
+  "heartbeat_utc": "2026-10-26T16:29:51.359473+00:00",
+  "pid": 3846,
+  "qwen_judge_enabled": false,
+  "quality_target_certified": false,
+  "cycle": 48,
+  "summary": {
+    "cycle": 48,
+    "at_utc": "2026-10-26T16:29:51.006146+00:00",
+    "qwen_used": false,
+    "label_source": "terminal punctuation EOT; internal punctuation NEOT",
+    "punctuation_in_model_input": false,
+    "added_pages_wikipedia": {
+      "vi": 1,
+      "en": 1,
+      "zh": 1
+    },
+    "added_examples_wikipedia": {
+      "vi": 30,
+      "en": 38,
+      "zh": 30
+    },
+    "hf_source_batches": {
+      "hf:fineweb2:vie_Latn": {
+        "accepted": 178,
+        "rejected_short": 15,
+        "saved_no_examples": 7
+      },
+      "hf:fineweb:en": {
+        "rejected_short": 22,
+        "accepted": 159,
+        "saved_no_examples": 19
+      },
+      "hf:fineweb2:cmn_Hani": {
+        "saved_no_examples": 24,
+        "rejected_short": 59,
+        "accepted": 117
+      },
+      "hf:industrycorpus2_news_media:zh": {
+        "saved_no_examples": 146,
+        "accepted": 44,
+        "duplicate_content": 9,
+        "rejected_short": 1
+      }
+    },
+    "source_counts": [
+      {
+        "language": "en",
+        "source_key": "hf:fineweb:en",
+        "disposition": "accepted",
+        "documents": 4781,
+        "examples": 316714
+      },
+      {
+        "language": "en",
+        "source_key": "hf:fineweb:en",
+        "disposition": "rejected_short",
+        "documents": 659,
+        "examples": 0
+      },
+      {
+        "language": "en",
+        "source_key": "hf:fineweb:en",
+        "disposition": "saved_no_examples",
+        "documents": 360,
+        "examples": 0
+      },
+      {
+        "language": "en",
+        "source_key": "hf:industrycorpus2_news_media:en",
+        "disposition": "rejected_language",
+        "documents": 400,
+        "examples": 0
+      },
+      {
+        "language": "en",
+        "source_key": "wiki:en",
+        "disposition": "accepted",
+        "documents": 24,
+        "examples": 631
+      },
+      {
+        "language": "en",
+        "source_key": "wiki:en",
+        "disposition": "saved_no_examples",
+        "documents": 3,
+        "examples": 0
+      },
+      {
+        "language": "vi",
+        "source_key": "hf:fineweb2:vie_Latn",
+        "disposition": "accepted",
+        "documents": 5299,
+        "examples": 562482
+      },
+      {
+        "language": "vi",
+        "source_key": "hf:fineweb2:vie_Latn",
+        "disposition": "rejected_short",
+        "documents": 302,
+        "examples": 0
+      },
+      {
+        "language": "vi",
+        "source_key": "hf:fineweb2:vie_Latn",
+        "disposition": "saved_no_examples",
+        "documents": 199,
+        "examples": 0
+      },
+      {
+        "language": "vi",
+        "source_key": "wiki:vi",
+        "disposition": "accepted",
+        "documents": 27,
+        "examples": 602
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:fineweb2:cmn_Hani",
+        "disposition": "accepted",
+        "documents": 3236,
+        "examples": 366735
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:fineweb2:cmn_Hani",
+        "disposition": "rejected_short",
+        "documents": 2058,
+        "examples": 0
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:fineweb2:cmn_Hani",
+        "disposition": "saved_no_examples",
+        "documents": 506,
+        "examples": 0
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:industrycorpus2_news_media:zh",
+        "disposition": "accepted",
+        "documents": 1566,
+        "examples": 298954
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:industrycorpus2_news_media:zh",
+        "disposition": "duplicate_content",
+        "documents": 103,
+        "examples": 0
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:industrycorpus2_news_media:zh",
+        "disposition": "rejected_short",
+        "documents": 50,
+        "examples": 0
+      },
+      {
+        "language": "zh",
+        "source_key": "hf:industrycorpus2_news_media:zh",
+        "disposition": "saved_no_examples",
+        "documents": 4081,
+        "examples": 0
+      },
+      {
+        "language": "zh",
+        "source_key": "wiki:zh",
+        "disposition": "accepted",
+        "documents": 28,
+        "examples": 2057
+      },
+      {
+        "language": "zh",
+        "source_key": "wiki:zh",
+        "disposition": "saved_no_examples",
+        "documents": 1,
+        "examples": 0
+      }
+    ],
+    "page_counts_by_split": {
+      "vi": {
+        "dev": 519,
+        "test": 560,
+        "train": 4479
+      },
+      "en": {
+        "dev": 527,
+        "test": 534,
+        "train": 4145
+      },
+      "zh": {
+        "dev": 966,
+        "test": 945,
+        "train": 7546
+      }
+    },
+    "example_counts": [
+      {
+        "language": "en",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 7794
+      },
+      {
+        "language": "en",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 7794
+      },
+      {
+        "language": "en",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 7837
+      },
+      {
+        "language": "en",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 7660
+      },
+      {
+        "language": "en",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 8195
+      },
+      {
+        "language": "en",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 8195
+      },
+      {
+        "language": "en",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 8637
+      },
+      {
+        "language": "en",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 8469
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 63034
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 63034
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 64336
+      },
+      {
+        "language": "en",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 63185
+      },
+      {
+        "language": "vi",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 10333
+      },
+      {
+        "language": "vi",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 10333
+      },
+      {
+        "language": "vi",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 15222
+      },
+      {
+        "language": "vi",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 15147
+      },
+      {
+        "language": "vi",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 11566
+      },
+      {
+        "language": "vi",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 11566
+      },
+      {
+        "language": "vi",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 16445
+      },
+      {
+        "language": "vi",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 16364
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 96750
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 96750
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 132017
+      },
+      {
+        "language": "vi",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 131287
+      },
+      {
+        "language": "zh",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 7451
+      },
+      {
+        "language": "zh",
+        "split": "dev",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 7451
+      },
+      {
+        "language": "zh",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 31395
+      },
+      {
+        "language": "zh",
+        "split": "dev",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 31320
+      },
+      {
+        "language": "zh",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 8043
+      },
+      {
+        "language": "zh",
+        "split": "test",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 8043
+      },
+      {
+        "language": "zh",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 30917
+      },
+      {
+        "language": "zh",
+        "split": "test",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 30808
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 1,
+        "samples": 61939
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "EOT",
+        "lookahead_words": 2,
+        "samples": 61939
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 1,
+        "samples": 235406
+      },
+      {
+        "language": "zh",
+        "split": "train",
+        "label": "NEOT",
+        "lookahead_words": 2,
+        "samples": 234619
+      }
+    ],
+    "wikipedia_errors": [],
+    "quality_target_certified": false,
+    "labels_are_human_gold": false
+  },
+  "source_counts": [
+    {
+      "language": "en",
+      "source_key": "hf:fineweb:en",
+      "disposition": "accepted",
+      "documents": 4781,
+      "examples": 316714
+    },
+    {
+      "language": "en",
+      "source_key": "hf:fineweb:en",
+      "disposition": "rejected_short",
+      "documents": 659,
+      "examples": 0
+    },
+    {
+      "language": "en",
+      "source_key": "hf:fineweb:en",
+      "disposition": "saved_no_examples",
+      "documents": 360,
+      "examples": 0
+    },
+    {
+      "language": "en",
+      "source_key": "hf:industrycorpus2_news_media:en",
+      "disposition": "rejected_language",
+      "documents": 400,
+      "examples": 0
+    },
+    {
+      "language": "en",
+      "source_key": "wiki:en",
+      "disposition": "accepted",
+      "documents": 24,
+      "examples": 631
+    },
+    {
+      "language": "en",
+      "source_key": "wiki:en",
+      "disposition": "saved_no_examples",
+      "documents": 3,
+      "examples": 0
+    },
+    {
+      "language": "vi",
+      "source_key": "hf:fineweb2:vie_Latn",
+      "disposition": "accepted",
+      "documents": 5299,
+      "examples": 562482
+    },
+    {
+      "language": "vi",
+      "source_key": "hf:fineweb2:vie_Latn",
+      "disposition": "rejected_short",
+      "documents": 302,
+      "examples": 0
+    },
+    {
+      "language": "vi",
+      "source_key": "hf:fineweb2:vie_Latn",
+      "disposition": "saved_no_examples",
+      "documents": 199,
+      "examples": 0
+    },
+    {
+      "language": "vi",
+      "source_key": "wiki:vi",
+      "disposition": "accepted",
+      "documents": 27,
+      "examples": 602
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:fineweb2:cmn_Hani",
+      "disposition": "accepted",
+      "documents": 3236,
+      "examples": 366735
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:fineweb2:cmn_Hani",
+      "disposition": "rejected_short",
+      "documents": 2058,
+      "examples": 0
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:fineweb2:cmn_Hani",
+      "disposition": "saved_no_examples",
+      "documents": 506,
+      "examples": 0
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:industrycorpus2_news_media:zh",
+      "disposition": "accepted",
+      "documents": 1566,
+      "examples": 298954
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:industrycorpus2_news_media:zh",
+      "disposition": "duplicate_content",
+      "documents": 103,
+      "examples": 0
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:industrycorpus2_news_media:zh",
+      "disposition": "rejected_short",
+      "documents": 50,
+      "examples": 0
+    },
+    {
+      "language": "zh",
+      "source_key": "hf:industrycorpus2_news_media:zh",
+      "disposition": "saved_no_examples",
+      "documents": 4081,
+      "examples": 0
+    },
+    {
+      "language": "zh",
+      "source_key": "wiki:zh",
+      "disposition": "accepted",
+      "documents": 28,
+      "examples": 2057
+    },
+    {
+      "language": "zh",
+      "source_key": "wiki:zh",
+      "disposition": "saved_no_examples",
+      "documents": 1,
+      "examples": 0
+    }
+  ],
+  "remote_disk_free_bytes": 179669426176
+}

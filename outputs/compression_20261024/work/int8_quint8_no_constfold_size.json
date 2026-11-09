@@ -1,0 +1,23 @@
+{
+  "candidate": "outputs\\compression_20261024\\work\\int8_quint8_no_constfold",
+  "model_bytes": 106785546,
+  "deployment_bytes": 108192466,
+  "onnx_sha256": "afbf195ebcff17cc68d8440c0649ba23954b2dd6e955a11c2fdb743b5f095863",
+  "recipe": {
+    "method": "Unigram vocabulary compaction; all encoder weights and 12 layers preserved",
+    "source_onnx_sha256": "3049addd73b26cb84d49141f807b13aac435b7203c68959dc6338021a6785a8c",
+    "original_vocab": 251000,
+    "retained_vocab": 23078,
+    "original_onnx_bytes": 1116285156,
+    "fp32_onnx_bytes": 416108770,
+    "fp32_onnx_sha256": "47636d204e479790f04033ea147c5da0c2ea156c395a0b32a6f3a68cff43a6d8",
+    "quantization": {
+      "dense_weights": "QUInt8",
+      "per_channel": true,
+      "reduce_range": false,
+      "embedding": "symmetric int8 per token row",
+      "preprocessing": "ORT BASIC identity elimination; ConstantFolding disabled to preserve shared relative-position computation",
+      "subgraph_capture_order_repaired": true
+    }
+  }
+}

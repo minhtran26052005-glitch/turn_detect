@@ -1,0 +1,49 @@
+{
+  "restored_at_utc": "2026-10-27T07:37:35.321446+00:00",
+  "manifest_at_utc": "2026-10-27T05:35:15.121209+00:00",
+  "data_cycle": 81,
+  "next_crawl_cycle": 82,
+  "database_integrity": "ok",
+  "checkpoints": {
+    "vi": {
+      "cycle": 81,
+      "cycle_step": 100,
+      "total_steps": 1300,
+      "training_fingerprint": "8e6c0d87d7918dbf296eae2692748b196abb0f494690404f7ef47f2b38fa4a01",
+      "training_rows": 954028,
+      "optimizer_states": 202,
+      "rng_present": true,
+      "weights_sha256": "57515a19a049c8b7db5601e7f08c03ba465e7c6a2b3f40e45c2e6837a53560b2"
+    },
+    "en": {
+      "cycle": 81,
+      "cycle_step": 100,
+      "total_steps": 1300,
+      "training_fingerprint": "1311d735c3314c4971c1ea35b176d8a361bb239be22e668e170b3eeb3169c02e",
+      "training_rows": 493947,
+      "optimizer_states": 202,
+      "rng_present": true,
+      "weights_sha256": "3a2b04820e00ba72ce43efc7b9212a0d2566b3b548b82af9d43d33d921719b48"
+    },
+    "zh": {
+      "cycle": 81,
+      "cycle_step": 100,
+      "total_steps": 1300,
+      "training_fingerprint": "17b509980348e38707f7c039d0362b58360a7a155b1c1c08e90cb687087ba716",
+      "training_rows": 1244300,
+      "optimizer_states": 202,
+      "rng_present": true,
+      "weights_sha256": "71b6126efd68b4856d72a95edbf0280c31b90b2727195c30a8b928c702fa99f5"
+    }
+  },
+  "pending_training_languages": [
+    "zh"
+  ],
+  "weights_optimizer_rng_restored": true,
+  "training_fingerprints_match": true,
+  "local_Windows_large_downloads": false,
+  "recorded_torch_version": "2.11.0+cu130",
+  "restored_torch_version": "2.11.0+cu130",
+  "restore_module": "restore_drive_campaign_v3",
+  "evaluation_priority_gate_completed": true
+}

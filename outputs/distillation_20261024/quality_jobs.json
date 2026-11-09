@@ -1,0 +1,83 @@
+[
+  {
+    "run": "distill_gru_h128_e64_l1_20261024",
+    "precision": "int8",
+    "exit_code": 0,
+    "elapsed_seconds": 15.17279601097107,
+    "bytes": 605210,
+    "accuracy": 0.9333819323725677,
+    "f1": 0.899151103565365
+  },
+  {
+    "run": "distill_gru_h128_e64_l1_20261024",
+    "precision": "fp16",
+    "exit_code": 0,
+    "elapsed_seconds": 15.078147411346436,
+    "bytes": 926931,
+    "accuracy": 0.9333258565580665,
+    "f1": 0.8992116639823684
+  },
+  {
+    "run": "distill_gru_h128_e64_l1_20261024",
+    "precision": "fp32",
+    "exit_code": 0,
+    "elapsed_seconds": 15.245276689529419,
+    "bytes": 1613740,
+    "accuracy": 0.9334380081870689,
+    "f1": 0.8992445463033698
+  },
+  {
+    "run": "distill_gru_h256_e96_l2_20261024",
+    "precision": "int8",
+    "exit_code": 0,
+    "elapsed_seconds": 25.36991024017334,
+    "bytes": 1489310,
+    "accuracy": 0.9366904054281389,
+    "f1": 0.9030818095973904
+  },
+  {
+    "run": "distill_gru_h256_e96_l2_20261024",
+    "precision": "fp16",
+    "exit_code": 0,
+    "elapsed_seconds": 25.421545028686523,
+    "bytes": 2658730,
+    "accuracy": 0.93674648124264,
+    "f1": 0.9030594706084565
+  },
+  {
+    "run": "distill_gru_h256_e96_l2_20261024",
+    "precision": "fp32",
+    "exit_code": 0,
+    "elapsed_seconds": 25.382636070251465,
+    "bytes": 5065777,
+    "accuracy": 0.9366904054281389,
+    "f1": 0.9029651912333476
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_20261024",
+    "precision": "int8",
+    "exit_code": 0,
+    "elapsed_seconds": 13.711847305297852,
+    "bytes": 510796,
+    "accuracy": 0.9298491560589918,
+    "f1": 0.8948297604035309
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_20261024",
+    "precision": "fp16",
+    "exit_code": 0,
+    "elapsed_seconds": 13.679762840270996,
+    "bytes": 744397,
+    "accuracy": 0.9297930802444906,
+    "f1": 0.8947899159663866
+  },
+  {
+    "run": "distill_gru_h64_e64_l1_20261024",
+    "precision": "fp32",
+    "exit_code": 0,
+    "elapsed_seconds": 13.583760261535645,
+    "bytes": 1250470,
+    "accuracy": 0.9298491560589918,
+    "f1": 0.8948651147155223
+  }
+]

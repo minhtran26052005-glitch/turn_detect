@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-27T12:30:45.770625+00:00",
+  "passed": 31,
+  "test_files": [
+    "test_translation_segmenter_full_epoch_v1.py",
+    "test_translation_segmenter_causal_extraction_v2.py",
+    "test_translation_segmenter_causal_extraction.py",
+    "test_translation_segmenter_test_priority.py",
+    "test_drive_restore_v1.py"
+  ],
+  "local_model_training_or_inference": false,
+  "source_compilation_passed": true
+}

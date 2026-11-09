@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "step": 2355180,
+  "branch_step": 100,
+  "epoch": 0,
+  "uploaded_rows_seen": 13986215,
+  "uploaded_origin_exposures": {
+    "daily": 7399164,
+    "factory/gen4000": 5257745,
+    "factory/gen500": 579725,
+    "asr/run2b": 749581
+  },
+  "optimizer_entries": 27,
+  "checkpoint_sha256": "d68ea640b756d25d2069d0b721e79e6699eb8733f96d33b2aa01a3c4064bd04a",
+  "full_resume_load_passed": true,
+  "parameters": 11941122,
+  "drive_replay_rows": 0,
+  "causal_predicted_reset_stream_state_preserved": true,
+  "all_sources_trained_once": false
+}

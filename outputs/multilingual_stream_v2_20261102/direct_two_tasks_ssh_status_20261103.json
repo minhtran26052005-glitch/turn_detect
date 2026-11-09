@@ -1,0 +1,205 @@
+{
+  "checked_unix": 1793678950.5237718,
+  "process_exists": true,
+  "process": {
+    "pid": 2827094,
+    "start_ticks": "50410807",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+    "state": "R"
+  },
+  "launcher.json": {
+    "pid": 2827094,
+    "start_ticks": "50410807",
+    "state": "R",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+    "module": "turn_v2.factory_stream_train_v1",
+    "base_step": 486235,
+    "source_commit": 722,
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d"
+  },
+  "status.json": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T04:09:10.339441+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 740975,
+    "base_step": 486235,
+    "branch_step": 254740,
+    "current_language": "zh",
+    "counts": {
+      "vi": 6491581,
+      "en": 6551107,
+      "zh": 3260667
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.06503378796332981,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "latest_dev.json": {
+    "step": 740235,
+    "branch_step": 254000,
+    "split": "dev",
+    "phase": "NEW_TRAINING_DEV",
+    "shared_threshold": 0.55,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9941690962099126,
+        "eot_f1": 0.9333333333333333,
+        "tp": 84,
+        "tn": 1962,
+        "fp": 6,
+        "fn": 6
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.99609375,
+        "eot_f1": 0.9629629629629629,
+        "tp": 117,
+        "tn": 2178,
+        "fp": 5,
+        "fn": 4
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.874,
+        "eot_f1": 0.5531914893617021,
+        "tp": 78,
+        "tn": 796,
+        "fp": 29,
+        "fn": 97
+      }
+    },
+    "static_rolling_by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9936831875607386,
+        "eot_f1": 0.9281767955801105,
+        "tp": 84,
+        "tn": 1961,
+        "fp": 7,
+        "fn": 6
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.99609375,
+        "eot_f1": 0.9620253164556962,
+        "tp": 114,
+        "tn": 2181,
+        "fp": 2,
+        "fn": 7
+      }
+    },
+    "scope": "VI/EN synthetic punctuation every-gap causal predicted-reset streaming DEV; ZH legacy punctuation anchors, not comparable human/audio gold",
+    "stream_count": 72,
+    "threshold_selected_on_rolling_dev_only": true,
+    "gold_resets_in_eval": false,
+    "sealed_test_used": false,
+    "old_probes_used": false,
+    "selection_score": 0.5531914893617021
+  },
+  "resume_receipt.json": {
+    "step": 740935,
+    "branch_step": 254700,
+    "bytes": 1624061459,
+    "optimizer_entries": 104,
+    "optimizer_and_rng_included": true,
+    "sampler_state_included": true,
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "next_vi_batch_preview_sha256": "7e6ed219b0495cd546cbcf4157b4f0aa19fda656e678a95a4eaebde2ee847ef1",
+    "counts": {
+      "vi": 6490535,
+      "en": 6550105,
+      "zh": 3260155
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "zh_cursor": "317663ebdb254fddc1458d4c2f48afd9915a9c0fcbc57862d77cd7c42104d2a1"
+  },
+  "recipe.json": {
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "source_commit": 722,
+    "trainer_source_sha256": "461d14b5bb2e755fc0c65972f8e20a991c1a5ba135ecf4d50c60689a74844abd",
+    "sampler_source_sha256": "40d16bd340c0d98cbe917fc3b69bb9c7958a2875633e60c1b08015261d31f0fb",
+    "warm_start": {
+      "sha256": "2b7e4f863cdcc9a81409de299704328df72500bc02d9d6809955925c3452ccfb",
+      "bytes": 1624061459,
+      "step": 486235,
+      "source_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+      "optimizer_and_rng_preserved": true,
+      "optimizer_entries": 104,
+      "optimizer_step_max": 486235.0,
+      "source_cursors": {
+        "vi": "993d9c393d2ef3b366ea02d3181bd535090af5f8aa80d57e6bfb128c0f6e92c2",
+        "en": "f4ee1edb099b2bb4d7ebb34e571febed090a5f019d6c35be696068160743c2dd",
+        "zh": "850583a9c0afc2b7363cd16c71ed33323d97dd0964831c569a55f26eb535d82e"
+      },
+      "source_rounds": {
+        "vi": 1,
+        "en": 2,
+        "zh": 0
+      },
+      "old_process": {
+        "pid": 2611438,
+        "start_ticks": "27127617",
+        "state": "D",
+        "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_three_teacher_distill_v1 "
+      },
+      "old_stop_status": {
+        "stage": "STOPPED_BY_REQUEST",
+        "pid": 2611438,
+        "at_unix": 1793596815.3162165,
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "languages": [
+          "vi",
+          "en",
+          "zh"
+        ],
+        "one_shared_student": true,
+        "test_used": false,
+        "qwen_pilot_used": false,
+        "source": "punctuation_derived_corpus",
+        "step": 486235,
+        "counts": {
+          "vi": 2593251,
+          "en": 2593232,
+          "zh": 2593248
+        }
+      },
+      "source": "/mnt/hdd500/turn_detect_training/multilingual_distill_v1/latest_student.pt",
+      "new_data_cursors_start_fresh": true,
+      "reason": "Explicit user request for a new streaming version from generated data, not base initialization."
+    },
+    "loss": "unweighted CE on dense synthetic streaming references + legacy ZH accepted references; no old teacher KL on new negatives",
+    "schedule": [
+      "vi",
+      "en",
+      "vi",
+      "en",
+      "zh"
+    ],
+    "batch_size": 64,
+    "learning_rate": "inherit AdamW 2e-5 and optimizer state",
+    "labels": "All eligible word gaps; full stop EOT, other gaps NEOT, question/exclamation endpoints ignored",
+    "source_groups_split_before_expansion": true,
+    "exposed_200_review_dialogues_excluded": true,
+    "sealed_test_scored": false,
+    "training_authorized_by_user_20261102": true,
+    "qwen_labels_are_silver_not_human_gold": true,
+    "dev_threshold": "one threshold selected on causal rolling all-gap DEV VI/EN; evaluate predicted-reset rollout at that locked threshold",
+    "best_selection": "min(VI reset EOT F1, EN reset EOT F1, legacy ZH EOT F1), DEV only",
+    "baseline_probes_used_for_selection": false
+  },
+  "ssd_free_gib": 60.97787857055664,
+  "hdd_free_gib": 23.014732360839844,
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "gpu_processes": "2827094, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 3662",
+  "checked_utc": "2026-11-03T04:09:10.414426+00:00"
+}

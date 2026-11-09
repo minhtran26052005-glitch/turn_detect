@@ -1,0 +1,14 @@
+{
+  "status": "error",
+  "outputs": [
+    {
+      "output_type": "error",
+      "traceback": [
+        "\u001b[0;36m  File \u001b[0;32m\"<string>\"\u001b[0;36m, line \u001b[0;32munknown\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m source code string cannot contain null bytes\n"
+      ],
+      "ename": "SyntaxError",
+      "evalue": "source code string cannot contain null bytes (<string>)"
+    }
+  ],
+  "elapsed_seconds": 0.21900000000005093
+}

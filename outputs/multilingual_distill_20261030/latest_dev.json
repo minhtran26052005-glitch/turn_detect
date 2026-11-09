@@ -1,0 +1,35 @@
+{
+  "step": 209000,
+  "split": "dev",
+  "scope": "punctuation-derived, not human/audio conversational gold",
+  "shared_threshold": 0.5700000000000001,
+  "by_language": {
+    "vi": {
+      "samples": 1000,
+      "accuracy": 0.826,
+      "eot_f1": 0.7220447284345048,
+      "tp": 226,
+      "fp": 105,
+      "fn": 69
+    },
+    "en": {
+      "samples": 1000,
+      "accuracy": 0.843,
+      "eot_f1": 0.7603053435114504,
+      "tp": 249,
+      "fp": 84,
+      "fn": 73
+    },
+    "zh": {
+      "samples": 1000,
+      "accuracy": 0.872,
+      "eot_f1": 0.632183908045977,
+      "tp": 110,
+      "fp": 63,
+      "fn": 65
+    }
+  },
+  "sample_policy": "first hashed example_ids of each frozen DEV split",
+  "test_used_for_selection": false,
+  "same_model_for_all_languages": true
+}

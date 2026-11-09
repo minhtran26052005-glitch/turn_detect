@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-25T19:46:32.450183+00:00",
+  "parent_verified": true,
+  "child_verified": true,
+  "teacher_cycle": "11",
+  "stage": "TRAINING_LARGE_TEACHER",
+  "checkpoint_steps": {
+    "vi": 1100,
+    "en": 1075,
+    "zh": 1000
+  },
+  "remote_free_bytes": 165413654528,
+  "local_free_bytes": 40339996672,
+  "GPU": "NVIDIA L4, 96 %, 5800 MiB, 23034 MiB",
+  "new_training_error": false,
+  "champion_hashes_changed": false,
+  "metadata_snapshot_cycle": 10,
+  "Drive_mounted": false,
+  "notification_decision": "DONT_NOTIFY",
+  "notification_reason": "Healthy continuous training; no new independently verified quality milestone.",
+  "quality_target_certified": false
+}

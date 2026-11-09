@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "checked_utc": "2026-11-04T03:05:21.624409+00:00",
+  "report_sha256": "fe5aabfe389af9c9e5f9c7709b941d3d3f45677112f7b66f81428867f4fcdad0",
+  "all_probabilities_finite_and_in_range": true,
+  "probability_min_max": [
+    1.6930323909036815e-05,
+    0.9999667406082153
+  ],
+  "inferences_by_lookahead": {
+    "1": 586048,
+    "2": 555469
+  },
+  "known_overlap_streams_actually_scored": 54,
+  "canonical_training_dev_predictor_parity_cases": 62,
+  "canonical_predictor_max_probability_delta": 4.76837158203125e-07,
+  "canonical_predictor_all_decisions_identical": true,
+  "verification_only_no_new_performance_metrics_or_selection": true,
+  "frozen_zip_streams_weights_fullpin_trace_source_sha_verified": true,
+  "main_process": {
+    "pid": 967949,
+    "start_ticks": "60335466",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_checked_train_v3 "
+  },
+  "main_status": {
+    "stage": "FINETUNING_PRETRAINED_MALBERT",
+    "pid": 967949,
+    "at_utc": "2026-11-04T03:05:21.234485+00:00",
+    "architecture": "Pretrained mALBERT32k with EOT/NEOT head",
+    "parameters": 11941122,
+    "large_teacher_must_remain_stopped": true,
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 1390550,
+    "epoch": 53,
+    "rows_seen": 175248,
+    "loss": 0.00011484157585073262,
+    "kd_weight": 0.3,
+    "group_size": null,
+    "additional_rows_seen": 10485488
+  },
+  "disk_free_gib": {
+    "ssd": 43.02962875366211,
+    "hdd": 23.014732360839844
+  },
+  "hdd_mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0",
+  "main_training_dataset_unchanged": true,
+  "backed_up_to_drive": false
+}

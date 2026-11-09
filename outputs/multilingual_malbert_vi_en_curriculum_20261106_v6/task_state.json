@@ -1,0 +1,160 @@
+{
+  "last_notified_dev_branch_step": 590000,
+  "reported_cutover": true,
+  "phase": "STOPPED_WITH_CHECKPOINT",
+  "desired_state": "STOPPED_BY_REQUEST_FOR_SENTENCE_MIX_V7",
+  "checked_utc": "2026-11-07T00:58:57.670443+00:00",
+  "process": {
+    "present": true,
+    "pid": 873860,
+    "start_ticks": "16570173",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_curriculum_train_v6 ",
+    "cpu_ticks": 7544385,
+    "identity_match": true
+  },
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "parameters": 11941122,
+  "current_training_version": 6,
+  "loss_policy": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "drive_data_excluded": true,
+  "latest_status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 873860,
+    "start_ticks": "16570173",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-07T01:00:19.352915+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 3222508,
+    "branch_step": 598450,
+    "epoch": 2,
+    "uploaded_rows_seen": 27615616,
+    "uploaded_origin_exposures": {
+      "daily": 14612978,
+      "factory/gen4000": 10384477,
+      "factory/gen500": 1130370,
+      "asr/run2b": 1487791
+    },
+    "loss": 0.5578680634498596,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "loss_policy": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "curriculum_stage": 3,
+    "curriculum_family_fraction": 1.0,
+    "curriculum_stage_step": 538450,
+    "curriculum_stage_budget": null,
+    "curriculum_stage_seen": 8454811,
+    "full_filtered_epochs_complete": 1,
+    "tasks_assigned": 12922,
+    "total_tasks": 34602
+  },
+  "reported_cutover_utc": "2026-11-06T04:01:40.005260+00:00",
+  "last_reported_curriculum_cutover": "multilingual_malbert_vi_en_curriculum_20261106_v6@2624558",
+  "curriculum_preparation_verified": true,
+  "curriculum_resume_fixture_verified": true,
+  "actual_curriculum_training_verified": true,
+  "curriculum_plan_sha256": "2014b6233eb4ca74467314f66bbb495d7f405342fe48228be7bd8c0ec5af90ee",
+  "parent_step": 2624058,
+  "parent_worker_stopped_with_checkpoint": true,
+  "new_stage_order_and_lanes_explicitly_versioned": true,
+  "full_filtered_epochs_complete": 1,
+  "stage_update_budgets": [
+    10000,
+    20000,
+    30000,
+    null
+  ],
+  "curriculum_stage": 3,
+  "curriculum_stage_seen": 8454811,
+  "last_notified_dev_run": "finetune",
+  "last_notified_dev_global_step": 3214058,
+  "last_notified_dev_report_sha256": "2e874de849f20e309dd9db78de7710cd768822f559fb54c790b3f6886f366d9f",
+  "last_notified_dev_metrics": {
+    "vi": {
+      "samples": 18627,
+      "tp": 128,
+      "tn": 17885,
+      "fp": 156,
+      "fn": 458,
+      "accuracy": 0.9670370966876041,
+      "eot_f1": 0.2942528735632184,
+      "eot_precision": 0.4507042253521127,
+      "eot_recall": 0.21843003412969283,
+      "false_share_of_cuts": 0.5492957746478874,
+      "false_positive_rate": 0.008646970788758939,
+      "actual_eot": 586
+    },
+    "en": {
+      "samples": 16360,
+      "tp": 316,
+      "tn": 15431,
+      "fp": 233,
+      "fn": 380,
+      "accuracy": 0.9625305623471883,
+      "eot_f1": 0.5076305220883535,
+      "eot_precision": 0.575591985428051,
+      "eot_recall": 0.4540229885057471,
+      "false_share_of_cuts": 0.424408014571949,
+      "false_positive_rate": 0.014874872318692544,
+      "actual_eot": 696
+    }
+  },
+  "last_notified_dev_utc": "2026-11-07T01:01:02.180516+00:00",
+  "last_storage_observation": {
+    "checked_utc": "2026-11-07T01:02:11.118716+00:00",
+    "windows_free_gib": 15.106407165527344,
+    "ssd_free_gib": 41.33921813964844,
+    "hdd_free_gib": 23.014732360839844,
+    "hdd_rw_verified": true,
+    "temporary_low_windows_free_gib": 12.627864837646484
+  },
+  "last_reported_direct_progress_comparison": "direct_progress_comparison.json",
+  "last_reported_full_filtered_epochs": 1,
+  "full_epoch_0001_independently_verified": true,
+  "input_sentence_structure_audit": {
+    "complete": true,
+    "reported": true,
+    "report": "input_sentence_structure_audit_20261107.json",
+    "turns": 167888,
+    "single_unit_turns": 82021,
+    "multi_unit_turns": 85867,
+    "terminal_eot_anchors": 106442,
+    "total_eot_anchors": 232059,
+    "training_changed": false
+  },
+  "active_successor": {
+    "output": "multilingual_malbert_vi_en_sentence_mix_20261107_v7",
+    "launcher": {
+      "pid": 1121366,
+      "start_ticks": "24252420",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "module": "turn_v2.multilingual_malbert_vi_en_sentence_mix_train_v7",
+      "source_sha256": {
+        "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+        "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+        "uploaded_vi_en_curriculum_data_v6.py": "842d989887094805a39784c65d8f17b08267904c7d0d0b85fbcc0de54a9bcb73",
+        "uploaded_vi_en_sentence_mix_data_v7.py": "53f047a33e561201f16d32f444780fb0d108d6fd520cfcd607185a82fca582c5",
+        "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+        "multilingual_malbert_vi_en_sentence_mix_train_v7.py": "e6938081429701dd553c159e48939b0348201b60d367faf50965976b6febb319",
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+        "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+      }
+    },
+    "verified": true
+  },
+  "reported_sentence_mix_handover": true
+}

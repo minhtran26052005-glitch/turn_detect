@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "arm": "source_window",
+  "encoded_inputs": 1622,
+  "scored": 1600,
+  "context_inputs_differ_from_decoder_history": 1060,
+  "same_turn_future_masks_labels_input_hashes_verified": true,
+  "all100windows16": true,
+  "finite_changed_weights_and_27_optimizer_steps": true
+}

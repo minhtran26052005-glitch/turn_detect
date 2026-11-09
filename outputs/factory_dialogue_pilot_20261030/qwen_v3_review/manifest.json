@@ -1,0 +1,20 @@
+{
+  "source": "QWEN_SYNTHETIC",
+  "source_run": "qwen_v2",
+  "human_reviewed": false,
+  "training_eligible": false,
+  "accepted_dialogues": 31,
+  "rejected_dialogues": 1,
+  "examples": 5069,
+  "boundary_provenance": {
+    "qwen_explicit_sentence_list": 3,
+    "qwen_punctuation_conservative_split": 28
+  },
+  "counts": {
+    "NEOT_k1": 2319,
+    "NEOT_k2": 2288,
+    "EOT_k1": 231,
+    "EOT_k2": 231
+  },
+  "note": "Structured format checks only; sentence boundaries are model-provided/punctuation-derived; naturalness, speaker consistency, safety and labels require review."
+}

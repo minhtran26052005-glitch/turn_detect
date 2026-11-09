@@ -1,0 +1,28 @@
+{
+  "stage": "INDEPENDENT_EN_ZH_TRAINING_COMPLETE",
+  "receipts": [
+    {
+      "job": "mono_en_teacher_20261025",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "mono_en_student_20261025",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "mono_zh_teacher_20261025",
+      "status": "COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "job": "mono_zh_student_20261025",
+      "status": "COMPLETED",
+      "exit_code": 0
+    }
+  ],
+  "elapsed_seconds": 758.265691751003,
+  "quality_target_certified": false,
+  "held_evaluated": false
+}

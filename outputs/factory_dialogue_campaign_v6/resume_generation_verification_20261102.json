@@ -1,0 +1,118 @@
+{
+  "checked_unix": 1793588082.3727093,
+  "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+  "owner": {
+    "boot_id": "8149fd79-3131-4bd0-a557-987ebdbf3b4f",
+    "module": "factory_dialogue_campaign_v8",
+    "pid": 5543,
+    "start_ticks": "119138"
+  },
+  "process": {
+    "pid": 5543,
+    "start_ticks": "119138",
+    "cmdline": "/usr/bin/python3 -u /content/factory_dialogue_campaign_v8/factory_dialogue_campaign_v8.py ",
+    "state": "R"
+  },
+  "verified_commits": [
+    {
+      "index": 608,
+      "accepted": 31,
+      "rejected": 1,
+      "examples": 858,
+      "language": "en",
+      "commit_sha256": "551484bfe080e9d89950670bfa27703781ef17cfa3f46988df8f210d5a8c0398",
+      "object_sha256": "dc205ca851cbefadc68592745ed05d2f050ff4969b5b397d02daedf2b2cd5230",
+      "readback_verified": true,
+      "chain_link_verified": true
+    },
+    {
+      "index": 609,
+      "accepted": 30,
+      "rejected": 2,
+      "examples": 825,
+      "language": "en",
+      "commit_sha256": "a7b7581fa133d15e38dfe5f6e52ef4134562982d8ff83f5767b8e8e6b8ce04fe",
+      "object_sha256": "8213f5637d26f5c3f85bcb456cf434cf0defa80e12c106aace8ca7715102f1dc",
+      "readback_verified": true,
+      "chain_link_verified": true
+    }
+  ],
+  "status": {
+    "at_unix": 1793588076.2284608,
+    "batch": 32,
+    "batch_started_unix": 1793588062.8580008,
+    "engine_version": 8,
+    "gpu_peak_reserved_gib": 19.11,
+    "language": "en",
+    "pid": 5543,
+    "stage": "GENERATING",
+    "start_ticks": "119138",
+    "state": {
+      "attempts": {
+        "en": 3116,
+        "vi": 13936
+      },
+      "batch_size": 32,
+      "commit_index": 610,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 3009,
+        "vi": 10000
+      },
+      "example_counts": {
+        "en": 80892,
+        "vi": 245080
+      },
+      "language": "en",
+      "last_commit_sha256": "4a4657978245b1eeebfe79f727e25aa6f7a02d1729aa1a7087b0f14cb822b195",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 107,
+        "vi": 3936
+      },
+      "schema": 6,
+      "total_counts": {
+        "en": 3009,
+        "vi": 10000
+      }
+    }
+  },
+  "state_at_verified_commit_609": {
+    "attempts": {
+      "en": 3084,
+      "vi": 13936
+    },
+    "batch_size": 32,
+    "commit_index": 609,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 2978,
+      "vi": 10000
+    },
+    "example_counts": {
+      "en": 80060,
+      "vi": 245080
+    },
+    "language": "en",
+    "last_commit_sha256": "551484bfe080e9d89950670bfa27703781ef17cfa3f46988df8f210d5a8c0398",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 106,
+      "vi": 3936
+    },
+    "schema": 6,
+    "total_counts": {
+      "en": 2978,
+      "vi": 10000
+    }
+  },
+  "colab_free_gib": 177.769,
+  "gpu": "NVIDIA L4, 23034 MiB, 19808 MiB, 100 %",
+  "gpu_processes": "5543, 19800 MiB",
+  "drive_nonce_verified": true,
+  "new_generation_verified": true,
+  "checked_utc": "2026-11-02T02:56:01.833884+00:00",
+  "windows_free_gib": 21.765,
+  "full_previous_chain_verified": 607,
+  "recovery_user_reported": true
+}

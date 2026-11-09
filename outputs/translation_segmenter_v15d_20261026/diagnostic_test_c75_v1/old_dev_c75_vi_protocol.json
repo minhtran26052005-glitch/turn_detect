@@ -1,0 +1,22 @@
+{
+  "material_passport": {
+    "mode": "run",
+    "scope": "LEGACY_DEV_DIAGNOSTIC_NOT_NEW_BLIND_TEST",
+    "model": "frozen VI cycle75/100"
+  },
+  "data_sha256": "be8a3a8857a2628dda4fbca4ea7b44a6a4eebdee1acd2c8d60702326938d6c4e",
+  "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+  "threshold_fixed_from_new_campaign_dev": 0.6599999999999999,
+  "old_qat_threshold_fixed": 0.47,
+  "input_mapping": "Preserve original context and text; new model native encode_tail(context,text,256). No future words invented or moved.",
+  "input_mismatch": "Legacy rows have current-prefix text and no future words; this differs from training the new model on left text plus1/2 following words.",
+  "context_nonempty": 0,
+  "samples": 17833,
+  "model_or_threshold_selection_on_this_evaluation": false,
+  "holdout_reopened": false,
+  "quality_target_certified": false,
+  "direct_old_vs_new_score_is_not_isolated_compression_effect": true,
+  "legacy_label_source_counts": {
+    "provided_gold": 17833
+  }
+}

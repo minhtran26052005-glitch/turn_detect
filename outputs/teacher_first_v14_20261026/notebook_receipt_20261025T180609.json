@@ -1,0 +1,12 @@
+{
+  "source_sha256": "62a72dd6c61d6ac99fd9a9bdb46e14979bf6bec7e11093cf8976bed4cbee2feb",
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "Kiểm tra lúc: 2026-10-26T01:06:09.201285+07:00\nTeacher lớn trước, ba checkpoint riêng VI/EN/ZH; chưa distill hoặc thay model INT4.\n{\"status\": \"RUNNING\", \"stage\": \"COLLECTING_TEACHER_DATA\", \"cycle\": 1, \"language\": \"en\", \"step\": null, \"steps\": null, \"total_steps\": null, \"loss\": null, \"heartbeat_utc\": \"2026-10-25T18:05:14.465155+00:00\"}\nNVIDIA L4, 100 %, 17226 MiB, 23034 MiB\nSilver Qwen không phải human gold; chưa chứng nhận 90% trên hội thoại thật.\nTeacher và optimizer đầy đủ hiện lưu trên Colab; metadata snapshot không chứa trọng số.\nÔ này chỉ đọc trạng thái, không tạo worker hoặc chạy lại training.\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

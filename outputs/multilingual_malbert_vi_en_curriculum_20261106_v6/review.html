@@ -1,0 +1,39 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Curriculum Việt Anh</title><style>body{font:16px system-ui;max-width:1100px;margin:36px auto;padding:0 20px;color:#17212b}td,th{padding:12px;border:1px solid #ccd4dd;text-align:left}table{border-collapse:collapse;width:100%}pre{white-space:pre-wrap;background:#edf3fa;padding:18px}</style><h1>mALBERT 11,94M · Curriculum Việt Anh</h1><p>Các pool tăng dần theo cả family hội thoại và giữ replay tự nhiên từ các mức trước. Tỷ lệ chỉ số family. Các giai đoạn đầu giới hạn số cập nhật và có thể kết thúc giữa một lượt qua pool.</p><table><tr><th>Giai đoạn</th><th>Family mục tiêu</th><th>Số family</th><th>Streams</th><th>Điểm hợp lệ mỗi lượt</th><th>Ngân sách cập nhật</th></tr><tr><td>1</td><td>10%</td><td>874</td><td>1725</td><td>463539</td><td>10000</td></tr><tr><td>2</td><td>25%</td><td>2174</td><td>4363</td><td>1624700</td><td>20000</td></tr><tr><td>3</td><td>50%</td><td>4343</td><td>8765</td><td>3302616</td><td>30000</td></tr><tr><td>4</td><td>100%</td><td>8681</td><td>17301</td><td>6163255</td><td>Toàn bộ TRAIN, tối thiểu 6 epoch đầy đủ</td></tr></table><h2>Trạng thái mới kiểm tra</h2><pre>{
+  &quot;stage&quot;: &quot;TRAINING_UPLOADED_ONLY_MALBERT&quot;,
+  &quot;pid&quot;: 873860,
+  &quot;start_ticks&quot;: &quot;16570173&quot;,
+  &quot;boot_id&quot;: &quot;65117834-0b91-465e-a099-805d6100f317&quot;,
+  &quot;at_utc&quot;: &quot;2026-11-07T00:58:54.514398+00:00&quot;,
+  &quot;active_languages&quot;: [
+    &quot;vi&quot;,
+    &quot;en&quot;
+  ],
+  &quot;run&quot;: &quot;finetune&quot;,
+  &quot;step&quot;: 3221458,
+  &quot;branch_step&quot;: 597400,
+  &quot;epoch&quot;: 2,
+  &quot;uploaded_rows_seen&quot;: 27599110,
+  &quot;uploaded_origin_exposures&quot;: {
+    &quot;daily&quot;: 14604619,
+    &quot;factory/gen4000&quot;: 10377771,
+    &quot;factory/gen500&quot;: 1129585,
+    &quot;asr/run2b&quot;: 1487135
+  },
+  &quot;loss&quot;: 0.0025279992260038853,
+  &quot;learning_rate&quot;: 4.000000000000001e-06,
+  &quot;parameters&quot;: 11941122,
+  &quot;group_size&quot;: null,
+  &quot;drive_replay_rows&quot;: 0,
+  &quot;loss_policy&quot;: {
+    &quot;NEOT&quot;: 1.0,
+    &quot;EOT&quot;: 2.0
+  },
+  &quot;curriculum_stage&quot;: 3,
+  &quot;curriculum_family_fraction&quot;: 1.0,
+  &quot;curriculum_stage_step&quot;: 537400,
+  &quot;curriculum_stage_budget&quot;: null,
+  &quot;curriculum_stage_seen&quot;: 8438305,
+  &quot;full_filtered_epochs_complete&quot;: 1,
+  &quot;tasks_assigned&quot;: 12828,
+  &quot;total_tasks&quot;: 34602
+}</pre><p>DEV calibration và monitor giữ bộ nhóm nguồn đã khóa. Nhãn là dấu câu silver. TRAIN dùng context nhân quả, reset theo dự đoán, future cùng turn nguồn. Full checkpoint và dữ liệu lưu trên SSH.</p></html>

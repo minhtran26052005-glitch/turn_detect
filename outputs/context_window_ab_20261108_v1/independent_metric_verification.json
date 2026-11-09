@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "metric_groups_checked": 420,
+  "denominators_identical_across_arms_and_thresholds": true,
+  "domain_confusions_sum_to_language_totals": true,
+  "calibration_argmax_recomputed": true
+}

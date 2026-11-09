@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-11-03T06:30:53.366868+00:00",
+  "remote_checked_utc": "2026-11-03T06:28:15.309627+00:00",
+  "pid": 2827094,
+  "start_ticks": "50410807",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "step_first": 759765,
+  "step_last": 760135,
+  "branch_step": 273900,
+  "step_increased": true,
+  "error_present": false,
+  "gpu_processes": "2827094, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 3662 MiB\n427431, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 3876 MiB",
+  "mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "ssd_free_gib": 37.961727142333984,
+  "hdd_free_gib": 23.014732360839844,
+  "windows_free_gib": 22.231143951416016,
+  "latest_dev_branch_step": 273000,
+  "latest_dev_sha256": "50207b6f6145bb90356b37cfc65714cb8a45e3d74251acfd0cd086283a36b51d",
+  "resume_optimizer_rng_sampler_included": true,
+  "dataset_manifest_unchanged": true,
+  "new_spoken_v9_included": false,
+  "main_dev_notification_deferred_in_favor_of_latest_under20m_dev": true
+}

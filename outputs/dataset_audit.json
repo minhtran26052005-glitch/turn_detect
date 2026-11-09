@@ -1,0 +1,31 @@
+{
+  "train.jsonl": {
+    "rows": 352838,
+    "labels": {
+      "EOT": 111284,
+      "NEOT": 241554
+    },
+    "nonempty_context": 0,
+    "unique_normalized_inputs": 352838,
+    "duplicate_normalized_inputs": 0
+  },
+  "test.jsonl": {
+    "rows": 4183,
+    "labels": {
+      "EOT": 1223,
+      "NEOT": 2960
+    },
+    "nonempty_context": 0,
+    "unique_normalized_inputs": 4183,
+    "duplicate_normalized_inputs": 0,
+    "exact_input_overlap_with_train": 645,
+    "overlap_fraction": 0.15419555343055225,
+    "overlap_by_label": {
+      "NEOT": 589,
+      "EOT": 56
+    },
+    "without_exact_input_overlap": 3538
+  },
+  "overlap_definition": "exact (context.strip().lower(), text.strip().lower())",
+  "note": "Excluding exact input overlap does not establish source-conversation independence."
+}

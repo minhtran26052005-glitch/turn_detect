@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kết quả turn detection trên hội thoại tự nhiên</title>
+<style>
+body{font:17px system-ui;background:#f3f7fb;color:#18313e;margin:0}
+main{max-width:1200px;margin:auto;padding:24px}
+section{background:white;border:1px solid #d2e1e9;border-radius:12px;margin:18px 0;padding:24px}
+p{line-height:1.7}table{border-collapse:collapse;width:100%}
+td,th{padding:12px;border-bottom:1px solid #d6e2ea;text-align:left}
+select{font:inherit;padding:8px}pre{white-space:pre-wrap;word-break:break-word}
+.scroll{overflow:auto}a{color:#126b92}
+</style>
+<main>
+<h1>Text-only trên hội thoại tự nhiên</h1>
+<p><b id="headline">Chưa đạt accuracy và F1 EOT &gt;90% cả ba tiếng.</b>
+Nhãn VAD/observed-floor tự động, chưa có human gold. Chia tập theo toàn cuộc gọi;
+384 mẫu giữ riêng chỉ được chấm sau lựa chọn cuối.</p>
+<section>
+<h2>Kiểm tra cuối: 384 mẫu giữ riêng</h2>
+<pre id="heldMeta"></pre>
+<div class="scroll"><table>
+<thead><tr><th>Tiếng</th><th>Mẫu</th><th>Accuracy</th><th>F1 EOT</th><th>EOT nhầm/hold</th></tr></thead>
+<tbody id="heldRows"></tbody>
+</table></div>
+</section>
+<section>
+<h2>So sánh development</h2>
+<label>Ngôn ngữ
+<select id="lang">
+<option value="all">Cả ba tiếng</option>
+<option value="vi">Việt</option>
+<option value="en">English</option>
+<option value="zh">中文</option>
+</select>
+</label>
+<div class="scroll"><table>
+<thead><tr><th>Model</th><th>Tiếng</th><th>Accuracy dev</th><th>F1 EOT dev</th><th>EOT nhầm/hold</th><th>Phạm vi</th></tr></thead>
+<tbody id="rows"></tbody>
+</table></div>
+<p>Nguồn text/ngữ cảnh/ASR thay đổi giữa các vòng, nên chênh lệch tổng chưa xác định
+đóng góp riêng của từng thay đổi. So sánh matched-ASR giữ teacher, codec, case,
+nhãn và ngưỡng cố định.</p>
+</section>
+<section>
+<h2>Kiểm tra ASR</h2>
+<pre id="asr"></pre>
+<p><a href="asr_review/review.html">Nghe 20 ví dụ train/dev: cùng audio, hai transcript ASR</a></p>
+</section>
+<section>
+<h2>Trạng thái và artifacts</h2>
+<pre id="status"></pre>
+<p><a href="../../README_NATURAL_CAMPAIGN.md">Hướng dẫn đầy đủ</a> ·
+<a href="summary.json">JSON số liệu</a> ·
+<a href="crawl_review.html">Player 204 prefix crawl của model đã chọn</a></p>
+</section>
+</main>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const R=JSON.parse(document.getElementById('data').textContent);
+const $=id=>document.getElementById(id);
+function line(target,values){
+  const tr=document.createElement('tr');
+  values.forEach(text=>{const td=document.createElement('td');td.textContent=text;tr.append(td)});
+  $(target).append(tr);
+}
+function percent(value){return (value*100).toFixed(2)+'%'}
+function show(){
+  $('rows').replaceChildren();
+  R.rows.filter(r=>$('lang').value==='all'||r.language===$('lang').value).forEach(r=>
+    line('rows',[r.model,r.language,percent(r.accuracy),percent(r.eot_f1),percent(r.false_eot_rate),r.scope]));
+}
+$('lang').onchange=show;
+$('asr').textContent=JSON.stringify(R.ASR_diagnostics||{status:'Chưa thu đủ kết quả PhoWhisper'},null,2);
+$('status').textContent=JSON.stringify({status:R.status,held_cases:R.held_cases,
+  held_classifier_scored:R.held_classifier_scored,crawl_gold_labels:R.crawl_gold_labels,
+  crawl_accuracy:R.crawl_accuracy,user_target_achieved:R.user_target_achieved},null,2);
+if(R.final_held){
+  $('heldMeta').textContent=JSON.stringify({model:R.final_held.selected_kind,path:R.final_held.selected_path,
+    calls:R.final_held.held_calls,note:'Nhãn tự động; cohort nhỏ, chưa có chứng nhận human gold'},null,2);
+  Object.entries(R.final_held.metrics.selected).forEach(([lang,r])=>
+    line('heldRows',[lang,r.samples,percent(r.accuracy),percent(r.eot_f1),percent(r.false_eot_rate)]));
+  if(R.final_held.automatic_held_numeric_target_met)
+    $('headline').textContent='Đạt ngưỡng số trên cohort nhãn tự động; chưa có human gold.';
+}else{
+  $('heldMeta').textContent='Chưa chấm classifier: giữ riêng để tránh tune vào test.';
+}
+show();
+</script>
+</html>

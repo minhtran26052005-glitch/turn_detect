@@ -1,0 +1,8 @@
+{
+  "samples_per_platform": 17833,
+  "windows_max_delta_vs_reference": 0.0,
+  "colab_max_delta_vs_reference": 2.220446049250313e-16,
+  "dev_metrics_same": true,
+  "model_sha256_same": true,
+  "passed": true
+}

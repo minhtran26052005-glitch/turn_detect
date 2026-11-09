@@ -1,0 +1,184 @@
+{
+  "status": "AUTO_CRAWL_JUDGE_RL_ROUND_COMPLETE",
+  "language": "zh",
+  "steps": 75,
+  "judge_counts": {
+    "NEOT": 5,
+    "EOT": 4
+  },
+  "dev_before": {
+    "threshold": 0.065,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 339,
+        "threshold": 0.065,
+        "accuracy": 0.5663716814159292,
+        "eot_precision": 0.42424242424242425,
+        "eot_recall": 0.717948717948718,
+        "eot_f1": 0.5333333333333333,
+        "joint_score": 0.5333333333333333,
+        "false_eot": 114,
+        "missed_eot": 33,
+        "false_eot_rate": 0.5135135135135135,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            108,
+            114
+          ],
+          [
+            33,
+            84
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 69,
+        "threshold": 0.065,
+        "accuracy": 0.7101449275362319,
+        "eot_precision": 0.7619047619047619,
+        "eot_recall": 0.9056603773584906,
+        "eot_f1": 0.8275862068965517,
+        "joint_score": 0.7101449275362319,
+        "false_eot": 15,
+        "missed_eot": 5,
+        "false_eot_rate": 0.9375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            1,
+            15
+          ],
+          [
+            5,
+            48
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 448,
+        "threshold": 0.065,
+        "accuracy": 0.9397321428571429,
+        "eot_precision": 0.9481981981981982,
+        "eot_recall": 0.9905882352941177,
+        "eot_f1": 0.9689298043728424,
+        "joint_score": 0.9397321428571429,
+        "false_eot": 23,
+        "missed_eot": 4,
+        "false_eot_rate": 1.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            0,
+            23
+          ],
+          [
+            4,
+            421
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.5333333333333333,
+    "natural_target_met": false
+  },
+  "dev_after": {
+    "threshold": 0.055,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 339,
+        "threshold": 0.055,
+        "accuracy": 0.5811209439528023,
+        "eot_precision": 0.42857142857142855,
+        "eot_recall": 0.6410256410256411,
+        "eot_f1": 0.5136986301369864,
+        "joint_score": 0.5136986301369864,
+        "false_eot": 100,
+        "missed_eot": 42,
+        "false_eot_rate": 0.45045045045045046,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            122,
+            100
+          ],
+          [
+            42,
+            75
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 69,
+        "threshold": 0.055,
+        "accuracy": 0.6956521739130435,
+        "eot_precision": 0.7666666666666667,
+        "eot_recall": 0.8679245283018868,
+        "eot_f1": 0.8141592920353983,
+        "joint_score": 0.6956521739130435,
+        "false_eot": 14,
+        "missed_eot": 7,
+        "false_eot_rate": 0.875,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2,
+            14
+          ],
+          [
+            7,
+            46
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 448,
+        "threshold": 0.055,
+        "accuracy": 0.9352678571428571,
+        "eot_precision": 0.9479638009049773,
+        "eot_recall": 0.9858823529411764,
+        "eot_f1": 0.9665513264129181,
+        "joint_score": 0.9352678571428571,
+        "false_eot": 23,
+        "missed_eot": 6,
+        "false_eot_rate": 1.0,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            0,
+            23
+          ],
+          [
+            6,
+            419
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.5136986301369864,
+    "natural_target_met": false
+  },
+  "candidate_retained": false,
+  "reward_history": [
+    {
+      "language": "zh",
+      "round": 1,
+      "step": 25,
+      "sampled_judge_reward": 0.6953125,
+      "reference_KL": 0.4468825161457062,
+      "loss": -0.02202044427394867
+    },
+    {
+      "language": "zh",
+      "round": 1,
+      "step": 50,
+      "sampled_judge_reward": 0.953125,
+      "reference_KL": 0.889606773853302,
+      "loss": 0.030160462483763695
+    },
+    {
+      "language": "zh",
+      "round": 1,
+      "step": 75,
+      "sampled_judge_reward": 1.0,
+      "reference_KL": 0.6447609066963196,
+      "loss": 0.07487303018569946
+    }
+  ],
+  "quality_target_certified": false,
+  "old_regressions_used_for_gate": false
+}

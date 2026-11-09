@@ -1,0 +1,36 @@
+{
+  "scope": "DEV_ONLY_QAT_SELECTION; no consumed holdout evaluation",
+  "hypothesis": "Weight-only INT4 QAT can recover quantization loss and allow smaller group64 storage",
+  "targets": {
+    "accuracy": 0.9,
+    "eot_f1": 0.9
+  },
+  "candidates": [
+    {
+      "group_size": 64,
+      "epochs_max": 8,
+      "lr": 0.0001,
+      "batch_size": 256,
+      "seed": 43,
+      "early_stop": "minimum4 epochs, patience3"
+    },
+    {
+      "group_size": 32,
+      "epochs_max": 8,
+      "lr": 0.0001,
+      "batch_size": 256,
+      "seed": 43,
+      "early_stop": "minimum4 epochs, patience3"
+    }
+  ],
+  "training": "Fixed FP16 scales from weight-only MSE at initialization; every forward fake quant [-8,7], clipped STE; no scale refit at export; activations FP32",
+  "checkpoint_selection": "Best full-dev min(accuracy,F1) with fixed181-point threshold grid; actual packed ONNX must be evaluated separately",
+  "controls": {
+    "models\\turn_v2_distilled_min_20261024\\model_manifest.json": "6c5c75b559b7de09864e07810e8faddc6ffed438788c7884c7118a4a562f2c24",
+    "models\\turn_v2_distilled_int4_20261024\\model_manifest.json": "3b6ff45e1b0ff88afee2b860573f5bea24059c94cd01d49372d64afe61bb5885",
+    "outputs\\distillation_20261024\\runs\\distill_gru_h96_e64_l1_20261024\\student.pt": "7ba8b8cab0ca4da9a787edcd4d78177d7928310d8a436c3287f2459ae5563754",
+    "data_v2\\frozen\\manifest.json": "1230a4575dc28bfc0681e2994c8b1b115096c504da5737f73a5011b074720ebc",
+    "data_v2\\frozen\\holdout_consumed.json": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba"
+  },
+  "holdout_evaluated": false
+}

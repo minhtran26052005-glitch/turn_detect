@@ -1,0 +1,176 @@
+{
+  "multilingual_malbert_pretrained_20261103_v1": {
+    "report_count": 14,
+    "latest": {
+      "path": "multilingual_malbert_pretrained_20261103_v1/runs/finetune/dev_step_00014000.json",
+      "step": 14000,
+      "branch_step": null,
+      "threshold": 0.28,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 2058,
+          "eot_f1": 0.7692307692307693,
+          "eot_precision": 0.8227848101265823,
+          "eot_recall": 0.7222222222222222
+        },
+        "en": {
+          "samples": 2304,
+          "eot_f1": 0.7354260089686099,
+          "eot_precision": 0.803921568627451,
+          "eot_recall": 0.6776859504132231
+        },
+        "zh": {
+          "samples": 1000,
+          "eot_f1": 0.4336283185840708,
+          "eot_precision": 0.35379061371841153,
+          "eot_recall": 0.56
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_20261103_v2": {
+    "report_count": 77,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_20261103_v2/runs/finetune/dev_step_00085000.json",
+      "step": 85000,
+      "branch_step": null,
+      "threshold": 0.82,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 2058,
+          "eot_f1": 0.7901234567901234,
+          "eot_precision": 0.8888888888888888,
+          "eot_recall": 0.7111111111111111
+        },
+        "en": {
+          "samples": 2304,
+          "eot_f1": 0.8677685950413223,
+          "eot_precision": 0.8677685950413223,
+          "eot_recall": 0.8677685950413223
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_checked_20261103_v3": {
+    "report_count": 1435,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_checked_20261103_v3/runs/finetune/dev_step_01465000.json",
+      "step": 1465000,
+      "branch_step": null,
+      "threshold": 0.13,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 2058,
+          "eot_f1": 0.8160919540229885,
+          "eot_precision": 0.8452380952380952,
+          "eot_recall": 0.7888888888888889
+        },
+        "en": {
+          "samples": 2304,
+          "eot_f1": 0.8340080971659919,
+          "eot_precision": 0.8174603174603174,
+          "eot_recall": 0.8512396694214877
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_uploaded_20261104_v4": {
+    "report_count": 91,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_uploaded_20261104_v4/runs/finetune/dev_step_00890000.json",
+      "step": 2355080,
+      "branch_step": 890000,
+      "threshold": 0.1,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 18627,
+          "eot_f1": 0.2243502051983584,
+          "eot_precision": 0.5655172413793104,
+          "eot_recall": 0.13993174061433447
+        },
+        "en": {
+          "samples": 16360,
+          "eot_f1": 0.44646098003629764,
+          "eot_precision": 0.6059113300492611,
+          "eot_recall": 0.35344827586206895
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_conflict_weighted_20261106_v5": {
+    "report_count": 26,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_conflict_weighted_20261106_v5/runs/finetune/dev_step_00260000.json",
+      "step": 2615080,
+      "branch_step": 260000,
+      "threshold": 0.1,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 18627,
+          "eot_f1": 0.25970873786407767,
+          "eot_precision": 0.4495798319327731,
+          "eot_recall": 0.1825938566552901
+        },
+        "en": {
+          "samples": 16360,
+          "eot_f1": 0.47986289631533846,
+          "eot_precision": 0.5944798301486199,
+          "eot_recall": 0.40229885057471265
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_curriculum_20261106_v6": {
+    "report_count": 60,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_curriculum_20261106_v6/runs/finetune/dev_step_00600000.json",
+      "step": 3224058,
+      "branch_step": 600000,
+      "threshold": 0.1,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 18627,
+          "eot_f1": 0.26506024096385544,
+          "eot_precision": 0.45081967213114754,
+          "eot_recall": 0.18771331058020477
+        },
+        "en": {
+          "samples": 16360,
+          "eot_f1": 0.4888535031847134,
+          "eot_precision": 0.5482142857142858,
+          "eot_recall": 0.4410919540229885
+        }
+      }
+    }
+  },
+  "multilingual_malbert_vi_en_sentence_mix_20261107_v7": {
+    "report_count": 50,
+    "latest": {
+      "path": "multilingual_malbert_vi_en_sentence_mix_20261107_v7/runs/finetune/dev_step_00500000.json",
+      "step": 3731046,
+      "branch_step": 500000,
+      "threshold": 0.1,
+      "retention": false,
+      "metrics": {
+        "vi": {
+          "samples": 18627,
+          "eot_f1": 0.2964509394572025,
+          "eot_precision": 0.3817204301075269,
+          "eot_recall": 0.24232081911262798
+        },
+        "en": {
+          "samples": 16360,
+          "eot_f1": 0.47646632874728456,
+          "eot_precision": 0.4802919708029197,
+          "eot_recall": 0.47270114942528735
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "destination": "/content/turn_detect_v2/models/compression_candidate_20261024/onnx",
+  "files": [
+    {
+      "name": "config.json",
+      "sha256": "dd4ed76cf1e35c5b74755831544c475978efc6fcf5298f75ab0a917e321ca4c7",
+      "bytes": 1089
+    },
+    {
+      "name": "model.onnx",
+      "sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+      "bytes": 108201936
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "ff971a0698ff856f29cdcb0212dbe664c35e5194f68ef1d09ab984580cb9594c",
+      "bytes": 1400784
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "a991fe8071b272c369d36b01e87fdd47159a27254e1ff016594b5a08df6bd069",
+      "bytes": 3051
+    },
+    {
+      "name": "turn_detector_config.json",
+      "sha256": "da81a420fc31d4409051bc9caa79d5f19e8d41b7db4bb056cda65663cfcc11b6",
+      "bytes": 1988
+    }
+  ],
+  "elapsed_seconds": 233.0,
+  "status": "UPLOAD_SHA256_VERIFIED"
+}

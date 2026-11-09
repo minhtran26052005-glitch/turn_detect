@@ -1,0 +1,22 @@
+{
+  "status": "error",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"status\": \"RUNNING\", \"started_at_utc\": \"2026-10-24T21:34:47.301103+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"tools/natural_freeze_selection.py\"], \"timeout_seconds\": 300, \"pid\": 183150, \"elapsed_seconds\": 5.0011069774627686, \"heartbeat_unix\": 1792877692.3022106}\n"
+    },
+    {
+      "output_type": "error",
+      "traceback": [
+        "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+        "\u001b[0;31mAssertionError\u001b[0m                            Traceback (most recent call last)",
+        "\u001b[0;32m/tmp/ipykernel_1295/3820662861.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mjson\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mroot\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mPath\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'/content/turn_detect_v2'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m;\u001b[0m\u001b[0mstate\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mjson\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mloads\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mroot\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0;34m'jobs/natural_freeze_selection_20261025/status.json'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread_text\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m;\u001b[0m\u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mjson\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdumps\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mstate\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0;32massert\u001b[0m \u001b[0mstate\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'status'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m==\u001b[0m\u001b[0;34m'COMPLETED'\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mstate\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'exit_code'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m==\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+        "\u001b[0;31mAssertionError\u001b[0m: "
+      ],
+      "ename": "AssertionError",
+      "evalue": ""
+    }
+  ],
+  "elapsed_seconds": 0.14000000001396984
+}

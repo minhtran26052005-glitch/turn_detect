@@ -1,0 +1,7 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "license": "apache-2.0",
+  "source": "https://huggingface.co/Qwen/Qwen3-8B/tree/b968826d9c46dd6066d109eabc6255188de91218",
+  "chosen_for": "BF168B judge fits Colab L4 ~23GB; generated decisions instead of relative ABC logits"
+}

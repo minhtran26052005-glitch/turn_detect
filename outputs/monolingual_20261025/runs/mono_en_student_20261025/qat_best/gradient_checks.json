@@ -1,0 +1,7 @@
+{
+  "embedding.weight": true,
+  "gru.weight_ih_l0": true,
+  "gru.weight_hh_l0": true,
+  "head.0.weight": true,
+  "head.3.weight": true
+}

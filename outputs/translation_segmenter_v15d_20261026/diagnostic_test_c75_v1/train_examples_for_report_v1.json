@@ -1,0 +1,92 @@
+{
+  "vi": {
+    "NEOT": {
+      "example_id": "002beee0b649602508a7f45a1e911e08e0fc2e9a0614e6514c385d8f3674a480",
+      "language": "vi",
+      "context": "Thậm chí khi đã cài đặt các điều khoản riêng tư rất cẩn thận",
+      "text": "bạn",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "target_punctuation": ",",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:ae2ef81a-e000-4d0c-a447-dea6a7b0cf57>",
+      "source_title": "Cách đây khoảng nửa năm, máy tính của tôi bắt đầu có hiện tượng là tự nhiên đang sử dụng thì tắt đi rồi không bật lại được nữa. Khoảng 1 tuần 1 lần rồi. Một thờ",
+      "source_url": "http://vietbao.vn/Vi-tinh-Vien-thong/May-tinh-tu-tat-khi-dang-su-dung-2/10780950/229/",
+      "p_eot": 0.06954174488782883,
+      "predicted": "NEOT"
+    },
+    "EOT": {
+      "example_id": "00f5bc7eec547bb193e70debc607d4c4f5ba32570e563412506b13cdc4d78f0a",
+      "language": "vi",
+      "context": "Anh ta đã hoàn toàn để cho cha định liệu mọi sự",
+      "text": "Cha",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "target_punctuation": ".",
+      "source_id": "vi:hf:fineweb2:vie_Latn:<urn:uuid:1dd572b8-ca91-49c1-a2e2-4fd0eb3a75a0>",
+      "source_title": "DỤ NGÔN NGƯỜI CHA NHÂN HẬU",
+      "source_url": "http://www.simonhoadalat.com/HOCHOI/THANHOC/ThienChuaCha/Chuong6.html",
+      "p_eot": 0.8643104434013367,
+      "predicted": "EOT"
+    }
+  },
+  "en": {
+    "NEOT": {
+      "example_id": "001e0c8b6e19a5501b54d358a0aca520985f38a97f23da92d96819f25bf7ebb3",
+      "language": "en",
+      "context": "We are making such material available in our efforts to advance understanding of religious environmental political",
+      "text": "human",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "target_punctuation": ",",
+      "source_id": "en:hf:fineweb:en:<urn:uuid:6e7705d8-3cf9-4af8-9828-e279b8b33fa8>",
+      "source_title": "by Daniel Greenfield",
+      "source_url": "http://moriel.org/MorielArchive/index.php/news/usa/obamas-bridge-to-islam",
+      "p_eot": 0.007815889082849026,
+      "predicted": "NEOT"
+    },
+    "EOT": {
+      "example_id": "000fdd97060d5bd8c101f4a3444ca8eff6a6f91c0a7799e21781756f9ba1bdb4",
+      "language": "en",
+      "context": "From October 2011 to October 2012 it fell 1 2 percentage points joining 18 other states showing statistically significant changes",
+      "text": "But",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "target_punctuation": ".",
+      "source_id": "en:hf:fineweb:en:<urn:uuid:4f85cfee-5cfb-4fa9-9e9d-367fd879ed03>",
+      "source_title": "Download the Crain’s Chicago Business iPad app for FREE!",
+      "source_url": "http://www.chicagobusiness.com/section/MULTIMEDIA?project=Employment&title=January%202012%20Employment%3A%20The%202018%20market",
+      "p_eot": 0.5438627600669861,
+      "predicted": "NEOT"
+    }
+  },
+  "zh": {
+    "NEOT": {
+      "example_id": "00746b08116d65e067aa9c26f1d9d044867d8dd5341879372e17373352a23936",
+      "language": "zh",
+      "context": "本校 教师 间 的 学习",
+      "text": "是",
+      "label": "NEOT",
+      "lookahead_words": 1,
+      "target_punctuation": "，",
+      "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:376875ce-eb93-4668-a3b9-598d9213af29>",
+      "source_title": "处处留心皆学问",
+      "source_url": "http://www.ydfzx.com/notice.php?id=2294",
+      "p_eot": 0.0026730059180408716,
+      "predicted": "NEOT"
+    },
+    "EOT": {
+      "example_id": "0080cc5249718799a24ac7c9749e48248884d135c1878b447bd58e56e38d0b73",
+      "language": "zh",
+      "context": "移 气 朔 兮 变 罗 纨 白 露 凝 兮 岁 将 阑",
+      "text": "庭",
+      "label": "EOT",
+      "lookahead_words": 1,
+      "target_punctuation": "。",
+      "source_id": "zh:hf:fineweb2:cmn_Hani:<urn:uuid:1a64e6fe-a309-4148-a54b-f9ddfbac6fd3>",
+      "source_title": "张 茂 先",
+      "source_url": "http://www.chinapage.com/gb/literature/ws27.htm",
+      "p_eot": 0.6469064354896545,
+      "predicted": "NEOT"
+    }
+  }
+}

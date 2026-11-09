@@ -1,0 +1,171 @@
+{
+  "thresholds": {
+    "vi": 0.7749999999999999,
+    "en": 0.08,
+    "zh": 0.05
+  },
+  "slices": {
+    "vi:legacy_vi": {
+      "samples": 3600,
+      "threshold": 0.7749999999999999,
+      "accuracy": 0.9175,
+      "eot_precision": 0.9085972850678733,
+      "eot_recall": 0.8366666666666667,
+      "eot_f1": 0.8711496746203905,
+      "joint_score": 0.8711496746203905,
+      "false_eot": 101,
+      "missed_eot": 196,
+      "false_eot_rate": 0.042083333333333334,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2299,
+          101
+        ],
+        [
+          196,
+          1004
+        ]
+      ]
+    },
+    "vi:natural": {
+      "samples": 145,
+      "threshold": 0.7749999999999999,
+      "accuracy": 0.6689655172413793,
+      "eot_precision": 0.5084745762711864,
+      "eot_recall": 0.6122448979591837,
+      "eot_f1": 0.5555555555555556,
+      "joint_score": 0.5555555555555556,
+      "false_eot": 29,
+      "missed_eot": 19,
+      "false_eot_rate": 0.3020833333333333,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          67,
+          29
+        ],
+        [
+          19,
+          30
+        ]
+      ]
+    },
+    "en:natural": {
+      "samples": 79,
+      "threshold": 0.08,
+      "accuracy": 0.6329113924050633,
+      "eot_precision": 0.75,
+      "eot_recall": 0.6792452830188679,
+      "eot_f1": 0.7128712871287128,
+      "joint_score": 0.6329113924050633,
+      "false_eot": 12,
+      "missed_eot": 17,
+      "false_eot_rate": 0.46153846153846156,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          14,
+          12
+        ],
+        [
+          17,
+          36
+        ]
+      ]
+    },
+    "zh:natural": {
+      "samples": 69,
+      "threshold": 0.05,
+      "accuracy": 0.7101449275362319,
+      "eot_precision": 0.7796610169491526,
+      "eot_recall": 0.8679245283018868,
+      "eot_f1": 0.8214285714285714,
+      "joint_score": 0.7101449275362319,
+      "false_eot": 13,
+      "missed_eot": 7,
+      "false_eot_rate": 0.8125,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          3,
+          13
+        ],
+        [
+          7,
+          46
+        ]
+      ]
+    }
+  },
+  "natural_languages": {
+    "vi": {
+      "samples": 145,
+      "threshold": 0.7749999999999999,
+      "accuracy": 0.6689655172413793,
+      "eot_precision": 0.5084745762711864,
+      "eot_recall": 0.6122448979591837,
+      "eot_f1": 0.5555555555555556,
+      "joint_score": 0.5555555555555556,
+      "false_eot": 29,
+      "missed_eot": 19,
+      "false_eot_rate": 0.3020833333333333,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          67,
+          29
+        ],
+        [
+          19,
+          30
+        ]
+      ]
+    },
+    "en": {
+      "samples": 79,
+      "threshold": 0.08,
+      "accuracy": 0.6329113924050633,
+      "eot_precision": 0.75,
+      "eot_recall": 0.6792452830188679,
+      "eot_f1": 0.7128712871287128,
+      "joint_score": 0.6329113924050633,
+      "false_eot": 12,
+      "missed_eot": 17,
+      "false_eot_rate": 0.46153846153846156,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          14,
+          12
+        ],
+        [
+          17,
+          36
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 69,
+      "threshold": 0.05,
+      "accuracy": 0.7101449275362319,
+      "eot_precision": 0.7796610169491526,
+      "eot_recall": 0.8679245283018868,
+      "eot_f1": 0.8214285714285714,
+      "joint_score": 0.7101449275362319,
+      "false_eot": 13,
+      "missed_eot": 7,
+      "false_eot_rate": 0.8125,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          3,
+          13
+        ],
+        [
+          7,
+          46
+        ]
+      ]
+    }
+  },
+  "minimum_dev_slice_joint_score": 0.5555555555555556,
+  "development_target_met": false,
+  "development_all_slices_over_90": false,
+  "natural_hold_false_eot_below_10_percent": false,
+  "independent_real_target_achieved": false,
+  "scope": "Development automatic floor labels; not independent human gold"
+}

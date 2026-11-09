@@ -1,0 +1,93 @@
+{
+  "overall": {
+    "samples": 855,
+    "threshold": 0.5449999999999999,
+    "accuracy": 0.7029239766081872,
+    "eot_precision": 0.7043269230769231,
+    "eot_recall": 0.9865319865319865,
+    "eot_f1": 0.8218793828892006,
+    "joint_score": 0.7029239766081872,
+    "false_eot": 246,
+    "missed_eot": 8,
+    "false_eot_rate": 0.9425287356321839,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        15,
+        246
+      ],
+      [
+        8,
+        586
+      ]
+    ]
+  },
+  "slices": {
+    "livekit_PREVIOUSLY_EXPOSED_development": {
+      "samples": 339,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.3775811209439528,
+      "eot_precision": 0.35403726708074534,
+      "eot_recall": 0.9743589743589743,
+      "eot_f1": 0.5193621867881549,
+      "joint_score": 0.3775811209439528,
+      "false_eot": 208,
+      "missed_eot": 3,
+      "false_eot_rate": 0.9369369369369369,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          14,
+          208
+        ],
+        [
+          3,
+          114
+        ]
+      ]
+    },
+    "natural": {
+      "samples": 68,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.7647058823529411,
+      "eot_precision": 0.7647058823529411,
+      "eot_recall": 1.0,
+      "eot_f1": 0.8666666666666667,
+      "joint_score": 0.7647058823529411,
+      "false_eot": 16,
+      "missed_eot": 0,
+      "false_eot_rate": 1.0,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          52
+        ]
+      ]
+    },
+    "scicom_read_speech": {
+      "samples": 448,
+      "threshold": 0.5449999999999999,
+      "accuracy": 0.9397321428571429,
+      "eot_precision": 0.9502262443438914,
+      "eot_recall": 0.9882352941176471,
+      "eot_f1": 0.9688581314878892,
+      "joint_score": 0.9397321428571429,
+      "false_eot": 22,
+      "missed_eot": 5,
+      "false_eot_rate": 0.9565217391304348,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1,
+          22
+        ],
+        [
+          5,
+          420
+        ]
+      ]
+    }
+  },
+  "natural_target_met": false
+}

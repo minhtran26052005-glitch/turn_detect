@@ -1,0 +1,31 @@
+{
+  "boot_id": "e024f0d6-1375-4f0c-9d60-250856f083b5",
+  "no_gpu_job": true,
+  "no_generation_or_training_job": true,
+  "only_default_content": true,
+  "python_service_pids": [
+    89,
+    148,
+    1164,
+    1689
+  ],
+  "server_id": "r-da2fb26e-9962-4341-b6b7-f8e8c3c6ef03",
+  "label": "Colab GPU L4 (1)",
+  "user_authorized_spare_runtime_shutdown": true,
+  "checked_utc": "2026-11-03T08:34:52.975415+00:00",
+  "action": "Colab: Remove Server via VS Code",
+  "removed_server_absent_from_assignments": true,
+  "assigned_runtime_count_after": 1,
+  "active_owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v10",
+    "pid": 113294,
+    "start_ticks": "2625926"
+  },
+  "active_worker_continued_generation_verified": true,
+  "verified_post_shutdown_commit": 1499,
+  "commit_sha256": "f0e222fe013709ce02837552fca26934f07eb12da23228d0cf4630fa10d94cc9",
+  "object_sha256": "c867434d3ba473d479cef7bc0ef7ad83cd76622d68edbe165cced34dd0b4e5d3",
+  "object_readback_verified": true,
+  "reported": true
+}

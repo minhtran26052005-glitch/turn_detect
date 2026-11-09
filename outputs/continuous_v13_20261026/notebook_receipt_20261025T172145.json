@@ -1,0 +1,32 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "source_sha256": "2c9bceeca466c1bcba961edb2ca3fed5faa130fa4edb6f31ef5c5b9c3b6b1387",
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "Đọc kernel lúc UTC: 2026-10-25T17:21:45.774698+00:00\nChiến dịch liên tục: không giới hạn số vòng, không dừng vì dev plateau hoặc silver90%.\n{\"status\": \"RUNNING\", \"stage\": \"RELABELING_NATURAL_TRAIN_TO_MATCH_REWARD\", \"cycle\": null, \"language\": \"zh\", \"branch\": null, \"step\": null, \"steps\": null, \"heartbeat_utc\": \"2026-10-25T17:21:30.194698+00:00\"}\n"
+    },
+    {
+      "output_type": "display_data",
+      "data": {
+        "text/plain": "  language         split label  samples\n0       en  semantic_dev   EOT       17\n1       en  semantic_dev  NEOT       35\n2       en         train   EOT       41\n3       en         train  NEOT       47\n4       vi  semantic_dev   EOT        7\n5       vi  semantic_dev  NEOT       24\n6       vi         train   EOT       12\n7       vi         train  NEOT        3\n8       zh  semantic_dev   EOT       10\n9       zh  semantic_dev  NEOT       12",
+        "text/html": "\n  <div id=\"df-62456a2a-6017-4bde-a686-5527a9839e50\" class=\"colab-df-container\">\n    <div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>language</th>\n      <th>split</th>\n      <th>label</th>\n      <th>samples</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>en</td>\n      <td>semantic_dev</td>\n      <td>EOT</td>\n      <td>17</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>en</td>\n      <td>semantic_dev</td>\n      <td>NEOT</td>\n      <td>35</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>en</td>\n      <td>train</td>\n      <td>EOT</td>\n      <td>41</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>en</td>\n      <td>train</td>\n      <td>NEOT</td>\n      <td>47</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>vi</td>\n      <td>semantic_dev</td>\n      <td>EOT</td>\n      <td>7</td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td>vi</td>\n      <td>semantic_dev</td>\n      <td>NEOT</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <th>6</th>\n      <td>vi</td>\n      <td>train</td>\n      <td>EOT</td>\n      <td>12</td>\n    </tr>\n    <tr>\n      <th>7</th>\n      <td>vi</td>\n      <td>train</td>\n      <td>NEOT</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <th>8</th>\n      <td>zh</td>\n      <td>semantic_dev</td>\n      <td>EOT</td>\n      <td>10</td>\n    </tr>\n    <tr>\n      <th>9</th>\n      <td>zh</td>\n      <td>semantic_dev</td>\n      <td>NEOT</td>\n      <td>12</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n    <div class=\"colab-df-buttons\">\n      \n  <div class=\"colab-df-container\">\n    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-62456a2a-6017-4bde-a686-5527a9839e50')\"\n            title=\"Convert this dataframe to an interactive table.\"\n            style=\"display:none;\">\n      \n  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n  </svg>\n    </button>\n    \n  <style>\n    .colab-df-container {\n      display:flex;\n      gap: 12px;\n    }\n\n    .colab-df-convert {\n      background-color: #E8F0FE;\n      border: none;\n      border-radius: 50%;\n      cursor: pointer;\n      display: none;\n      fill: #1967D2;\n      height: 32px;\n      padding: 0 0 0 0;\n      width: 32px;\n    }\n\n    .colab-df-convert:hover {\n      background-color: #E2EBFA;\n      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n      fill: #174EA6;\n    }\n\n    .colab-df-buttons div {\n      margin-bottom: 4px;\n    }\n\n    [theme=dark] .colab-df-convert {\n      background-color: #3B4455;\n      fill: #D2E3FC;\n    }\n\n    [theme=dark] .colab-df-convert:hover {\n      background-color: #434B5C;\n      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n      fill: #FFFFFF;\n    }\n  </style>\n\n    <script>\n      const buttonEl =\n        document.querySelector('#df-62456a2a-6017-4bde-a686-5527a9839e50 button.colab-df-convert');\n      buttonEl.style.display =\n        google.colab.kernel.accessAllowed ? 'block' : 'none';\n\n      async function convertToInteractive(key) {\n        const element = document.querySelector('#df-62456a2a-6017-4bde-a686-5527a9839e50');\n        const dataTable =\n          await google.colab.kernel.invokeFunction('convertToInteractive',\n                                                    [key], {});\n        if (!dataTable) return;\n\n        const docLinkHtml = 'Like what you see? Visit the ' +\n          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n          + ' to learn more about interactive tables.';\n        element.innerHTML = '';\n        dataTable['output_type'] = 'display_data';\n        await google.colab.output.renderOutput(dataTable, element);\n        const docLink = document.createElement('div');\n        docLink.innerHTML = docLinkHtml;\n        element.appendChild(docLink);\n      }\n    </script>\n  </div>\n  \n    </div>\n  </div>\n  "
+      },
+      "metadata": {},
+      "transient": {}
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "NVIDIA L4, 100 %, 17346 MiB, 23034 MiB\nSemantic silver do Qwen chấm không phải human gold. Natural-floor là mục tiêu khác. Chưa chứng nhận90%hội thoại thực.\nCác candidate hiện học FP32 latent; chưa thay bản INT4 serving. Ô này chỉ đọc, không tạo worker mới.\n"
+    }
+  ],
+  "elapsed_seconds": 0.14000000001396984
+}

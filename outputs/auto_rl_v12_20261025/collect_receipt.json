@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-b8e1c4b0-ece0-4502-9661-e26ca23c70608e95c5be-9959-461e-ad07-6c663b4d2f57.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"path\": \"content/auto_rl_v11_results.zip\", \"bytes\": 2300700, \"sha256\": \"01425401a6950fd9d1779903fd64aed2fd09f847e8bba7404eeda057458ac5f3\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.23399999999674037
+}

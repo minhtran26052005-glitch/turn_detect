@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "readme_sha256": "27993fe9c1048a39cc476348ebb14d830d2eff4c0544d52296fd5903813b97f3",
+  "bytes": 60918,
+  "lines": 661,
+  "internal_file_links_checked": 135,
+  "toc_anchors_checked": 17,
+  "source_hashes_checked": 13,
+  "broken_links": [],
+  "training_or_inference_performed": false,
+  "remote_snapshot_utc": "2026-11-09T03:25:58.683961+00:00"
+}

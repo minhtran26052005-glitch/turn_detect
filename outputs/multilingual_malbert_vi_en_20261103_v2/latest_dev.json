@@ -1,0 +1,80 @@
+{
+  "run": "finetune",
+  "step": 58000,
+  "epoch": 5,
+  "dev": {
+    "threshold": 0.15000000000000002,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "tp": 67,
+        "tn": 1952,
+        "fp": 16,
+        "fn": 23,
+        "accuracy": 0.9810495626822158,
+        "eot_f1": 0.7745664739884393,
+        "eot_precision": 0.8072289156626506,
+        "eot_recall": 0.7444444444444445,
+        "false_share_of_cuts": 0.1927710843373494,
+        "false_positive_rate": 0.008130081300813009
+      },
+      "en": {
+        "samples": 2304,
+        "tp": 100,
+        "tn": 2173,
+        "fp": 10,
+        "fn": 21,
+        "accuracy": 0.9865451388888888,
+        "eot_f1": 0.8658008658008658,
+        "eot_precision": 0.9090909090909091,
+        "eot_recall": 0.8264462809917356,
+        "false_share_of_cuts": 0.09090909090909091,
+        "false_positive_rate": 0.004580852038479157
+      }
+    },
+    "static_by_language": {
+      "vi": {
+        "samples": 2058,
+        "tp": 64,
+        "tn": 1947,
+        "fp": 21,
+        "fn": 26,
+        "accuracy": 0.9771622934888241,
+        "eot_f1": 0.7314285714285714,
+        "eot_precision": 0.7529411764705882,
+        "eot_recall": 0.7111111111111111,
+        "false_share_of_cuts": 0.24705882352941178,
+        "false_positive_rate": 0.010670731707317074
+      },
+      "en": {
+        "samples": 2304,
+        "tp": 95,
+        "tn": 2162,
+        "fp": 21,
+        "fn": 26,
+        "accuracy": 0.9796006944444444,
+        "eot_f1": 0.8016877637130801,
+        "eot_precision": 0.8189655172413793,
+        "eot_recall": 0.7851239669421488,
+        "false_share_of_cuts": 0.1810344827586207,
+        "false_positive_rate": 0.00961978928080623
+      }
+    },
+    "score": 0.7745664739884393,
+    "scope": "VI/EN-only synthetic punctuation causal predicted-reset DEV; not human/audio gold",
+    "gold_reset_in_inference": false,
+    "language_id_supplied": false,
+    "max_future_words": 2,
+    "active_languages": [
+      "vi",
+      "en"
+    ]
+  },
+  "retention_passed": false,
+  "retention_by_language": {
+    "vi": false,
+    "en": false
+  },
+  "scope": "Synthetic punctuation DEV only; no test/human/audio gold",
+  "test_used": false
+}

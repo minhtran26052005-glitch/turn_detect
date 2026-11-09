@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"pid\": 61633, \"status\": \"SMALLER_REFINEMENTS_STARTED\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.14100000000325963
+}

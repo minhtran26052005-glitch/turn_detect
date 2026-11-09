@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "step": 1465180,
+  "branch_step": 100,
+  "epoch": 0,
+  "uploaded_rows_seen": 1577,
+  "uploaded_origin_exposures": {
+    "daily": 1121,
+    "factory/gen4000": 356,
+    "factory/gen500": 100
+  },
+  "optimizer_entries": 27,
+  "checkpoint_sha256": "4f1fe08ff6bdff3973bf17a1a3b1d60604ed6360ae570863f9162c3a9eba9afd",
+  "full_resume_load_passed": true,
+  "parameters": 11941122,
+  "drive_replay_rows": 0,
+  "causal_predicted_reset_stream_state_preserved": true,
+  "all_sources_trained_once": false
+}

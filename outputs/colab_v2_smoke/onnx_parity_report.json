@@ -1,0 +1,10 @@
+{
+  "format": "FP32_ONNX",
+  "samples": 8,
+  "batch_size": 1,
+  "max_abs_prob_EOT_delta": 1.5056080071573774e-07,
+  "argmax_classes_equal": true,
+  "passed": true,
+  "quantized": false,
+  "note": "INT8 requires separate dev/holdout parity and batch-sensitivity evaluation"
+}

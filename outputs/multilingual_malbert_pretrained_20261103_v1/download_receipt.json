@@ -1,0 +1,67 @@
+{
+  "model": "cservan/multilingual-albert-base-cased-32k",
+  "revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411",
+  "files": [
+    {
+      "name": "config.json",
+      "bytes": 809,
+      "sha256": "7dde1f8d83dfc5f37f5bc2fb1279bb6612848e413006ec1efad4c460784c9d86",
+      "publisher_lfs_sha256": null,
+      "publisher_git_blob_sha1": "ebd4cb8326e397f80a2325229ac135b48b7b1a76",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 32339628,
+      "sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "publisher_lfs_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+      "publisher_git_blob_sha1": "75bd77c2a68e293ec7ba2dfbf1c8c2e8627cb29a",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "special_tokens_map.json",
+      "bytes": 159,
+      "sha256": "b0d454c6fdd1d00dee9d18a1a8a6d5644e6f86095452358b87c315b5415d7eae",
+      "publisher_lfs_sha256": null,
+      "publisher_git_blob_sha1": "3b2e31019e0c479bf4269ad9228e5d267c0489bc",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "spiece.model",
+      "bytes": 692977,
+      "sha256": "fe080e9db6646a7d9bfbbe09aae5c26dbd72e635b0272f6b884ce42980e5200d",
+      "publisher_lfs_sha256": "fe080e9db6646a7d9bfbbe09aae5c26dbd72e635b0272f6b884ce42980e5200d",
+      "publisher_git_blob_sha1": "0759d2d81d1b8f46818aa122efe42de23f786f5b",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "spiece.vocab",
+      "bytes": 483127,
+      "sha256": "6ba055702249e3e4c03d0cf30d22424789a4faa747134eb8491b7abdd15327b7",
+      "publisher_lfs_sha256": null,
+      "publisher_git_blob_sha1": "6eb98dadfda3cd95b50e2e2c9beae830bf03b062",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 111,
+      "sha256": "45e8a5d4b69a33396089d97f207486117c681b96ba7e1c59f4e04d9ec0ef9866",
+      "publisher_lfs_sha256": null,
+      "publisher_git_blob_sha1": "21945cfbb2fb474b0504a842dd73ec37e49b96f9",
+      "publisher_hash_verified": true
+    },
+    {
+      "name": "README.md",
+      "bytes": 6710,
+      "sha256": "d3d851daf28a7ad25da46a50143ac075b97541bfa5094d88856b90072162d06b",
+      "publisher_lfs_sha256": null,
+      "publisher_git_blob_sha1": "770bb306ab420b971e1920d196bd2255a4fed08b",
+      "publisher_hash_verified": true
+    }
+  ],
+  "download_complete": true,
+  "public_download_no_hf_token": true,
+  "weights_saved_only_on_ssh": true,
+  "sentencepiece_present": false,
+  "checked_unix": 1793690395.5817566
+}

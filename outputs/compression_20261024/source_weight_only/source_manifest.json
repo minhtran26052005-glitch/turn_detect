@@ -1,0 +1,17 @@
+{
+  "source_sha256": {
+    "turn_v2\\compress.py": "b991270a32ccd14ef89a6a3942489fd1ecaae4d70c37899765f5fb96685549f1",
+    "turn_v2\\evaluate_compressed.py": "2e0dda83807b8954fe4d38b6d6f2c4bd6f33343bd7e44e5dd9b5a317b8f57651",
+    "turn_v2\\predict.py": "1d04bb38f2636672825418d14bc9e67314e1208564bd7d6d60bc5d7e7e0a3071",
+    "turn_v2\\common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+    "turn_v2\\metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+    "tools\\colab_runtime.py": "9a29505a5dff583a968215e16edd5f54d2e2277421f4b42d7c9dd4ff842bb19b",
+    "tools\\sync_colab.py": "5d4b2303b4820f5ebf824e7cf33e2f6ad906c14cc7aa9c488ecc36354147e409",
+    "tools\\run_notebook_colab.py": "6b4f755a3e94699c84ae22489c8969085d0db3b9bc9672a9b91128b8fc265925",
+    "tools\\upload_colab_model.py": "10312fad83c6817674150f0b89ac59e07f5059b96eb07eaad723a13c3aaa61e8",
+    "tools\\finalize_compression.py": "25c223109eae88e4ff8e93d3ad8ed41bb73737b46fde31dacfcbace978798ad9",
+    "tools\\benchmark_compact.py": "8317d4d39b0c6abb3471df18e7c2015a7dd4c1d0c3c79708ab186a7c70df03e3"
+  },
+  "python": "3.12.10",
+  "recipe": "weight-only INT8 with FP32 activations; observed-train plus all character vocabulary"
+}

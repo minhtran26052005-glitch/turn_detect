@@ -1,0 +1,184 @@
+{
+  "status": "AUTO_CRAWL_JUDGE_RL_ROUND_COMPLETE",
+  "language": "en",
+  "steps": 75,
+  "judge_counts": {
+    "NEOT": 20,
+    "EOT": 7
+  },
+  "dev_before": {
+    "threshold": 0.5399999999999999,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 403,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.6699751861042184,
+        "eot_precision": 0.5675675675675675,
+        "eot_recall": 0.7730061349693251,
+        "eot_f1": 0.6545454545454545,
+        "joint_score": 0.6545454545454545,
+        "false_eot": 96,
+        "missed_eot": 37,
+        "false_eot_rate": 0.4,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            144,
+            96
+          ],
+          [
+            37,
+            126
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 79,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.6455696202531646,
+        "eot_precision": 0.711864406779661,
+        "eot_recall": 0.7924528301886793,
+        "eot_f1": 0.75,
+        "joint_score": 0.6455696202531646,
+        "false_eot": 17,
+        "missed_eot": 11,
+        "false_eot_rate": 0.6538461538461539,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            9,
+            17
+          ],
+          [
+            11,
+            42
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 1202,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.7079866888519135,
+        "eot_precision": 0.753688989784336,
+        "eot_recall": 0.8320802005012531,
+        "eot_f1": 0.790946992257296,
+        "joint_score": 0.7079866888519135,
+        "false_eot": 217,
+        "missed_eot": 134,
+        "false_eot_rate": 0.5371287128712872,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            187,
+            217
+          ],
+          [
+            134,
+            664
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.6455696202531646,
+    "natural_target_met": false
+  },
+  "dev_after": {
+    "threshold": 0.6599999999999999,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 403,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.6550868486352357,
+        "eot_precision": 0.5535714285714286,
+        "eot_recall": 0.7607361963190185,
+        "eot_f1": 0.6408268733850129,
+        "joint_score": 0.6408268733850129,
+        "false_eot": 100,
+        "missed_eot": 39,
+        "false_eot_rate": 0.4166666666666667,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            140,
+            100
+          ],
+          [
+            39,
+            124
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 79,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.6329113924050633,
+        "eot_precision": 0.74,
+        "eot_recall": 0.6981132075471698,
+        "eot_f1": 0.7184466019417476,
+        "joint_score": 0.6329113924050633,
+        "false_eot": 13,
+        "missed_eot": 16,
+        "false_eot_rate": 0.5,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            13,
+            13
+          ],
+          [
+            16,
+            37
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 1202,
+        "threshold": 0.6599999999999999,
+        "accuracy": 0.6239600665557404,
+        "eot_precision": 0.8024475524475524,
+        "eot_recall": 0.575187969924812,
+        "eot_f1": 0.67007299270073,
+        "joint_score": 0.6239600665557404,
+        "false_eot": 113,
+        "missed_eot": 339,
+        "false_eot_rate": 0.27970297029702973,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            291,
+            113
+          ],
+          [
+            339,
+            459
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.6239600665557404,
+    "natural_target_met": false
+  },
+  "candidate_retained": false,
+  "reward_history": [
+    {
+      "language": "en",
+      "round": 2,
+      "step": 25,
+      "sampled_judge_reward": 0.4140625,
+      "reference_KL": 0.1981920748949051,
+      "loss": 0.1943727284669876
+    },
+    {
+      "language": "en",
+      "round": 2,
+      "step": 50,
+      "sampled_judge_reward": 0.578125,
+      "reference_KL": 0.3241589069366455,
+      "loss": 0.2695595920085907
+    },
+    {
+      "language": "en",
+      "round": 2,
+      "step": 75,
+      "sampled_judge_reward": 0.7421875,
+      "reference_KL": 0.3437769114971161,
+      "loss": 0.2106725573539734
+    }
+  ],
+  "quality_target_certified": false,
+  "old_regressions_used_for_gate": false
+}

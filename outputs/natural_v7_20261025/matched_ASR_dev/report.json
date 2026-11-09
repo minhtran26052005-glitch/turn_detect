@@ -1,0 +1,61 @@
+{
+  "status": "MATCHED_ASR_DEV_COMPARISON",
+  "old_whisper_small": {
+    "samples": 145,
+    "threshold": 0.24,
+    "accuracy": 0.503448275862069,
+    "eot_precision": 0.3614457831325301,
+    "eot_recall": 0.6122448979591837,
+    "eot_f1": 0.45454545454545453,
+    "joint_score": 0.45454545454545453,
+    "false_eot": 53,
+    "missed_eot": 19,
+    "false_eot_rate": 0.5520833333333334,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        43,
+        53
+      ],
+      [
+        19,
+        30
+      ]
+    ]
+  },
+  "new_phowhisper_same_threshold": {
+    "samples": 145,
+    "threshold": 0.24,
+    "accuracy": 0.4413793103448276,
+    "eot_precision": 0.3181818181818182,
+    "eot_recall": 0.5714285714285714,
+    "eot_f1": 0.40875912408759124,
+    "joint_score": 0.40875912408759124,
+    "false_eot": 60,
+    "missed_eot": 21,
+    "false_eot_rate": 0.625,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        36,
+        60
+      ],
+      [
+        21,
+        28
+      ]
+    ]
+  },
+  "mean_absolute_probability_change": 0.3863810696663086,
+  "changed_decisions": 57,
+  "identity": {
+    "teacher_path": "runs/natural_v5_train_20261025/round_02/best",
+    "weights_sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66",
+    "threshold_fixed_from_old_dev": 0.24,
+    "old_sha256": "54d32007d1cd3113472456a5060f6a2003170af95b37810838309b1724892e34",
+    "new_sha256": "91fe4ff2422484e7540a1470c96d2560ad0a11cca22e0d250aa1bfe6282e0cff",
+    "scope": "Matched Vietnamese development; ASR route including its decoding changed, model/codec/cases/labels/threshold fixed",
+    "held_loaded": false
+  },
+  "elapsed_seconds": 8.013002188003156,
+  "independent_test_claim": false,
+  "human_ASR_reference_available": false
+}

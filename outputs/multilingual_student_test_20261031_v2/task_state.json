@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "reported": true,
+  "checked_utc": "2026-10-31T03:25:04.275645+00:00",
+  "checkpoint_step": 106000,
+  "shared_threshold_from_frozen_dev": 0.43000000000000005,
+  "report_sha256": "18c8157ce0a5084a519e729c5ed526df021d3b0f7a7a5a17ba6c9dbe735722ca",
+  "source": "Previously exposed C75 punctuation-derived diagnostic, not independent human/audio conversational gold",
+  "exact_teacher_input_and_source_overlap_rows_removed": 0,
+  "near_duplicate_paraphrases_and_student_only_token_collisions_not_exhaustively_audited": true,
+  "same_student_and_threshold_all_languages": true,
+  "test_used_for_selection": false,
+  "training_continued_to_verified_step": 107050,
+  "remote_output": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261031_v2",
+  "frozen_data_weights_optimizer_pin": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261031_v1/frozen",
+  "models_or_full_traces_downloaded": false,
+  "local_transfer_bytes": 47947,
+  "metrics": {
+    "vi": {
+      "samples": 39167,
+      "accuracy": 0.7962059897362576,
+      "eot_precision": 0.7384890720754922,
+      "eot_recall": 0.8116468975382964,
+      "eot_f1": 0.7733416628805089,
+      "tp": 13617,
+      "tn": 17568,
+      "fp": 4822,
+      "fn": 3160
+    },
+    "en": {
+      "samples": 28155,
+      "accuracy": 0.8361569881015806,
+      "eot_precision": 0.829594911282223,
+      "eot_recall": 0.8569650020749758,
+      "eot_f1": 0.843057870921648,
+      "tp": 12390,
+      "tn": 11152,
+      "fp": 2545,
+      "fn": 2068
+    },
+    "zh": {
+      "samples": 51871,
+      "accuracy": 0.8079273582541304,
+      "eot_precision": 0.5190564946333311,
+      "eot_recall": 0.7650625236832134,
+      "eot_f1": 0.6184951177484205,
+      "tp": 8076,
+      "tn": 33832,
+      "fp": 7483,
+      "fn": 2480
+    }
+  }
+}

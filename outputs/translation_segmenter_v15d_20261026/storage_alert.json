@@ -1,0 +1,19 @@
+{
+  "state": "RECOVERED",
+  "recorded_at_utc": "2026-10-27T00:00:50.172214+00:00",
+  "drive": "C:",
+  "free_bytes": 22112194560,
+  "reserve_bytes": 10737418240,
+  "additional_free_bytes_needed": 0,
+  "user_notified_in_this_heartbeat": true,
+  "local_review_paused": false,
+  "reserve_guard_verified_before_Colab_connection": true,
+  "previous_review_preserved": true,
+  "files_deleted": false,
+  "remote_campaign_interrupted": false,
+  "cause_of_local_space_drop": "not determined; no new corpus/model/checkpoint download was performed by this campaign",
+  "last_checked_at_utc": "2026-10-27T01:17:39.583260+00:00",
+  "recovery_notification_pending": false,
+  "cleanup_deleted_files": 0,
+  "note": "Free space changed externally while tool deletion was blocked; all planned snapshots remain present."
+}

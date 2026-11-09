@@ -1,0 +1,21 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-51246f56-9b61-4405-b91e-ac2afe78a51e3188af95-83c1-4d9a-b1ea-39a2d54a8b08.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "launched": true,
+    "launcher": {
+      "pid": 54645,
+      "start_ticks": "1337056",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_actual_seen_control_v1"
+      ]
+    }
+  }
+}

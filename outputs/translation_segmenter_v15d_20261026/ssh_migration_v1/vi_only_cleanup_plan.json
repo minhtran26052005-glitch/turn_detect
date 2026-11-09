@@ -1,0 +1,136 @@
+{
+  "files": [
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\data\\train\\cycle84_dataset.zip",
+      "remote_relative": "staging/cycle84_dataset.zip.partial",
+      "bytes": 4471162822,
+      "sha256": "53be0724ab1fdbe951123834625cb971b1bc27cc6e587a38f6a2aa08453d47bb"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\data\\train\\source_snapshot.zip",
+      "remote_relative": "staging/source_snapshot.zip.partial",
+      "bytes": 685100467,
+      "sha256": "57dbb83c3e5a6a3309d8e6759e9661e372fc421973b78ce08ea9cd1166127bff"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\vi\\model.safetensors",
+      "remote_relative": "staging/models/vi/model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "4a659dc9e8d487a5637312b5b6447c704998345ec1c040bc83a477d9e5b24263"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\vi\\config.json",
+      "remote_relative": "staging/models/vi/config.json",
+      "bytes": 1027,
+      "sha256": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\vi\\tokenizer.json",
+      "remote_relative": "staging/models/vi/tokenizer.json",
+      "bytes": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\vi\\tokenizer_config.json",
+      "remote_relative": "staging/models/vi/tokenizer_config.json",
+      "bytes": 2928,
+      "sha256": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\model.safetensors",
+      "remote_relative": "staging/models/en/model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "75458a336b9e46e8194f7b18c94c50122bcc0bb41a390f93ef6f7bc2ee9706f6"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\model.safetensors",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/en/best/model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "75458a336b9e46e8194f7b18c94c50122bcc0bb41a390f93ef6f7bc2ee9706f6"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\config.json",
+      "remote_relative": "staging/models/en/config.json",
+      "bytes": 1027,
+      "sha256": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\config.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/en/best/config.json",
+      "bytes": 1027,
+      "sha256": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\tokenizer.json",
+      "remote_relative": "staging/models/en/tokenizer.json",
+      "bytes": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\tokenizer.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/en/best/tokenizer.json",
+      "bytes": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\tokenizer_config.json",
+      "remote_relative": "staging/models/en/tokenizer_config.json",
+      "bytes": 2926,
+      "sha256": "d9e4efe907f4d943033097658de0787f0c6e28c2549b01694ab9d294abe2b014"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\en\\tokenizer_config.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/en/best/tokenizer_config.json",
+      "bytes": 2926,
+      "sha256": "d9e4efe907f4d943033097658de0787f0c6e28c2549b01694ab9d294abe2b014"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\model.safetensors",
+      "remote_relative": "staging/models/zh/model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "2abc19f415f772f371a93556cb59272890167ab81579509e5f1980d0f695812e"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\model.safetensors",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/zh/best/model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "2abc19f415f772f371a93556cb59272890167ab81579509e5f1980d0f695812e"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\config.json",
+      "remote_relative": "staging/models/zh/config.json",
+      "bytes": 1027,
+      "sha256": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\config.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/zh/best/config.json",
+      "bytes": 1027,
+      "sha256": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\tokenizer.json",
+      "remote_relative": "staging/models/zh/tokenizer.json",
+      "bytes": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\tokenizer.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/zh/best/tokenizer.json",
+      "bytes": 16034016,
+      "sha256": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\tokenizer_config.json",
+      "remote_relative": "staging/models/zh/tokenizer_config.json",
+      "bytes": 2928,
+      "sha256": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+    },
+    {
+      "windows_source": "C:\\Users\\ASUS\\Documents\\turn_detect\\data_checkpoint\\models\\zh\\tokenizer_config.json",
+      "remote_relative": "outputs/translation_segmenter_v15d_20261026/teachers/zh/best/tokenizer_config.json",
+      "bytes": 2928,
+      "sha256": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+    }
+  ]
+}

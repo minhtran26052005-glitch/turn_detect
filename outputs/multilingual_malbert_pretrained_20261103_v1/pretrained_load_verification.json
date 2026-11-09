@@ -1,0 +1,108 @@
+{
+  "all_backbone_tensors_loaded_exactly": true,
+  "pretrained_backbone_tensors": 25,
+  "newly_initialized_tensors": [
+    "classifier.weight",
+    "classifier.bias"
+  ],
+  "discarded_pretraining_heads": [
+    "predictions.LayerNorm.bias",
+    "predictions.LayerNorm.weight",
+    "predictions.decoder.bias",
+    "predictions.decoder.weight",
+    "predictions.dense.bias",
+    "predictions.dense.weight",
+    "sop_classifier.classifier.bias",
+    "sop_classifier.classifier.weight"
+  ],
+  "deployment_parameters": 11941122,
+  "parameter_limit_exclusive": 20000000,
+  "pooler_pretrained": true,
+  "sliced_or_factorized_backbone": false,
+  "tokenizer_class": "AlbertTokenizer",
+  "vocab_size": 32000,
+  "pad_token_id": 0,
+  "sep_token_id": 3,
+  "tokenizer_examples": {
+    "vi": {
+      "pieces": [
+        "▁n",
+        "ếu",
+        "▁n",
+        "hi",
+        "ệ",
+        "t",
+        "▁độ",
+        "▁còn",
+        "▁t",
+        "ăng",
+        "▁thì",
+        "▁chú",
+        "ng",
+        "▁ta",
+        "▁phả",
+        "i",
+        "▁ki",
+        "ể",
+        "m",
+        "▁tra",
+        "▁lạ",
+        "i",
+        "▁cả",
+        "m",
+        "▁biế",
+        "n"
+      ],
+      "unknown_pieces": 0
+    },
+    "en": {
+      "pieces": [
+        "▁i",
+        "f",
+        "▁the",
+        "▁temp",
+        "er",
+        "ature",
+        "▁ke",
+        "ep",
+        "s",
+        "▁ris",
+        "ing",
+        "▁we",
+        "▁should",
+        "▁in",
+        "spect",
+        "▁the",
+        "▁sens",
+        "or"
+      ],
+      "unknown_pieces": 0
+    },
+    "zh": {
+      "pieces": [
+        "▁",
+        "如",
+        "果",
+        "温",
+        "度",
+        "继",
+        "续",
+        "上",
+        "升",
+        "我",
+        "们",
+        "就",
+        "需",
+        "要",
+        "重",
+        "新",
+        "检",
+        "查",
+        "传",
+        "感",
+        "器"
+      ],
+      "unknown_pieces": 0
+    }
+  }
+}

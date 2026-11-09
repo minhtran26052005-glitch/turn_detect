@@ -1,0 +1,298 @@
+{
+  "selected_phase": "data_sft",
+  "selection_basis": "minimum dev-slice joint score; no regression/test tuning",
+  "baseline": {
+    "threshold": 0.10999999999999999,
+    "slices": {
+      "legacy_vi": {
+        "samples": 3600,
+        "threshold": 0.10999999999999999,
+        "accuracy": 0.9127777777777778,
+        "eot_precision": 0.7929773226042429,
+        "eot_recall": 0.9721973094170404,
+        "eot_f1": 0.8734891216760677,
+        "joint_score": 0.8734891216760677,
+        "false_eot": 283,
+        "missed_eot": 31,
+        "false_eot_rate": 0.11388329979879276,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2202,
+            283
+          ],
+          [
+            31,
+            1084
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 145,
+        "threshold": 0.10999999999999999,
+        "accuracy": 0.4689655172413793,
+        "eot_precision": 0.34782608695652173,
+        "eot_recall": 0.6530612244897959,
+        "eot_f1": 0.45390070921985815,
+        "joint_score": 0.45390070921985815,
+        "false_eot": 60,
+        "missed_eot": 17,
+        "false_eot_rate": 0.625,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            36,
+            60
+          ],
+          [
+            17,
+            32
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.45390070921985815,
+    "natural_target_met": false
+  },
+  "phases": [
+    {
+      "phase": "data_sft",
+      "steps": 450,
+      "best_step": 150,
+      "dev": {
+        "step": 150,
+        "threshold": 0.09999999999999999,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.7630555555555556,
+            "eot_precision": 0.5688025210084033,
+            "eot_recall": 0.9713004484304932,
+            "eot_f1": 0.7174561112951309,
+            "joint_score": 0.7174561112951309,
+            "false_eot": 821,
+            "missed_eot": 32,
+            "false_eot_rate": 0.33038229376257544,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1664,
+                821
+              ],
+              [
+                32,
+                1083
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.45517241379310347,
+            "eot_precision": 0.35,
+            "eot_recall": 0.7142857142857143,
+            "eot_f1": 0.4697986577181208,
+            "joint_score": 0.45517241379310347,
+            "false_eot": 65,
+            "missed_eot": 14,
+            "false_eot_rate": 0.6770833333333334,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                31,
+                65
+              ],
+              [
+                14,
+                35
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.45517241379310347,
+        "natural_target_met": false
+      },
+      "gradient_verified": true,
+      "student_sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041",
+      "quality_target_certified": false
+    },
+    {
+      "phase": "ce_control",
+      "steps": 225,
+      "best_step": 0,
+      "dev": {
+        "step": 150,
+        "threshold": 0.09999999999999999,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.7630555555555556,
+            "eot_precision": 0.5688025210084033,
+            "eot_recall": 0.9713004484304932,
+            "eot_f1": 0.7174561112951309,
+            "joint_score": 0.7174561112951309,
+            "false_eot": 821,
+            "missed_eot": 32,
+            "false_eot_rate": 0.33038229376257544,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1664,
+                821
+              ],
+              [
+                32,
+                1083
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.45517241379310347,
+            "eot_precision": 0.35,
+            "eot_recall": 0.7142857142857143,
+            "eot_f1": 0.4697986577181208,
+            "joint_score": 0.45517241379310347,
+            "false_eot": 65,
+            "missed_eot": 14,
+            "false_eot_rate": 0.6770833333333334,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                31,
+                65
+              ],
+              [
+                14,
+                35
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.45517241379310347,
+        "natural_target_met": false
+      },
+      "gradient_verified": true,
+      "student_sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041",
+      "quality_target_certified": false
+    },
+    {
+      "phase": "cost_ce",
+      "steps": 225,
+      "best_step": 0,
+      "dev": {
+        "step": 150,
+        "threshold": 0.09999999999999999,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.7630555555555556,
+            "eot_precision": 0.5688025210084033,
+            "eot_recall": 0.9713004484304932,
+            "eot_f1": 0.7174561112951309,
+            "joint_score": 0.7174561112951309,
+            "false_eot": 821,
+            "missed_eot": 32,
+            "false_eot_rate": 0.33038229376257544,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1664,
+                821
+              ],
+              [
+                32,
+                1083
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.45517241379310347,
+            "eot_precision": 0.35,
+            "eot_recall": 0.7142857142857143,
+            "eot_f1": 0.4697986577181208,
+            "joint_score": 0.45517241379310347,
+            "false_eot": 65,
+            "missed_eot": 14,
+            "false_eot_rate": 0.6770833333333334,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                31,
+                65
+              ],
+              [
+                14,
+                35
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.45517241379310347,
+        "natural_target_met": false
+      },
+      "gradient_verified": true,
+      "student_sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041",
+      "quality_target_certified": false
+    },
+    {
+      "phase": "reinforce",
+      "steps": 225,
+      "best_step": 0,
+      "dev": {
+        "step": 150,
+        "threshold": 0.09999999999999999,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.7630555555555556,
+            "eot_precision": 0.5688025210084033,
+            "eot_recall": 0.9713004484304932,
+            "eot_f1": 0.7174561112951309,
+            "joint_score": 0.7174561112951309,
+            "false_eot": 821,
+            "missed_eot": 32,
+            "false_eot_rate": 0.33038229376257544,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1664,
+                821
+              ],
+              [
+                32,
+                1083
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.09999999999999999,
+            "accuracy": 0.45517241379310347,
+            "eot_precision": 0.35,
+            "eot_recall": 0.7142857142857143,
+            "eot_f1": 0.4697986577181208,
+            "joint_score": 0.45517241379310347,
+            "false_eot": 65,
+            "missed_eot": 14,
+            "false_eot_rate": 0.6770833333333334,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                31,
+                65
+              ],
+              [
+                14,
+                35
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.45517241379310347,
+        "natural_target_met": false
+      },
+      "gradient_verified": true,
+      "student_sha256": "641e4b90fa48836ca156be53ee7feb82e03f9df6408a9d534020472e5f652041",
+      "quality_target_certified": false
+    }
+  ],
+  "quality_target_certified": false
+}

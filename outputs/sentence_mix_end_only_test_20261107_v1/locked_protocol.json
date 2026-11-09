@@ -1,0 +1,39 @@
+{
+  "checkpoint": {
+    "step": 3731173,
+    "branch_step": 500127,
+    "epoch_display": 2,
+    "parameters": 11941122,
+    "full_checkpoint_sha256": "feb4bc2e6cbd4d8c7fa3148f49edb86500c898045a33cc1db8a334bcc03255a8",
+    "weights_sha256": "e9687f933d77d5a6ed63a9b0225ca29b5e5d17200526e7ac1d00e535ecadba52",
+    "full_optimizer_entries": 27,
+    "optimizer_rng_order_cursor_lanes_preserved": true,
+    "full_filtered_epochs_complete": 1,
+    "curriculum_stage_seen": 7773883,
+    "training_stop_identity": {
+      "pid": 1121366,
+      "start_ticks": "24252420",
+      "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+      "module": "turn_v2.multilingual_malbert_vi_en_sentence_mix_train_v7",
+      "source_sha256": {
+        "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+        "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+        "uploaded_vi_en_curriculum_data_v6.py": "842d989887094805a39784c65d8f17b08267904c7d0d0b85fbcc0de54a9bcb73",
+        "uploaded_vi_en_sentence_mix_data_v7.py": "53f047a33e561201f16d32f444780fb0d108d6fd520cfcd607185a82fca582c5",
+        "uploaded_vi_en_sentence_mix_evaluation_v7.py": "fcc3e8f9d8fbfc18cac1b449e1ddca344ab4127d8e735edef39b85c03b695672",
+        "multilingual_malbert_vi_en_sentence_mix_train_v7.py": "e6938081429701dd553c159e48939b0348201b60d367faf50965976b6febb319",
+        "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+        "tiny_compression_v1/common.py": "39017cd298ac692e0cc532e25dfe6bf764eca5225144d2e6951f50b417f2df68"
+      }
+    },
+    "selection": "Actual final full checkpoint after user-requested graceful pause, no TEST selection",
+    "threshold": 0.1,
+    "threshold_source": "Same paused weights; existing original DEV calibration policy before any new TEST scoring",
+    "matching_frozen_dev_sha256": "5505fb1063f2e259b5208f2b405daf17a4fe7f7190fc046e0b1077635000aee2"
+  },
+  "test_point_source_sha256": "93ca84293d066ed2a6f656cfd5d5ec80789cd52df903c39e81177deb9f451a58",
+  "threshold_locked_before_test": true,
+  "exclude_one_sentence_from_end_only_denominator": true,
+  "preserve_source_turn_future_and_predicted_reset_contract": true,
+  "no_test_selection": true
+}

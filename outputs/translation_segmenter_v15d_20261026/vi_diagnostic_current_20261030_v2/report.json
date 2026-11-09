@@ -1,0 +1,57 @@
+{
+  "complete": true,
+  "created_utc": "2026-10-30T07:19:29.459859+00:00",
+  "scope": "Previously exposed C75 diagnostic, not independent final test or conversational gold; cycle84 overlap audit not rerun",
+  "dataset_sha256": "4910685d55727de536ef36e05d105cdb2b744531541d8489583a248c0a31081f",
+  "checkpoint_sha256": "5a2ab215f003e12eb15fc895b283cb0e89546522036c6553897bc7dc0470d71c",
+  "checkpoint_receipt": {
+    "cycle": 84,
+    "cycle_step": 1032,
+    "total_steps": 78308,
+    "bytes": 3362177675,
+    "training_fingerprint": "f2cfc55e4493fead0f5257e11a82c60bc3013dc44d14d6b82fc0049e5f8a952a",
+    "full_epoch_generation": "cycle000084_full_epoch_contiguous_v1",
+    "full_epoch_dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+    "full_epoch_number": 4,
+    "full_epoch_cursor": 66048,
+    "full_epoch_rows": 1618675,
+    "full_epoch_complete": false,
+    "epoch_weighted_loss": 0.329123815732814,
+    "weights_optimizer_rng_and_sampler": true,
+    "required_restore_module": "turn_v2.restore_full_epoch_campaign_v7",
+    "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+    "weights_and_optimizer_remote_only": true
+  },
+  "threshold_from_dev": 0.565,
+  "test_used_for_selection": false,
+  "overall": {
+    "tp": 13726,
+    "tn": 18904,
+    "fp": 3486,
+    "fn": 3051,
+    "samples": 39167,
+    "accuracy": 0.8330992927719764,
+    "eot_f1": 0.8076730706993439
+  },
+  "by_lookahead": {
+    "1": {
+      "tp": 6800,
+      "tn": 9243,
+      "fp": 1874,
+      "fn": 1587,
+      "samples": 19504,
+      "accuracy": 0.8225492206726825,
+      "eot_f1": 0.7971396752828087
+    },
+    "2": {
+      "tp": 6926,
+      "tn": 9661,
+      "fp": 1612,
+      "fn": 1464,
+      "samples": 19663,
+      "accuracy": 0.8435640543152113,
+      "eot_f1": 0.818289224952741
+    }
+  },
+  "predictions_sha256": "fda795b3d6e760f52f218ca401ad60c3f574c77b6977aa41d8c43bb95a617a83"
+}

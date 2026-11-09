@@ -1,0 +1,14 @@
+{
+  "parameters": 11941122,
+  "parameter_limit_exclusive": 20000000,
+  "storage_bits": 32,
+  "compute_precision": "FP32",
+  "logits_parity_max_delta": 1.6093254089355469e-06,
+  "padding_max_delta": 0.0,
+  "matrices": [],
+  "packed_int4": false,
+  "qat_scales_preserved": false,
+  "model_sha256": "18d1c1101185ce16cd7c1d7cf05482da583ad38a03fd0dbd5d9fc04a87554558",
+  "technical_fixture_only": true,
+  "trained_quality_claim": false
+}

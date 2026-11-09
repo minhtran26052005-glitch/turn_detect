@@ -1,0 +1,22 @@
+{
+  "language": "en",
+  "train_languages": [
+    "en"
+  ],
+  "dev_languages": [
+    "en"
+  ],
+  "shared_trainable_weights": false,
+  "initial_checkpoint": "microsoft/mdeberta-v3-base",
+  "initial_revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "initial_weights_sha256": "e11486eb9d45c0ac08af5ced1d993789e39ab7759fb2936286cbf8aca0442332",
+  "source_sha256": "b18fb5b3dedc25fa051c52274c4a6cfaf05444cc46194be85449c5f75a3b7590",
+  "codec_sha256": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f",
+  "data_manifest_sha256": "3bd513bd22177a80c69686aa82bfbb0c32cefc56d1e235cfbf1588793c9c9aa4",
+  "steps_max": 400,
+  "microbatch": 16,
+  "accumulation": 2,
+  "selection": "Same-language dev joint accuracy/F1; report natural slice separately",
+  "input": "Observed text only; newest current tokens, past context;256tokens",
+  "test_used": false
+}

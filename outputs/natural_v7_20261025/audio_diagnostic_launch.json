@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"natural_v7_audio_diagnostic_20261025\", \"launcher_pid\": 171569, \"GPU_used\": false, \"source_sha256\": \"4cab91031020d1f80f2b6fdbc58998d15e3bb49a6733a9727d3ba6a3aa4538b0\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.09400000001187436
+}

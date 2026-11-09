@@ -1,0 +1,24 @@
+{
+  "status": "RUNNING_SEPARATE_EN_ZH_MODELS",
+  "goal_quality_achieved": false,
+  "architecture_correction": "Three independent models; preserve VI existing, independent EN/ZH teacher-distill-QAT",
+  "Colab_session": "Use the currently observed unique a-jvsc session; previous runtime disappeared",
+  "verified_EN_teacher_steps": 400,
+  "verified_EN_QAT_model_bytes": 712969,
+  "verified_ZH_teacher_step_snapshot": 250,
+  "snapshot_not_live_status": true,
+  "next_commands": [
+    "python tools/monolingual_colab.py status",
+    "python tools/backup_monolingual_teacher.py --language zh after teacher completes",
+    "python tools/monolingual_colab.py collect after all phases complete",
+    "python tools/finalize_monolingual.py",
+    "python tools/report_monolingual.py --phase final",
+    "python tools/validate_monolingual.py"
+  ],
+  "notes": [
+    "Do not restart active/completed jobs",
+    "EN teacher saved exactly to local backup; preserve all files",
+    "384 formerly held cases are already seen regression; not an acceptance test",
+    "VI native model also scores22.10F1 on the new automatic210case regression; old90.19F1 was frozen derived-prefix dev"
+  ]
+}

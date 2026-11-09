@@ -1,0 +1,52 @@
+{
+  "audit": {
+    "pid": 59783,
+    "start_ticks": "1452621",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_data_v5"
+    ],
+    "module": "turn_v2.translation_segmenter_full_data_v5",
+    "source_sha256": "2e489d3b504c5ffd9da2c40a82b7041cb6a3c959079f8635188df147b231d81c",
+    "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/data_worker_v5.log"
+  },
+  "campaign": {
+    "pid": 59784,
+    "start_ticks": "1452621",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_full_campaign_v7"
+    ],
+    "module": "turn_v2.translation_segmenter_full_campaign_v7",
+    "source_sha256": "f8ed20b27f815c9ff254e1968a516e4baca3174c833df2ba0dc6ba46d63cd287",
+    "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v7.log"
+  },
+  "backup": {
+    "pid": 59785,
+    "start_ticks": "1452622",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_drive_backup_v7"
+    ],
+    "module": "turn_v2.translation_segmenter_drive_backup_v7",
+    "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+    "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_v7.log",
+    "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+  },
+  "source_sha256": {
+    "translation_segmenter_full_data_v5.py": "2e489d3b504c5ffd9da2c40a82b7041cb6a3c959079f8635188df147b231d81c",
+    "translation_segmenter_full_verify_v2.py": "337ed6835c489acaa4ee8d24f170b7f39eab1ba4d4c132e2a8a6f09ab5376e3d",
+    "translation_segmenter_full_campaign_v7.py": "f8ed20b27f815c9ff254e1968a516e4baca3174c833df2ba0dc6ba46d63cd287",
+    "translation_segmenter_drive_backup_v7.py": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+    "restore_full_epoch_campaign_v7.py": "0e0447f9d1882a9e7f10f54716ccb345ff479d00bd59b1fd68059dc33bb49563"
+  },
+  "preserved_cleaning_dispositions": true,
+  "reextract_sources_required": false,
+  "kernel_reset_or_interrupt": false
+}

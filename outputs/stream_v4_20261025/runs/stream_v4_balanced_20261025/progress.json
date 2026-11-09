@@ -1,0 +1,8 @@
+{
+  "stage": "BALANCED_TRAINING",
+  "round": 1,
+  "step": 300,
+  "steps_per_round": 400,
+  "loss": 0.17225120216608047,
+  "elapsed_seconds": 317.3260656329985
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"cycle\": 48, \"path\": \"outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip\", \"bytes\": 313296072, \"sha256\": \"18243ea2d037cc23ff1678d7288fa5e18323ecd60ba28be4414cdf4d9c370384\", \"scope\": \"DATA_AND_METADATA_ONLY_NO_MODEL_WEIGHTS\", \"sqlite_uncompressed_bytes\": 2492076032}\n"
+    }
+  ],
+  "elapsed_seconds": 0.9850000000005821
+}

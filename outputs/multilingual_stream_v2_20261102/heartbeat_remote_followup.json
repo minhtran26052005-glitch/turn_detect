@@ -1,0 +1,91 @@
+{
+  "checked_unix": 1793668816.913442,
+  "start_ticks": "50410807",
+  "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.factory_stream_train_v1 --batch-size 64 --eval-every 1000 ",
+  "status": {
+    "stage": "TRAINING_NEW_STREAMING",
+    "pid": 2827094,
+    "at_utc": "2026-11-03T01:20:13.372406+00:00",
+    "source": "Qwen synthetic punctuation streaming + legacy ZH replay",
+    "step": 711435,
+    "base_step": 486235,
+    "branch_step": 225200,
+    "current_language": "zh",
+    "counts": {
+      "vi": 5738632,
+      "en": 5791608,
+      "zh": 2882555
+    },
+    "epochs": {
+      "vi": 1,
+      "en": 2
+    },
+    "loss": 0.0647786968605942,
+    "cuda_peak_reserved_gib": 3.26
+  },
+  "latest_dev": {
+    "step": 711235,
+    "branch_step": 225000,
+    "split": "dev",
+    "phase": "NEW_TRAINING_DEV",
+    "shared_threshold": 0.27,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9941690962099126,
+        "eot_f1": 0.9318181818181818,
+        "tp": 82,
+        "tn": 1964,
+        "fp": 4,
+        "fn": 8
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.9978298611111112,
+        "eot_f1": 0.979253112033195,
+        "tp": 118,
+        "tn": 2181,
+        "fp": 2,
+        "fn": 3
+      },
+      "zh": {
+        "samples": 1000,
+        "accuracy": 0.852,
+        "eot_f1": 0.6243654822335025,
+        "tp": 123,
+        "tn": 729,
+        "fp": 96,
+        "fn": 52
+      }
+    },
+    "static_rolling_by_language": {
+      "vi": {
+        "samples": 2058,
+        "accuracy": 0.9931972789115646,
+        "eot_f1": 0.9230769230769231,
+        "tp": 84,
+        "tn": 1960,
+        "fp": 8,
+        "fn": 6
+      },
+      "en": {
+        "samples": 2304,
+        "accuracy": 0.99609375,
+        "eot_f1": 0.9620253164556962,
+        "tp": 114,
+        "tn": 2181,
+        "fp": 2,
+        "fn": 7
+      }
+    },
+    "scope": "VI/EN synthetic punctuation every-gap causal predicted-reset streaming DEV; ZH legacy punctuation anchors, not comparable human/audio gold",
+    "stream_count": 72,
+    "threshold_selected_on_rolling_dev_only": true,
+    "gold_resets_in_eval": false,
+    "sealed_test_used": false,
+    "old_probes_used": false,
+    "selection_score": 0.6243654822335025
+  },
+  "error_present": false,
+  "checked_utc": "2026-11-03T01:20:16.702286+00:00"
+}

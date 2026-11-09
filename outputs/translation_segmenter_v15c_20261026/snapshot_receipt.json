@@ -1,0 +1,18 @@
+{
+  "cycle": 17,
+  "path": "outputs/translation_segmenter_v15c_20261026/recovery/v15c_current_cycle_000017_20261026T041344Z.zip",
+  "bytes": 759838,
+  "sha256": "b0cdc767e795a68ff28d2b8efed51af8f0e1bad14aba0bb28b99a8d4a3dc9592",
+  "database_integrity": "ok",
+  "counts": {
+    "pages": 110,
+    "examples": 4477
+  },
+  "scope": "DATA_AND_METADATA_ONLY_NO_MODEL_WEIGHTS",
+  "local_snapshot_sha256": "b0cdc767e795a68ff28d2b8efed51af8f0e1bad14aba0bb28b99a8d4a3dc9592",
+  "local_database_integrity": "ok",
+  "local_counts": {
+    "pages": 110,
+    "examples": 4477
+  }
+}

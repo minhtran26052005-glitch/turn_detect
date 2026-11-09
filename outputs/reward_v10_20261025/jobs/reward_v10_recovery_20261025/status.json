@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-25T05:28:21.475671+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "tools/reward_v10_recover.py"
+  ],
+  "timeout_seconds": 8100,
+  "pid": 3674,
+  "elapsed_seconds": 140.01410961151123,
+  "heartbeat_unix": 1792906236.4891622,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-25T05:30:41.489788+00:00"
+}

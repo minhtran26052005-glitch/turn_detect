@@ -1,0 +1,21 @@
+{
+  "root": "/content/turn_detection_release_534bdf565ece",
+  "processes": {
+    "smoke_gpu": {
+      "pid": 78105,
+      "start_ticks": "1905219"
+    },
+    "summary": {
+      "pid": 78106,
+      "start_ticks": "1905219"
+    },
+    "pytest": {
+      "pid": 78107,
+      "start_ticks": "1905219"
+    },
+    "scan": {
+      "pid": 78108,
+      "start_ticks": "1905219"
+    }
+  }
+}

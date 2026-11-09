@@ -1,0 +1,38 @@
+{
+  "train:vi": {
+    "cases": 628,
+    "identical_text_context_conflicting_groups": 3,
+    "minimum_unavoidable_errors_exact_inputs": 3,
+    "maximum_accuracy_exact_inputs": 0.9952229299363057
+  },
+  "train:en": {
+    "cases": 423,
+    "identical_text_context_conflicting_groups": 2,
+    "minimum_unavoidable_errors_exact_inputs": 2,
+    "maximum_accuracy_exact_inputs": 0.9952718676122931
+  },
+  "train:zh": {
+    "cases": 382,
+    "identical_text_context_conflicting_groups": 2,
+    "minimum_unavoidable_errors_exact_inputs": 2,
+    "maximum_accuracy_exact_inputs": 0.9947643979057592
+  },
+  "dev:vi": {
+    "cases": 145,
+    "identical_text_context_conflicting_groups": 0,
+    "minimum_unavoidable_errors_exact_inputs": 0,
+    "maximum_accuracy_exact_inputs": 1.0
+  },
+  "dev:en": {
+    "cases": 79,
+    "identical_text_context_conflicting_groups": 1,
+    "minimum_unavoidable_errors_exact_inputs": 1,
+    "maximum_accuracy_exact_inputs": 0.9873417721518988
+  },
+  "dev:zh": {
+    "cases": 69,
+    "identical_text_context_conflicting_groups": 0,
+    "minimum_unavoidable_errors_exact_inputs": 0,
+    "maximum_accuracy_exact_inputs": 1.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "BOUNDED_AUTOMATIC_CRAWL_RL_COMPLETED_TARGET_UNMET",
+  "recorded_at_utc": "2026-10-25T05:42:02.070960+00:00",
+  "separate_models": true,
+  "rounds": 2,
+  "pages": 11,
+  "crawl_candidates": 183,
+  "accepted_judge_rewards": 107,
+  "RL_optimizer_steps": 450,
+  "judge": "Qwen3-8B BF16; two generated answer views, not human gold",
+  "GPU_peak_GiB": 15.789938926696777,
+  "selected_research_candidate": "VI round1; rejected later/EN/ZH branches by dev gate",
+  "quality_target_achieved": false,
+  "no_active_jobs_expected": "Jobs completed; query fresh before later work",
+  "local_disk_free_GiB": 37.9478645324707,
+  "new_local_campaign_artifacts_MiB": 205.18275260925293,
+  "continue_policy": "New crawl campaign must use a fresh run and frozen validation protocol; do not train/tune on seen384regression. Current judgesemantic reward differs from observed-floor target."
+}

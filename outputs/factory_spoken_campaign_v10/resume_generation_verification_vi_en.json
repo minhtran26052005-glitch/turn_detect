@@ -1,0 +1,93 @@
+{
+  "checked_unix": 1793694287.7331514,
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v10",
+    "pid": 113294,
+    "start_ticks": "2625926"
+  },
+  "state": {
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "attempts": {
+      "en": 0,
+      "vi": 30028,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1488,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 6856,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 174675,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "8f5af8f0cc680fabc9a4644bf75d9d13c8a5bf903523f004df2ded702eab5f26",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 23172,
+      "zh": 0
+    },
+    "schema": 10,
+    "total_counts": {
+      "en": 0,
+      "vi": 6856,
+      "zh": 0
+    }
+  },
+  "resumed_generation_verification": {
+    "verified": true,
+    "engine_version": 10,
+    "baseline_commit": 1478,
+    "baseline_counts": {
+      "en": 0,
+      "vi": 6815,
+      "zh": 0
+    },
+    "latest_commit": 1488,
+    "latest_commit_sha256": "8f5af8f0cc680fabc9a4644bf75d9d13c8a5bf903523f004df2ded702eab5f26",
+    "previous_link_verified": true,
+    "object_sha256": "3bf19afcfd75cc57587ea2280341cf4bed0c0e4ffb0d68d71ecdd6e37327e5ca",
+    "object_readback_verified": true,
+    "accepted_new": 41
+  },
+  "verified_shards": [
+    {
+      "index": 1488,
+      "engine_version": 10,
+      "language": "vi",
+      "accepted": 2,
+      "rejected": 18,
+      "rejection_reasons": {
+        "ValueError('expected_four_spoken_turns')": 3,
+        "ValueError('spoken_turn_too_short')": 1,
+        "ValueError('expected_two_to_eight_sentences')": 11,
+        "ValueError('digit_numeral_not_spoken_word')": 3
+      },
+      "object_sha256": "3bf19afcfd75cc57587ea2280341cf4bed0c0e4ffb0d68d71ecdd6e37327e5ca",
+      "commit_sha256": "8f5af8f0cc680fabc9a4644bf75d9d13c8a5bf903523f004df2ded702eab5f26",
+      "readback_verified": true
+    }
+  ],
+  "session_selection": {
+    "selection": "explicit_known_owner_boot_with_verified_drive_and_all_runtime_process_probes",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "assigned_runtime_count": 2,
+    "selected_matching_sessions": 2,
+    "selected_views_verified": true,
+    "other_runtimes_have_no_generation_worker": true,
+    "other_runtime_boots": [
+      "e024f0d6-1375-4f0c-9d60-250856f083b5"
+    ]
+  }
+}

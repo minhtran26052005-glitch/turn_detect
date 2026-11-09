@@ -1,0 +1,22 @@
+{
+  "status": "REMOTE_STATE_UNKNOWN_AFTER_API_404",
+  "last_verified": "round1 step550/600",
+  "checks": [
+    {
+      "path": "api/contents/content/turn_detect_v2/jobs/stream_v4_campaign_20261025/status.json",
+      "http_status": 404,
+      "content_type": null
+    },
+    {
+      "path": "files/content/turn_detect_v2/jobs/stream_v4_campaign_20261025/status.json",
+      "http_status": 404,
+      "content_type": null
+    },
+    {
+      "path": "files/content/turn_detect_v2/runs/stream_v4_campaign_20261025/campaign.json",
+      "http_status": 404,
+      "content_type": null
+    }
+  ],
+  "process_or_checkpoint_state_inferred": false
+}

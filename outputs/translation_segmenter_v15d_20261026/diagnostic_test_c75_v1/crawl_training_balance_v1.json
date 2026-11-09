@@ -1,0 +1,115 @@
+{
+  "scope": "OBSERVATIONAL_CRAWL_GROWTH_VS_SAMPLING_VOLUME",
+  "cycles": [
+    73,
+    74,
+    75
+  ],
+  "new_accepted_examples_by_source_observation": [
+    {
+      "language": "en",
+      "first_cycle": 73,
+      "accepted_documents": 160,
+      "new_examples": 8744
+    },
+    {
+      "language": "en",
+      "first_cycle": 74,
+      "accepted_documents": 173,
+      "new_examples": 8537
+    },
+    {
+      "language": "en",
+      "first_cycle": 75,
+      "accepted_documents": 164,
+      "new_examples": 7624
+    },
+    {
+      "language": "vi",
+      "first_cycle": 73,
+      "accepted_documents": 177,
+      "new_examples": 16474
+    },
+    {
+      "language": "vi",
+      "first_cycle": 74,
+      "accepted_documents": 174,
+      "new_examples": 14466
+    },
+    {
+      "language": "vi",
+      "first_cycle": 75,
+      "accepted_documents": 162,
+      "new_examples": 18455
+    },
+    {
+      "language": "zh",
+      "first_cycle": 73,
+      "accepted_documents": 175,
+      "new_examples": 20860
+    },
+    {
+      "language": "zh",
+      "first_cycle": 74,
+      "accepted_documents": 183,
+      "new_examples": 26819
+    },
+    {
+      "language": "zh",
+      "first_cycle": 75,
+      "accepted_documents": 156,
+      "new_examples": 20796
+    }
+  ],
+  "optimizer_steps_per_language_per_training_batch": 100,
+  "row_draws_per_language_per_training_batch": 6400,
+  "crawl_cycles_between_training": 3,
+  "not_unique_coverage": true,
+  "actual_new_rows_by_split": [
+    {
+      "language": "en",
+      "split": "dev",
+      "new_rows": 3001
+    },
+    {
+      "language": "en",
+      "split": "test",
+      "new_rows": 2047
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "new_rows": 19855
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "new_rows": 4287
+    },
+    {
+      "language": "vi",
+      "split": "test",
+      "new_rows": 4146
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "new_rows": 40960
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "new_rows": 5620
+    },
+    {
+      "language": "zh",
+      "split": "test",
+      "new_rows": 5542
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "new_rows": 57313
+    }
+  ]
+}

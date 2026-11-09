@@ -1,0 +1,68 @@
+{
+  "scope": "Previously exposed LiveKit diagnostic; exact identical visible input with contradictory labels is intrinsically ambiguous for deterministic text-only models",
+  "cases": 2057,
+  "contradictory_visible_inputs": 6,
+  "minimum_errors": 6,
+  "details": [
+    {
+      "language": "en",
+      "text": "actually i didn t even know i could do it online is it possible that i can just reach out to you again for some questions because i would rather just not speak to a person i ll be honest with you i don t really feel like really feel like going to the branch",
+      "context": "yeah you know what let me just start with that one how do i enroll in that one to enroll in the cashback rewards program you typically need to visit your nearest first community bank branch or you can also enroll through our online banking platform if you re doing it online you would log into your account and navigate to the account options or rewards tab there you ll find the option to sign up for the cashback program once you ve enrolled you ll start earning cash back under eligible purchases right away if you prefer or if you have specific questions during the process feel free to ask any bank representative at the branch or contact our customer service and they ll be happy to assist you do you need any help with anything else about your account or the enrollment process",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    },
+    {
+      "language": "zh",
+      "text": "再见",
+      "context": "不 客 气 陶 先 生 那 我 们 就 约 好 本 周 六 下 午 两 点 在 龙 城 上 野 银 行 苏 州 工 业 园 去 执 行 见 面 祝 您 的 超 市 生 意 兴 隆 周 六 见",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    },
+    {
+      "language": "zh",
+      "text": "2516",
+      "context": "您 提 供 的 手 机 号 是 1371516 对 吗 请 您 再 补 充 一 下",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    },
+    {
+      "language": "zh",
+      "text": "不能直接給我發生其他的呀至少要跟我說一聲吧哇 我真的是有點失望啊我都是你們家的老顧客啦然後這個月既然這個樣子",
+      "context": "您 好 茶 友 我 已 经 为 您 查 到 了 您 订 购 的 是 一 百 九 十 九 元 的 品 鉴 佳 礼 盒 真 的 很 抱 歉 由 于 这 款 五 十 克 的 普 洱 熟 茶 近 期 非 常 受 欢 迎 配 货 时 出 现 了 疏 忽 并 不 是 故 意 为 您 更 换 成 绿 茶 的 为 了 弥 补 您 的 遗 憾 我 今 天 就 为 您 安 排 免 费 补 发 这 份 普 洱 熟 茶 您 看 可 以 吗",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    },
+    {
+      "language": "zh",
+      "text": "行吧行吧那就这个样子吧我就是觉得你们就是太舒服了你说这样进来进去的不是麻烦的还不如第一次直接记对就完了",
+      "context": "茶 友 让 您 失 望 了 小 芽 深 感 愧 疚 由 于 普 洱 首 茶 近 期 茶 园 紧 张 我 们 在 库 房 调 配 时 确 实 出 现 了 沟 通 失 误 没 能 第 一 时 间 通 知 到 您 真 的 非 常 抱 歉 为 了 向 您 这 位 老 茶 友 表 达 心 意 除 了 不 发 那 份 50 克 的 普 洱 首 茶 我 再 为 您 额 外 赠 送 一 份 茶 样 作 为 补 偿 您 看 这 样 可 以 吗",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    },
+    {
+      "language": "zh",
+      "text": "来你查一下呢188 1417 1417是吧 我也觉得好无可思呀我就查这一只了然后这一只完了直接碎了哎呀 你说这这么好的茶杯你说这算怎么回事嘛对不对啊 我跟你讲哈为什么会造成这样的一个结果就是因为这个包装里面的那个防震泡沫啊它不太够 我跟你讲它稍微多一点它都不会说碎了的你看外面要好好的 就里面出问题了那里面能出什么问题了那肯定是被刷一碎了对不对它防震的泡沫不够 放的太少了然后现在直接碎了碎了好几把嘛哎呀 这天哪 你说这真的是暴天天物你看要不要我给你上团照片然后来证明一下",
+      "context": "您 好 茶 友 听 到 您 精 心 收 藏 的 茶 具 竟 然 在 最 后 一 支 出 了 意 外 小 雅 真 的 非 常 理 解 您 那 种 心 痛 的 感 觉 既 然 外 包 装 完 好 那 很 可 能 是 运 输 途 中 的 剧 烈 震 动 导 致 的 请 您 千 万 别 太 难 过 为 了 尽 快 为 您 安 排 步 伐 能 请 您 提 供 一 下 您 的 订 单 编 号 吗",
+      "labels": {
+        "NEOT": 1,
+        "EOT": 1
+      },
+      "minimum_errors_same_visible_input": 1
+    }
+  ]
+}

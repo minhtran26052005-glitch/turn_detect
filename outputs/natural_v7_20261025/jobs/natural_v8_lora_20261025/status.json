@@ -1,0 +1,16 @@
+{
+  "status": "FAILED",
+  "started_at_utc": "2026-10-24T21:03:18.650122+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.natural_v8_lora"
+  ],
+  "timeout_seconds": 5400,
+  "pid": 175410,
+  "elapsed_seconds": 35.00438618659973,
+  "heartbeat_unix": 1792875828.6539214,
+  "exit_code": 1,
+  "finished_at_utc": "2026-10-24T21:03:53.654512+00:00"
+}

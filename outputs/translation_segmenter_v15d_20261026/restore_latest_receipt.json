@@ -1,0 +1,114 @@
+{
+  "at_utc": "2026-10-26T15:42:54.208431+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-595d62b4-0421-4af5-885c-0d72e4aa1d1002f68001-a8cf-4ec7-9f7b-a3b56cdd3208.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "local_snapshot_validation": {
+    "cycle": 42,
+    "next_cycle": 43,
+    "sha256": "0f0a3181b8b0cd67ee38f39e3a3ea23817a48e2e9df5a6758d1d6e41e7bb6111",
+    "bytes": 255481878,
+    "database_integrity": "ok",
+    "pages": 16045,
+    "examples": 1338209,
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+    "weights_or_optimizer_included": false
+  },
+  "remote_preflight": {
+    "run_directory_absent": true,
+    "active_campaign_processes": [],
+    "remote_free_bytes": 207410470912,
+    "staging_ready": true
+  },
+  "remote_assembled_snapshot": {
+    "assembled_bytes": 255481878,
+    "sha256": "0f0a3181b8b0cd67ee38f39e3a3ea23817a48e2e9df5a6758d1d6e41e7bb6111",
+    "chunks": 31
+  },
+  "remote_restore": {
+    "restore_receipt": {
+      "restored_at_utc": "2026-10-26T15:42:53.343389+00:00",
+      "snapshot_cycle": 42,
+      "next_cycle": 43,
+      "snapshot_sha256": "0f0a3181b8b0cd67ee38f39e3a3ea23817a48e2e9df5a6758d1d6e41e7bb6111",
+      "snapshot_bytes": 255481878,
+      "database_integrity": "ok",
+      "pages": 16045,
+      "examples": 1338209,
+      "teacher_weights_or_optimizer_restored": false
+    },
+    "remote_free_bytes": 202805846016
+  },
+  "import_verification": {
+    "module": "turn_v2.translation_segmenter_v15d3",
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+    "expected": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c"
+  },
+  "launch": {
+    "pid": 3846,
+    "start_ticks": "91187",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.translation_segmenter_v15d3",
+      "--phase",
+      "run",
+      "--docs-per-source",
+      "200",
+      "--steps",
+      "100",
+      "--microbatch",
+      "32"
+    ],
+    "module": "turn_v2.translation_segmenter_v15d3",
+    "log": "outputs/translation_segmenter_v15d_20261026/worker_recovery_cycle42_20261026T154253Z.log",
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+    "restored_from_cycle": 42,
+    "max_cycles": 0
+  },
+  "uploaded_sha256": {
+    "colab/v15d_cycle42_chunk_0000.bin": "fbb8ba469738b9506d25113caeb30c9055250b09d6904bee6defffe0e002899f",
+    "colab/v15d_cycle42_chunk_0001.bin": "d71feda71da8d81c76f0a99be4fb3e38252672ef4413b1584e22773caacd2af6",
+    "colab/v15d_cycle42_chunk_0002.bin": "6721d5492f84f2ed152af427f9d5acf660d63347180e104f03e5fc87e5780ebc",
+    "colab/v15d_cycle42_chunk_0003.bin": "8529310f5a5b334f6dc45ba7db21e8c638983ea88a4c933a200367eb8a6e9acf",
+    "colab/v15d_cycle42_chunk_0004.bin": "5387c06de0b78a92b8becc4f380513ab1a077397d575802d9d21ad5df480f2ed",
+    "colab/v15d_cycle42_chunk_0005.bin": "27794d943777c7137e2355ee5c09a4f8b616698ec6caae9747826bd0195558e0",
+    "colab/v15d_cycle42_chunk_0006.bin": "b1785d504e9f76d395336c88cfc5821fff6d1885d70b3c32c805073661b1918b",
+    "colab/v15d_cycle42_chunk_0007.bin": "f1e64e51bff955e9efae3b1f3c2b67c8e218d4056a946b56df466595b4ddf846",
+    "colab/v15d_cycle42_chunk_0008.bin": "54cbc48f47f921f81b36c9a469460ca1e60db990c5a681821e31f60982e34f8a",
+    "colab/v15d_cycle42_chunk_0009.bin": "e6c274812d9f9000a9e2c8a76e3f00f9291e3e79fcebe5884ab8315ea54a106e",
+    "colab/v15d_cycle42_chunk_0010.bin": "2a57506f6de2e66253309cc74b0f7ce53c152571b498d4583a3dd0776f7c61b5",
+    "colab/v15d_cycle42_chunk_0011.bin": "34c5a4daf22245cc0ed9caea15517df4e3615d2883d2cbd320be6eb41053fe40",
+    "colab/v15d_cycle42_chunk_0012.bin": "ac2951c8d25867e50c0da1cef590875394dae8bd70fefe18dba70d8ca6f682a8",
+    "colab/v15d_cycle42_chunk_0013.bin": "1d17b992d010baa95472ff15aada2eebd0b8c6629042b69342cdb53c39054a48",
+    "colab/v15d_cycle42_chunk_0014.bin": "04b94aa8b430679ee209c173e26991bc9e75779f26381b1d9523ea2abacde60f",
+    "colab/v15d_cycle42_chunk_0015.bin": "287d216e0601ce4bfb56506b3582f903dc254e8e9ab46736c204685ecc56faf3",
+    "colab/v15d_cycle42_chunk_0016.bin": "afbcc49b0aa7c71c241b97e6684e4844b9a6bc2b2edb7467b10a9cec0705b72c",
+    "colab/v15d_cycle42_chunk_0017.bin": "e786b073daf4a481b69484aff7bf9f63b8beb026fda9ccddf68e96713774d0af",
+    "colab/v15d_cycle42_chunk_0018.bin": "baa83d2212c0be9ff08aad8137f966fd7d710063ca109808aea232f579c5f103",
+    "colab/v15d_cycle42_chunk_0019.bin": "9f70c2acf6d07afb5caba2aa6070e4d2f1e53915f4c3e2594ede7f14308b1721",
+    "colab/v15d_cycle42_chunk_0020.bin": "c93a8e49914f1e7df06d0c0ad4dfc921117da58f0fbe11d612a83ba51fb5e30c",
+    "colab/v15d_cycle42_chunk_0021.bin": "ec0c5bac06ed10f58cc71abf9580ef381b2bb852b952a07d1de5ec8f9ab5ceba",
+    "colab/v15d_cycle42_chunk_0022.bin": "a7f18586cd5b726b532acd5a2907b1da5a6555a8d208441e3c73e9a346e4f377",
+    "colab/v15d_cycle42_chunk_0023.bin": "dc918f3e50c66d150f24ca6dccb254a14cb04f75e51b0b179e9ff4eab619c5ad",
+    "colab/v15d_cycle42_chunk_0024.bin": "89d6998df9f4d834ab6028b6a3942fb6db7f6da7e474139ac4186d00024a3743",
+    "colab/v15d_cycle42_chunk_0025.bin": "fe200fdb6828a5c209ea6d9bf33ceb39f6775e0f5ca2c2c2865b94d68f6c4711",
+    "colab/v15d_cycle42_chunk_0026.bin": "4bfa77e9bdbbe7e4b47123f56d324e198b3b54d3b3d434b45278b4d03e20d6cb",
+    "colab/v15d_cycle42_chunk_0027.bin": "05efd5185d1f3a7e4846cc3e4b21b50c28d697a2ef0dd1dfed77332cbff748b6",
+    "colab/v15d_cycle42_chunk_0028.bin": "4e626e1f912eb307351f6d0ccb7125514b53c5669b6edcdca830eb963ccc9500",
+    "colab/v15d_cycle42_chunk_0029.bin": "25b0672dc45dcfff92989069ab5b835af2c810db9a0fb39ff2eb438b6336dc9d",
+    "colab/v15d_cycle42_chunk_0030.bin": "bae0d150d8a4e4115b83093c41b855e68b1b74691f4848b37f4372b3c1d9bb75",
+    "colab/__init__.py": "beed8d5230d1f56c3dc32c55d40f2879a9262aac92365e2b36d5ca25c1fc1567",
+    "colab/translation_segmenter_v15c.py": "7bd4dd908d114add5826b8c9ec06dcc0ca13a28f0fe56b0d260411cc2c0fbbea",
+    "colab/common.py": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+    "colab/monolingual_data.py": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f",
+    "colab/metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+    "colab/translation_segmenter_v15d2.py": "7ddf5651124f886d5bb5e6b26104522a950bd27c593b75af2dfa502362749ff5",
+    "colab/translation_segmenter_v15d3.py": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c"
+  },
+  "scope": "data and source only; prior weights and optimizer unavailable"
+}

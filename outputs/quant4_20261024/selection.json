@@ -1,0 +1,147 @@
+{
+  "results": [
+    {
+      "name": "int4_g64",
+      "model_bytes": 176999,
+      "metrics": {
+        "samples": 17833,
+        "threshold": 0.48999999999999994,
+        "accuracy": 0.9336062356305725,
+        "eot_precision": 0.8611971945848964,
+        "eot_recall": 0.9406734366648851,
+        "eot_f1": 0.8991825613079019,
+        "joint_score": 0.8991825613079019,
+        "false_eot": 851,
+        "missed_eot": 333,
+        "false_eot_rate": 0.06963993453355155,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11369,
+            851
+          ],
+          [
+            333,
+            5280
+          ]
+        ]
+      },
+      "quality_passed": false,
+      "report": "outputs\\quant4_20261024\\int4_g64_quality\\report.json"
+    },
+    {
+      "name": "int4_g32",
+      "model_bytes": 185933,
+      "metrics": {
+        "samples": 17833,
+        "threshold": 0.42999999999999994,
+        "accuracy": 0.9343352212190882,
+        "eot_precision": 0.859967585089141,
+        "eot_recall": 0.9453055407090682,
+        "eot_f1": 0.900619536620555,
+        "joint_score": 0.900619536620555,
+        "false_eot": 864,
+        "missed_eot": 307,
+        "false_eot_rate": 0.0707037643207856,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11356,
+            864
+          ],
+          [
+            307,
+            5306
+          ]
+        ]
+      },
+      "quality_passed": true,
+      "report": "outputs\\quant4_20261024\\int4_g32_quality\\report.json"
+    },
+    {
+      "name": "int4_g16",
+      "model_bytes": 204191,
+      "metrics": {
+        "samples": 17833,
+        "threshold": 0.4649999999999999,
+        "accuracy": 0.9338866147030785,
+        "eot_precision": 0.8630854896822797,
+        "eot_recall": 0.9388918581863531,
+        "eot_f1": 0.8993941462582131,
+        "joint_score": 0.8993941462582131,
+        "false_eot": 836,
+        "missed_eot": 343,
+        "false_eot_rate": 0.06841243862520459,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11384,
+            836
+          ],
+          [
+            343,
+            5270
+          ]
+        ]
+      },
+      "quality_passed": false,
+      "report": "outputs\\quant4_20261024\\int4_g16_quality\\report.json"
+    },
+    {
+      "name": "int4_g8",
+      "model_bytes": 240703,
+      "metrics": {
+        "samples": 17833,
+        "threshold": 0.4599999999999999,
+        "accuracy": 0.9338866147030785,
+        "eot_precision": 0.8583899127061105,
+        "eot_recall": 0.946018172100481,
+        "eot_f1": 0.9000762776506483,
+        "joint_score": 0.9000762776506483,
+        "false_eot": 876,
+        "missed_eot": 303,
+        "false_eot_rate": 0.07168576104746317,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11344,
+            876
+          ],
+          [
+            303,
+            5310
+          ]
+        ]
+      },
+      "quality_passed": true,
+      "report": "outputs\\quant4_20261024\\int4_g8_quality\\report.json"
+    }
+  ],
+  "complete": true,
+  "selected": {
+    "name": "int4_g32",
+    "model_bytes": 185933,
+    "metrics": {
+      "samples": 17833,
+      "threshold": 0.42999999999999994,
+      "accuracy": 0.9343352212190882,
+      "eot_precision": 0.859967585089141,
+      "eot_recall": 0.9453055407090682,
+      "eot_f1": 0.900619536620555,
+      "joint_score": 0.900619536620555,
+      "false_eot": 864,
+      "missed_eot": 307,
+      "false_eot_rate": 0.0707037643207856,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          11356,
+          864
+        ],
+        [
+          307,
+          5306
+        ]
+      ]
+    },
+    "quality_passed": true,
+    "report": "outputs\\quant4_20261024\\int4_g32_quality\\report.json"
+  },
+  "controls_unchanged": true,
+  "holdout_evaluated": false
+}

@@ -1,0 +1,10 @@
+{
+  "branch_step": 28000,
+  "step": 514235,
+  "weights_sha256": "15d4ebfc7fcba7c3c842b7b7815ac309cf349f0436dca69522d9d529295954cc",
+  "weight_bytes": 541317336,
+  "selection": "Existing campaign best, DEV-selected before compression; no tests used",
+  "source_dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+  "source_main_training_continues": true,
+  "optimizer_not_required_for_frozen_inference_teacher": true
+}

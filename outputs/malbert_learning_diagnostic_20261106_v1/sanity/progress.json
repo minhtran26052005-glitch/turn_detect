@@ -1,0 +1,80 @@
+{
+  "step": 200,
+  "initial": {
+    "accuracy": 0.848,
+    "mean_unweighted_CE": 0.6058298212883674,
+    "by_language": {
+      "vi": {
+        "samples": 500,
+        "tp": 54,
+        "tn": 373,
+        "fp": 2,
+        "fn": 71,
+        "accuracy": 0.854,
+        "eot_f1": 0.5966850828729282,
+        "eot_precision": 0.9642857142857143,
+        "eot_recall": 0.432,
+        "false_share_of_cuts": 0.03571428571428571,
+        "false_positive_rate": 0.005333333333333333,
+        "actual_eot": 125
+      },
+      "en": {
+        "samples": 500,
+        "tp": 51,
+        "tn": 370,
+        "fp": 5,
+        "fn": 74,
+        "accuracy": 0.842,
+        "eot_f1": 0.56353591160221,
+        "eot_precision": 0.9107142857142857,
+        "eot_recall": 0.408,
+        "false_share_of_cuts": 0.08928571428571429,
+        "false_positive_rate": 0.013333333333333334,
+        "actual_eot": 125
+      }
+    },
+    "memorization_passed": false,
+    "decision_threshold": 0.5
+  },
+  "current": {
+    "accuracy": 1.0,
+    "mean_unweighted_CE": 0.00021191822773835157,
+    "by_language": {
+      "vi": {
+        "samples": 500,
+        "tp": 125,
+        "tn": 375,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "eot_f1": 1.0,
+        "eot_precision": 1.0,
+        "eot_recall": 1.0,
+        "false_share_of_cuts": 0.0,
+        "false_positive_rate": 0.0,
+        "actual_eot": 125
+      },
+      "en": {
+        "samples": 500,
+        "tp": 125,
+        "tn": 375,
+        "fp": 0,
+        "fn": 0,
+        "accuracy": 1.0,
+        "eot_f1": 1.0,
+        "eot_precision": 1.0,
+        "eot_recall": 1.0,
+        "false_share_of_cuts": 0.0,
+        "false_positive_rate": 0.0,
+        "actual_eot": 125
+      }
+    },
+    "memorization_passed": true,
+    "decision_threshold": 0.5
+  },
+  "first_gradient_check": {
+    "classifier_nonzero": true,
+    "backbone_nonzero": true,
+    "finite_grad_norm": 63.43220520019531
+  }
+}

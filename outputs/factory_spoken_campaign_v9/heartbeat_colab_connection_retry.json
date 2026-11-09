@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-11-03T01:20:51.334055+00:00",
+  "first_attempt": {
+    "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+    "matches": 0,
+    "errors": [
+      {
+        "runtime_index": 0,
+        "error_type": "ReadTimeout"
+      }
+    ]
+  },
+  "retry_exit_code": 2,
+  "retry_checked_utc": "2026-11-03T01:21:08.657935+00:00",
+  "retry": {
+    "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+    "matches": 0,
+    "errors": [
+      {
+        "runtime_index": 0,
+        "error_type": "HTTPError"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "checked_utc": "2026-11-05T07:15:00.406530+00:00",
+  "process_before": {
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_uploaded_train_v4 ",
+    "cpu_ticks": 8539675
+  },
+  "process_after": {
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_uploaded_train_v4 ",
+    "cpu_ticks": 8539875
+  },
+  "sole_worker": [
+    205061
+  ],
+  "status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T07:14:55.913120+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2092780,
+    "branch_step": 627700,
+    "epoch": 2,
+    "uploaded_rows_seen": 9867742,
+    "uploaded_origin_exposures": {
+      "daily": 5222217,
+      "factory/gen4000": 3723990,
+      "factory/gen500": 401286,
+      "asr/run2b": 520249
+    },
+    "loss": 0.008537495508790016,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "tasks_assigned": 20762,
+    "total_tasks": 34602
+  },
+  "latest_dev_branch": 620000,
+  "report_sha256": "7b9f7740b5ecced918cf253257b197c7ac59647a541aa9898a3516ad010e5d1a",
+  "gpu_processes": "205061, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 11172 MiB",
+  "disks": {
+    "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_malbert_vi_en_uploaded_20261104_v4": 46.48268127441406,
+    "/mnt/hdd500": 23.014732360839844
+  },
+  "windows_free_gib": 19.67157745361328,
+  "hdd_mount": "/dev/sda1 /mnt/hdd500 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+  "last_notified_dev_branch_step": 620000,
+  "new_dev_available": false,
+  "branch_advanced_since_collector": true
+}

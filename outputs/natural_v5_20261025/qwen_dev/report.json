@@ -1,0 +1,80 @@
+{
+  "status": "DEV_ONLY_TEACHER_DIAGNOSIS",
+  "metrics": {
+    "vi": {
+      "samples": 145,
+      "threshold": 0.075,
+      "accuracy": 0.4482758620689655,
+      "eot_precision": 0.3258426966292135,
+      "eot_recall": 0.5918367346938775,
+      "eot_f1": 0.42028985507246375,
+      "joint_score": 0.42028985507246375,
+      "false_eot": 60,
+      "missed_eot": 20,
+      "false_eot_rate": 0.625,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          36,
+          60
+        ],
+        [
+          20,
+          29
+        ]
+      ]
+    },
+    "en": {
+      "samples": 79,
+      "threshold": 0.075,
+      "accuracy": 0.6455696202531646,
+      "eot_precision": 0.7659574468085106,
+      "eot_recall": 0.6792452830188679,
+      "eot_f1": 0.72,
+      "joint_score": 0.6455696202531646,
+      "false_eot": 11,
+      "missed_eot": 17,
+      "false_eot_rate": 0.4230769230769231,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          15,
+          11
+        ],
+        [
+          17,
+          36
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 69,
+      "threshold": 0.11499999999999999,
+      "accuracy": 0.782608695652174,
+      "eot_precision": 0.7794117647058824,
+      "eot_recall": 1.0,
+      "eot_f1": 0.8760330578512396,
+      "joint_score": 0.782608695652174,
+      "false_eot": 15,
+      "missed_eot": 0,
+      "false_eot_rate": 0.9375,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          1,
+          15
+        ],
+        [
+          0,
+          53
+        ]
+      ]
+    }
+  },
+  "minimum_joint_score": 0.42028985507246375,
+  "dev_three_languages_over_90": false,
+  "mean_AB_label_token_mass": 0.9999999871839842,
+  "minimum_AB_label_token_mass": 0.9999962449073792,
+  "sealed_loaded": false,
+  "source_sha256": "73126874a1ebd5c9ee20fd5c9cc1cde8f9e6f2fc420d5cd3b2e32a2d7d79b991",
+  "elapsed_seconds": 32.914035886999045,
+  "not_a_deployment_model": true,
+  "human_verified_quality_certified": false
+}

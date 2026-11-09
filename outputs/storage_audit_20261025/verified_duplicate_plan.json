@@ -1,0 +1,1637 @@
+{
+  "workspace": "C:\\Users\\ASUS\\Documents\\turn_detect",
+  "free_bytes_before": 2626850816,
+  "targets": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_000.bin",
+      "bytes": 16777216,
+      "sha256": "c24a104894244e142d2bcf654b89d2a59fddac3ef2a8f946d092ff52d3823e06",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_001.bin",
+      "bytes": 16777216,
+      "sha256": "2c2036606ea4e994a9563fc439e74b2332ac5ddcf91bad48712d052311aa0fd9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_002.bin",
+      "bytes": 16777216,
+      "sha256": "a1a870dd4599c7cf5a09b5fb35e89e7a434186c319f21648962f8c744cd95f70",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_003.bin",
+      "bytes": 16777216,
+      "sha256": "be8632fbff4e8e9f1370350c2ea94cdbea99e73ea3b28b685717e9fc4b3c8b19",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_004.bin",
+      "bytes": 16777216,
+      "sha256": "5f21bf66e1b01bdcda16c49b93699ef25cc04d877fbcb83a41a3df71d4dfecc7",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_005.bin",
+      "bytes": 16777216,
+      "sha256": "6b995e3ad95fc184c63a84592d705f3e0c1ba534acc490b6fc65ca5f280a3e1d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_006.bin",
+      "bytes": 16777216,
+      "sha256": "e7ea25280ea32c182dbc3e22f09a08edc245c48d5466a13efd1f9ff6c5f12c01",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_007.bin",
+      "bytes": 16777216,
+      "sha256": "86c31d7aab459af979effe90637eb0f958996c472bebb3950516b5e8628699d4",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_008.bin",
+      "bytes": 16777216,
+      "sha256": "df3a804e6e1be28067a739268b352db6a23e1bac2602790aff6b1b41bf04babe",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_009.bin",
+      "bytes": 16777216,
+      "sha256": "03d6c378b54ad057dbab6630ead0ff184d42b1369714d02bc0a585b1ae8e3209",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_010.bin",
+      "bytes": 16777216,
+      "sha256": "1cdf20ea1f9df2916e234c1ea2cebae70884d264a5f6779c8107ead0e28dd448",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_011.bin",
+      "bytes": 16777216,
+      "sha256": "b9198828a9158f0ea956b4386e239d377ce729520abb72142945b48ce10d826b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_012.bin",
+      "bytes": 16777216,
+      "sha256": "3bd426fba3c17725f93991834e0ace01f5488a2f8d5e85beaa6994dcc6f1cfad",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_013.bin",
+      "bytes": 16777216,
+      "sha256": "889edd89659d95b694cbff0970eeb26a01198d1280d757557130eaae5d870e61",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_014.bin",
+      "bytes": 16777216,
+      "sha256": "f2be0ea86a5ac4875af42098e72be0837d55407f6b14b4fb5a10851dfe700c86",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_015.bin",
+      "bytes": 16777216,
+      "sha256": "b9d4bbe7fbf8c3147f4df73f3c9905b38baf53128233042eb01399ec56132dcc",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_016.bin",
+      "bytes": 16777216,
+      "sha256": "91a051dc8d266776fa4d47413315dcbe814808a089a5b0bb15f126e2f3a8fca6",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_017.bin",
+      "bytes": 16777216,
+      "sha256": "d569b271cc9b81ca5d9dfdea9db980d5db826f85a907bcab5442c6169048c2e3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_018.bin",
+      "bytes": 16777216,
+      "sha256": "8d1a66bdf606569fef2c0c1bc985777b0ba45d1b3c966e09ae9ed972e2332b49",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_019.bin",
+      "bytes": 16777216,
+      "sha256": "d0b2318a56a0ad8e46b6261fde9f581bf469b231b978d65b73b791bd2d90b7e0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_020.bin",
+      "bytes": 16777216,
+      "sha256": "4315287de3ca976c2c8236489835d4f436e04f6bd47988417e3c5abbd82f8f88",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_021.bin",
+      "bytes": 16777216,
+      "sha256": "9063235bb20d004a3065c1323f68d8b8fb7c584f67641539acf3ee8753a84ab8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_022.bin",
+      "bytes": 16777216,
+      "sha256": "a6b5f7e9495218a6bd3447b7a50e9e7da8503515ba925b36fbf2a641a3b41c9d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_023.bin",
+      "bytes": 16777216,
+      "sha256": "27f09b3ad4c9a3bc6fe8855d4f141f1dc60eb0d623c3a9e44e8a04d51ac67707",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_024.bin",
+      "bytes": 16777216,
+      "sha256": "e90b106d12d269560c0f9a0f2c1801c266bee5b740870f0d9fa72b04ccd01321",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_025.bin",
+      "bytes": 16777216,
+      "sha256": "be0e077644160f0912c4fa8261692820b17e7eb7669eca7c49380673ce2af198",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_026.bin",
+      "bytes": 16777216,
+      "sha256": "c8d9629232146d091676cb10e7b889848fe63058036f88356892a5feeb666b00",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_027.bin",
+      "bytes": 16777216,
+      "sha256": "d75e49bc504c88295923cfc3b9a9d41f72a514a8b85221cbea02e87256636c9a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_028.bin",
+      "bytes": 16777216,
+      "sha256": "007939ee15ce4daea142ba34518a9b75f385766da620aecd6884113aac93e542",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_029.bin",
+      "bytes": 16777216,
+      "sha256": "ef25a5a9308eb4beb36238b45265b16083c41f76ca85a65007ed1e29e236f58d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_030.bin",
+      "bytes": 16777216,
+      "sha256": "8004520f0e0f0d87627a3207ea1fd3aaf66058508a6ad1cb5891f5866c7886cd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_031.bin",
+      "bytes": 16777216,
+      "sha256": "43b45ab15cdbc8b7dad3bb129eb3f19b5efef7827d89cf154ab98b755b536974",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_032.bin",
+      "bytes": 16777216,
+      "sha256": "636e517ea7201b3d720e1202af1cb3bf6db6a73db23b5e58b388889e266a31bf",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_033.bin",
+      "bytes": 16777216,
+      "sha256": "2d2b011aaa1ea4d07921c6dfa085df8e07cc979930111adf3e6b41b688e31786",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_034.bin",
+      "bytes": 16777216,
+      "sha256": "052b6c0a0ffadd844941a5f1ee6581a642911a52ab7630a3a35a76dc1e81d918",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_035.bin",
+      "bytes": 16777216,
+      "sha256": "d6086d2f8c065b4bdbe65311740fc312bcc7d7d39f7f6526fc3c39c88435b0ae",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_036.bin",
+      "bytes": 16777216,
+      "sha256": "ec1c1a4d43354602914e3b8cd65d1b6430c9ace60b5e0aa984153ccc4d644c8f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_037.bin",
+      "bytes": 16777216,
+      "sha256": "f5b83102d5ccc95e9dd750682f4e57f87e4be8206371ddc5682bc7008905f528",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_038.bin",
+      "bytes": 16777216,
+      "sha256": "47166ecef2e19542a3aaca9909ef54ba0adcdd639096fea99a4668fdf9ecadad",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_039.bin",
+      "bytes": 16777216,
+      "sha256": "9cc5e12faada215b1bd896f8c92394900b5991072f28df2f39c7317cfbb0b516",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_040.bin",
+      "bytes": 16777216,
+      "sha256": "828611972f808b0926184adbfed1db7938aab51304b15fc87ba6507a8f4f201f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_041.bin",
+      "bytes": 16777216,
+      "sha256": "a326396f57d10b702b6b12da2acbb06445327fcb23886153ad12a54bbd970536",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_042.bin",
+      "bytes": 16777216,
+      "sha256": "16ad8809b1cc963b5653a6418eb725d6591f41132b05378c04ff47a327a6c933",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_043.bin",
+      "bytes": 16777216,
+      "sha256": "9487a53d344cef034c5bf5190269bf8e9054a3bffd38b61711f439dfd5286b01",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_044.bin",
+      "bytes": 16777216,
+      "sha256": "62e4860f62338ccecd1466e8371f0c95164a65f8fa8b274a021823c8d4e937f0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_045.bin",
+      "bytes": 16777216,
+      "sha256": "5f3bab300055c45b9b616dbf1e7f0ab938f371101b7d3223f8079ce2db389a7e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_046.bin",
+      "bytes": 16777216,
+      "sha256": "3e4fcc63831c26666f661f397c89c4b85d875fee988e2d389891444e81c2c028",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_047.bin",
+      "bytes": 16777216,
+      "sha256": "c336406d0fb8746b7251da1cc3914f819ae4e29e859e42feeb0db7c3fe74dbd0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_048.bin",
+      "bytes": 16777216,
+      "sha256": "b6bb74f69b78823bc16cd27861fbe55689e05e5e5115b68195e6ea3f30772c03",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_049.bin",
+      "bytes": 16777216,
+      "sha256": "1eca7fac4927b1811f41a48448d0252f1a88fe77215d35d5ad096da0e4b057f5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_050.bin",
+      "bytes": 16777216,
+      "sha256": "d494d3e26b1897ae7032efc1509504c2ea48d90c481966935e1e82a80ab1f59d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_051.bin",
+      "bytes": 16777216,
+      "sha256": "8be143d6358c55089c2c69cfc2b7405687d781f58f9e9a4888b890e3c00b673c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_052.bin",
+      "bytes": 16777216,
+      "sha256": "13f9599453465f05593e3e331acc41da78c04ed40845ab555b209662b754fec1",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_053.bin",
+      "bytes": 16777216,
+      "sha256": "71260720c47c5f27474a18a9edb28c839961749d307ea9756dbea4803a9bb01a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_054.bin",
+      "bytes": 16777216,
+      "sha256": "a260ad0621e7ce369f47a1df8aebbbe5912acb40594e02803799a90b591b5e26",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_055.bin",
+      "bytes": 16777216,
+      "sha256": "e025a9733a09098697d6f01f2af7487fe3204321d0639c18cb9764c22814352e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_056.bin",
+      "bytes": 16777216,
+      "sha256": "94aea94851effabf0dc758f1439b765f5a52743ce5298489e7f614983dccc5fb",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_057.bin",
+      "bytes": 16777216,
+      "sha256": "2478c3f82bd7986c39e8476f4365245500ebcd8758aad6823d33e6d69b811d0b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_058.bin",
+      "bytes": 16777216,
+      "sha256": "1bfd51cbe79c8ab858260492b65fca041d8362f2d8a624e573007bce26d83cb5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_059.bin",
+      "bytes": 16777216,
+      "sha256": "91d4bcc2338e6db064064d80094bad8278466461a8e50476c7f63cd298deac28",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_060.bin",
+      "bytes": 16777216,
+      "sha256": "fff773db20719d5b867253f5150c856d478ddf26f8f92a7b08938553fad6a6b8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_061.bin",
+      "bytes": 16777216,
+      "sha256": "376f2f12a8677a97b7be89e5b73e5c1bfff9d5045634031d370bb16f317fdb63",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_062.bin",
+      "bytes": 16777216,
+      "sha256": "57085566720ed99247247cdef698ca3a63d026c950cf1a6e74fba8a1371fe810",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_063.bin",
+      "bytes": 16777216,
+      "sha256": "960819d81f63d6a17b002cf4adc9a5be6f087d2809f02ca9ec46fcd1fa2f465c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_064.bin",
+      "bytes": 16777216,
+      "sha256": "642ae46f42ba0fcbc2406cf8c11a3d7ecf20f1c062cee6271d3b5175667d5a81",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_065.bin",
+      "bytes": 16777216,
+      "sha256": "c80e569fc02802865dba0571e787f8394a48307c5823d79ca049147a46bc81d3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\checkpoint_parts\\part_066.bin",
+      "bytes": 7971944,
+      "sha256": "9e46ab8f3968440e00b56feda0d0e92f427ecc4c2600d1af346adce6bfb2fdb3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_000.bin",
+      "bytes": 16777216,
+      "sha256": "07db914ec60469a1cae457eaddc469e08b264f8c3c52487f0e2f679118e099d1",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_001.bin",
+      "bytes": 16777216,
+      "sha256": "a323683a4ccae075d0a5cf54f739edd82ba3531f3b84e9676bbb47373b0594c8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_002.bin",
+      "bytes": 16777216,
+      "sha256": "e5540cd2bfea1bc2e68ae7b9bbee168e1c1f983fdafe7f933ed530efa4de1f20",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_003.bin",
+      "bytes": 16777216,
+      "sha256": "6c6d3bf3c1b6de1a7b65216ca392e8edca6fce947f51cb34b4485d5b7082704a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_004.bin",
+      "bytes": 16777216,
+      "sha256": "4e6b46f85ce29991310baa7c17116867f683c73042730ddc3ce9727ad2f9c304",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_005.bin",
+      "bytes": 16777216,
+      "sha256": "b8f06955c64ba06856c2cd53bfad029a20f84718f3f651d00f4176637f3f3e78",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_006.bin",
+      "bytes": 16777216,
+      "sha256": "48d8266d3361c4a0ffff594499246cc81692b42d95dfe683e7ca83cea331325c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_007.bin",
+      "bytes": 16777216,
+      "sha256": "a211ad87701bd6657d719f7bab9f658f0d8d76957918e1e70f124edd25b14e52",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_008.bin",
+      "bytes": 16777216,
+      "sha256": "251d6a79e61340a680ae4330ebbe5a7caff77b32ad4446bc10cd4f8ccd7140d3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_009.bin",
+      "bytes": 16777216,
+      "sha256": "3d0ab0cf5dea4b347f40dd18472d0dff8900124c3760aef1b94a070a797e4093",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_010.bin",
+      "bytes": 16777216,
+      "sha256": "1244c9a544eb20ce9a4ddb136c57e29739272fd1ff7d27255c1ecef92e19bdd3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_011.bin",
+      "bytes": 16777216,
+      "sha256": "9f2faecd2ad66ca7a81d946959f8f1f3c2bace23f7b3c658bbf0912b562028d0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_012.bin",
+      "bytes": 16777216,
+      "sha256": "7bf96e3d814fab3f2768441bd7c1e4e201f23eec37a94245ef71d678595c800d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_013.bin",
+      "bytes": 16777216,
+      "sha256": "4c9ace4061d2c090686ae7075c91f3cabd4e2a9af8a99e4cc8ca8ec2ca0a820e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_014.bin",
+      "bytes": 16777216,
+      "sha256": "677cd4afdc07502f97c778c50a2de795cd2bfb395271790a560266d40edca112",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_015.bin",
+      "bytes": 16777216,
+      "sha256": "ad9f6381d01147cf6261c1c8c45627e0e5b96ad3ad7a760c71251ebe9fd317c7",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_016.bin",
+      "bytes": 16777216,
+      "sha256": "d47f00005ac1532c4f87412f7a72314f7dd3295a398f65034e7dac8a99ae393a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_017.bin",
+      "bytes": 16777216,
+      "sha256": "ee8b3c1085f6269333edcf1cce6bd5a0d15ff58e98c50b35ef59e2e2bdd98ba0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_018.bin",
+      "bytes": 16777216,
+      "sha256": "0681ba64bda88e3e35bd06f973d5b9e95727dace6bc0a4e3aa87d3e4f5725ec0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_019.bin",
+      "bytes": 16777216,
+      "sha256": "19782a876f8c225adf04d98ce922e857f3599e5daffa0ff3b4f87b36dc8bd554",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_020.bin",
+      "bytes": 16777216,
+      "sha256": "e5588da7bb2b820dcd5965ab097ca4b707cd5ef96be4e39ec5a97bc613992399",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_021.bin",
+      "bytes": 16777216,
+      "sha256": "f3f6732cd049f752b900b7ba2f3c1a83b2e2d4782d43870e00b6a33ecfb471da",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_022.bin",
+      "bytes": 16777216,
+      "sha256": "d21415f3eb9406bc2a5ddb7f05b4ca50fb35b443851683adf2c24accec0588ab",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_023.bin",
+      "bytes": 16777216,
+      "sha256": "056d35edca2f62ec15b1cbeeff47e0ed0ee77a761f0ef72ba2d7181a1a428821",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_024.bin",
+      "bytes": 16777216,
+      "sha256": "595bd436aa30feee0fbdca037f4083e5e561cbb2a6698875d338b8cf43a83b09",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_025.bin",
+      "bytes": 16777216,
+      "sha256": "7374de6c7c721a5846ea574b9d7f94744644e2cf6886dc5ae680f877b4fa99f5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_026.bin",
+      "bytes": 16777216,
+      "sha256": "89439b560d165b2d53e70270baafa627f3f0f22c5ada75653760332e84d2b332",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_027.bin",
+      "bytes": 16777216,
+      "sha256": "721677bb5cfc14cbe1ab1546562267069ded64628eec178cf183045c287cd40e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_028.bin",
+      "bytes": 16777216,
+      "sha256": "8fd49f26ec87a194df8ed415078228b5436cf9c66b19f1ab51ac458749c75b47",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_029.bin",
+      "bytes": 16777216,
+      "sha256": "317c72ec26fc1ad0e1eb8612ad508f394083dc63321dd8deb134c60199b9f3f4",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_030.bin",
+      "bytes": 16777216,
+      "sha256": "89b214839dda9a07d5755e2fce324afbf247d20c8a1ad0d467c4ef83727e0725",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_031.bin",
+      "bytes": 16777216,
+      "sha256": "d1b7e20cd6d7106cb4ee279b5f98fd4dd87f0b3433887682a11586b3217d2e04",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_032.bin",
+      "bytes": 16777216,
+      "sha256": "9bdb3695a8a2d2f31dabb465a72ea44a41fb7b1f707a467a35e296ac2f83cf48",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_033.bin",
+      "bytes": 16777216,
+      "sha256": "b6eca033cb984b05ab74b1e3cfce2d63dcf10922313331e781631001dea172df",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_034.bin",
+      "bytes": 16777216,
+      "sha256": "310a05e47ee2cb35bbde4a055ed6ecac5f43e4544b33d5743b48ac20b71dfe85",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_035.bin",
+      "bytes": 16777216,
+      "sha256": "1cb373708a9c55e0944e5ec9664ecc45878154f5d115b5d507174c7ec33efe6a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_036.bin",
+      "bytes": 16777216,
+      "sha256": "518f887138edd46676c6ccc034c5a6b4026d9cb61cd704827a90b702fb10fe3f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_037.bin",
+      "bytes": 16777216,
+      "sha256": "95db157dcf7faf8318909ad0421d971766e9118516f7fba2bec2da168bc3022d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_038.bin",
+      "bytes": 16777216,
+      "sha256": "ea84f982b3be6d710b4f95b9b31d9eb5444ffa0a66e99334469506c98bc1dfb5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_039.bin",
+      "bytes": 16777216,
+      "sha256": "1686c554f65501e7601149da893be3d5e3c1904701eb7a3df734b57d60a127c7",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_040.bin",
+      "bytes": 16777216,
+      "sha256": "1335fc208777b554124d888d1bf0d320f5d5b4e5a3d3c6c55e1a235047c0b6db",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_041.bin",
+      "bytes": 16777216,
+      "sha256": "f5d06ce51c040b508e670e5ebdbf055e7d7eef08a22533d122dd0bdbed52ee87",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_042.bin",
+      "bytes": 16777216,
+      "sha256": "ca7371bdddbd14e63f83bbf3a216195280071bbc64e210530e86010539feecf3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_043.bin",
+      "bytes": 16777216,
+      "sha256": "00fa956407b9ee7017c5be4a5b35d81774136f26a1de26d628d688f69f794eb1",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_044.bin",
+      "bytes": 16777216,
+      "sha256": "9e5e465edeeab331dec24461de4c4b40afd7d1aa6403547a74dde3ee1fcb1825",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_045.bin",
+      "bytes": 16777216,
+      "sha256": "e8f3b3d0c180d5d4890f8f0bae79a86e85302982a39cdf90593ea11b09810fdd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_046.bin",
+      "bytes": 16777216,
+      "sha256": "6b5fec9c329a4258e77ab4e4c082729a4f35ec7c9520c2629fd714ae2413d7aa",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_047.bin",
+      "bytes": 16777216,
+      "sha256": "06b4f6c2f58101670830687195d298801582a3190c8736a3a43c305b277e8d59",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_048.bin",
+      "bytes": 16777216,
+      "sha256": "83c65a56f6007d19579fce5dd8d0ca0d5cc999af2ff531090929429e9c1a4fa4",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_049.bin",
+      "bytes": 16777216,
+      "sha256": "ad5afc090e3c639aaa6865fa7f94ddd3d80039e276ad1e9350fa25ad381d92d3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_050.bin",
+      "bytes": 16777216,
+      "sha256": "a635b74d02791d237c83da9f2ec7f1e0daf45c5d25b6e4331a17114412dc0d3d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_051.bin",
+      "bytes": 16777216,
+      "sha256": "b5c965ab309f12d456f183b5f9cf2d73db319b8fcd99a44af14eb9150ade7a12",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_052.bin",
+      "bytes": 16777216,
+      "sha256": "9289bef9022317e7a221acc819c1d64f230b11d5168ea652024c0880ab94da6a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_053.bin",
+      "bytes": 16777216,
+      "sha256": "c46db979f92c241f29328a3353e9eb4ab043cea78cc3aab7f0bc171d76734276",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_054.bin",
+      "bytes": 16777216,
+      "sha256": "fe1cd2eb6bd4a62f9baa524926a4dad0177325882aae2abf4771732314b6d88c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_055.bin",
+      "bytes": 16777216,
+      "sha256": "b227b6f4c40eb282f35c55769f0e0d3639691f869218d9fc028c94f5661412b9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_056.bin",
+      "bytes": 16777216,
+      "sha256": "cec2605928f46523c43a1091a47417236bd02d696d74b3f6cac00832eb1bf5c9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_057.bin",
+      "bytes": 16777216,
+      "sha256": "36a8c618597fd970fd8edbcbf3f60407812f741b874a6d407349fd47da3469f0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_058.bin",
+      "bytes": 16777216,
+      "sha256": "76d288c0abd54c5bffcd12ef8c54e636edc60fb6451a52858bc547ffc70d811d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_059.bin",
+      "bytes": 16777216,
+      "sha256": "664b96836f42fa50558744064e33d7f37f40991136bf492344f4dea55400a925",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_060.bin",
+      "bytes": 16777216,
+      "sha256": "0f1499a2b171702fe63a81a5ecd0aac3c2e4e051f5c69376b022d4e1f0aab66f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_061.bin",
+      "bytes": 16777216,
+      "sha256": "88f08803507db35108a52a0bb83fd4620567eeb7a0c380be5cf2cc7319d267d2",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_062.bin",
+      "bytes": 16777216,
+      "sha256": "aa661d1c42963caf0a4b3249e28eb103bb0c2e71da599dc194d34a4e55766305",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_063.bin",
+      "bytes": 16777216,
+      "sha256": "697cd182f0518d148e72fdb7427c536b441d4fba81df1cf0e1b146befc5b398e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_064.bin",
+      "bytes": 16777216,
+      "sha256": "fbe77a478a26683bf5daee33b4f54b1818f803c28b6680213b0f9feb3b38c570",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_065.bin",
+      "bytes": 16777216,
+      "sha256": "eb134185dd58e47aebdb08da0140d95c498ce37a6484d51b1fe922bcdf3a9341",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\checkpoint_parts\\part_066.bin",
+      "bytes": 7971944,
+      "sha256": "00718bd185629f66a363e87aa3ebb1acc5b9816eeaa6ae7b81800a40361e3732",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_000.bin",
+      "bytes": 16777216,
+      "sha256": "1e238c898ec2b261a6dbeeaaf79590cd1195d5e6a5f10a13e5713a03cceb5503",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_001.bin",
+      "bytes": 16777216,
+      "sha256": "e1cd731cdf5ba57a04ab0358b14f9adfe9c0d96e3663bf775502d0990bb74775",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_002.bin",
+      "bytes": 16777216,
+      "sha256": "e434b59a7853372043fc34e1ea2b6ac477cb5e12094be00a2f1384b043092080",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_003.bin",
+      "bytes": 16777216,
+      "sha256": "ee8b6e44821f4a484b4e31b614630ea0a7a381cf60f83098541ede40ec228f1c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_004.bin",
+      "bytes": 16777216,
+      "sha256": "64b01a060a13db5d315f9ff502af905d61c83c3a87d5537233a4fc2228411d2e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_005.bin",
+      "bytes": 16777216,
+      "sha256": "5b3912a4691eeb3817b94426b841a527cec3e94f558c0ec4c1ce7654b6a98d19",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_006.bin",
+      "bytes": 16777216,
+      "sha256": "4f18921a1898ac8e734a7595c7c6d1bc05cf6cf901ec3df5912d958fa2f7271d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_007.bin",
+      "bytes": 16777216,
+      "sha256": "10146069c9f51d1b86de60c43171b40d0c6489154275bdf3fccd80cd41c9af95",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_008.bin",
+      "bytes": 16777216,
+      "sha256": "e5571aef60f3c6cfd78ab41a1beae6a3438e65bdecb0a81f7bbe172a6cc1bcdf",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_009.bin",
+      "bytes": 16777216,
+      "sha256": "23032d20bfb255beaf9b623ec3d56b6b2e119f7d6160e10d11e107046acce50e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_010.bin",
+      "bytes": 16777216,
+      "sha256": "2cfa65f0da29973fc814e8d9fe1d62fb763931e5119f39ee120b722d5f839501",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_011.bin",
+      "bytes": 16777216,
+      "sha256": "76329822d0f1788f6c62143d3b0ae1b8a34c01c9f06dc999ca8eec70cce6ef47",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_012.bin",
+      "bytes": 16777216,
+      "sha256": "8265f07a9f312766114b8b79e4f958cfd7060fe81aa78755e7181735fbf28f81",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_013.bin",
+      "bytes": 16777216,
+      "sha256": "a121911858032e803f9132d34d8a48554e1b3526a019e094cfe2af2f1c81cd42",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_014.bin",
+      "bytes": 16777216,
+      "sha256": "4c5ab13439db63245144d8847cdf1c2e01ece5015e654645cc1c80c2a6f8cf43",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_015.bin",
+      "bytes": 16777216,
+      "sha256": "0d095b8ce8dfb5076f47491e8f39144b35d7e3af9ad6ee7c8d4ea885296da23d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_016.bin",
+      "bytes": 16777216,
+      "sha256": "37deb97726a7e42d8c3bbce6d1adaa4a9e564d790be257bc6734d27beda7d2f0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_017.bin",
+      "bytes": 16777216,
+      "sha256": "f4d4e2b154b26988671b6324344c2ef86db217138ad16dabd6168386ac46ab1b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_018.bin",
+      "bytes": 16777216,
+      "sha256": "26e02719b7ace2e0277bbf06df73ec38cb199e88d8cefb98227f5417211c05bb",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_019.bin",
+      "bytes": 16777216,
+      "sha256": "6dc4cf2370ea5c3d9545671c3ade6abd5f399dea238f820d7653d69709f3a2b9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_020.bin",
+      "bytes": 16777216,
+      "sha256": "8e12faf7b257de96c4045984baae73e78704d53ac97ced432dd37773c34db130",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_021.bin",
+      "bytes": 16777216,
+      "sha256": "6e8d102d187a79e407965234106d667a22c535f6c1d31d10fd62289e0ae900e8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_022.bin",
+      "bytes": 16777216,
+      "sha256": "fcc403497825ec225daa8e8015a43a0d4fb5e9df4c670a9117d4d6415871bd8d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_023.bin",
+      "bytes": 16777216,
+      "sha256": "5267e1ecd75e424003e6225b2f5b99126f8b886b91d4cbc7637f63b1d1b950ad",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_024.bin",
+      "bytes": 16777216,
+      "sha256": "f3557d320699428bbca6c2ace289a2ff96ffb10eee22e39658d16a227119cc03",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_025.bin",
+      "bytes": 16777216,
+      "sha256": "b9559efa277d55079de6be4fa10606e8b6f23dcd5db413ce242cfc2e40ce37d9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_026.bin",
+      "bytes": 16777216,
+      "sha256": "e42a700f06df6ea6e6dc680eb99f93d5fecef6eab8fde675109d521401d9cb50",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_027.bin",
+      "bytes": 16777216,
+      "sha256": "2c73f9538cc689b12b031d6fc05994933d37b70fb5744afdee494c27158d628d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_028.bin",
+      "bytes": 16777216,
+      "sha256": "290f45e9d06996c0aaecf7cccd393dba052cf4d63e50d336b377d7f37b0bb3cd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_029.bin",
+      "bytes": 16777216,
+      "sha256": "fe05e1e5ca9149ac514001e1784b6b1c6407e37370f3ea7f1f2b9ef0c0bbb2ff",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_030.bin",
+      "bytes": 16777216,
+      "sha256": "e394f7cffd7835b796419777220e697c43509ec4d16def70f2b000d7e8954e2a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_031.bin",
+      "bytes": 16777216,
+      "sha256": "0998e89f6e020fbab482eb1b83923fe6dbe3e28b0fa70a707f5b43ed214709c3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_032.bin",
+      "bytes": 16777216,
+      "sha256": "55189f51149ebce5940c5dd9c55d1519301bdaf2af74a4b8058ee60fddc0197a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_033.bin",
+      "bytes": 16777216,
+      "sha256": "20724745aa7e9d9af142678486e698c915b9411ea3a0d710dac4f1b0a79afdb5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_034.bin",
+      "bytes": 16777216,
+      "sha256": "270dcf8f011601a8b90b94e3880959bc8e5f9029b58ef74c4cfe0af2e0306023",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_035.bin",
+      "bytes": 16777216,
+      "sha256": "b9f4c41f04e47b5c37f90c7ebdbb312da1335222736106337f81d6cac7826905",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_036.bin",
+      "bytes": 16777216,
+      "sha256": "492eff377b871288545615193bbeafb5bbe57a6b415e8cfc10583ee26af1621d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_037.bin",
+      "bytes": 16777216,
+      "sha256": "125826bc767e9902aff015c15c56471d81b51445621016719c4bfbb9676f9edd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_038.bin",
+      "bytes": 16777216,
+      "sha256": "5cffe45e4c2c2a9bcbb88e06ead1d85f710d6fa0f4b75473b950f3025cdaa69f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_039.bin",
+      "bytes": 16777216,
+      "sha256": "aeeecc481038cbe0e34eec9b5a392a5c14f17fac15285859d170618ffb44a39c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_040.bin",
+      "bytes": 16777216,
+      "sha256": "ce808b7c1e2cb2b1cbbcd7b0054c1c76ff90568e258a00de842eb96afb046bca",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_041.bin",
+      "bytes": 16777216,
+      "sha256": "1ecee03839da5dbb63b5fc846679a005ec2bfde9fab70f7899293698d82d8bd3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_042.bin",
+      "bytes": 16777216,
+      "sha256": "209e7d053f596ee00c7195cbf499470150f2abb02351834b24c5c5461f188242",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_043.bin",
+      "bytes": 16777216,
+      "sha256": "0ce35a9bfacc7e443a6f254a36c9e1bb2390fefbba84f8d58e2d5e1f43288b34",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_044.bin",
+      "bytes": 16777216,
+      "sha256": "b103127e11b0355c4d3a564de30c0a1d4bbf471cfd9ed64edb40c8113631bbc0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_045.bin",
+      "bytes": 16777216,
+      "sha256": "c5de30120e9e7606ddda954ec0e6ccff0ee775b2cb9cff58d655f28b9a179cbf",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_046.bin",
+      "bytes": 16777216,
+      "sha256": "5a07ed5ceaa099482e189dc9ae5b56a6c4d50fce2262ee768928fa85fe601c3b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_047.bin",
+      "bytes": 16777216,
+      "sha256": "e12d450c44bc6fb65b2489447c8a5ea918848180af1f9c4e399e93414d32afc4",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_048.bin",
+      "bytes": 16777216,
+      "sha256": "724aa257a67b77474657dbad157f0814191518dcacb987405cd8bd97d57ff254",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_049.bin",
+      "bytes": 16777216,
+      "sha256": "77e7d131869894391a67c15d75cd784b4b16dbf40ec2c8bbf60b75de10f158b5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_050.bin",
+      "bytes": 16777216,
+      "sha256": "341c3b3d8dfb1394d63f94ad07b7859ea27c9003b68b7827b9bdbb9b8401d682",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_051.bin",
+      "bytes": 16777216,
+      "sha256": "94f7ca3c989eb467d16443771f62315380b7f2f7eec333b220d79d852dcb53c8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_052.bin",
+      "bytes": 16777216,
+      "sha256": "225bf1326c44513db1de892c0ebd3dc86a3feb69c69c1bb0525b947a69a1c6e5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_053.bin",
+      "bytes": 16777216,
+      "sha256": "cb844de7f5d25f21f6e5a481bdcfde10c26e6133e4903e9638a2d7b1b8d5a12c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_054.bin",
+      "bytes": 16777216,
+      "sha256": "a4f29780ba40e1f76d379741235c442198386b9af174efa218ac4346053ae96c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_055.bin",
+      "bytes": 16777216,
+      "sha256": "80874fd543ab4e843536ae95d2bfd17dc1c7ff4a5b8f34ffee5902cac7f09bf6",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_056.bin",
+      "bytes": 16777216,
+      "sha256": "3b014847d528382c44154542bcd509c0653e8b76dba3fe5d1936e2b9d4e0b0ce",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_057.bin",
+      "bytes": 16777216,
+      "sha256": "facef7f97042d39b41537d8c735d85c64cfde640fe6c4f9cbaaa20978dea3740",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_058.bin",
+      "bytes": 16777216,
+      "sha256": "b3b1e38b950526ea5d50d63de2e18c441d351dd7a184220830d8fbbb65f4d6f5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_059.bin",
+      "bytes": 16777216,
+      "sha256": "19d7779b9ea48f68528badcda8f7ba7c88cf052824901381268a02675a6ab810",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_060.bin",
+      "bytes": 16777216,
+      "sha256": "b50e05775524c5e32866d9b472593e044433bf1dbdf6c17a3142689a702c1620",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_061.bin",
+      "bytes": 16777216,
+      "sha256": "a9b823dc655f0a7d22b9eadb0e8224fcb9f545f8c82b099dee8e3e37c05d8acb",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_062.bin",
+      "bytes": 16777216,
+      "sha256": "99ab74c224cd531032b7010b7ac7dd59c5a99a3ecd81bc9d47bc4a4f4bd6105f",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_063.bin",
+      "bytes": 16777216,
+      "sha256": "3742f97bafafc62ad8c202e37c454d93449ecc662c10a34e267bfced5b68425a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_064.bin",
+      "bytes": 16777216,
+      "sha256": "d4bc7c4a44f028defc4c5ec00123790e26b71dd373589eef5c8e914dd39177ae",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_065.bin",
+      "bytes": 16777216,
+      "sha256": "b99270dc3f1ed20fd3dcdf3666c1adbe7da054630946a432e021215e41f4d136",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_en\\part_066.bin",
+      "bytes": 7971944,
+      "sha256": "d520e41ffe81c2ccd02d3b990ad711f24e2703246c3cd786cee75681ee6a852c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_000.bin",
+      "bytes": 16777216,
+      "sha256": "9f4ede698f512e1c30abceb6a607a104d5f5093ebec76fa285dabbc8e82ff87b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_001.bin",
+      "bytes": 16777216,
+      "sha256": "80cbb2d77069a62b104f29343cd871d3275aa2ead7cbbfce3c82c1278faeec71",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_002.bin",
+      "bytes": 16777216,
+      "sha256": "9101cf002ecc00bbfc2593bc32451ccd565bd0671ec2402453741203a03ffec0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_003.bin",
+      "bytes": 16777216,
+      "sha256": "757510e2054b3287e49b707496767103ce1abe50f2f39ea05279f4d90ab8463c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_004.bin",
+      "bytes": 16777216,
+      "sha256": "e1a99f9853f0c7d8f6cf890c007c5411613d6d919588d484680ffdf98fa9fc39",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_005.bin",
+      "bytes": 16777216,
+      "sha256": "596dc924382ad39e5989a2544c3ade67cd7f7c7be7c214f2b8f466927caa7078",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_006.bin",
+      "bytes": 16777216,
+      "sha256": "522f520f79623d9827ef6c8e16383ba0130d71d9141f38cfde45091a98a08511",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_007.bin",
+      "bytes": 16777216,
+      "sha256": "0face144ab608bfa900ecd9d420ead153422be84a94b316aa1e04e8c3124086d",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_008.bin",
+      "bytes": 16777216,
+      "sha256": "15a61eae98915e7454e59b797baed18e2cde1be97ffb65b1443201659f220a4a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_009.bin",
+      "bytes": 16777216,
+      "sha256": "70f493f5df5f558712a8917080fbe31ecf3688ab97ffe3421ba4ae70c25e37fa",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_010.bin",
+      "bytes": 16777216,
+      "sha256": "f6832c76a644f188567728d1d46b78bfc96a3991a7e9a5d5ca288f366bf4c819",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_011.bin",
+      "bytes": 16777216,
+      "sha256": "9fa33e2be15dc11cceaa79abfb1fa7c18c186b6f557494238c8339b826214986",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_012.bin",
+      "bytes": 16777216,
+      "sha256": "3be8af234a494c96138999ee378d11f317083dd4a4995903198987e8aa45ac8b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_013.bin",
+      "bytes": 16777216,
+      "sha256": "d07cae760ff5ccb02ea4520b495181d7ed3e1ea86579ea862d3e3211dc2eff00",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_014.bin",
+      "bytes": 16777216,
+      "sha256": "4bbb1c7770aa0834c11bb10a0b22ba79e98b57d512783ce113ce757eaa17d833",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_015.bin",
+      "bytes": 16777216,
+      "sha256": "2d1bb48d9d6ed06a20210785301c157ef53d14cb24c57e9ef3798dd99e9617b7",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_016.bin",
+      "bytes": 16777216,
+      "sha256": "5eb88924391eae1831d2380a00c19e4ba1b261e1b0c82cff1c73421f5e50e71b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_017.bin",
+      "bytes": 16777216,
+      "sha256": "69024defaf313bf7e490f00743919faa25ae195d13205f357d7266deb6567154",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_018.bin",
+      "bytes": 16777216,
+      "sha256": "f8a5cbe7da910b0355398d971bedca0d406f0637cf8b1f077cdda37899fae326",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_019.bin",
+      "bytes": 16777216,
+      "sha256": "10b0d20d5c69e138b859a5bc5edeea248e3557999e4419b84d2f41319b584c5e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_020.bin",
+      "bytes": 16777216,
+      "sha256": "dc9721284a7da0b4ff57c463894e3f55ed201be3667efd3252d72c88ecca74da",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_021.bin",
+      "bytes": 16777216,
+      "sha256": "998f2f2dc6e225451447807ef0022f83dd0abe8871f1c46a206373dcad474237",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_022.bin",
+      "bytes": 16777216,
+      "sha256": "4d6913a81fc5c91db7348af434422e4a2200b73d6d7f9a6fad2f264ba4abb3e0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_023.bin",
+      "bytes": 16777216,
+      "sha256": "1b914c3759e830bb367f0246a6c7852671bcf347bbc82746d11535f1b81e78fb",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_024.bin",
+      "bytes": 16777216,
+      "sha256": "4b5700224cb6d821e2e9a8777f13abde422f780052871a4618f8a3547c7a31bf",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_025.bin",
+      "bytes": 16777216,
+      "sha256": "b4a21b148a8cbe2519f7347b76df9e34c8190c5b6d28cac6efe75214f5ca6eb7",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_026.bin",
+      "bytes": 16777216,
+      "sha256": "253720bce4ae427b882f4ea54121c671dfcb9b0fa51efe559d274cd9f4e871ef",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_027.bin",
+      "bytes": 16777216,
+      "sha256": "22d329c6afa95942a877a7472c15740f39d4dd3ce6187bde0b630d4e5eb30986",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_028.bin",
+      "bytes": 16777216,
+      "sha256": "ae0ba3473f0c9f0ec3c2f21d293e1f727317f096b58e5a3a6743e7b895d7e5f4",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_029.bin",
+      "bytes": 16777216,
+      "sha256": "00406a7c05e23897956664fa27df2d020082681a8a5d2a12c4b4468b9cbe7797",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_030.bin",
+      "bytes": 16777216,
+      "sha256": "8e231a89a5638f4a52a15f4f29561cdce2633bc657f77e318eaa0bfead565b80",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_031.bin",
+      "bytes": 16777216,
+      "sha256": "39ff02192314719e550224398e6d60825352b898f25a3ac6e0fef5eb1f46f893",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_032.bin",
+      "bytes": 16777216,
+      "sha256": "2a0dc3fd1ba8e3294b464e8ad626247a84d409574cdad3de2a67de3a82544cd9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_033.bin",
+      "bytes": 16777216,
+      "sha256": "f1733bafe681344ead1320809879c96285c8d16e8d39a12ef413ba7c3c6525b5",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_034.bin",
+      "bytes": 16777216,
+      "sha256": "09abcd70f734a46c9693bede1b58c604ae26adb76afa4ff8e50ead57add802cd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_035.bin",
+      "bytes": 16777216,
+      "sha256": "739aefc0c932c50494b0551296d0952eb2cf10f8d1dd25af9a490801e9390ca3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_036.bin",
+      "bytes": 16777216,
+      "sha256": "d1adcb3fddfe584b981065da6a1defd1c9581630fc16fbbbc92112b5b5ca2743",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_037.bin",
+      "bytes": 16777216,
+      "sha256": "be30a96c99fcaa8457fe2e46a42d9125a627495edba6e6465a677725a879ff88",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_038.bin",
+      "bytes": 16777216,
+      "sha256": "93fc54edc9d72a095dbf7855dc901b909b5447508837f25aff3400c613df18ec",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_039.bin",
+      "bytes": 16777216,
+      "sha256": "d0af680bba2adb879023b84df41b155d4bc392fb55186a4fadb1f3eebed4658b",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_040.bin",
+      "bytes": 16777216,
+      "sha256": "14e5a105bc04c6b788e999148d80c2de9c38638ecaefb9556f5d5e9ec8995101",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_041.bin",
+      "bytes": 16777216,
+      "sha256": "31c80a920d8859ea1c7f59de8834baff5df010b05819a4e9924c0a9b5f91ab80",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_042.bin",
+      "bytes": 16777216,
+      "sha256": "812e0407ece45f0f7a951e243fce5b5a402f73725f59518fa0b9fd1c0b0faa25",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_043.bin",
+      "bytes": 16777216,
+      "sha256": "dc17b928464e24dced304855c8f527e9dcae6ec9172b7c940debe7d9552d0604",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_044.bin",
+      "bytes": 16777216,
+      "sha256": "34d0cbc3811ba6bfb34ce80dc9a540eace5e862a291a7ea6edf4fbf8dca30981",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_045.bin",
+      "bytes": 16777216,
+      "sha256": "aecdb71860fa99e54390ee3f93550d2703a1e029aaef2e99ef6e30e150cbb3c9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_046.bin",
+      "bytes": 16777216,
+      "sha256": "c3fd3b59d19718a074a1335f6cef45e58d9f8532a3640baf4d6931175212d0e0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_047.bin",
+      "bytes": 16777216,
+      "sha256": "7dd1c04e9043c9abdb6f7f5b8037d6995834302f3a226b8396aa6846d19c6e97",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_048.bin",
+      "bytes": 16777216,
+      "sha256": "923d1276749832b850bee5ea219816459c9c7bde1d6806180cd8b4d83af01789",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_049.bin",
+      "bytes": 16777216,
+      "sha256": "7f771a51725e5a09b81df604d397f01565d34766ee7ef49c9b7241e214173379",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_050.bin",
+      "bytes": 16777216,
+      "sha256": "bb097d13e66b4edcff0b3e76983f0bda33445504ad290db8a0865ab65080e1a8",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_051.bin",
+      "bytes": 16777216,
+      "sha256": "0a5715cfcdce696f9d4f4be0366f77ef217a82fc8a53393849b36c26b4a9aa02",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_052.bin",
+      "bytes": 16777216,
+      "sha256": "0754ff522642219a27e9366351872f11649de4b6f7c1bb110a2c29811e88a1dd",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_053.bin",
+      "bytes": 16777216,
+      "sha256": "918d63e5eef756a085ee6d47b96bc598f61e4ce3b1d9bba10d956dac3edfb41a",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_054.bin",
+      "bytes": 16777216,
+      "sha256": "8877e51357fc1dbef3d97df9c4bbbd75744dba26134ee6e9b70f0e5e378b3fb9",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_055.bin",
+      "bytes": 16777216,
+      "sha256": "600ac8b01bab887f0cd6246e346fe09907cf6123664faaeedd60dea9f31bdbfa",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_056.bin",
+      "bytes": 16777216,
+      "sha256": "7ebae1fe4a37355cae57c1a8b786ca980078fbfb1fdb19fe0e02d314c2ca982c",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_057.bin",
+      "bytes": 16777216,
+      "sha256": "fe970039202f265bcfe81fcb1a80c8a38ba92b5003d0ccaf8fec38d8ecb1a798",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_058.bin",
+      "bytes": 16777216,
+      "sha256": "0085c65715f9d620fee060d5bc999f1ab6c1204a63dcf2b887db00751920a38e",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_059.bin",
+      "bytes": 16777216,
+      "sha256": "17d8828aad5357d8b5e1a9ef71f840539ed26dc83f299a86ec88eebbbeb3fec3",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_060.bin",
+      "bytes": 16777216,
+      "sha256": "3b1bf3e3031317881670db7f75fa8096d63c532c7dff7f3dd7470031d3abeeb2",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_061.bin",
+      "bytes": 16777216,
+      "sha256": "79bf0978ff050254d69af0dd833c3b7dcbb2176554369ea2f2279851b0ce57a0",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_062.bin",
+      "bytes": 16777216,
+      "sha256": "d001b3c0e0cff0cf58d3d4137b69f51c475d2e7adc6342463796f3cfb6ec2868",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_063.bin",
+      "bytes": 16777216,
+      "sha256": "bbb30434f789e983739fdc3c7aa833d8bbf5552eac1e5cdfbe19e634642a7549",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_064.bin",
+      "bytes": 16777216,
+      "sha256": "008bf8952dd194a4b2fc21683c2ae5d537425d42f5733cbeeb14ed8982dcebca",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_065.bin",
+      "bytes": 16777216,
+      "sha256": "2c78fd352c2f26c5a12e4313a9d6a674d080c1c90eb9ea07ea80462a910c6063",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\backup_zh\\part_066.bin",
+      "bytes": 7971944,
+      "sha256": "714b7fb46cafdcf7dd5b272c589d251602ee9df6d8d76f13f7c31f33b42ff404",
+      "duplicate_of": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors"
+    }
+  ],
+  "retained_checkpoints": [
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\stream_v4_20261025\\runs\\stream_v4_campaign_20261025\\round_02\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\natural_v5_20261025\\runs\\natural_v5_train_20261025\\round_02\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_en_teacher_20261025\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "c702764201835484762fd8004d1afa4e0a4d1060ac17fa30d32c69c147ab771d"
+    },
+    {
+      "path": "C:\\Users\\ASUS\\Documents\\turn_detect\\outputs\\monolingual_20261025\\runs\\mono_zh_teacher_20261025\\best\\model.safetensors",
+      "bytes": 1115268200,
+      "sha256": "4c5bac37dc95496b430b223a101861c6c9a1468358c8574d80bf396e24c1ae13"
+    }
+  ],
+  "reclaim_bytes": 4461072800
+}

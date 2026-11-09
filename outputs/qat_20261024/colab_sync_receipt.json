@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"exit_code\": 0, \"stdout\": \"{\\\"model_sha256\\\": \\\"9aeae3868139d5c2faa19bee34d7128a90c41ae5b0161a8f87fc039d96188412\\\", \\\"hashes_verified\\\": true, \\\"samples\\\": 17833, \\\"max_probability_delta_vs_reference\\\": 2.220446049250313e-16, \\\"dev_metrics\\\": {\\\"accuracy\\\": 0.9354567375091123, \\\"eot_f1\\\": 0.9019340546988157, \\\"false_eot\\\": 831, \\\"missed_eot\\\": 320}, \\\"torch_imported\\\": false, \\\"transformers_imported\\\": false, \\\"demos\\\": [{\\\"text\\\": \\\"h\\\\u00e0 n\\\\u1ed9i l\\\\u00e0 th\\\\u1ee7 \\\\u0111\\\\u00f4 v\\\\u00e0 l\\\\u00e0 m\\\\u1ed9t trong nh\\\\u1eefng trung t\\\\u00e2m v\\\\u0103n h\\\\u00f3a l\\\\u1edbn c\\\\u1ee7a vi\\\\u1ec7t nam\\\", \\\"prediction\\\": \\\"NEOT\\\", \\\"prob_EOT\\\": 0.34706145740863453, \\\"threshold\\\": 0.4699999999999999, \\\"smoke_only\\\": false}, {\\\"text\\\": \\\"t\\\\u00f4i mu\\\\u1ed1n \\\\u0111\\\\u1eb7t v\\\\u00e9 \\\\u0111i\\\", \\\"prediction\\\": \\\"NEOT\\\", \\\"prob_EOT\\\": 0.007180582076335827, \\\"threshold\\\": 0.4699999999999999, \\\"smoke_only\\\": false}, {\\\"text\\\": \\\"c\\\\u1ea3m \\\\u01a1n b\\\\u1ea1n\\\", \\\"prediction\\\": \\\"NEOT\\\", \\\"prob_EOT\\\": 0.007199121380780944, \\\"threshold\\\": 0.4699999999999999, \\\"smoke_only\\\": false}], \\\"holdout_evaluated\\\": false, \\\"passed\\\": true}\\n\", \"stderr\": \"\"}\n"
+    }
+  ],
+  "elapsed_seconds": 8.53200000000652
+}

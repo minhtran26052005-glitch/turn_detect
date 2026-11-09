@@ -1,0 +1,11 @@
+{
+  "reason": "PEFT0.21.2 rejects installed torchao0.10.0; BF16 nonquantized LoRA does not use torchao",
+  "patch_scope": "This child process only; two optional availability probes return false",
+  "packages_changed": false,
+  "original_failed_run_preserved": true,
+  "precision": "BF16 base; standard LoRA adapters",
+  "peft": "0.21.2",
+  "torchao": "0.10.0",
+  "wrapper_sha256": "62cccdf75b997f44dd2fb4ad82f13b303db9e29b5ab2e3a05bbc525b13334d29",
+  "training_source_sha256": "626efa1c1ee5f89e8e25ad4a7a47ef989fe24bd145c40fa34e2a23c973fcce8d"
+}

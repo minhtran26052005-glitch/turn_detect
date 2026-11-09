@@ -1,0 +1,26 @@
+[
+  {
+    "run": "distill_gru_h128_e64_l1_stage2_20261024",
+    "precision": "int8",
+    "bytes": 605210,
+    "accuracy": 0.9347277519205967,
+    "f1": 0.9006317227249445,
+    "elapsed_seconds": 14.606374740600586
+  },
+  {
+    "run": "distill_gru_h128_e64_l1_stage2_20261024",
+    "precision": "fp16",
+    "bytes": 926931,
+    "accuracy": 0.9348959793641003,
+    "f1": 0.9005908040071924,
+    "elapsed_seconds": 14.658644199371338
+  },
+  {
+    "run": "distill_gru_h128_e64_l1_stage2_20261024",
+    "precision": "fp32",
+    "bytes": 1613740,
+    "accuracy": 0.9349520551786015,
+    "f1": 0.9006679225894845,
+    "elapsed_seconds": 14.750382661819458
+  }
+]

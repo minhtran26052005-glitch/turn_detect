@@ -1,0 +1,7 @@
+{
+  "pid": 3053342,
+  "start_ticks": "51621203",
+  "module": "turn_v2.factory_stream_precision_dev_v1",
+  "scope": "DEV-only precision/recall experiment; no model or training changes",
+  "selector_self_checks_passed": true
+}

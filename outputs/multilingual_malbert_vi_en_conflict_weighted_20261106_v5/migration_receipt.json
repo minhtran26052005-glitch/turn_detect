@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "parent_step": 2355080,
+  "parent_branch_step": 890000,
+  "parent_epoch": 2,
+  "parent_cursor": 9258,
+  "parent_full_sha256": "f020f5b0cecf5576ca594a92e300a4ea94b2810ec7973c463cf625d09e5d8b8c",
+  "initial_child_full_sha256": "19ed9f7c3a638a9e10bdc79f7b1f1d0c272719bd9ec0d5a4e9b8e00210660c71",
+  "model_optimizer_rng_order_cursor_lanes_preserved": true,
+  "preserved_fields": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "sampler_rng",
+    "order",
+    "cursor",
+    "stream_state",
+    "best_threshold"
+  ],
+  "optimizer_entries": 27,
+  "parameters": 11941122,
+  "drive_replay_rows": 0,
+  "partial_tail_expected_filtered_points": 4520132,
+  "new_loss": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "train_words_labels_dev_unchanged": true,
+  "source_exclusion_mask_explicitly_versioned": true,
+  "base_model_reset": false,
+  "test_used": false
+}

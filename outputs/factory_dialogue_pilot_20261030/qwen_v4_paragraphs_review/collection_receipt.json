@@ -1,0 +1,26 @@
+{
+  "manifest.json": {
+    "bytes": 1607,
+    "sha256": "6709c4bb26736cd9651f5cc24d39f0ffaffc4f23f3e66595d49fd1147e6eae4e"
+  },
+  "dialogues.jsonl": {
+    "bytes": 244544,
+    "sha256": "c7f53debd40e9742d67e19d9a5025bd7c89549bcc1627442b7500341c5a846e2"
+  },
+  "examples_vi_sample.jsonl": {
+    "bytes": 70070,
+    "sha256": "e4310a54af92176818633131766edd8bdb351be0068a6b94c7e704c007c0204a"
+  },
+  "examples_en_sample.jsonl": {
+    "bytes": 66129,
+    "sha256": "7c75824a54301c9c21d8bf53e91b651ca06be3e188639521714c88c3987135a1"
+  },
+  "examples_zh_sample.jsonl": {
+    "bytes": 53850,
+    "sha256": "d0b1d4d1c36188491ef1dc0be69cb06b18f0cf7d65ee46b4d3170ecc824c69bb"
+  },
+  "rejected_summary.json": {
+    "bytes": 3364,
+    "sha256": "5ea5deed368ce13bb68d878949e87d919408f6d24cb1aaf96e48f43f914a5740"
+  }
+}

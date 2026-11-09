@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"strict_gpu_samples\": 7190, \"cudnn_tf32\": false, \"matmul_tf32\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 2.2969999999913853
+}

@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"jobs/natural_v8_lora_20261025_r2/status.json\": {\"status\": \"FAILED\", \"started_at_utc\": \"2026-10-24T21:05:57.325363+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.natural_v8_lora_r2\"], \"timeout_seconds\": 5400, \"pid\": 176066, \"elapsed_seconds\": 35.00537967681885, \"heartbeat_unix\": 1792875987.3300357, \"exit_code\": 1, \"finished_at_utc\": \"2026-10-24T21:06:32.330746+00:00\"}, \"log_tail\": \"\\nLoading weights:   0%|          | 0/398 [00:00<?, ?it/s]\\nLoading weights: 100%|\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588| 398/398 [00:00<00:00, 4285.97it/s]\\nTraceback (most recent call last):\\n  File \\\"<frozen runpy>\\\", line 203, in _run_module_as_main\\n  File \\\"<frozen runpy>\\\", line 88, in _run_code\\n  File \\\"/content/turn_detect_v2/turn_v2/natural_v8_lora_r2.py\\\", line 34, in <module>\\n    main(parser.parse_args())\\n    ~~~~^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/content/turn_detect_v2/turn_v2/natural_v8_lora_r2.py\\\", line 29, in main\\n    original.run(args)\\n    ~~~~~~~~~~~~^^^^^^\\n  File \\\"/content/turn_detect_v2/turn_v2/natural_v8_lora.py\\\", line 98, in run\\n    probe_logits=pair_logits(model,batch(train_ids,probe_index,tokenizer),weights)\\n                                   ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/content/turn_detect_v2/turn_v2/natural_v8_lora.py\\\", line 23, in batch\\n    for k,i in enumerate(index):values[k,-len(ids[i]):]=ids[i];mask[k,-len(ids[i]):]=1\\n                                ~~~~~~^^^^^^^^^^^^^^^^^\\nValueError: invalid literal for int() with base 10: 'input_ids'\\n\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

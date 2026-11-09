@@ -1,0 +1,9 @@
+{
+  "pid": 3217492,
+  "start_ticks": "52069749",
+  "module": "turn_v2.multilingual_tiny_compress_v3",
+  "source_sha256": "fba8b5b3fe0b5982697da46264bf3dc34c4514ff97d1dfce56d5fa49eeb862c6",
+  "technical_checks_passed_before_launch": true,
+  "previous_helpers_stopped_while_only_waiting_no_training_steps": true,
+  "main_training_untouched": true
+}

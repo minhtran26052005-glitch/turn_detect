@@ -1,0 +1,294 @@
+{
+  "created_utc": "2026-11-03T17:54:29.034282+00:00",
+  "roles": [
+    {
+      "part": "asr_crawl/run2b",
+      "role": "TRAIN candidate",
+      "rows": 12415,
+      "note": "All rows are split=train; filter keep=true, stitch valid chunks, and preserve video groups when checking against eval/asr. Not imported in this task."
+    },
+    {
+      "part": "factory/gen4000",
+      "role": "TRAIN candidate, or prospectively reserve whole dialogues before first use",
+      "rows": 64947,
+      "note": "3946 dialogue IDs, no split field. Lock source-dialogue splits and remove overlap with held evaluation sources before importing. Not imported in this task."
+    },
+    {
+      "part": "factory/gen500",
+      "role": "Already used as TRAIN; no new independent test for the current model",
+      "rows": 8198,
+      "note": "Exact SHA match to earlier labels_checked.jsonl. The 54 gen500 dialogues in eval/factory have actual additional TRAIN samples."
+    },
+    {
+      "part": "daily_conversation/full",
+      "role": "Use its existing split: train / dev(validation) / test",
+      "rows": 189122,
+      "split_rows": {
+        "train": 169930,
+        "dev": 9678,
+        "test": 9514
+      },
+      "note": "Exact SHA match to earlier labels_checked (1).jsonl. TRAIN was sampled already; DEV/TEST were kept out. Do not import a second copy or reassign trained conversations to test."
+    },
+    {
+      "part": "eval/asr",
+      "role": "Validation/test candidates according to split",
+      "note": "46 dev and62 test job records; text references, no human/audio EOT timing labels in this archive. No detected additional-TRAIN full-turn overlap; source-video mapping to prospective new ASR train must still be checked."
+    },
+    {
+      "part": "eval/daily",
+      "role": "Validation/test candidates according to split",
+      "note": "506 dev and484 test language/segment job records. Same held-out families as Daily full, not a second independent corpus; no detected current additional-TRAIN source-family overlap."
+    },
+    {
+      "part": "eval/factory",
+      "role": "Validation/test only after excluding contaminated source groups",
+      "exclude_dialogues": {
+        "dev": 30,
+        "test": 24
+      },
+      "remaining_candidates": {
+        "dev": 105,
+        "test": 106
+      },
+      "note": "54 actual used-source families/complete turns overlap additional TRAIN. Remaining candidates still require final target-specific input decontamination before claiming independent test."
+    },
+    {
+      "part": "eval/numeric/sentence + eval/numeric/dialogue",
+      "role": "Auxiliary validation/test for spoken numbers, codes, units and related sentence contexts",
+      "note": "Keep existing dev/test splits; translation/numeric reference quality is not an EOT gold label."
+    },
+    {
+      "part": "eval/numeric/code + eval/onevoice",
+      "role": "Diagnostic auxiliary tests; not sufficient for primary streaming EOT acceptance",
+      "note": "Code-only and isolated sentence/translation tasks lack a complete streaming turn-boundary reference. OneVoice has100 VI source test rows and English translation references."
+    }
+  ],
+  "training_dataset_sha256_checked": "8e40ba6a010c9361c1b5f18e097447fa2b9bc039ff7b7bec8e7a754bd3addbb4",
+  "training_unchanged": true,
+  "model_scoring_performed": false,
+  "new_zip_training_import_performed": false,
+  "contaminated_eval_factory_dialogues": [
+    {
+      "dialogue_id": "gen500__r00023",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00054",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00007",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00004",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00028",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00029",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00053",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00030",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00017",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00063",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00010",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00078",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00104",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00016",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00061",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00117",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00090",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00135",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00133",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00216",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00200",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00169",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00187",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00208",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00217",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00258",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00189",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00224",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00232",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00271",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00282",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00280",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00351",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00304",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00352",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00363",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00369",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00353",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00433",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00402",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00403",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00437",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00400",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00476",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00412",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00361",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00488",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00475",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00459",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00444",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00466",
+      "split": "test"
+    },
+    {
+      "dialogue_id": "gen500__r00478",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00451",
+      "split": "dev"
+    },
+    {
+      "dialogue_id": "gen500__r00481",
+      "split": "test"
+    }
+  ],
+  "interpretation": "These archives mainly hold transcripts and translation/teacher references. Derive compatible causal punctuation-silver EOT labels for development/diagnostics; they do not establish human/audio turn-completion accuracy.",
+  "limitations": "Exact used-source-dialogue family and normalized complete-turn overlap against actual additional TRAIN samples. No model scoring or changes. Does not exhaust the old200000 replay token windows, all reset windows or paraphrases.",
+  "full_current_train_test_independence_certified": false,
+  "source_group_namespace_rule": "Use archive member/run plus original dialogue ID. gen500 and gen4000 reuse rNNNN IDs; IDs alone do not prove identical content.",
+  "reported_to_user": true
+}

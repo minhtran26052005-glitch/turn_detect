@@ -1,0 +1,15 @@
+{
+  "stage": "COMPLETE",
+  "archive": "/content/factory_stream_full_export_20261102_v1/output/factory_committed_snapshot.tar",
+  "bytes": 46499840,
+  "sha256": "828a656d13e2f7f263286bf630a785d1cb3576f26c4ceb39a6e6507726938ddf",
+  "manifest_sha256": "104a9aec9ff296b3707428f1ebadf20ad72c612268812fb13237ec944cdfba35",
+  "frozen_commit_index": 722,
+  "accepted_dialogues": {
+    "vi": 10000,
+    "en": 6441
+  },
+  "files": 1449,
+  "pid": 35348,
+  "generation_interrupted": false
+}

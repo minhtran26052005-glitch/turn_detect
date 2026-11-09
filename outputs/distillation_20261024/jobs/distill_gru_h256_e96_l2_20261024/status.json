@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T13:14:19.311643+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.distill",
+    "--output",
+    "runs/distill_gru_h256_e96_l2_20261024",
+    "--hidden-size",
+    "256",
+    "--embedding-size",
+    "96",
+    "--layers",
+    "2",
+    "--epochs",
+    "8",
+    "--batch-size",
+    "256"
+  ],
+  "timeout_seconds": 2400,
+  "pid": 59576,
+  "elapsed_seconds": 145.01913189888,
+  "heartbeat_unix": 1792847799.330009,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T13:16:44.330779+00:00"
+}

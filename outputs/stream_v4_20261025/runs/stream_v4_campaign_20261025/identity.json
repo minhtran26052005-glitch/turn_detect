@@ -1,0 +1,11 @@
+{
+  "initial_checkpoint_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "data_manifest_sha256": "18a91982ead46f5fc977441e309584dfe3444512c1102d84c2cfc23d12164776",
+  "source_sha256": "f5444c413bfacc11fe4a508d0bea87dd4aeb382601256a04caa8afb2d530e256",
+  "train_samples": 104143,
+  "dev_samples": 5992,
+  "rounds_max": 3,
+  "steps_per_round": 600,
+  "input_contract": "tail of current text + budgeted context; no future text; 256tokens",
+  "sealed_test_loaded": false
+}

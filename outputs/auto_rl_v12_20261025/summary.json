@@ -1,0 +1,206 @@
+{
+  "status": "BOUNDED_AUTO_CRAWL_JUDGE_RL_COMPLETE",
+  "quality_target_certified": false,
+  "rounds": [
+    {
+      "round": 1,
+      "pages": 6,
+      "candidates": 93,
+      "accepted": 51,
+      "errors": []
+    },
+    {
+      "round": 2,
+      "pages": 5,
+      "candidates": 90,
+      "accepted": 56,
+      "errors": [
+        {
+          "language": "zh",
+          "title": "铁路运输",
+          "error": "HTTPError:429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=extracts%7Cinfo%7Crevisi"
+        }
+      ]
+    }
+  ],
+  "reward_label_counts": [
+    {
+      "round": 1,
+      "language": "vi",
+      "accepted_EOT": 7,
+      "accepted_NEOT": 10
+    },
+    {
+      "round": 1,
+      "language": "en",
+      "accepted_EOT": 5,
+      "accepted_NEOT": 20
+    },
+    {
+      "round": 1,
+      "language": "zh",
+      "accepted_EOT": 4,
+      "accepted_NEOT": 5
+    },
+    {
+      "round": 2,
+      "language": "vi",
+      "accepted_EOT": 6,
+      "accepted_NEOT": 14
+    },
+    {
+      "round": 2,
+      "language": "en",
+      "accepted_EOT": 7,
+      "accepted_NEOT": 20
+    },
+    {
+      "round": 2,
+      "language": "zh",
+      "accepted_EOT": 4,
+      "accepted_NEOT": 5
+    }
+  ],
+  "results": [
+    {
+      "round": 1,
+      "language": "vi",
+      "steps": 75,
+      "kept": true,
+      "accuracy_before": 0.45517241379310347,
+      "F1_before": 0.4697986577181208,
+      "accuracy_after": 0.503448275862069,
+      "F1_after": 0.4857142857142857,
+      "min_score_before": 0.45517241379310347,
+      "min_score_after": 0.4857142857142857
+    },
+    {
+      "round": 1,
+      "language": "en",
+      "steps": 75,
+      "kept": false,
+      "accuracy_before": 0.6455696202531646,
+      "F1_before": 0.75,
+      "accuracy_after": 0.6329113924050633,
+      "F1_after": 0.7184466019417476,
+      "min_score_before": 0.6455696202531646,
+      "min_score_after": 0.6253101736972705
+    },
+    {
+      "round": 1,
+      "language": "zh",
+      "steps": 75,
+      "kept": false,
+      "accuracy_before": 0.7101449275362319,
+      "F1_before": 0.8275862068965517,
+      "accuracy_after": 0.6956521739130435,
+      "F1_after": 0.8141592920353983,
+      "min_score_before": 0.5333333333333333,
+      "min_score_after": 0.5136986301369864
+    },
+    {
+      "round": 2,
+      "language": "vi",
+      "steps": 75,
+      "kept": false,
+      "accuracy_before": 0.503448275862069,
+      "F1_before": 0.4857142857142857,
+      "accuracy_after": 0.4689655172413793,
+      "F1_after": 0.4689655172413793,
+      "min_score_before": 0.4857142857142857,
+      "min_score_after": 0.4689655172413793
+    },
+    {
+      "round": 2,
+      "language": "en",
+      "steps": 75,
+      "kept": false,
+      "accuracy_before": 0.6455696202531646,
+      "F1_before": 0.75,
+      "accuracy_after": 0.6329113924050633,
+      "F1_after": 0.7184466019417476,
+      "min_score_before": 0.6455696202531646,
+      "min_score_after": 0.6239600665557404
+    },
+    {
+      "round": 2,
+      "language": "zh",
+      "steps": 75,
+      "kept": false,
+      "accuracy_before": 0.7101449275362319,
+      "F1_before": 0.8275862068965517,
+      "accuracy_after": 0.7101449275362319,
+      "F1_after": 0.8214285714285714,
+      "min_score_before": 0.5333333333333333,
+      "min_score_after": 0.5051194539249146
+    }
+  ],
+  "selected_models": {
+    "vi": {
+      "path": "outputs/auto_rl_v12_20261025/round_01/vi",
+      "dev": {
+        "threshold": 0.105,
+        "slices": {
+          "legacy_vi": {
+            "samples": 3600,
+            "threshold": 0.105,
+            "accuracy": 0.8358333333333333,
+            "eot_precision": 0.6611316113161132,
+            "eot_recall": 0.9641255605381166,
+            "eot_f1": 0.7843852608537031,
+            "joint_score": 0.7843852608537031,
+            "false_eot": 551,
+            "missed_eot": 40,
+            "false_eot_rate": 0.22173038229376257,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                1934,
+                551
+              ],
+              [
+                40,
+                1075
+              ]
+            ]
+          },
+          "natural": {
+            "samples": 145,
+            "threshold": 0.105,
+            "accuracy": 0.503448275862069,
+            "eot_precision": 0.37362637362637363,
+            "eot_recall": 0.6938775510204082,
+            "eot_f1": 0.4857142857142857,
+            "joint_score": 0.4857142857142857,
+            "false_eot": 57,
+            "missed_eot": 15,
+            "false_eot_rate": 0.59375,
+            "confusion_matrix_NEOT_EOT": [
+              [
+                39,
+                57
+              ],
+              [
+                15,
+                34
+              ]
+            ]
+          }
+        },
+        "selection_score": 0.4857142857142857,
+        "natural_target_met": false
+      }
+    },
+    "en": {
+      "path": "outputs/reward_v10_20261025/en/data_sft",
+      "dev": null
+    },
+    "zh": {
+      "path": "outputs/reward_v10_20261025/zh/data_sft",
+      "dev": null
+    }
+  },
+  "GPU_peak_GiB": 15.789938926696777,
+  "local_disk_free_GiB": 37.948673248291016,
+  "fresh_test_evaluated": false,
+  "scope": "Automatic semantic judge reward, one-step RL, natural-floor dev gate; judge reward and real-turn reference are different targets. Not a90%certificate."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "JUDGE_PROBE_FAILED_NO_POLICY_UPDATES",
+  "probe_passed": false,
+  "updates": 0,
+  "quality_target_certified": false,
+  "note": "Do not learn reward from a judge that fails obvious incomplete/complete probe"
+}

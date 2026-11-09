@@ -1,0 +1,86 @@
+{
+  "checked_utc": "2026-11-02T03:38:45.226494+00:00",
+  "variants": {
+    "v1": {
+      "report_sha256": "0bda1ef1ccfbbce15ba8910ebd2dd389475e2073f3bf9025bf78af4e6783f36e",
+      "trace_sha256": "484a246c6f2824362c18775cc33ad33a4571b3be145a1efd71fe9ae30540ab25",
+      "audited_inferences": 7088,
+      "causal_inputs_verified": true,
+      "only_predicted_EOT_resets_verified": false,
+      "all_words_preserved_in_decoding": true,
+      "language_splice_observations": {
+        "1": {
+          "total": 20,
+          "predicted_eot": 16,
+          "full_stop_reference_total": 15,
+          "full_stop_predicted_eot": 12
+        },
+        "2": {
+          "total": 20,
+          "predicted_eot": 19,
+          "full_stop_reference_total": 15,
+          "full_stop_predicted_eot": 14
+        }
+      }
+    },
+    "v2": {
+      "report_sha256": "0698d75e582e3b6adf674848eeac83755ac7ddc9e0198128b2b1cfec14e17a62",
+      "trace_sha256": "03380756734641372132ecce878e8e81164a12e0344b2814b7d265f12946d7e6",
+      "audited_inferences": 3574,
+      "causal_inputs_verified": true,
+      "only_predicted_EOT_resets_verified": true,
+      "all_words_preserved_in_decoding": true,
+      "language_splice_observations": {
+        "1": {
+          "total": 20,
+          "predicted_eot": 4,
+          "full_stop_reference_total": 15,
+          "full_stop_predicted_eot": 2
+        },
+        "2": {
+          "total": 20,
+          "predicted_eot": 3,
+          "full_stop_reference_total": 15,
+          "full_stop_predicted_eot": 1
+        }
+      }
+    }
+  },
+  "main_training": {
+    "status": {
+      "stage": "TRAINING",
+      "pid": 2611438,
+      "at_unix": 1793590717.274524,
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "languages": [
+        "vi",
+        "en",
+        "zh"
+      ],
+      "one_shared_student": true,
+      "test_used": false,
+      "qwen_pilot_used": false,
+      "source": "punctuation_derived_corpus",
+      "step": 474900,
+      "current_language": "zh",
+      "counts": {
+        "vi": 2532787,
+        "en": 2532784,
+        "zh": 2532800
+      },
+      "rounds": {
+        "vi": 1,
+        "en": 2,
+        "zh": 0
+      },
+      "loss": 0.21952554856737455,
+      "cuda_peak_reserved_gib": 4.25
+    },
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_three_teacher_distill_v1 ",
+    "start_ticks": "27127617"
+  },
+  "evaluators_exited": true,
+  "ssd_free_gib": 80.989,
+  "hdd_free_gib": 23.015,
+  "mount": "/dev/sda1 rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096"
+}

@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"path\": \"content/natural_v7_receipts.zip\", \"bytes\": 77564, \"sha256\": \"b5b3dd02e46709e3e56b70ba2c50a3bd58bb00a3c2663f5fc0e35340600a9c66\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

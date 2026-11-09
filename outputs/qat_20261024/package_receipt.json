@@ -1,0 +1,8 @@
+{
+  "zip": "models\\turn_v2_distilled_qat4_20261024.zip",
+  "bytes": 187305,
+  "sha256": "4dd234efbb9079ac81759902eff98b62af4f7c941bfdccf545aeca807a97e0fa",
+  "manifest_sha256": "97f1425745f0aab3321d40001a15df58fc32bed0312084f38c66126647115e60",
+  "onnx_bytes": 177124,
+  "deployment_bytes": 403973
+}

@@ -1,0 +1,165 @@
+{
+  "checked_unix": 1793670761.731713,
+  "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "owner": {
+    "boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 10402,
+    "start_ticks": "245097"
+  },
+  "processes": [
+    {
+      "pid": 10402,
+      "start_ticks": "245097",
+      "cmdline": "/usr/bin/python3 -u /content/factory_spoken_campaign_v9/factory_spoken_campaign_v9.py "
+    }
+  ],
+  "identity_verified": true,
+  "baseline_commit": 1011,
+  "baseline_counts": {
+    "vi": 4679,
+    "en": 0,
+    "zh": 0
+  },
+  "verified_new_commit": 1012,
+  "verified_new_shards": [
+    {
+      "index": 1012,
+      "language": "vi",
+      "accepted": 4,
+      "examples": 100,
+      "rejected": 16,
+      "object_sha256": "c6325bd8b00a46544d023f02289a46432372d26f6bd142902d9a75e8d1bfdb28",
+      "commit_sha256": "52f9f9dfdba6278eaec11f47354fa3f9c7a5339f7749bb8f79eeb15831f69c05",
+      "previous_commit_sha256": "3bb92cfffe8319b66b5c67748bbfd6008f9385c2345162c7e4fb356f64de718c",
+      "readback_verified": true,
+      "chain_link_verified": true
+    }
+  ],
+  "verified_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 20508,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1012,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 4683,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 119430,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "52f9f9dfdba6278eaec11f47354fa3f9c7a5339f7749bb8f79eeb15831f69c05",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 15825,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 4683,
+      "zh": 0
+    }
+  },
+  "new_accepted": 4,
+  "new_examples": 100,
+  "status": {
+    "at_unix": 1793670757.6779115,
+    "batch": 20,
+    "batch_started_unix": 1793670745.645364,
+    "engine_version": 9,
+    "gpu_peak_reserved_gib": 18.83,
+    "language": "vi",
+    "pid": 10402,
+    "stage": "GENERATING",
+    "start_ticks": "245097",
+    "state": {
+      "attempts": {
+        "en": 0,
+        "vi": 20528,
+        "zh": 0
+      },
+      "batch_size": 20,
+      "commit_index": 1013,
+      "cycle": 1,
+      "cycle_counts": {
+        "en": 0,
+        "vi": 4686,
+        "zh": 0
+      },
+      "example_counts": {
+        "en": 0,
+        "vi": 119514,
+        "zh": 0
+      },
+      "language": "vi",
+      "last_commit_sha256": "c5211a6dc91635331e0373a244e0911c72fef0a4cc56cd8a2bae9f5167b7e0ca",
+      "oom_retries": 1,
+      "rejected": {
+        "en": 0,
+        "vi": 15842,
+        "zh": 0
+      },
+      "schema": 9,
+      "total_counts": {
+        "en": 0,
+        "vi": 4686,
+        "zh": 0
+      }
+    }
+  },
+  "fresh_drive_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 20528,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 1013,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 4686,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 119514,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "c5211a6dc91635331e0373a244e0911c72fef0a4cc56cd8a2bae9f5167b7e0ca",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 15842,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 4686,
+      "zh": 0
+    }
+  },
+  "colab_free_gib": 220.24316787719727,
+  "error_file_present": false,
+  "gpu": "100 %, 19526 MiB, 23034 MiB",
+  "checked_utc": "2026-11-03T01:52:41.752942+00:00",
+  "session_selection": {
+    "matching_sessions": 2,
+    "distinct_kernels": 2,
+    "selection": "same_runtime_same_process_and_filesystem_view",
+    "verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+    "views_verified": true
+  }
+}

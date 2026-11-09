@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"Drive_mounted\": false}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

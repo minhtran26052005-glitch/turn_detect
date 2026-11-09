@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+  "new_calibration_rollouts_audited": 12,
+  "calibration_inferences_audited": 160776,
+  "monitor_inferences_audited": 35270,
+  "canonical_cases": 158,
+  "max_probability_delta": 1.0728836059570312e-06,
+  "actual_reset_each_threshold": true,
+  "all_saved_predictions_audited": true,
+  "old_above_point1_summaries_reused_not_new_trace_audit": true,
+  "selection_before_monitor_verified": true,
+  "point1_anchor_exact": true,
+  "parent_full_checkpoint_unchanged": true,
+  "weights_unchanged": true,
+  "weights_sha256": "e9687f933d77d5a6ed63a9b0225ca29b5e5d17200526e7ac1d00e535ecadba52",
+  "no_training": true,
+  "no_test_scoring": true,
+  "no_default_replacement": true
+}

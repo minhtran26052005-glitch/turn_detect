@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "technical_only": true,
+  "arms": {
+    "predicted_reset": {
+      "mid_gradient_resume_bitwise_equal": true,
+      "seen": 96
+    },
+    "source_window": {
+      "mid_gradient_resume_bitwise_equal": true,
+      "seen": 96
+    }
+  },
+  "source_window_independent_of_decoder_resets": true
+}

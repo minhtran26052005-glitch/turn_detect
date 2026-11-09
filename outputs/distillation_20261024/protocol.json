@@ -1,0 +1,33 @@
+{
+  "teacher": "models/turn_v2_compact_20261024/onnx",
+  "teacher_sha256": "6e1a59a3f6d28afa0ed5d08cb0b77587c077d4928f3a2fbab2e4031aa66a8aac",
+  "teacher_deployment_bytes": 109609065,
+  "target": {
+    "accuracy": 0.9,
+    "eot_f1": 0.9
+  },
+  "selection": "smallest measured deployment passing both full-dev targets among bounded tested configurations",
+  "holdout_policy": "Consumed holdout not evaluated; no new independent quality claim",
+  "train_targets": "gold plus frozen teacher logits (T=2) and normalized pooled features; train only",
+  "loss": "0.5 CE(label smoothing .02) + 0.5 T^2 KL + .05 normalized pooled feature MSE",
+  "vocabulary": "observed raw train pieces plus Latin ASCII byte special fallbacks; exact all-train segmentation audit",
+  "schedule": "h64/e64/l1 then h32/e32/l1 if pass, otherwise h128/e64/l1; third h16/e16/l1 if h32 passes or h256/e96/l2 if h128 fails",
+  "training": {
+    "epochs_max": 8,
+    "early_stop_patience": 3,
+    "min_epochs_before_early_stop": 4,
+    "batch_size": 256,
+    "lr": 0.001,
+    "seed": 42,
+    "timeout_per_model_seconds": 2400
+  },
+  "source_sha256": {
+    "turn_v2\\distill.py": "7a3027c5fadbd43bd46f0dbda4f58b15495b2997490aec12e85419b98c1f3fee",
+    "turn_v2\\distill_teacher.py": "37de1b0ea40a8fd2013a1db8146b2858ee40cfc516c305770556864c3af546ed",
+    "turn_v2\\tiny_student.py": "a7e48ed160e1b704a252aaa6ff9c05adbaaf6ade5a974d262b829dbf90adb606",
+    "turn_v2\\export_student.py": "df6a9662e76b0f874f6dafcd98b672323dfe3d0da534208855d6871d7b1e2289",
+    "tools\\distill_job.py": "cd60ed742898d6cefa924b685bb9732564b62a329db8e65f908096d4a6e5a025",
+    "tools\\distill_campaign.py": "36a351bcf6e37e23bdd049f43fcc82eb0005976eeffa46c8d5b10788040e1403"
+  },
+  "holdout_marker_sha256": "25c978c61c2a2b1ce76ff629f4b05a5f6ffc2dc60fbb7e3905aeae2c513292ba"
+}

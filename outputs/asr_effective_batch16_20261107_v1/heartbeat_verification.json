@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-11-08T07:11:22.587738+00:00",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "process": {
+    "present": false
+  },
+  "ssd_free_gib": 38.72589874267578,
+  "hdd_free_gib": 23.014732360839844,
+  "hdd_mount": [
+    [
+      "/dev/sda1",
+      "/mnt/hdd500",
+      "fuseblk",
+      "rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+      "0",
+      "0"
+    ]
+  ],
+  "gpu": "",
+  "windows_free_gib": 11.266464233398438
+}

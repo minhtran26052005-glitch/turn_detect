@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "technical_only": true,
+  "actual_accumulator_mid_window_gradient_rng_resume_bitwise_equal": true,
+  "weighted_mean_gradient_parity": true,
+  "scored": 48,
+  "windows": {
+    "16": 3
+  }
+}

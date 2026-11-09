@@ -1,0 +1,18 @@
+{
+  "phase": "COMPLETE",
+  "reported": true,
+  "trainer_paused": true,
+  "request": "Exclude one-sentence turns and measure end-only delivery on new paused model TEST",
+  "complete": true,
+  "reported_utc": "2026-11-07T14:35:39.755124+00:00",
+  "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+  "checkpoint_step": 3731173,
+  "branch_step": 500127,
+  "single_sentence_excluded": true,
+  "refined_translation_multi": 18,
+  "refined_translation_end_only": 6,
+  "big_test_multi": 4446,
+  "big_test_no_internal_cut": 1190,
+  "independent_end_only_verification_complete": true,
+  "refined_cohort_verification_complete": true
+}

@@ -1,0 +1,1136 @@
+{
+  "complete": true,
+  "source_rows_included_once": 40146,
+  "keep_false_source_rows_included": 2907,
+  "same_source_streams_as_previous_827000_test": true,
+  "source_words": 634903,
+  "segments": 34344,
+  "streams": 11977,
+  "all_nonempty_vi_en_rows_accounted_for": true,
+  "raw_source_text_word_identity_verified": true,
+  "source_chronological_order_and_chunk_continuity_verified": true,
+  "cross_speaker_chunk_stitching": false,
+  "expected_points": [
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 17738
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 937
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 16628
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 17715
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 937
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 16605
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 22258
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 886
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 21307
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 22235
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 886
+    },
+    {
+      "domain": "asr",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 21285
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 25195
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 1402
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 23452
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 25164
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 1402
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 23421
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 30793
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 1397
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 29305
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 30762
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 1397
+    },
+    {
+      "domain": "asr",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 29274
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 48700
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 2177
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 45810
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 44956
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 2124
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 42137
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 60636
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 1957
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 57809
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 56785
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 1951
+    },
+    {
+      "domain": "daily",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 53970
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 46142
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 2015
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 43455
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 42594
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 1962
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 39976
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 57015
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 1792
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 54385
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 53394
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 1783
+    },
+    {
+      "domain": "daily",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 50778
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 20529
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 913
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 19484
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 19639
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 901
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 18606
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 21039
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 733
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 20155
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 20244
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 730
+    },
+    {
+      "domain": "factory",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 19363
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 18819
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 908
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 17790
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 17968
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 899
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 16950
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 19569
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 681
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 18737
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 18813
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 680
+    },
+    {
+      "domain": "factory",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 17982
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 97
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 97
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 84
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 84
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 103
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 103
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 90
+    },
+    {
+      "domain": "numeric/code",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 90
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 96
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 96
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 82
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 82
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 115
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 115
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 101
+    },
+    {
+      "domain": "numeric/code",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 101
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 22286
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 230
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 22052
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 20060
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 230
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 19826
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 27957
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 203
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 27733
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 25731
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 203
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 25507
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 22593
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 213
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 22376
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 20353
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 213
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 20136
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 28347
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 189
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 28141
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 26107
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 189
+    },
+    {
+      "domain": "numeric/dialogue",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 25901
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 20198
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 14
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 20149
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 19365
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 13
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 19319
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 27110
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 17
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 27079
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 26277
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 16
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "dev",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 26247
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 20503
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 20
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 20414
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 19671
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 20
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "en",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 19588
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 27494
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eot",
+      "count": 23
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 27459
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 26663
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eot",
+      "count": 23
+    },
+    {
+      "domain": "numeric/sentence",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 26628
+    },
+    {
+      "domain": "onevoice",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "eligible",
+      "count": 716
+    },
+    {
+      "domain": "onevoice",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 1,
+      "kind": "neot",
+      "count": 716
+    },
+    {
+      "domain": "onevoice",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "eligible",
+      "count": 616
+    },
+    {
+      "domain": "onevoice",
+      "split": "test",
+      "language": "vi",
+      "lookahead_words": 2,
+      "kind": "neot",
+      "count": 616
+    }
+  ],
+  "prepared_streams_sha256": "aaac78abc45f7fd9f3bc154434e2ef939e267b093b1eacc0fc67c45186cfd1a4"
+}

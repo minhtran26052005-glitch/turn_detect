@@ -1,0 +1,133 @@
+{
+  "checked_at_utc": "2026-10-26T07:23:57.907941+00:00",
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-c56e5860-53dd-42ab-9046-4b7355b137a0c830cfa6-577a-4f10-ad66-a2ccf59eca47.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "local_snapshot_validation": {
+    "cycle": 22,
+    "next_cycle": 23,
+    "snapshot_bytes": 47441831,
+    "snapshot_sha256": "517f5e47457a916de4640ed3527e9baa94f5d084055791d8a34cda32548e00b3",
+    "sqlite_integrity": "ok",
+    "pages": 2189,
+    "examples": 266552,
+    "pages_by_language": [
+      {
+        "language": "en",
+        "pages": 577
+      },
+      {
+        "language": "vi",
+        "pages": 602
+      },
+      {
+        "language": "zh",
+        "pages": 1010
+      }
+    ],
+    "examples_by_language": [
+      {
+        "language": "en",
+        "examples": 33244
+      },
+      {
+        "language": "vi",
+        "examples": 60511
+      },
+      {
+        "language": "zh",
+        "examples": 172797
+      }
+    ],
+    "migration_markers": [
+      "migration:baai_en_duplicate_zh_quarantined_v1",
+      "migration:zh_ascii_period_reextract_v1"
+    ],
+    "train_after_repair_pending": true,
+    "english_baai_provenance_rows": 0,
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+    "teacher_weights_or_optimizer_in_snapshot": false
+  },
+  "remote_preflight": {
+    "root_created": true,
+    "active_campaign_processes": [],
+    "disk_free_bytes": 207410470912
+  },
+  "remote_restore": {
+    "restore_receipt": {
+      "restored_at_utc": "2026-10-26T07:23:57.120443+00:00",
+      "snapshot_cycle": 22,
+      "next_cycle": 23,
+      "snapshot_sha256": "517f5e47457a916de4640ed3527e9baa94f5d084055791d8a34cda32548e00b3",
+      "snapshot_bytes": 47441831,
+      "database_integrity": "ok",
+      "pages": 2189,
+      "examples": 266552,
+      "migration_markers": [
+        "migration:baai_en_duplicate_zh_quarantined_v1",
+        "migration:zh_ascii_period_reextract_v1"
+      ],
+      "train_after_data_repair_pending": true,
+      "english_baai_provenance_rows": 0,
+      "teacher_weights_or_optimizer_restored": false,
+      "local_source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+      "note": "Cycle-22 data and stream state restored; no teacher checkpoint was in the snapshot."
+    },
+    "remote_disk_free_bytes": 206563467264
+  },
+  "remote_module_import": {
+    "module": "turn_v2.translation_segmenter_v15d3",
+    "root": "outputs/translation_segmenter_v15d_20261026",
+    "db": "outputs/translation_segmenter_v15d_20261026/corpus.sqlite",
+    "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c"
+  },
+  "launch": {
+    "launcher": {
+      "pid": 7672,
+      "start_ticks": "185223",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_v15d3",
+        "--phase",
+        "run",
+        "--docs-per-source",
+        "200",
+        "--steps",
+        "100",
+        "--microbatch",
+        "32"
+      ],
+      "module": "turn_v2.translation_segmenter_v15d3",
+      "log": "outputs/translation_segmenter_v15d_20261026/worker_recovery_cycle22_20261026T072357Z.log",
+      "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+      "restored_from_cycle": 22,
+      "max_cycles": 0
+    }
+  },
+  "uploaded_files": {
+    "colab/data_snapshot_cycle22.zip": "517f5e47457a916de4640ed3527e9baa94f5d084055791d8a34cda32548e00b3",
+    "colab/__init__.py": "beed8d5230d1f56c3dc32c55d40f2879a9262aac92365e2b36d5ca25c1fc1567",
+    "colab/translation_segmenter_v15c.py": "7bd4dd908d114add5826b8c9ec06dcc0ca13a28f0fe56b0d260411cc2c0fbbea",
+    "colab/monolingual_data.py": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f",
+    "colab/metrics.py": "e8cfe74249d0eac8d1ed71ddecf03c10df1b3853eab92e6cadb86dc424dc6dde",
+    "colab/translation_segmenter_v15d3.py": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c"
+  },
+  "snapshot_scope": "data and metadata only; no model weights or optimizer",
+  "training_child_dependency": {
+    "target": "/content/turn_detect_v2/turn_v2/translation_segmenter_v15d2.py",
+    "sha256": "7ddf5651124f886d5bb5e6b26104522a950bd27c593b75af2dfa502362749ff5",
+    "bytes": 21209
+  },
+  "training_dependencies": {
+    "turn_v2.common": {
+      "module": "/content/turn_detect_v2/turn_v2/common.py",
+      "sha256": "f0d08a651ad772cde1a78148b10be1566b9ef218672fa2bc7a5271451cafbece",
+      "bytes": 2540
+    }
+  }
+}

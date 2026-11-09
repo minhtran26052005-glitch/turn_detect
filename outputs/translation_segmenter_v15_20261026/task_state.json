@@ -1,0 +1,70 @@
+{
+  "status": "RUNNING_COLAB_CRAWL_WAITING_FOR_MINIMUM_DATA",
+  "verified_at_utc": "2026-10-26T03:38:41Z",
+  "campaign": "translation_sentence_boundary_lookahead_v15",
+  "objective": "Three separate VI/EN/ZH text-only sentence-boundary models with 1- or 2-word lookahead; no Qwen judge",
+  "input_contract": {
+    "features": "punctuation-free left text plus 1 or 2 future words",
+    "punctuation_in_model_input": false,
+    "target": "EOT at sentence-final punctuation; NEOT at internal punctuation",
+    "target_punctuation_is_metadata_only": true
+  },
+  "label_scope": "punctuation-derived Wikipedia prose, not conversational or human-audio gold",
+  "quality_target_certified": false,
+  "worker": {
+    "module": "turn_v2.translation_segmenter_v15",
+    "parent_pid": 331597,
+    "parent_start_ticks": "8040478",
+    "parent_verified": true,
+    "child_pid": 332796,
+    "child_start_ticks": "8067127",
+    "child_command_phase": "collect cycle 5",
+    "child_verified": true,
+    "qwen_used": false,
+    "model_training_started": false
+  },
+  "model": {
+    "base": "microsoft/mdeberta-v3-base",
+    "parameters_per_language_model": 278810882,
+    "languages": ["vi", "en", "zh"],
+    "steps_per_language_per_cycle": 100,
+    "lookahead_words": [1, 2],
+    "dev_selection_uses_test": false
+  },
+  "source_sha256": "f1f517e7f271a9455eaaa9617f0f08a6e22ef1fe0c17f768528c29569a4a7dbc",
+  "latest_snapshot": {
+    "cycle": 4,
+    "sha256": "da7c22c4676448620c88a0726c3fca77b1541d88b9a123f581fd5f41ee21c787",
+    "bytes": 247910,
+    "scope": "metadata and corpus state only; no teacher weights or optimizer backup"
+  },
+  "data_snapshot": {
+    "examples_total": 1366,
+    "input_fields_with_unicode_punctuation": 0,
+    "by_language_and_split": {
+      "vi": {"train": 232, "dev": 0, "test": 18},
+      "en": {"train": 268, "dev": 40, "test": 0},
+      "zh": {"train": 592, "dev": 156, "test": 60}
+    },
+    "minimum_per_label_and_horizon_in_train_and_dev": 100,
+    "deferred": {
+      "vi": "no dev examples yet",
+      "en": "40 dev examples total; each label/horizon needs at least 100",
+      "zh": "156 dev examples total; each label/horizon needs at least 100"
+    }
+  },
+  "runtime": {
+    "gpu": "NVIDIA L4",
+    "gpu_utilization_percent": 0,
+    "gpu_memory_used_mib": 3,
+    "gpu_memory_total_mib": 23034,
+    "colab_disk_free_bytes": 165282160640
+  },
+  "local_review": "outputs/translation_segmenter_v15_20261026/review.html",
+  "previous_v14": {
+    "status": "STOPPED_BY_REQUEST",
+    "stopped_during": "cycle 46 partial Qwen collection; no cycle-46 training",
+    "cycle_45_checkpoints_preserved": true,
+    "restarted": false
+  }
+}

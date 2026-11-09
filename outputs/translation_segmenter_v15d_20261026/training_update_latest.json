@@ -1,0 +1,102 @@
+{
+  "checked_at_utc": "2026-10-27T02:55:00.479210+00:00",
+  "dev_results": {
+    "vi": {
+      "cycle": 75,
+      "dev_accuracy": 0.81007458307103,
+      "dev_eot_f1": 0.78541289933695,
+      "dev_samples": 93721,
+      "test_evaluated": false,
+      "progress": {
+        "cycle": 75,
+        "language": "vi",
+        "step": 100,
+        "steps": 100,
+        "total_steps": 1100,
+        "loss": 0.3083172142505646,
+        "train_samples": 865075,
+        "dev_samples": 93721,
+        "parameters": 278810882,
+        "GPU_peak_GiB": 5.271448612213135,
+        "qwen_judge_enabled": false
+      },
+      "resume": {
+        "cycle": 75,
+        "cycle_step": 100,
+        "total_steps": 1100,
+        "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+        "bytes": 3345996683,
+        "weights_and_optimizer_remote_only": true,
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt"
+      }
+    },
+    "en": {
+      "cycle": 75,
+      "dev_accuracy": 0.8570477030071506,
+      "dev_eot_f1": 0.856997275951947,
+      "dev_samples": 51045,
+      "test_evaluated": false,
+      "progress": {
+        "cycle": 75,
+        "language": "en",
+        "step": 100,
+        "steps": 100,
+        "total_steps": 1100,
+        "loss": 0.3838593363761902,
+        "train_samples": 449514,
+        "dev_samples": 51045,
+        "parameters": 278810882,
+        "GPU_peak_GiB": 5.248043060302734,
+        "qwen_judge_enabled": false
+      },
+      "resume": {
+        "cycle": 75,
+        "cycle_step": 100,
+        "total_steps": 1100,
+        "training_fingerprint": "7d274b5b4a0b5d9912fb408421219e63e0ba1b998e79c1b19dbef2b2789eb23e",
+        "bytes": 3345996683,
+        "weights_and_optimizer_remote_only": true,
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/en/latest_resume.pt"
+      }
+    },
+    "zh": {
+      "cycle": 72,
+      "dev_accuracy": 0.8557749022406373,
+      "dev_eot_f1": 0.684637921151519,
+      "dev_samples": 137327,
+      "test_evaluated": false,
+      "progress": null,
+      "resume": {
+        "cycle": 72,
+        "cycle_step": 100,
+        "total_steps": 1000,
+        "training_fingerprint": "f566ae4ae37f9a1ea6cd12a7cb7010f56efede11e61dccf9efb8919ff0639811",
+        "bytes": 3345996683,
+        "weights_and_optimizer_remote_only": true,
+        "checkpoint": "outputs/translation_segmenter_v15d_20261026/teachers/zh/latest_resume.pt"
+      }
+    }
+  },
+  "live_state": {
+    "campaign": "translation_segmenter_v15d",
+    "status": "RUNNING",
+    "stage": "LOADING_PRETRAINED_SEGMENTER",
+    "heartbeat_utc": "2026-10-27T02:52:02.503348+00:00",
+    "pid": 35811,
+    "qwen_judge_enabled": false,
+    "quality_target_certified": false,
+    "cycle": 75,
+    "language": "zh",
+    "train_samples": 1128617,
+    "dev_samples": 142947,
+    "microbatch": 32
+  },
+  "current_cycle_finish_estimate_minutes": [
+    15,
+    25
+  ],
+  "estimate_basis": "Observed recovery catch-up VI 10m19s including 93,721 dev rows; EN 4m49s including 51,045 dev rows; ZH has 142,947 dev rows and 1,128,617 training rows. Approximation only; not a quality-target ETA.",
+  "final_quality_target_finish_time_known": false,
+  "new_independent_test_available": false,
+  "small_review_updated": true
+}

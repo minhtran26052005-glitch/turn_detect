@@ -1,0 +1,51 @@
+{
+  "threshold": 0.10999999999999999,
+  "slices": {
+    "legacy_vi": {
+      "samples": 3600,
+      "threshold": 0.10999999999999999,
+      "accuracy": 0.9127777777777778,
+      "eot_precision": 0.7929773226042429,
+      "eot_recall": 0.9721973094170404,
+      "eot_f1": 0.8734891216760677,
+      "joint_score": 0.8734891216760677,
+      "false_eot": 283,
+      "missed_eot": 31,
+      "false_eot_rate": 0.11388329979879276,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2202,
+          283
+        ],
+        [
+          31,
+          1084
+        ]
+      ]
+    },
+    "natural": {
+      "samples": 145,
+      "threshold": 0.10999999999999999,
+      "accuracy": 0.4689655172413793,
+      "eot_precision": 0.34782608695652173,
+      "eot_recall": 0.6530612244897959,
+      "eot_f1": 0.45390070921985815,
+      "joint_score": 0.45390070921985815,
+      "false_eot": 60,
+      "missed_eot": 17,
+      "false_eot_rate": 0.625,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          36,
+          60
+        ],
+        [
+          17,
+          32
+        ]
+      ]
+    }
+  },
+  "selection_score": 0.45390070921985815,
+  "natural_target_met": false
+}

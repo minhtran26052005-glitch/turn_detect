@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-11-03T07:05:54.111637+00:00",
+  "complete": true,
+  "accepted": false,
+  "report_sha256": "f6fb9e246ca3c7fa9da1037e56615ae5ee310dda51f88d1cfeff035c6e830da3",
+  "large_trainer_absent": true,
+  "under20m_worker_absent": true,
+  "candidates": [
+    {
+      "candidate": "compact_fp32",
+      "parameters": 18668738,
+      "model_sha256": "ae4e2c8b07172d61919037ac22ad671a1fc3a191c642c12c8229d0f02f970346",
+      "bytes": 74734935,
+      "retention_passed": false
+    },
+    {
+      "candidate": "compact_int8",
+      "parameters": 18668738,
+      "model_sha256": "0cc4d8e6de0964bf49fe587b337468159c4126fe73991e6e5fad75399361dd72",
+      "bytes": 19445526,
+      "retention_passed": false
+    },
+    {
+      "candidate": "compact_int4_g64",
+      "parameters": 18668738,
+      "model_sha256": "5bdaad5858e6fc0096616f76ed3027095b086c428f26a7dd08cfecddec65e8a9",
+      "bytes": 10126900,
+      "retention_passed": false
+    },
+    {
+      "candidate": "compact_int4_g32",
+      "parameters": 18668738,
+      "model_sha256": "83a278a4f07b3fb88fab173c5cb593b9d8747fbf55d7759d7a157d30cc9ebcb8",
+      "bytes": 10709314,
+      "retention_passed": false
+    }
+  ],
+  "no_package_created": true
+}

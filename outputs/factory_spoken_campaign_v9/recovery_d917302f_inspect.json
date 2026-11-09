@@ -1,0 +1,85 @@
+{
+  "action": "inspect",
+  "new_boot_id": "d917302f-fa40-44a7-a0fd-36da2c4dab47",
+  "old_owner": {
+    "boot_id": "a182486d-e426-4a5a-b2e8-3459bbc77778",
+    "module": "factory_spoken_campaign_v9",
+    "pid": 4725,
+    "start_ticks": "106548"
+  },
+  "identity_verified": true,
+  "source_hashes_verified": {
+    "factory_spoken_campaign_v9.py": "703bb102d54d78440e2b94a359f0f5fe5fdecaaf6b2b307dd8ea37e6a8768101",
+    "factory_spoken_spec_v1.py": "1ec84d29e30fff3f259165a1b473a112bcf44f0b09915155c2fa7264ca6a0391",
+    "factory_spoken_topics_v1.py": "50af8f498dae74dd608b3b542d3bbb345068cf742c7b5230d3cccb94a61c9ff9",
+    "factory_paragraphs_v4.py": "a7f057ce13d9172da12d82f37b2fbad1a27c1bb98c3595faf46fd81dcf7fcaeb"
+  },
+  "processes_on_new_vm": [],
+  "commit_max": 260,
+  "latest_commit_sha256": "5ab251a4df9f28f8a156c38b7e67cd8eb3ea90a42487e36be49616d721c1eae6",
+  "authoritative_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 5472,
+      "zh": 0
+    },
+    "batch_size": 16,
+    "commit_index": 260,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 1297,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 33197,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "5ab251a4df9f28f8a156c38b7e67cd8eb3ea90a42487e36be49616d721c1eae6",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 4175,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 1297,
+      "zh": 0
+    }
+  },
+  "state_file_is_stale": false,
+  "recent_verified_shards": [
+    {
+      "index": 258,
+      "language": "vi",
+      "accepted": 4,
+      "object_sha256": "2160c1d5c7693b1e564688c15f81fce87b2eef8c288c9620e9898ca1e83ebdb4",
+      "commit_sha256": "32fc507b32ed16635204f48a5c6caa362b87ce27ac530ddb63a59b894f993314",
+      "readback_verified": true
+    },
+    {
+      "index": 259,
+      "language": "vi",
+      "accepted": 4,
+      "object_sha256": "58f14c1a9460d4b605bb7e63f6d81b04e885104ab5b31c146c5a12e5cab87196",
+      "commit_sha256": "c771e0a5010336b312e35ff1a41ecb57e63d951f8b3eed09a36bec0eb245b01d",
+      "readback_verified": true
+    },
+    {
+      "index": 260,
+      "language": "vi",
+      "accepted": 7,
+      "object_sha256": "1574a364f6b6440437c572a3f85e943c3dad575257d32699d7b4bd133c668bfd",
+      "commit_sha256": "5ab251a4df9f28f8a156c38b7e67cd8eb3ea90a42487e36be49616d721c1eae6",
+      "readback_verified": true
+    }
+  ],
+  "colab_free_gib": 193.09122467041016,
+  "gpu": "23034, 22564, 0, NVIDIA L4",
+  "state_owner_stable_during_inspection": true,
+  "checked_utc": "2026-11-02T12:52:45.291467+00:00"
+}

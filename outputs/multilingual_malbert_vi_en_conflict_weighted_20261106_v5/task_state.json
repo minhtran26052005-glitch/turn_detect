@@ -1,0 +1,260 @@
+{
+  "phase": "STOPPED_WITH_CHECKPOINT",
+  "process": {
+    "present": true,
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5 ",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "identity_match": true
+  },
+  "checked_utc": "2026-11-06T03:38:40.441881+00:00",
+  "desired_state": "STOPPED_BY_REQUEST_FOR_CURRICULUM_V6",
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "drive_data_excluded": true,
+  "parameters": 11941122,
+  "latest_status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-06T03:38:29.216799+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2614430,
+    "branch_step": 259350,
+    "epoch": 1,
+    "uploaded_rows_seen": 18058806,
+    "uploaded_origin_exposures": {
+      "daily": 9542253,
+      "factory/gen4000": 6798633,
+      "factory/gen500": 745016,
+      "asr/run2b": 972904
+    },
+    "loss": 0.005351988598704338,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "loss_policy": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "cutover_partial_tail": true,
+    "tasks_assigned": 32129,
+    "total_tasks": 34602
+  },
+  "host_boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "hdd_mounted": true,
+  "recovery_process": {
+    "present": false
+  },
+  "dataset_manifest_collected_from_remote_snapshot": true,
+  "compression_accepted": false,
+  "current_training_version": 5,
+  "reported_cutover": true,
+  "reported_cutover_utc": "2026-11-05T17:47:07.571862+00:00",
+  "last_notified_dev_branch_step": 220000,
+  "last_notified_dev_run": "finetune",
+  "loss_policy": {
+    "NEOT": 1.0,
+    "EOT": 2.0
+  },
+  "filtered_train_points_per_full_epoch": 6163255,
+  "conflict_filter_verified": true,
+  "weighted_training_independently_verified": true,
+  "cutover_controller_complete": true,
+  "filter_window_left_words": 8,
+  "partial_parent_epoch_tail_active": true,
+  "parent_step": 2355080,
+  "parent_branch_step": 890000,
+  "parent_weights_optimizer_rng_preserved": true,
+  "new_filtered_full_epochs_complete": 0,
+  "reported_preparation_error": false,
+  "last_storage_observation": {
+    "checked_utc": "2026-11-06T01:25:43.692403+00:00",
+    "windows_free_gib": 20.68130874633789,
+    "reserve_gib": 10,
+    "ssh_disks_gib": {
+      "ssd": 43.42999267578125,
+      "hdd": 23.014732360839844
+    },
+    "hdd_mounted": true,
+    "mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0"
+  },
+  "last_notified_dev_global_step": 2575080,
+  "last_notified_dev_report_sha256": "8b48d0dd0e1200c2ce80c948e81b552c4aac9ed466272bc4bcfa23e7d0faf325",
+  "last_notified_dev_metrics": {
+    "vi": {
+      "samples": 18627,
+      "tp": 124,
+      "tn": 17905,
+      "fp": 136,
+      "fn": 462,
+      "accuracy": 0.9678960648520964,
+      "eot_f1": 0.29314420803782504,
+      "eot_precision": 0.47692307692307695,
+      "eot_recall": 0.21160409556313994,
+      "false_share_of_cuts": 0.5230769230769231,
+      "false_positive_rate": 0.0075383847902001,
+      "actual_eot": 586
+    },
+    "en": {
+      "samples": 16360,
+      "tp": 323,
+      "tn": 15386,
+      "fp": 278,
+      "fn": 373,
+      "accuracy": 0.9602078239608802,
+      "eot_f1": 0.49807247494217427,
+      "eot_precision": 0.5374376039933444,
+      "eot_recall": 0.4640804597701149,
+      "false_share_of_cuts": 0.46256239600665555,
+      "false_positive_rate": 0.017747701736465782,
+      "actual_eot": 696
+    }
+  },
+  "last_notified_dev_at_utc": "2026-11-06T01:48:57.655445+00:00",
+  "train_fit_diagnostic": {
+    "complete": true,
+    "reported": true,
+    "checkpoint": 2505080,
+    "branch_step": 150000,
+    "sample_streams": 48,
+    "scored_train_points": 14448,
+    "threshold": 0.1,
+    "train_f1_vi": 45.81497797356828,
+    "train_f1_en": 51.10821382007823,
+    "matched_checkpoint_dev_f1_vi": 32.26433430515063,
+    "matched_checkpoint_dev_f1_en": 50.68493150684932,
+    "scope": "Fixed source-hash and length-limited TRAIN sample, not full TRAIN or an unbiased population estimate",
+    "training_modified": false
+  },
+  "active_learning_diagnostic": {
+    "status": "COMPLETE",
+    "complete": true,
+    "verified": true,
+    "reported": true,
+    "reported_utc": "2026-11-06T03:30:30.466001+00:00",
+    "output": "outputs/malbert_learning_diagnostic_20261106_v1",
+    "parent_step": 2585080,
+    "report_sha256": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28",
+    "sanity_passed": true,
+    "sanity_steps": 200,
+    "sanity_fixed_samples": 1000,
+    "paired_updates": 3000,
+    "rates": [
+      4e-06,
+      1e-05
+    ],
+    "auto_apply_to_main": false,
+    "monitor": {
+      "baseline": {
+        "vi": {
+          "samples": 18627,
+          "tp": 89,
+          "tn": 17942,
+          "fp": 99,
+          "fn": 497,
+          "accuracy": 0.968003435872658,
+          "eot_f1": 0.22997416020671835,
+          "eot_precision": 0.4734042553191489,
+          "eot_recall": 0.15187713310580206,
+          "false_share_of_cuts": 0.526595744680851,
+          "false_positive_rate": 0.005487500692866249,
+          "actual_eot": 586
+        },
+        "en": {
+          "samples": 16360,
+          "tp": 272,
+          "tn": 15466,
+          "fp": 198,
+          "fn": 424,
+          "accuracy": 0.9619804400977995,
+          "eot_f1": 0.4665523156089194,
+          "eot_precision": 0.5787234042553191,
+          "eot_recall": 0.39080459770114945,
+          "false_share_of_cuts": 0.42127659574468085,
+          "false_positive_rate": 0.012640449438202247,
+          "actual_eot": 696
+        }
+      },
+      "lr4e6": {
+        "vi": {
+          "samples": 18627,
+          "tp": 114,
+          "tn": 17918,
+          "fp": 123,
+          "fn": 472,
+          "accuracy": 0.9680571213829388,
+          "eot_f1": 0.2770352369380316,
+          "eot_precision": 0.4810126582278481,
+          "eot_recall": 0.1945392491467577,
+          "false_share_of_cuts": 0.5189873417721519,
+          "false_positive_rate": 0.006817803891136855,
+          "actual_eot": 586
+        },
+        "en": {
+          "samples": 16360,
+          "tp": 288,
+          "tn": 15424,
+          "fp": 240,
+          "fn": 408,
+          "accuracy": 0.9603911980440097,
+          "eot_f1": 0.47058823529411764,
+          "eot_precision": 0.5454545454545454,
+          "eot_recall": 0.41379310344827586,
+          "false_share_of_cuts": 0.45454545454545453,
+          "false_positive_rate": 0.015321756894790603,
+          "actual_eot": 696
+        }
+      },
+      "lr1e5": {
+        "vi": {
+          "samples": 18627,
+          "tp": 86,
+          "tn": 17974,
+          "fp": 67,
+          "fn": 500,
+          "accuracy": 0.9695603156708005,
+          "eot_f1": 0.2327469553450609,
+          "eot_precision": 0.5620915032679739,
+          "eot_recall": 0.14675767918088736,
+          "false_share_of_cuts": 0.43790849673202614,
+          "false_positive_rate": 0.003713763095172108,
+          "actual_eot": 586
+        },
+        "en": {
+          "samples": 16360,
+          "tp": 252,
+          "tn": 15432,
+          "fp": 232,
+          "fn": 444,
+          "accuracy": 0.958679706601467,
+          "eot_f1": 0.4271186440677966,
+          "eot_precision": 0.5206611570247934,
+          "eot_recall": 0.3620689655172414,
+          "false_share_of_cuts": 0.4793388429752066,
+          "false_positive_rate": 0.01481103166496425,
+          "actual_eot": 696
+        }
+      }
+    }
+  },
+  "last_reported_learning_diagnostic": "malbert_learning_diagnostic_20261106_v1@2585080",
+  "active_successor": {
+    "output": "multilingual_malbert_vi_en_curriculum_20261106_v6",
+    "module": "turn_v2.multilingual_malbert_vi_en_curriculum_train_v6",
+    "pid": 873860,
+    "start_ticks": "16570173",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "verified": true
+  },
+  "reported_curriculum_handover": true
+}

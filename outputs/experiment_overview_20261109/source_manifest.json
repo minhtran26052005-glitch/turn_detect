@@ -1,0 +1,67 @@
+[
+  {
+    "path": "outputs/context_window_ab_20261108_v1/report.json",
+    "bytes": 58922,
+    "sha256_lf_normalized": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6"
+  },
+  {
+    "path": "outputs/context_window_ab_20261108_v1/completion_verification.json",
+    "bytes": 508,
+    "sha256_lf_normalized": "c3d04ae68137ebf8e706425736f981fddc5b97ba27aa6021acdbd9c5d8cf8cff"
+  },
+  {
+    "path": "outputs/asr_effective_batch16_20261107_v1/report.json",
+    "bytes": 55860,
+    "sha256_lf_normalized": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+  },
+  {
+    "path": "outputs/asr_only_adaptation_20261107_v1/dev_report.json",
+    "bytes": 55370,
+    "sha256_lf_normalized": "557573fb176aff658eef47b4feeb28305334e6932c17ddecb1e85de3c5b1375c"
+  },
+  {
+    "path": "outputs/malbert_calibration_audit_20261107_v1/report.json",
+    "bytes": 86493,
+    "sha256_lf_normalized": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca"
+  },
+  {
+    "path": "outputs/malbert_learning_diagnostic_20261106_v1/report.json",
+    "bytes": 126769,
+    "sha256_lf_normalized": "e1f7da5819cafc78b1834206ea179cbdf3257673d5165dacd5119654f1261e28"
+  },
+  {
+    "path": "outputs/sentence_mix_end_only_test_20261107_v1/report.json",
+    "bytes": 71891,
+    "sha256_lf_normalized": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482"
+  },
+  {
+    "path": "outputs/translation_turn_test_20261105_v1/report.json",
+    "bytes": 2920,
+    "sha256_lf_normalized": "e05c84065922f312ee85b221d64c3e1b8ea4cc5bb0b1d2e95160c50fe07b47af"
+  },
+  {
+    "path": "outputs/malbert_uploaded_test_20261105_v1/report.json",
+    "bytes": 77470,
+    "sha256_lf_normalized": "8745e359b9e286742b5da89b01e9dceb3b742e6ecc4a87f566f3855f95a40d96"
+  },
+  {
+    "path": "outputs/failed_checkpoint_cleanup_20261108/deletion_receipt.json",
+    "bytes": 45174,
+    "sha256_lf_normalized": "52403265a898a9288494e872ebd652e32d16e22d6dfffe492cbb78ce4b10c88e"
+  },
+  {
+    "path": "outputs/turn_failure_literature_20261108/references.json",
+    "bytes": 7799,
+    "sha256_lf_normalized": "1860637149692a8647510054a2d893def224ba35b17b2670fa8c45be2d031dfb"
+  },
+  {
+    "path": "outputs/experiment_overview_20261109/latest_training_devs.json",
+    "bytes": 5294,
+    "sha256_lf_normalized": "8293d4872830509f4bbc8ce6ec3c8d5d38d28b0387dd8e09f77d36aff9963adb"
+  },
+  {
+    "path": "outputs/experiment_overview_20261109/source_snapshot.json",
+    "bytes": 34464,
+    "sha256_lf_normalized": "dae9b678780a87aafaa7799ee46fb3e1414a1f04042a48b554547793b5e22f40"
+  }
+]

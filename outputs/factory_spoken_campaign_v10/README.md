@@ -1,0 +1,20 @@
+# Spoken generation — Vietnamese and English only
+
+The user explicitly removed Chinese from all active work on 2026-11-03. Active engine `factory_spoken_campaign_v10` generates 10,000 accepted Vietnamese dialogues, then 10,000 English dialogues, then repeats until stopped. Previously accepted counts continue without resetting. Raw synthetic spoken transcripts remain UNREVIEWED and training_eligible=false; no automatic import into frozen TRAIN/DEV/test is authorized.
+
+V9 stopped gracefully on the same verified VM at commit 1478 (VI 6815, EN 0). The immutable v10 source bundle, bilingual language policy and handover receipt were fsynced and read back on the same Drive destination, preserving v9 source, commit chain and dedup history. `transition_v9_receipt.json` records exact source/policy hashes. `resume_generation_verification_vi_en.json` independently verifies a new engine10 commit, its previous link and compressed shard SHA. `review.html` shows only small Vietnamese/English samples.
+
+Fresh runtime inventory found two VMs and three idle notebook kernels. Two kernels on the known owner VM share the same boot, mount namespace, PID namespace and content view. The other VM had no generation worker. Scoped selection probes all current runtimes and refuses ambiguous, busy, mismatched or other-worker cases. No notebook kernel or VM was reset, interrupted, created or terminated. Only one background generator was launched.
+
+Runtime: `/content/factory_spoken_campaign_v10`. Drive: `/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026/factory_spoken_campaign_v9`. The parent identity nonce and intended path remain unchanged. Old root v9 STOP_REQUESTED is retained; its shared Drive marker was archived after verified handover. Do not restart v9, v8 or completed pilots.
+
+Use `python -X utf8 tools/factory_spoken_colab_v10.py status` and `python -X utf8 tools/collect_factory_spoken_review_v10.py`. Each call rediscovers authenticated assigned runtimes and sessions; only small reports/review files reach Windows. Future connection loss means worker/counters UNKNOWN until verified; never relaunch from stale PID or reuse an old VM-ended confirmation for a new owner.
+
+Keep four A/B/A/B spoken paragraphs, 2–8 sentences each, numbers/units/codes written as spoken words, factory expert/engineer/supervisor and plant representative roles. Full stops define source EOT; comma/semicolon internal NEOT; lowercase punctuation-free model input with one/two future words only within the same paragraph and speaker. Synthetic spoken style is not real audio/ASR or human gold. Preserve all raw, rejected, pending and historical data.
+
+On 2026-11-03, the user authorized shutting down the unused VM. Fresh probes verified Colab GPU L4 (1), boot e024f0d6, had no GPU/training/generation job and only default /content entries. VS Code Colab Remove Server released that exact runtime. Assigned runtime count is now one; the existing eb59 worker remained PID113294/ticks2625926 and committed new engine10 data with independent shard SHA readback after removal. See spare_runtime_shutdown_receipt.json. Do not recreate the unused VM automatically.
+
+Heartbeat 2026-11-03T17:36:27.145080+00:00: two fresh current-session checks returned HTTP404. Current worker/counters are UNKNOWN. Reconnect action requested once under spoken_v10_api_sessions_http404_after_eb59f31a_113294. No owner change, STOP_REQUESTED, new kernel, or duplicate start was attempted; historical successful generation is retained only as history.
+
+
+Latest scheduled connection observation: 2026-11-04T03:42:21Z fresh status helper matches0 and assigned_runtime_count0. Current worker and counters remain UNKNOWN in the same previously reported connection-loss episode. Keep issue key spoken_v10_api_sessions_http404_after_eb59f31a_113294, do not repeat reconnect notification. No owner/process stop/start, Drive auth/mount or kernel changes were attempted. Completed tests remain reported and preserved.

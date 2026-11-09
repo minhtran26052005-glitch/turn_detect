@@ -1,0 +1,18 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "source_sha256": "eba732643d4f7b7afa3c97f6049ff9248f0b3d70a37e3ee36943198355973152",
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\n  \"hash_verified\": true,\n  \"status\": \"TRAINED_AND_EVALUATED_REAL_TARGET_NOT_ACHIEVED\",\n  \"fresh_natural_AUTO_labels\": {\n    \"vi\": {\n      \"samples\": 30,\n      \"threshold\": 0.26499999999999996,\n      \"accuracy\": 0.5,\n      \"eot_precision\": 0.47619047619047616,\n      \"eot_recall\": 0.7142857142857143,\n      \"eot_f1\": 0.5714285714285714,\n      \"joint_score\": 0.5,\n      \"false_eot\": 11,\n      \"missed_eot\": 4,\n      \"false_eot_rate\": 0.6875,\n      \"confusion_matrix_NEOT_EOT\": [\n        [\n          5,\n          11\n        ],\n        [\n          4,\n          10\n        ]\n      ]\n    },\n    \"en\": {\n      \"samples\": 20,\n      \"threshold\": 0.135,\n      \"accuracy\": 0.7,\n      \"eot_precision\": 0.75,\n      \"eot_recall\": 0.6,\n      \"eot_f1\": 0.6666666666666666,\n      \"joint_score\": 0.6666666666666666,\n      \"false_eot\": 2,\n      \"missed_eot\": 4,\n      \"false_eot_rate\": 0.2,\n      \"confusion_matrix_NEOT_EOT\": [\n        [\n          8,\n          2\n        ],\n        [\n          4,\n          6\n        ]\n      ]\n    },\n    \"zh\": {\n      \"samples\": 20,\n      \"threshold\": 0.27499999999999997,\n      \"accuracy\": 0.55,\n      \"eot_precision\": 0.5294117647058824,\n      \"eot_recall\": 0.9,\n      \"eot_f1\": 0.6666666666666666,\n      \"joint_score\": 0.55,\n      \"false_eot\": 8,\n      \"missed_eot\": 1,\n      \"false_eot_rate\": 0.8,\n      \"confusion_matrix_NEOT_EOT\": [\n        [\n          2,\n          8\n        ],\n        [\n          1,\n          9\n        ]\n      ]\n    }\n  },\n  \"fresh_crawl_gold_labels\": 0,\n  \"fresh_crawl_accuracy\": null,\n  \"serving_default_changed\": false\n}\n"
+    }
+  ],
+  "elapsed_seconds": 3.2660000000032596
+}

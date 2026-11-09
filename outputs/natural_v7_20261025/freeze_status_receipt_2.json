@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"status\": \"COMPLETED\", \"started_at_utc\": \"2026-10-24T21:34:47.301103+00:00\", \"command\": [\"/usr/bin/python3\", \"-u\", \"tools/natural_freeze_selection.py\"], \"timeout_seconds\": 300, \"pid\": 183150, \"elapsed_seconds\": 15.00230360031128, \"heartbeat_unix\": 1792877697.302789, \"exit_code\": 0, \"finished_at_utc\": \"2026-10-24T21:35:02.303409+00:00\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

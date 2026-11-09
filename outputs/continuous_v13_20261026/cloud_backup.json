@@ -1,0 +1,19 @@
+{
+  "folder_id": "1zJqmc6q38WkmxvLWgcSedNYKb3bbUAgg",
+  "folder_url": "https://drive.google.com/drive/folders/1zJqmc6q38WkmxvLWgcSedNYKb3bbUAgg",
+  "file_id": "1kp56J87HZ0mOmrX3Ek9Wqhpb9Vc6iw8N",
+  "backup_policy": "Stable latest compact archive; verify upload readback; never upload Colab credential or full Qwen weights",
+  "file_url": "https://drive.google.com/file/d/1kp56J87HZ0mOmrX3Ek9Wqhpb9Vc6iw8N/view",
+  "uploaded_cycle": 3,
+  "uploaded_sha256": "e727969e9519163fd7d77a90096bfb0d8d4e146422f66d73746d7384bb71d9d3",
+  "uploaded_bytes": 55509408,
+  "metadata_readback_pending": false,
+  "metadata_verified": {
+    "file_id": "1kp56J87HZ0mOmrX3Ek9Wqhpb9Vc6iw8N",
+    "size": 55509408,
+    "parent_folder_id": "1zJqmc6q38WkmxvLWgcSedNYKb3bbUAgg",
+    "modified_time": "2026-10-25T17:36:48.975Z"
+  },
+  "verification_scope": "Upload completed; Drive metadata size/parent readback verified. SHA256 verified between Colab and local file; connector metadata did not expose provider checksum.",
+  "verified_at_utc": "2026-10-25T17:37:17.199273+00:00"
+}

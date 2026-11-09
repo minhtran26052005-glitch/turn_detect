@@ -1,0 +1,17 @@
+{
+  "language": "vi",
+  "base": "microsoft/mdeberta-v3-base",
+  "revision": "a0484667b22365f84929a935b5e50a51f71f159d",
+  "parameters": 278810882,
+  "trainable_parameters": 278810882,
+  "task": "sentence boundary before 1/2 future words",
+  "label_order": {
+    "0": "NEOT",
+    "1": "EOT"
+  },
+  "input": "punctuation-free words: [CLS] left text [SEP] 1-or-2 future words [SEP]",
+  "target": "EOT at terminal punctuation; NEOT at internal punctuation",
+  "punctuation_in_model_input": false,
+  "qwen_judge_used": false,
+  "source_sha256": "7bd4dd908d114add5826b8c9ec06dcc0ca13a28f0fe56b0d260411cc2c0fbbea"
+}

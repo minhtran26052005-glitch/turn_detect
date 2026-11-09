@@ -1,0 +1,31 @@
+{
+  "language": "zh",
+  "GPU": "NVIDIA L4",
+  "training_languages": [
+    "zh"
+  ],
+  "shared_trainable_weights": false,
+  "initial_student_sha256": "236f866da9f43c523d8f0fa291bfbccecd923ac49ea2cf7f86f427b10657b668",
+  "initial_quant_params_sha256": "0bd7267da57fba940c59be4d58808d089489fab9d2ee38644ef6a668438003c4",
+  "data_manifest_sha256": "8377b69200bd37b16794f3fd8ac7e92fe70857c437b6c36c8080bd1c51a062ae",
+  "source_sha256": "0332604088fd199ea25077c9463132c3b3218d6ed33dc880d950847faae7bf7d",
+  "reward_source_sha256": "3338507011f5d9fe81573c96e1e22b9161364da7f63836a2205ab12d71c3d6f1",
+  "train_counts": {
+    "crawl_silver": 20,
+    "expanded_dialogue": 23953,
+    "natural": 379,
+    "replay": 4001
+  },
+  "dev_counts": {
+    "scicom_read_speech": 448,
+    "livekit_PREVIOUSLY_EXPOSED_development": 339,
+    "natural": 69
+  },
+  "no_held_evaluation_or_selection": true,
+  "training": "INT4 fake quant every forward, own frozen scales; FP32 activations",
+  "RL": "Offline one-step sampled REINFORCE with detached all-action baseline; not PPO, online interaction or a measured latency simulator",
+  "rewards": "Correct+1; premature stop-2; wait on EOT-0.5. Automatic/proxy labels. Crawl semantic silver excluded from policy reward.",
+  "matched_controls": "ce_control,cost_ce,reinforce start from same selected data_sft weights; same batch-index RNG, steps225, lr2e-4",
+  "input": "Only current/past visible text; tail truncation256; no audio/timing/future in model input",
+  "seed": 20261025
+}

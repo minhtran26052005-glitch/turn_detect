@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"marker\": \"/content/turn_detect_v2/outputs/translation_segmenter_v15c_20261026/STOP_REQUESTED\", \"parent_pid\": 336572, \"parent_verified\": true, \"child_pid\": 339290, \"child_verified\": true}\n"
+    }
+  ],
+  "elapsed_seconds": 0.1720000000004802
+}

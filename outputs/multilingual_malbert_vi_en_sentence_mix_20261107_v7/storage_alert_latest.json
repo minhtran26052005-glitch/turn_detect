@@ -1,0 +1,13 @@
+{
+  "notified": true,
+  "issue_key": "windows_c_near_10gib_reserve",
+  "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+  "windows_free_gib": 11.265777587890625,
+  "reserve_gib": 10,
+  "margin_gib": 1.265777587890625,
+  "parent_process": {
+    "present": false
+  },
+  "parent_desired_state": "PAUSED_BY_USER_FOR_TEST",
+  "no_files_deleted": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Local JavaScript behavior with a minimal DOM stub; not browser visual QA",
+  "development_rows": 21,
+  "language_filter": true,
+  "held_table": true,
+  "audio_cases": 20,
+  "audio_next_previous": true,
+  "crawl_cases": 204,
+  "crawl_language_filter": true,
+  "crawl_saved_prefix_replay": true
+}

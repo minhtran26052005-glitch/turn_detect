@@ -1,0 +1,21 @@
+{
+  "pid": 187726,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "900",
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.evaluate",
+    "--model",
+    "/content/turn_detect_v2/runs/trial_gold_20261024_093324/best",
+    "--data",
+    "/content/turn_detect_v2/data_v2/frozen",
+    "--output",
+    "/content/turn_detect_v2/runs/trial_gold_20261024_093324/final_holdout"
+  ],
+  "started_at_utc": "2026-10-24T02:54:12.317496+00:00",
+  "selected_checkpoint": "checkpoint-1750",
+  "threshold": 0.49999999999999994
+}

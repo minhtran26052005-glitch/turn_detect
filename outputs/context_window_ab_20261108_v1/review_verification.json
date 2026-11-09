@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+  "calibration_selection_recomputed": true,
+  "monitor_populations_paired_exact": true,
+  "paired_cases": 16,
+  "statistical_fallacy_checks": 11,
+  "files": {
+    "README.md": "80215f4e110f1f1e5e0c6288ea5872844806452637464f17d7cdf97841582105",
+    "review.html": "4ee0656b597288f4c0a65b342273fdc200c44b93cab0019eddca722b43325034",
+    "user_summary.json": "6d3ea7f3b947f0a2b536c518291620f671feb97a91437c124937aee3dfcbe302",
+    "paired_dev_cases.json": "90c9fa0c9a4ad72fca80356fb6697203800374a7f7a5bf5b8480f04e40bbddaf"
+  }
+}

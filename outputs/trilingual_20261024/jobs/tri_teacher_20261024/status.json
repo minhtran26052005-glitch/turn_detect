@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T16:05:59.357294+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.trilingual_teacher",
+    "--output",
+    "runs/tri_teacher_20261024"
+  ],
+  "timeout_seconds": 1800,
+  "pid": 101653,
+  "elapsed_seconds": 470.05912041664124,
+  "heartbeat_unix": 1792858424.4157739,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T16:13:49.416417+00:00"
+}

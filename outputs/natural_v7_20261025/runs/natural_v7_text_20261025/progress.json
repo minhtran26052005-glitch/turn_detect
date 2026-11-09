@@ -1,0 +1,8 @@
+{
+  "stage": "MATCHED_ASR_TEXT_TRAINING",
+  "round": 2,
+  "step": 100,
+  "steps_per_round": 300,
+  "loss": 0.4615546129643917,
+  "elapsed_seconds": 302.61277446299937
+}

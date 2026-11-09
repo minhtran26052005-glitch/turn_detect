@@ -1,0 +1,117 @@
+[
+  {
+    "word_count": "1-3",
+    "samples": 1262,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.9984152139461173,
+    "eot_precision": 0.6666666666666666,
+    "eot_recall": 0.6666666666666666,
+    "eot_f1": 0.6666666666666666,
+    "joint_score": 0.6666666666666666,
+    "false_eot": 1,
+    "missed_eot": 1,
+    "false_eot_rate": 0.0007942811755361397,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        1258,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "word_count": "4-7",
+    "samples": 5214,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.965861143076333,
+    "eot_precision": 0.7309322033898306,
+    "eot_recall": 0.8712121212121212,
+    "eot_f1": 0.7949308755760369,
+    "joint_score": 0.7949308755760369,
+    "false_eot": 127,
+    "missed_eot": 51,
+    "false_eot_rate": 0.026359485263594853,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        4691,
+        127
+      ],
+      [
+        51,
+        345
+      ]
+    ]
+  },
+  {
+    "word_count": "8-15",
+    "samples": 8461,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.9173856518142064,
+    "eot_precision": 0.8599101628298709,
+    "eot_recall": 0.9387067116150781,
+    "eot_f1": 0.8975824175824176,
+    "joint_score": 0.8975824175824176,
+    "false_eot": 499,
+    "missed_eot": 200,
+    "false_eot_rate": 0.09599846094651789,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        4699,
+        499
+      ],
+      [
+        200,
+        3063
+      ]
+    ]
+  },
+  {
+    "word_count": "16-31",
+    "samples": 2858,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.9195241427571729,
+    "eot_precision": 0.9093553078041687,
+    "eot_recall": 0.9775924960917144,
+    "eot_f1": 0.9422400803616273,
+    "joint_score": 0.9195241427571729,
+    "false_eot": 187,
+    "missed_eot": 43,
+    "false_eot_rate": 0.19914802981895632,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        752,
+        187
+      ],
+      [
+        43,
+        1876
+      ]
+    ]
+  },
+  {
+    "word_count": "32-+",
+    "samples": 38,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.9736842105263158,
+    "eot_precision": 1.0,
+    "eot_recall": 0.96875,
+    "eot_f1": 0.9841269841269841,
+    "joint_score": 0.9736842105263158,
+    "false_eot": 0,
+    "missed_eot": 1,
+    "false_eot_rate": 0.0,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        6,
+        0
+      ],
+      [
+        1,
+        31
+      ]
+    ]
+  }
+]

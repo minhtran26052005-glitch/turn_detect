@@ -1,0 +1,1 @@
+{"status": "COMPLETED", "exit_code": 0, "elapsed_seconds": 320.09374237060547, "command": ["C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe", "-u", "-m", "turn_v2.stream_v4_local", "--output", "outputs/stream_v4_20261025/local_recovery_r2", "--rounds", "3", "--steps", "200"]}

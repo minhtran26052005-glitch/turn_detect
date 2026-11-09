@@ -1,0 +1,409 @@
+{
+  "path": "runs/mono_en_teacher_20261025/best/model.safetensors",
+  "bytes": 1115268200,
+  "sha256": "c702764201835484762fd8004d1afa4e0a4d1060ac17fa30d32c69c147ab771d",
+  "parts": [
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_000.bin",
+      "name": "part_000.bin",
+      "bytes": 16777216,
+      "sha256": "1e238c898ec2b261a6dbeeaaf79590cd1195d5e6a5f10a13e5713a03cceb5503"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_001.bin",
+      "name": "part_001.bin",
+      "bytes": 16777216,
+      "sha256": "e1cd731cdf5ba57a04ab0358b14f9adfe9c0d96e3663bf775502d0990bb74775"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_002.bin",
+      "name": "part_002.bin",
+      "bytes": 16777216,
+      "sha256": "e434b59a7853372043fc34e1ea2b6ac477cb5e12094be00a2f1384b043092080"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_003.bin",
+      "name": "part_003.bin",
+      "bytes": 16777216,
+      "sha256": "ee8b6e44821f4a484b4e31b614630ea0a7a381cf60f83098541ede40ec228f1c"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_004.bin",
+      "name": "part_004.bin",
+      "bytes": 16777216,
+      "sha256": "64b01a060a13db5d315f9ff502af905d61c83c3a87d5537233a4fc2228411d2e"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_005.bin",
+      "name": "part_005.bin",
+      "bytes": 16777216,
+      "sha256": "5b3912a4691eeb3817b94426b841a527cec3e94f558c0ec4c1ce7654b6a98d19"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_006.bin",
+      "name": "part_006.bin",
+      "bytes": 16777216,
+      "sha256": "4f18921a1898ac8e734a7595c7c6d1bc05cf6cf901ec3df5912d958fa2f7271d"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_007.bin",
+      "name": "part_007.bin",
+      "bytes": 16777216,
+      "sha256": "10146069c9f51d1b86de60c43171b40d0c6489154275bdf3fccd80cd41c9af95"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_008.bin",
+      "name": "part_008.bin",
+      "bytes": 16777216,
+      "sha256": "e5571aef60f3c6cfd78ab41a1beae6a3438e65bdecb0a81f7bbe172a6cc1bcdf"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_009.bin",
+      "name": "part_009.bin",
+      "bytes": 16777216,
+      "sha256": "23032d20bfb255beaf9b623ec3d56b6b2e119f7d6160e10d11e107046acce50e"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_010.bin",
+      "name": "part_010.bin",
+      "bytes": 16777216,
+      "sha256": "2cfa65f0da29973fc814e8d9fe1d62fb763931e5119f39ee120b722d5f839501"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_011.bin",
+      "name": "part_011.bin",
+      "bytes": 16777216,
+      "sha256": "76329822d0f1788f6c62143d3b0ae1b8a34c01c9f06dc999ca8eec70cce6ef47"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_012.bin",
+      "name": "part_012.bin",
+      "bytes": 16777216,
+      "sha256": "8265f07a9f312766114b8b79e4f958cfd7060fe81aa78755e7181735fbf28f81"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_013.bin",
+      "name": "part_013.bin",
+      "bytes": 16777216,
+      "sha256": "a121911858032e803f9132d34d8a48554e1b3526a019e094cfe2af2f1c81cd42"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_014.bin",
+      "name": "part_014.bin",
+      "bytes": 16777216,
+      "sha256": "4c5ab13439db63245144d8847cdf1c2e01ece5015e654645cc1c80c2a6f8cf43"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_015.bin",
+      "name": "part_015.bin",
+      "bytes": 16777216,
+      "sha256": "0d095b8ce8dfb5076f47491e8f39144b35d7e3af9ad6ee7c8d4ea885296da23d"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_016.bin",
+      "name": "part_016.bin",
+      "bytes": 16777216,
+      "sha256": "37deb97726a7e42d8c3bbce6d1adaa4a9e564d790be257bc6734d27beda7d2f0"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_017.bin",
+      "name": "part_017.bin",
+      "bytes": 16777216,
+      "sha256": "f4d4e2b154b26988671b6324344c2ef86db217138ad16dabd6168386ac46ab1b"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_018.bin",
+      "name": "part_018.bin",
+      "bytes": 16777216,
+      "sha256": "26e02719b7ace2e0277bbf06df73ec38cb199e88d8cefb98227f5417211c05bb"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_019.bin",
+      "name": "part_019.bin",
+      "bytes": 16777216,
+      "sha256": "6dc4cf2370ea5c3d9545671c3ade6abd5f399dea238f820d7653d69709f3a2b9"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_020.bin",
+      "name": "part_020.bin",
+      "bytes": 16777216,
+      "sha256": "8e12faf7b257de96c4045984baae73e78704d53ac97ced432dd37773c34db130"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_021.bin",
+      "name": "part_021.bin",
+      "bytes": 16777216,
+      "sha256": "6e8d102d187a79e407965234106d667a22c535f6c1d31d10fd62289e0ae900e8"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_022.bin",
+      "name": "part_022.bin",
+      "bytes": 16777216,
+      "sha256": "fcc403497825ec225daa8e8015a43a0d4fb5e9df4c670a9117d4d6415871bd8d"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_023.bin",
+      "name": "part_023.bin",
+      "bytes": 16777216,
+      "sha256": "5267e1ecd75e424003e6225b2f5b99126f8b886b91d4cbc7637f63b1d1b950ad"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_024.bin",
+      "name": "part_024.bin",
+      "bytes": 16777216,
+      "sha256": "f3557d320699428bbca6c2ace289a2ff96ffb10eee22e39658d16a227119cc03"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_025.bin",
+      "name": "part_025.bin",
+      "bytes": 16777216,
+      "sha256": "b9559efa277d55079de6be4fa10606e8b6f23dcd5db413ce242cfc2e40ce37d9"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_026.bin",
+      "name": "part_026.bin",
+      "bytes": 16777216,
+      "sha256": "e42a700f06df6ea6e6dc680eb99f93d5fecef6eab8fde675109d521401d9cb50"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_027.bin",
+      "name": "part_027.bin",
+      "bytes": 16777216,
+      "sha256": "2c73f9538cc689b12b031d6fc05994933d37b70fb5744afdee494c27158d628d"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_028.bin",
+      "name": "part_028.bin",
+      "bytes": 16777216,
+      "sha256": "290f45e9d06996c0aaecf7cccd393dba052cf4d63e50d336b377d7f37b0bb3cd"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_029.bin",
+      "name": "part_029.bin",
+      "bytes": 16777216,
+      "sha256": "fe05e1e5ca9149ac514001e1784b6b1c6407e37370f3ea7f1f2b9ef0c0bbb2ff"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_030.bin",
+      "name": "part_030.bin",
+      "bytes": 16777216,
+      "sha256": "e394f7cffd7835b796419777220e697c43509ec4d16def70f2b000d7e8954e2a"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_031.bin",
+      "name": "part_031.bin",
+      "bytes": 16777216,
+      "sha256": "0998e89f6e020fbab482eb1b83923fe6dbe3e28b0fa70a707f5b43ed214709c3"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_032.bin",
+      "name": "part_032.bin",
+      "bytes": 16777216,
+      "sha256": "55189f51149ebce5940c5dd9c55d1519301bdaf2af74a4b8058ee60fddc0197a"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_033.bin",
+      "name": "part_033.bin",
+      "bytes": 16777216,
+      "sha256": "20724745aa7e9d9af142678486e698c915b9411ea3a0d710dac4f1b0a79afdb5"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_034.bin",
+      "name": "part_034.bin",
+      "bytes": 16777216,
+      "sha256": "270dcf8f011601a8b90b94e3880959bc8e5f9029b58ef74c4cfe0af2e0306023"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_035.bin",
+      "name": "part_035.bin",
+      "bytes": 16777216,
+      "sha256": "b9f4c41f04e47b5c37f90c7ebdbb312da1335222736106337f81d6cac7826905"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_036.bin",
+      "name": "part_036.bin",
+      "bytes": 16777216,
+      "sha256": "492eff377b871288545615193bbeafb5bbe57a6b415e8cfc10583ee26af1621d"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_037.bin",
+      "name": "part_037.bin",
+      "bytes": 16777216,
+      "sha256": "125826bc767e9902aff015c15c56471d81b51445621016719c4bfbb9676f9edd"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_038.bin",
+      "name": "part_038.bin",
+      "bytes": 16777216,
+      "sha256": "5cffe45e4c2c2a9bcbb88e06ead1d85f710d6fa0f4b75473b950f3025cdaa69f"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_039.bin",
+      "name": "part_039.bin",
+      "bytes": 16777216,
+      "sha256": "aeeecc481038cbe0e34eec9b5a392a5c14f17fac15285859d170618ffb44a39c"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_040.bin",
+      "name": "part_040.bin",
+      "bytes": 16777216,
+      "sha256": "ce808b7c1e2cb2b1cbbcd7b0054c1c76ff90568e258a00de842eb96afb046bca"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_041.bin",
+      "name": "part_041.bin",
+      "bytes": 16777216,
+      "sha256": "1ecee03839da5dbb63b5fc846679a005ec2bfde9fab70f7899293698d82d8bd3"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_042.bin",
+      "name": "part_042.bin",
+      "bytes": 16777216,
+      "sha256": "209e7d053f596ee00c7195cbf499470150f2abb02351834b24c5c5461f188242"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_043.bin",
+      "name": "part_043.bin",
+      "bytes": 16777216,
+      "sha256": "0ce35a9bfacc7e443a6f254a36c9e1bb2390fefbba84f8d58e2d5e1f43288b34"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_044.bin",
+      "name": "part_044.bin",
+      "bytes": 16777216,
+      "sha256": "b103127e11b0355c4d3a564de30c0a1d4bbf471cfd9ed64edb40c8113631bbc0"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_045.bin",
+      "name": "part_045.bin",
+      "bytes": 16777216,
+      "sha256": "c5de30120e9e7606ddda954ec0e6ccff0ee775b2cb9cff58d655f28b9a179cbf"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_046.bin",
+      "name": "part_046.bin",
+      "bytes": 16777216,
+      "sha256": "5a07ed5ceaa099482e189dc9ae5b56a6c4d50fce2262ee768928fa85fe601c3b"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_047.bin",
+      "name": "part_047.bin",
+      "bytes": 16777216,
+      "sha256": "e12d450c44bc6fb65b2489447c8a5ea918848180af1f9c4e399e93414d32afc4"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_048.bin",
+      "name": "part_048.bin",
+      "bytes": 16777216,
+      "sha256": "724aa257a67b77474657dbad157f0814191518dcacb987405cd8bd97d57ff254"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_049.bin",
+      "name": "part_049.bin",
+      "bytes": 16777216,
+      "sha256": "77e7d131869894391a67c15d75cd784b4b16dbf40ec2c8bbf60b75de10f158b5"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_050.bin",
+      "name": "part_050.bin",
+      "bytes": 16777216,
+      "sha256": "341c3b3d8dfb1394d63f94ad07b7859ea27c9003b68b7827b9bdbb9b8401d682"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_051.bin",
+      "name": "part_051.bin",
+      "bytes": 16777216,
+      "sha256": "94f7ca3c989eb467d16443771f62315380b7f2f7eec333b220d79d852dcb53c8"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_052.bin",
+      "name": "part_052.bin",
+      "bytes": 16777216,
+      "sha256": "225bf1326c44513db1de892c0ebd3dc86a3feb69c69c1bb0525b947a69a1c6e5"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_053.bin",
+      "name": "part_053.bin",
+      "bytes": 16777216,
+      "sha256": "cb844de7f5d25f21f6e5a481bdcfde10c26e6133e4903e9638a2d7b1b8d5a12c"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_054.bin",
+      "name": "part_054.bin",
+      "bytes": 16777216,
+      "sha256": "a4f29780ba40e1f76d379741235c442198386b9af174efa218ac4346053ae96c"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_055.bin",
+      "name": "part_055.bin",
+      "bytes": 16777216,
+      "sha256": "80874fd543ab4e843536ae95d2bfd17dc1c7ff4a5b8f34ffee5902cac7f09bf6"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_056.bin",
+      "name": "part_056.bin",
+      "bytes": 16777216,
+      "sha256": "3b014847d528382c44154542bcd509c0653e8b76dba3fe5d1936e2b9d4e0b0ce"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_057.bin",
+      "name": "part_057.bin",
+      "bytes": 16777216,
+      "sha256": "facef7f97042d39b41537d8c735d85c64cfde640fe6c4f9cbaaa20978dea3740"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_058.bin",
+      "name": "part_058.bin",
+      "bytes": 16777216,
+      "sha256": "b3b1e38b950526ea5d50d63de2e18c441d351dd7a184220830d8fbbb65f4d6f5"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_059.bin",
+      "name": "part_059.bin",
+      "bytes": 16777216,
+      "sha256": "19d7779b9ea48f68528badcda8f7ba7c88cf052824901381268a02675a6ab810"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_060.bin",
+      "name": "part_060.bin",
+      "bytes": 16777216,
+      "sha256": "b50e05775524c5e32866d9b472593e044433bf1dbdf6c17a3142689a702c1620"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_061.bin",
+      "name": "part_061.bin",
+      "bytes": 16777216,
+      "sha256": "a9b823dc655f0a7d22b9eadb0e8224fcb9f545f8c82b099dee8e3e37c05d8acb"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_062.bin",
+      "name": "part_062.bin",
+      "bytes": 16777216,
+      "sha256": "99ab74c224cd531032b7010b7ac7dd59c5a99a3ecd81bc9d47bc4a4f4bd6105f"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_063.bin",
+      "name": "part_063.bin",
+      "bytes": 16777216,
+      "sha256": "3742f97bafafc62ad8c202e37c454d93449ecc662c10a34e267bfced5b68425a"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_064.bin",
+      "name": "part_064.bin",
+      "bytes": 16777216,
+      "sha256": "d4bc7c4a44f028defc4c5ec00123790e26b71dd373589eef5c8e914dd39177ae"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_065.bin",
+      "name": "part_065.bin",
+      "bytes": 16777216,
+      "sha256": "b99270dc3f1ed20fd3dcdf3666c1adbe7da054630946a432e021215e41f4d136"
+    },
+    {
+      "path": "content/turn_detect_v2/colab/backup_mono_en_teacher_20261025/part_066.bin",
+      "name": "part_066.bin",
+      "bytes": 7971944,
+      "sha256": "d520e41ffe81c2ccd02d3b990ad711f24e2703246c3cd786cee75681ee6a852c"
+    }
+  ]
+}

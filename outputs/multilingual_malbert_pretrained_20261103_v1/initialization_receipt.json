@@ -1,0 +1,25 @@
+{
+  "all_backbone_tensors_loaded_exactly": true,
+  "pretrained_backbone_tensors": 25,
+  "newly_initialized_tensors": [
+    "classifier.weight",
+    "classifier.bias"
+  ],
+  "discarded_pretraining_heads": [
+    "predictions.LayerNorm.bias",
+    "predictions.LayerNorm.weight",
+    "predictions.decoder.bias",
+    "predictions.decoder.weight",
+    "predictions.dense.bias",
+    "predictions.dense.weight",
+    "sop_classifier.classifier.bias",
+    "sop_classifier.classifier.weight"
+  ],
+  "deployment_parameters": 11941122,
+  "parameter_limit_exclusive": 20000000,
+  "pooler_pretrained": true,
+  "sliced_or_factorized_backbone": false,
+  "pretrained_model_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+  "train_probe_not_used_as_initial_weights": true,
+  "source_revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411"
+}

@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"natural_v6_pho_download_20261025\", \"launcher_pid\": 167724, \"source_sha256\": \"aacd514f2f47ba69451660fb508a04384363d9d32ae22aec2c1483bbc0ec25d8\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.125
+}

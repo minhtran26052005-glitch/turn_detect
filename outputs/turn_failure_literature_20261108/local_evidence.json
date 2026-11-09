@@ -1,0 +1,451 @@
+{
+  "created_utc": "2026-11-08T15:16:24.595401+00:00",
+  "scope": "Saved punctuation-silver DEV reports only; no new inference or training.",
+  "units": "F1, precision and recall are fractions in JSON, percent in README.",
+  "rows": [
+    {
+      "model_policy": "parent_v7_expanded_calibration",
+      "source": {
+        "path": "outputs/malbert_calibration_audit_20261107_v1/report.json",
+        "sha256_bytes": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+        "sha256_lf_normalized": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca"
+      },
+      "threshold": 0.03,
+      "overall": {
+        "vi": {
+          "eot_f1": 0.3487858719646799,
+          "eot_precision": 0.30659767141009053,
+          "eot_recall": 0.4044368600682594,
+          "tp": 237,
+          "fp": 536,
+          "fn": 349
+        },
+        "en": {
+          "eot_f1": 0.4823529411764706,
+          "eot_precision": 0.3841567291311755,
+          "eot_recall": 0.6479885057471264,
+          "tp": 451,
+          "fp": 723,
+          "fn": 245
+        }
+      },
+      "domains": [
+        {
+          "domain": "asr",
+          "language": "en",
+          "eot_f1": 0.446875,
+          "eot_precision": 0.4074074074074074,
+          "eot_recall": 0.49480968858131485,
+          "tp": 143,
+          "fp": 208,
+          "fn": 146
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "eot_f1": 0.2288135593220339,
+          "eot_precision": 0.2660098522167488,
+          "eot_recall": 0.20074349442379183,
+          "tp": 54,
+          "fp": 149,
+          "fn": 215
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "eot_f1": 0.5478260869565217,
+          "eot_precision": 0.4144736842105263,
+          "eot_recall": 0.8076923076923077,
+          "tp": 126,
+          "fp": 178,
+          "fn": 30
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "eot_f1": 0.46195652173913043,
+          "eot_precision": 0.36324786324786323,
+          "eot_recall": 0.6343283582089553,
+          "tp": 85,
+          "fp": 149,
+          "fn": 49
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "eot_f1": 0.5467889908256881,
+          "eot_precision": 0.43440233236151604,
+          "eot_recall": 0.7376237623762376,
+          "tp": 149,
+          "fp": 194,
+          "fn": 53
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "eot_f1": 0.48,
+          "eot_precision": 0.4,
+          "eot_recall": 0.6,
+          "tp": 84,
+          "fp": 126,
+          "fn": 56
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "eot_f1": 0.29333333333333333,
+          "eot_precision": 0.1875,
+          "eot_recall": 0.673469387755102,
+          "tp": 33,
+          "fp": 143,
+          "fn": 16
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "eot_f1": 0.16568047337278108,
+          "eot_precision": 0.1111111111111111,
+          "eot_recall": 0.32558139534883723,
+          "tp": 14,
+          "fp": 112,
+          "fn": 29
+        }
+      ]
+    },
+    {
+      "model_policy": "old_asr_old_grid",
+      "source": {
+        "path": "outputs/asr_only_adaptation_20261107_v1/dev_report.json",
+        "sha256_bytes": "557573fb176aff658eef47b4feeb28305334e6932c17ddecb1e85de3c5b1375c",
+        "sha256_lf_normalized": "557573fb176aff658eef47b4feeb28305334e6932c17ddecb1e85de3c5b1375c"
+      },
+      "threshold": 0.1,
+      "overall": {
+        "vi": {
+          "eot_f1": 0.05128205128205128,
+          "eot_precision": 0.42105263157894735,
+          "eot_recall": 0.027303754266211604,
+          "tp": 16,
+          "fp": 22,
+          "fn": 570
+        },
+        "en": {
+          "eot_f1": 0.4109848484848485,
+          "eot_precision": 0.6027777777777777,
+          "eot_recall": 0.3117816091954023,
+          "tp": 217,
+          "fp": 143,
+          "fn": 479
+        }
+      },
+      "domains": [
+        {
+          "domain": "asr",
+          "language": "en",
+          "eot_f1": 0.4213075060532688,
+          "eot_precision": 0.7016129032258065,
+          "eot_recall": 0.30103806228373703,
+          "tp": 87,
+          "fp": 37,
+          "fn": 202
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "eot_f1": 0.007407407407407408,
+          "eot_precision": 1.0,
+          "eot_recall": 0.0037174721189591076,
+          "tp": 1,
+          "fp": 0,
+          "fn": 268
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "eot_f1": 0.47058823529411764,
+          "eot_precision": 0.6060606060606061,
+          "eot_recall": 0.38461538461538464,
+          "tp": 60,
+          "fp": 39,
+          "fn": 96
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "eot_f1": 0.06756756756756757,
+          "eot_precision": 0.35714285714285715,
+          "eot_recall": 0.03731343283582089,
+          "tp": 5,
+          "fp": 9,
+          "fn": 129
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "eot_f1": 0.3958333333333333,
+          "eot_precision": 0.6627906976744186,
+          "eot_recall": 0.28217821782178215,
+          "tp": 57,
+          "fp": 29,
+          "fn": 145
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "eot_f1": 0.125,
+          "eot_precision": 0.5,
+          "eot_recall": 0.07142857142857142,
+          "tp": 10,
+          "fp": 10,
+          "fn": 130
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "eot_f1": 0.26,
+          "eot_precision": 0.2549019607843137,
+          "eot_recall": 0.2653061224489796,
+          "tp": 13,
+          "fp": 38,
+          "fn": 36
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "eot_f1": 0.0,
+          "eot_precision": 0.0,
+          "eot_recall": 0.0,
+          "tp": 0,
+          "fp": 3,
+          "fn": 43
+        }
+      ]
+    },
+    {
+      "model_policy": "same_old_asr_expanded_calibration",
+      "source": {
+        "path": "outputs/asr_effective_batch16_20261107_v1/report.json",
+        "sha256_bytes": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+        "sha256_lf_normalized": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+      },
+      "threshold": 0.003,
+      "overall": {
+        "vi": {
+          "eot_f1": 0.3074484944532488,
+          "eot_precision": 0.2869822485207101,
+          "eot_recall": 0.3310580204778157,
+          "tp": 194,
+          "fp": 482,
+          "fn": 392
+        },
+        "en": {
+          "eot_f1": 0.4787234042553192,
+          "eot_precision": 0.38006756756756754,
+          "eot_recall": 0.646551724137931,
+          "tp": 450,
+          "fp": 734,
+          "fn": 246
+        }
+      },
+      "domains": [
+        {
+          "domain": "asr",
+          "language": "en",
+          "eot_f1": 0.5357686453576864,
+          "eot_precision": 0.4782608695652174,
+          "eot_recall": 0.6089965397923875,
+          "tp": 176,
+          "fp": 192,
+          "fn": 113
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "eot_f1": 0.27474747474747474,
+          "eot_precision": 0.3008849557522124,
+          "eot_recall": 0.2527881040892193,
+          "tp": 68,
+          "fp": 158,
+          "fn": 201
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "eot_f1": 0.5481481481481482,
+          "eot_precision": 0.4457831325301205,
+          "eot_recall": 0.7115384615384616,
+          "tp": 111,
+          "fp": 138,
+          "fn": 45
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "eot_f1": 0.3536977491961415,
+          "eot_precision": 0.3107344632768362,
+          "eot_recall": 0.41044776119402987,
+          "tp": 55,
+          "fp": 122,
+          "fn": 79
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "eot_f1": 0.4455611390284757,
+          "eot_precision": 0.3367088607594937,
+          "eot_recall": 0.6584158415841584,
+          "tp": 133,
+          "fp": 262,
+          "fn": 69
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "eot_f1": 0.38125,
+          "eot_precision": 0.3388888888888889,
+          "eot_recall": 0.4357142857142857,
+          "tp": 61,
+          "fp": 119,
+          "fn": 79
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "eot_f1": 0.27149321266968324,
+          "eot_precision": 0.1744186046511628,
+          "eot_recall": 0.6122448979591837,
+          "tp": 30,
+          "fp": 142,
+          "fn": 19
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "eot_f1": 0.14705882352941177,
+          "eot_precision": 0.10752688172043011,
+          "eot_recall": 0.23255813953488372,
+          "tp": 10,
+          "fp": 83,
+          "fn": 33
+        }
+      ]
+    },
+    {
+      "model_policy": "asr_effective16_expanded_calibration",
+      "source": {
+        "path": "outputs/asr_effective_batch16_20261107_v1/report.json",
+        "sha256_bytes": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+        "sha256_lf_normalized": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+      },
+      "threshold": 0.03,
+      "overall": {
+        "vi": {
+          "eot_f1": 0.3087557603686636,
+          "eot_precision": 0.2807262569832402,
+          "eot_recall": 0.3430034129692833,
+          "tp": 201,
+          "fp": 515,
+          "fn": 385
+        },
+        "en": {
+          "eot_f1": 0.48294531672983215,
+          "eot_precision": 0.38748913987836664,
+          "eot_recall": 0.6408045977011494,
+          "tp": 446,
+          "fp": 705,
+          "fn": 250
+        }
+      },
+      "domains": [
+        {
+          "domain": "asr",
+          "language": "en",
+          "eot_f1": 0.5264797507788161,
+          "eot_precision": 0.47875354107648727,
+          "eot_recall": 0.5847750865051903,
+          "tp": 169,
+          "fp": 184,
+          "fn": 120
+        },
+        {
+          "domain": "asr",
+          "language": "vi",
+          "eot_f1": 0.312,
+          "eot_precision": 0.33766233766233766,
+          "eot_recall": 0.2899628252788104,
+          "tp": 78,
+          "fp": 153,
+          "fn": 191
+        },
+        {
+          "domain": "daily",
+          "language": "en",
+          "eot_f1": 0.5364705882352941,
+          "eot_precision": 0.42379182156133827,
+          "eot_recall": 0.7307692307692307,
+          "tp": 114,
+          "fp": 155,
+          "fn": 42
+        },
+        {
+          "domain": "daily",
+          "language": "vi",
+          "eot_f1": 0.3402985074626866,
+          "eot_precision": 0.2835820895522388,
+          "eot_recall": 0.4253731343283582,
+          "tp": 57,
+          "fp": 144,
+          "fn": 77
+        },
+        {
+          "domain": "factory",
+          "language": "en",
+          "eot_f1": 0.4753521126760563,
+          "eot_precision": 0.36885245901639346,
+          "eot_recall": 0.6683168316831684,
+          "tp": 135,
+          "fp": 231,
+          "fn": 67
+        },
+        {
+          "domain": "factory",
+          "language": "vi",
+          "eot_f1": 0.3425076452599388,
+          "eot_precision": 0.2994652406417112,
+          "eot_recall": 0.4,
+          "tp": 56,
+          "fp": 131,
+          "fn": 84
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "en",
+          "eot_f1": 0.2641509433962264,
+          "eot_precision": 0.17177914110429449,
+          "eot_recall": 0.5714285714285714,
+          "tp": 28,
+          "fp": 135,
+          "fn": 21
+        },
+        {
+          "domain": "numeric/dialogue",
+          "language": "vi",
+          "eot_f1": 0.14285714285714285,
+          "eot_precision": 0.10309278350515463,
+          "eot_recall": 0.23255813953488372,
+          "tp": 10,
+          "fp": 87,
+          "fn": 33
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Threshold selected on calibration before monitor; arm thresholds differ.",
+    "Predicted resets change subsequent input contexts.",
+    "Effective16 also changes update count and dropout grouping; not normalization-only attribution.",
+    "No independent human/audio gold or new translation quality measurement.",
+    "Rejected ASR weights intentionally removed by user; reports and traces retained."
+  ],
+  "proposed_experiment_launched": false
+}

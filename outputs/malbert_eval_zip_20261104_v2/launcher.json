@@ -1,0 +1,10 @@
+{
+  "pid": 2689605,
+  "start_ticks": "66513280",
+  "module": "turn_v2.malbert_eval_zip_v2",
+  "boot_id": "92e2e568-17ea-47cf-984f-ba547e7f76bb",
+  "source_sha256": "1eb56eb5412aed7ea26d0fdce656a4c5d0315b42931b4f696bfa5b8e42d4f0fe",
+  "user_requested_new_current_model_test": true,
+  "minimum_checkpoint_step": 1334000,
+  "old_report_preserved": true
+}

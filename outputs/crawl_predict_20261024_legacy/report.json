@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-10-23T18:33:02.664202+00:00",
+  "status": "INFERENCE_COMPLETED",
+  "model": {
+    "format": "legacy",
+    "smoke_only": false,
+    "threshold": 0.5,
+    "path": "checkpoint-23000",
+    "sha256": {
+      "model_quantized.onnx": "06eca8cb4b449039a3b72ce51a93e7a528ea9a92cb7aea1d80f244f078469daf",
+      "config.json": "b9a3ff7a36395c6bdcc4496fba90a8b8570926a3127be2202b322d2214af918b"
+    }
+  },
+  "predictions": 12,
+  "prediction_counts": {
+    "EOT": 7,
+    "NEOT": 5
+  },
+  "skipped": {},
+  "review_queue_size": 4,
+  "teacher": null,
+  "accepted_teacher_disagreements": 0,
+  "sources": [
+    {
+      "title": "Hà Nội",
+      "page_id": 80,
+      "extract_sha256": "73f4ba89da21250e18c661d2faf998dbe84d1aecee7d3db931e38a5f95481c6a",
+      "candidates": 2079
+    }
+  ],
+  "training_performed": false,
+  "rl_performed": false,
+  "holdout_evaluated": false,
+  "accuracy": null,
+  "review_selection": "nearest to model's decision threshold; model confidence is uncalibrated",
+  "limits": "Crawled prose and silver labels do not establish dialogue accuracy or a 90% result."
+}

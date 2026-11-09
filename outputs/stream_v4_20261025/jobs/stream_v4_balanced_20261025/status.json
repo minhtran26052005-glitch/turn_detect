@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-24T17:54:27.762485+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.stream_v4_balance",
+    "--output",
+    "runs/stream_v4_balanced_20261025",
+    "--rounds",
+    "2",
+    "--steps",
+    "400"
+  ],
+  "timeout_seconds": 3600,
+  "pid": 128314,
+  "elapsed_seconds": 340.03910636901855,
+  "heartbeat_unix": 1792864802.8009171,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-24T18:00:07.801595+00:00"
+}

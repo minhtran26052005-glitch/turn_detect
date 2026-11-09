@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-25T17:37:17.199273+00:00",
+  "process_verified": true,
+  "completed_cycle": 3,
+  "next_cycle": 4,
+  "backup_cycle": 3,
+  "local_free_bytes": 34260869120,
+  "new_error": false,
+  "champions_changed_since_previous_heartbeat": false,
+  "quality_target_certified": false,
+  "notification_decision": "DONT_NOTIFY"
+}

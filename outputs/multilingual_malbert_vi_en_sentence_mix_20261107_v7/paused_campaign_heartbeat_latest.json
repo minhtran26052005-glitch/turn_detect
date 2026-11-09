@@ -1,0 +1,323 @@
+{
+  "checked_utc": "2026-11-08T12:12:32.285542+00:00",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "jobs": {
+    "multilingual_malbert_vi_en_sentence_mix_20261107_v7": {
+      "process": {
+        "present": false
+      },
+      "status": {
+        "stage": "STOPPED_WITH_CHECKPOINT",
+        "pid": 1121366,
+        "start_ticks": "24252420",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T14:01:54.260244+00:00",
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+      },
+      "task_state": {
+        "last_notified_dev_branch_step": 480000,
+        "reported_cutover": true,
+        "phase": "PAUSED_WITH_FULL_CHECKPOINT",
+        "desired_state": "PAUSED_BY_USER_FOR_TEST",
+        "checked_utc": "2026-11-07T15:00:48.955842+00:00",
+        "process": {
+          "present": false
+        },
+        "active_languages": [
+          "vi",
+          "en"
+        ],
+        "parameters": 11941122,
+        "current_training_version": 7,
+        "loss_policy": {
+          "NEOT": 1.0,
+          "EOT": 2.0
+        },
+        "drive_data_excluded": true,
+        "latest_status": {
+          "stage": "STOPPED_WITH_CHECKPOINT",
+          "pid": 1121366,
+          "start_ticks": "24252420",
+          "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+          "at_utc": "2026-11-07T14:01:54.260244+00:00",
+          "active_languages": [
+            "vi",
+            "en"
+          ],
+          "reason": "User stop with full model/optimizer/RNG/curriculum checkpoint"
+        },
+        "curriculum_stage": 3,
+        "curriculum_stage_seen": 6062196,
+        "full_filtered_epochs_complete": 1,
+        "reported_cutover_utc": "2026-11-07T01:22:53.187509+00:00",
+        "parent_step": 3231046,
+        "actual_balanced_training_verified": true,
+        "independent_pack_verification_complete": true,
+        "manifest_clarification": "manifest_clarification.json",
+        "balanced_sentence_pack_count": 49260,
+        "unique_sentence_units": 208906,
+        "eligible_points_per_full_epoch": 5040023,
+        "initial_curriculum_stage": 3,
+        "sentence_count_ratios": {
+          "1": 0.15,
+          "2": 0.15,
+          "3": 0.15,
+          "4": 0.15,
+          "5": 0.15,
+          "6": 0.05,
+          "7": 0.05,
+          "8": 0.05,
+          "9": 0.05,
+          "10": 0.05
+        },
+        "last_notified_dev_global_step": 3711046,
+        "last_notified_dev_run": "finetune",
+        "last_notified_dev_report_sha256": "b7fdb91b201810275ee5b8c6ab92bc5fc73caee32333abcc9341b7a6fc6240a4",
+        "last_notified_dev_metrics": {
+          "vi": {
+            "samples": 18627,
+            "tp": 128,
+            "tn": 17873,
+            "fp": 168,
+            "fn": 458,
+            "accuracy": 0.9663928705642347,
+            "eot_f1": 0.29024943310657597,
+            "eot_precision": 0.43243243243243246,
+            "eot_recall": 0.21843003412969283,
+            "false_share_of_cuts": 0.5675675675675675,
+            "false_positive_rate": 0.00931212238789424,
+            "actual_eot": 586
+          },
+          "en": {
+            "samples": 16360,
+            "tp": 312,
+            "tn": 15313,
+            "fp": 351,
+            "fn": 384,
+            "accuracy": 0.9550733496332519,
+            "eot_f1": 0.45916114790286977,
+            "eot_precision": 0.47058823529411764,
+            "eot_recall": 0.4482758620689655,
+            "false_share_of_cuts": 0.5294117647058824,
+            "false_positive_rate": 0.022408069458631257,
+            "actual_eot": 696
+          }
+        },
+        "last_notified_dev_utc": "2026-11-07T13:47:29.732682+00:00",
+        "last_eta_report": "direct_eta_20261107.json",
+        "last_storage_observation": {
+          "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+          "windows_free_gib": 11.265777587890625,
+          "ssd_free_gib": 38.72589874267578,
+          "hdd_free_gib": 23.014732360839844,
+          "hdd_rw_verified": true
+        },
+        "last_reported_full_filtered_epochs": 1,
+        "full_epoch_0001_independently_verified": true,
+        "latest_dev_retention_passed": false,
+        "last_direct_trend_verification": "direct_dev_trend_verification_20261107.json",
+        "semantic_boundary_review_20261107": {
+          "complete": true,
+          "reported": true,
+          "branch_step": 480000,
+          "sample_errors": 32,
+          "positive_controls": 8,
+          "files": {
+            "semantic_boundary_review_sample_20261107.json": "2ce8a9b509c5693739d4ffd5d109a79f81d97dcc87b822cefe0420eb0ca3c2b0",
+            "semantic_boundary_review_20261107.json": "e5f372fdbbe9d63882908bcf1af513cc41ace9ad120016f17484da7601016fbb",
+            "semantic_boundary_review_20261107.html": "2e28bca4b144bad9b3d6ef4cc9907d3a152e2feba7e87582fbada0cedc6cf3ad"
+          },
+          "review_counts": {
+            "fn": {
+              "missed_clear_early_boundary": 11,
+              "uncertain_source": 5
+            },
+            "fp": {
+              "plausible_translation_boundary": 10,
+              "uncertain_source": 2,
+              "premature_semantic_split": 4
+            },
+            "tp": {
+              "valid_positive_control": 8
+            }
+          },
+          "method": "Assistant qualitative review, source-stratified hash sample, not representative or human gold; saved trace only; no new inference or training changes"
+        },
+        "user_pause_request_utc": "2026-11-07T14:01:54.081492+00:00",
+        "user_pause_reason": "Pause training and test current model; count multi-sentence turns with no internal cut, excluding single-sentence turns",
+        "auto_resume_authorized": false,
+        "active_end_only_test": {
+          "phase": "COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T14:35:39.755124+00:00",
+          "trainer_paused": true,
+          "report_sha256": "97f7a9ab3abdae67591e0c51b1fb836a064457af5da521b91c2981ce86638482",
+          "checkpoint_step": 3731173,
+          "branch_step": 500127,
+          "single_sentence_excluded": true,
+          "refined_translation_multi": 18,
+          "refined_translation_end_only": 6,
+          "big_test_multi": 4446,
+          "big_test_no_internal_cut": 1190,
+          "independent_end_only_verification_complete": true,
+          "refined_cohort_verification_complete": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/sentence_mix_end_only_test_20261107_v1"
+        },
+        "reported_pause": true,
+        "paused_checkpoint_step": 3731173,
+        "last_reported_end_only_test": "sentence_mix_end_only_test_20261107_v1@3731173",
+        "active_asr_adaptation": {
+          "phase": "COMPLETE",
+          "desired_state": "BOUNDED_TRIAL_COMPLETE",
+          "complete": true,
+          "reported": true,
+          "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+          "budget_full_epochs": 1,
+          "full_epochs_complete": 1,
+          "final_step": 3753320,
+          "final_branch_step": 22147,
+          "last_notified_dev_branch_step": 22147,
+          "last_notified_dev_global_step": 3753320,
+          "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+          "parent_paused": true,
+          "no_default_replacement": true,
+          "adopted": false,
+          "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+          "auto_extend_authorized": false,
+          "completion_verification_passed": true,
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_only_adaptation_20261107_v1"
+        },
+        "last_reported_asr_adaptation": "asr_only_adaptation_20261107_v1@3753320",
+        "active_calibration_audit": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/malbert_calibration_audit_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_resume_authorized": false,
+          "reported_utc": "2026-11-07T16:22:07.797340+00:00",
+          "checkpoint_step": 3731173,
+          "selected_threshold": 0.03,
+          "report_sha256": "4330c69784d51e522ff70fb76a0ddab0d60cd9120a3871f13c1c46094cc784ca",
+          "completion_verification_passed": true,
+          "no_training": true,
+          "no_test": true
+        },
+        "last_reported_calibration_audit": "malbert_calibration_audit_20261107_v1@3731173",
+        "active_effective16_trial": {
+          "output": "/home/edabk/hoangbpm/turn_detect/outputs/asr_effective_batch16_20261107_v1",
+          "complete": true,
+          "reported": true,
+          "phase": "COMPLETE",
+          "parent_paused": true,
+          "adopted": false,
+          "auto_extend_authorized": false,
+          "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+          "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+          "completion_verification_passed": true,
+          "final_identity_verified": true,
+          "last_notified_dev_branch_step": 20833,
+          "last_notified_dev_global_step": 3752006
+        },
+        "last_reported_effective16_trial": "asr_effective_batch16_20261107_v1@3752006",
+        "last_notified_storage_issue_key": "windows_c_near_10gib_reserve",
+        "last_notified_storage_alert": {
+          "issue_key": "windows_c_near_10gib_reserve",
+          "checked_utc": "2026-11-08T07:12:10.019813+00:00",
+          "windows_free_gib": 11.265777587890625,
+          "reserve_gib": 10,
+          "margin_gib": 1.265777587890625,
+          "parent_process": {
+            "present": false
+          },
+          "parent_desired_state": "PAUSED_BY_USER_FOR_TEST",
+          "no_files_deleted": true
+        }
+      },
+      "stop_marker": true
+    },
+    "asr_only_adaptation_20261107_v1": {
+      "process": {
+        "present": false
+      },
+      "status": {
+        "stage": "COMPLETE",
+        "pid": 1319777,
+        "start_ticks": "29117021",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T15:31:07.046631+00:00",
+        "report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196"
+      },
+      "task_state": {
+        "phase": "COMPLETE",
+        "desired_state": "BOUNDED_TRIAL_COMPLETE",
+        "reported": true,
+        "parent_paused": true,
+        "budget_full_epochs": 1,
+        "reported_start": false,
+        "complete": true,
+        "reported_utc": "2026-11-07T15:38:37.851524+00:00",
+        "full_epochs_complete": 1,
+        "final_step": 3753320,
+        "final_branch_step": 22147,
+        "last_notified_dev_branch_step": 22147,
+        "last_notified_dev_global_step": 3753320,
+        "last_notified_dev_report_sha256": "7ef181e9a10c69a022f646782e3c241b3a67f2dc1d6a4ca19cdeb7dcece9d196",
+        "no_default_replacement": true,
+        "adopted": false,
+        "assessment": "ASR VI worsens markedly; EN F1 rises slightly through precision while recall falls; other domains decline",
+        "auto_extend_authorized": false,
+        "completion_verification_passed": true
+      },
+      "stop_marker": false
+    },
+    "asr_effective_batch16_20261107_v1": {
+      "process": {
+        "present": false
+      },
+      "status": {
+        "stage": "COMPLETE",
+        "pid": 1356032,
+        "start_ticks": "29899130",
+        "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+        "at_utc": "2026-11-07T18:01:27.907624+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e"
+      },
+      "task_state": {
+        "complete": true,
+        "reported": true,
+        "phase": "COMPLETE",
+        "parent_paused": true,
+        "adopted": false,
+        "auto_extend_authorized": false,
+        "reported_utc": "2026-11-08T02:14:59.661240+00:00",
+        "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+        "completion_verification_passed": true,
+        "final_identity_verified": true,
+        "last_notified_dev_branch_step": 20833,
+        "last_notified_dev_global_step": 3752006
+      },
+      "stop_marker": false
+    }
+  },
+  "ssd_free_gib": 38.73355484008789,
+  "hdd_mount": [
+    [
+      "/dev/sda1",
+      "/mnt/hdd500",
+      "fuseblk",
+      "rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096",
+      "0",
+      "0"
+    ]
+  ],
+  "hdd_free_gib": 23.014732360839844,
+  "gpu": "",
+  "windows_free_gib": 11.253673553466797
+}

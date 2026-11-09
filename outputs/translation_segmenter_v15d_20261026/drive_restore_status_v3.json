@@ -1,0 +1,140 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "restore/launcher.json": {
+      "pid": 7213,
+      "start_ticks": "167634",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v3"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v3",
+      "source_sha256": "71bad33db084efdbe6dbb9568a35c6ab881b25ad073d61128cc8021f8f518376",
+      "log": "restore_control_v3/worker.log"
+    },
+    "restore/status.json": {
+      "at_utc": "2026-10-27T08:00:23.429258+00:00",
+      "stage": "HANDOFF_TO_CONTINUOUS_CRAWLER",
+      "next_cycle": 82
+    },
+    "restore/restore_receipt.json": {
+      "restored_at_utc": "2026-10-27T07:37:35.321446+00:00",
+      "manifest_at_utc": "2026-10-27T05:35:15.121209+00:00",
+      "data_cycle": 81,
+      "next_crawl_cycle": 82,
+      "database_integrity": "ok",
+      "checkpoints": {
+        "vi": {
+          "cycle": 81,
+          "cycle_step": 100,
+          "total_steps": 1300,
+          "training_fingerprint": "8e6c0d87d7918dbf296eae2692748b196abb0f494690404f7ef47f2b38fa4a01",
+          "training_rows": 954028,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "57515a19a049c8b7db5601e7f08c03ba465e7c6a2b3f40e45c2e6837a53560b2"
+        },
+        "en": {
+          "cycle": 81,
+          "cycle_step": 100,
+          "total_steps": 1300,
+          "training_fingerprint": "1311d735c3314c4971c1ea35b176d8a361bb239be22e668e170b3eeb3169c02e",
+          "training_rows": 493947,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "3a2b04820e00ba72ce43efc7b9212a0d2566b3b548b82af9d43d33d921719b48"
+        },
+        "zh": {
+          "cycle": 81,
+          "cycle_step": 100,
+          "total_steps": 1300,
+          "training_fingerprint": "17b509980348e38707f7c039d0362b58360a7a155b1c1c08e90cb687087ba716",
+          "training_rows": 1244300,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "71b6126efd68b4856d72a95edbf0280c31b90b2727195c30a8b928c702fa99f5"
+        }
+      },
+      "pending_training_languages": [
+        "zh"
+      ],
+      "weights_optimizer_rng_restored": true,
+      "training_fingerprints_match": true,
+      "local_Windows_large_downloads": false,
+      "recorded_torch_version": "2.11.0+cu130",
+      "restored_torch_version": "2.11.0+cu130",
+      "restore_module": "restore_drive_campaign_v3",
+      "evaluation_priority_gate_completed": true
+    },
+    "campaign/launcher.json": {
+      "pid": 7213,
+      "start_ticks": "167634",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_v15d3",
+        "--phase",
+        "run",
+        "--docs-per-source",
+        "200",
+        "--steps",
+        "100",
+        "--microbatch",
+        "32"
+      ],
+      "module": "turn_v2.translation_segmenter_v15d3",
+      "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+      "log": "restore_control_v3/worker.log",
+      "resumed_after_drive_restore": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/recovery/drive_restore_receipt_v1.json"
+    },
+    "campaign/status.json": {
+      "campaign": "translation_segmenter_v15d",
+      "status": "RUNNING",
+      "stage": "LOADING_PRETRAINED_SEGMENTER",
+      "heartbeat_utc": "2026-10-27T08:13:54.144384+00:00",
+      "pid": 17902,
+      "qwen_judge_enabled": false,
+      "quality_target_certified": false,
+      "cycle": 84,
+      "language": "vi",
+      "train_samples": 983370,
+      "dev_samples": 105798,
+      "microbatch": 32
+    },
+    "campaign/child.json": {
+      "pid": 17902,
+      "start_ticks": "426088",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_v15d2",
+        "--phase",
+        "train",
+        "--cycle",
+        "84",
+        "--steps",
+        "100",
+        "--microbatch",
+        "32",
+        "--language",
+        "vi"
+      ],
+      "module": "turn_v2.translation_segmenter_v15d",
+      "log": "outputs/translation_segmenter_v15d_20261026/cycles/000084/train_vi.log"
+    },
+    "restore/launcher.json_identity_verified": false,
+    "campaign/launcher.json_identity_verified": true,
+    "campaign/child.json_identity_verified": true,
+    "free_bytes": 151161782272,
+    "restore_log_tail": "], \"weights_optimizer_rng_restored\": true, \"training_fingerprints_match\": true, \"local_Windows_large_downloads\": false, \"recorded_torch_version\": \"2.11.0+cu130\", \"restored_torch_version\": \"2.11.0+cu130\", \"restore_module\": \"restore_drive_campaign_v3\", \"evaluation_priority_gate_completed\": true}\n{\"at_utc\": \"2026-10-27T07:37:35.324132+00:00\", \"stage\": \"RESUMING_INTERRUPTED_TRAINING_BATCH\", \"cycle\": 81, \"language\": \"zh\", \"restored_cycle_step\": 100, \"restored_total_steps\": 1300}\n{\"at_utc\": \"2026-10-27T07:37:35.324526+00:00\", \"stage\": \"RESUMING_ZH\"}\n{\"at_utc\": \"2026-10-27T08:00:23.429258+00:00\", \"stage\": \"HANDOFF_TO_CONTINUOUS_CRAWLER\", \"next_cycle\": 82}\n/usr/local/lib/python3.13/dist-packages/jieba/__init__.py:44: SyntaxWarning: invalid escape sequence '\\.'\n  re_han_default = re.compile(\"([\\u4E00-\\u9FD5a-zA-Z0-9+#&\\._%\\-]+)\", re.U)\n/usr/local/lib/python3.13/dist-packages/jieba/__init__.py:46: SyntaxWarning: invalid escape sequence '\\s'\n  re_skip_default = re.compile(\"(\\r\\n|\\s)\", re.U)\n/usr/local/lib/python3.13/dist-packages/jieba/finalseg/__init__.py:78: SyntaxWarning: invalid escape sequence '\\.'\n  re_skip = re.compile(\"([a-zA-Z0-9]+(?:\\.\\d+)?%?)\")\n/usr/local/lib/python3.13/dist-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  import pkg_resources\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\nBuilding prefix dict from the default dictionary ...\nDumping model to file cache /tmp/jieba.cache\nLoading model cost 0.639 seconds.\nPrefix dict has been built successfully.\n"
+  }
+}

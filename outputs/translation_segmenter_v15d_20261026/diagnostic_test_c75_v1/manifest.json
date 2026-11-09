@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "frozen_at_utc": "2026-10-27T03:28:28.064321+00:00",
+  "checkpoints": {
+    "vi": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "df31c23fdd530bb381ab93557891941173a844790b1c83d14dec8c3bd1b01bb0",
+      "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+      "weights_sha256": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+      "threshold_from_dev": 0.6599999999999999,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "be0e1b378c6c5c44835cf2cf91151adb2598c823b60fc7d8a1c8a66792b0dd03",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      }
+    },
+    "en": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "a0c95819737bf625dad512111ac0196324db87aa90889121568a41a206278cb0",
+      "training_fingerprint": "7d274b5b4a0b5d9912fb408421219e63e0ba1b998e79c1b19dbef2b2789eb23e",
+      "weights_sha256": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+      "threshold_from_dev": 0.58,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "de62e1ac135ce6adbb4d2b1fba1cb197f5c067c272d66e93e0a7f36dced3a73d",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      }
+    },
+    "zh": {
+      "checkpoint_cycle": 75,
+      "cycle_step": 100,
+      "total_steps": 1100,
+      "source_resume_sha256": "58522dba0fc6a0ef9d138fc40a1104a78b2c7f407a0af4eb632c528d5d3ae295",
+      "training_fingerprint": "79cef97fd7299a35c9020a34d573d8922d483fe9dfeb09ab66256a6258700748",
+      "weights_sha256": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+      "threshold_from_dev": 0.7549999999999999,
+      "files_sha256": {
+        "config.json": "725efbfce9ea7a80a513c57fa49c7c0d6035e598c06c21d6caac99155eb8637b",
+        "model.safetensors": "55c15d2b9d7924e8bd562a60d6a00ddd19f7c29b87e1a4dca6ed41551223a733",
+        "tokenizer.json": "89ee6ed21d345eba7ad360473bde026240d8cf42fc67723b61162d9605784efa",
+        "tokenizer_config.json": "c12b7b3bab6cd638f70b203daf1438bf7fedbeab4728a1e155728af9a5a55687"
+      }
+    }
+  },
+  "database_sha256": "2fc6dbf60ebf4fa39f8a32804e78356cf9c373c4c623ce950830c6d94c2c06ed",
+  "database_integrity": "ok",
+  "source_split_leakage_groups": 0,
+  "split_counts": [
+    {
+      "language": "en",
+      "split": "dev",
+      "rows": 51659
+    },
+    {
+      "language": "en",
+      "split": "test",
+      "rows": 66013
+    },
+    {
+      "language": "en",
+      "split": "train",
+      "rows": 455768
+    },
+    {
+      "language": "vi",
+      "split": "dev",
+      "rows": 95057
+    },
+    {
+      "language": "vi",
+      "split": "test",
+      "rows": 101186
+    },
+    {
+      "language": "vi",
+      "split": "train",
+      "rows": 875811
+    },
+    {
+      "language": "zh",
+      "split": "dev",
+      "rows": 145474
+    },
+    {
+      "language": "zh",
+      "split": "test",
+      "rows": 150066
+    },
+    {
+      "language": "zh",
+      "split": "train",
+      "rows": 1147782
+    }
+  ],
+  "selection": "test pages added after45 through75; deterministic source-page80/20 diagnostic/unscored reserve",
+  "old_holdout_unchanged": true,
+  "test_used_for_threshold_or_checkpoint_selection": false,
+  "diagnostic_errors_may_inform_future_training_data": true,
+  "reserve_scored": false,
+  "scope": "PUNCTUATION_DERIVED_PROSE_NOT_HUMAN_AUDIO_GOLD",
+  "code_sha256": "77e63384dc38953fe45eed5f986c52b07fb242986af6f2bcdc2b695c70f70eff",
+  "shared_evaluator_sha256": "cfad4fda28ff2f08b2ab2968359155ccddc3f1afdd462e4eee8192cdd10aa579",
+  "model_encoder_sha256": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f"
+}

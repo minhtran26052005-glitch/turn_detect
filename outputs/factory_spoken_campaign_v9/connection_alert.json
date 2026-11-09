@@ -1,0 +1,101 @@
+{
+  "checked_utc": "2026-11-03T08:27:14.761342+00:00",
+  "status": "SUPERSEDED_BY_BILINGUAL_V10",
+  "issue_key": null,
+  "last_notified_issue_key": null,
+  "notified_utc": "2026-11-03T01:22:47.350477+00:00",
+  "discovery": {
+    "checked_utc": "2026-11-03T01:21:53.602228+00:00",
+    "assigned_runtime_count": 1,
+    "runtime_checks": [
+      {
+        "runtime_index": 0,
+        "http_status": 404
+      }
+    ]
+  },
+  "attempts": {
+    "checked_utc": "2026-11-03T01:20:51.334055+00:00",
+    "first_attempt": {
+      "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+      "matches": 0,
+      "errors": [
+        {
+          "runtime_index": 0,
+          "error_type": "ReadTimeout"
+        }
+      ]
+    },
+    "retry_exit_code": 2,
+    "retry_checked_utc": "2026-11-03T01:21:08.657935+00:00",
+    "retry": {
+      "stage": "NEED_CURRENT_A_IPYNB_SESSION",
+      "matches": 0,
+      "errors": [
+        {
+          "runtime_index": 0,
+          "error_type": "HTTPError"
+        }
+      ]
+    }
+  },
+  "worker_liveness": "OLD_V9_STOPPED_VERIFIED",
+  "current_counters": {
+    "en": 0,
+    "vi": 6725,
+    "zh": 0
+  },
+  "last_verified_boot_id": "eb59f31a-2c7b-4231-a29a-aa835d106e3d",
+  "last_verified_pid": 10402,
+  "last_verified_start_ticks": "245097",
+  "historical_last_verified_state": {
+    "attempts": {
+      "en": 0,
+      "vi": 18888,
+      "zh": 0
+    },
+    "batch_size": 20,
+    "commit_index": 931,
+    "cycle": 1,
+    "cycle_counts": {
+      "en": 0,
+      "vi": 4312,
+      "zh": 0
+    },
+    "example_counts": {
+      "en": 0,
+      "vi": 109925,
+      "zh": 0
+    },
+    "language": "vi",
+    "last_commit_sha256": "cfe1381c284affcf1e132a4b18e760f7acdf9e843be3aa013e7c17f125e4a937",
+    "oom_retries": 1,
+    "rejected": {
+      "en": 0,
+      "vi": 14576,
+      "zh": 0
+    },
+    "schema": 9,
+    "total_counts": {
+      "en": 0,
+      "vi": 4312,
+      "zh": 0
+    }
+  },
+  "historical_last_verified_state_utc": "2026-11-02T23:44:39.216014+00:00",
+  "required_user_action": null,
+  "unchanged_already_notified_issue": false,
+  "previous_issues": [
+    {
+      "issue_key": "spoken_v9_api_sessions_http404_after_2432dc61_7510",
+      "notified_utc": "2026-11-03T01:22:47.350477+00:00",
+      "last_verified_boot_id": "2432dc61-b53b-4ea3-ade8-c5092c3c3543",
+      "last_verified_pid": 7510
+    }
+  ],
+  "recovery_reported": true,
+  "verified_commit": 1200,
+  "handover_receipt_sha256": "46fd1dc61f725e60b4e96c3f1c25bbd79daf8eecf5974031baaf6f53525db491",
+  "observed_commit": 1458,
+  "superseded_by": "factory_spoken_campaign_v10"
+}

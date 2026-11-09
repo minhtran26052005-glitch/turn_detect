@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "architecture": "tiny_turn_gru",
+  "max_length": 256,
+  "threshold": 0.49499999999999994,
+  "padding_to_multiple_of": 8,
+  "intra_op_threads": 2,
+  "normalization": "NFKC lowercase punctuation-to-space collapse-whitespace",
+  "label2id": {
+    "NEOT": 0,
+    "EOT": 1
+  },
+  "smoke_only": false,
+  "training_method": "INT4_QAT_WITH_DISTILLATION",
+  "quality_scope": "Same-language dev only; no unseen real quality certificate",
+  "quality_status": "PACKED_QAT_EXPORT_PENDING_FULL_DEV_EVALUATION",
+  "language": "zh",
+  "current_truncation": "tail",
+  "storage_precision": "INT4",
+  "compute_precision": "FP32",
+  "quantized": true,
+  "quantization_group_size": 64,
+  "quantization_scale_precision": "FP16",
+  "quantization_scale_policy": "FROZEN_DURING_QAT_AND_EXPORT",
+  "onnx_opset": 21,
+  "onnx_session_options": {
+    "session.disable_quant_qdq": "1"
+  }
+}

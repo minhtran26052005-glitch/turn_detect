@@ -1,0 +1,5 @@
+{
+  "status": "STOPPED_OWN_EVALUATION_FOR_RUNTIME_FIX",
+  "reason": "ORT default preserves DequantizeLinear, recomputing large constant weights; enable session.disable_quant_qdq for this FP32 activation model",
+  "holdout_evaluated": false
+}

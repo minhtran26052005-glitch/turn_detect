@@ -1,0 +1,7 @@
+{
+  "loss": 0.0008129198686219752,
+  "adapter_tensors_with_nonzero_gradients": 252,
+  "max_prompt_tokens": 490,
+  "peak_cuda_allocated": 8727429632,
+  "optimizer_step_performed": false
+}

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "technical_only": true,
+  "actual_accumulator_used": true,
+  "pending_lane_queue_resume_bitwise_equal": true,
+  "partial_gradients_resume_bitwise_equal": true,
+  "model_optimizer_rng_lanes_counts_equal": true,
+  "scored_points": 170,
+  "windows": {
+    "16": 10,
+    "10": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "started_at_utc": "2026-10-25T05:25:42.019523+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-m",
+    "turn_v2.reward_v10_qwen"
+  ],
+  "timeout_seconds": 1500,
+  "pid": 2947,
+  "elapsed_seconds": 70.24778366088867,
+  "heartbeat_unix": 1792906007.2667427,
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-25T05:26:52.267309+00:00"
+}

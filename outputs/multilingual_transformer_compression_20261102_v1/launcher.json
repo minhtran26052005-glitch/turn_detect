@@ -1,0 +1,8 @@
+{
+  "pid": 3391254,
+  "start_ticks": "52255374",
+  "module": "turn_v2.multilingual_transformer_compress_v1",
+  "source_sha256": "de23776a0b44cb4b63de8cbb04416b535a01892bc5e7050f94f880fe2b5fd54b",
+  "mode": "wait existing tiny campaign, then original-architecture PTQ only if no passing tiny candidate",
+  "main_training_untouched": true
+}

@@ -1,0 +1,120 @@
+{
+  "status": "CURRENT_CAMPAIGNS_AND_FROZEN_FINAL_TEST_COMPLETE_TARGET_UNMET",
+  "latest_verified_job": "natural_v8_lora_20261025_r3",
+  "latest_verified_optimizer_step": 180,
+  "runtime": "Connected Colab L4; inspect current job status before inferring liveness",
+  "input_constraint": "TEXT_ONLY; public natural conversations",
+  "user_target": "Each vi/en/zh accuracy>0.9 AND EOT_F1>0.9 on real unseen references; do not claim from dev or unlabeled punctuation crawl",
+  "natural_train_cases": 1433,
+  "natural_dev_cases": 293,
+  "held_cases": 384,
+  "held_classifier_scores_used": true,
+  "next_steps": [
+    "Use the saved current final results; do not retrain or retune on this held cohort",
+    "A further training round requires more suitable training conversations and a separate unseen evaluation cohort",
+    "ViYT-Diar official test source is pinned for future evaluation only; not training; no audio or classifier scores yet",
+    "Inspect audio/transcript examples and human-semantic ambiguity before attributing errors to model or data alone"
+  ],
+  "preserved_failed_jobs": [
+    "natural_campaign_pipeline_20261025",
+    "natural_v8_lora_20261025",
+    "natural_v8_lora_20261025_r2",
+    "natural_campaign_recovery_20261025"
+  ],
+  "failure_fixes": "Unused incompatible torchao disabled only in R3 process; explicit tokenizer return_dict=False. Failed runs occurred before optimizer.",
+  "serving_default_changed": false,
+  "new_compact_quality_qualified_model_exists": false,
+  "known_models": {
+    "V4_teacher_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+    "V5_teacher_sha256": "0ef9966ce4426982462b07b3160d0df399bf3cd6e2ea83f5c561b79616c92b66"
+  },
+  "artifacts": {
+    "report": "outputs/natural_v7_20261025/review.html",
+    "listening": "outputs/natural_v7_20261025/asr_review/review.html",
+    "notebook": "a.ipynb",
+    "live_notebook_receipt": "outputs/natural_v7_20261025/notebook_colab_receipt_live.json",
+    "final_report": "outputs/natural_v7_20261025/final_eval/report.json",
+    "latest_crawl_player": "outputs/natural_v7_20261025/crawl_review.html",
+    "completed_notebook_receipt": "outputs/natural_v7_20261025/notebook_colab_receipt.json",
+    "validation": "outputs/natural_v7_20261025/completion_validation.json",
+    "adapter_backup": "outputs/natural_v8_20261025/adapter_receipts_r3.zip"
+  },
+  "recorded_at_utc": "2026-10-24T21:38:37.148348+00:00",
+  "latest_verified_job_status": "COMPLETED",
+  "final_evaluation_job": "natural_final_eval_20261025",
+  "final_evaluation_job_status": "COMPLETED",
+  "held_status": "SEEN_NOW_REGRESSION_ONLY",
+  "quality_target_achieved": false,
+  "latest_held_metrics": {
+    "vi": {
+      "samples": 210,
+      "threshold": 0.4405200481414795,
+      "accuracy": 0.719047619047619,
+      "eot_precision": 0.30434782608695654,
+      "eot_recall": 0.65625,
+      "eot_f1": 0.4158415841584158,
+      "joint_score": 0.4158415841584158,
+      "false_eot": 48,
+      "missed_eot": 11,
+      "false_eot_rate": 0.2696629213483146,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          130,
+          48
+        ],
+        [
+          11,
+          21
+        ]
+      ]
+    },
+    "en": {
+      "samples": 93,
+      "threshold": 0.3051793873310089,
+      "accuracy": 0.7204301075268817,
+      "eot_precision": 0.7948717948717948,
+      "eot_recall": 0.8611111111111112,
+      "eot_f1": 0.8266666666666667,
+      "joint_score": 0.7204301075268817,
+      "false_eot": 16,
+      "missed_eot": 10,
+      "false_eot_rate": 0.7619047619047619,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          16
+        ],
+        [
+          10,
+          62
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 81,
+      "threshold": 0.21049168705940247,
+      "accuracy": 0.7901234567901234,
+      "eot_precision": 0.8051948051948052,
+      "eot_recall": 0.96875,
+      "eot_f1": 0.8794326241134752,
+      "joint_score": 0.7901234567901234,
+      "false_eot": 15,
+      "missed_eot": 2,
+      "false_eot_rate": 0.8823529411764706,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          2,
+          15
+        ],
+        [
+          2,
+          62
+        ]
+      ]
+    }
+  },
+  "technical_validation": {
+    "passed": 361,
+    "total": 361
+  }
+}

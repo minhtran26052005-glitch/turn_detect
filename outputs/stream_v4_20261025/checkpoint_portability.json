@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "purpose": "Regression portability only; no threshold/model selection or claim of new independent test",
+  "weights_sha256": "89ebf4e8c8b99e4ea1ad2eac19f9132b0ce8506ee0836943dba343fc849d6509",
+  "local_torch": "2.5.1+cu124",
+  "local_gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "tf32": false,
+  "comparisons": {
+    "fresh_vi_natural_auto_labels": {
+      "cases": 30,
+      "max_abs_probability_difference": 5.969587171666957e-06,
+      "decisions_equal": true
+    },
+    "fresh_en_zh_natural_auto_labels": {
+      "cases": 40,
+      "max_abs_probability_difference": 1.7870505629902222e-05,
+      "decisions_equal": true
+    }
+  }
+}

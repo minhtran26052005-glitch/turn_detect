@@ -1,0 +1,15 @@
+{
+  "decision_time": "2026-10-25 before opening held or fresh local evaluation scores",
+  "basis": "Development class imbalance: only23NEOT vs425EOT in Mandarin read-speech development; conversational F1 below90",
+  "experiment": "Equal labels within language/source, same causal input and source split, lower LR",
+  "initial_checkpoint": "Global best selected by dev from original three-round Colab campaign",
+  "max_rounds": 2,
+  "steps_per_round": 400,
+  "evaluation_every_steps": 100,
+  "early_stop_no_dev_improvement": 3,
+  "selected_by": "minimum development slice accuracy/F1 including preceding control",
+  "fresh_or_held_scores_used_to_design_or_select": false,
+  "test_protocol": "Freeze final candidate/hash/thresholds before one held evaluation; do not tune from held/fresh results",
+  "independent_human_verified_VI_real_gold_available": false,
+  "real_target_not_guaranteed": true
+}

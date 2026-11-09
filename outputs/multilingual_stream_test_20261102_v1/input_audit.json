@@ -1,0 +1,12 @@
+{
+  "selected_dialogues": 200,
+  "selected_paragraphs": 200,
+  "source_dialogue_paragraph_splits": {
+    "exposed_regression": 800
+  },
+  "exact_full_paragraph_train_dev_collisions": [],
+  "source_family_overlap_with_train": 49,
+  "source_family_overlap_with_dev": 2,
+  "family_overlap_is_not_disjoint_independent_test": true,
+  "student_token_window_and_paraphrase_collisions_exhaustively_audited": false
+}

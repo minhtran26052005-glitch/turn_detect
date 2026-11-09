@@ -1,0 +1,117 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Auto crawl RL</title><style>body{font:18px system-ui;max-width:1150px;margin:35px auto;padding:24px;color:#18313e;background:#f3f7fb}p{line-height:1.7}td,th{padding:12px;border-bottom:1px solid #ccc;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere}section{background:white;padding:24px;border-radius:12px;margin:18px 0}</style><h1>Crawl → dự đoán → reward Qwen → RL → dev</h1><p>Đã chạy tự động2vòng, ba model riêng. Qwen3-8B dùng làm người chấm semantic EOT/NEOT/AMBIGUOUS; model nhỏ mới là policy. Reward do Qwen chấm không phải nhãn người duyệt hoặc thời gian nhường lượt thật. Không chứng nhận90%.</p><section><h2>Các nhánh đã chạy</h2><table><tr><th>Vòng</th><th>Tiếng</th><th>Bước RL</th><th>Dev trước: acc/F1</th><th>Dev sau: acc/F1</th><th>Dev gate</th></tr><tr><td>1</td><td>vi</td><td>75</td><td>45.52% / 46.98%</td><td>50.34% / 48.57%</td><td>giữ</td></tr><tr><td>1</td><td>en</td><td>75</td><td>64.56% / 75.00%</td><td>63.29% / 71.84%</td><td>bỏ nhánh</td></tr><tr><td>1</td><td>zh</td><td>75</td><td>71.01% / 82.76%</td><td>69.57% / 81.42%</td><td>bỏ nhánh</td></tr><tr><td>2</td><td>vi</td><td>75</td><td>50.34% / 48.57%</td><td>46.90% / 46.90%</td><td>bỏ nhánh</td></tr><tr><td>2</td><td>en</td><td>75</td><td>64.56% / 75.00%</td><td>63.29% / 71.84%</td><td>bỏ nhánh</td></tr><tr><td>2</td><td>zh</td><td>75</td><td>71.01% / 82.76%</td><td>71.01% / 82.14%</td><td>bỏ nhánh</td></tr></table><p>Chỉ giữ khi minimum dev-slice score tăng; không dùng tập regression384để tune. Reward judge và natural-floor dev là hai mục tiêu khác nhau.</p></section><section><h2>Crawl và reward được nhận</h2><pre>{
+  &quot;rounds&quot;: [
+    {
+      &quot;round&quot;: 1,
+      &quot;pages&quot;: 6,
+      &quot;candidates&quot;: 93,
+      &quot;accepted&quot;: 51,
+      &quot;errors&quot;: []
+    },
+    {
+      &quot;round&quot;: 2,
+      &quot;pages&quot;: 5,
+      &quot;candidates&quot;: 90,
+      &quot;accepted&quot;: 56,
+      &quot;errors&quot;: [
+        {
+          &quot;language&quot;: &quot;zh&quot;,
+          &quot;title&quot;: &quot;铁路运输&quot;,
+          &quot;error&quot;: &quot;HTTPError:429 Client Error: Too Many Requests for url: https://zh.wikipedia.org/w/api.php?action=query&amp;format=json&amp;formatversion=2&amp;prop=extracts%7Cinfo%7Crevisi&quot;
+        }
+      ]
+    }
+  ],
+  &quot;reward_labels&quot;: [
+    {
+      &quot;round&quot;: 1,
+      &quot;language&quot;: &quot;vi&quot;,
+      &quot;accepted_EOT&quot;: 7,
+      &quot;accepted_NEOT&quot;: 10
+    },
+    {
+      &quot;round&quot;: 1,
+      &quot;language&quot;: &quot;en&quot;,
+      &quot;accepted_EOT&quot;: 5,
+      &quot;accepted_NEOT&quot;: 20
+    },
+    {
+      &quot;round&quot;: 1,
+      &quot;language&quot;: &quot;zh&quot;,
+      &quot;accepted_EOT&quot;: 4,
+      &quot;accepted_NEOT&quot;: 5
+    },
+    {
+      &quot;round&quot;: 2,
+      &quot;language&quot;: &quot;vi&quot;,
+      &quot;accepted_EOT&quot;: 6,
+      &quot;accepted_NEOT&quot;: 14
+    },
+    {
+      &quot;round&quot;: 2,
+      &quot;language&quot;: &quot;en&quot;,
+      &quot;accepted_EOT&quot;: 7,
+      &quot;accepted_NEOT&quot;: 20
+    },
+    {
+      &quot;round&quot;: 2,
+      &quot;language&quot;: &quot;zh&quot;,
+      &quot;accepted_EOT&quot;: 4,
+      &quot;accepted_NEOT&quot;: 5
+    }
+  ]
+}</pre><p>Qwen trả hai đáp án độc lập theo prompt nhưng cùng một model, nên vẫn có tương quan. Mẫu bất đồng/AMBIGUOUS/lỗi định dạng không tạo reward.</p></section><section><h2>Bộ kiểm tra người chấm</h2><p>Lượt4B theo relativeABC không vượt kiểm tra, không cập nhật policy. Lượt8B dùng đáp án sinh trực tiếp, vượt6/6probe rõ ràng. Thay cả model và cách đọc đáp án; không kết luận riêng tác động của tăng số tham số. Probe nhỏ không phải chứng nhận độ chính xác trên crawl.</p><pre>[
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;text&quot;: &quot;tôi muốn đặt vé đi đến&quot;,
+    &quot;expected&quot;: &quot;NEOT&quot;,
+    &quot;generated&quot;: [
+      &quot;NEOT&quot;,
+      &quot;NEOT&quot;
+    ]
+  },
+  {
+    &quot;language&quot;: &quot;vi&quot;,
+    &quot;text&quot;: &quot;cảm ơn bạn đã giúp tôi&quot;,
+    &quot;expected&quot;: &quot;EOT&quot;,
+    &quot;generated&quot;: [
+      &quot;EOT&quot;,
+      &quot;EOT&quot;
+    ]
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;text&quot;: &quot;I would like to travel from&quot;,
+    &quot;expected&quot;: &quot;NEOT&quot;,
+    &quot;generated&quot;: [
+      &quot;NEOT&quot;,
+      &quot;NEOT&quot;
+    ]
+  },
+  {
+    &quot;language&quot;: &quot;en&quot;,
+    &quot;text&quot;: &quot;Thank you for your help&quot;,
+    &quot;expected&quot;: &quot;EOT&quot;,
+    &quot;generated&quot;: [
+      &quot;EOT&quot;,
+      &quot;EOT&quot;
+    ]
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;text&quot;: &quot;我想预订从&quot;,
+    &quot;expected&quot;: &quot;NEOT&quot;,
+    &quot;generated&quot;: [
+      &quot;NEOT&quot;,
+      &quot;NEOT&quot;
+    ]
+  },
+  {
+    &quot;language&quot;: &quot;zh&quot;,
+    &quot;text&quot;: &quot;谢谢你的帮助&quot;,
+    &quot;expected&quot;: &quot;EOT&quot;,
+    &quot;generated&quot;: [
+      &quot;EOT&quot;,
+      &quot;EOT&quot;
+    ]
+  }
+]</pre><p><a href="summary.json">JSON kết quả</a> · <a href="../reward_v10_20261025/review.html">Đối chứng CE/cost-CE/RL V10</a> · <a href="../../README_AUTO_RL.md">Cách chạy và giới hạn</a></p></section></html>

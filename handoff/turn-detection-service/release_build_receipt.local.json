@@ -1,0 +1,14 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "root": "/content/turn_detection_release_534bdf565ece",
+    "pid": 77267,
+    "start_ticks": "1884808",
+    "log": "/content/turn_detection_release_534bdf565ece/build.local.log"
+  }
+}

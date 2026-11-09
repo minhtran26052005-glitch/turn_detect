@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "automatic_loop_validation_checks": {
+    "passed": 56,
+    "total": 56
+  },
+  "additional_checks": [
+    {
+      "check": "all43_earlier_notebook_cells_preserved",
+      "passed": true
+    },
+    {
+      "check": "actual_Colab_notebook_outputs",
+      "passed": true
+    },
+    {
+      "check": "serving_model_unchanged:vi",
+      "passed": true
+    },
+    {
+      "check": "serving_model_unchanged:en",
+      "passed": true
+    },
+    {
+      "check": "serving_model_unchanged:zh",
+      "passed": true
+    },
+    {
+      "check": "68_tests_passed",
+      "passed": true
+    },
+    {
+      "check": "auto_metrics_and_hashes_passed",
+      "passed": true
+    }
+  ],
+  "unit_tests": 68,
+  "local_new_campaign_artifact_MiB": 205.18275260925293,
+  "local_free_GiB": 37.9478645324707,
+  "full_teacher_downloaded_locally": false,
+  "deployed_models_changed": false,
+  "quality_target_certified": false
+}

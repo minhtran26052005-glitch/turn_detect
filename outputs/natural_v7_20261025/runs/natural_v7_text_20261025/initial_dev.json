@@ -1,0 +1,350 @@
+{
+  "candidates": [
+    {
+      "baseline_path": "runs/stream_v4_campaign_20261025/round_02/best",
+      "thresholds": {
+        "vi": 0.22999999999999998,
+        "en": 0.05,
+        "zh": 0.07
+      },
+      "slices": {
+        "vi:legacy_vi": {
+          "samples": 3600,
+          "threshold": 0.22999999999999998,
+          "accuracy": 0.9333333333333333,
+          "eot_precision": 0.8571428571428571,
+          "eot_recall": 0.96,
+          "eot_f1": 0.9056603773584906,
+          "joint_score": 0.9056603773584906,
+          "false_eot": 192,
+          "missed_eot": 48,
+          "false_eot_rate": 0.08,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              2208,
+              192
+            ],
+            [
+              48,
+              1152
+            ]
+          ]
+        },
+        "vi:natural": {
+          "samples": 145,
+          "threshold": 0.22999999999999998,
+          "accuracy": 0.4827586206896552,
+          "eot_precision": 0.3617021276595745,
+          "eot_recall": 0.6938775510204082,
+          "eot_f1": 0.4755244755244755,
+          "joint_score": 0.4755244755244755,
+          "false_eot": 60,
+          "missed_eot": 15,
+          "false_eot_rate": 0.625,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              36,
+              60
+            ],
+            [
+              15,
+              34
+            ]
+          ]
+        },
+        "en:natural": {
+          "samples": 79,
+          "threshold": 0.05,
+          "accuracy": 0.6708860759493671,
+          "eot_precision": 0.7368421052631579,
+          "eot_recall": 0.7924528301886793,
+          "eot_f1": 0.7636363636363637,
+          "joint_score": 0.6708860759493671,
+          "false_eot": 15,
+          "missed_eot": 11,
+          "false_eot_rate": 0.5769230769230769,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              42
+            ]
+          ]
+        },
+        "zh:natural": {
+          "samples": 69,
+          "threshold": 0.07,
+          "accuracy": 0.6231884057971014,
+          "eot_precision": 0.7288135593220338,
+          "eot_recall": 0.8113207547169812,
+          "eot_f1": 0.7678571428571429,
+          "joint_score": 0.6231884057971014,
+          "false_eot": 16,
+          "missed_eot": 10,
+          "false_eot_rate": 1.0,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              0,
+              16
+            ],
+            [
+              10,
+              43
+            ]
+          ]
+        }
+      },
+      "natural_languages": {
+        "vi": {
+          "samples": 145,
+          "threshold": 0.22999999999999998,
+          "accuracy": 0.4827586206896552,
+          "eot_precision": 0.3617021276595745,
+          "eot_recall": 0.6938775510204082,
+          "eot_f1": 0.4755244755244755,
+          "joint_score": 0.4755244755244755,
+          "false_eot": 60,
+          "missed_eot": 15,
+          "false_eot_rate": 0.625,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              36,
+              60
+            ],
+            [
+              15,
+              34
+            ]
+          ]
+        },
+        "en": {
+          "samples": 79,
+          "threshold": 0.05,
+          "accuracy": 0.6708860759493671,
+          "eot_precision": 0.7368421052631579,
+          "eot_recall": 0.7924528301886793,
+          "eot_f1": 0.7636363636363637,
+          "joint_score": 0.6708860759493671,
+          "false_eot": 15,
+          "missed_eot": 11,
+          "false_eot_rate": 0.5769230769230769,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              11,
+              15
+            ],
+            [
+              11,
+              42
+            ]
+          ]
+        },
+        "zh": {
+          "samples": 69,
+          "threshold": 0.07,
+          "accuracy": 0.6231884057971014,
+          "eot_precision": 0.7288135593220338,
+          "eot_recall": 0.8113207547169812,
+          "eot_f1": 0.7678571428571429,
+          "joint_score": 0.6231884057971014,
+          "false_eot": 16,
+          "missed_eot": 10,
+          "false_eot_rate": 1.0,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              0,
+              16
+            ],
+            [
+              10,
+              43
+            ]
+          ]
+        }
+      },
+      "minimum_dev_slice_joint_score": 0.4755244755244755,
+      "development_target_met": false,
+      "development_all_slices_over_90": false,
+      "natural_hold_false_eot_below_10_percent": false,
+      "independent_real_target_achieved": false,
+      "scope": "Development automatic floor labels; not independent human gold"
+    },
+    {
+      "baseline_path": "runs/natural_v5_train_20261025/round_02/best",
+      "thresholds": {
+        "vi": 0.08499999999999999,
+        "en": 0.26499999999999996,
+        "zh": 0.055
+      },
+      "slices": {
+        "vi:legacy_vi": {
+          "samples": 3600,
+          "threshold": 0.08499999999999999,
+          "accuracy": 0.9122222222222223,
+          "eot_precision": 0.7998643147896879,
+          "eot_recall": 0.9825,
+          "eot_f1": 0.8818249813014211,
+          "joint_score": 0.8818249813014211,
+          "false_eot": 295,
+          "missed_eot": 21,
+          "false_eot_rate": 0.12291666666666666,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              2105,
+              295
+            ],
+            [
+              21,
+              1179
+            ]
+          ]
+        },
+        "vi:natural": {
+          "samples": 145,
+          "threshold": 0.08499999999999999,
+          "accuracy": 0.4482758620689655,
+          "eot_precision": 0.3434343434343434,
+          "eot_recall": 0.6938775510204082,
+          "eot_f1": 0.4594594594594595,
+          "joint_score": 0.4482758620689655,
+          "false_eot": 65,
+          "missed_eot": 15,
+          "false_eot_rate": 0.6770833333333334,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              31,
+              65
+            ],
+            [
+              15,
+              34
+            ]
+          ]
+        },
+        "en:natural": {
+          "samples": 79,
+          "threshold": 0.26499999999999996,
+          "accuracy": 0.6962025316455697,
+          "eot_precision": 0.7164179104477612,
+          "eot_recall": 0.9056603773584906,
+          "eot_f1": 0.8,
+          "joint_score": 0.6962025316455697,
+          "false_eot": 19,
+          "missed_eot": 5,
+          "false_eot_rate": 0.7307692307692307,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              7,
+              19
+            ],
+            [
+              5,
+              48
+            ]
+          ]
+        },
+        "zh:natural": {
+          "samples": 69,
+          "threshold": 0.055,
+          "accuracy": 0.7536231884057971,
+          "eot_precision": 0.7647058823529411,
+          "eot_recall": 0.9811320754716981,
+          "eot_f1": 0.859504132231405,
+          "joint_score": 0.7536231884057971,
+          "false_eot": 16,
+          "missed_eot": 1,
+          "false_eot_rate": 1.0,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              52
+            ]
+          ]
+        }
+      },
+      "natural_languages": {
+        "vi": {
+          "samples": 145,
+          "threshold": 0.08499999999999999,
+          "accuracy": 0.4482758620689655,
+          "eot_precision": 0.3434343434343434,
+          "eot_recall": 0.6938775510204082,
+          "eot_f1": 0.4594594594594595,
+          "joint_score": 0.4482758620689655,
+          "false_eot": 65,
+          "missed_eot": 15,
+          "false_eot_rate": 0.6770833333333334,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              31,
+              65
+            ],
+            [
+              15,
+              34
+            ]
+          ]
+        },
+        "en": {
+          "samples": 79,
+          "threshold": 0.26499999999999996,
+          "accuracy": 0.6962025316455697,
+          "eot_precision": 0.7164179104477612,
+          "eot_recall": 0.9056603773584906,
+          "eot_f1": 0.8,
+          "joint_score": 0.6962025316455697,
+          "false_eot": 19,
+          "missed_eot": 5,
+          "false_eot_rate": 0.7307692307692307,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              7,
+              19
+            ],
+            [
+              5,
+              48
+            ]
+          ]
+        },
+        "zh": {
+          "samples": 69,
+          "threshold": 0.055,
+          "accuracy": 0.7536231884057971,
+          "eot_precision": 0.7647058823529411,
+          "eot_recall": 0.9811320754716981,
+          "eot_f1": 0.859504132231405,
+          "joint_score": 0.7536231884057971,
+          "false_eot": 16,
+          "missed_eot": 1,
+          "false_eot_rate": 1.0,
+          "confusion_matrix_NEOT_EOT": [
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              52
+            ]
+          ]
+        }
+      },
+      "minimum_dev_slice_joint_score": 0.4482758620689655,
+      "development_target_met": false,
+      "development_all_slices_over_90": false,
+      "natural_hold_false_eot_below_10_percent": false,
+      "independent_real_target_achieved": false,
+      "scope": "Development automatic floor labels; not independent human gold"
+    }
+  ],
+  "selected_initial_path": "runs/stream_v4_campaign_20261025/round_02/best",
+  "selection_basis": "Same development min slice score"
+}

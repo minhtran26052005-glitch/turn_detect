@@ -1,0 +1,67 @@
+{
+  "report_sha256": "ab2566835c25dfb6e7f73ffc36e61ec23d82d7b3deaeb9c100a79cabcd63d7c3",
+  "transfer_bytes": 73986,
+  "models_or_full_traces_downloaded": false,
+  "local_files": {
+    "checkpoint_receipt.json": {
+      "bytes": 668,
+      "sha256": "bffab4e4fdf884a2bef0995dcfdb31a354844b71e2afc8b620ec27ca439b7015"
+    },
+    "completion_verification.json": {
+      "bytes": 1258,
+      "sha256": "3535d827e854425a838680486afbdd5c57c08e286e1c14e3d331348f64e163db"
+    },
+    "factory_overlap_audit.json": {
+      "bytes": 3969,
+      "sha256": "3766343428e6d131b431ac3ad0141bc220e7c1eed784eeaaf3a926ead36d1ef2"
+    },
+    "frozen_dev.json": {
+      "bytes": 1137,
+      "sha256": "02162696730a1250f7122a7e31458d5ad7cc393e2e6750b2f5dcabdf9ab49330"
+    },
+    "heartbeat_verification.json": {
+      "bytes": 71775,
+      "sha256": "a586e9bf20a791e5464fe7deca790a7d30b0b5a59f35f5a214aa99f701c06239"
+    },
+    "input_manifest.json": {
+      "bytes": 1753,
+      "sha256": "1c642e4b0461d922db365b145aff21f8599d3567e2b853ceef41f9b0c69f5bf1"
+    },
+    "launcher.json": {
+      "bytes": 313,
+      "sha256": "7f24b9a4bb83f960416fe1f25fc50d291ead45b5cce58b68ee7ae45e087ca6f0"
+    },
+    "partial_report.json": {
+      "bytes": 15284,
+      "sha256": "08cd622fc7fc470b82756a884deffb7b813ed746a9e1ee0792c56174a707d2c4"
+    },
+    "report.json": {
+      "bytes": 14937,
+      "sha256": "ab2566835c25dfb6e7f73ffc36e61ec23d82d7b3deaeb9c100a79cabcd63d7c3"
+    },
+    "review.html": {
+      "bytes": 16116,
+      "sha256": "33758649a45d1c5b6fe0ddbfbecd2397885c453845c119ba2d18d2160a8092e9"
+    },
+    "review_en.json": {
+      "bytes": 7933,
+      "sha256": "189f5929b036dc2bee40160e147b5aab7b0d5e149e4cd23d965767e5ea2458da"
+    },
+    "review_vi.json": {
+      "bytes": 7222,
+      "sha256": "6f601fcbe1f16068ae8a0b842865078c94e739cb8d837d84d3adf50b691d3e5b"
+    },
+    "review_zh.json": {
+      "bytes": 8733,
+      "sha256": "40fe02916842bf6d55581b426ffb93ad12a36924a37ccf0a4439161a78b7626a"
+    },
+    "status.json": {
+      "bytes": 304,
+      "sha256": "53fe26843a846a73490af6c8cac48db87472607ae6b6b8021ed7323635d12ce9"
+    },
+    "task_state.json": {
+      "bytes": 704,
+      "sha256": "3c68f8181dd65b5f8675b7154a4d907f461867eb25be233a47207ea6f39a46ed"
+    }
+  }
+}

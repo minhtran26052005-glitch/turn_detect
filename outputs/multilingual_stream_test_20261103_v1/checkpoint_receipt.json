@@ -1,0 +1,13 @@
+{
+  "step": 741935,
+  "branch_step": 255700,
+  "base_step": 486235,
+  "source_checkpoint_sha256": "675592e8ea49bddb7166511e92d165703a66941185471932a81904171279d48b",
+  "weights_sha256": "aeccca2ac98b3d2e5f3199d1b4e3a1165755d99285e8643808a2e993ba53f89b",
+  "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+  "full_optimizer_rng_sampler_preserved": true,
+  "optimizer_entries": 104,
+  "one_shared_model": true,
+  "student_base": "distilbert/distilbert-base-multilingual-cased",
+  "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+}

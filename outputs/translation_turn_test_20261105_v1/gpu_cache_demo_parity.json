@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "uncached": {
+    "source": "mình ổn nhé, còn bạn?",
+    "ms": 438,
+    "out_tokens": 8,
+    "context_pieces": 1,
+    "device": "cuda",
+    "translations": {
+      "en": {
+        "text": "I'm doing well, and you?",
+        "prompt": "Conversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:"
+      }
+    }
+  },
+  "cached": {
+    "source": "mình ổn nhé, còn bạn?",
+    "ms": 134,
+    "out_tokens": 8,
+    "context_pieces": 1,
+    "device": "cuda",
+    "translations": {
+      "en": {
+        "text": "I'm doing well, and you?",
+        "prompt": "Conversation so far:\n\nEnglish: hi there, how do you do\n\nTranslate the next message from Vietnamese to English:\nVietnamese: mình ổn nhé, còn bạn?\nEnglish translation:"
+      }
+    }
+  },
+  "model_parameters": 596049920
+}

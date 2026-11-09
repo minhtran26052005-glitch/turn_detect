@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "source_raw_only": true,
+  "original_splits_preserved": true,
+  "all_training_streams_verified": true,
+  "source_word_count": 3373257,
+  "no_drive_replay": true,
+  "no_chinese": true,
+  "all_eligible_gap_counts": {
+    "streams": 17301,
+    "source_rows": 198509,
+    "words": 3373257,
+    "origin:daily:streams": 12504,
+    "en:k1:NEOT": 1432483,
+    "en:k2:NEOT": 1348585,
+    "en:k1:EOT": 68301,
+    "en:k2:EOT": 67359,
+    "vi:k1:NEOT": 1610582,
+    "vi:k2:NEOT": 1528066,
+    "vi:k1:EOT": 57316,
+    "vi:k2:EOT": 57181,
+    "origin:factory/gen500:streams": 510,
+    "origin:asr/run2b:streams": 210,
+    "origin:factory/gen4000:streams": 4077
+  },
+  "newly_imported_origins": [
+    "asr/run2b",
+    "factory/gen4000"
+  ],
+  "duplicate_gen500_not_imported_twice": true,
+  "test_labels_not_used_for_model_or_threshold_selection": true
+}

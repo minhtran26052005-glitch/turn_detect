@@ -1,0 +1,75 @@
+{
+  "source_sha256": "1d1b6ce737def64f1a18e9c090d2e32b0dc24394e8e4833b6829d7f61bc48ad0",
+  "model_sha256": "d56b9b04ec5f8cac48e0afe2cb61d7963bb9771cecd30ab567277ac127a62b25",
+  "storage_precision": "INT4",
+  "execution_precision": "FP32",
+  "group_size": 16,
+  "scale_precision": "FP16",
+  "scale_method": "mse",
+  "tensors": [
+    {
+      "name": "embedding.weight",
+      "shape": [
+        3313,
+        64
+      ],
+      "elements": 212032,
+      "packed_bytes": 106016,
+      "scale_bytes": 26504,
+      "weight_mse": 0.0003029090294148773
+    },
+    {
+      "name": "head.0.weight",
+      "shape": [
+        96,
+        354
+      ],
+      "elements": 33984,
+      "packed_bytes": 16992,
+      "scale_bytes": 4416,
+      "weight_mse": 2.8252974516362883e-05
+    },
+    {
+      "name": "head.3.weight",
+      "shape": [
+        2,
+        96
+      ],
+      "elements": 192,
+      "packed_bytes": 96,
+      "scale_bytes": 24,
+      "weight_mse": 6.721439422108233e-05
+    },
+    {
+      "name": "onnx::GRU_237",
+      "shape": [
+        1,
+        288,
+        64
+      ],
+      "elements": 18432,
+      "packed_bytes": 9216,
+      "scale_bytes": 2304,
+      "weight_mse": 9.39003293751739e-05
+    },
+    {
+      "name": "onnx::GRU_238",
+      "shape": [
+        1,
+        288,
+        96
+      ],
+      "elements": 27648,
+      "packed_bytes": 13824,
+      "scale_bytes": 3456,
+      "weight_mse": 0.00011593950330279768
+    }
+  ],
+  "packed_elements": 292288,
+  "packed_weight_bytes": 146144,
+  "scale_bytes": 36704,
+  "onnx_bytes": 204191,
+  "right_padding_max_logit_delta": 0.0,
+  "technical_checks_passed": true,
+  "holdout_evaluated": false
+}

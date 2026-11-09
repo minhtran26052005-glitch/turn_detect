@@ -1,0 +1,20 @@
+{
+  "status": "QWEN_CRAWL_SILVER_COMPLETE",
+  "candidates": 110,
+  "accepted": 104,
+  "by_language": {
+    "vi": 40,
+    "en": 44,
+    "zh": 20
+  },
+  "teacher_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "two_prompts_same_teacher_not_independent": true,
+  "confidence_uncalibrated": true,
+  "gold": false,
+  "semantic_silver_used_only_for_low_weight_CE_not_RL_reward": true,
+  "prompt_sha256": "71fca48467ac2151a357ac672fae1855b7329b04b284a6f05741a5dc9f00c401",
+  "input_sha256": "6cb211f97ccff342360cd15f04d01a046eefeb55b3899d362654adf1ee6ec92a",
+  "source_sha256": "204fb74456e3ceb67901696a16d03cf2b0a71704176bf955c4c0c94d49c83f63",
+  "CUDA_peak_bytes": 8686493184,
+  "elapsed_seconds": 46.05430291699997
+}

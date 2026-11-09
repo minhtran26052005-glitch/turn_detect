@@ -1,0 +1,29 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-595d62b4-0421-4af5-885c-0d72e4aa1d1002f68001-a8cf-4ec7-9f7b-a3b56cdd3208.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+  "small_files": [
+    {
+      "name": "README.txt",
+      "bytes": 1188,
+      "sha256": "461a424c3abab364a4bcb9f473bfe48d2240d9863c513dccdd08a48c29a67291",
+      "drive_readback_verified": true
+    },
+    {
+      "name": "backup_receipt.json",
+      "bytes": 3558,
+      "sha256": "f7d89e72434822dbe3f0b080935e7d46aaca951c5547b85969569254d8748d26",
+      "drive_readback_verified": true
+    },
+    {
+      "name": "notebook_control_copy.ipynb",
+      "bytes": 365557,
+      "sha256": "85af4cbf16b4806af284e9fdfef42216974d96fb3b16301e095ed13db4d78662",
+      "drive_readback_verified": true
+    }
+  ]
+}

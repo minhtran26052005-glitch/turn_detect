@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "trace_rows_audited": 1593,
+  "every_encoded_input_label_and_predicted_reset_verified": true,
+  "full_checkpoint_load_passed": true,
+  "step": 1466580,
+  "branch_step": 1500,
+  "epoch": 0,
+  "uploaded_rows_seen": 23598,
+  "origin_exposures": {
+    "daily": 14924,
+    "factory/gen4000": 6919,
+    "factory/gen500": 1648,
+    "asr/run2b": 107
+  },
+  "new_asr_and_gen4000_actual_training_verified": true,
+  "optimizer_entries": 27,
+  "parameters": 11941122,
+  "model_weights_changed_after_actual_training": true,
+  "all_model_weights_finite": true,
+  "original_model_optimizer_and_rng_migration_receipt_sha256": "0d3e638d2603d756610407f70e30e2e510eaad7d91b815dadde2ae090d578217",
+  "drive_replay_rows": 0
+}

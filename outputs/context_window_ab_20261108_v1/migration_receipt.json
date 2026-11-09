@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "same_initial_fields": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "order",
+    "sampler_rng"
+  ],
+  "parent_preserved_exact": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng"
+  ],
+  "explicit_new_asr_order_and_lanes": true,
+  "parent_full_sha256": "feb4bc2e6cbd4d8c7fa3148f49edb86500c898045a33cc1db8a334bcc03255a8",
+  "initial_sha256": {
+    "predicted_reset": "8cec81eff5048311b0a4f7ea1ff4881b47a3cad832ce99830f18d85b573a26d5",
+    "source_window": "abe6d66ea995282075ef4c93c7d7d126336bbec1ac33e2d321015feed1b4c8b4"
+  },
+  "no_deleted_checkpoint_restored": true,
+  "no_base_reset": true
+}

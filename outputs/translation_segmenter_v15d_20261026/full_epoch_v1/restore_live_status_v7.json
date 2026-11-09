@@ -1,0 +1,31 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "status.json": {
+      "at_utc": "2026-10-28T03:22:17.970219+00:00",
+      "stage": "COPYING_VERIFIED_DRIVE_OBJECT",
+      "logical_target": "outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip",
+      "bytes": 685100467
+    },
+    "launcher.json": {
+      "pid": 3071,
+      "start_ticks": "69643",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_full_epoch_campaign_v7"
+      ],
+      "log": "/content/turn_detect_v2/restore_full_epoch_control_v7/worker.log"
+    },
+    "restore_process_verified": true,
+    "remote_free_bytes": 206196875264,
+    "worker.log_tail": "{\"at_utc\": \"2026-10-28T03:22:17.114062+00:00\", \"stage\": \"RESTORING_FULL_EPOCH_SOURCE_AND_DATA\"}\n{\"at_utc\": \"2026-10-28T03:22:17.116107+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"restore_full_epoch_control_v7/source.zip\", \"bytes\": 263268}\n{\"at_utc\": \"2026-10-28T03:22:17.970219+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/recovery/data_snapshot.zip\", \"bytes\": 685100467}\n",
+    "gpu": "Tesla T4, 0 %, 159 MiB"
+  }
+}

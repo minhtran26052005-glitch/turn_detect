@@ -1,0 +1,22 @@
+"""Offline review pack for fresh crawl; no automatic punctuation gold labels."""
+import json
+from pathlib import Path
+
+
+def main():
+    root=Path("outputs/stream_v4_20261025");root.mkdir(exist_ok=True)
+    rows=[json.loads(line) for line in Path("data_v4/fresh_crawl_20261025/review_cases.jsonl").read_text(encoding="utf-8").splitlines()]
+    data=json.dumps(rows,ensure_ascii=False).replace("<","\\u003c")
+    page=r'''<!doctype html><html lang="vi"><meta charset="utf-8"><title>Kiểm tra nhãn streaming mới</title><style>body{font:17px system-ui;background:#f3f7fb;color:#18313e;margin:0}main{max-width:1040px;margin:28px auto;padding:20px}section{padding:24px;background:white;border:1px solid #d8e3eb;border-radius:12px;margin:16px 0}h1{font-size:27px}button,select{font:inherit;padding:10px;border:1px solid #b7c9d7;border-radius:6px;background:white;margin:5px;cursor:pointer}#prefix{font-size:23px;line-height:1.7;white-space:pre-wrap}.note{line-height:1.6;color:#526c79}.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.chosen{background:#d5eee5;border-color:#19866c}textarea{width:98%;min-height:70px;font:inherit;padding:8px}a{color:#1a6390}</style><main><h1>204 điểm streaming mới: chưa có nhãn độc lập</h1><p class="note">Chấm <b>độ đầy đủ ý từ văn bản đã quan sát</b>. Đây không phải nhãn người nói thực sự nhường lượt: việc đó cần hội thoại/audio và thời điểm dừng. Dấu phẩy/chấm không tự quyết định EOT. Cho phép AMBIGUOUS, không ép câu mơ hồ vào EOT/NEOT. Không hiển thị phần lời tương lai và không có nhãn tự tạo để đạt điểm.</p><section><div class="bar"><select id="lang"><option value="vi">Tiếng Việt</option><option value="en">English</option><option value="zh">中文</option></select><button id="prev">← Trước</button><button id="next">Sau →</button><span id="count"></span></div><p id="source" class="note"></p><div id="prefix"></div><p><button data-label="EOT">EOT — có thể kết thúc tự nhiên</button><button data-label="NEOT">NEOT — còn thiếu thành phần</button><button data-label="AMBIGUOUS">AMBIGUOUS — chưa xác định</button><button id="clear">Bỏ nhãn</button></p><textarea id="reason" placeholder="Lý do ngắn; với AMBIGUOUS ghi điều còn thiếu để quyết định"></textarea></section><section><button id="export">Tải nhãn JSONL</button><span id="status"></span><p class="note">Nhãn chỉ lưu trong bộ nhớ tab này. Tải file để giữ trước khi đóng trang. File xuất ghi rõ semantic-completeness review, không tự chứng nhận bộ real turn-taking. Model/threshold cần khóa trước khi chấm tập cuối.</p></section></main><script id="data" type="application/json">__DATA__</script><script>
+const R=JSON.parse(document.getElementById('data').textContent),$=id=>document.getElementById(id);let list=[],index=0;
+function row(){return list[index]}
+function save(){const r=row();if(r)r.review_reason=$('reason').value}
+function show(){const r=row();if(!r)return;$('prefix').textContent=r.text;$('source').textContent=r.language+' · '+r.source_title+' · dấu cuối: '+r.punctuation;$('count').textContent=(index+1)+'/'+list.length;$('reason').value=r.review_reason||'';document.querySelectorAll('[data-label]').forEach(b=>b.classList.toggle('chosen',r.review_label===b.dataset.label));$('status').textContent=R.filter(x=>x.review_label).length+'/'+R.length+' đã gán nhãn'}
+function change(){save();list=R.filter(r=>r.language===$('lang').value);index=0;show()}
+$('lang').onchange=change;$('prev').onclick=()=>{save();index=Math.max(0,index-1);show()};$('next').onclick=()=>{save();index=Math.min(list.length-1,index+1);show()};document.querySelectorAll('[data-label]').forEach(b=>b.onclick=()=>{row().review_label=b.dataset.label;save();show()});$('clear').onclick=()=>{delete row().review_label;show()};$('export').onclick=()=>{save();const lines=R.filter(x=>x.review_label).map(r=>JSON.stringify({...r,label:r.review_label,label_status:'HUMAN_REVIEW_EXPORT_PENDING_IDENTITY_AND_AGREEMENT_CHECK',label_source:'human_semantic_completeness_review',is_gold:false})).join('\n');const blob=new Blob([lines+'\n'],{type:'application/x-ndjson;charset=utf-8'}),link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download='streaming_review_20261025.jsonl';link.click();setTimeout(()=>URL.revokeObjectURL(link.href),1000)};change();
+</script></html>'''.replace("__DATA__",data)
+    (root/"fresh_crawl_review.html").write_text(page,encoding="utf-8")
+    print(json.dumps({"path":str(root/"fresh_crawl_review.html"),"cases":len(rows),"automatic_gold_labels":0}))
+
+
+if __name__=="__main__":main()

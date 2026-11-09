@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "report_sha256": "30b7de7efb9ba825ee37b93d5e636a9c2fa700ad1697987f5c6066e3ec78db3e",
+  "calibration_and_monitor_inferences_audited": 606460,
+  "canonical_cases": 560,
+  "max_probability_delta": 2.473592758178711e-06,
+  "all_new_traces_audited": true,
+  "full_training_verified": true,
+  "parent_checkpoint_unchanged": true,
+  "no_test": true
+}

@@ -1,0 +1,94 @@
+{
+  "checked_utc": "2026-11-05T17:45:58.748233+00:00",
+  "process_before": {
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5 ",
+    "cpu_ticks": 59463
+  },
+  "process_after": {
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "cmdline": "/home/edabk/hoangbpm/turn_detect/.venv/bin/python -u -m turn_v2.multilingual_malbert_vi_en_conflict_weighted_train_v5 ",
+    "cpu_ticks": 59662
+  },
+  "sole_training_worker": [
+    754535
+  ],
+  "parent_status": {
+    "stage": "STOPPED_WITH_CHECKPOINT",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T17:35:56.533206+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "reason": "User stop with full model/optimizer/RNG/conversation lanes checkpoint"
+  },
+  "parent_pid_absent": true,
+  "status": {
+    "stage": "TRAINING_UPLOADED_ONLY_MALBERT",
+    "pid": 754535,
+    "start_ticks": "12833606",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T17:45:56.350587+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "run": "finetune",
+    "step": 2362730,
+    "branch_step": 7650,
+    "epoch": 1,
+    "uploaded_rows_seen": 14104922,
+    "uploaded_origin_exposures": {
+      "daily": 7456746,
+      "factory/gen4000": 5303900,
+      "factory/gen500": 584305,
+      "asr/run2b": 759971
+    },
+    "loss": 1.0126503705978394,
+    "learning_rate": 4.000000000000001e-06,
+    "parameters": 11941122,
+    "group_size": null,
+    "drive_replay_rows": 0,
+    "loss_policy": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "cutover_partial_tail": true,
+    "tasks_assigned": 9898,
+    "total_tasks": 34602
+  },
+  "resume_receipt": {
+    "step": 2362580,
+    "branch_step": 7500,
+    "epoch": 0,
+    "tasks_assigned": 9882,
+    "active_lanes": 16,
+    "optimizer_entries": 27,
+    "uploaded_rows_seen": 14102576,
+    "uploaded_origin_exposures": {
+      "daily": 7455360,
+      "factory/gen4000": 5303088,
+      "factory/gen500": 584305,
+      "asr/run2b": 759823
+    },
+    "parameters": 11941122,
+    "source_order_cursor_and_all_rng_preserved": true,
+    "drive_replay_rows": 0
+  },
+  "gpu_processes": "754535, 7154 MiB",
+  "hdd_mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0",
+  "disk_free_gib": {
+    "ssd": 43.53549575805664,
+    "hdd": 23.014732360839844
+  },
+  "cutover_controller_exited": true,
+  "latest_dev_complete": false,
+  "windows_free_gib": 19.358993530273438
+}

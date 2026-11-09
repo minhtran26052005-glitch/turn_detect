@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-11-02T08:14:05.542891+00:00",
+  "branch_step": 28000,
+  "source_report_sha256": "66d4c348e3ae758944b0998cfd17d86efa99fd0a67323d8437c148c9549ee6f9",
+  "by_language": {
+    "vi": {
+      "false_cuts": 7,
+      "all_predicted_cuts": 89,
+      "false_share_of_cuts_pct": 7.865168539325842,
+      "precision_pct": 92.13483146067416,
+      "false_positive_rate_pct": 0.3556910569105691,
+      "samples": 2058
+    },
+    "en": {
+      "false_cuts": 9,
+      "all_predicted_cuts": 128,
+      "false_share_of_cuts_pct": 7.03125,
+      "precision_pct": 92.96875,
+      "false_positive_rate_pct": 0.4122766834631241,
+      "samples": 2304
+    },
+    "zh": {
+      "false_cuts": 106,
+      "all_predicted_cuts": 243,
+      "false_share_of_cuts_pct": 43.62139917695473,
+      "precision_pct": 56.37860082304527,
+      "false_positive_rate_pct": 12.848484848484848,
+      "samples": 1000
+    }
+  },
+  "scope": "VI/EN synthetic punctuation every-gap causal predicted-reset streaming DEV; ZH legacy punctuation anchors, not comparable human/audio gold",
+  "no_model_or_threshold_changed": true
+}

@@ -1,0 +1,10 @@
+{
+  "pid": 2711752,
+  "start_ticks": "49717756",
+  "module": "turn_v2.multilingual_bilingual_stream_probe_v1",
+  "source_sha256": "e762c6ab10644ee5d91bfa308e97298d27a1cbf9357c0a945a9663f99a29bbea",
+  "samples_sha256": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+  "pairs": 20,
+  "self_checks_passed": true,
+  "training_interrupted": false
+}

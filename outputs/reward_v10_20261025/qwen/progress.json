@@ -1,0 +1,8 @@
+{
+  "stage": "QWEN_TWO_VIEW_SILVER",
+  "completed_prompts": 220,
+  "total_prompts": 220,
+  "batch": 4,
+  "max_tokens_batch": 1412,
+  "CUDA_peak_bytes": 8686493184
+}

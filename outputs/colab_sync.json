@@ -1,0 +1,14 @@
+{
+  "bundle_sha256": "4f030576e763fa23001f5719548d3e9f45856327f494a304b447b643a0606f37",
+  "bytes": 39877,
+  "includes_data": false,
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"uploaded\": true, \"bundle_sha256\": \"4f030576e763fa23001f5719548d3e9f45856327f494a304b447b643a0606f37\", \"root\": \"/content/turn_detect_v2\", \"files\": 18}\n"
+    }
+  ],
+  "elapsed_seconds": 0.14100000000325963
+}

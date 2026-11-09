@@ -1,0 +1,24 @@
+{
+  "dataset": "C75 punctuation-derived prose diagnostic",
+  "sample_rows": 360,
+  "clean_full_test_rows": 119193,
+  "trace_scope": "raw scored rows; filter included_in_clean_test for official metrics",
+  "drive_relative_directory": "turn_detect_backups/translation_segmenter_v15d_20261026/diagnostic_test_c75_v1",
+  "files": {
+    "vi": {
+      "object": "objects/153c40ac1fd8ad031f58874b8b087b32efe3476493862c4aedd1843b50d24485.bin",
+      "sha256": "153c40ac1fd8ad031f58874b8b087b32efe3476493862c4aedd1843b50d24485",
+      "bytes": 9360850
+    },
+    "en": {
+      "object": "objects/948e8485b4a22f83af7983076ed88e85ad5835b6349c3b108791733d9b72dd77.bin",
+      "sha256": "948e8485b4a22f83af7983076ed88e85ad5835b6349c3b108791733d9b72dd77",
+      "bytes": 5789661
+    },
+    "zh": {
+      "object": "objects/8c52e8a142f62747a5a13d5cb17e8637ca0f6c85a4f4e9e8f025677fc0dcb6c6.bin",
+      "sha256": "8c52e8a142f62747a5a13d5cb17e8637ca0f6c85a4f4e9e8f025677fc0dcb6c6",
+      "bytes": 42795195
+    }
+  }
+}

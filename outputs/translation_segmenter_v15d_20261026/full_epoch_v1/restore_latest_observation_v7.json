@@ -1,0 +1,18 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU T4",
+    "notebook": "a-jvsc-9b0dd788-1ef1-4fc7-b5aa-cd1f4bc1b9697024c8ef-6b92-4621-955a-fc2dcb6bf2dc.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "status.json": {
+      "at_utc": "2026-10-28T03:23:29.354040+00:00",
+      "stage": "COPYING_VERIFIED_DRIVE_OBJECT",
+      "logical_target": "outputs/translation_segmenter_v15d_20261026/teachers/vi/latest_resume.pt",
+      "bytes": 3362177675
+    },
+    "restore_process_verified": true,
+    "free_bytes": 194409992192
+  }
+}

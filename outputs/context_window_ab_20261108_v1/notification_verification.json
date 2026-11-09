@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "at_utc": "2026-11-08T16:52:32.439214+00:00",
+  "report_sha256": "2afae76f7c1972df405f26f90a313e5f1e54f67dcef5939300fdf079e32792f6",
+  "parent_full_sha256": "feb4bc2e6cbd4d8c7fa3148f49edb86500c898045a33cc1db8a334bcc03255a8",
+  "worker_absent": true,
+  "main_paused": true,
+  "reported": true,
+  "adopted": false,
+  "ssd_free_gib": 40.83298110961914,
+  "hdd_free_gib": 23.014732360839844,
+  "mount": "/dev/sda1 37622A5A7A5A4B57                     rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096\n",
+  "gpu": ""
+}

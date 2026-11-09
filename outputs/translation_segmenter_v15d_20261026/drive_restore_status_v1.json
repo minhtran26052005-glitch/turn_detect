@@ -1,0 +1,130 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-51246f56-9b61-4405-b91e-ac2afe78a51e3188af95-83c1-4d9a-b1ea-39a2d54a8b08.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "restore/launcher.json": {
+      "pid": 29096,
+      "start_ticks": "717109",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v1"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v1",
+      "source_sha256": "10214b937fd30135f749710dfa30f6a25158005dc61d7309b97aeffa611eef7d",
+      "log": "restore_control_v1/worker.log"
+    },
+    "restore/status.json": {
+      "at_utc": "2026-10-27T02:36:09.935355+00:00",
+      "stage": "RESUMING_VI"
+    },
+    "restore/restore_receipt.json": {
+      "restored_at_utc": "2026-10-27T02:36:09.931196+00:00",
+      "manifest_at_utc": "2026-10-27T01:45:02.245221+00:00",
+      "data_cycle": 75,
+      "next_crawl_cycle": 76,
+      "database_integrity": "ok",
+      "checkpoints": {
+        "vi": {
+          "cycle": 75,
+          "cycle_step": 75,
+          "total_steps": 1075,
+          "training_fingerprint": "44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2",
+          "training_rows": 865075,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "c43be63b20967ebf645a05cf126ad11c2ffd4c433e6d2e3f57978c2260917c2f"
+        },
+        "en": {
+          "cycle": 72,
+          "cycle_step": 100,
+          "total_steps": 1000,
+          "training_fingerprint": "d6a009106787d5370e86a241d6b9f7c270c8867c00d62a2973ee5745338c8a89",
+          "training_rows": 429659,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "021b91bd7d69e67190464bf9140f21acea9576539f255bbf1c8b420241268658"
+        },
+        "zh": {
+          "cycle": 72,
+          "cycle_step": 100,
+          "total_steps": 1000,
+          "training_fingerprint": "f566ae4ae37f9a1ea6cd12a7cb7010f56efede11e61dccf9efb8919ff0639811",
+          "training_rows": 1071304,
+          "optimizer_states": 202,
+          "rng_present": true,
+          "weights_sha256": "2d78263f7264f06b2cd4d46155cacffba94011a24b547133b0808390a74b221d"
+        }
+      },
+      "pending_training_languages": [
+        "vi",
+        "en",
+        "zh"
+      ],
+      "weights_optimizer_rng_restored": true,
+      "training_fingerprints_match": true,
+      "local_Windows_large_downloads": false,
+      "recorded_torch_version": "2.11.0+cu130",
+      "restored_torch_version": "2.11.0+cu130"
+    },
+    "run/launcher.json": {
+      "pid": 29096,
+      "start_ticks": "717109",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.restore_drive_campaign_v1"
+      ],
+      "module": "turn_v2.restore_drive_campaign_v1",
+      "source_sha256": "10214b937fd30135f749710dfa30f6a25158005dc61d7309b97aeffa611eef7d",
+      "log": "restore_control_v1/worker.log"
+    },
+    "run/child.json": {
+      "pid": 32006,
+      "start_ticks": "787864",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_v15d2",
+        "--phase",
+        "train",
+        "--cycle",
+        "75",
+        "--steps",
+        "100",
+        "--microbatch",
+        "32",
+        "--language",
+        "vi"
+      ],
+      "module": "turn_v2.translation_segmenter_v15d2",
+      "log": "restore_control_v1/resume_vi.log"
+    },
+    "run/status.json": {
+      "campaign": "translation_segmenter_v15d",
+      "status": "RUNNING",
+      "stage": "LOADING_PRETRAINED_SEGMENTER",
+      "heartbeat_utc": "2026-10-27T02:36:51.002732+00:00",
+      "pid": 32006,
+      "qwen_judge_enabled": false,
+      "quality_target_certified": false,
+      "cycle": 75,
+      "language": "vi",
+      "train_samples": 865075,
+      "dev_samples": 93721,
+      "microbatch": 32
+    },
+    "restore_process_verified": true,
+    "campaign_parent_verified": true,
+    "child_verified": true,
+    "free_bytes": 161449377792,
+    "log_tail": "\"2026-10-27T02:29:32.259059+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/tokenizer.json\", \"bytes\": 16034016}\n{\"at_utc\": \"2026-10-27T02:29:32.404432+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/frozen/zh/tokenizer_config.json\", \"bytes\": 2928}\n{\"at_utc\": \"2026-10-27T02:29:32.428314+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_vi.jsonl.gz\", \"bytes\": 11580167}\n{\"at_utc\": \"2026-10-27T02:29:33.373861+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_en.jsonl.gz\", \"bytes\": 6621084}\n{\"at_utc\": \"2026-10-27T02:29:34.161214+00:00\", \"stage\": \"COPYING_VERIFIED_DRIVE_OBJECT\", \"logical_target\": \"outputs/translation_segmenter_v15d_20261026/heldout_test_v2/test_predictions_zh.jsonl.gz\", \"bytes\": 27399668}\n{\"at_utc\": \"2026-10-27T02:29:49.831458+00:00\", \"stage\": \"INSTALLING_RECORDED_DEPENDENCIES\"}\n{\"at_utc\": \"2026-10-27T02:29:55.513756+00:00\", \"stage\": \"VERIFYING_SQLITE_AND_OPTIMIZER_PROVENANCE\", \"cycle\": 75}\n{\"at_utc\": \"2026-10-27T02:36:09.931827+00:00\", \"stage\": \"RESTORED_VERIFIED_CHECKPOINTS\", \"restored_at_utc\": \"2026-10-27T02:36:09.931196+00:00\", \"manifest_at_utc\": \"2026-10-27T01:45:02.245221+00:00\", \"data_cycle\": 75, \"next_crawl_cycle\": 76, \"database_integrity\": \"ok\", \"checkpoints\": {\"vi\": {\"cycle\": 75, \"cycle_step\": 75, \"total_steps\": 1075, \"training_fingerprint\": \"44467f54adacd7ea0171dba4667f22c1ec7cbf9736932ec0ba83cad71bb7f1a2\", \"training_rows\": 865075, \"optimizer_states\": 202, \"rng_present\": true, \"weights_sha256\": \"c43be63b20967ebf645a05cf126ad11c2ffd4c433e6d2e3f57978c2260917c2f\"}, \"en\": {\"cycle\": 72, \"cycle_step\": 100, \"total_steps\": 1000, \"training_fingerprint\": \"d6a009106787d5370e86a241d6b9f7c270c8867c00d62a2973ee5745338c8a89\", \"training_rows\": 429659, \"optimizer_states\": 202, \"rng_present\": true, \"weights_sha256\": \"021b91bd7d69e67190464bf9140f21acea9576539f255bbf1c8b420241268658\"}, \"zh\": {\"cycle\": 72, \"cycle_step\": 100, \"total_steps\": 1000, \"training_fingerprint\": \"f566ae4ae37f9a1ea6cd12a7cb7010f56efede11e61dccf9efb8919ff0639811\", \"training_rows\": 1071304, \"optimizer_states\": 202, \"rng_present\": true, \"weights_sha256\": \"2d78263f7264f06b2cd4d46155cacffba94011a24b547133b0808390a74b221d\"}}, \"pending_training_languages\": [\"vi\", \"en\", \"zh\"], \"weights_optimizer_rng_restored\": true, \"training_fingerprints_match\": true, \"local_Windows_large_downloads\": false, \"recorded_torch_version\": \"2.11.0+cu130\", \"restored_torch_version\": \"2.11.0+cu130\"}\n{\"at_utc\": \"2026-10-27T02:36:09.934925+00:00\", \"stage\": \"RESUMING_INTERRUPTED_TRAINING_BATCH\", \"cycle\": 75, \"language\": \"vi\", \"restored_cycle_step\": 75, \"restored_total_steps\": 1075}\n{\"at_utc\": \"2026-10-27T02:36:09.935355+00:00\", \"stage\": \"RESUMING_VI\"}\n"
+  }
+}

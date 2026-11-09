@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-c3f6dbe2-61f7-4504-a89a-144b110e7971c206d445-b247-49d4-92da-367bda0eb480.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"cwd\": \"/content\", \"python\": \"3.13.15\", \"torch\": \"2.11.0+cu130\", \"cuda\": true, \"gpu\": \"NVIDIA L4\"}\n"
+    }
+  ],
+  "elapsed_seconds": 4.078000000001339
+}

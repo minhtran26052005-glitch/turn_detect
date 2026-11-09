@@ -1,0 +1,418 @@
+{
+  "version": 5,
+  "sources": {
+    "daily": {
+      "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/public_checked.jsonl",
+      "member": null,
+      "sha256": "96f999ac6feeaad29fadc23d0bda87f44d8ade337f088418e9fb6c6332e7c6e4",
+      "raw_rows": 189122
+    },
+    "factory/gen500": {
+      "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/factory_checked.jsonl",
+      "member": null,
+      "sha256": "01a8df34923011d038a2a30cce60774a69f07794756f41f44e8924341e29c9f8",
+      "raw_rows": 8198
+    },
+    "asr/run2b": {
+      "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/asr_crawl-20261104T035338Z-1-001.zip",
+      "member": "asr_crawl/run2b/labels_checked.jsonl",
+      "sha256": "5521c527bf5721e09a497edae6cc244644aba6383f5254af98224bebe312dc5b",
+      "raw_rows": 12415
+    },
+    "factory/gen4000": {
+      "path": "/home/edabk/hoangbpm/turn_detect/data/checked_dialogues_vi_en_20261103_v1/raw/factory-20261104T035339Z-1-001.zip",
+      "member": "factory/gen4000/labels_checked.jsonl",
+      "sha256": "39aa8d1fe80168725048b75a2583cca133b11f74d58ea6334a98c357a306327c",
+      "raw_rows": 64947
+    }
+  },
+  "active_languages": [
+    "vi",
+    "en"
+  ],
+  "train": {
+    "streams": 17301,
+    "source_rows": 198509,
+    "words": 3373257,
+    "origin:daily:streams": 12504,
+    "en:k1:NEOT": 1431080,
+    "en:k2:NEOT": 1347735,
+    "en:k1:EOT": 67653,
+    "en:k2:EOT": 66964,
+    "vi:k1:NEOT": 1608669,
+    "vi:k2:NEOT": 1527435,
+    "vi:k1:EOT": 56817,
+    "vi:k2:EOT": 56902,
+    "origin:factory/gen500:streams": 510,
+    "origin:asr/run2b:streams": 210,
+    "origin:factory/gen4000:streams": 4077
+  },
+  "dev_full": {
+    "streams": 5911,
+    "source_rows": 19439,
+    "words": 303183,
+    "origin:numeric/sentence:streams": 1666,
+    "en:k1:NEOT": 120342,
+    "en:k2:NEOT": 112894,
+    "en:k1:EOT": 4082,
+    "en:k2:EOT": 4019,
+    "vi:k1:NEOT": 148988,
+    "vi:k2:NEOT": 141442,
+    "vi:k1:EOT": 3600,
+    "vi:k2:EOT": 3590,
+    "origin:factory:streams": 105,
+    "origin:daily:streams": 506,
+    "origin:numeric/code:streams": 1800,
+    "origin:asr:streams": 46,
+    "origin:numeric/dialogue:streams": 1788
+  },
+  "dev_calibration": {
+    "streams": 119,
+    "source_rows": 807,
+    "words": 14497,
+    "origin:asr:streams": 6,
+    "vi:k1:NEOT": 7285,
+    "vi:k1:EOT": 212,
+    "vi:k2:NEOT": 7022,
+    "vi:k2:EOT": 210,
+    "en:k1:NEOT": 6081,
+    "en:k1:EOT": 244,
+    "en:k2:NEOT": 5801,
+    "en:k2:EOT": 242,
+    "origin:daily:streams": 12,
+    "origin:factory:streams": 7,
+    "origin:numeric/dialogue:streams": 94
+  },
+  "dev_monitor": {
+    "streams": 394,
+    "source_rows": 2387,
+    "words": 38838,
+    "origin:asr:streams": 14,
+    "vi:k1:NEOT": 18916,
+    "vi:k1:EOT": 586,
+    "vi:k2:NEOT": 18041,
+    "vi:k2:EOT": 586,
+    "en:k1:NEOT": 16553,
+    "en:k1:EOT": 701,
+    "en:k2:NEOT": 15664,
+    "en:k2:EOT": 696,
+    "origin:daily:streams": 40,
+    "origin:factory:streams": 28,
+    "origin:numeric/dialogue:streams": 312
+  },
+  "dev_diagnostic": {
+    "streams": 3466,
+    "source_rows": 3466,
+    "words": 57991,
+    "origin:numeric/code:streams": 1800,
+    "en:k1:NEOT": 20246,
+    "en:k2:NEOT": 19403,
+    "vi:k1:NEOT": 27182,
+    "vi:k2:NEOT": 26337,
+    "origin:numeric/sentence:streams": 1666,
+    "en:k1:EOT": 14,
+    "en:k2:EOT": 13,
+    "vi:k1:EOT": 17,
+    "vi:k2:EOT": 16
+  },
+  "exclusions": {
+    "daily:raw:test": 9514,
+    "daily:raw:dev": 9678,
+    "daily:raw:train": 169930,
+    "daily:excluded_turn:not_kept_or_hard_check": 1305,
+    "daily:excluded_turn:short": 2760,
+    "daily:excluded_turn:noncontiguous_chunks": 6,
+    "factory/gen500:raw:train": 8198,
+    "factory/gen500:excluded_turn:not_kept_or_hard_check": 102,
+    "asr/run2b:raw:train": 12415,
+    "asr/run2b:excluded_turn:not_kept_or_hard_check": 103,
+    "asr/run2b:excluded_turn:noncontiguous_chunks": 1,
+    "factory/gen4000:raw:train": 64947,
+    "factory/gen4000:excluded_turn:not_kept_or_hard_check": 147,
+    "daily:excluded_turn:duplicate_source": 6333,
+    "daily:excluded_turn:held_family": 38092,
+    "factory/gen500:excluded_turn:held_family": 669,
+    "factory/gen500:excluded_turn:duplicate_source": 1,
+    "factory/gen4000:excluded_turn:duplicate_source": 27,
+    "factory/gen4000:excluded_turn:held_family": 20
+  },
+  "dev_exclusions": {
+    "excluded_known_prior_train_streams": 30
+  },
+  "protected_families": 1881,
+  "files": {
+    "train_streams.json.gz": "ae5c0d9cb05725f99fc6d0c1a115a5915fcecad4ea00a80c0b3b6f4443a010f9",
+    "dev_full.json.gz": "3a1816250ca7112922a74423b0ccfb32041c9ace846fd0ea3724787ad46068cf",
+    "dev_calibration.json.gz": "e43373e5f89622fecdf1879163711508db3a6a80291251748a6f8f6626b68ed3",
+    "dev_monitor.json.gz": "57371790d279841a704c2feb51c3554b03be116574cfe4eed2a9a9244821c6a0",
+    "dev_diagnostic.json.gz": "e7cb4cb5027ea6802b374f3f9813f4028b9f3a8ff90f49eae1b3ff265addea1b"
+  },
+  "all_eligible_uploaded_train_gaps_in_every_epoch": true,
+  "per_language_sampling_cap": null,
+  "drive_replay_rows": 0,
+  "target_or_rest_of_sentence_used": false,
+  "translation_targets_used_as_extra_sources": false,
+  "label_source": "Source punctuation silver, not human/audio gold",
+  "test_used_for_selection": false,
+  "split_protocol": "Original held source families; exact turns >=8 words and contiguous32-word shingles excluded from TRAIN",
+  "limitations": "Prior whole-lineage token-window and paraphrase overlap not exhausted; prior exposure cannot be unlearned by a dataset change",
+  "dev_protocol": "Fixed whole-family source-stratified calibration and monitor subsets; all original DEV preserved separately",
+  "code_sha256": {
+    "uploaded_vi_en_data_v4.py": "ea7870c279000db12cc11d5f48dffe713b3899cfffecea74b55ad4ffe308c1da",
+    "uploaded_vi_en_data_v5.py": "5e3c855adbfe5f5745985194b64b01a8d90c65a9bb53309e1e7f2b970a24f5c2",
+    "uploaded_vi_en_evaluation_v5.py": "f0dc7e9a0b81f0f8e5df131c2f195e584e5f6f7ce8fe3cb6d912f2ae654d4579",
+    "multilingual_malbert_vi_en_conflict_weighted_train_v5.py": "2c9f1cd512995ab812b0d07a2ef8b3aa8898975b9ecc77cbef813839bf04693c",
+    "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc"
+  },
+  "parent_manifest_sha256": "15160a686b063520937747b5bc28bed0ef4230536b7a5a33d897acd05d0aed02",
+  "loss": {
+    "kind": "weighted_cross_entropy",
+    "class_weights": {
+      "NEOT": 1.0,
+      "EOT": 2.0
+    },
+    "reduction": "weighted_mean"
+  },
+  "conflict_filter": {
+    "complete": true,
+    "rule": "Exact normalized eight-word left suffix (shorter at stream start) plus one/two same-turn future words; opposing TRAIN labels exclude BOTH classes at every matching source gap",
+    "train_only": true,
+    "test_or_dev_labels_used": false,
+    "source_words_and_punctuation_unchanged": true,
+    "conflicting_keys": 697,
+    "excluded_scored_gaps": 6618,
+    "before_by_language_label": {
+      "en:0": 2781068,
+      "en:1": 135660,
+      "vi:0": 3138648,
+      "vi:1": 114497
+    },
+    "removed_by_language_label": {
+      "en:0": 2253,
+      "vi:0": 2544,
+      "en:1": 1043,
+      "vi:1": 778
+    },
+    "surviving_keys_checked": 6085051,
+    "examples": [
+      {
+        "0": {
+          "stream": 0,
+          "boundary": 1,
+          "k": 1,
+          "language": "en",
+          "context": "hi",
+          "future": "i"
+        },
+        "1": {
+          "stream": 20,
+          "boundary": 1,
+          "k": 1,
+          "language": "en",
+          "context": "hi",
+          "future": "i"
+        }
+      },
+      {
+        "0": {
+          "stream": 0,
+          "boundary": 1,
+          "k": 2,
+          "language": "en",
+          "context": "hi",
+          "future": "i wanted"
+        },
+        "1": {
+          "stream": 8579,
+          "boundary": 1,
+          "k": 2,
+          "language": "en",
+          "context": "hi",
+          "future": "i wanted"
+        }
+      },
+      {
+        "0": {
+          "stream": 1,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "chào",
+          "future": "anh"
+        },
+        "1": {
+          "stream": 11457,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "chào",
+          "future": "anh"
+        }
+      },
+      {
+        "0": {
+          "stream": 1,
+          "boundary": 2,
+          "k": 1,
+          "language": "vi",
+          "context": "chào anh",
+          "future": "em"
+        },
+        "1": {
+          "stream": 100,
+          "boundary": 2,
+          "k": 1,
+          "language": "vi",
+          "context": "chào anh",
+          "future": "em"
+        }
+      },
+      {
+        "0": {
+          "stream": 1,
+          "boundary": 2,
+          "k": 2,
+          "language": "vi",
+          "context": "chào anh",
+          "future": "em muốn"
+        },
+        "1": {
+          "stream": 8581,
+          "boundary": 2,
+          "k": 2,
+          "language": "vi",
+          "context": "chào anh",
+          "future": "em muốn"
+        }
+      },
+      {
+        "1": {
+          "stream": 4,
+          "boundary": 2,
+          "k": 1,
+          "language": "en",
+          "context": "hello there",
+          "future": "how"
+        },
+        "0": {
+          "stream": 211,
+          "boundary": 2,
+          "k": 1,
+          "language": "en",
+          "context": "hello there",
+          "future": "how"
+        }
+      },
+      {
+        "1": {
+          "stream": 4,
+          "boundary": 2,
+          "k": 2,
+          "language": "en",
+          "context": "hello there",
+          "future": "how are"
+        },
+        "0": {
+          "stream": 211,
+          "boundary": 2,
+          "k": 2,
+          "language": "en",
+          "context": "hello there",
+          "future": "how are"
+        }
+      },
+      {
+        "0": {
+          "stream": 5,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "chào",
+          "future": "bạn"
+        },
+        "1": {
+          "stream": 28,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "chào",
+          "future": "bạn"
+        }
+      },
+      {
+        "1": {
+          "stream": 5,
+          "boundary": 2,
+          "k": 1,
+          "language": "vi",
+          "context": "chào bạn",
+          "future": "chiều"
+        },
+        "0": {
+          "stream": 10315,
+          "boundary": 2,
+          "k": 1,
+          "language": "vi",
+          "context": "chào bạn",
+          "future": "chiều"
+        }
+      },
+      {
+        "1": {
+          "stream": 5,
+          "boundary": 2,
+          "k": 2,
+          "language": "vi",
+          "context": "chào bạn",
+          "future": "chiều nay"
+        },
+        "0": {
+          "stream": 10315,
+          "boundary": 2,
+          "k": 2,
+          "language": "vi",
+          "context": "chào bạn",
+          "future": "chiều nay"
+        }
+      },
+      {
+        "0": {
+          "stream": 6,
+          "boundary": 2,
+          "k": 1,
+          "language": "en",
+          "context": "hi assistant",
+          "future": "i"
+        },
+        "1": {
+          "stream": 1655,
+          "boundary": 2,
+          "k": 1,
+          "language": "en",
+          "context": "hi assistant",
+          "future": "i"
+        }
+      },
+      {
+        "0": {
+          "stream": 8,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "alô",
+          "future": "em"
+        },
+        "1": {
+          "stream": 451,
+          "boundary": 1,
+          "k": 1,
+          "language": "vi",
+          "context": "alô",
+          "future": "em"
+        }
+      }
+    ],
+    "all_surviving_rule_keys_label_consistent": true,
+    "limitations": "Conservative local-context exclusion can remove positions resolvable with longer histories. Does not exhaust all dynamic reset contexts, WordPiece-only collisions or paraphrases; historical exposure is preserved, not unlearned."
+  }
+}

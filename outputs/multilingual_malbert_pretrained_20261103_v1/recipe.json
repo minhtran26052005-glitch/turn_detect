@@ -1,0 +1,31 @@
+{
+  "model": "cservan/multilingual-albert-base-cased-32k",
+  "revision": "d3f3c1addfec3420d3f306f674ed2087b34e0411",
+  "pretrained_sha256": "3040f56fef13a7c0d6b0e6f608daf9d8cd8cc4f4a163844d652d0b3e80cbdc84",
+  "parameters": 11941122,
+  "limit_exclusive": 20000000,
+  "initialization": "All25pretrainedbackbonetensorsincludingpooler exact; onlynewbinaryclassifier",
+  "model_135m_training_stays_stopped": true,
+  "training_rows": 300000,
+  "per_language": 100000,
+  "source": "TRAINsource722VIEN+legacyZH, notspokenv9",
+  "teacher_logits": "FrozenDEV-selected514235 fromlockedTRAINcache; no teacherGPUtraining",
+  "probe": "96TRAINonlybalanced, passed98.96percent, notDEV/testquality",
+  "fine_tune": "CEfirst2epochs then0.7CE+0.3T2KL; minimum6epochs, continuefromfulloptimizer/RNGuntilDEVretentionpassesoruserstops; no plateauearlystop",
+  "evaluation": "DEVevery1000steps andepochend, rollingVIENsharedthreshold->predictedresetVIEN+1000legacyZHanchors; no C75/protected200/newtest",
+  "selection": "passstatus,minF1,meanF1 tie-break toavoidallzero tie selectingarbitraryearlycheckpoint",
+  "qat_gate": "ActualCPUFP32retentionmustpassbeforeQAT; control2epochs/QATg64andg32each2fromsamefineinit/seed43",
+  "retention": "F1/precisiondrop<=2pp,recall<=3ppeachlanguagevsfrozenteacher; nohuman/audioacceptanceclaim",
+  "resume": "PreserveAdamW27states/RNGtorchCUDA_numpyPython/order/cursor/epoch/quant_scales/cacheSHA/sourceSHA",
+  "batch_size": 16,
+  "gpu_memory_fraction": 0.5,
+  "cpu_threads": 2,
+  "no_new_spoken_v9_import": true,
+  "tests_used": false,
+  "drive_backup_configured": false,
+  "source_sha256": {
+    "malbert_turn_student_v1.py": "d1bda2aa570b71fbb5f0f5bb03038d9201fbcbffcaaa3516e0bb19c4118a09dc",
+    "malbert_turn_export_v1.py": "51131e12fd11b8269fff93f7e6c44f476293c746be73676443da77ede09af5b0",
+    "multilingual_malbert_train_v1.py": "f47d35ff19111b91624e1201f5ab07556e8206cce58e6fcc09d800a5ab1a9fab"
+  }
+}

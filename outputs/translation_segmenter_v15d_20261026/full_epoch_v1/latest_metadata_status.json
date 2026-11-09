@@ -1,0 +1,112 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "busy"
+  },
+  "result": {
+    "control_mode": "BUSY_KERNEL_BOUNDED_METADATA_ONLY",
+    "process_identity_reverified": false,
+    "full_epoch_v1/data_status.json": {
+      "at_utc": "2026-10-27T09:08:02.375959+00:00",
+      "stage": "REEXTRACTING_ALL_TRAIN_DEV_SOURCES",
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "source_cycle": 84,
+      "language": "vi",
+      "processed_pages": 20072,
+      "total_pages": 40647,
+      "generated_rows": 2623435
+    },
+    "full_epoch_v1/transition_v2/status.json": {
+      "at_utc": "2026-10-27T08:57:54.048491+00:00",
+      "stage": "WAITING_FOR_CURRENT_TRAIN_CHILD_NORMAL_EXIT",
+      "parent": {
+        "pid": 7213,
+        "start_ticks": "167634",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_v15d3",
+          "--phase",
+          "run",
+          "--docs-per-source",
+          "200",
+          "--steps",
+          "100",
+          "--microbatch",
+          "32"
+        ],
+        "module": "turn_v2.translation_segmenter_v15d3",
+        "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+        "log": "restore_control_v3/worker.log",
+        "resumed_after_drive_restore": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/recovery/drive_restore_receipt_v1.json"
+      },
+      "children": [
+        {
+          "pid": 22412,
+          "start_ticks": "535301",
+          "command": [
+            "/usr/bin/python3",
+            "-u",
+            "-m",
+            "turn_v2.translation_segmenter_v15d2",
+            "--phase",
+            "train",
+            "--cycle",
+            "84",
+            "--steps",
+            "100",
+            "--microbatch",
+            "32",
+            "--language",
+            "zh"
+          ]
+        }
+      ]
+    },
+    "drive_backup_v1/status.json": {
+      "stage": "SYNCED",
+      "at_utc": "2026-10-27T08:59:27.934842+00:00",
+      "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026",
+      "verified_files": 39,
+      "full_recovery_available": true,
+      "files": 39,
+      "data_cycle": 84,
+      "logical_bytes": 18025485835,
+      "object_bytes": 22526278296,
+      "pruned_objects": 4,
+      "next_check_seconds": 900
+    },
+    "status.json": {
+      "campaign": "translation_segmenter_v15d",
+      "status": "STOPPED_BY_REQUEST",
+      "at_utc": "2026-10-27T08:57:59.050182+00:00",
+      "qwen_judge_enabled": false,
+      "preserved_sqlite_and_checkpoints": true
+    },
+    "launcher.json": {
+      "pid": 7213,
+      "start_ticks": "167634",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_v15d3",
+        "--phase",
+        "run",
+        "--docs-per-source",
+        "200",
+        "--steps",
+        "100",
+        "--microbatch",
+        "32"
+      ],
+      "module": "turn_v2.translation_segmenter_v15d3",
+      "source_sha256": "cc225968bba652ecdff99e52ea25d3ec7648ed8de954de17bd66b9976767492c",
+      "log": "restore_control_v3/worker.log",
+      "resumed_after_drive_restore": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/recovery/drive_restore_receipt_v1.json"
+    }
+  }
+}

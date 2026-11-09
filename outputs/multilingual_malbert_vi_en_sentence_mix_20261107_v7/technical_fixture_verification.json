@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "technical_fixture_only": true,
+  "cpu_fp32_execution": true,
+  "actual_fit_function_exercised": true,
+  "staged_budgets_verified": [
+    1,
+    2,
+    3
+  ],
+  "masked_no_update_rows_exercised": true,
+  "active_lane_mid_stage_resume": true,
+  "full_epoch_eligible_gap_count_verified": 36,
+  "optimizer_entries": 27,
+  "uninterrupted_and_resumed_fields_bitwise_equal": [
+    "model",
+    "optimizer",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "sampler_rng",
+    "order",
+    "cursor",
+    "stream_state",
+    "step",
+    "branch_step",
+    "epoch",
+    "epoch_scored_seen",
+    "curriculum_stage",
+    "curriculum_stage_step",
+    "curriculum_stage_seen",
+    "curriculum_stage_pass"
+  ],
+  "not_a_model_quality_or_deployment_result": true
+}

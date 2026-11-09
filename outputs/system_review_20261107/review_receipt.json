@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "scope": "system design and evidence review; independent ASR source-order schedule audit; not exhaustive root-cause proof",
+  "checked_utc": "2026-11-07T16:03:10.484191+00:00",
+  "no_training_or_new_inference": true,
+  "no_test_rerun": true,
+  "parent_remains_paused": true,
+  "root_cause_uniquely_identified": false,
+  "next_experiment_launched": false,
+  "files": {
+    "README.md": "14de41c9d2448c5749257a43c98fcd447e28eb81655b5e8282a3c9fcf96a4d3a",
+    "independent_schedule_and_state.json": "2d6860a277cc7c92a960abb1519e624ea09f5eceda6693753108580642412ced"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "CPU_ENCODER_AND_TASK_CONTRACT_AUDIT_NO_NEW_MODEL_INFERENCE",
+  "samples": 17833,
+  "all_frozen_model_and_tokenizer_file_hashes_match": {
+    "config.json": true,
+    "tokenizer.json": true,
+    "tokenizer_config.json": true,
+    "model.safetensors": true
+  },
+  "id2label": {
+    "0": "NEOT",
+    "1": "EOT"
+  },
+  "threshold": 0.6599999999999999,
+  "all_legacy_encodings_equal_official_new_encoder": true,
+  "official_encoding_sha256": "fa6e5ccc7b262790f9f8992e70268722b37e9909a2913fb8eacdc169d0a3f232",
+  "recorded_old_evaluation_encoding_sha256": "fa6e5ccc7b262790f9f8992e70268722b37e9909a2913fb8eacdc169d0a3f232",
+  "max_encoded_length": 86,
+  "old_input_left_slot_nonempty": 0,
+  "old_input_right_slot_more_than2words": 17385,
+  "actual_new_training_control_rows_checked": 2000,
+  "actual_new_training_input_contract_violations": 0,
+  "new_training_examples": [
+    {
+      "left": "Thậm chí khi đã cài đặt các điều khoản riêng tư rất cẩn thận",
+      "future": "bạn",
+      "k": 1,
+      "label": "NEOT"
+    },
+    {
+      "left": "Quan sát những sản phẩm tại Hội thi cho thấy sự đầu tư công sức trí tuệ thật đáng trân trọng của đội ngũ GV và HS góp phần phát huy tính tích cực học tập",
+      "future": "tính",
+      "k": 1,
+      "label": "NEOT"
+    }
+  ],
+  "new_training_encoder_sha256": "28030e0af961d7f660233c03e3af19901bf95c10bdf6d65ad3ae17b12d629d7f",
+  "old_scoring_script_sha256": "494c519185e65d62b09c766203cc8ae9fed4c1649d22e92d5dda4ad043ec8bc9",
+  "new_model_inference_not_run": true,
+  "weights_or_threshold_changed": false,
+  "conclusion": "Numerical encoding matches implementation, but all old rows miss the left-text/future task contract. The78.48 score is a legacy-format transfer diagnostic, not a matched lookahead benchmark."
+}

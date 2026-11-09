@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETE",
+  "reported": true,
+  "checkpoint": {
+    "step": 515435,
+    "branch_step": 29200,
+    "base_step": 486235,
+    "source_checkpoint_sha256": "54fde12705c5ae0b08e03ca914499eda4489d08299f47e403a3be5d1827a0710",
+    "weights_sha256": "2a548ed7bfa51cdd81e249063bf4f550fff12e0953c7f58ccfd264bc5313761b",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "full_optimizer_rng_sampler_preserved": true,
+    "optimizer_entries": 104,
+    "one_shared_model": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+  },
+  "threshold": 0.53,
+  "report_sha256": "61655f640a634115247af5dcb0a520a2a9dea77d2d3382530e8a9320305da424",
+  "metrics_lookahead2": {
+    "monolingual": {
+      "vi": {
+        "samples": 4060,
+        "tp": 134,
+        "tn": 3885,
+        "fp": 20,
+        "fn": 21,
+        "accuracy": 0.9899014778325124,
+        "eot_f1": 0.8673139158576052,
+        "eot_precision": 0.8701298701298701,
+        "eot_recall": 0.864516129032258,
+        "false_share_of_cuts": 0.12987012987012986,
+        "false_positive_rate": 0.005121638924455826
+      },
+      "en": {
+        "samples": 4567,
+        "tp": 242,
+        "tn": 4310,
+        "fp": 8,
+        "fn": 7,
+        "accuracy": 0.9967155682067003,
+        "eot_f1": 0.969939879759519,
+        "eot_precision": 0.968,
+        "eot_recall": 0.9718875502008032,
+        "false_share_of_cuts": 0.032,
+        "false_positive_rate": 0.0018527095877721167
+      }
+    },
+    "mixed": {
+      "vi": {
+        "samples": 4238,
+        "tp": 212,
+        "tn": 3985,
+        "fp": 20,
+        "fn": 21,
+        "accuracy": 0.9903256252949505,
+        "eot_f1": 0.9118279569892473,
+        "eot_precision": 0.9137931034482759,
+        "eot_recall": 0.9098712446351931,
+        "false_share_of_cuts": 0.08620689655172414,
+        "false_positive_rate": 0.004993757802746567
+      },
+      "en": {
+        "samples": 4567,
+        "tp": 242,
+        "tn": 4310,
+        "fp": 8,
+        "fn": 7,
+        "accuracy": 0.9967155682067003,
+        "eot_f1": 0.969939879759519,
+        "eot_precision": 0.968,
+        "eot_recall": 0.9718875502008032,
+        "false_share_of_cuts": 0.032,
+        "false_positive_rate": 0.0018527095877721167
+      }
+    }
+  },
+  "scope": "200 previously exposed Qwen paragraphs held outside new TRAIN/DEV by ID; synthetic punctuation diagnostic, not independent human/audio conversational gold.",
+  "main_training_continued_pid": 2827094,
+  "main_training_start_ticks": "50410807",
+  "main_training_after_test_branch_step": 30260,
+  "remote_output": "/home/edabk/hoangbpm/turn_detect/outputs/multilingual_stream_test_20261102_v1",
+  "all_fulltraces_and_frozen_optimizer_retained_on_ssh": true,
+  "new_checkpoint_drive_backup_configured": false
+}

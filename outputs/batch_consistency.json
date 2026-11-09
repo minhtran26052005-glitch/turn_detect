@@ -1,0 +1,465 @@
+{
+  "scope": "First 64 test rows; diagnostic only, not a full batch-mode evaluation",
+  "baseline_batch_size": 1,
+  "comparison_batch_size": 32,
+  "max_length": 256,
+  "changed_class_count": 2,
+  "max_abs_prob_EOT_difference": 0.12618190050125122,
+  "single_recheck_samples": 8,
+  "single_recheck_max_abs_prob_difference": 0.0,
+  "token_audit_full_test": {
+    "samples": 4183,
+    "max_text_tokens": 40,
+    "samples_text_truncated_at_max_length_256": 0
+  },
+  "comparisons": [
+    {
+      "row": 1,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6952641606330872,
+      "batch_prob_EOT": 0.7601291537284851
+    },
+    {
+      "row": 2,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.5385883450508118,
+      "batch_prob_EOT": 0.5879380106925964
+    },
+    {
+      "row": 3,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8187372088432312,
+      "batch_prob_EOT": 0.8663416504859924
+    },
+    {
+      "row": 4,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.17151793837547302,
+      "batch_prob_EOT": 0.19259266555309296
+    },
+    {
+      "row": 5,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9531481266021729,
+      "batch_prob_EOT": 0.948737382888794
+    },
+    {
+      "row": 6,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8167428970336914,
+      "batch_prob_EOT": 0.739352285861969
+    },
+    {
+      "row": 7,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.2479957640171051,
+      "batch_prob_EOT": 0.24550935626029968
+    },
+    {
+      "row": 8,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.3381054103374481,
+      "batch_prob_EOT": 0.37832388281822205
+    },
+    {
+      "row": 9,
+      "single_class": 1,
+      "batch_class": 0,
+      "single_prob_EOT": 0.5232126712799072,
+      "batch_prob_EOT": 0.4792485237121582
+    },
+    {
+      "row": 10,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8716570734977722,
+      "batch_prob_EOT": 0.8715252876281738
+    },
+    {
+      "row": 11,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.14782102406024933,
+      "batch_prob_EOT": 0.15169009566307068
+    },
+    {
+      "row": 12,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8705639243125916,
+      "batch_prob_EOT": 0.8887156248092651
+    },
+    {
+      "row": 13,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9392971396446228,
+      "batch_prob_EOT": 0.9455426931381226
+    },
+    {
+      "row": 14,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.26284459233283997,
+      "batch_prob_EOT": 0.29342979192733765
+    },
+    {
+      "row": 15,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8775834441184998,
+      "batch_prob_EOT": 0.8964158296585083
+    },
+    {
+      "row": 16,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.5345234274864197,
+      "batch_prob_EOT": 0.5138764977455139
+    },
+    {
+      "row": 17,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.963693380355835,
+      "batch_prob_EOT": 0.9654738903045654
+    },
+    {
+      "row": 18,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9050935506820679,
+      "batch_prob_EOT": 0.9376023411750793
+    },
+    {
+      "row": 19,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.29214367270469666,
+      "batch_prob_EOT": 0.23008866608142853
+    },
+    {
+      "row": 20,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6823190450668335,
+      "batch_prob_EOT": 0.5607000589370728
+    },
+    {
+      "row": 21,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6476725339889526,
+      "batch_prob_EOT": 0.5214906334877014
+    },
+    {
+      "row": 22,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.7663796544075012,
+      "batch_prob_EOT": 0.8049999475479126
+    },
+    {
+      "row": 23,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.5489608645439148,
+      "batch_prob_EOT": 0.6353941559791565
+    },
+    {
+      "row": 24,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9187055826187134,
+      "batch_prob_EOT": 0.9288156628608704
+    },
+    {
+      "row": 25,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.355134516954422,
+      "batch_prob_EOT": 0.3749183118343353
+    },
+    {
+      "row": 26,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.040846988558769226,
+      "batch_prob_EOT": 0.0428122840821743
+    },
+    {
+      "row": 27,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.35981234908103943,
+      "batch_prob_EOT": 0.277291864156723
+    },
+    {
+      "row": 28,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9551817774772644,
+      "batch_prob_EOT": 0.9529750943183899
+    },
+    {
+      "row": 29,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8642140030860901,
+      "batch_prob_EOT": 0.8691965341567993
+    },
+    {
+      "row": 30,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.07823071628808975,
+      "batch_prob_EOT": 0.07311012595891953
+    },
+    {
+      "row": 31,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6415683627128601,
+      "batch_prob_EOT": 0.6995182633399963
+    },
+    {
+      "row": 32,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.05254562199115753,
+      "batch_prob_EOT": 0.049092911183834076
+    },
+    {
+      "row": 33,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.44766896963119507,
+      "batch_prob_EOT": 0.38304319977760315
+    },
+    {
+      "row": 34,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8437884449958801,
+      "batch_prob_EOT": 0.8361493945121765
+    },
+    {
+      "row": 35,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.3021489977836609,
+      "batch_prob_EOT": 0.2794019877910614
+    },
+    {
+      "row": 36,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.7848015427589417,
+      "batch_prob_EOT": 0.7612855434417725
+    },
+    {
+      "row": 37,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.4305361807346344,
+      "batch_prob_EOT": 0.40298891067504883
+    },
+    {
+      "row": 38,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9012995958328247,
+      "batch_prob_EOT": 0.9174644947052002
+    },
+    {
+      "row": 39,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8816296458244324,
+      "batch_prob_EOT": 0.9035363793373108
+    },
+    {
+      "row": 40,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.03691503778100014,
+      "batch_prob_EOT": 0.03728477656841278
+    },
+    {
+      "row": 41,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8830622434616089,
+      "batch_prob_EOT": 0.7872955203056335
+    },
+    {
+      "row": 42,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.24516144394874573,
+      "batch_prob_EOT": 0.3092111349105835
+    },
+    {
+      "row": 43,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.4626561999320984,
+      "batch_prob_EOT": 0.42270001769065857
+    },
+    {
+      "row": 44,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6511247158050537,
+      "batch_prob_EOT": 0.6797458529472351
+    },
+    {
+      "row": 45,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.5725046992301941,
+      "batch_prob_EOT": 0.5626705884933472
+    },
+    {
+      "row": 46,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.301831990480423,
+      "batch_prob_EOT": 0.3083750009536743
+    },
+    {
+      "row": 47,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.17736314237117767,
+      "batch_prob_EOT": 0.21992337703704834
+    },
+    {
+      "row": 48,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.12642179429531097,
+      "batch_prob_EOT": 0.13856041431427002
+    },
+    {
+      "row": 49,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9461497068405151,
+      "batch_prob_EOT": 0.9434924125671387
+    },
+    {
+      "row": 50,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6252118945121765,
+      "batch_prob_EOT": 0.656391978263855
+    },
+    {
+      "row": 51,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.23449140787124634,
+      "batch_prob_EOT": 0.23197384178638458
+    },
+    {
+      "row": 52,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6439228653907776,
+      "batch_prob_EOT": 0.6262152194976807
+    },
+    {
+      "row": 53,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.07500212639570236,
+      "batch_prob_EOT": 0.07508223503828049
+    },
+    {
+      "row": 54,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.6465706825256348,
+      "batch_prob_EOT": 0.5911588072776794
+    },
+    {
+      "row": 55,
+      "single_class": 1,
+      "batch_class": 0,
+      "single_prob_EOT": 0.549822211265564,
+      "batch_prob_EOT": 0.4429623782634735
+    },
+    {
+      "row": 56,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9003152251243591,
+      "batch_prob_EOT": 0.8787482380867004
+    },
+    {
+      "row": 57,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.7644795179367065,
+      "batch_prob_EOT": 0.7571651935577393
+    },
+    {
+      "row": 58,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.306477814912796,
+      "batch_prob_EOT": 0.3329591155052185
+    },
+    {
+      "row": 59,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.9581751823425293,
+      "batch_prob_EOT": 0.9532789587974548
+    },
+    {
+      "row": 60,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.848031222820282,
+      "batch_prob_EOT": 0.8185460567474365
+    },
+    {
+      "row": 61,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.2623126208782196,
+      "batch_prob_EOT": 0.2722620666027069
+    },
+    {
+      "row": 62,
+      "single_class": 0,
+      "batch_class": 0,
+      "single_prob_EOT": 0.2723997235298157,
+      "batch_prob_EOT": 0.2689533233642578
+    },
+    {
+      "row": 63,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.8952583074569702,
+      "batch_prob_EOT": 0.9010663628578186
+    },
+    {
+      "row": 64,
+      "single_class": 1,
+      "batch_class": 1,
+      "single_prob_EOT": 0.7388315200805664,
+      "batch_prob_EOT": 0.7420126795768738
+    }
+  ]
+}

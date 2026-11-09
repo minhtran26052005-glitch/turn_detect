@@ -1,0 +1,32 @@
+{
+  "phase": "distill",
+  "epoch": 7,
+  "step": 126,
+  "loss": 0.19371022863520515,
+  "dev": {
+    "zh": {
+      "samples": 855,
+      "threshold": 0.48499999999999993,
+      "accuracy": 0.7941520467836257,
+      "eot_precision": 0.9163346613545816,
+      "eot_recall": 0.7744107744107744,
+      "eot_f1": 0.8394160583941606,
+      "joint_score": 0.7941520467836257,
+      "false_eot": 42,
+      "missed_eot": 134,
+      "false_eot_rate": 0.16091954022988506,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          219,
+          42
+        ],
+        [
+          134,
+          460
+        ]
+      ]
+    }
+  },
+  "minimum_language_joint_score": 0.7941520467836257,
+  "elapsed_seconds": 7.193371932997252
+}

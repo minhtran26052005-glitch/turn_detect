@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"probe\": \"@lru_cache\\ndef is_torchao_available() -> bool:\\n    if importlib.util.find_spec(\\\"torchao\\\") is None:\\n        return False\\n\\n    TORCHAO_MINIMUM_VERSION = packaging.version.parse(\\\"0.16.0\\\")\\n    try:\\n        torchao_version = packaging.version.parse(importlib_metadata.version(\\\"torchao\\\"))\\n    except importlib_metadata.PackageNotFoundError:\\n        # Same idea as in diffusers:\\n        # https://github.com/huggingface/diffusers/blob/9f06a0d1a4a998ac6a463c5be728c892f95320a8/src/diffusers/utils/import_utils.py#L351-L357\\n        # It's not clear under what circumstances `importlib_metadata.version(\\\"torchao\\\")` can raise an error even\\n        # though `importlib.util.find_spec(\\\"torchao\\\") is not None` but it has been observed, so adding this for\\n        # precaution.\\n        return False\\n\\n    if torchao_version < TORCHAO_MINIMUM_VERSION:\\n        raise ImportError(\\n            f\\\"Found an incompatible version of torchao. Found version {torchao_version}, \\\"\\n            f\\\"but only versions above {TORCHAO_MINIMUM_VERSION} are supported\\\"\\n        )\\n    return True\\n\", \"dispatcher\": \"def dispatch_torchao(\\n    target: torch.nn.Module,\\n    adapter_name: str,\\n    config: LoraConfig,\\n    **kwargs: Any,\\n) -> Optional[torch.nn.Module]:\\n    new_module = None\\n\\n    if isinstance(target, BaseTunerLayer):\\n        target_base_layer = target.get_base_layer()\\n    else:\\n        target_base_layer = target\\n\\n    if not hasattr(target_base_layer, \\\"weight\\\"):\\n        return new_module\\n\\n    if not is_torchao_available():\\n        return new_module\\n\\n    from torchao.utils import TorchAOBaseTensor\\n\\n    if isinstance(target_base_layer.weight, TorchAOBaseTensor):\\n        new_module = TorchaoLoraLinear(target, adapter_name, config=config, **kwargs)\\n\\n    return new_module\\n\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.7189999999827705
+}

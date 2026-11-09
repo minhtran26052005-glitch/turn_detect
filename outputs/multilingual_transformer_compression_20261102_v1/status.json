@@ -1,0 +1,7 @@
+{
+  "stage": "COMPLETE",
+  "pid": 3391254,
+  "at_utc": "2026-11-02T10:55:45.382577+00:00",
+  "package": "/home/edabk/hoangbpm/turn_detect/models/turn_multilingual_transformer_compressed_20261102_v1",
+  "model_bytes": 139823559
+}

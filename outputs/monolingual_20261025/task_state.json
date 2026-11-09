@@ -1,0 +1,120 @@
+{
+  "status": "THREE_SEPARATE_MODELS_TRAINED_PACKAGED_AND_VERIFIED_QUALITY_TARGET_UNMET",
+  "goal_quality_achieved": false,
+  "architecture_correction": "Three independent models; preserve VI existing, independent EN/ZH teacher-distill-QAT",
+  "Colab_session": "Use the currently observed unique a-jvsc session; previous runtime disappeared",
+  "verified_EN_QAT_model_bytes": 712969,
+  "snapshot_not_live_status": false,
+  "next_commands": [],
+  "notes": [
+    "Do not restart active/completed jobs",
+    "EN teacher saved exactly to local backup; preserve all files",
+    "384 formerly held cases are already seen regression; not an acceptance test",
+    "VI native model also scores22.10F1 on the new automatic210case regression; old90.19F1 was frozen derived-prefix dev"
+  ],
+  "recorded_at_utc": "2026-10-25T04:35:41.907491+00:00",
+  "architecture_correction_completed": true,
+  "all_training_jobs_completed": true,
+  "teacher_steps_completed": {
+    "en": 400,
+    "zh": 400
+  },
+  "private_teachers_backed_up_locally": {
+    "en": true,
+    "zh": true
+  },
+  "deployed_ONNX_bytes": {
+    "vi": 177124,
+    "en": 712969,
+    "zh": 548781
+  },
+  "regression_metrics": {
+    "vi": {
+      "samples": 210,
+      "threshold": 0.4699999999999999,
+      "accuracy": 0.32857142857142857,
+      "eot_precision": 0.1342281879194631,
+      "eot_recall": 0.625,
+      "eot_f1": 0.22099447513812154,
+      "joint_score": 0.22099447513812154,
+      "false_eot": 129,
+      "missed_eot": 12,
+      "false_eot_rate": 0.7247191011235955,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          49,
+          129
+        ],
+        [
+          12,
+          20
+        ]
+      ]
+    },
+    "en": {
+      "samples": 93,
+      "threshold": 0.5149999999999999,
+      "accuracy": 0.6236559139784946,
+      "eot_precision": 0.7846153846153846,
+      "eot_recall": 0.7083333333333334,
+      "eot_f1": 0.7445255474452555,
+      "joint_score": 0.6236559139784946,
+      "false_eot": 14,
+      "missed_eot": 21,
+      "false_eot_rate": 0.6666666666666666,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          7,
+          14
+        ],
+        [
+          21,
+          51
+        ]
+      ]
+    },
+    "zh": {
+      "samples": 81,
+      "threshold": 0.49499999999999994,
+      "accuracy": 0.7037037037037037,
+      "eot_precision": 0.8125,
+      "eot_recall": 0.8125,
+      "eot_f1": 0.8125,
+      "joint_score": 0.7037037037037037,
+      "false_eot": 12,
+      "missed_eot": 12,
+      "false_eot_rate": 0.7058823529411765,
+      "confusion_matrix_NEOT_EOT": [
+        [
+          5,
+          12
+        ],
+        [
+          12,
+          52
+        ]
+      ]
+    }
+  },
+  "quality_target_certified": false,
+  "unit_tests": 59,
+  "technical_checks": {
+    "passed": 37,
+    "total": 37
+  },
+  "player_behavior_validation": "PASS",
+  "standalone_CLI": {
+    "en": "PASS",
+    "zh": "PASS"
+  },
+  "future_work": "Keep the three-model architecture. Improve training labels/data under the intended semantic-completeness definition and evaluate on a new matching cohort; current384 are seen regression only. Do not infer90% real quality from old VI dev or unlabeled punctuation crawl.",
+  "artifacts": {
+    "report": "outputs/monolingual_20261025/review.html",
+    "player": "outputs/monolingual_20261025/crawl_review.html",
+    "registry": "outputs/monolingual_20261025/registry.json",
+    "recipe": "README_MONOLINGUAL.md",
+    "notebook": "a.ipynb",
+    "validation": "outputs/monolingual_20261025/completion_validation.json",
+    "release_metadata_receipt": "outputs/monolingual_20261025/release_metadata_receipt.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 3,
+  "at_utc": "2026-10-27T04:58:49.076132+00:00",
+  "raw_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "model_or_threshold_tuned_on_test": false,
+  "crawl_recipe_activated": false,
+  "local_render_from_verified_bounded_reports": true,
+  "files_sha256": {
+    "error_analysis_reviewed_v3.md": "c6c1bf2c0ab5bed0f4183fd86ae861453861cedbbdc42cee56e09575e9ee2126",
+    "test_provenance.md": "26e0ea97192662085c73c9cf04a06491e1c576c6e0f7c96814c6d17aef627fc8",
+    "test_provenance_audit_v1.json": "4e331414c953f66f07d1bf8a9709a1024fb6bad8c5e24a879b2506290f49e5c6",
+    "crawl_plan_v3.json": "a8ecbb3854b1ba70fb60e6186febc24abf8d56e2f3918b1d33ab510f14266e5d",
+    "review_complete_v3.html": "a78352c6365c2dd056df86e62611e6e98dc1f938f114b7f23faa72a09d263393",
+    "README.md": "94813cf81876c905af415f97e3b905ab9986a113e2677557d54f9e55b5d77e20"
+  }
+}

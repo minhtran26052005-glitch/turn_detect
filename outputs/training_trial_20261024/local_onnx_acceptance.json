@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "samples": 3,
+  "load_seconds": 5.655999999988126,
+  "backend": "ONNX Runtime CPU, Windows",
+  "results": [
+    {
+      "text": "Tôi muốn đặt một chuyến bay từ",
+      "local": {
+        "prediction": "NEOT",
+        "prob_EOT": 0.007113690091728744,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "remote_pytorch": {
+        "text": "Tôi muốn đặt một chuyến bay từ",
+        "prediction": "NEOT",
+        "prob_EOT": 0.007113698511587742,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "delta_prob_EOT": 8.419858997521512e-09,
+      "latency_ms": 188.0000000091968
+    },
+    {
+      "text": "Tôi muốn đặt một chuyến bay từ Hà Nội đến Đà Nẵng vào sáng mai",
+      "local": {
+        "prediction": "EOT",
+        "prob_EOT": 0.7932403415591192,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "remote_pytorch": {
+        "text": "Tôi muốn đặt một chuyến bay từ Hà Nội đến Đà Nẵng vào sáng mai",
+        "prediction": "EOT",
+        "prob_EOT": 0.7932366071923858,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "delta_prob_EOT": 3.734366733398886e-06,
+      "latency_ms": 186.9999999908032
+    },
+    {
+      "text": "Bạn có thể giúp tôi được không",
+      "local": {
+        "prediction": "EOT",
+        "prob_EOT": 0.8621261005182167,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "remote_pytorch": {
+        "text": "Bạn có thể giúp tôi được không",
+        "prediction": "EOT",
+        "prob_EOT": 0.8621260013297621,
+        "threshold": 0.49999999999999994,
+        "smoke_only": false
+      },
+      "delta_prob_EOT": 9.918845456091674e-08,
+      "latency_ms": 172.00000000593718
+    }
+  ],
+  "timing_scope": "3 functional examples, not a latency benchmark"
+}

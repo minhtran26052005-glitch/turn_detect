@@ -1,0 +1,7 @@
+{
+  "pid": 3031896,
+  "start_ticks": "51491563",
+  "module": "turn_v2.factory_stream_test_v1",
+  "source_sha256": "f25264636520a8ca28e11793e759ba8cd73e0048a0c2c2bb21f675da7ab29354",
+  "training_interrupted": false
+}

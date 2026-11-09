@@ -1,0 +1,344 @@
+{
+  "schema": 2,
+  "evidence_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "scope": "TRAIN_ONLY_FUTURE_DATA_DESIGN_NOT_AUTOMATIC_TEST_TUNING",
+  "status": "PREPARED_NOT_ACTIVATED_IN_LIVE_CRAWLER",
+  "causal_extraction_module": "turn_v2.translation_segmenter_causal_extraction_v2",
+  "requirements": {
+    "lowercase_punctuation_free_inputs": true,
+    "future_words": [
+      1,
+      2
+    ],
+    "preserve_short_sentences_and_trailing_future": true,
+    "new_data_recipe_identity_required": true,
+    "old_test_and_reserve_never_enter_train": true,
+    "crawl_test_urls_or_copy_test_errors": false,
+    "keep_baai_english_quarantined": true,
+    "choose_models_and_thresholds_on_dev": true,
+    "colab_only_model_execution": true,
+    "large_artifacts_destination": "mounted_google_drive"
+  },
+  "priorities": {
+    "vi": {
+      "punctuation_slices_by_error_contribution": [
+        {
+          "feature": ",",
+          "samples": 20940,
+          "correct": 16666,
+          "false_EOT": 4274,
+          "errors": 4274,
+          "error_rate": 0.2041069723018147
+        },
+        {
+          "feature": ".",
+          "samples": 16085,
+          "correct": 13409,
+          "missed_EOT": 2676,
+          "errors": 2676,
+          "error_rate": 0.16636617967050046
+        },
+        {
+          "feature": ":",
+          "samples": 1177,
+          "correct": 1001,
+          "false_EOT": 176,
+          "errors": 176,
+          "error_rate": 0.14953271028037382
+        },
+        {
+          "feature": ";",
+          "samples": 273,
+          "correct": 151,
+          "false_EOT": 122,
+          "errors": 122,
+          "error_rate": 0.4468864468864469
+        },
+        {
+          "feature": "?",
+          "samples": 484,
+          "correct": 407,
+          "missed_EOT": 77,
+          "errors": 77,
+          "error_rate": 0.1590909090909091
+        }
+      ],
+      "source_slices": [
+        {
+          "feature": "hf:fineweb2:vie_Latn",
+          "samples": 39123,
+          "correct": 31742,
+          "missed_EOT": 2813,
+          "false_EOT": 4568,
+          "errors": 7381,
+          "error_rate": 0.1886614012217877
+        },
+        {
+          "feature": "wiki:vi",
+          "samples": 44,
+          "correct": 38,
+          "missed_EOT": 2,
+          "false_EOT": 4,
+          "errors": 6,
+          "error_rate": 0.13636363636363635
+        }
+      ],
+      "training_pool_coverage_upper_bound": 0.08138022714793515,
+      "same_pool_size_draw_volume_steps": 13517,
+      "step_count_is_not_unique_coverage_or_quality_guarantee": true,
+      "actual_new_train_rows_per_three_crawls": 40960,
+      "steps_for_same_new_row_draw_volume": 640
+    },
+    "en": {
+      "punctuation_slices_by_error_contribution": [
+        {
+          "feature": ".",
+          "samples": 13672,
+          "correct": 11461,
+          "missed_EOT": 2211,
+          "errors": 2211,
+          "error_rate": 0.16171737858396723
+        },
+        {
+          "feature": ",",
+          "samples": 12772,
+          "correct": 11192,
+          "false_EOT": 1580,
+          "errors": 1580,
+          "error_rate": 0.1237081114938929
+        },
+        {
+          "feature": ":",
+          "samples": 615,
+          "false_EOT": 185,
+          "correct": 430,
+          "errors": 185,
+          "error_rate": 0.3008130081300813
+        },
+        {
+          "feature": ";",
+          "samples": 310,
+          "false_EOT": 141,
+          "correct": 169,
+          "errors": 141,
+          "error_rate": 0.45483870967741935
+        },
+        {
+          "feature": "?",
+          "samples": 460,
+          "correct": 380,
+          "missed_EOT": 80,
+          "errors": 80,
+          "error_rate": 0.17391304347826086
+        }
+      ],
+      "source_slices": [
+        {
+          "feature": "hf:fineweb:en",
+          "samples": 28141,
+          "correct": 23879,
+          "false_EOT": 1905,
+          "missed_EOT": 2357,
+          "errors": 4262,
+          "error_rate": 0.15145161863473225
+        },
+        {
+          "feature": "wiki:en",
+          "samples": 14,
+          "correct": 11,
+          "missed_EOT": 2,
+          "false_EOT": 1,
+          "errors": 3,
+          "error_rate": 0.21428571428571427
+        }
+      ],
+      "training_pool_coverage_upper_bound": 0.15661358711853246,
+      "same_pool_size_draw_volume_steps": 7024,
+      "step_count_is_not_unique_coverage_or_quality_guarantee": true,
+      "actual_new_train_rows_per_three_crawls": 19855,
+      "steps_for_same_new_row_draw_volume": 311
+    },
+    "zh": {
+      "punctuation_slices_by_error_contribution": [
+        {
+          "feature": "，",
+          "samples": 18874,
+          "correct": 15134,
+          "false_EOT": 3740,
+          "errors": 3740,
+          "error_rate": 0.1981561937056268
+        },
+        {
+          "feature": ",",
+          "samples": 17908,
+          "correct": 16278,
+          "false_EOT": 1630,
+          "errors": 1630,
+          "error_rate": 0.09102077283895466
+        },
+        {
+          "feature": "。",
+          "samples": 8023,
+          "correct": 6490,
+          "missed_EOT": 1533,
+          "errors": 1533,
+          "error_rate": 0.1910756574847314
+        },
+        {
+          "feature": ".",
+          "samples": 2095,
+          "correct": 1551,
+          "missed_EOT": 544,
+          "errors": 544,
+          "error_rate": 0.25966587112171835
+        },
+        {
+          "feature": "、",
+          "samples": 2410,
+          "correct": 2205,
+          "false_EOT": 205,
+          "errors": 205,
+          "error_rate": 0.08506224066390042
+        }
+      ],
+      "source_slices": [
+        {
+          "feature": "hf:fineweb2:cmn_Hani",
+          "samples": 31025,
+          "correct": 25145,
+          "missed_EOT": 1656,
+          "false_EOT": 4224,
+          "errors": 5880,
+          "error_rate": 0.1895245769540693
+        },
+        {
+          "feature": "hf:industrycorpus2_news_media:zh",
+          "samples": 20786,
+          "correct": 18487,
+          "false_EOT": 1795,
+          "missed_EOT": 504,
+          "errors": 2299,
+          "error_rate": 0.11060329067641682
+        },
+        {
+          "feature": "wiki:zh",
+          "samples": 60,
+          "correct": 44,
+          "false_EOT": 8,
+          "missed_EOT": 8,
+          "errors": 16,
+          "error_rate": 0.26666666666666666
+        }
+      ],
+      "training_pool_coverage_upper_bound": 0.06237722805876573,
+      "same_pool_size_draw_volume_steps": 17635,
+      "step_count_is_not_unique_coverage_or_quality_guarantee": true,
+      "actual_new_train_rows_per_three_crawls": 57313,
+      "steps_for_same_new_row_draw_volume": 896
+    }
+  },
+  "language_results": {
+    "vi": {
+      "accuracy": 0.8113973498097888,
+      "f1": 0.7908017331709666,
+      "samples": 39167,
+      "balanced_accuracy": 0.814006230961841,
+      "false_eot": 4572,
+      "missed_eot": 2815,
+      "train_pool_control_balanced_accuracy": 0.804,
+      "lookahead_defect": {
+        "clean_EOT_rows": 16777,
+        "aligned_EOT_rows": 16777,
+        "contiguous_lookahead_rows": 16529,
+        "contiguous_lookahead_model_errors": 2751,
+        "non_contiguous_lookahead_rows": 248,
+        "non_contiguous_lookahead_model_errors": 64,
+        "non_contiguous_lookahead_error_rate": 0.25806451612903225,
+        "contiguous_lookahead_error_rate": 0.1664347510436203
+      },
+      "training_exposure": {
+        "rows": 865075,
+        "source_pages": 8258,
+        "total_optimizer_steps": 1100,
+        "microbatch": 32,
+        "gradient_accumulation": 2,
+        "total_training_row_draws": 70400,
+        "upper_bound_unique_current_rows_seen_fraction": 0.08138022714793515,
+        "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+      },
+      "one_pool_size_draw_volume_steps": 13517
+    },
+    "en": {
+      "accuracy": 0.8485171372757947,
+      "f1": 0.8501563433229105,
+      "samples": 28155,
+      "balanced_accuracy": 0.848841588750251,
+      "false_eot": 1906,
+      "missed_eot": 2359,
+      "train_pool_control_balanced_accuracy": 0.8594999999999999,
+      "lookahead_defect": {
+        "clean_EOT_rows": 14458,
+        "aligned_EOT_rows": 14458,
+        "contiguous_lookahead_rows": 13853,
+        "contiguous_lookahead_model_errors": 2206,
+        "non_contiguous_lookahead_rows": 605,
+        "non_contiguous_lookahead_model_errors": 153,
+        "non_contiguous_lookahead_error_rate": 0.2528925619834711,
+        "contiguous_lookahead_error_rate": 0.15924348516566808
+      },
+      "training_exposure": {
+        "rows": 449514,
+        "source_pages": 7406,
+        "total_optimizer_steps": 1100,
+        "microbatch": 32,
+        "gradient_accumulation": 2,
+        "total_training_row_draws": 70400,
+        "upper_bound_unique_current_rows_seen_fraction": 0.15661358711853246,
+        "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+      },
+      "one_pool_size_draw_volume_steps": 7024
+    },
+    "zh": {
+      "accuracy": 0.8420119141716952,
+      "f1": 0.671819310400064,
+      "samples": 51871,
+      "balanced_accuracy": 0.8243699766537343,
+      "false_eot": 6027,
+      "missed_eot": 2168,
+      "train_pool_control_balanced_accuracy": 0.829,
+      "lookahead_defect": {
+        "clean_EOT_rows": 10556,
+        "could_not_align_to_legacy_extraction": 1789,
+        "aligned_EOT_rows": 8767,
+        "non_contiguous_lookahead_rows": 1305,
+        "non_contiguous_lookahead_model_errors": 316,
+        "contiguous_lookahead_rows": 7462,
+        "contiguous_lookahead_model_errors": 1405,
+        "non_contiguous_lookahead_error_rate": 0.2421455938697318,
+        "contiguous_lookahead_error_rate": 0.1882873224336639
+      },
+      "training_exposure": {
+        "rows": 1128617,
+        "source_pages": 7735,
+        "total_optimizer_steps": 1100,
+        "microbatch": 32,
+        "gradient_accumulation": 2,
+        "total_training_row_draws": 70400,
+        "upper_bound_unique_current_rows_seen_fraction": 0.06237722805876573,
+        "interpretation": "Upper bound only: draws include repetitions and earlier smaller corpora; this is not an epoch completion count."
+      },
+      "one_pool_size_draw_volume_steps": 17635
+    }
+  },
+  "quality_target_certified": false,
+  "reviewed_analysis": "error_analysis_reviewed.md",
+  "source_report_sha256": "fe4555399de148fe34c2e96f7d95d4edb2aa453caa618f0d69a333ebbb238650",
+  "abbreviation_candidates": {
+    "tp": 48,
+    "model_errors": 47,
+    "ts": 2,
+    "gs": 2
+  },
+  "actual_seen_sampler_replay_verified": true,
+  "unknown_zh_EOT_alignment_requires_review": 1789
+}

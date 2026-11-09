@@ -1,0 +1,101 @@
+{
+  "run": "qat_g32",
+  "epoch": 4,
+  "step": 37500,
+  "dev": {
+    "threshold": 0.28,
+    "by_language": {
+      "vi": {
+        "samples": 2058,
+        "tp": 4,
+        "tn": 1959,
+        "fp": 9,
+        "fn": 86,
+        "accuracy": 0.9538386783284742,
+        "eot_f1": 0.07766990291262135,
+        "eot_precision": 0.3076923076923077,
+        "eot_recall": 0.044444444444444446,
+        "false_share_of_cuts": 0.6923076923076923,
+        "false_positive_rate": 0.004573170731707317
+      },
+      "en": {
+        "samples": 2304,
+        "tp": 0,
+        "tn": 2170,
+        "fp": 13,
+        "fn": 121,
+        "accuracy": 0.9418402777777778,
+        "eot_f1": 0.0,
+        "eot_precision": 0.0,
+        "eot_recall": 0.0,
+        "false_share_of_cuts": 1.0,
+        "false_positive_rate": 0.005955107650022904
+      },
+      "zh": {
+        "samples": 1000,
+        "tp": 22,
+        "tn": 790,
+        "fp": 35,
+        "fn": 153,
+        "accuracy": 0.812,
+        "eot_f1": 0.1896551724137931,
+        "eot_precision": 0.38596491228070173,
+        "eot_recall": 0.12571428571428572,
+        "false_share_of_cuts": 0.6140350877192983,
+        "false_positive_rate": 0.04242424242424243
+      }
+    },
+    "static_by_language": {
+      "vi": {
+        "samples": 2058,
+        "tp": 29,
+        "tn": 1456,
+        "fp": 512,
+        "fn": 61,
+        "accuracy": 0.7215743440233237,
+        "eot_f1": 0.0919175911251981,
+        "eot_precision": 0.053604436229205174,
+        "eot_recall": 0.32222222222222224,
+        "false_share_of_cuts": 0.9463955637707948,
+        "false_positive_rate": 0.2601626016260163
+      },
+      "en": {
+        "samples": 2304,
+        "tp": 34,
+        "tn": 1641,
+        "fp": 542,
+        "fn": 87,
+        "accuracy": 0.7269965277777778,
+        "eot_f1": 0.0975609756097561,
+        "eot_precision": 0.059027777777777776,
+        "eot_recall": 0.2809917355371901,
+        "false_share_of_cuts": 0.9409722222222222,
+        "false_positive_rate": 0.24828218048557033
+      },
+      "zh": {
+        "samples": 1000,
+        "tp": 22,
+        "tn": 790,
+        "fp": 35,
+        "fn": 153,
+        "accuracy": 0.812,
+        "eot_f1": 0.1896551724137931,
+        "eot_precision": 0.38596491228070173,
+        "eot_recall": 0.12571428571428572,
+        "false_share_of_cuts": 0.6140350877192983,
+        "false_positive_rate": 0.04242424242424243
+      }
+    },
+    "score": 0.0,
+    "scope": "VI/EN causal predicted-reset synthetic DEV; ZH legacy punctuation DEV anchors; no test or human/audio gold",
+    "gold_reset_in_inference": false,
+    "language_id_supplied": false,
+    "max_future_words": 2
+  },
+  "retention_passed": false,
+  "retention_by_language": {
+    "vi": false,
+    "en": false,
+    "zh": false
+  }
+}

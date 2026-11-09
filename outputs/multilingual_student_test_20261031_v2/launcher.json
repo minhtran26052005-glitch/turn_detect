@@ -1,0 +1,7 @@
+{
+  "pid": 3488227,
+  "start_ticks": "32374343",
+  "module": "turn_v2.multilingual_student_diagnostic_v2",
+  "source_sha256": "f54652336507f8c7577ba701b35c1518cf35b7a944d1eb48059a3a8162d3cf3f",
+  "output": "/mnt/hdd500/turn_detect_training/multilingual_distill_test_20261031_v2"
+}

@@ -1,0 +1,318 @@
+{
+  "complete": true,
+  "scope": "Previously exposed punctuation-derived C75 diagnostic; not independent conversational test",
+  "checkpoint": {
+    "step": 211200,
+    "counts": {
+      "vi": 1126400,
+      "en": 1126392,
+      "zh": 1126400
+    },
+    "cursors": {
+      "vi": "b14ae3c3d57f516ba4cc6cd4bc3fd01998493ac89451cf6fd7757d7668992e53",
+      "en": "4811552082c4ae56443cb33d4727d07a0b5975b95c5a1c6f937ffeba73cce795",
+      "zh": "38a696facbf236454f821042e7058c497b2682cb24e02b14c2c0a9129e243b46"
+    },
+    "rounds": {
+      "vi": 0,
+      "en": 1,
+      "zh": 0
+    },
+    "source_checkpoint_sha256": "65eb000401067ad5377b584775de58eab121b1f2f877d7445e90b7c8a4a82e1d",
+    "weights_sha256": "b7e66704bde6db2ada77443bf5aa439157b0c8ac2d9ed6a2497557b2b4e868cd",
+    "optimizer_rng_sampler_preserved_in_pin": true,
+    "dataset_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "student_revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+    "same_model_for_all_languages": true,
+    "training_continues_independently": true,
+    "test_used_for_selection": false
+  },
+  "threshold_from_same_checkpoint_dev": 0.56,
+  "threshold_selected_on_test": false,
+  "checkpoint_selected_on_test": false,
+  "languages": {
+    "vi": {
+      "input_rows": 39167,
+      "metrics_after_cycle84_audit": {
+        "samples": 39167,
+        "accuracy": 0.7998825541910282,
+        "eot_precision": 0.7995844225484282,
+        "eot_recall": 0.7110329617929309,
+        "eot_f1": 0.7527132761231701,
+        "tp": 11929,
+        "tn": 19400,
+        "fp": 2990,
+        "fn": 4848
+      },
+      "existing_C75_subset_metrics_before_cycle84_audit": {
+        "samples": 39167,
+        "accuracy": 0.7998825541910282,
+        "eot_precision": 0.7995844225484282,
+        "eot_recall": 0.7110329617929309,
+        "eot_f1": 0.7527132761231701,
+        "tp": 11929,
+        "tn": 19400,
+        "fp": 2990,
+        "fn": 4848
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 19504,
+          "accuracy": 0.7891201804757998,
+          "eot_precision": 0.7924993156309882,
+          "eot_recall": 0.6903541194706093,
+          "eot_f1": 0.7379086216784554,
+          "tp": 5790,
+          "tn": 9601,
+          "fp": 1516,
+          "fn": 2597
+        },
+        "2": {
+          "samples": 19663,
+          "accuracy": 0.8105579006255403,
+          "eot_precision": 0.8063838171548666,
+          "eot_recall": 0.731704410011919,
+          "eot_f1": 0.7672311441604699,
+          "tp": 6139,
+          "tn": 9799,
+          "fp": 1474,
+          "fn": 2251
+        }
+      },
+      "overlap_audit": {
+        "retained_rows": 39167,
+        "accepted_train_dev_rows_scanned": 1801297,
+        "missing_source_groups_in_corpus": 0
+      },
+      "audit_scope": "Exclude exact 256-token teacher inputs in cycle84 accepted train/dev and source IDs/exact source copies in cycle84 non-test; test source hashes read from corpus",
+      "audit_limits": "Student WordPiece-only collisions and near-duplicate paraphrases are not exhaustively audited; C75 has already been viewed",
+      "dataset_sha256": "4910685d55727de536ef36e05d105cdb2b744531541d8489583a248c0a31081f",
+      "predictions_sha256": "6ec7ad5869d5592ebcda574a8cfe1b0878a0f13803fb6818970f17627bd728ed",
+      "predictions_bytes": 5375394,
+      "prior_predictions_reused": 0,
+      "prior_trace_sha256": null
+    },
+    "en": {
+      "input_rows": 28155,
+      "metrics_after_cycle84_audit": {
+        "samples": 28155,
+        "accuracy": 0.8339548925590481,
+        "eot_precision": 0.859114602452096,
+        "eot_recall": 0.8093788905796099,
+        "eot_f1": 0.8335054667189002,
+        "tp": 11702,
+        "tn": 11778,
+        "fp": 1919,
+        "fn": 2756
+      },
+      "existing_C75_subset_metrics_before_cycle84_audit": {
+        "samples": 28155,
+        "accuracy": 0.8339548925590481,
+        "eot_precision": 0.859114602452096,
+        "eot_recall": 0.8093788905796099,
+        "eot_f1": 0.8335054667189002,
+        "tp": 11702,
+        "tn": 11778,
+        "fp": 1919,
+        "fn": 2756
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 14106,
+          "accuracy": 0.8246845314050758,
+          "eot_precision": 0.8527143280925541,
+          "eot_recall": 0.7952690551943561,
+          "eot_f1": 0.8229904802805812,
+          "tp": 5749,
+          "tn": 5884,
+          "fp": 993,
+          "fn": 1480
+        },
+        "2": {
+          "samples": 14049,
+          "accuracy": 0.8432628656843904,
+          "eot_precision": 0.8653874109608954,
+          "eot_recall": 0.8234887259648638,
+          "eot_f1": 0.8439183442018713,
+          "tp": 5953,
+          "tn": 5894,
+          "fp": 926,
+          "fn": 1276
+        }
+      },
+      "overlap_audit": {
+        "retained_rows": 28155,
+        "accepted_train_dev_rows_scanned": 986856,
+        "missing_source_groups_in_corpus": 0
+      },
+      "audit_scope": "Exclude exact 256-token teacher inputs in cycle84 accepted train/dev and source IDs/exact source copies in cycle84 non-test; test source hashes read from corpus",
+      "audit_limits": "Student WordPiece-only collisions and near-duplicate paraphrases are not exhaustively audited; C75 has already been viewed",
+      "dataset_sha256": "4db6e360826cac7e4ace68b409de4c2edfc14579da89f937d067a832f99bda17",
+      "predictions_sha256": "11cce57e7ee403c5aff2e67f056a4c889c1735230fb7695ec4ebb70044b64c26",
+      "predictions_bytes": 3477877,
+      "prior_predictions_reused": 0,
+      "prior_trace_sha256": null
+    },
+    "zh": {
+      "input_rows": 51871,
+      "metrics_after_cycle84_audit": {
+        "samples": 51871,
+        "accuracy": 0.843149351275279,
+        "eot_precision": 0.6040770686392568,
+        "eot_recall": 0.6653088291019326,
+        "eot_f1": 0.6332161211793346,
+        "tp": 7023,
+        "tn": 36712,
+        "fp": 4603,
+        "fn": 3533
+      },
+      "existing_C75_subset_metrics_before_cycle84_audit": {
+        "samples": 51871,
+        "accuracy": 0.843149351275279,
+        "eot_precision": 0.6040770686392568,
+        "eot_recall": 0.6653088291019326,
+        "eot_f1": 0.6332161211793346,
+        "tp": 7023,
+        "tn": 36712,
+        "fp": 4603,
+        "fn": 3533
+      },
+      "by_lookahead_words": {
+        "1": {
+          "samples": 25957,
+          "accuracy": 0.8390800169511115,
+          "eot_precision": 0.5965220446161953,
+          "eot_recall": 0.643669446550417,
+          "eot_f1": 0.6191995624031361,
+          "tp": 3396,
+          "tn": 18384,
+          "fp": 2297,
+          "fn": 1880
+        },
+        "2": {
+          "samples": 25914,
+          "accuracy": 0.8472254379871884,
+          "eot_precision": 0.611326479015675,
+          "eot_recall": 0.6869318181818181,
+          "eot_f1": 0.646927673236422,
+          "tp": 3627,
+          "tn": 18328,
+          "fp": 2306,
+          "fn": 1653
+        }
+      },
+      "overlap_audit": {
+        "retained_rows": 51871,
+        "accepted_train_dev_rows_scanned": 5551540,
+        "missing_source_groups_in_corpus": 0
+      },
+      "audit_scope": "Exclude exact 256-token teacher inputs in cycle84 accepted train/dev and source IDs/exact source copies in cycle84 non-test; test source hashes read from corpus",
+      "audit_limits": "Student WordPiece-only collisions and near-duplicate paraphrases are not exhaustively audited; C75 has already been viewed",
+      "dataset_sha256": "264f6ef52d74bca04c06345e4922c6675bbb87d633cf5942019e116b39002497",
+      "predictions_sha256": "49af66734d3685ad1e8d5ddf6d709a6ff7c043c25d3b5b40159f392311c90f37",
+      "predictions_bytes": 32925203,
+      "prior_predictions_reused": 0,
+      "prior_trace_sha256": null
+    }
+  },
+  "quality_target_certified": false,
+  "evaluation_protocol": {
+    "version": 3,
+    "source_sha256": "2cdca64363efd2e70b8ec034b093489cdf18c2e1f9dd06bce5e103007bb725c7",
+    "new_checkpoint_test_requested_by_user": true,
+    "prior_predictions_reused": false,
+    "threshold_locked_before_test": true
+  },
+  "test_repeated_at_user_request": true,
+  "completed_utc": "2026-10-31T17:18:08.269560+00:00",
+  "gpu_peak_reserved_gib": 1.48,
+  "comparison_to_step_106000": {
+    "checkpoint_step": 106000,
+    "threshold": 0.43000000000000005,
+    "baseline_report_sha256": "18c8157ce0a5084a519e729c5ed526df021d3b0f7a7a5a17ba6c9dbe735722ca",
+    "by_language": {
+      "vi": {
+        "old": {
+          "samples": 39167,
+          "accuracy": 0.7962059897362576,
+          "eot_precision": 0.7384890720754922,
+          "eot_recall": 0.8116468975382964,
+          "eot_f1": 0.7733416628805089,
+          "tp": 13617,
+          "tn": 17568,
+          "fp": 4822,
+          "fn": 3160
+        },
+        "new": {
+          "samples": 39167,
+          "accuracy": 0.7998825541910282,
+          "eot_precision": 0.7995844225484282,
+          "eot_recall": 0.7110329617929309,
+          "eot_f1": 0.7527132761231701,
+          "tp": 11929,
+          "tn": 19400,
+          "fp": 2990,
+          "fn": 4848
+        },
+        "same_sample_count": true,
+        "accuracy_change_percentage_points": 0.36765644547706033,
+        "eot_f1_change_percentage_points": -2.06283867573388
+      },
+      "en": {
+        "old": {
+          "samples": 28155,
+          "accuracy": 0.8361569881015806,
+          "eot_precision": 0.829594911282223,
+          "eot_recall": 0.8569650020749758,
+          "eot_f1": 0.843057870921648,
+          "tp": 12390,
+          "tn": 11152,
+          "fp": 2545,
+          "fn": 2068
+        },
+        "new": {
+          "samples": 28155,
+          "accuracy": 0.8339548925590481,
+          "eot_precision": 0.859114602452096,
+          "eot_recall": 0.8093788905796099,
+          "eot_f1": 0.8335054667189002,
+          "tp": 11702,
+          "tn": 11778,
+          "fp": 1919,
+          "fn": 2756
+        },
+        "same_sample_count": true,
+        "accuracy_change_percentage_points": -0.22020955425324784,
+        "eot_f1_change_percentage_points": -0.9552404202747722
+      },
+      "zh": {
+        "old": {
+          "samples": 51871,
+          "accuracy": 0.8079273582541304,
+          "eot_precision": 0.5190564946333311,
+          "eot_recall": 0.7650625236832134,
+          "eot_f1": 0.6184951177484205,
+          "tp": 8076,
+          "tn": 33832,
+          "fp": 7483,
+          "fn": 2480
+        },
+        "new": {
+          "samples": 51871,
+          "accuracy": 0.843149351275279,
+          "eot_precision": 0.6040770686392568,
+          "eot_recall": 0.6653088291019326,
+          "eot_f1": 0.6332161211793346,
+          "tp": 7023,
+          "tn": 36712,
+          "fp": 4603,
+          "fn": 3533
+        },
+        "same_sample_count": true,
+        "accuracy_change_percentage_points": 3.522199302114859,
+        "eot_f1_change_percentage_points": 1.4721003430914092
+      }
+    }
+  }
+}

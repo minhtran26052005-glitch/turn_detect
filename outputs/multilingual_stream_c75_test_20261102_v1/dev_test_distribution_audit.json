@@ -1,0 +1,240 @@
+{
+  "vi": {
+    "boundary_counts": {
+      "sentence_boundary|.|EOT": 16085,
+      "internal_punctuation|,|NEOT": 20922,
+      "internal_punctuation|;|NEOT": 273,
+      "sentence_boundary|?|EOT": 484,
+      "sentence_boundary|!|EOT": 208,
+      "internal_punctuation|:|NEOT": 1175
+    },
+    "boundary_confusion": {
+      "sentence_boundary|.|EOT": {
+        "tp": 7268,
+        "fn": 8817
+      },
+      "internal_punctuation|,|NEOT": {
+        "fp": 4312,
+        "tn": 16610
+      },
+      "internal_punctuation|;|NEOT": {
+        "tn": 205,
+        "fp": 68
+      },
+      "sentence_boundary|?|EOT": {
+        "tp": 232,
+        "fn": 252
+      },
+      "sentence_boundary|!|EOT": {
+        "tp": 77,
+        "fn": 131
+      },
+      "internal_punctuation|:|NEOT": {
+        "tn": 960,
+        "fp": 215
+      }
+    },
+    "context_word_buckets": {
+      "11-30": 20594,
+      "61+": 1261,
+      "1-10": 9684,
+      "31-60": 7608
+    },
+    "existing_predictions_excluding_question_exclamation": {
+      "samples": 38455,
+      "tp": 7268,
+      "tn": 17775,
+      "fp": 4595,
+      "fn": 8817,
+      "accuracy": 0.6512287088805097,
+      "eot_f1": 0.5201087734363818,
+      "excluded_unaligned_reference_rows": 692,
+      "new_inference": false,
+      "threshold_unchanged": 0.13,
+      "not_used_for_model_or_threshold_selection": true
+    }
+  },
+  "en": {
+    "boundary_counts": {
+      "sentence_boundary|.|EOT": 13672,
+      "internal_punctuation|:|NEOT": 615,
+      "internal_punctuation|,|NEOT": 12771,
+      "sentence_boundary|!|EOT": 326,
+      "internal_punctuation|;|NEOT": 310,
+      "sentence_boundary|?|EOT": 460
+    },
+    "boundary_confusion": {
+      "sentence_boundary|.|EOT": {
+        "fn": 4140,
+        "tp": 9532
+      },
+      "internal_punctuation|:|NEOT": {
+        "tn": 383,
+        "fp": 232
+      },
+      "internal_punctuation|,|NEOT": {
+        "tn": 9295,
+        "fp": 3476
+      },
+      "sentence_boundary|!|EOT": {
+        "tp": 206,
+        "fn": 120
+      },
+      "internal_punctuation|;|NEOT": {
+        "fp": 166,
+        "tn": 144
+      },
+      "sentence_boundary|?|EOT": {
+        "fn": 193,
+        "tp": 267
+      }
+    },
+    "context_word_buckets": {
+      "11-30": 15582,
+      "1-10": 10108,
+      "31-60": 2300,
+      "61+": 164
+    },
+    "existing_predictions_excluding_question_exclamation": {
+      "samples": 27368,
+      "tp": 9532,
+      "tn": 9822,
+      "fp": 3874,
+      "fn": 4140,
+      "accuracy": 0.7071762642502193,
+      "eot_f1": 0.7040401802201048,
+      "excluded_unaligned_reference_rows": 786,
+      "new_inference": false,
+      "threshold_unchanged": 0.13,
+      "not_used_for_model_or_threshold_selection": true
+    }
+  },
+  "zh": {
+    "boundary_counts": {
+      "internal_punctuation|、|NEOT": 2410,
+      "internal_punctuation|,|NEOT": 17908,
+      "internal_punctuation|，|NEOT": 18874,
+      "sentence_boundary|.|EOT": 2095,
+      "internal_punctuation|：|NEOT": 531,
+      "sentence_boundary|。|EOT": 8023,
+      "internal_punctuation|;|NEOT": 468,
+      "internal_punctuation|:|NEOT": 767,
+      "internal_punctuation|；|NEOT": 357,
+      "sentence_boundary|？|EOT": 166,
+      "sentence_boundary|！|EOT": 192,
+      "sentence_boundary|?|EOT": 50,
+      "sentence_boundary|!|EOT": 30
+    },
+    "boundary_confusion": {
+      "internal_punctuation|、|NEOT": {
+        "tn": 1916,
+        "fp": 494
+      },
+      "internal_punctuation|,|NEOT": {
+        "fp": 3609,
+        "tn": 14299
+      },
+      "internal_punctuation|，|NEOT": {
+        "fp": 7633,
+        "tn": 11241
+      },
+      "sentence_boundary|.|EOT": {
+        "tp": 1822,
+        "fn": 273
+      },
+      "internal_punctuation|：|NEOT": {
+        "tn": 362,
+        "fp": 169
+      },
+      "sentence_boundary|。|EOT": {
+        "tp": 7316,
+        "fn": 707
+      },
+      "internal_punctuation|;|NEOT": {
+        "fp": 212,
+        "tn": 256
+      },
+      "internal_punctuation|:|NEOT": {
+        "fp": 191,
+        "tn": 576
+      },
+      "internal_punctuation|；|NEOT": {
+        "fp": 225,
+        "tn": 132
+      },
+      "sentence_boundary|？|EOT": {
+        "tp": 154,
+        "fn": 12
+      },
+      "sentence_boundary|！|EOT": {
+        "tp": 148,
+        "fn": 44
+      },
+      "sentence_boundary|?|EOT": {
+        "tp": 47,
+        "fn": 3
+      },
+      "sentence_boundary|!|EOT": {
+        "tp": 26,
+        "fn": 4
+      }
+    },
+    "context_word_buckets": {
+      "1-10": 8964,
+      "31-60": 11222,
+      "61+": 10530,
+      "11-30": 21155
+    },
+    "existing_predictions_excluding_question_exclamation": {
+      "samples": 51433,
+      "tp": 9138,
+      "tn": 28782,
+      "fp": 12533,
+      "fn": 980,
+      "accuracy": 0.7372698462076877,
+      "eot_f1": 0.5749158513951367,
+      "excluded_unaligned_reference_rows": 438,
+      "new_inference": false,
+      "threshold_unchanged": 0.13,
+      "not_used_for_model_or_threshold_selection": true
+    }
+  },
+  "dev": {
+    "stream_count": 72,
+    "mode_counts": {
+      "monolingual": 48,
+      "synthetic_splice": 24
+    },
+    "unique_monolingual_paragraphs": {
+      "vi": 24,
+      "en": 24
+    },
+    "scored": {
+      "vi": 2058,
+      "en": 2304
+    },
+    "EOT": {
+      "vi": 90,
+      "en": 121
+    },
+    "NEOT_only_baseline_accuracy": {
+      "vi": 0.956268221574344,
+      "en": 0.9474826388888888
+    }
+  },
+  "checked_utc": "2026-11-02T12:46:44.858849+00:00",
+  "same_checkpoint": 542135,
+  "same_threshold": 0.13,
+  "same_lookahead2_comparison": {
+    "vi": {
+      "dev_rolling_static_f1": 0.9214659685863874,
+      "c75_fixed_context_f1": 0.5408135408135408
+    },
+    "en": {
+      "dev_rolling_static_f1": 0.9206349206349206,
+      "c75_fixed_context_f1": 0.7154240182128628
+    }
+  },
+  "model_inference_rerun": false,
+  "original_reports_unmodified": true
+}

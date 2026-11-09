@@ -1,0 +1,8 @@
+{
+  "stage": "SMALL_CROSSENCODER_TRAINING",
+  "round": 2,
+  "step": 100,
+  "steps_per_round": 200,
+  "loss": 0.5953969359397888,
+  "elapsed_seconds": 57.14418712600309
+}

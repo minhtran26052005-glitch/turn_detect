@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "original_code_and_datasets_unchanged": true,
+    "prediction_count_matches_test": true,
+    "input_order_preserved": true,
+    "finite_probabilities_between_0_and_1": true,
+    "error_count_matches_report": true,
+    "recorded_file_hashes_match": true
+  },
+  "all_passed": true,
+  "original_files": {
+    "text_based.py": true,
+    "test.jsonl": true,
+    "train.jsonl": true
+  },
+  "initial_archive": {
+    "path": "checkpoint-23000.zip",
+    "present_at_final_check": false,
+    "sha256_at_initial_inspection": "e790c5cf961a21ce7bc74a89d17dd87f52323ffc4dab9e7c75788a72591a3b6d",
+    "note": "ZIP was present at initial inspection and extracted. It is absent at final inspection; no deletion command was run by the agent. Final verification covers the extracted files used for inference."
+  },
+  "predictions": 4183,
+  "errors": 1463,
+  "majority_class_baseline_accuracy": 0.7076261056657901
+}

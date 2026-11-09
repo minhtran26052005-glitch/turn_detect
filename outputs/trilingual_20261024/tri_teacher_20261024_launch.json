@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4 (1)",
+    "notebook": "a-jvsc-f2543605-ce4e-4c3d-a99f-688dd99e9b33d84c1b1f-d7f4-4eb7-9690-6a3514d8ec38.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "status": "ok",
+  "outputs": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\"job\": \"tri_teacher_20261024\", \"launcher_pid\": 101652, \"command\": [\"/usr/bin/python3\", \"tools/distill_job.py\", \"--job\", \"jobs/tri_teacher_20261024\", \"--timeout\", \"1800\", \"--\", \"/usr/bin/python3\", \"-u\", \"-m\", \"turn_v2.trilingual_teacher\", \"--output\", \"runs/tri_teacher_20261024\"], \"bundle_sha256\": \"9ad925d5ad3388f7e3fb6701df17763eafc65326e9d7bfe9a451236ff05a7c64\"}\n"
+    }
+  ],
+  "elapsed_seconds": 0.39000000001396984
+}

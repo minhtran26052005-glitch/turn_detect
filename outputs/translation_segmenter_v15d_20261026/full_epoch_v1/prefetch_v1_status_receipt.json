@@ -1,0 +1,202 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "launcher.json": {
+      "pid": 83450,
+      "start_ticks": "2029632",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "-m",
+        "turn_v2.translation_segmenter_cache_handoff_v1"
+      ],
+      "log": "/content/turn_detect_v2/outputs/translation_segmenter_v15d_20261026/full_epoch_v1/cache_handoff_v1/worker.log"
+    },
+    "status.json": {
+      "stage": "COMPLETE_CPU_PREFETCH_AND_GPU_READY_LANGUAGE_SCHEDULING",
+      "at_utc": "2026-10-27T17:02:54.007174+00:00",
+      "complete": true,
+      "preserved_zh_cache_rows": 3060000,
+      "remaining_zh_cache_rows": 1808059,
+      "all_three_checkpoint_files_and_receipts_unchanged": true,
+      "VI_EN_resume_cursors": {
+        "vi": 32000,
+        "en": 32000
+      },
+      "optimizer_or_sampler_reinitialization": false,
+      "kernel_reset_or_interrupt": false,
+      "prefetch": {
+        "pid": 83530,
+        "start_ticks": "2031550",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_cache_v1",
+          "--generation",
+          "cycle000084_full_epoch_contiguous_v1",
+          "--language",
+          "zh",
+          "--split",
+          "train"
+        ],
+        "module": "turn_v2.translation_segmenter_cache_v1",
+        "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+        "source_sha256": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "language": "zh",
+        "split": "train",
+        "CPU_only": true
+      },
+      "coordinator": {
+        "pid": 83531,
+        "start_ticks": "2031550",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v8"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v8",
+        "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v8.log",
+        "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca"
+      },
+      "backup": {
+        "pid": 83532,
+        "start_ticks": "2031551",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_drive_backup_v7"
+        ],
+        "module": "turn_v2.translation_segmenter_drive_backup_v7",
+        "log": "outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_cache_handoff_v1.log",
+        "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+        "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+      },
+      "effective_batch_unchanged": 64,
+      "source_sha256": {
+        "turn_v2/translation_segmenter_cache_v1.py": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+        "turn_v2/translation_segmenter_full_train_v5.py": "6fd13e325cfad823423923b7a65483235d2575cad27b4db8489da03fb254badc",
+        "turn_v2/translation_segmenter_full_campaign_v8.py": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+        "turn_v2/translation_segmenter_cache_handoff_v1.py": "ff7d93965e56df36f208fd5ae9ca7e54ea31f170f0b08b94d60ec40fd7bc441b"
+      },
+      "data_generation": "cycle000084_full_epoch_contiguous_v1"
+    },
+    "receipt.json": {
+      "complete": true,
+      "preserved_zh_cache_rows": 3060000,
+      "remaining_zh_cache_rows": 1808059,
+      "all_three_checkpoint_files_and_receipts_unchanged": true,
+      "VI_EN_resume_cursors": {
+        "vi": 32000,
+        "en": 32000
+      },
+      "optimizer_or_sampler_reinitialization": false,
+      "kernel_reset_or_interrupt": false,
+      "prefetch": {
+        "pid": 83530,
+        "start_ticks": "2031550",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_cache_v1",
+          "--generation",
+          "cycle000084_full_epoch_contiguous_v1",
+          "--language",
+          "zh",
+          "--split",
+          "train"
+        ],
+        "module": "turn_v2.translation_segmenter_cache_v1",
+        "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/prefetch_v1/zh_train.log",
+        "source_sha256": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "language": "zh",
+        "split": "train",
+        "CPU_only": true
+      },
+      "coordinator": {
+        "pid": 83531,
+        "start_ticks": "2031550",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_full_campaign_v8"
+        ],
+        "module": "turn_v2.translation_segmenter_full_campaign_v8",
+        "log": "outputs/translation_segmenter_v15d_20261026/full_epoch_v1/campaign_worker_v8.log",
+        "source_sha256": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca"
+      },
+      "backup": {
+        "pid": 83532,
+        "start_ticks": "2031551",
+        "command": [
+          "/usr/bin/python3",
+          "-u",
+          "-m",
+          "turn_v2.translation_segmenter_drive_backup_v7"
+        ],
+        "module": "turn_v2.translation_segmenter_drive_backup_v7",
+        "log": "outputs/translation_segmenter_v15d_20261026/drive_backup_v1/worker_cache_handoff_v1.log",
+        "source_sha256": "f1e32117670b9fb539fb9556c6d0f4966557fbb3fc3115fec65255fe48e0b98d",
+        "drive_path": "/content/drive/MyDrive/turn_detect_backups/translation_segmenter_v15d_20261026"
+      },
+      "effective_batch_unchanged": 64,
+      "source_sha256": {
+        "turn_v2/translation_segmenter_cache_v1.py": "2ac2b2b2f5d8a93b089e9d21b9d3582a2c920b0c2370fc1d5a0e3e579867ed07",
+        "turn_v2/translation_segmenter_full_train_v5.py": "6fd13e325cfad823423923b7a65483235d2575cad27b4db8489da03fb254badc",
+        "turn_v2/translation_segmenter_full_campaign_v8.py": "6d591dd651bfd1e290365ba4387ee3cf5fddb571f4d9b45790075a09b8d5f9ca",
+        "turn_v2/translation_segmenter_cache_handoff_v1.py": "ff7d93965e56df36f208fd5ae9ca7e54ea31f170f0b08b94d60ec40fd7bc441b"
+      },
+      "data_generation": "cycle000084_full_epoch_contiguous_v1"
+    },
+    "cache_prefix_adoption.json": {
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "fingerprint": {
+        "rows": 4868059,
+        "sha256": "f1a7be2ebcb8bdd9204ca127ee7b64821892f880b7bd84326ec1e3435fdc5541",
+        "strata": {
+          "EOT:1": 459298,
+          "NEOT:1": 1965875,
+          "NEOT:2": 1982004,
+          "EOT:2": 460882
+        }
+      },
+      "database_sha256": "0e134be2fc72174c6ee4d6bd15efa02dbf0107aab984e9642d22d4de2e5c932c",
+      "rows_committed": 3060000,
+      "last_example_id": "9dcda8383d8f6c15f61ab9c187b3945253fa0aca22b7928938bdb8d3d75835ef",
+      "adopted_published_prefix": true,
+      "prefix_array_sha256": {
+        "ids": "1702a8a4d90210bdf843965891986bb2e025da3a75d268d6e6994e058e872358",
+        "lengths": "3fd7e1d12a2993dd55dc497a744e6865ccfdbd556fa027c90e17cb2cd56105c7",
+        "labels": "c6a749ca85f6199663e35954b843096e28ce34910fff309760a446b5470cf46c",
+        "horizons": "f7df3274d3fdf67602eaf2b2fe1ed7c0ba3a8c2316a833afdab6ec66135385ac"
+      }
+    },
+    "log_tail": "",
+    "cache_status": {
+      "zh_train.json": {
+        "stage": "PREPARING_CPU_INPUT_CACHE",
+        "at_utc": "2026-10-27T17:03:26.383813+00:00",
+        "pid": 83530,
+        "generation": "cycle000084_full_epoch_contiguous_v1",
+        "language": "zh",
+        "split": "train",
+        "rows_committed": 3120000,
+        "total_rows": 4868059,
+        "CPU_only": true,
+        "GPU_lock_held": false,
+        "rows_per_second": 2699.887747077735
+      }
+    }
+  }
+}

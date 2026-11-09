@@ -1,0 +1,395 @@
+{
+  "complete": true,
+  "checkpoint": {
+    "step": 741935,
+    "branch_step": 255700,
+    "base_step": 486235,
+    "source_checkpoint_sha256": "675592e8ea49bddb7166511e92d165703a66941185471932a81904171279d48b",
+    "weights_sha256": "aeccca2ac98b3d2e5f3199d1b4e3a1165755d99285e8643808a2e993ba53f89b",
+    "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+    "full_optimizer_rng_sampler_preserved": true,
+    "optimizer_entries": 104,
+    "one_shared_model": true,
+    "student_base": "distilbert/distilbert-base-multilingual-cased",
+    "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+  },
+  "threshold_from_same_checkpoint_dev": 0.33999999999999997,
+  "source_paragraphs": 200,
+  "by_language_source_paragraphs": {
+    "vi": 100,
+    "en": 100
+  },
+  "mixed_pairs": 100,
+  "metrics_every_eligible_word_gap": {
+    "monolingual": {
+      "1": {
+        "vi": {
+          "samples": 4160,
+          "tp": 140,
+          "tn": 3986,
+          "fp": 19,
+          "fn": 15,
+          "accuracy": 0.9918269230769231,
+          "eot_f1": 0.89171974522293,
+          "eot_precision": 0.8805031446540881,
+          "eot_recall": 0.9032258064516129,
+          "false_share_of_cuts": 0.11949685534591195,
+          "false_positive_rate": 0.004744069912609238
+        },
+        "en": {
+          "samples": 4667,
+          "tp": 242,
+          "tn": 4404,
+          "fp": 14,
+          "fn": 7,
+          "accuracy": 0.9955003214056138,
+          "eot_f1": 0.9584158415841584,
+          "eot_precision": 0.9453125,
+          "eot_recall": 0.9718875502008032,
+          "false_share_of_cuts": 0.0546875,
+          "false_positive_rate": 0.003168854685377999
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 4060,
+          "tp": 140,
+          "tn": 3888,
+          "fp": 17,
+          "fn": 15,
+          "accuracy": 0.9921182266009853,
+          "eot_f1": 0.8974358974358975,
+          "eot_precision": 0.89171974522293,
+          "eot_recall": 0.9032258064516129,
+          "false_share_of_cuts": 0.10828025477707007,
+          "false_positive_rate": 0.004353393085787452
+        },
+        "en": {
+          "samples": 4567,
+          "tp": 246,
+          "tn": 4309,
+          "fp": 9,
+          "fn": 3,
+          "accuracy": 0.9973724545653602,
+          "eot_f1": 0.9761904761904762,
+          "eot_precision": 0.9647058823529412,
+          "eot_recall": 0.9879518072289156,
+          "false_share_of_cuts": 0.03529411764705882,
+          "false_positive_rate": 0.0020842982862436313
+        }
+      }
+    },
+    "mixed": {
+      "1": {
+        "vi": {
+          "samples": 4238,
+          "tp": 218,
+          "tn": 3986,
+          "fp": 19,
+          "fn": 15,
+          "accuracy": 0.9919773478055687,
+          "eot_f1": 0.9276595744680851,
+          "eot_precision": 0.919831223628692,
+          "eot_recall": 0.9356223175965666,
+          "false_share_of_cuts": 0.08016877637130802,
+          "false_positive_rate": 0.004744069912609238
+        },
+        "en": {
+          "samples": 4667,
+          "tp": 242,
+          "tn": 4404,
+          "fp": 14,
+          "fn": 7,
+          "accuracy": 0.9955003214056138,
+          "eot_f1": 0.9584158415841584,
+          "eot_precision": 0.9453125,
+          "eot_recall": 0.9718875502008032,
+          "false_share_of_cuts": 0.0546875,
+          "false_positive_rate": 0.003168854685377999
+        }
+      },
+      "2": {
+        "vi": {
+          "samples": 4238,
+          "tp": 218,
+          "tn": 3989,
+          "fp": 16,
+          "fn": 15,
+          "accuracy": 0.9926852288815479,
+          "eot_f1": 0.9336188436830836,
+          "eot_precision": 0.9316239316239316,
+          "eot_recall": 0.9356223175965666,
+          "false_share_of_cuts": 0.06837606837606838,
+          "false_positive_rate": 0.003995006242197253
+        },
+        "en": {
+          "samples": 4567,
+          "tp": 246,
+          "tn": 4309,
+          "fp": 9,
+          "fn": 3,
+          "accuracy": 0.9973724545653602,
+          "eot_f1": 0.9761904761904762,
+          "eot_precision": 0.9647058823529412,
+          "eot_recall": 0.9879518072289156,
+          "false_share_of_cuts": 0.03529411764705882,
+          "false_positive_rate": 0.0020842982862436313
+        }
+      }
+    }
+  },
+  "language_splice_observations": {
+    "1": {
+      "total": 100,
+      "predicted_eot": 100,
+      "full_stop_reference_total": 78,
+      "full_stop_predicted_eot": 78
+    },
+    "2": {
+      "total": 100,
+      "predicted_eot": 100,
+      "full_stop_reference_total": 78,
+      "full_stop_predicted_eot": 78
+    }
+  },
+  "unscored_question_exclamation_cuts": {
+    "1": 34,
+    "2": 34
+  },
+  "same_first20_old_probe_comparison": {
+    "1": {
+      "old": {
+        "samples": 1790,
+        "tp": 23,
+        "tn": 1491,
+        "fp": 202,
+        "fn": 74,
+        "accuracy": 0.8458100558659218,
+        "eot_f1": 0.14285714285714285,
+        "eot_precision": 0.10222222222222223,
+        "eot_recall": 0.23711340206185566,
+        "false_share_of_cuts": 0.8977777777777778,
+        "false_positive_rate": 0.119314825753101
+      },
+      "new": {
+        "samples": 1790,
+        "tp": 95,
+        "tn": 1689,
+        "fp": 4,
+        "fn": 2,
+        "accuracy": 0.9966480446927374,
+        "eot_f1": 0.9693877551020408,
+        "eot_precision": 0.9595959595959596,
+        "eot_recall": 0.979381443298969,
+        "false_share_of_cuts": 0.04040404040404041,
+        "false_positive_rate": 0.002362669816893089
+      }
+    },
+    "2": {
+      "old": {
+        "samples": 1770,
+        "tp": 19,
+        "tn": 1474,
+        "fp": 199,
+        "fn": 78,
+        "accuracy": 0.843502824858757,
+        "eot_f1": 0.12063492063492064,
+        "eot_precision": 0.0871559633027523,
+        "eot_recall": 0.1958762886597938,
+        "false_share_of_cuts": 0.9128440366972477,
+        "false_positive_rate": 0.11894799760908548
+      },
+      "new": {
+        "samples": 1770,
+        "tp": 96,
+        "tn": 1666,
+        "fp": 7,
+        "fn": 1,
+        "accuracy": 0.9954802259887006,
+        "eot_f1": 0.96,
+        "eot_precision": 0.9320388349514563,
+        "eot_recall": 0.9896907216494846,
+        "false_share_of_cuts": 0.06796116504854369,
+        "false_positive_rate": 0.0041841004184100415
+      }
+    }
+  },
+  "comparison_scope": "Frozen old/new weights and their own DEV-calibrated thresholds differ. Old traces reused, never rescored; no selection from this diagnostic.",
+  "input_audit": {
+    "selected_dialogues": 200,
+    "selected_paragraphs": 200,
+    "source_dialogue_paragraph_splits": {
+      "exposed_regression": 800
+    },
+    "exact_full_paragraph_train_dev_collisions": [],
+    "source_family_overlap_with_train": 49,
+    "source_family_overlap_with_dev": 2,
+    "family_overlap_is_not_disjoint_independent_test": true,
+    "student_token_window_and_paraphrase_collisions_exhaustively_audited": false
+  },
+  "causal_audit": {
+    "all_inferences_audited": 35244,
+    "causal_inputs_passed": true,
+    "only_predicted_eot_resets_passed": true,
+    "word_conservation_passed": true,
+    "no_language_role_or_reference_supplied_to_model": true
+  },
+  "inferences": 35244,
+  "predictions_sha256": "12c682d1952d3dad0d4961d9f33b972bc31883fe56d04debac68309a4766b8b4",
+  "cases_sha256": "6c6521463cf8ce578dc597e6d134e8a3c2610706020d65274df8859bea6955a4",
+  "review_cases_sha256": "34b2d9de38f0bc0c571f0edb69b72cd1c68f36784ad27032d3ad1c265b1ccc28",
+  "review_case_count": 20,
+  "predicted_eot_buffer_reset": true,
+  "test_selected_threshold_or_model": false,
+  "training_interrupted": false,
+  "scope": "200 previously exposed Qwen paragraphs held outside new TRAIN/DEV by ID; synthetic punctuation diagnostic, not independent human/audio conversational gold.",
+  "completed_utc": "2026-11-03T04:15:28.111886+00:00",
+  "user_requested_new_diagnostic": true,
+  "source_spoken_v9_used": false,
+  "evaluator_wrapper_sha256": "1f1729f1f79e43ad7b1d03533e0e086d2b04ae2b968d17dde45a0ba472122c17",
+  "completion_verification": {
+    "independent_inferences_audited": 35244,
+    "source_references_and_confusion_counts_verified": true,
+    "causal_buffers_future_words_and_predicted_resets_verified": true,
+    "all_100_pairs_word_conservation_verified": true,
+    "frozen_weights_and_full_optimizer_rng_pin_sha_verified": true
+  },
+  "previous_stream_test_comparison": {
+    "checkpoint": {
+      "step": 515435,
+      "branch_step": 29200,
+      "base_step": 486235,
+      "source_checkpoint_sha256": "54fde12705c5ae0b08e03ca914499eda4489d08299f47e403a3be5d1827a0710",
+      "weights_sha256": "2a548ed7bfa51cdd81e249063bf4f550fff12e0953c7f58ccfd264bc5313761b",
+      "dataset_manifest_sha256": "7144b5b7948ca5d35e1f52d72ba72af3a2871144f517aa620b3fe9604b9d698d",
+      "full_optimizer_rng_sampler_preserved": true,
+      "optimizer_entries": 104,
+      "one_shared_model": true,
+      "student_base": "distilbert/distilbert-base-multilingual-cased",
+      "revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e"
+    },
+    "threshold": 0.53,
+    "metrics": {
+      "monolingual": {
+        "1": {
+          "vi": {
+            "samples": 4160,
+            "tp": 135,
+            "tn": 3986,
+            "fp": 19,
+            "fn": 20,
+            "accuracy": 0.990625,
+            "eot_f1": 0.8737864077669902,
+            "eot_precision": 0.8766233766233766,
+            "eot_recall": 0.8709677419354839,
+            "false_share_of_cuts": 0.12337662337662338,
+            "false_positive_rate": 0.004744069912609238
+          },
+          "en": {
+            "samples": 4667,
+            "tp": 238,
+            "tn": 4405,
+            "fp": 13,
+            "fn": 11,
+            "accuracy": 0.9948575101778444,
+            "eot_f1": 0.952,
+            "eot_precision": 0.9482071713147411,
+            "eot_recall": 0.9558232931726908,
+            "false_share_of_cuts": 0.05179282868525897,
+            "false_positive_rate": 0.0029425079221367134
+          }
+        },
+        "2": {
+          "vi": {
+            "samples": 4060,
+            "tp": 134,
+            "tn": 3885,
+            "fp": 20,
+            "fn": 21,
+            "accuracy": 0.9899014778325124,
+            "eot_f1": 0.8673139158576052,
+            "eot_precision": 0.8701298701298701,
+            "eot_recall": 0.864516129032258,
+            "false_share_of_cuts": 0.12987012987012986,
+            "false_positive_rate": 0.005121638924455826
+          },
+          "en": {
+            "samples": 4567,
+            "tp": 242,
+            "tn": 4310,
+            "fp": 8,
+            "fn": 7,
+            "accuracy": 0.9967155682067003,
+            "eot_f1": 0.969939879759519,
+            "eot_precision": 0.968,
+            "eot_recall": 0.9718875502008032,
+            "false_share_of_cuts": 0.032,
+            "false_positive_rate": 0.0018527095877721167
+          }
+        }
+      },
+      "mixed": {
+        "1": {
+          "vi": {
+            "samples": 4238,
+            "tp": 213,
+            "tn": 3986,
+            "fp": 19,
+            "fn": 20,
+            "accuracy": 0.99079754601227,
+            "eot_f1": 0.9161290322580645,
+            "eot_precision": 0.9181034482758621,
+            "eot_recall": 0.9141630901287554,
+            "false_share_of_cuts": 0.08189655172413793,
+            "false_positive_rate": 0.004744069912609238
+          },
+          "en": {
+            "samples": 4667,
+            "tp": 238,
+            "tn": 4405,
+            "fp": 13,
+            "fn": 11,
+            "accuracy": 0.9948575101778444,
+            "eot_f1": 0.952,
+            "eot_precision": 0.9482071713147411,
+            "eot_recall": 0.9558232931726908,
+            "false_share_of_cuts": 0.05179282868525897,
+            "false_positive_rate": 0.0029425079221367134
+          }
+        },
+        "2": {
+          "vi": {
+            "samples": 4238,
+            "tp": 212,
+            "tn": 3985,
+            "fp": 20,
+            "fn": 21,
+            "accuracy": 0.9903256252949505,
+            "eot_f1": 0.9118279569892473,
+            "eot_precision": 0.9137931034482759,
+            "eot_recall": 0.9098712446351931,
+            "false_share_of_cuts": 0.08620689655172414,
+            "false_positive_rate": 0.004993757802746567
+          },
+          "en": {
+            "samples": 4567,
+            "tp": 242,
+            "tn": 4310,
+            "fp": 8,
+            "fn": 7,
+            "accuracy": 0.9967155682067003,
+            "eot_f1": 0.969939879759519,
+            "eot_precision": 0.968,
+            "eot_recall": 0.9718875502008032,
+            "false_share_of_cuts": 0.032,
+            "false_positive_rate": 0.0018527095877721167
+          }
+        }
+      }
+    },
+    "report_sha256": "61655f640a634115247af5dcb0a520a2a9dea77d2d3382530e8a9320305da424",
+    "same_200_paragraphs_and_pair_order": true,
+    "previous_model_rescored": false,
+    "scope": "Same seen diagnostic; each checkpoint uses its own pre-test DEV threshold. No model or threshold selected from test."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "labels": {
+    "old:vi:NEOT": 87237,
+    "old:en:NEOT": 85934,
+    "old:en:EOT": 14066,
+    "old:vi:EOT": 12763,
+    "new:vi:NEOT": 96370,
+    "new:vi:EOT": 3618,
+    "new:en:EOT": 4670,
+    "new:en:NEOT": 95302
+  },
+  "old_modes": {
+    "UNSPECIFIED": 200000
+  },
+  "new_modes": {
+    "reference_reset_train_only": 98383,
+    "fragment_train_only": 49531,
+    "rolling": 52046
+  },
+  "new_history_words": {
+    "4-20": 134087,
+    "<=3": 46819,
+    ">20": 19054
+  },
+  "row_examples": [
+    {
+      "index": 0,
+      "keys": [
+        "language",
+        "context",
+        "text",
+        "label",
+        "split",
+        "label_source",
+        "source_index"
+      ],
+      "label": "NEOT",
+      "context_tail": "có thể",
+      "text": "do"
+    },
+    {
+      "index": 1,
+      "keys": [
+        "language",
+        "context",
+        "text",
+        "label",
+        "split",
+        "label_source",
+        "source_index"
+      ],
+      "label": "NEOT",
+      "context_tail": "the operator noted minor misalignment",
+      "text": "but"
+    },
+    {
+      "index": 200000,
+      "keys": [
+        "language",
+        "context",
+        "text",
+        "label",
+        "split",
+        "lookahead_words",
+        "source_kind",
+        "label_source",
+        "origin",
+        "dialogue_id",
+        "family_id",
+        "turn_idx",
+        "speaker",
+        "boundary",
+        "context_start",
+        "paragraph_words",
+        "future_end",
+        "context_mode"
+      ],
+      "label": "NEOT",
+      "context_tail": "bạn có biết chó và voi là những loài động vật duy nhất hiểu được hành",
+      "text": "động"
+    },
+    {
+      "index": 200001,
+      "keys": [
+        "language",
+        "context",
+        "text",
+        "label",
+        "split",
+        "lookahead_words",
+        "source_kind",
+        "label_source",
+        "origin",
+        "dialogue_id",
+        "family_id",
+        "turn_idx",
+        "speaker",
+        "boundary",
+        "context_start",
+        "paragraph_words",
+        "future_end",
+        "context_mode"
+      ],
+      "label": "NEOT",
+      "context_tail": "nghĩ phần",
+      "text": "đó"
+    }
+  ],
+  "train_rows": 399960
+}

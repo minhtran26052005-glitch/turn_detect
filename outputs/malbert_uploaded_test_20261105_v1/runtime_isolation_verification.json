@@ -1,0 +1,38 @@
+{
+  "checked_utc": "2026-11-05T02:06:06.913429+00:00",
+  "training_source_and_core_code_hashes_unchanged": true,
+  "sole_main_worker": [
+    205061
+  ],
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "start_ticks": "547555",
+  "main_cpu_ticks_increased": [
+    6690217,
+    6690318
+  ],
+  "main_status": {
+    "stage": "CALIBRATING_NEW_CAUSAL_DEV",
+    "pid": 205061,
+    "start_ticks": "547555",
+    "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+    "at_utc": "2026-11-05T02:05:25.067104+00:00",
+    "active_languages": [
+      "vi",
+      "en"
+    ],
+    "tag": "runs/finetune/dev_00490000",
+    "threshold": 0.9,
+    "f1": {
+      "vi": 0.028169014084507043,
+      "en": 0.17518248175182483
+    }
+  },
+  "main_error": null,
+  "disk_free_gib": {
+    "ssd": 46.274017333984375,
+    "hdd": 23.014732360839844
+  },
+  "hdd_mount": "/dev/sda1 /mnt/hdd500 fuseblk rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0",
+  "gpu_processes": "205061, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 11168 MiB\n580864, /home/edabk/hoangbpm/turn_detect/.venv/bin/python, 330 MiB",
+  "windows_free_gib": 23.94049835205078
+}

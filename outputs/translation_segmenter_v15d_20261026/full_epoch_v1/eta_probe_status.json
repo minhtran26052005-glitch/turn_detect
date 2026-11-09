@@ -1,0 +1,112 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-73d259a6-4f1c-4dd6-a9eb-bb4d16610ab6ba0471a2-47bb-4560-96d7-e9a9e69e4077.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "result": {
+    "data_status.json": {
+      "at_utc": "2026-10-27T13:39:50.233234+00:00",
+      "stage": "RESOLVING_ALL_ENCODED_INPUT_COLLISIONS",
+      "generation": "cycle000084_full_epoch_contiguous_v1",
+      "generated_rows": 8982604
+    },
+    "throughput_probe_v2/status.json": {
+      "stage": "COMPLETE",
+      "at_utc": 1793115315.2893708,
+      "complete": true,
+      "sequence_widths": {
+        "64": {
+          "seconds_per_64_row_backward": 0.3215898269997221,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            64,
+            64
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        },
+        "128": {
+          "seconds_per_64_row_backward": 0.4401793143339698,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            128,
+            128
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        },
+        "256": {
+          "seconds_per_64_row_backward": 1.2798912540001766,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            256,
+            256
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        }
+      },
+      "shared_model_architecture": "mdeberta-v3-base",
+      "representative_weights_language": "vi",
+      "synthetic_tokens_only": true,
+      "dataset_reads_or_writes": false,
+      "optimizer_steps": 0,
+      "checkpoint_unchanged": true,
+      "test_or_dev_scored": false,
+      "optimizer_and_storage_overhead_not_included": true,
+      "not_a_quality_evaluation": true
+    },
+    "throughput_probe_v2/report.json": {
+      "complete": true,
+      "sequence_widths": {
+        "64": {
+          "seconds_per_64_row_backward": 0.3215898269997221,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            64,
+            64
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        },
+        "128": {
+          "seconds_per_64_row_backward": 0.4401793143339698,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            128,
+            128
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        },
+        "256": {
+          "seconds_per_64_row_backward": 1.2798912540001766,
+          "timed_repeats": 3,
+          "max_sequence_widths": [
+            256,
+            256
+          ],
+          "microbatch": 32,
+          "accumulation": 2,
+          "adamw_step_included": false
+        }
+      },
+      "shared_model_architecture": "mdeberta-v3-base",
+      "representative_weights_language": "vi",
+      "synthetic_tokens_only": true,
+      "dataset_reads_or_writes": false,
+      "optimizer_steps": 0,
+      "checkpoint_unchanged": true,
+      "test_or_dev_scored": false,
+      "optimizer_and_storage_overhead_not_included": true,
+      "not_a_quality_evaluation": true
+    }
+  }
+}

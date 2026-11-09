@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "full_epochs": 1,
+  "updates": 22147,
+  "parent_step": 3731173,
+  "global_step": 3753320,
+  "scored_seen": 333315,
+  "optimizer_entries": 27,
+  "weights_sha256": "71624c0ae414e3d635d2a0cb336aaa0eda30f30f0933aaf86d6bc8a887bb5f0c",
+  "full_resume_sha256": "3433d9fa5526e471a3ccf22602546e8d2079b90e5e1ccf7f9fdde31f6046fce4",
+  "test_used": false
+}

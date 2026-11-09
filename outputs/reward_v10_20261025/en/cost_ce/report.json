@@ -1,0 +1,81 @@
+{
+  "phase": "cost_ce",
+  "steps": 225,
+  "best_step": 0,
+  "dev": {
+    "threshold": 0.5399999999999999,
+    "slices": {
+      "livekit_PREVIOUSLY_EXPOSED_development": {
+        "samples": 403,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.6699751861042184,
+        "eot_precision": 0.5675675675675675,
+        "eot_recall": 0.7730061349693251,
+        "eot_f1": 0.6545454545454545,
+        "joint_score": 0.6545454545454545,
+        "false_eot": 96,
+        "missed_eot": 37,
+        "false_eot_rate": 0.4,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            144,
+            96
+          ],
+          [
+            37,
+            126
+          ]
+        ]
+      },
+      "natural": {
+        "samples": 79,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.6455696202531646,
+        "eot_precision": 0.711864406779661,
+        "eot_recall": 0.7924528301886793,
+        "eot_f1": 0.75,
+        "joint_score": 0.6455696202531646,
+        "false_eot": 17,
+        "missed_eot": 11,
+        "false_eot_rate": 0.6538461538461539,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            9,
+            17
+          ],
+          [
+            11,
+            42
+          ]
+        ]
+      },
+      "scicom_read_speech": {
+        "samples": 1202,
+        "threshold": 0.5399999999999999,
+        "accuracy": 0.7079866888519135,
+        "eot_precision": 0.753688989784336,
+        "eot_recall": 0.8320802005012531,
+        "eot_f1": 0.790946992257296,
+        "joint_score": 0.7079866888519135,
+        "false_eot": 217,
+        "missed_eot": 134,
+        "false_eot_rate": 0.5371287128712872,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            187,
+            217
+          ],
+          [
+            134,
+            664
+          ]
+        ]
+      }
+    },
+    "selection_score": 0.6455696202531646,
+    "natural_target_met": false
+  },
+  "gradient_verified": true,
+  "student_sha256": "f0a61fd2b9c7074986054c3c65fca18406b4615c98aef200ab0be9462fe4b2f0",
+  "quality_target_certified": false
+}

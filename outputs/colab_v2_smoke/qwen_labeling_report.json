@@ -1,0 +1,14 @@
+{
+  "teacher": "Qwen/Qwen3-4B-Instruct-2507",
+  "teacher_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "prompt_version": "vi-eot-two-views-v1",
+  "prompt_sha256": "6a842b835353a95953ff622564cbba0bc3e290f1b7e7e73a3185218ff5038b20",
+  "input_sha256": "e816792e7f83d4c686c4bdac8c106218d38c46853034e4d163d25db6ff656274",
+  "candidates": 4,
+  "accepted": 2,
+  "rejected": 2,
+  "min_self_reported_confidence": 0.9,
+  "gold": false,
+  "holdout_labels_modified": false,
+  "limits": "Two prompts on the same teacher are correlated; confidence is uncalibrated. Human review remains necessary for gold claims."
+}

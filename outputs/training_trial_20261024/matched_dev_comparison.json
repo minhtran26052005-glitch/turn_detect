@@ -1,0 +1,73 @@
+{
+  "samples": 2048,
+  "selection": "uniform fixed dev subset before viewing new model predictions",
+  "legacy": {
+    "samples": 2048,
+    "threshold": 0.5,
+    "accuracy": 0.55859375,
+    "eot_precision": 0.39457831325301207,
+    "eot_recall": 0.8397435897435898,
+    "eot_f1": 0.5368852459016393,
+    "joint_score": 0.5368852459016393,
+    "false_eot": 804,
+    "missed_eot": 100,
+    "false_eot_rate": 0.5646067415730337,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        620,
+        804
+      ],
+      [
+        100,
+        524
+      ]
+    ]
+  },
+  "new": {
+    "samples": 2048,
+    "threshold": 0.49999999999999994,
+    "accuracy": 0.93798828125,
+    "eot_precision": 0.8638360175695461,
+    "eot_recall": 0.9455128205128205,
+    "eot_f1": 0.9028309104820199,
+    "joint_score": 0.9028309104820199,
+    "false_eot": 93,
+    "missed_eot": 34,
+    "false_eot_rate": 0.06530898876404495,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        1331,
+        93
+      ],
+      [
+        34,
+        590
+      ]
+    ]
+  },
+  "new_at_0.5": {
+    "samples": 2048,
+    "threshold": 0.5,
+    "accuracy": 0.93798828125,
+    "eot_precision": 0.8638360175695461,
+    "eot_recall": 0.9455128205128205,
+    "eot_f1": 0.9028309104820199,
+    "joint_score": 0.9028309104820199,
+    "false_eot": 93,
+    "missed_eot": 34,
+    "false_eot_rate": 0.06530898876404495,
+    "confusion_matrix_NEOT_EOT": [
+      [
+        1331,
+        93
+      ],
+      [
+        34,
+        590
+      ]
+    ]
+  },
+  "accuracy_difference_percentage_points": 37.939453125,
+  "eot_f1_difference_percentage_points": 36.59456645803806,
+  "scope": "Descriptive comparison on the same dev inputs. Legacy training exposure is unknown; architecture and training data also differ."
+}

@@ -1,0 +1,207 @@
+{
+  "status": "ROUNDS_AND_TESTS_COMPLETED_NOT_90_REAL_QUALIFIED",
+  "metrics": {
+    "dev": {
+      "en": {
+        "samples": 1605,
+        "threshold": 0.26999999999999996,
+        "accuracy": 0.7040498442367601,
+        "eot_precision": 0.6797337278106509,
+        "eot_recall": 0.9562955254942768,
+        "eot_f1": 0.7946389969736273,
+        "joint_score": 0.7040498442367601,
+        "false_eot": 433,
+        "missed_eot": 42,
+        "false_eot_rate": 0.672360248447205,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            211,
+            433
+          ],
+          [
+            42,
+            919
+          ]
+        ]
+      },
+      "vi": {
+        "samples": 3600,
+        "threshold": 0.565,
+        "accuracy": 0.9305555555555556,
+        "eot_precision": 0.8555389221556886,
+        "eot_recall": 0.9525,
+        "eot_f1": 0.9014195583596214,
+        "joint_score": 0.9014195583596214,
+        "false_eot": 193,
+        "missed_eot": 57,
+        "false_eot_rate": 0.08041666666666666,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            2207,
+            193
+          ],
+          [
+            57,
+            1143
+          ]
+        ]
+      },
+      "zh": {
+        "samples": 787,
+        "threshold": 0.39499999999999996,
+        "accuracy": 0.7941550190597204,
+        "eot_precision": 0.8492647058823529,
+        "eot_recall": 0.8523985239852399,
+        "eot_f1": 0.850828729281768,
+        "joint_score": 0.7941550190597204,
+        "false_eot": 82,
+        "missed_eot": 80,
+        "false_eot_rate": 0.3346938775510204,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            163,
+            82
+          ],
+          [
+            80,
+            462
+          ]
+        ]
+      }
+    },
+    "sealed_read_speech": {
+      "en": {
+        "samples": 1321,
+        "threshold": 0.26999999999999996,
+        "accuracy": 0.6911430734292203,
+        "eot_precision": 0.6774193548387096,
+        "eot_recall": 0.978494623655914,
+        "eot_f1": 0.8005865102639296,
+        "joint_score": 0.6911430734292203,
+        "false_eot": 390,
+        "missed_eot": 18,
+        "false_eot_rate": 0.8057851239669421,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            94,
+            390
+          ],
+          [
+            18,
+            819
+          ]
+        ]
+      },
+      "zh": {
+        "samples": 534,
+        "threshold": 0.39499999999999996,
+        "accuracy": 0.8651685393258427,
+        "eot_precision": 0.94375,
+        "eot_recall": 0.9096385542168675,
+        "eot_f1": 0.9263803680981595,
+        "joint_score": 0.8651685393258427,
+        "false_eot": 27,
+        "missed_eot": 45,
+        "false_eot_rate": 0.75,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            9,
+            27
+          ],
+          [
+            45,
+            453
+          ]
+        ]
+      }
+    },
+    "vi_full_legacy_dev": {
+      "vi": {
+        "samples": 17833,
+        "threshold": 0.565,
+        "accuracy": 0.9334380081870689,
+        "eot_precision": 0.8522763451130213,
+        "eot_recall": 0.9538571174060217,
+        "eot_f1": 0.9002101723413198,
+        "joint_score": 0.9002101723413198,
+        "false_eot": 928,
+        "missed_eot": 259,
+        "false_eot_rate": 0.07594108019639935,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            11292,
+            928
+          ],
+          [
+            259,
+            5354
+          ]
+        ]
+      }
+    },
+    "fresh_vi_natural_auto_labels": {
+      "vi": {
+        "samples": 30,
+        "threshold": 0.565,
+        "accuracy": 0.5666666666666667,
+        "eot_precision": 0.5263157894736842,
+        "eot_recall": 0.7142857142857143,
+        "eot_f1": 0.6060606060606061,
+        "joint_score": 0.5666666666666667,
+        "false_eot": 9,
+        "missed_eot": 4,
+        "false_eot_rate": 0.5625,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            7,
+            9
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      }
+    },
+    "vi_INT4_control_on_same_fresh_natural_auto_labels": {
+      "vi": {
+        "samples": 30,
+        "threshold": 0.4699999999999999,
+        "accuracy": 0.4666666666666667,
+        "eot_precision": 0.4166666666666667,
+        "eot_recall": 0.35714285714285715,
+        "eot_f1": 0.38461538461538464,
+        "joint_score": 0.38461538461538464,
+        "false_eot": 7,
+        "missed_eot": 9,
+        "false_eot_rate": 0.4375,
+        "confusion_matrix_NEOT_EOT": [
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  "thresholds": {
+    "vi": 0.565,
+    "en": 0.26999999999999996,
+    "zh": 0.39499999999999996
+  },
+  "base_sha256": "e962d06668aeceaeb7c05116a1a55e664f5f3f21e9c7eaf1d250b922028a4b80",
+  "delta_sha256": "65746e6ed23557bd076f24416ef6a9b442df3b87abb7c7bbd0f12dd025a7801e",
+  "fresh_crawl_cases": 204,
+  "fresh_crawl_gold_labels": 0,
+  "fresh_crawl_accuracy": null,
+  "human_verified_vi_real_test_available": false,
+  "all_real_languages_over_90": false,
+  "scope": "Development/held read speech plus SMALL automatic Vietnamese stereo-floor pilot; no human-gold real3language certification",
+  "old_holdout_evaluated": false,
+  "colab_job_state_inferred": false,
+  "accepted_serving_model_changed": false
+}

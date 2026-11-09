@@ -1,0 +1,21 @@
+{
+  "connection": {
+    "runtime_label": "Colab GPU L4",
+    "notebook": "a-jvsc-5d1fde84-cf74-4cba-8d22-f08ba6cb42cc6fcee590-4262-42d0-bef1-c85ef992f64b.ipynb",
+    "kernel_name": "python3",
+    "execution_state": "idle"
+  },
+  "launcher": {
+    "pid": 7213,
+    "start_ticks": "167634",
+    "command": [
+      "/usr/bin/python3",
+      "-u",
+      "-m",
+      "turn_v2.restore_drive_campaign_v3"
+    ],
+    "module": "turn_v2.restore_drive_campaign_v3",
+    "source_sha256": "71bad33db084efdbe6dbb9568a35c6ab881b25ad073d61128cc8021f8f518376",
+    "log": "restore_control_v3/worker.log"
+  }
+}

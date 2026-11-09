@@ -1,0 +1,8 @@
+{
+  "pid": 1342708,
+  "start_ticks": "29614860",
+  "boot_id": "65117834-0b91-465e-a099-805d6100f317",
+  "module": "turn_v2.malbert_calibration_audit_20261107_v1",
+  "source_sha256": "3bba9b02556e86392ca5ade1f9ebf26e8eda4de106c54ee468864f7e0a652d22",
+  "at_utc": "2026-11-07T16:12:53.028876+00:00"
+}

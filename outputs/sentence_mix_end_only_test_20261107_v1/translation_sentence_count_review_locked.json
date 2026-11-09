@@ -1,0 +1,201 @@
+{
+  "locked_utc": "2026-11-07T14:16:02.717220+00:00",
+  "purpose": "Source-only sentence-count refinement for excluding one-sentence messages; no detector outputs or translation quality used for cohort selection",
+  "original_messages": 310,
+  "period_raw_multi_count": 21,
+  "format_cleaned_period_multi_count": 18,
+  "format_cleaned_all_terminal_multi_count": 19,
+  "format_cleaned_all_terminal_single_count": 291,
+  "explicit_format_exclusions": [
+    {
+      "conv": "mt_05",
+      "id": "mt_vi_078",
+      "language": "vi",
+      "removed": [
+        "numbered_heading"
+      ],
+      "text": "Điều 84. Sửa chữa sổ kế toán"
+    },
+    {
+      "conv": "mt_14",
+      "id": "mt_en_101",
+      "language": "en",
+      "removed": [
+        "number_abbreviation_No."
+      ],
+      "text": "On January 1,1895, Aguinaldo became a Freemason, joining Pilar Lodge No. 203, Imus, Cavite by the codename \" Colon \"."
+    },
+    {
+      "conv": "mt_19",
+      "id": "mt_vi_043",
+      "language": "vi",
+      "removed": [
+        "numbered_heading"
+      ],
+      "text": "185. Dự án tăng cường năng lực quản lý bảo vệ môi trường"
+    }
+  ],
+  "question_first_addition": [
+    {
+      "conv": "mt_02",
+      "id": "mt_vi_070",
+      "language": "vi",
+      "text": "- Không phải đó là việc của CIA sao? - Thôi nào, họ có đủ việc rồi."
+    }
+  ],
+  "multi_message_ids_all_terminals": [
+    [
+      "tele_00",
+      "en2vi_01"
+    ],
+    [
+      "tele_00",
+      "en2vi_03"
+    ],
+    [
+      "tele_00",
+      "en2vi_04"
+    ],
+    [
+      "tele_01",
+      "en2vi_05"
+    ],
+    [
+      "tele_01",
+      "en2vi_09"
+    ],
+    [
+      "tele_02",
+      "en2vi_10"
+    ],
+    [
+      "tele_02",
+      "en2vi_13"
+    ],
+    [
+      "tele_03",
+      "en2vi_17"
+    ],
+    [
+      "tele_04",
+      "en2vi_21"
+    ],
+    [
+      "mt_02",
+      "mt_vi_098"
+    ],
+    [
+      "mt_02",
+      "mt_vi_070"
+    ],
+    [
+      "mt_02",
+      "mt_vi_075"
+    ],
+    [
+      "mt_05",
+      "mt_en_036"
+    ],
+    [
+      "mt_08",
+      "mt_en_098"
+    ],
+    [
+      "mt_12",
+      "mt_en_093"
+    ],
+    [
+      "mt_15",
+      "mt_en_035"
+    ],
+    [
+      "mt_16",
+      "mt_en_114"
+    ],
+    [
+      "mt_23",
+      "mt_vi_057"
+    ],
+    [
+      "mt_23",
+      "mt_en_037"
+    ]
+  ],
+  "multi_message_ids_period_cleaned": [
+    [
+      "tele_00",
+      "en2vi_01"
+    ],
+    [
+      "tele_00",
+      "en2vi_03"
+    ],
+    [
+      "tele_00",
+      "en2vi_04"
+    ],
+    [
+      "tele_01",
+      "en2vi_05"
+    ],
+    [
+      "tele_01",
+      "en2vi_09"
+    ],
+    [
+      "tele_02",
+      "en2vi_10"
+    ],
+    [
+      "tele_02",
+      "en2vi_13"
+    ],
+    [
+      "tele_03",
+      "en2vi_17"
+    ],
+    [
+      "tele_04",
+      "en2vi_21"
+    ],
+    [
+      "mt_02",
+      "mt_vi_098"
+    ],
+    [
+      "mt_02",
+      "mt_vi_075"
+    ],
+    [
+      "mt_05",
+      "mt_en_036"
+    ],
+    [
+      "mt_08",
+      "mt_en_098"
+    ],
+    [
+      "mt_12",
+      "mt_en_093"
+    ],
+    [
+      "mt_15",
+      "mt_en_035"
+    ],
+    [
+      "mt_16",
+      "mt_en_114"
+    ],
+    [
+      "mt_23",
+      "mt_vi_057"
+    ],
+    [
+      "mt_23",
+      "mt_en_037"
+    ]
+  ],
+  "all_candidate_source_texts_reviewed": true,
+  "not_human_audio_gold": true,
+  "note": "Cohort definition only, punctuation EOT labels and all model/train/threshold policies unchanged"
+}

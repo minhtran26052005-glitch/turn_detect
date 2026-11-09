@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "selected_streams": 48,
+  "scored_points": 14448,
+  "every_expected_train_point_and_EOT_count_accounted": true,
+  "same_saved_dev_checkpoint": 2505080,
+  "weights_sha256": "3a2efe9fd5fb0da4acb3eb4e6c998da6e02fcb9902441d5a94511068742a3e38",
+  "sampled_diagnostic_only": true
+}

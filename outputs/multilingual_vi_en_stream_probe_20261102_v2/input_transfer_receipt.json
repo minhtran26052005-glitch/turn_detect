@@ -1,0 +1,13 @@
+{
+  "copied_files": {
+    "samples.json": "1a9157938d43395145d5f8785c8b870d33977adda3823f0a10c449608a80eba7",
+    "manifest.json": "83dbe8315da09d44ffc77016ebdecc987cc3b8ab05f092c7edb1fd4460dd1def"
+  },
+  "remote_directory": "/mnt/hdd500/turn_detect_training/multilingual_vi_en_stream_probe_20261102_v1/inputs",
+  "remote_sha_verified": true,
+  "samples": 200,
+  "languages": {
+    "vi": 100,
+    "en": 100
+  }
+}

@@ -1,0 +1,3 @@
+# Preserve source/report bytes so the publication manifest hashes remain exact.
+* -text
+*.png binary
